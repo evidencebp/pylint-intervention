@@ -1,0 +1,39 @@
+[MESSAGES CONTROL]
+disable=all
+
+# Enable the message, report, category or checker with the given id(s). You can
+# either give multiple identifier separated by comma (,) or put this option
+# multiple time (only on the command line, not in the configuration file where
+# it should appear only once). See also the "--disable" option for examples.
+
+
+# Negative controls
+# superfluous-parens (C0325):
+# unnecessary-pass (W0107):
+# pointless-statement (W0104):
+# using-constant-test (W0125):
+# try-except-raise (W0706):
+# unnecessary-semicolon (W0301):
+# comparison-of-constants (R0133):
+
+# simplify
+# simplifiable-if-statement (R1703):
+# simplify-boolean-expression (R1709):
+# simplifiable-if-expression (R1719):
+# simplifiable-condition (R1726):
+
+# line-too-long (C0301):
+# too-many-lines (C0302):
+
+# duplicate-code (R0801):
+# too-many-return-statements (R0911):
+# too-many-branches (R0912):
+# too-many-statements (R0915):
+# too-many-boolean-expressions (R0916):
+# too-many-nested-blocks (R1702):
+
+
+# wildcard-import (W0401):
+# broad-exception-caught (W0718):
+
+enable=C0325,W0107,W0104,W0125,W0706,W0301,R0133, R1703, R1709, R1719, R1726, C0301, C0302, R0801, R0911, R0912, R0915, R0916, R1702, W0401, W0718
