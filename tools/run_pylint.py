@@ -1,4 +1,5 @@
 import os
+import random
 
 import pandas as pd
 
@@ -43,10 +44,23 @@ def train_test_split(df: pd.DataFrame) -> pd.DataFrame:
 
     return df
 
+def select_alert_to_fix(df: pd.DataFrame) -> pd.DataFrame:
+
+    df['chosen'] = 0
+    for file in df['path'].unique():
+        alerts = df[(df['path'] == file)
+                    & (df['alerts'] < 3)]['msg_id'].unique()
+        chosen = random.choice(alerts)
+        df['chosen'] = df.apply(lambda x: 1 if (x['path'] == file and x['msg_id'] == chosen) else x['chosen']
+                                          , axis=1)
+
+    return df
+
 def analyze():
     alerts = get_alerts()
     alerts = filterout_tests(alerts)
     alerts = train_test_split(alerts)
+    alerts = select_alert_to_fix(alerts)
 
     alerts.to_csv(AGG_ALERTS_FILE
                , index=False)
