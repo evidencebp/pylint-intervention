@@ -56,11 +56,33 @@ def select_alert_to_fix(df: pd.DataFrame) -> pd.DataFrame:
 
     return df
 
+def get_commits(file: str) -> int:
+
+    TEMP_FILE = "commits.txt"
+    lines = -1
+
+    cmd = " git log --format=%H --since=90.days {file} > {temp} ".format(file=file
+                                                                         , temp=TEMP_FILE)
+    os.system(cmd)
+    with open(TEMP_FILE, 'r') as fp:
+        lines = len(fp.readlines())
+
+    os.system("del " + TEMP_FILE)
+
+    return lines
+
+def enhance_with_git_history(df: pd.DataFrame) -> pd.DataFrame:
+
+    df['90_days_commits'] = df['path'].map(get_commits)
+
+    return df
+
 def analyze():
     alerts = get_alerts()
     alerts = filterout_tests(alerts)
     alerts = train_test_split(alerts)
     alerts = select_alert_to_fix(alerts)
+    alerts = enhance_with_git_history(alerts)
 
     alerts.to_csv(AGG_ALERTS_FILE
                , index=False)
