@@ -50,9 +50,12 @@ def select_alert_to_fix(df: pd.DataFrame) -> pd.DataFrame:
     for file in df['path'].unique():
         alerts = df[(df['path'] == file)
                     & (df['alerts'] < 3)]['msg_id'].unique()
-        chosen = random.choice(alerts)
-        df['chosen'] = df.apply(lambda x: 1 if (x['path'] == file and x['msg_id'] == chosen) else x['chosen']
+        if len(alerts) > 0:
+            chosen = random.choice(alerts)
+            df['chosen'] = df.apply(lambda x: 1 if (x['path'] == file and x['msg_id'] == chosen) else x['chosen']
                                           , axis=1)
+
+    df = df.sort_values(['chosen', 'path'], ascending=[False, True])
 
     return df
 
@@ -77,12 +80,19 @@ def enhance_with_git_history(df: pd.DataFrame) -> pd.DataFrame:
 
     return df
 
+
+def make_convenient(df: pd.DataFrame) -> pd.DataFrame:
+
+
+    return df
+
 def analyze():
     alerts = get_alerts()
     alerts = filterout_tests(alerts)
     alerts = train_test_split(alerts)
     alerts = select_alert_to_fix(alerts)
     alerts = enhance_with_git_history(alerts)
+    alerts = make_convenient(alerts)
 
     alerts.to_csv(AGG_ALERTS_FILE
                , index=False)
