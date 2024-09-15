@@ -11,14 +11,15 @@ def get_alerts():
     ALERTS_FILE = "alerts.txt"
 
     # get alerts
-    PYLINT_CMD = "pylint  --rcfile=pylint_short.cfg --score=n --msg-template='{path},{line},{msg_id}' . >  " + ALERTS_FILE
+    PYLINT_CMD = "pylint  --rcfile=pylint_short.cfg --score=n --msg-template='{path},{line},{msg_id},{msg}' . >  " + ALERTS_FILE
     alerts = os.system(PYLINT_CMD)
     df = pd.read_csv(ALERTS_FILE, skiprows=1, header=None)
 
     # aggregate alerts
-    df.columns = ['path', 'line', 'msg_id']
+    df.columns = ['path', 'line', 'msg_id', 'msg']
     agg = df.groupby(['path', 'msg_id']
-                     , as_index=False).agg({'line': 'count'})
+                     , as_index=False).agg({'line': 'count'
+                                            , 'msg': 'max'}) # Message is similar, max chooses one
     agg.rename(columns={'line': 'alerts'}
                , inplace=True)
 
