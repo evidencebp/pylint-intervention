@@ -84,6 +84,7 @@ def enhance_with_git_history(df: pd.DataFrame) -> pd.DataFrame:
 
 def make_convenient(df: pd.DataFrame) -> pd.DataFrame:
 
+    df = df[['path','msg_id','msg','alerts','chosen']]
 
     return df
 
