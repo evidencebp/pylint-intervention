@@ -3,12 +3,12 @@ import random
 
 import pandas as pd
 
-AGG_ALERTS_FILE = "interventions.txt"
+AGG_ALERTS_FILE = "interventions.csv"
 
 
 def get_alerts():
 
-    ALERTS_FILE = "alerts.txt"
+    ALERTS_FILE = "alerts.csv"
 
     # get alerts
     PYLINT_CMD = "pylint  --rcfile=pylint_short.cfg --score=n --msg-template='{path},{line},{msg_id},{msg}' . >  " + ALERTS_FILE
