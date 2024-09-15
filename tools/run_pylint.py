@@ -86,6 +86,15 @@ def make_convenient(df: pd.DataFrame) -> pd.DataFrame:
 
     df = df[['path','msg_id','msg','alerts','chosen']]
 
+    df['In which repository the modification was done?'] = ' '
+    df['In which pull request the modification was done?'] = ' '
+    df['Do you consider the removed alert harmful?'] = ' '
+    df['Why do you consider it harmful (or harmless)?'] = ' '
+    df['What is the code quality (1 lowest, 10 best)? Code quality refers to the code prior to the pull request.'] = ' '
+    df['Why do you consider the code quality as such?'] = ' '
+    df['Do you expect the change to improve the code?'] = ' '
+    df['Why do you consider the pull request to improve the code (or not improve it)?'] = ' '
+
     return df
 
 def analyze():
