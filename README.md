@@ -38,3 +38,10 @@ Please follow this procedure to contribute:
 15. Fill the questions in ``interventions.csv'' with the pull request details (whether it was accepted or not).
 16. Add the file at the [interventions directory](https://github.com/evidencebp/pylint-intervention/tree/main/interventions) in this project.
 
+## Choice of Alerts
+
+In principle, the experiment can be conducted with any alerts, and evaluate their contributions.Since we need to perform enough interventions per alert we do not work on all of them but focus in a smaller group.
+We avoid alerts that identify a syntax error or a clear bug (e.g., "duplicate-argument-name (E0108)") since we are interested in code quality in general.We prefer alerts for which there is prior research regarding their benefit (e.g., "too-many-branches (R0912)").Note that all alerts in Pylint are considered beneficial enough to implement and maintain.Therefore we think that the project will benefit from the internations.
+There are alerts in which the computer is indifferent yet there might be indirect influence via the developer.For example, "unnecessary-pass (W0107)" is probably a leftover and not an intended implementation.We include such alert since it it known that removing them might be beneficial (e.g., see [the benefits of dead code removal](https://www.cs.huji.ac.il/w~feit/papers/Refactor19PROMISE.pdf)) .A direct local removal of such alerts will allow to differ their influence and the influence of removing them in a general cleanup.
+
+
