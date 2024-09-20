@@ -56,7 +56,11 @@ def select_alert_to_fix(df: pd.DataFrame) -> pd.DataFrame:
             df['chosen'] = df.apply(lambda x: 1 if (x['path'] == file and x['msg_id'] == chosen) else x['chosen']
                                           , axis=1)
 
-    df = df.sort_values(['chosen', 'path'], ascending=[False, True])
+    # Get a pseudo random file order, avoiding working by directory structure
+    df['order'] = df['path'].map(lambda x: int(bin(hash(x))[4:10]))
+    df = df.sort_values(['chosen', 'order', 'path'], ascending=[False, True, True])
+    df.drop(columns=['order']
+            , inplace=True)
 
     return df
 
