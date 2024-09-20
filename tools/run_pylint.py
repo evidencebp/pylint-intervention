@@ -17,6 +17,10 @@ def get_alerts():
 
     # aggregate alerts
     df.columns = ['path', 'line', 'msg_id', 'msg']
+    df = df[df['path'].notna()
+            & df['line'].notna()
+            & df['msg_id'].notna()
+            & df['msg'].notna()] # Filter out bad parsing
     agg = df.groupby(['path', 'msg_id']
                      , as_index=False).agg({'line': 'count'
                                             , 'msg': 'max'}) # Message is similar, max chooses one
