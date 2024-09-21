@@ -1,9 +1,10 @@
 import os
+from datetime import date
 import random
 
 import pandas as pd
 
-AGG_ALERTS_FILE = "interventions.csv"
+AGG_ALERTS_FILE = "interventions_{date}.csv"
 
 
 def get_alerts():
@@ -113,7 +114,8 @@ def analyze():
     alerts = enhance_with_git_history(alerts)
     alerts = make_convenient(alerts)
 
-    alerts.to_csv(AGG_ALERTS_FILE
+    today = date.today()
+    alerts.to_csv(AGG_ALERTS_FILE.format(date=today.strftime("%B_%d_%Y"))
                , index=False)
 
 if __name__ == "__main__":
