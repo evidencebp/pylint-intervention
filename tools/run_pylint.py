@@ -16,19 +16,24 @@ def get_alerts():
                  + " --msg-template='{path},{line},{msg_id},{msg}' . >  "\
                  + ALERTS_FILE
     alerts = os.system(PYLINT_CMD)
-    df = pd.read_csv(ALERTS_FILE, skiprows=1, header=None)
+    lines = count_file_lines(ALERTS_FILE)
+    if lines:
+        df = pd.read_csv(ALERTS_FILE, skiprows=1, header=None)
 
-    # aggregate alerts
-    df.columns = ['path', 'line', 'msg_id', 'msg']
-    df = df[df['path'].notna()
-            & df['line'].notna()
-            & df['msg_id'].notna()
-            & df['msg'].notna()] # Filter out bad parsing
-    agg = df.groupby(['path', 'msg_id']
-                     , as_index=False).agg({'line': 'count'
-                                            , 'msg': 'max'}) # Message is similar, max chooses one
-    agg.rename(columns={'line': 'alerts'}
-               , inplace=True)
+        # aggregate alerts
+        df.columns = ['path', 'line', 'msg_id', 'msg']
+        df = df[df['path'].notna()
+                & df['line'].notna()
+                & df['msg_id'].notna()
+                & df['msg'].notna()] # Filter out bad parsing
+        agg = df.groupby(['path', 'msg_id']
+                         , as_index=False).agg({'line': 'count'
+                                                , 'msg': 'max'}) # Message is similar
+                                                                 # , max chooses one
+        agg.rename(columns={'line': 'alerts'}
+                   , inplace=True)
+    else:
+        agg = None
 
     return agg
 
@@ -75,17 +80,22 @@ def select_alert_to_fix(df: pd.DataFrame) -> pd.DataFrame:
 def get_commits(file: str) -> int:
 
     TEMP_FILE = "commits.txt"
-    lines = -1
 
     cmd = " git log --format=%H --since=90.days {file} > {temp} ".format(file=file
                                                                          , temp=TEMP_FILE)
     os.system(cmd)
-    with open(TEMP_FILE, 'r') as fp:
-        lines = len(fp.readlines())
+    lines = count_file_lines(TEMP_FILE)
 
     os.system("del " + TEMP_FILE)
 
     return lines
+
+
+def count_file_lines(file):
+    with open(file, 'r') as fp:
+        lines = len(fp.readlines())
+    return lines
+
 
 def enhance_with_git_history(df: pd.DataFrame) -> pd.DataFrame:
 
@@ -112,15 +122,17 @@ def make_convenient(df: pd.DataFrame) -> pd.DataFrame:
 
 def analyze():
     alerts = get_alerts()
-    alerts = filterout_tests(alerts)
-    alerts = train_test_split(alerts)
-    alerts = select_alert_to_fix(alerts)
-    alerts = enhance_with_git_history(alerts)
-    alerts = make_convenient(alerts)
 
-    today = date.today()
-    alerts.to_csv(AGG_ALERTS_FILE.format(date=today.strftime("%B_%d_%Y"))
-               , index=False)
+    if alerts is not None:
+        alerts = filterout_tests(alerts)
+        alerts = train_test_split(alerts)
+        alerts = select_alert_to_fix(alerts)
+        alerts = enhance_with_git_history(alerts)
+        alerts = make_convenient(alerts)
+
+        today = date.today()
+        alerts.to_csv(AGG_ALERTS_FILE.format(date=today.strftime("%B_%d_%Y"))
+                   , index=False)
 
 if __name__ == "__main__":
     analyze()
