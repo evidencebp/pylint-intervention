@@ -12,7 +12,9 @@ def get_alerts():
     ALERTS_FILE = "alerts.csv"
 
     # get alerts
-    PYLINT_CMD = "pylint  --rcfile=pylint_short.cfg --score=n --msg-template='{path},{line},{msg_id},{msg}' . >  " + ALERTS_FILE
+    PYLINT_CMD = "pylint  --rcfile=pylint_short.cfg --score=n" \
+                 + " --msg-template='{path},{line},{msg_id},{msg}' . >  "\
+                 + ALERTS_FILE
     alerts = os.system(PYLINT_CMD)
     df = pd.read_csv(ALERTS_FILE, skiprows=1, header=None)
 
@@ -58,7 +60,8 @@ def select_alert_to_fix(df: pd.DataFrame) -> pd.DataFrame:
                     & (df['alerts'] < 3)]['msg_id'].unique()
         if len(alerts) > 0:
             chosen = random.choice(alerts)
-            df['chosen'] = df.apply(lambda x: 1 if (x['path'] == file and x['msg_id'] == chosen) else x['chosen']
+            df['chosen'] = df.apply(
+                lambda x: 1 if (x['path'] == file and x['msg_id'] == chosen) else x['chosen']
                                           , axis=1)
 
     # Get a pseudo random file order, avoiding working by directory structure
@@ -99,7 +102,8 @@ def make_convenient(df: pd.DataFrame) -> pd.DataFrame:
     df['In which pull request the modification was done?'] = ' '
     df['Do you consider the removed alert harmful?'] = ' '
     df['Why do you consider it harmful (or harmless)?'] = ' '
-    df['What is the code quality (1 lowest, 10 best)? Code quality refers to the code prior to the pull request.'] = ' '
+    df['What is the code quality (1 lowest, 10 best)?' \
+       + ' Code quality refers to the code prior to the pull request.'] = ' '
     df['Why do you consider the code quality as such?'] = ' '
     df['Do you expect the change to improve the code?'] = ' '
     df['Why do you consider the pull request to improve the code (or not improve it)?'] = ' '
