@@ -137,6 +137,8 @@ def analyze():
         today = date.today()
         alerts.to_csv(AGG_ALERTS_FILE.format(date=today.strftime("%B_%d_%Y"))
                       , index=False)
+    else:
+        print("No alerts were found.")
 
 
 if __name__ == "__main__":
