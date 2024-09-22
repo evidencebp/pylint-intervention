@@ -6,6 +6,9 @@ The use of static analysis alerts assumes that removing the cause of the alert i
 from analysis of observations regarding their predictive power. These observations might be noisy due to interference of other
 factors. Aim The goal of the experiment is to evaluate the benefit of fixing alerts of various types. Benefit will be measured by both developer opinion and in metric improvement.
 
+## What's in it for Me?
+Participating in the project is an opportunity to contribute to both science and open source.We will acknowledge all contributions.More than that, we would like to publish an academic paper based on the experiment in a [research turk](https://arxiv.org/pdf/2001.01972) like method.Contributors that will match the publisher conditions (e.g., significant contribution, approval of paper, responsibility to content) will be authors of the paper.
+
 ## Experiment Status
 Currently the experiment is in POC.
 The goal of the POC is to fine tune the protocol and learn more about the interventions.
