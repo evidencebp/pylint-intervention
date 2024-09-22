@@ -8,12 +8,11 @@ AGG_ALERTS_FILE = "interventions_{date}.csv"
 
 
 def get_alerts():
-
     ALERTS_FILE = "alerts.csv"
 
     # get alerts
     PYLINT_CMD = "pylint  --rcfile=pylint_short.cfg --score=n" \
-                 + " --msg-template='{path},{line},{msg_id},{msg}' . >  "\
+                 + " --msg-template='{path},{line},{msg_id}' . >  " \
                  + ALERTS_FILE
     alerts = os.system(PYLINT_CMD)
     lines = count_file_lines(ALERTS_FILE)
@@ -21,15 +20,21 @@ def get_alerts():
         df = pd.read_csv(ALERTS_FILE, skiprows=1, header=None)
 
         # aggregate alerts
-        df.columns = ['path', 'line', 'msg_id', 'msg']
+        df.columns = ['path', 'line', 'msg_id']
+        types = pd.read_csv("alert_types.csv")
+        df = pd.merge(df
+                      , types
+                      , on='msg_id'
+                      , how='left')
+
         df = df[df['path'].notna()
                 & df['line'].notna()
                 & df['msg_id'].notna()
-                & df['msg'].notna()] # Filter out bad parsing
+                & df['msg'].notna()]  # Filter out bad parsing
         agg = df.groupby(['path', 'msg_id']
                          , as_index=False).agg({'line': 'count'
-                                                , 'msg': 'max'}) # Message is similar
-                                                                 # , max chooses one
+                                                   , 'msg': 'max'})  # Message is similar
+        # , max chooses one
         agg.rename(columns={'line': 'alerts'}
                    , inplace=True)
     else:
@@ -37,19 +42,19 @@ def get_alerts():
 
     return agg
 
+
 def filterout_tests(df: pd.DataFrame):
     return df[~df['path'].str.contains("test", case=False)]
 
-def file_split(path: str) -> str:
 
+def file_split(path: str) -> str:
     loc = path.rfind("/")
     if loc == -1:
         name = path
     else:
-        name = path[loc+1:]
+        name = path[loc + 1:]
 
     return int(bin(hash(name))[-1])
-
 
 
 def train_test_split(df: pd.DataFrame) -> pd.DataFrame:
@@ -57,8 +62,8 @@ def train_test_split(df: pd.DataFrame) -> pd.DataFrame:
 
     return df
 
-def select_alert_to_fix(df: pd.DataFrame) -> pd.DataFrame:
 
+def select_alert_to_fix(df: pd.DataFrame) -> pd.DataFrame:
     df['chosen'] = 0
     for file in df['path'].unique():
         alerts = df[(df['path'] == file)
@@ -67,7 +72,7 @@ def select_alert_to_fix(df: pd.DataFrame) -> pd.DataFrame:
             chosen = random.choice(alerts)
             df['chosen'] = df.apply(
                 lambda x: 1 if (x['path'] == file and x['msg_id'] == chosen) else x['chosen']
-                                          , axis=1)
+                , axis=1)
 
     # Get a pseudo random file order, avoiding working by directory structure
     df['order'] = df['path'].map(lambda x: int(bin(hash(x))[4:10]))
@@ -77,8 +82,8 @@ def select_alert_to_fix(df: pd.DataFrame) -> pd.DataFrame:
 
     return df
 
-def get_commits(file: str) -> int:
 
+def get_commits(file: str) -> int:
     TEMP_FILE = "commits.txt"
 
     cmd = " git log --format=%H --since=90.days {file} > {temp} ".format(file=file
@@ -98,15 +103,13 @@ def count_file_lines(file):
 
 
 def enhance_with_git_history(df: pd.DataFrame) -> pd.DataFrame:
-
     df['90_days_commits'] = df['path'].map(get_commits)
 
     return df
 
 
 def make_convenient(df: pd.DataFrame) -> pd.DataFrame:
-
-    df = df[['path','msg_id','msg','alerts','chosen']]
+    df = df[['path', 'msg_id', 'msg', 'alerts', 'chosen']]
 
     df['In which repository the modification was done?'] = ' '
     df['In which pull request the modification was done?'] = ' '
@@ -120,6 +123,7 @@ def make_convenient(df: pd.DataFrame) -> pd.DataFrame:
 
     return df
 
+
 def analyze():
     alerts = get_alerts()
 
@@ -132,7 +136,8 @@ def analyze():
 
         today = date.today()
         alerts.to_csv(AGG_ALERTS_FILE.format(date=today.strftime("%B_%d_%Y"))
-                   , index=False)
+                      , index=False)
+
 
 if __name__ == "__main__":
     analyze()
