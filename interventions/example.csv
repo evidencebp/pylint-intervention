@@ -1,5 +1,0 @@
-path,msg_id,msg,alerts,chosen,In which repository the modification was done?,In which pull request the modification was done?,Do you consider the removed alert harmful?,Why do you consider it harmful (or harmless)?,"What is the code quality (1 lowest, 10 best)? Code quality refers to the code prior to the pull request.",Why do you consider the code quality as such?,Do you expect the change to improve the code?,Why do you consider the pull request to improve the code (or not improve it)?
-src\scripts\compute_metrics_basic_stats.py,C0301,Line too long (122/100),1,1, , , , , , , , 
-run_pylint.py,C0301,Line too long (128/100),3,0, , , , , , , , 
-src\scripts\evaluate_metrics_reliability.py,C0301,Line too long (114/100),5,0, , , , , , , , 
-src\scripts\reward_functions.py,C0301,Line too long (126/100),6,0, , , , , , , , 
