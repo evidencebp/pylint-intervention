@@ -38,6 +38,7 @@ def get_alerts():
         agg.rename(columns={'line': 'alerts'}
                    , inplace=True)
     else:
+        os.remove(ALERTS_FILE)
         agg = None
 
     return agg
