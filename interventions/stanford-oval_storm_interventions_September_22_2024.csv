@@ -6,7 +6,7 @@ eval\evaluation_trim_length.py,C0301, line-too-long,1,1, , , , , , , ,
 frontend\demo_light\pages_util\CreateNewArticle.py,R0912, too-many-branches,1,1, , , , , , , , 
 FreshWiki\wikipage_extractor.py,W0718, broad-exception-caught,1,1, , , , , , , , 
 examples\helper\process_kaggle_arxiv_abstract_dataset.py,C0301, line-too-long,1,1, , , , , , , , 
-frontend\demo_light\storm.py,C0301, line-too-long,1,1, , , , , , , , 
+frontend\demo_light\storm.py,C0301, line-too-long,1,1,stanford-oval/storm, ,No,"Just a slightly long line, due to indentation, still all is readable",7,"rather regular, regardless of the alert",No,Alert is not important
 eval\eval_article_quality.py,C0301, line-too-long,11,0, , , , , , , , 
 eval\citation_quality.py,C0301, line-too-long,17,0, , , , , , , , 
 eval\citation_quality.py,R0912, too-many-branches,1,0, , , , , , , , 
