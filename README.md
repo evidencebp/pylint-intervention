@@ -21,6 +21,7 @@ We present the design of an intervention experiment on the Pylint static analyze
 ## How to Contribute?
 
 Unlike most open source projects, here you contribute by fixing alerts in other projects.
+Therefore, start in [commenting that you would like to contribute](https://github.com/evidencebp/pylint-intervention/issues/1), and if you have a suitable project, please [recommend](https://github.com/evidencebp/pylint-intervention/issues/2). 
 
 Please follow this procedure to contribute:
 
