@@ -1,29 +1,4 @@
 path,msg_id,msg,alerts,chosen,In which repository the modification was done?,In which pull request the modification was done?,Do you consider the removed alert harmful?,Why do you consider it harmful (or harmless)?,"What is the code quality (1 lowest, 10 best)? Code quality refers to the code prior to the pull request.",Why do you consider the code quality as such?,"What is the expected benefit(1 – negative, 5 – neutral, 10 – great)?",Why do you consider the pull request to improve the code (or not improve it)?
-eval\eval_article_quality.py,R0912, too-many-branches,1,1,stanford-oval/storm,https://github.com/stanford-oval/storm/pull/181,Yes,too long method,6,too long code,7,"extracted a method, clearer structure"
-eval\citation_quality.py,R0915, too-many-statements,1,1,stanford-oval/storm,https://github.com/stanford-oval/storm/pull/181,Yes,"A long method, modifying the same many variables in many places",2,"no speration of logic, the number of statements was just a symptom",8,"extracted methods, made logic clearer and manageable. Better to restructure from scratch by logic responsibilities. "
-eval\evaluation_prometheus.py,W0718, broad-exception-caught,1,1,stanford-oval/storm,https://github.com/stanford-oval/storm/pull/181,No," Replaced Exception in ValueError, more focused. However, no other exception is expected there
-",7,Code is OK,6,"A small improvement in readability, other exceptions are not expected"
-eval\evaluation_trim_length.py,C0301, line-too-long,1,1,stanford-oval/storm,https://github.com/stanford-oval/storm/pull/181,No,Code is OK,7,Code is OK,5,Alert is not important
 frontend\demo_light\pages_util\CreateNewArticle.py,R0912, too-many-branches,1,1,stanford-oval/storm,https://github.com/stanford-oval/storm/pull/181,Yes,"The branches are sequential and unrelated so their number is not a problem on its own. However, the code goes over multiple states and handles all of them in a long method that checks each time what the state is. ",3,a long function with no composition,8,Each state has a method now
-FreshWiki\wikipage_extractor.py,W0718, broad-exception-caught,1,1,stanford-oval/storm,https://github.com/stanford-oval/storm/pull/181,Yes," Replaced Exception in IOError, more focused
-",6,"a bitty messy, regardless of alert",6,"A small improvement in readability, other exceptions are not expected"
 examples\helper\process_kaggle_arxiv_abstract_dataset.py,C0301, line-too-long,1,1,stanford-oval/storm,https://github.com/stanford-oval/storm/pull/181,No,A too long readable  line in a comment,6,"code under main should been in a function, regardless of the alert",5,Alert is not important
 frontend\demo_light\storm.py,C0301, line-too-long,1,1,stanford-oval/storm,https://github.com/stanford-oval/storm/pull/181,No,"Just a slightly long line, due to indentation, still all is readable",7,"rather regular, regardless of the alert",5,Alert is not important
-eval\eval_article_quality.py,C0301, line-too-long,11,0, , , , , , , , 
-eval\citation_quality.py,C0301, line-too-long,17,0, , , , , , , , 
-eval\citation_quality.py,R0912, too-many-branches,1,0, , , , , , , , 
-eval\citation_quality.py,R1702, too-many-nested-blocks,1,0, , , , , , , , 
-examples\run_storm_wiki_serper.py,C0301, line-too-long,6,0, , , , , , , , 
-eval\evaluation_prometheus.py,C0301, line-too-long,19,0, , , , , , , , 
-frontend\demo_light\demo_util.py,C0301, line-too-long,20,0, , , , , , , , 
-frontend\demo_light\pages_util\CreateNewArticle.py,C0301, line-too-long,15,0, , , , , , , , 
-frontend\demo_light\pages_util\CreateNewArticle.py,R0915, too-many-statements,1,0, , , , , , , , 
-FreshWiki\wikipage_extractor.py,C0301, line-too-long,6,0, , , , , , , , 
-FreshWiki\wikipage_extractor.py,R1702, too-many-nested-blocks,1,0, , , , , , , , 
-examples\run_storm_wiki_ollama_with_searxng.py,C0301, line-too-long,22,0, , , , , , , , 
-frontend\demo_light\pages_util\MyArticles.py,C0301, line-too-long,7,0, , , , , , , , 
-eval\eval_outline_quality.py,C0301, line-too-long,6,0, , , , , , , , 
-frontend\demo_light\storm.py,W0401, wildcard-import,1,0, , , , , , , , 
-FreshWiki\get_fresh_wiki_page.py,C0301, line-too-long,6,0, , , , , , , , 
-eval\metrics.py,C0301, line-too-long,3,0, , , , , , , , 
-examples\run_storm_wiki_gpt_with_VectorRM.py,C0301, line-too-long,19,0, , , , , , , , 
