@@ -4,7 +4,7 @@ import random
 
 import pandas as pd
 
-AGG_ALERTS_FILE = "interventions_{date}.csv"
+AGG_ALERTS_FILE = "interventions.csv"
 
 
 def get_alerts():
@@ -136,7 +136,8 @@ def analyze():
         alerts = make_convenient(alerts)
 
         today = date.today()
-        alerts.to_csv(AGG_ALERTS_FILE.format(date=today.strftime("%B_%d_%Y"))
+        #alerts.to_csv(AGG_ALERTS_FILE.format(date=today.strftime("%B_%d_%Y"))
+        alerts.to_csv(AGG_ALERTS_FILE
                       , index=False)
     else:
         print("No alerts were found.")
