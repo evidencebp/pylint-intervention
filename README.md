@@ -10,7 +10,7 @@ See examples of interventions in [stanford-oval/storm](https://github.com/stanfo
 
 
 ## What's in it for Me?
-Participating in the project is an opportunity to contribute to both science and open source.We will acknowledge all contributions.More than that, we would like to publish an academic paper based on the experiment in a [research turk](https://arxiv.org/pdf/2001.01972) like method.Contributors that will match the publisher conditions (e.g., significant contribution, approval of paper, responsibility to content) will be authors of the paper.
+Participating in the project is an opportunity to contribute to both science and open source.We will acknowledge all contributions. More than that, we would like to publish an academic paper based on the experiment in a [research turk](https://arxiv.org/pdf/2001.01972) like method. Contributors that will match the publisher conditions (e.g., significant contribution, approval of paper, responsibility to content) will be authors of the paper.
 
 ## Experiment Status
 Currently the experiment is in POC.
@@ -34,8 +34,8 @@ Please follow this procedure to contribute:
 4. If the repository is not there, continue. If the intervention was rejected, please choose a different repository. If there was an intervention, you can still intervene yet in different files.
 5. Open an issue declaring the experiment, link to this paper and ask for approval to intervene. Continue only if the approval is given. If the community's developers are interested, they are welcome to participate too.
 6. Fork the project, run it, run its tests and get familiar with it.
-7. Download from the [tools](https://github.com/evidencebp/pylint-intervention/tree/main/tools) file and copy them into the project directory.
-8. Run [run_pylint](https://github.com/evidencebp/pylint-intervention/blob/main/tools/run_pylint.py) to identify files with the relevant alerts.
+7. Download from the [tools]((https://github.com/evidencebp/pylint-intervention/tree/main/tools/project_analysis) file and copy them into the project directory.
+8. Run [run_pylint](https://github.com/evidencebp/pylint-intervention/blob/main/tools/project_analysis/run_pylint.py) to identify files with the relevant alerts.
 9. run_pylint will generate a file called ``interventions.csv''.
 10. Please go over the alerts by the order (to avoid bias) and intervene in the files to fix the alerts. You can fix as many alerts as you want.
 11. However, please intervene only in files and alerts marked so, leaving the other as control.
@@ -45,7 +45,7 @@ Please follow this procedure to contribute:
 15. In case that you are not part of the project community, please ask for a review by a non-community review first, to reduce their effort. We will be happy to be these reviewers if needed.
 16. Submit the pull request and modify it by the feedback.
 17. Fill the questions in ``interventions.csv'' with the pull request details (whether it was accepted or not).
-18. Add the file at the [interventions directory](https://github.com/evidencebp/pylint-intervention/tree/main/interventions) in this project.
+18. Add the file at the [done interventions directory](https://github.com/evidencebp/pylint-intervention/tree/main/interventions/done) in this project.
 
 ## Choice of Alerts
 
