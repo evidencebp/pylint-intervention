@@ -34,7 +34,7 @@ Please follow this procedure to contribute:
 4. If the repository is not there, continue. If the intervention was rejected, please choose a different repository. If there was an intervention, you can still intervene yet in different files.
 5. Open an issue declaring the experiment, link to this paper and ask for approval to intervene. Continue only if the approval is given. If the community's developers are interested, they are welcome to participate too.
 6. Fork the project, run it, run its tests and get familiar with it.
-7. Download from the [tools]((https://github.com/evidencebp/pylint-intervention/tree/main/tools/project_analysis) file and copy them into the project directory.
+7. Download from the [tools](https://github.com/evidencebp/pylint-intervention/tree/main/tools/project_analysis) file and copy them into the project directory.
 8. Run [run_pylint](https://github.com/evidencebp/pylint-intervention/blob/main/tools/project_analysis/run_pylint.py) to identify files with the relevant alerts.
 9. run_pylint will generate a file called ``interventions.csv''.
 10. Please go over the alerts by the order (to avoid bias) and intervene in the files to fix the alerts. You can fix as many alerts as you want.
