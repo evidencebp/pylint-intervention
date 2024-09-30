@@ -6,6 +6,9 @@ The use of static analysis alerts assumes that removing the cause of the alert i
 from analysis of observations regarding their predictive power. These observations might be noisy due to interference of other
 factors. Aim The goal of the experiment is to evaluate the benefit of fixing alerts of various types. Benefit will be measured by both developer opinion and in metric improvement.
 
+See examples of interventions in [stanford-oval/storm](https://github.com/stanford-oval/storm/pull/181), [gabfl/vault](https://github.com/gabfl/vault/pull/82), and [coreruleset/coreruleset](https://github.com/coreruleset/coreruleset/pull/3837).
+
+
 ## What's in it for Me?
 Participating in the project is an opportunity to contribute to both science and open source.We will acknowledge all contributions.More than that, we would like to publish an academic paper based on the experiment in a [research turk](https://arxiv.org/pdf/2001.01972) like method.Contributors that will match the publisher conditions (e.g., significant contribution, approval of paper, responsibility to content) will be authors of the paper.
 
