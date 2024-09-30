@@ -1,0 +1,10 @@
+path,msg_id,msg,alerts,chosen,In which repository the modification was done?,In which pull request the modification was done?,Do you consider the removed alert harmful?,Why do you consider it harmful (or harmless)?,"What is the code quality (1 lowest, 10 best)? Code quality refers to the code prior to the pull request.",Why do you consider the code quality as such?,"What is the expected benefit(1 – negative, 5 – neutral, 10 – great)?",Why do you consider the pull request to improve the code (or not improve it)?
+trashcli\fs.py,C0301, line-too-long,1,1, , , , , , , , 
+trashcli\rm\rm_cmd.py,C0301, line-too-long,1,1, , , , , , , , 
+trashcli\list\parser.py,C0301, line-too-long,1,1, , , , , , , , 
+trashcli\put\janitor_tools\trash_dir_checker.py,C0301, line-too-long,1,1, , , , , , , , 
+trashcli\put\describer.py,R0911, too-many-return-statements,1,1, , , , , , , , 
+trashcli\empty\emptier.py,C0301, line-too-long,1,1, , , , , , , , 
+trashcli\restore\restore_asking_the_user.py,C0301, line-too-long,3,0, , , , , , , , 
+trashcli\rm\__init__.py,R0801, duplicate-code,7,0, , , , , , , , 
+trashcli\empty\emptier.py,C0325, superfluous-parens,1,0, , , , , , , , 

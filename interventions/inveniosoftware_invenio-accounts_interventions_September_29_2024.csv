@@ -1,0 +1,7 @@
+path,msg_id,msg,alerts,chosen,In which repository the modification was done?,In which pull request the modification was done?,Do you consider the removed alert harmful?,Why do you consider it harmful (or harmless)?,"What is the code quality (1 lowest, 10 best)? Code quality refers to the code prior to the pull request.",Why do you consider the code quality as such?,"What is the expected benefit(1 – negative, 5 – neutral, 10 – great)?",Why do you consider the pull request to improve the code (or not improve it)?
+invenio_accounts\__init__.py,W0104, pointless-statement,1,1, , , , , , , , 
+invenio_accounts\alembic\dfbdf43a3e96_separate_login_info.py,C0301, line-too-long,2,1, , , , , , , , 
+invenio_accounts\alembic\999dcbd19ace_users_versioning.py,C0301, line-too-long,2,1, , , , , , , , 
+invenio_accounts\alembic\037afe10e9ff_add_user_moderation_fields.py,C0301, line-too-long,1,1, , , , , , , , 
+invenio_accounts\admin.py,W0718, broad-exception-caught,2,1, , , , , , , , 
+invenio_accounts\cli.py,W0718, broad-exception-caught,1,1, , , , , , , , 

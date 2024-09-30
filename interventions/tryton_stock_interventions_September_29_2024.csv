@@ -1,0 +1,13 @@
+path,msg_id,msg,alerts,chosen,In which repository the modification was done?,In which pull request the modification was done?,Do you consider the removed alert harmful?,Why do you consider it harmful (or harmless)?,"What is the code quality (1 lowest, 10 best)? Code quality refers to the code prior to the pull request.",Why do you consider the code quality as such?,"What is the expected benefit(1 – negative, 5 – neutral, 10 – great)?",Why do you consider the pull request to improve the code (or not improve it)?
+product.py,C0302, too-many-lines,1,1, , , , , , , , 
+shipment.py,C0302, too-many-lines,1,1, , , , , , , , 
+move.py,C0302, too-many-lines,1,1, , , , , , , , 
+stock_reporting_margin.py,C0325, superfluous-parens,2,1, , , , , , , , 
+inventory.py,R0912, too-many-branches,1,1, , , , , , , , 
+product.py,R0912, too-many-branches,1,0, , , , , , , , 
+product.py,R0915, too-many-statements,1,0, , , , , , , , 
+product.py,R1702, too-many-nested-blocks,1,0, , , , , , , , 
+move.py,C0325, superfluous-parens,1,0, , , , , , , , 
+move.py,R0912, too-many-branches,4,0, , , , , , , , 
+move.py,R0915, too-many-statements,4,0, , , , , , , , 
+inventory.py,W0104, pointless-statement,1,0, , , , , , , , 
