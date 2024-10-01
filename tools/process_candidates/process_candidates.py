@@ -18,8 +18,8 @@ def process_candidates(candidates_file: pd.DataFrame
 
     df = pd.read_csv(candidates_file)
 
-    df = df.head(100
-                 ) # TODO remove
+    df = df.loc[502:600] # TODO remove
+
 
     print(len(df), "repos to process")
     cur_num = 1
@@ -99,7 +99,6 @@ def analyze_repo(repo_name) -> bool:
     run_powershell_cmd(cmd)
 
     cmd = "cd {project_path}; python run_pylint.py".format(project_path=project_path)
-    print(cmd)
     run_powershell_cmd(cmd)
 
     return os.path.exists(os.path.join(CLONE_DIR
@@ -134,7 +133,7 @@ def run_powershell_cmd(cmd):
     return completed
 
 def delete_directory(dir: str):
-    cmd = "rmdir {dir} /s".format(dir=dir)
+    cmd = "Remove-Item -Recurse -Force {dir}".format(dir=dir)
 
     run_powershell_cmd(cmd)
 
@@ -146,12 +145,47 @@ def copy_files(source: str
 
     run_powershell_cmd(cmd)
 
+
+def compute_stats(candidates_file: pd.DataFrame
+                       , stats_file: str):
+    df = pd.read_csv(candidates_file)
+
+    df = df.loc[:400]  # TODO remove
+    # return to 100..200
+
+    print(len(df), "repos to process")
+    cur_num = 1
+    all_stats = []
+
+    for _, i in df.iterrows():
+        print("{time} processing repo #{num} {name}".format(time=datetime.datetime.now()
+                                                            , num=cur_num
+                                                            , name=i['repo_name']))
+        cur_num = cur_num + 1
+
+        repo_name = i['repo_name']
+        if os.path.exists(os.path.join(CLONE_DIR
+                           , get_project_name(repo_name)
+                            , AGG_ALERTS_FILE)):
+            stats = get_interventions_stats(repo_name)
+
+            all_stats.append(stats)
+
+    stats_df = pd.concat(all_stats)
+    stats_df.to_csv(stats_file
+                    , index=False)
+
+
 if __name__ == "__main__":
 
     candidates_file = "C:\src\pylint-intervention\candidate_repos\python_repos_above_50_by_2023_properties_year22.csv"
-    stats_file = "c:/tmp/python_repos_above_50_by_2023_properties_year22_stats.csv"
+    stats_file = "c:/tmp/python_repos_above_50_by_2023_properties_year22_stats_v2.csv"
+    #process_cancidate(repo_name="openstack/blazar"
+    #                    , delete_no_alerts=True)
     process_candidates(candidates_file=candidates_file
                             , stats_file=stats_file
-                            , delete_no_alerts=True)
+                            , delete_no_alerts=False)
 
     #get_interventions_stats("GafferHQ/gaffer")
+    #compute_stats(candidates_file=candidates_file
+    #                        , stats_file="c:/tmp/python_repos_above_50_by_2023_properties_year22_stats_u400.csv")
