@@ -1,0 +1,11 @@
+path,msg_id,msg,alerts,chosen,In which repository the modification was done?,In which pull request the modification was done?,Do you consider the removed alert harmful?,Why do you consider it harmful (or harmless)?,"What is the code quality (1 lowest, 10 best)? Code quality refers to the code prior to the pull request.",Why do you consider the code quality as such?,"What is the expected benefit(1 – negative, 5 – neutral, 10 – great)?",Why do you consider the pull request to improve the code (or not improve it)?
+axes\attempts.py,C0301, line-too-long,2,1, , , , , , , , 
+axes\models.py,C0301, line-too-long,2,1, , , , , , , , 
+axes\backends.py,C0301, line-too-long,7,0, , , , , , , , 
+axes\handlers\base.py,C0301, line-too-long,8,0, , , , , , , , 
+axes\handlers\proxy.py,C0301, line-too-long,3,0, , , , , , , , 
+axes\checks.py,C0301, line-too-long,5,0, , , , , , , , 
+axes\handlers\cache.py,C0301, line-too-long,4,0, , , , , , , , 
+axes\helpers.py,C0301, line-too-long,14,0, , , , , , , , 
+axes\conf.py,C0301, line-too-long,6,0, , , , , , , , 
+axes\handlers\database.py,C0301, line-too-long,8,0, , , , , , , , 
