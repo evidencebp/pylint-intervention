@@ -1,0 +1,11 @@
+path,msg_id,msg,alerts,chosen,In which repository the modification was done?,In which pull request the modification was done?,Do you consider the removed alert harmful?,Why do you consider it harmful (or harmless)?,"What is the code quality (1 lowest, 10 best)? Code quality refers to the code prior to the pull request.",Why do you consider the code quality as such?,"What is the expected benefit(1 – negative, 5 – neutral, 10 – great)?",Why do you consider the pull request to improve the code (or not improve it)?
+src\wloc\backends\__init__.py,C0301, line-too-long,1,1, , , , , , , , 
+src\wloc\app\__init__.py,W0718, broad-exception-caught,2,1, , , , , , , , 
+src\wloc\app\run.py,C0301, line-too-long,1,1, , , , , , , , 
+src\wloc\exceptions.py,C0301, line-too-long,1,1, , , , , , , , 
+src\wloc\backends\yandex.py,C0301, line-too-long,1,1, , , , , , , , 
+src\wloc\fetchers\windows\structures.py,C0301, line-too-long,1,1, , , , , , , , 
+src\wloc\backends\google.py,C0301, line-too-long,2,1, , , , , , , , 
+src\wloc\app\__init__.py,C0301, line-too-long,6,0, , , , , , , , 
+src\wloc\app\run.py,W0718, broad-exception-caught,1,0, , , , , , , , 
+src\wloc\fetchers\windows\wlan.py,C0301, line-too-long,16,0, , , , , , , , 

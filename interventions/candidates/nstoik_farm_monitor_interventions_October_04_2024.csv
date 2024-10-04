@@ -1,0 +1,11 @@
+path,msg_id,msg,alerts,chosen,In which repository the modification was done?,In which pull request the modification was done?,Do you consider the removed alert harmful?,Why do you consider it harmful (or harmless)?,"What is the code quality (1 lowest, 10 best)? Code quality refers to the code prior to the pull request.",Why do you consider the code quality as such?,"What is the expected benefit(1 – negative, 5 – neutral, 10 – great)?",Why do you consider the pull request to improve the code (or not improve it)?
+database\migrations\versions\e9b3d0614f90_remove_unique_timestamp_requirement.py,C0301, line-too-long,2,1, , , , , , , , 
+api\fm_api\grainbin\views.py,C0301, line-too-long,1,1, , , , , , , , 
+database\migrations\versions\9d9cc8958287_initial_commit.py,C0301, line-too-long,1,1, , , , , , , , 
+database\fm_database\database.py,C0301, line-too-long,1,1, , , , , , , , 
+server\fm_server\network\wifi.py,C0301, line-too-long,1,1, , , , , , , , 
+server\fm_server\presence.py,C0301, line-too-long,1,1, , , , , , , , 
+database\migrations\versions\2d2cb1d0819e_sqlalchemy_2_upgrade.py,C0301, line-too-long,2,1, , , , , , , , 
+database\migrations\versions\4bad90f63d47_add_update_index_to_grainbin_and_device.py,C0301, line-too-long,2,1, , , , , , , , 
+database\fm_database\paginate.py,C0301, line-too-long,3,0, , , , , , , , 
+server\fm_server\controller\receiver.py,C0301, line-too-long,6,0, , , , , , , , 

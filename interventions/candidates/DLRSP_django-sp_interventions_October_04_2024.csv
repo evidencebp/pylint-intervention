@@ -1,0 +1,11 @@
+path,msg_id,msg,alerts,chosen,In which repository the modification was done?,In which pull request the modification was done?,Do you consider the removed alert harmful?,Why do you consider it harmful (or harmless)?,"What is the code quality (1 lowest, 10 best)? Code quality refers to the code prior to the pull request.",Why do you consider the code quality as such?,"What is the expected benefit(1 – negative, 5 – neutral, 10 – great)?",Why do you consider the pull request to improve the code (or not improve it)?
+src\socialprofile\forms.py,C0301, line-too-long,2,1, , , , , , , , 
+src\socialprofile\views.py,R0912, too-many-branches,1,1, , , , , , , , 
+src\socialprofile\migrations\0012_auto_20211129_1613.py,C0301, line-too-long,2,1, , , , , , , , 
+src\socialprofile\migrations\0024_auto_20220111_0008.py,C0301, line-too-long,1,1, , , , , , , , 
+src\socialprofile\models.py,R0911, too-many-return-statements,1,1, , , , , , , , 
+src\socialprofile\views.py,W0718, broad-exception-caught,7,0, , , , , , , , 
+src\socialprofile\migrations\0004_auto_20200305_1946.py,C0301, line-too-long,4,0, , , , , , , , 
+src\socialprofile\migrations\0019_auto_20211202_2216.py,C0301, line-too-long,3,0, , , , , , , , 
+src\socialprofile\models.py,C0301, line-too-long,4,0, , , , , , , , 
+src\socialprofile\migrations\0001_initial.py,C0301, line-too-long,6,0, , , , , , , , 
