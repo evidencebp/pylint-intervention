@@ -1,0 +1,11 @@
+path,msg_id,msg,alerts,chosen,In which repository the modification was done?,In which pull request the modification was done?,Do you consider the removed alert harmful?,Why do you consider it harmful (or harmless)?,"What is the code quality (1 lowest, 10 best)? Code quality refers to the code prior to the pull request.",Why do you consider the code quality as such?,"What is the expected benefit(1 – negative, 5 – neutral, 10 – great)?",Why do you consider the pull request to improve the code (or not improve it)?
+patches\kaggle_web_client.py,C0301, line-too-long,1,1, , , , , , , , 
+patches\sitecustomize.py,C0325, superfluous-parens,2,1, , , , , , , , 
+patches\kaggle_datasets.py,C0301, line-too-long,4,0, , , , , , , , 
+patches\kaggle_gcp.py,C0301, line-too-long,5,0, , , , , , , , 
+patches\kaggle_gcp.py,C0325, superfluous-parens,5,0, , , , , , , , 
+patches\kaggle_module_resolver.py,C0301, line-too-long,4,0, , , , , , , , 
+tools\pip_list_versions.py,R0801, duplicate-code,20,0, , , , , , , , 
+patches\kaggle_secrets.py,C0301, line-too-long,4,0, , , , , , , , 
+patches\log.py,C0301, line-too-long,4,0, , , , , , , , 
+patches\sitecustomize.py,C0301, line-too-long,1,0, , , , , , , , 
