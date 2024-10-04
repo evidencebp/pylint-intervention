@@ -1,0 +1,11 @@
+path,msg_id,msg,alerts,chosen,In which repository the modification was done?,In which pull request the modification was done?,Do you consider the removed alert harmful?,Why do you consider it harmful (or harmless)?,"What is the code quality (1 lowest, 10 best)? Code quality refers to the code prior to the pull request.",Why do you consider the code quality as such?,"What is the expected benefit(1 – negative, 5 – neutral, 10 – great)?",Why do you consider the pull request to improve the code (or not improve it)?
+tools\migrate_to_bzlmod.py,R0912, too-many-branches,1,1, , , , , , , , 
+tools\update_integrity.py,C0301, line-too-long,2,1, , , , , , , , 
+tools\add_module.py,R0912, too-many-branches,1,1, , , , , , , , 
+tools\registry.py,R0912, too-many-branches,1,1, , , , , , , , 
+tools\bcr_validation.py,R0912, too-many-branches,1,1, , , , , , , , 
+tools\migrate_to_bzlmod.py,C0301, line-too-long,26,0, , , , , , , , 
+tools\verify_stable_archives.py,C0301, line-too-long,3,0, , , , , , , , 
+tools\registry.py,C0301, line-too-long,5,0, , , , , , , , 
+tools\registry.py,R0915, too-many-statements,1,0, , , , , , , , 
+tools\bcr_validation.py,R0915, too-many-statements,1,0, , , , , , , , 
