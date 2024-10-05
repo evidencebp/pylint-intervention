@@ -1,0 +1,8 @@
+path,msg_id,msg,alerts,chosen,In which repository the modification was done?,In which pull request the modification was done?,Do you consider the removed alert harmful?,Why do you consider it harmful (or harmless)?,"What is the code quality (1 lowest, 10 best)? Code quality refers to the code prior to the pull request.",Why do you consider the code quality as such?,"What is the expected benefit(1 – negative, 5 – neutral, 10 – great)?",Why do you consider the pull request to improve the code (or not improve it)?
+tibber\home.py,W0718, broad-exception-caught,1,1, , , , , , , , 
+tibber\websocket_transport.py,C0301, line-too-long,2,1, , , , , , , , 
+tibber\realtime.py,W0718, broad-exception-caught,2,1, , , , , , , , 
+tibber\home.py,C0301, line-too-long,10,0, , , , , , , , 
+tibber\response_handler.py,C0301, line-too-long,3,0, , , , , , , , 
+tibber\__init__.py,C0301, line-too-long,4,0, , , , , , , , 
+tibber\realtime.py,C0301, line-too-long,5,0, , , , , , , , 

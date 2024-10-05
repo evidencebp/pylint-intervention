@@ -1,0 +1,10 @@
+path,msg_id,msg,alerts,chosen,In which repository the modification was done?,In which pull request the modification was done?,Do you consider the removed alert harmful?,Why do you consider it harmful (or harmless)?,"What is the code quality (1 lowest, 10 best)? Code quality refers to the code prior to the pull request.",Why do you consider the code quality as such?,"What is the expected benefit(1 – negative, 5 – neutral, 10 – great)?",Why do you consider the pull request to improve the code (or not improve it)?
+src\sphobjinv\_vendored\fuzzywuzzy\process.py,C0301, line-too-long,1,1, , , , , , , , 
+src\sphobjinv\_vendored\fuzzywuzzy\fuzz.py,W0301, unnecessary-semicolon,1,1, , , , , , , , 
+src\sphobjinv\cli\load.py,W0718, broad-exception-caught,1,1, , , , , , , , 
+src\sphobjinv\_vendored\fuzzywuzzy\utils.py,R1703, simplifiable-if-statement,1,1, , , , , , , , 
+src\sphobjinv\cli\write.py,W0718, broad-exception-caught,2,1, , , , , , , , 
+src\sphobjinv\cli\suggest.py,R0912, too-many-branches,1,1, , , , , , , , 
+src\sphobjinv\_vendored\fuzzywuzzy\process.py,W0401, wildcard-import,1,0, , , , , , , , 
+doc\source\isphx\objpull.py,W0718, broad-exception-caught,3,0, , , , , , , , 
+src\sphobjinv\cli\suggest.py,C0325, superfluous-parens,2,0, , , , , , , , 
