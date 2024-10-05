@@ -1,0 +1,12 @@
+path,msg_id,msg,alerts,chosen,In which repository the modification was done?,In which pull request the modification was done?,Do you consider the removed alert harmful?,Why do you consider it harmful (or harmless)?,"What is the code quality (1 lowest, 10 best)? Code quality refers to the code prior to the pull request.",Why do you consider the code quality as such?,"What is the expected benefit(1 – negative, 5 – neutral, 10 – great)?",Why do you consider the pull request to improve the code (or not improve it)?
+sync-sheet.py,R0912, too-many-branches,1,1, , , , , , , , 
+fabfile.py,W0401, wildcard-import,1,1, , , , , , , , 
+sync-sheet-on-org.py,R0912, too-many-branches,1,1, , , , , , , , 
+publishconf.py,W0401, wildcard-import,1,1, , , , , , , , 
+pelicanconf.py,C0301, line-too-long,39,0, , , , , , , , 
+sync-sheet.py,C0301, line-too-long,13,0, , , , , , , , 
+sync-sheet-on-org.py,C0301, line-too-long,10,0, , , , , , , , 
+sync-sheet-on-org.py,C0325, superfluous-parens,5,0, , , , , , , , 
+sync-sheet-on-org.py,R1702, too-many-nested-blocks,2,0, , , , , , , , 
+sync-sheet-on-org.py,W0125,using-constant-test,1,0, , , , , , , , 
+update-headers.py,R0801, duplicate-code,27,0, , , , , , , , 

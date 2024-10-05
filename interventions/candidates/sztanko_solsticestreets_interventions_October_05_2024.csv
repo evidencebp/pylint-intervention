@@ -1,0 +1,8 @@
+path,msg_id,msg,alerts,chosen,In which repository the modification was done?,In which pull request the modification was done?,Do you consider the removed alert harmful?,Why do you consider it harmful (or harmless)?,"What is the code quality (1 lowest, 10 best)? Code quality refers to the code prior to the pull request.",Why do you consider the code quality as such?,"What is the expected benefit(1 – negative, 5 – neutral, 10 – great)?",Why do you consider the pull request to improve the code (or not improve it)?
+python\solstreets\loader.py,C0301, line-too-long,1,1, , , , , , , , 
+python\solstreets\entities.py,C0301, line-too-long,1,1, , , , , , , , 
+python\one_offs.py,W0718, broad-exception-caught,1,1, , , , , , , , 
+python\solstreets\azimuth_processor.py,C0301, line-too-long,2,1, , , , , , , , 
+python\run.py,C0301, line-too-long,4,0, , , , , , , , 
+python\one_offs.py,C0301, line-too-long,8,0, , , , , , , , 
+python\solstreets\split_tree.py,C0301, line-too-long,3,0, , , , , , , , 

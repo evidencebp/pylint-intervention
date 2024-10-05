@@ -1,0 +1,13 @@
+path,msg_id,msg,alerts,chosen,In which repository the modification was done?,In which pull request the modification was done?,Do you consider the removed alert harmful?,Why do you consider it harmful (or harmless)?,"What is the code quality (1 lowest, 10 best)? Code quality refers to the code prior to the pull request.",Why do you consider the code quality as such?,"What is the expected benefit(1 – negative, 5 – neutral, 10 – great)?",Why do you consider the pull request to improve the code (or not improve it)?
+ckanext\nhm\plugin.py,W0718, broad-exception-caught,1,1, , , , , , , , 
+ckanext\nhm\dcat\specimen_records.py,R0912, too-many-branches,1,1, , , , , , , , 
+ckanext\nhm\lib\record.py,R1702, too-many-nested-blocks,1,1, , , , , , , , 
+ckanext\nhm\cli.py,W0107,unnecessary-pass,1,1, , , , , , , , 
+ckanext\nhm\dcat\profiles.py,R0912, too-many-branches,1,1, , , , , , , , 
+ckanext\nhm\lib\helpers.py,C0302, too-many-lines,1,1, , , , , , , , 
+ckanext\nhm\views\specimen.py,C0301, line-too-long,1,1, , , , , , , , 
+ckanext\nhm\routes\legal.py,C0301, line-too-long,1,1, , , , , , , , 
+ckanext\nhm\routes\object.py,W0718, broad-exception-caught,1,1, , , , , , , , 
+ckanext\nhm\plugin.py,C0301, line-too-long,3,0, , , , , , , , 
+ckanext\nhm\dcat\profiles.py,R0915, too-many-statements,1,0, , , , , , , , 
+ckanext\nhm\lib\helpers.py,W0718, broad-exception-caught,2,0, , , , , , , , 
