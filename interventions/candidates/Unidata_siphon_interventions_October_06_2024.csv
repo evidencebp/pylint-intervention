@@ -1,0 +1,13 @@
+path,msg_id,msg,alerts,chosen,In which repository the modification was done?,In which pull request the modification was done?,Do you consider the removed alert harmful?,Why do you consider it harmful (or harmless)?,"What is the code quality (1 lowest, 10 best)? Code quality refers to the code prior to the pull request.",Why do you consider the code quality as such?,"What is the expected benefit(1 – negative, 5 – neutral, 10 – great)?",Why do you consider the pull request to improve the code (or not improve it)?
+src\siphon\cdmr\ncStream_pb2.py,C0302, too-many-lines,1,1, , , , , , , , 
+src\siphon\simplewebservice\acis.py,W0107,unnecessary-pass,1,1, , , , , , , , 
+src\siphon\cdmr\cdmrfeature_pb2.py,C0302, too-many-lines,1,1, , , , , , , , 
+src\siphon\catalog.py,W0104, pointless-statement,1,1, , , , , , , , 
+src\siphon\metadata.py,R1703, simplifiable-if-statement,1,1, , , , , , , , 
+src\siphon\simplewebservice\ndbc.py,R1703, simplifiable-if-statement,1,1, , , , , , , , 
+src\siphon\ncss_dataset.py,R1719, simplifiable-if-expression,1,1, , , , , , , , 
+src\siphon\cdmr\dataset.py,R0912, too-many-branches,2,1, , , , , , , , 
+src\siphon\cdmr\ncStream_pb2.py,C0301, line-too-long,4,0, , , , , , , , 
+src\siphon\cdmr\cdmrfeature_pb2.py,C0301, line-too-long,13,0, , , , , , , , 
+src\siphon\catalog.py,R0912, too-many-branches,2,0, , , , , , , , 
+src\siphon\catalog.py,R0915, too-many-statements,1,0, , , , , , , , 

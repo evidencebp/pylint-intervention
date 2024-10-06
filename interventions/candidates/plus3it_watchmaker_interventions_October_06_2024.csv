@@ -1,0 +1,9 @@
+path,msg_id,msg,alerts,chosen,In which repository the modification was done?,In which pull request the modification was done?,Do you consider the removed alert harmful?,Why do you consider it harmful (or harmless)?,"What is the code quality (1 lowest, 10 best)? Code quality refers to the code prior to the pull request.",Why do you consider the code quality as such?,"What is the expected benefit(1 – negative, 5 – neutral, 10 – great)?",Why do you consider the pull request to improve the code (or not improve it)?
+src\watchmaker\managers\worker_manager.py,W0107,unnecessary-pass,2,1, , , , , , , , 
+src\watchmaker\config\__init__.py,R0915, too-many-statements,1,1, , , , , , , , 
+src\watchmaker\workers\salt.py,W0107,unnecessary-pass,1,1, , , , , , , , 
+src\watchmaker\workers\base.py,W0107,unnecessary-pass,2,1, , , , , , , , 
+src\watchmaker\utils\imds\detect\providers\provider.py,W0107,unnecessary-pass,2,1, , , , , , , , 
+src\watchmaker\status\providers\abstract.py,W0107,unnecessary-pass,2,1, , , , , , , , 
+src\watchmaker\workers\yum.py,W0107,unnecessary-pass,1,1, , , , , , , , 
+src\watchmaker\workers\salt.py,C0302, too-many-lines,1,0, , , , , , , , 
