@@ -1,0 +1,9 @@
+path,msg_id,msg,alerts,chosen,In which repository the modification was done?,In which pull request the modification was done?,Do you consider the removed alert harmful?,Why do you consider it harmful (or harmless)?,"What is the code quality (1 lowest, 10 best)? Code quality refers to the code prior to the pull request.",Why do you consider the code quality as such?,"What is the expected benefit(1 – negative, 5 – neutral, 10 – great)?",Why do you consider the pull request to improve the code (or not improve it)?
+tensorflow_recommenders\models\base.py,C0301, line-too-long,1,1, , , , , , , , 
+tensorflow_recommenders\tasks\base.py,W0107,unnecessary-pass,1,1, , , , , , , , 
+tensorflow_recommenders\layers\factorized_top_k.py,C0325, superfluous-parens,1,1, , , , , , , , 
+tensorflow_recommenders\experimental\layers\embedding\__init__.py,C0301, line-too-long,1,1, , , , , , , , 
+tensorflow_recommenders\experimental\optimizers\clippy_adagrad.py,R0912, too-many-branches,1,1, , , , , , , , 
+tensorflow_recommenders\layers\embedding\tpu_embedding_layer.py,C0302, too-many-lines,1,1, , , , , , , , 
+tensorflow_recommenders\layers\embedding\tpu_embedding_layer.py,R0911, too-many-return-statements,1,0, , , , , , , , 
+tools\build_api_docs.py,R0801, duplicate-code,6,0, , , , , , , , 

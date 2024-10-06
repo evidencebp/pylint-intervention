@@ -1,0 +1,3 @@
+path,msg_id,msg,alerts,chosen,In which repository the modification was done?,In which pull request the modification was done?,Do you consider the removed alert harmful?,Why do you consider it harmful (or harmless)?,"What is the code quality (1 lowest, 10 best)? Code quality refers to the code prior to the pull request.",Why do you consider the code quality as such?,"What is the expected benefit(1 – negative, 5 – neutral, 10 – great)?",Why do you consider the pull request to improve the code (or not improve it)?
+src\fava\util\date.py,R0911, too-many-return-statements,2,1, , , , , , , , 
+src\fava\core\ingest.py,W0718, broad-exception-caught,1,1, , , , , , , , 

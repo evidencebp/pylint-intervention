@@ -1,0 +1,12 @@
+path,msg_id,msg,alerts,chosen,In which repository the modification was done?,In which pull request the modification was done?,Do you consider the removed alert harmful?,Why do you consider it harmful (or harmless)?,"What is the code quality (1 lowest, 10 best)? Code quality refers to the code prior to the pull request.",Why do you consider the code quality as such?,"What is the expected benefit(1 – negative, 5 – neutral, 10 – great)?",Why do you consider the pull request to improve the code (or not improve it)?
+printer_zpl2\wizard\wizard_import_zpl2.py,R1702, too-many-nested-blocks,1,1, , , , , , , , 
+base_report_to_printer\__manifest__.py,W0104, pointless-statement,1,1, , , , , , , , 
+base_report_to_label_printer\__manifest__.py,W0104, pointless-statement,1,1, , , , , , , , 
+printer_zpl2\__manifest__.py,W0104, pointless-statement,1,1, , , , , , , , 
+base_report_to_printer_mail\__manifest__.py,W0104, pointless-statement,1,1, , , , , , , , 
+remote_report_to_printer\__manifest__.py,W0104, pointless-statement,1,1, , , , , , , , 
+server_env_printing_server\__manifest__.py,W0104, pointless-statement,1,1, , , , , , , , 
+base_report_to_printer\models\printing_server.py,W0718, broad-exception-caught,1,1, , , , , , , , 
+printer_zpl2\models\printing_label_zpl2.py,R0912, too-many-branches,1,1, , , , , , , , 
+setup\_metapackage\setup.py,R0801, duplicate-code,35,0, , , , , , , , 
+printer_zpl2\models\printing_label_zpl2.py,W0718, broad-exception-caught,2,0, , , , , , , , 

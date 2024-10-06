@@ -1,0 +1,13 @@
+path,msg_id,msg,alerts,chosen,In which repository the modification was done?,In which pull request the modification was done?,Do you consider the removed alert harmful?,Why do you consider it harmful (or harmless)?,"What is the code quality (1 lowest, 10 best)? Code quality refers to the code prior to the pull request.",Why do you consider the code quality as such?,"What is the expected benefit(1 – negative, 5 – neutral, 10 – great)?",Why do you consider the pull request to improve the code (or not improve it)?
+src\globus_cli\parsing\commands.py,W0718, broad-exception-caught,1,1, , , , , , , , 
+src\globus_cli\exception_handling\hooks.py,C0301, line-too-long,1,1, , , , , , , , 
+src\globus_cli\commands\endpoint\_common.py,R0912, too-many-branches,1,1, , , , , , , , 
+src\globus_cli\login_manager\local_server.py,C0301, line-too-long,1,1, , , , , , , , 
+src\globus_cli\globus_cli_flake8.py,C0301, line-too-long,1,1, , , , , , , , 
+src\globus_cli\parsing\param_classes.py,C0301, line-too-long,1,1, , , , , , , , 
+src\globus_cli\commands\logout.py,R0912, too-many-branches,1,1, , , , , , , , 
+src\globus_cli\commands\timer\create\transfer.py,R0915, too-many-statements,1,1, , , , , , , , 
+src\globus_cli\commands\update.py,C0301, line-too-long,1,1, , , , , , , , 
+src\globus_cli\termio\printer.py,R0912, too-many-branches,1,1, , , , , , , , 
+reference\_generate.py,W0718, broad-exception-caught,1,1, , , , , , , , 
+src\globus_cli\commands\timer\create\transfer.py,R0912, too-many-branches,1,0, , , , , , , , 

@@ -1,0 +1,11 @@
+path,msg_id,msg,alerts,chosen,In which repository the modification was done?,In which pull request the modification was done?,Do you consider the removed alert harmful?,Why do you consider it harmful (or harmless)?,"What is the code quality (1 lowest, 10 best)? Code quality refers to the code prior to the pull request.",Why do you consider the code quality as such?,"What is the expected benefit(1 – negative, 5 – neutral, 10 – great)?",Why do you consider the pull request to improve the code (or not improve it)?
+product_variant_sale_price\__manifest__.py,W0104, pointless-statement,1,1, , , , , , , , 
+product_variant_configurator_manual_creation\__manifest__.py,W0104, pointless-statement,1,1, , , , , , , , 
+product_variant_configurator\__manifest__.py,W0104, pointless-statement,1,1, , , , , , , , 
+sale_order_line_variant_description\__manifest__.py,W0104, pointless-statement,1,1, , , , , , , , 
+product_variant_tree_qty_available\__manifest__.py,W0104, pointless-statement,1,1, , , , , , , , 
+product_variant_inactive\__manifest__.py,W0104, pointless-statement,1,1, , , , , , , , 
+product_matrix_sticky_header\__manifest__.py,W0104, pointless-statement,1,1, , , , , , , , 
+product_matrix_show_color\__manifest__.py,W0104, pointless-statement,1,1, , , , , , , , 
+product_variant_default_code\__manifest__.py,W0104, pointless-statement,1,1, , , , , , , , 
+setup\_metapackage\setup.py,R0801, duplicate-code,6,0, , , , , , , , 
