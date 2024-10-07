@@ -1,0 +1,13 @@
+path,msg_id,msg,alerts,chosen,In which repository the modification was done?,In which pull request the modification was done?,Do you consider the removed alert harmful?,Why do you consider it harmful (or harmless)?,"What is the code quality (1 lowest, 10 best)? Code quality refers to the code prior to the pull request.",Why do you consider the code quality as such?,"What is the expected benefit(1 – negative, 5 – neutral, 10 – great)?",Why do you consider the pull request to improve the code (or not improve it)?
+bayes_opt\acquisition.py,C0302, too-many-lines,1,1, , , , , , , , 
+docsrc\conf.py,C0301, line-too-long,2,1, , , , , , , , 
+bayes_opt\logger.py,C0301, line-too-long,1,1, , , , , , , , 
+bayes_opt\observer.py,C0301, line-too-long,1,1, , , , , , , , 
+examples\async_optimization_dummies.py,C0301, line-too-long,1,1, , , , , , , , 
+bayes_opt\util.py,C0301, line-too-long,1,1, , , , , , , , 
+examples\duplicate_point.py,C0301, line-too-long,1,1, , , , , , , , 
+bayes_opt\target_space.py,C0301, line-too-long,2,1, , , , , , , , 
+bayes_opt\acquisition.py,C0301, line-too-long,14,0, , , , , , , , 
+bayes_opt\constraint.py,C0301, line-too-long,6,0, , , , , , , , 
+bayes_opt\bayesian_optimization.py,C0301, line-too-long,3,0, , , , , , , , 
+bayes_opt\domain_reduction.py,C0301, line-too-long,6,0, , , , , , , , 
