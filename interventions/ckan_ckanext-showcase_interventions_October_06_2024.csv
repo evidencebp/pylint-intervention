@@ -1,8 +1,0 @@
-path,msg_id,msg,alerts,chosen,In which repository the modification was done?,In which pull request the modification was done?,Do you consider the removed alert harmful?,Why do you consider it harmful (or harmless)?,"What is the code quality (1 lowest, 10 best)? Code quality refers to the code prior to the pull request.",Why do you consider the code quality as such?,"What is the expected benefit(1 – negative, 5 – neutral, 10 – great)?",Why do you consider the pull request to improve the code (or not improve it)?
-ckanext\showcase\cli.py,W0107,unnecessary-pass,1,1, , , , , , , , 
-ckanext\showcase\logic\action\delete.py,C0301, line-too-long,2,1, , , , , , , , 
-ckanext\showcase\utils.py,R0912, too-many-branches,2,1, , , , , , , , 
-ckanext\showcase\model\__init__.py,R1703, simplifiable-if-statement,1,1, , , , , , , , 
-ckanext\showcase\logic\action\create.py,C0301, line-too-long,4,0, , , , , , , , 
-ckanext\showcase\utils.py,R0911, too-many-return-statements,1,0, , , , , , , , 
-ckanext\showcase\utils.py,R0915, too-many-statements,1,0, , , , , , , , 
