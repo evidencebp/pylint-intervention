@@ -18,9 +18,6 @@ def process_candidates(candidates_file: pd.DataFrame
 
     df = pd.read_csv(candidates_file)
 
-    df = df.loc[502:600] # TODO remove
-
-
     print(len(df), "repos to process")
     cur_num = 1
     all_stats = []
@@ -150,8 +147,6 @@ def compute_stats(candidates_file: pd.DataFrame
                        , stats_file: str):
     df = pd.read_csv(candidates_file)
 
-    df = df.loc[:400]  # TODO remove
-    # return to 100..200
 
     print(len(df), "repos to process")
     cur_num = 1
@@ -179,8 +174,8 @@ def compute_stats(candidates_file: pd.DataFrame
 if __name__ == "__main__":
 
     candidates_file = "C:\src\pylint-intervention\candidate_repos\python_repos_above_50_by_2023_properties_year22.csv"
-    stats_file = "c:/tmp/python_repos_above_50_by_2023_properties_year22_stats_v2.csv"
-    #process_cancidate(repo_name="openstack/blazar"
+    stats_file = "c:/tmp/new_stats.csv"
+    #process_cancidate(repo_name="niklasf/python-chess"
     #                    , delete_no_alerts=True)
     process_candidates(candidates_file=candidates_file
                             , stats_file=stats_file
@@ -188,4 +183,4 @@ if __name__ == "__main__":
 
     #get_interventions_stats("GafferHQ/gaffer")
     #compute_stats(candidates_file=candidates_file
-    #                        , stats_file="c:/tmp/python_repos_above_50_by_2023_properties_year22_stats_u400.csv")
+    #                        , stats_file="c:/tmp/python_repos_above_50_by_2023_properties_year22_interventions_v2.csv")
