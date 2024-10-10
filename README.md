@@ -39,7 +39,7 @@ Please follow this procedure to contribute:
 9. run_pylint will generate a file called ``interventions.csv''.
 10. Please go over the alerts by the order (to avoid bias) and intervene in the files to fix the alerts. You can fix as many alerts as you want.
 11. However, please intervene only in files and alerts marked so, leaving the other as control.
-12. Remove all occurrences of the alert and verify that by rerunning CheckStyle. Please make sure that your change is minimal. Avoid improving the file in other ways.
+12. Remove all occurrences of the alert and verify that by rerunning Pylint. Please make sure that your change is minimal. Avoid improving the file in other ways.
 13. Run the tests, to verify that the change did not break the system.
 14. Create a pull request (for all your interventions in the project).
 15. In case that you are not part of the project community, please ask for a review by a non-community review first, to reduce their effort. We will be happy to be these reviewers if needed.
