@@ -143,6 +143,14 @@ def copy_files(source: str
     run_powershell_cmd(cmd)
 
 
+def move_files(source: str
+               , target: str):
+    cmd = "Move-Item -Path {source} -Destination {target}".format(source=source
+                                          , target=target)
+
+    run_powershell_cmd(cmd)
+
+
 def compute_stats(candidates_file: pd.DataFrame
                        , stats_file: str):
     df = pd.read_csv(candidates_file)
