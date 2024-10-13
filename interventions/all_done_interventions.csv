@@ -1,0 +1,96 @@
+path,msg_id,msg,alerts,chosen,In which repository the modification was done?,In which pull request the modification was done?,Do you consider the removed alert harmful?,Why do you consider it harmful (or harmless)?,"What is the code quality (1 lowest, 10 best)? Code quality refers to the code prior to the pull request.",Why do you consider the code quality as such?,"What is the expected benefit(1 – negative, 5 – neutral, 10 – great)?",Why do you consider the pull request to improve the code (or not improve it)?,file
+util\join-multiline-rules\join.py,C0301, line-too-long,1,1,coreruleset/coreruleset,Won’t fix,No,a long readable comment line. Line describes output hence splitting it will be misleading. ,5,code is not in a function,4.0,Breaking the line will not fit the output,coreruleset_coreruleset_interventions_September_27_2024.csv
+util\crs-rules-check\rules-check.py,C0325, superfluous-parens,1,1,coreruleset/coreruleset,https://github.com/coreruleset/coreruleset/pull/3837,Yes," Code calls  del(self.undef_txvars[-1]) While it works, while it works, del is a python keyword and not a function. Hence it is better to call del self.undef_txvars[-1]  See https://www.w3schools.com/python/ref_keyword_del.asp ",4,"A very long file, uses magic numbers, if a==False, variables called a and d",6.0,Might have pedagogic value,coreruleset_coreruleset_interventions_September_27_2024.csv
+util\change-version\change-version.py,C0301, line-too-long,2,1,coreruleset/coreruleset,https://github.com/coreruleset/coreruleset/pull/3837,Yes,Added newline to make two lines shorter,5,magic numbers,5.0,"Two readable lines are shorter, formatting emphasized",coreruleset_coreruleset_interventions_September_27_2024.csv
+util\crs-rules-check\rules-check.py,C0301, line-too-long,34,0, , , , , , ,, ,coreruleset_coreruleset_interventions_September_27_2024.csv
+util\crs-rules-check\rules-check.py,C0302, too-many-lines,1,0, , , , , , ,, ,coreruleset_coreruleset_interventions_September_27_2024.csv
+util\crs-rules-check\rules-check.py,R0912, too-many-branches,5,0, , , , , ,,, ,coreruleset_coreruleset_interventions_September_27_2024.csv
+util\crs-rules-check\rules-check.py,R0915, too-many-statements,2,0, , , , , , ,, ,coreruleset_coreruleset_interventions_September_27_2024.csv
+util\crs-rules-check\rules-check.py,R1702, too-many-nested-blocks,9,0, , , , , , ,, ,coreruleset_coreruleset_interventions_September_27_2024.csv
+util\crs-rules-check\rules-check.py,W0718, broad-exception-caught,1,0, , , , , , ,, ,coreruleset_coreruleset_interventions_September_27_2024.csv
+util\regexp-tricks\negative-lookahead.py,C0301, line-too-long,3,0, , , , , , ,, ,coreruleset_coreruleset_interventions_September_27_2024.csv
+util\rule_ctl\rule_ctl.py,C0301, line-too-long,36,0, , , , , , ,, ,coreruleset_coreruleset_interventions_September_27_2024.csv
+src\models\base.py,W0107,unnecessary-pass,1,1,gabfl/vault,Won’t fix,No,The pass is in declaration of an empty base class (which is strange). Removing the pass will work but will look like forgeting content., , ,, ,gabfl_vault_interventions_September_24_2024.csv
+src\views\setup.py,C0301, line-too-long,1,1,gabfl/vault,https://github.com/gabfl/vault/pull/82,No,Line was one letter too long,6,some multiple returns,5.0,alert not important,gabfl_vault_interventions_September_24_2024.csv
+src\tools\troubleshoot_db.py,R1719, simplifiable-if-expression,1,1,gabfl/vault,https://github.com/gabfl/vault/pull/82,Yes," if result_proxy.fetchall() == [(123,)] can result in only True or False, the external condition is not needed.
+However, if result_proxy.fetchall() might return Noe, the external condition can translate it to False.
+
+The external condition hurt readability since it takes a bit to verify what it does.
+bool is a simpler implementation
+
+See
+https://stackoverflow.com/questions/76094401/the-if-expression-can-be-replaced-with-test-simplifiable-if-expression",7,OK code,6.0,improved readability,gabfl_vault_interventions_September_24_2024.csv
+src\views\menu.py,W0718, broad-exception-caught,1,1,gabfl/vault,https://github.com/gabfl/vault/pull/82,Yes," Code deliberately catches Exception, after catching KeyboardInterrupt.
+However, looking at the protected code it seems that no other exception can be raised.
+Hence, instead of narrowing the exception, I removed it.",7,OK code,6.0,improved readability,gabfl_vault_interventions_September_24_2024.csv
+src\lib\Config.py,C0301, line-too-long,1,1,gabfl/vault,https://github.com/gabfl/vault/pull/82,No,"Made the long, yet readable, comment shorter",7,OK code,5.0,alert not important,gabfl_vault_interventions_September_24_2024.csv
+src\modules\autocomplete.py,W0718, broad-exception-caught,1,1,gabfl/vault,https://github.com/gabfl/vault/pull/82,Yes," Code deliberately catches Exception, after catching KeyboardInterrupt.
+However, looking at the protected code it seems that no other exception can be raised.
+Hence, instead of narrowing the exception, I removed it.",7,OK code,6.0,improved readability,gabfl_vault_interventions_September_24_2024.csv
+src\views\secrets.py,R0912, too-many-branches,1,1,gabfl/vault,Won’t fix,Yes,Code gets an attribute name and goes on them in a switch-like structure. Handling almost identical yet assigned to the object attribute and exit by value. It's tempting to create a single function yet its implementation will require playing with the class properties. The exit will require more changes. Code is not nice but I don’t have a nicer solution.,4, ,, ,gabfl_vault_interventions_September_24_2024.csv
+src\modules\misc.py,W0718, broad-exception-caught,1,1,gabfl/vault,https://github.com/gabfl/vault/pull/82,Yes," Exception is too wide. os.path.exists does not throw exceptions. os.makedirs might throw OSError (e.g., in a bad path).  See https://stackoverflow.com/questions/2383816/how-can-i-make-an-error-verifiy-with-os-makedirs-in-python As extra safety, though the code checks just before for the directory, catch it too in case a different process will be able to create it before.",6,minor not optimal implementations,6.0,improved readability,gabfl_vault_interventions_September_24_2024.csv
+src\views\import_export.py,C0301, line-too-long,1,1,gabfl/vault,https://github.com/gabfl/vault/pull/82,No,Made a readable comment line shorter,7,uses strings as return values,5.0,alert not important,gabfl_vault_interventions_September_24_2024.csv
+src\views\migration.py,C0301, line-too-long,1,1,gabfl/vault,https://github.com/gabfl/vault/pull/82,No," Made the line shorter. Since the string is also formatted, parenthesis are added for operations precedence.",5,Multiple exit points,4.0,code is a bit more complex now,gabfl_vault_interventions_September_24_2024.csv
+src\modules\carry.py,C0301, line-too-long,1,1, ,Won’t fix,Yes,"In the documentation, the long line is due to a very long url. Splitting it will be worse.", , ,, ,gabfl_vault_interventions_September_24_2024.csv
+src\views\categories.py,C0325, superfluous-parens,1,1,gabfl/vault,https://github.com/gabfl/vault/pull/82,Yes,Replaced (True) to True,6,using letters instead of constants,6.0,improved readability,gabfl_vault_interventions_September_24_2024.csv
+src\models\base.py,C0301, line-too-long,1,0, , , , , , ,, ,gabfl_vault_interventions_September_24_2024.csv
+src\tools\troubleshoot_db.py,C0301, line-too-long,1,0, , , , , , ,, ,gabfl_vault_interventions_September_24_2024.csv
+src\views\menu.py,C0301, line-too-long,1,0, , , , , , ,, ,gabfl_vault_interventions_September_24_2024.csv
+src\views\menu.py,C0325, superfluous-parens,1,0, , , , , , ,, ,gabfl_vault_interventions_September_24_2024.csv
+src\vault.py,C0301, line-too-long,4,0, , , , , , ,, ,gabfl_vault_interventions_September_24_2024.csv
+src\views\__init__.py,R0801, duplicate-code,4,0, , , , , , ,, ,gabfl_vault_interventions_September_24_2024.csv
+src\views\secrets.py,C0301, line-too-long,3,0, , , , , , ,, ,gabfl_vault_interventions_September_24_2024.csv
+src\views\secrets.py,R0911, too-many-return-statements,3,0, , , , , , ,, ,gabfl_vault_interventions_September_24_2024.csv
+src\views\secrets.py,R0915, too-many-statements,1,0, , , , , , ,, ,gabfl_vault_interventions_September_24_2024.csv
+src\views\secrets.py,W0718, broad-exception-caught,1,0, , , , , , ,, ,gabfl_vault_interventions_September_24_2024.csv
+src\modules\misc.py,C0301, line-too-long,6,0, , , , , , ,, ,gabfl_vault_interventions_September_24_2024.csv
+src\views\import_export.py,W0718, broad-exception-caught,2,0, , , , , , ,, ,gabfl_vault_interventions_September_24_2024.csv
+src\views\migration.py,W0718, broad-exception-caught,1,0, , , , , , ,, ,gabfl_vault_interventions_September_24_2024.csv
+src\views\categories.py,C0301, line-too-long,3,0, , , , , , ,, ,gabfl_vault_interventions_September_24_2024.csv
+chess\__init__.py,C0325, superfluous-parens,2,1,niklasf/python-chess,c0d3c9171d22d0168a6cf7a584cdcf50909832e6,Partial,There are two such alerts in this file. One has two terms and the parentheses do not contribute to readability. The other term is longer and the parenthesis help to  readability   and therefore are kept.,2,"4000+ lines, states as string, bitwise operation not hidden in methods, all that in an __init__ file",5.0,a bit of readability improvement,niklasf_python-chess_interventions_October_01_2024.csv
+chess\syzygy.py,C0302, too-many-lines,1,1,,owner objected,Yes,File has 1972 lines. The benefit of short files is well estabilshed. The file is already contains few classes and placing each class in a file on its own should be a rather easy refactoring., ,,, ,niklasf_python-chess_interventions_October_01_2024.csv
+chess\engine.py,W0718, broad-exception-caught,1,1,, ,No,"The code gets a function as a parameter, calls it using asyncio, and sets its expectations. Since function is a parameter, one cannot know, without other constraints, which exception might be thrown.", , ,, ,niklasf_python-chess_interventions_October_01_2024.csv
+chess\gaviota.py,C0302, too-many-lines,1,1,,owner objected, ,File has 2091 lines. The benefit of short files is well estabilshed. The file is already contains few classes and placing each class in a file on its own should be a rather easy refactoring., , ,, ,niklasf_python-chess_interventions_October_01_2024.csv
+chess\variant.py,R0912, too-many-branches,1,1,,owner objected,Yes,"Handles many chess logical cases, checking if they apply and deciding on results", , ,, ,niklasf_python-chess_interventions_October_01_2024.csv
+chess\svg.py,R0912, too-many-branches,1,1,,owner objected, , , , ,, ,niklasf_python-chess_interventions_October_01_2024.csv
+release.py,C0301, line-too-long,1,1,niklasf/python-chess,owner objected,Yes,"Added a line break between the files, making it slightly more readable. ", , ,, ,niklasf_python-chess_interventions_October_01_2024.csv
+chess\pgn.py,R0912, too-many-branches,1,1,,owner objected, , , , ,, ,niklasf_python-chess_interventions_October_01_2024.csv
+chess\__init__.py,C0301, line-too-long,70,0, , , , , , ,, ,niklasf_python-chess_interventions_October_01_2024.csv
+chess\__init__.py,C0302, too-many-lines,1,0, , , , , , ,, ,niklasf_python-chess_interventions_October_01_2024.csv
+chess\__init__.py,R0911, too-many-return-statements,4,0, , , , , , ,, ,niklasf_python-chess_interventions_October_01_2024.csv
+chess\__init__.py,R0912, too-many-branches,9,0, , , , , , ,, ,niklasf_python-chess_interventions_October_01_2024.csv
+chess\__init__.py,R0915, too-many-statements,3,0, , , , , , ,, ,niklasf_python-chess_interventions_October_01_2024.csv
+chess\syzygy.py,C0301, line-too-long,26,0, , , , , , ,, ,niklasf_python-chess_interventions_October_01_2024.csv
+chess\syzygy.py,C0325, superfluous-parens,2,0, , , , , , ,, ,niklasf_python-chess_interventions_October_01_2024.csv
+chess\syzygy.py,R0911, too-many-return-statements,2,0, , , , , , ,, ,niklasf_python-chess_interventions_October_01_2024.csv
+chess\syzygy.py,R0912, too-many-branches,10,0, , , , , , ,, ,niklasf_python-chess_interventions_October_01_2024.csv
+chess\syzygy.py,R0915, too-many-statements,4,0, , , , , , ,, ,niklasf_python-chess_interventions_October_01_2024.csv
+chess\syzygy.py,W0107,unnecessary-pass,1,0, , , , , , ,, ,niklasf_python-chess_interventions_October_01_2024.csv
+examples\xray_attacks.py,C0301, line-too-long,4,0, , , , , , ,, ,niklasf_python-chess_interventions_October_01_2024.csv
+chess\engine.py,C0301, line-too-long,107,0, , , , , , ,, ,niklasf_python-chess_interventions_October_01_2024.csv
+chess\engine.py,C0302, too-many-lines,1,0, , , , , , ,, ,niklasf_python-chess_interventions_October_01_2024.csv
+chess\engine.py,C0325, superfluous-parens,1,0, , , , , , ,, ,niklasf_python-chess_interventions_October_01_2024.csv
+chess\engine.py,R0912, too-many-branches,6,0, , , , , , ,, ,niklasf_python-chess_interventions_October_01_2024.csv
+chess\engine.py,R0915, too-many-statements,5,0, , , , , , ,, ,niklasf_python-chess_interventions_October_01_2024.csv
+python-chess-stub\setup.py,C0301, line-too-long,1,0, , , , , , ,, ,niklasf_python-chess_interventions_October_01_2024.csv
+chess\gaviota.py,C0301, line-too-long,18,0, , , , , , ,, ,niklasf_python-chess_interventions_October_01_2024.csv
+chess\gaviota.py,C0325, superfluous-parens,7,0, , , , , , ,, ,niklasf_python-chess_interventions_October_01_2024.csv
+chess\gaviota.py,R0911, too-many-return-statements,1,0, , , , , , ,, ,niklasf_python-chess_interventions_October_01_2024.csv
+chess\gaviota.py,R0912, too-many-branches,2,0, , , , , , ,, ,niklasf_python-chess_interventions_October_01_2024.csv
+chess\gaviota.py,R0915, too-many-statements,1,0, , , , , , ,, ,niklasf_python-chess_interventions_October_01_2024.csv
+examples\bratko_kopec\bratko_kopec.py,C0301, line-too-long,3,0, , , , , , ,, ,niklasf_python-chess_interventions_October_01_2024.csv
+examples\perft\perft.py,C0301, line-too-long,3,0, , , , , , ,, ,niklasf_python-chess_interventions_October_01_2024.csv
+chess\variant.py,C0301, line-too-long,36,0, , , , , , ,, ,niklasf_python-chess_interventions_October_01_2024.csv
+chess\variant.py,C0302, too-many-lines,1,0, , , , , , ,, ,niklasf_python-chess_interventions_October_01_2024.csv
+chess\variant.py,C0325, superfluous-parens,10,0, , , , , , ,, ,niklasf_python-chess_interventions_October_01_2024.csv
+chess\variant.py,R0911, too-many-return-statements,2,0, , , , , , ,, ,niklasf_python-chess_interventions_October_01_2024.csv
+chess\polyglot.py,C0301, line-too-long,16,0, , , , , , ,, ,niklasf_python-chess_interventions_October_01_2024.csv
+chess\svg.py,C0301, line-too-long,36,0, , , , , , ,, ,niklasf_python-chess_interventions_October_01_2024.csv
+chess\svg.py,R0915, too-many-statements,1,0, , , , , , ,, ,niklasf_python-chess_interventions_October_01_2024.csv
+chess\pgn.py,C0301, line-too-long,20,0, , , , , , ,, ,niklasf_python-chess_interventions_October_01_2024.csv
+chess\pgn.py,C0302, too-many-lines,1,0, , , , , , ,, ,niklasf_python-chess_interventions_October_01_2024.csv
+chess\pgn.py,R0915, too-many-statements,1,0, , , , , , ,, ,niklasf_python-chess_interventions_October_01_2024.csv
+chess\pgn.py,W0107,unnecessary-pass,13,0, , , , , , ,, ,niklasf_python-chess_interventions_October_01_2024.csv
+frontend\demo_light\pages_util\CreateNewArticle.py,R0912, too-many-branches,1,1,stanford-oval/storm,https://github.com/stanford-oval/storm/pull/181,Yes,"The branches are sequential and unrelated so their number is not a problem on its own. However, the code goes over multiple states and handles all of them in a long method that checks each time what the state is. ",3,a long function with no composition,8.0,Each state has a method now,stanford-oval_storm_interventions_September_22_2024.csv
+examples\helper\process_kaggle_arxiv_abstract_dataset.py,C0301, line-too-long,1,1,stanford-oval/storm,https://github.com/stanford-oval/storm/pull/181,No,A too long readable  line in a comment,6,"code under main should been in a function, regardless of the alert",5.0,Alert is not important,stanford-oval_storm_interventions_September_22_2024.csv
+frontend\demo_light\storm.py,C0301, line-too-long,1,1,stanford-oval/storm,https://github.com/stanford-oval/storm/pull/181,No,"Just a slightly long line, due to indentation, still all is readable",7,"rather regular, regardless of the alert",5.0,Alert is not important,stanford-oval_storm_interventions_September_22_2024.csv
