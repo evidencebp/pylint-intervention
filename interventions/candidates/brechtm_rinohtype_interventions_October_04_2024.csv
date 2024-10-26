@@ -1,28 +1,28 @@
 path,msg_id,msg,alerts,chosen,In which repository the modification was done?,In which pull request the modification was done?,Do you consider the removed alert harmful?,Why do you consider it harmful (or harmless)?,"What is the code quality (1 lowest, 10 best)? Code quality refers to the code prior to the pull request.",Why do you consider the code quality as such?,"What is the expected benefit(1 – negative, 5 – neutral, 10 – great)?",Why do you consider the pull request to improve the code (or not improve it)?
-src\rinoh\stylesheets\matcher.py,W0401, wildcard-import,1,1, , , , , , , , 
-src\rinoh\font\type1.py,R0912, too-many-branches,1,1, , , , , , , , 
-src\rinoh\style.py,R1702, too-many-nested-blocks,1,1, , , , , , , , 
-src\rinoh\font\opentype\required.py,R0912, too-many-branches,1,1, , , , , , , , 
-src\rinoh\reference.py,R0912, too-many-branches,1,1, , , , , , , , 
-src\rinoh\attribute.py,R0912, too-many-branches,1,1, , , , , , , , 
-src\rinoh\element.py,W0107,unnecessary-pass,1,1, , , , , , , , 
-src\rinoh\__main__.py,R0915, too-many-statements,1,1, , , , , , , , 
-src\rinoh\highlight.py,W0125,using-constant-test,1,1, , , , , , , , 
-src\rinoh\image.py,C0325, superfluous-parens,2,1, , , , , , , , 
-src\rinoh\templates\article.py,W0104, pointless-statement,1,1, , , , , , , , 
-src\rinoh\font\opentype\cff.py,C0301, line-too-long,2,1, , , , , , , , 
-src\rinoh\backend\pdf\filter.py,R0912, too-many-branches,1,1, , , , , , , , 
-src\rinoh\frontend\rst\nodes.py,W0104, pointless-statement,1,1, , , , , , , , 
-src\rinoh\table.py,C0325, superfluous-parens,1,1, , , , , , , , 
-src\rinoh\frontend\sphinx\nodes.py,W0125,using-constant-test,1,1, , , , , , , , 
-src\rinoh\backend\pdf\xobject\purepng.py,R0911, too-many-return-statements,1,1, , , , , , , , 
-src\rinoh\flowable.py,R0912, too-many-branches,1,1, , , , , , , , 
-src\rinoh\font\mapping.py,C0302, too-many-lines,1,1, , , , , , , , 
-src\rinoh\hyphenator.py,C0325, superfluous-parens,1,1, , , , , , , , 
-src\rinoh\paragraph.py,R1702, too-many-nested-blocks,1,1, , , , , , , , 
-src\rinoh\backend\pdf\cos.py,C0302, too-many-lines,1,1, , , , , , , , 
-src\rinoh\util.py,W0104, pointless-statement,1,1, , , , , , , , 
-src\rinoh\backend\pdf\reader.py,R1702, too-many-nested-blocks,1,1, , , , , , , , 
+src\rinoh\stylesheets\matcher.py,W0401, wildcard-import,1,1,brechtm/rinohtype, ,Discuss," Code uses from rinoh.styleds import * This hides the imoported objects and might lead to collisions in the future if objects of the same name are imported with wildcards.  styleds is a collection of imports, aimed to ease related imports. I copied the used imports from there and deleted the unused ones.  This adds many imports and does not  benefits from styleds, so this is a downside of fixing this alert.",6,"rather long, no methods or structure",4,too many imports added
+src\rinoh\font\type1.py,R0912, too-many-branches,1,1,brechtm/rinohtype, ,Yes, The constructor of AdobeFontMetricsParser had 14 branches. I extracted _process_line with the content of the loop going over lines.,7,rather regular,6,extracted method coupled with its caller
+src\rinoh\style.py,R1702, too-many-nested-blocks,1,1,brechtm/rinohtype, ,Yes," The method write_log had 6 nesting levels, while the recommendation is at most 5. I extracted two nested methods,  _log_entries and in it _handle_source. The methods extraction also fixed too-many-branches and too-many-statements in that method.",5,"1,000+ LOC",9,"Less complex code – nesting, branches, and statements"
+src\rinoh\font\opentype\required.py,R0912, too-many-branches,1,1,brechtm/rinohtype, ,Yes," The constructors, that handles many format values, had too many branches. I extracting handling format 4 into a dedicated method.",6,magic numbers,8,"clearer code, yet related to original method"
+src\rinoh\reference.py,R0912, too-many-branches,1,1,brechtm/rinohtype, ,Yes," Method children had many branches computing the text variable. I extracted those base on the type value into _handle_type and replaces these branches with a single one, checking if the type is relevant.",6,unclear type magic numbers,6,there is still coupling due to dependency in type values
+src\rinoh\attribute.py,R0912, too-many-branches,1,1,brechtm/rinohtype, ,Yes, Method __new__ of the class WithAttributes had too many branches. I extracted a static method _handle_bases handing base classes logic.,6,"rather long file, with a few classes",7,"clearer code, too many parameter in extracted method, some are modified"
+src\rinoh\element.py,W0107,unnecessary-pass,1,1,brechtm/rinohtype, ,Discuss, Method build_document of class DocumentElement has empty documentation of pass. It is implemented in subclasses. Might be better to enforce it by raising NotImplementedError., , , , 
+src\rinoh\__main__.py,R0915, too-many-statements,1,1,brechtm/rinohtype, ,Yes, The function main had 116 statements (more than the recommended limit of 50). Most code handle different unrelated args so I extracted methods for them.,6,rather long file,8,more structure
+src\rinoh\highlight.py,W0125,using-constant-test,1,1,brechtm/rinohtype, ,Discuss,"Import a function, call it in if without proper parameters.", , , , 
+src\rinoh\image.py,C0325, superfluous-parens,2,1,brechtm/rinohtype, ,Yes,Remove two unneeded parenthesis ,6,"rather long file, with a few classes",6,minor improvement
+src\rinoh\templates\article.py,W0104, pointless-statement,1,1,brechtm/rinohtype, ,No,the statement modifies a member, , , , 
+src\rinoh\font\opentype\cff.py,C0301, line-too-long,2,1,brechtm/rinohtype, ,Yes,Made two readable line shorter,5,"unrelated code, undocumented magic numbers",5,lines were readable before
+src\rinoh\backend\pdf\filter.py,R0912, too-many-branches,1,1,brechtm/rinohtype, ,Yes, Function run_length_encoder had 14 branches (limit is 12). Extracted the _handle_byte function,6,"long file, magic numbers, unrelated code",6,extracted method coupled with its caller
+src\rinoh\frontend\rst\nodes.py,W0104, pointless-statement,1,1,brechtm/rinohtype, ,Discuss, , , , , 
+src\rinoh\table.py,C0325, superfluous-parens,1,1,brechtm/rinohtype, ,Yes,remove unneeded parenthesis ,6,"long file, many classes",6,removed unneeded parenthesis
+src\rinoh\frontend\sphinx\nodes.py,W0125,using-constant-test,1,1,brechtm/rinohtype, ,Discuss,as above, , , , 
+src\rinoh\backend\pdf\xobject\purepng.py,R0911, too-many-return-statements,1,1,brechtm/rinohtype, ,Yes," Function check_time had 7 returns I kept the return value and return it in the end of the function, avoiding too many point of exit. Other than the return there is also an exception in case the the type is not supported.",5,3000+ LOC,6,less return yet still many cases
+src\rinoh\flowable.py,R0912, too-many-branches,1,1,brechtm/rinohtype, ,Yes, Method render of class LabeledFlowable had 14 branches. Extracted the method _compute_spillover to structure and reduce branches,6,"1000+ LOC, few classes",5,extracted method coupled with its caller
+src\rinoh\font\mapping.py,C0302, too-many-lines,1,1,brechtm/rinohtype,,Yes," File indeed has many lines. A single dictionary has 1,000+ lines. However it is a reference of other Adobbe structure. Moving the data to csv won’t help and prevent python check of data. There are other references in to same file so they can moved. That will not solve the basic problem thought the connection between the parts seems modorate.", , , , 
+src\rinoh\hyphenator.py,C0325, superfluous-parens,1,1,brechtm/rinohtype, ,Discuss," __all__ = (""Hyphenator"") while it should be a list (e.g. __all__ = [""Hyphenator""]). Seems like a bug. https://stackoverflow.com/questions/44834/what-does-all-mean-in-python", , , , 
+src\rinoh\paragraph.py,R1702, too-many-nested-blocks,1,1,brechtm/rinohtype, ,Yes, Method _spans_to_words of class ParagraphState had 7 nesting levels. I extracted _process_groups that goes over the groups to reduce that.,4,"method is a mess with many variables and parts interacting with each other. This is in a 1,000+ LOC file",6,code is a bit better but the extracted method has many parameters due to the interactions.
+src\rinoh\backend\pdf\cos.py,C0302, too-many-lines,1,1,brechtm/rinohtype, ,Discuss,"File has 1,023 lines, above the recommended 1,000. File has many small classes, starting with base ones like Integer. It seems that the file will benefit from splitting the classes into some files. However, the choice of files requires more familiarity with its content. ", , , , 
+src\rinoh\util.py,W0104, pointless-statement,1,1,brechtm/rinohtype, ,No,Comment explains that the line checks the weakref, , , , 
+src\rinoh\backend\pdf\reader.py,R1702, too-many-nested-blocks,1,1,brechtm/rinohtype, ,Yes, Method read_dictionary_or_stream of class PDFObjectReader had 6 nesting levels. I extracted _handle_filter that takes only the dictionary as a parameter and encapsulates the creation of the stream_filter.,6,"long file, some magic strings",9,extraction is clean. Method gets one parameter. Also fixes too-many-branches
 src\rinoh\style.py,C0302, too-many-lines,1,0, , , , , , , , 
 src\rinoh\style.py,R0912, too-many-branches,1,0, , , , , , , , 
 src\rinoh\style.py,R0915, too-many-statements,1,0, , , , , , , , 
