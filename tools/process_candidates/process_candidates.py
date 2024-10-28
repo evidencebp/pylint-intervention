@@ -183,11 +183,11 @@ if __name__ == "__main__":
 
     candidates_file = "C:\src\pylint-intervention\candidate_repos\python_repos_above_50_by_2023_properties_year22.csv"
     stats_file = "c:/tmp/new_stats.csv"
-    #process_cancidate(repo_name="niklasf/python-chess"
-    #                    , delete_no_alerts=True)
-    process_candidates(candidates_file=candidates_file
-                            , stats_file=stats_file
-                            , delete_no_alerts=False)
+    process_cancidate(repo_name="EmbodiedCognition/py-c3d"
+                        , delete_no_alerts=True)
+    #process_candidates(candidates_file=candidates_file
+    #                        , stats_file=stats_file
+    #                        , delete_no_alerts=False)
 
     #get_interventions_stats("GafferHQ/gaffer")
     #compute_stats(candidates_file=candidates_file
