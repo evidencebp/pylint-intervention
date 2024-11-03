@@ -10,7 +10,7 @@ See examples of interventions in [stanford-oval/storm](https://github.com/stanfo
 
 
 ## What's in it for Me?
-Participating in the project is an opportunity to contribute to both science and open source.We will acknowledge all contributions. More than that, we would like to publish an academic paper based on the experiment in a [research turk](https://arxiv.org/pdf/2001.01972) like method. Contributors that will match the publisher conditions (e.g., significant contribution, approval of paper, responsibility to content) will be authors of the paper.
+Participating in the project is an opportunity to contribute to both science and open source.We will acknowledge all contributions. More than that, we would like to publish an academic paper based on the experiment in a [research turk](https://arxiv.org/pdf/2001.01972) like method. Contributors that will do 50 interventions and match the publisher conditions (e.g., approval of paper, responsibility to content) will be authors of the paper.
 
 ## Experiment Status
 Currently the experiment is in POC.
