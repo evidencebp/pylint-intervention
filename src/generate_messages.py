@@ -17,5 +17,21 @@ May I do the interventions?"""
     print("#"*50)
     print(template.format(interventions_file=interventions_file))
 
+
+
+def generate_pr_creation(issue_url):
+    template = """Makes the interventions describe in [intervention issue]({issue_url}).
+The experiment is described [here](https://github.com/evidencebp/pylint-intervention/).
+
+Each intervention was done in a dedicated commit with a message explaining it.
+"""
+
+    print("Pylint alerts corrections as part of an intervention experiment"
+          , issue_url[issue_url.rfind("/") + 1:])
+    print("#" * 50)
+    print(template.format(issue_url=issue_url))
+
+
 if __name__ == "__main__":
-    generate_intro("aaugustin_websockets_interventions_October_05_2024.csv")
+    #generate_intro("aaugustin_websockets_interventions_October_05_2024.csv")
+    generate_pr_creation("https://github.com/AndreiDrang/python-rucaptcha/issues/306")
