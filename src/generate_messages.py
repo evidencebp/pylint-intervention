@@ -1,10 +1,13 @@
 
 def generate_intro(interventions_file):
-    template = """I'd like to conduct a software engineering experiment regarding the benefit of [Pylint](https://pypi.org/project/pylint/)  alerts removal.
+    template = """Pylint alerts are correlated with tendency to bugs and harder maintenance.
+I'd like to conduct a software engineering experiment regarding the benefit of [Pylint](https://pypi.org/project/pylint/) alerts removal.
 The experiment is described [here](https://github.com/evidencebp/pylint-intervention/).
+
 In the experiments, Pylint is used with some specific alerts, files are selected for intervention and control.
 After the interventions are done, one can wait and examine the results.
 
+Your repository is expected to benefit from the interventions.
 I'm asking for your approval for conducting an intervention in your repository.
 
 See examples of interventions in [stanford-oval/storm](https://github.com/stanford-oval/storm/pull/181), [gabfl/vault](https://github.com/gabfl/vault/pull/82), and [coreruleset/coreruleset](https://github.com/coreruleset/coreruleset/pull/3837).
@@ -33,5 +36,5 @@ Each intervention was done in a dedicated commit with a message explaining it.
 
 
 if __name__ == "__main__":
-    #generate_intro("aaugustin_websockets_interventions_October_05_2024.csv")
-    generate_pr_creation("https://github.com/AndreiDrang/python-rucaptcha/issues/306")
+    generate_intro("RNAcentral_rnacentral-import-pipeline_interventions_October_05_2024.csv")
+    #generate_pr_creation("https://github.com/SublimeText/PackageDev/issues/401")
