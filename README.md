@@ -28,7 +28,7 @@ Therefore, start in [commenting that you would like to contribute](https://githu
 
 Please follow this procedure to contribute:
 
-1. Verify that you have Python, Pylint and Pandas intalled
+1. Verify that you have Python, Pylint and Pandas installed
 2. Pick a Python open source project. The [candidates](https://github.com/evidencebp/pylint-intervention/tree/main/interventions/candidates) directory has projects with their alerts statistics.
 3. Check in the [repositories file](https://github.com/evidencebp/pylint-intervention/blob/main/interventions/repositories.csv) the repository status.
 4. If the repository is not there, continue. If the intervention was rejected, please choose a different repository. If there was an intervention, you can still intervene yet in different files.
