@@ -1,22 +1,22 @@
 msg_id,msg
-C0325, superfluous-parens
+C0325,superfluous-parens
 W0107,unnecessary-pass
-W0104, pointless-statement
+W0104,pointless-statement
 W0125,using-constant-test
-W0706, try-except-raise
-W0301, unnecessary-semicolon
-R0133, comparison-of-constants
-R1703, simplifiable-if-statement
-R1709, simplify-boolean-expression
-R1719, simplifiable-if-expression
-R1726, simplifiable-condition
-C0301, line-too-long
-C0302, too-many-lines
-R0801, duplicate-code
-R0911, too-many-return-statements
-R0912, too-many-branches
-R0915, too-many-statements
-R0916, too-many-boolean-expressions
+W0706,try-except-raise
+W0301,unnecessary-semicolon
+R0133,comparison-of-constants
+R1703,simplifiable-if-statement
+R1709,Simplify-boolean-expression
+R1719,simplifiable-if-expression
+R1726,simplifiable-condition
+C0301,line-too-long
+C0302,too-many-lines
+R0801,duplicate-code
+R0911,too-many-return-statements
+R0912,too-many-branches
+R0915,too-many-statements
+R0916,too-many-boolean-expressions
 R1702, too-many-nested-blocks
-W0401, wildcard-import
-W0718, broad-exception-caught
+W0401,wildcard-import
+W0718,broad-exception-caught
