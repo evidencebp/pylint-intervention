@@ -1,6 +1,7 @@
 from os.path import join
 
 import pandas as pd
+import pprint
 
 from configuration import CANDIDATES_DIRECTORY
 
@@ -51,6 +52,9 @@ May I do the interventions?"""
     print("Pylint alerts corrections as part of an intervention experiment")
     print("#"*50)
     print(template.format(interventions_file=interventions_file))
+    print()
+    print()
+    print("#"*50)
 
 
 
@@ -85,8 +89,17 @@ def get_plan_metrics(interventions_file):
              , 'interventions_types': list(df['msg'].unique())
              }
 
+    for alert in df['msg'].unique():
+        stats[alert] = df[df['msg'] == alert]['alerts'].sum()
+
     return stats
+
 if __name__ == "__main__":
-    #generate_intro("RNAcentral_rnacentral-import-pipeline_interventions_October_05_2024.csv")
+
+    pp = pprint.PrettyPrinter(depth=4)
+    #pp.pprint(mydict)
+
+    interventions_file = "beanbaginc_django-evolution_interventions_October_04_2024.csv"
+    generate_intro(interventions_file)
+    pp.pprint(get_plan_metrics(interventions_file))
     #generate_pr_creation("https://github.com/SublimeText/PackageDev/issues/401")
-    print(get_plan_metrics("RNAcentral_rnacentral-import-pipeline_interventions_October_05_2024.csv"))
