@@ -1,3 +1,35 @@
+from os.path import join
+
+import pandas as pd
+
+from configuration import CANDIDATES_DIRECTORY
+
+readability_alerts = ['superfluous-parens'
+    , 'try-except-raise'
+    , 'unnecessary-semicolon'
+    , 'line-too-long'
+    , 'wildcard-import'
+                      ]
+possible_bug_alerts = ['unnecessary-pass'
+    , 'pointless-statement'
+    , 'using-constant-test'
+    , 'comparison-of-constants'
+    , 'broad-exception-caught'
+                       ]
+
+simplification_alerts = ['simplifiable-if-statement'
+    , 'Simplify-boolean-expression'
+    , 'simplifiable-if-expression'
+    , 'simplifiable-condition'
+    , 'too-many-boolean-expressions']
+structure_alerts = ['too-many-lines'
+    , 'duplicate-code'
+    , 'too-many-return-statements'
+    , 'too-many-branches'
+    , 'too-many-statements'
+    , 'too-many-nested-blocks'
+                    ]
+
 
 def generate_intro(interventions_file):
     template = """Pylint alerts are correlated with tendency to bugs and harder maintenance.
@@ -35,6 +67,26 @@ Each intervention was done in a dedicated commit with a message explaining it.
     print(template.format(issue_url=issue_url))
 
 
+def get_plan_metrics(interventions_file):
+    path = join(CANDIDATES_DIRECTORY
+                , interventions_file)
+    df = pd.read_csv(path)
+    df = df[df.chosen==1]
+    df['msg'] = df['msg'].map(lambda x: x.strip())
+
+
+    stats = {'file':  len(df)
+             , 'interventions_number': df['alerts'].sum()
+             , 'interventions_types_number': df['msg'].nunique()
+             , 'readability_alerts': df[df['msg'].isin(readability_alerts)]['alerts'].sum()
+             , 'possible_bug_alerts': df[df['msg'].isin(possible_bug_alerts)]['alerts'].sum()
+             , 'simplification_alerts': df[df['msg'].isin(simplification_alerts)]['alerts'].sum()
+             , 'structure_alerts': df[df['msg'].isin(structure_alerts)]['alerts'].sum()
+             , 'interventions_types': list(df['msg'].unique())
+             }
+
+    return stats
 if __name__ == "__main__":
-    generate_intro("RNAcentral_rnacentral-import-pipeline_interventions_October_05_2024.csv")
+    #generate_intro("RNAcentral_rnacentral-import-pipeline_interventions_October_05_2024.csv")
     #generate_pr_creation("https://github.com/SublimeText/PackageDev/issues/401")
+    print(get_plan_metrics("RNAcentral_rnacentral-import-pipeline_interventions_October_05_2024.csv"))

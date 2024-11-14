@@ -17,6 +17,6 @@ R0911,too-many-return-statements
 R0912,too-many-branches
 R0915,too-many-statements
 R0916,too-many-boolean-expressions
-R1702, too-many-nested-blocks
+R1702,too-many-nested-blocks
 W0401,wildcard-import
 W0718,broad-exception-caught
