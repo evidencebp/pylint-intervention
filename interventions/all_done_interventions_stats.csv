@@ -1,17 +1,17 @@
 msg_id,msg,alerts,repositories,benefit,harmfulness,will_not_fix,owner_objection
-C0301, line-too-long,46,10,5,0.242424242424242,0.0606060606060606,0.0303030303030303
+C0301, line-too-long,51,11,5.03125,0.31578947368421,0.0526315789473684,0.0263157894736842
 C0302, too-many-lines,4,2,10,0.5,0,0.5
 C0325, superfluous-parens,12,6,5.66666666666667,0.8,0,0
 R0133, comparison-of-constants,1,1,8,1,0,0
 R0911, too-many-return-statements,3,2,7.33333333333333,1,0,0
-R0912, too-many-branches,19,6,6.63636363636364,0.875,0.0625,0.1875
-R0915, too-many-statements,4,3,7.33333333333333,1,0,0
+R0912, too-many-branches,24,7,6.92857142857143,0.894736842105263,0.0526315789473684,0.157894736842105
+R0915, too-many-statements,7,4,8.16666666666667,1,0,0
 R0916, too-many-boolean-expressions,1,1,6,1,0,0
-R1702, too-many-nested-blocks,3,1,8,1,0,0
+R1702, too-many-nested-blocks,4,2,7.75,1,0,0
 R1703, simplifiable-if-statement,1,1,6,1,0,0
 R1719, simplifiable-if-expression,1,1,6,1,0,0
 W0104, pointless-statement,4,2,,0,0,0
-W0107,unnecessary-pass,13,6,6.66666666666667,0.2,0.1,0
+W0107,unnecessary-pass,10,6,6.66666666666667,0.25,0.125,0
 W0125,using-constant-test,2,1,,0,0,0
-W0401, wildcard-import,4,3,5,0.333333333333333,0,0
-W0718, broad-exception-caught,10,4,6,0.444444444444444,0,0
+W0401, wildcard-import,5,4,5.33333333333333,0.5,0,0
+W0718, broad-exception-caught,17,5,6,0.4,0,0
