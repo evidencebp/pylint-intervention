@@ -3,7 +3,7 @@ from os.path import join
 import pandas as pd
 import pprint
 
-from configuration import CANDIDATES_DIRECTORY
+from configuration import CANDIDATES_DIRECTORY, HARMFUL_COL, HARMFUL_REASON_COL
 
 readability_alerts = ['superfluous-parens'
     , 'try-except-raise'
@@ -94,12 +94,30 @@ def get_plan_metrics(interventions_file):
 
     return stats
 
+
+def get_plan_discussion(interventions_file):
+    path = join(CANDIDATES_DIRECTORY
+                , interventions_file)
+    df = pd.read_csv(path)
+    df = df[df.chosen==1]
+    print(df[HARMFUL_COL].value_counts()) # To see that there are no spelling problems
+    df = df[df[HARMFUL_COL]=='Discuss']
+    df['msg'] = df['msg'].map(lambda x: x.strip())
+
+    df = df.sort_values('msg')
+    #print(df[['msg', 'path', HARMFUL_REASON_COL]])
+    for _, i in df[['msg', 'path', HARMFUL_REASON_COL]].iterrows():
+        print(i['msg'])
+        print(i['path'])
+        print(i[HARMFUL_REASON_COL])
+
 if __name__ == "__main__":
 
     pp = pprint.PrettyPrinter(depth=4)
     #pp.pprint(mydict)
 
-    interventions_file = "beanbaginc_django-evolution_interventions_October_04_2024.csv"
-    generate_intro(interventions_file)
-    pp.pprint(get_plan_metrics(interventions_file))
-    #generate_pr_creation("https://github.com/SublimeText/PackageDev/issues/401")
+    interventions_file = "materialsproject_MPContribs_interventions_October_06_2024.csv"
+    #generate_intro(interventions_file)
+    #pp.pprint(get_plan_metrics(interventions_file))
+    #generate_pr_creation("https://github.com/materialsproject/MPContribs/issues/1853")
+    get_plan_discussion(interventions_file)
