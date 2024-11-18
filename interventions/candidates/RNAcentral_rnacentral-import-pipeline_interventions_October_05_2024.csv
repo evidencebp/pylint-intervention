@@ -1,11 +1,11 @@
 path,msg_id,msg,alerts,chosen,In which repository the modification was done?,In which pull request the modification was done?,Do you consider the removed alert harmful?,Why do you consider it harmful (or harmless)?,"What is the code quality (1 lowest, 10 best)? Code quality refers to the code prior to the pull request.",Why do you consider the code quality as such?,"What is the expected benefit(1 – negative, 5 – neutral, 10 – great)?",Why do you consider the pull request to improve the code (or not improve it)?
 rnacentral_pipeline\cli\psicquic.py,W0107,unnecessary-pass,1,1,RNAcentral/rnacentral-import-pipeline, ,Discuss,@click.group , , , , 
 rnacentral_pipeline\databases\ensembl\metadata\assemblies.py,R0911, too-many-return-statements,2,1, , , , , , , , 
-rnacentral_pipeline\databases\europepmc\utils.py,W0718, broad-exception-caught,1,1, , , , , , , , 
+rnacentral_pipeline\databases\europepmc\utils.py,W0718, broad-exception-caught,1,1,RNAcentral/rnacentral-import-pipeline, ,No,"The function called is received as a parameter. One cannot guarantee which exception will be raised. Also, exceptions are logged.", , , , 
 rnacentral_pipeline\cli\rfam.py,W0107,unnecessary-pass,1,1,RNAcentral/rnacentral-import-pipeline, ,Discuss,@click.group , , , , 
 rnacentral_pipeline\databases\data\regions.py,W0107,unnecessary-pass,1,1,RNAcentral/rnacentral-import-pipeline, ,No,new exception class, , , , 
 rnacentral_pipeline\databases\helpers\embl.py,W0107,unnecessary-pass,2,1,RNAcentral/rnacentral-import-pipeline, ,No,new exception classes, , , , 
-bin\litscan-retracted-articles.py,W0718, broad-exception-caught,1,1, , , , , , , , 
+bin\litscan-retracted-articles.py,W0718, broad-exception-caught,1,1,RNAcentral/rnacentral-import-pipeline, ,Discuss,"except (Exception, psycopg2.DatabaseError) ", , , , 
 rnacentral_pipeline\rnacentral\r2dt\models\ribovision.py,R0912, too-many-branches,1,1, , , , , , , , 
 rnacentral_pipeline\cli\__init__.py,W0107,unnecessary-pass,1,1,RNAcentral/rnacentral-import-pipeline, ,Discuss,@click.group , , , , 
 rnacentral_pipeline\cli\cpat.py,W0107,unnecessary-pass,1,1,RNAcentral/rnacentral-import-pipeline, ,Discuss,@click.group , , , , 
@@ -14,7 +14,7 @@ bin\litscan-create-xml-metadata.py,C0301, line-too-long,1,1,RNAcentral/rnacentra
 rnacentral_pipeline\rnacentral\genome_mapping\blat.py,C0301, line-too-long,2,1,RNAcentral/rnacentral-import-pipeline, ,Yes, Made too line shorter. One was not readable.,7,short and uses hints yet cohesion not high,6,Made an unreadable line readable
 rnacentral_pipeline\utils.py,C0301, line-too-long,1,1,RNAcentral/rnacentral-import-pipeline, ,Yes,Made a readable line shorter,7,regular,5,Made a readable line shorter
 rnacentral_pipeline\databases\evlncrnas\lookup.py,C0301, line-too-long,1,1,RNAcentral/rnacentral-import-pipeline, ,Yes,Made unreadable commented out line shorter.,6,bad variable names,6,Made an unreadable line readable
-rnacentral_pipeline\databases\rfam\parser.py,W0718, broad-exception-caught,1,1, , , , , , , , 
+rnacentral_pipeline\databases\rfam\parser.py,W0718, broad-exception-caught,1,1,RNAcentral/rnacentral-import-pipeline, ,Discuss,Only helpers.sequence is called there. It seems that possible exception is AttributeError in sequence_id. Is it so? Can Exception be replaced with it?, , , , 
 rnacentral_pipeline\cli\genes.py,W0107,unnecessary-pass,1,1,RNAcentral/rnacentral-import-pipeline, ,Discuss,@click.group , , , , 
 rnacentral_pipeline\cli\genome_mapping.py,W0107,unnecessary-pass,2,1,RNAcentral/rnacentral-import-pipeline, ,Discuss,@click.group , , , , 
 rnacentral_pipeline\databases\ensembl\vertebrates\helpers.py,W0107,unnecessary-pass,1,1,RNAcentral/rnacentral-import-pipeline, ,No,new exception class, , , , 
@@ -39,31 +39,31 @@ rnacentral_pipeline\cli\refseq.py,W0107,unnecessary-pass,1,1,RNAcentral/rnacentr
 rnacentral_pipeline\databases\plncdb\parser.py,C0301, line-too-long,1,1,RNAcentral/rnacentral-import-pipeline, ,Yes,Made a readable line shorter,6,some dead code (parameters in a call),5,Made a readable line shorter
 rnacentral_pipeline\cli\zfin.py,W0107,unnecessary-pass,1,1,RNAcentral/rnacentral-import-pipeline, ,Discuss,@click.group , , , , 
 rnacentral_pipeline\cli\crw.py,W0107,unnecessary-pass,1,1,RNAcentral/rnacentral-import-pipeline, ,Discuss,@click.group , , , , 
-rnacentral_pipeline\databases\hgnc\helpers.py,W0718, broad-exception-caught,1,1, , , , , , , , 
+rnacentral_pipeline\databases\hgnc\helpers.py,W0718, broad-exception-caught,1,1,RNAcentral/rnacentral-import-pipeline, ,Yes," Catching Exception might hide unexpected exceptions (e.g., due to new code that will be added).More than that, the exception handling does not log it but returns None, making it harder to detect.I changed it to catching  requests.exceptions.HTTPErrorSeehttps://stackoverflow.com/questions/24518944/try-except-when-using-python-requests-module",5,"multiple returns, magic strings",6,narrowed un-logged exception
 bin\litscan-get-statistics.py,C0301, line-too-long,1,1,RNAcentral/rnacentral-import-pipeline, ,Yes,Made a readable line shorter,5,"Instead of using few columns in a single query, uses different queries",5,Made a readable line shorter
 rnacentral_pipeline\cli\ensembl.py,C0301, line-too-long,1,1,RNAcentral/rnacentral-import-pipeline, ,Yes,Made a readable line shorter,7,regular,5,Made a readable line shorter
 rnacentral_pipeline\cli\ribocentre.py,W0107,unnecessary-pass,1,1,RNAcentral/rnacentral-import-pipeline, ,Discuss,@click.group , , , , 
 rnacentral_pipeline\cli\search_export.py,W0107,unnecessary-pass,1,1,RNAcentral/rnacentral-import-pipeline, ,Discuss,@click.group , , , , 
 rnacentral_pipeline\cli\ncbi.py,W0107,unnecessary-pass,1,1,RNAcentral/rnacentral-import-pipeline, ,Discuss,@click.group , , , , 
 rnacentral_pipeline\databases\generic\v1.py,W0107,unnecessary-pass,2,1,RNAcentral/rnacentral-import-pipeline,?,Discuss,gene_info is just pass, , , , 
-rnacentral_pipeline\rnacentral\r2dt\parser.py,W0718, broad-exception-caught,1,1, , , , , , , , 
+rnacentral_pipeline\rnacentral\r2dt\parser.py,W0718, broad-exception-caught,1,1,RNAcentral/rnacentral-import-pipeline, ,Yes," Catching Exception might hide unexpected exceptions (e.g., due to new code that will be added).  The method parse calls R2DTResultInfo.validate (in line 96).Validate is a sequence of assertions, hence the specific AssertionError can be used instead.  See https://stackoverflow.com/questions/1569049/making-pythons-assert-throw-an-exception-that-i-choose",6,magic strings,6,narrowed logged exception
 rnacentral_pipeline\databases\europepmc\fetch.py,W0107,unnecessary-pass,1,1,RNAcentral/rnacentral-import-pipeline, ,No,new exception class, , , , 
-rnacentral_pipeline\rnacentral\genome_mapping\igv.py,W0718, broad-exception-caught,1,1, , , , , , , , 
+rnacentral_pipeline\rnacentral\genome_mapping\igv.py,W0718, broad-exception-caught,1,1,RNAcentral/rnacentral-import-pipeline, ,Yes," Catching Exception might hide unexpected exceptions (e.g., due to new code that will be added).   The function ftp calls ftplib.FTP's quit (in line 40).The specific ftplib.all_errors   can be used instead.   See https://docs.python.org/3/library/ftplib.html",6,string construction with +,6,narrowed logged exception
 rnacentral_pipeline\cli\ribovision.py,W0107,unnecessary-pass,1,1,RNAcentral/rnacentral-import-pipeline, ,Discuss,@click.group , , , , 
 rnacentral_pipeline\cli\scan_imports.py,W0107,unnecessary-pass,1,1,RNAcentral/rnacentral-import-pipeline, ,Discuss,@click.group , , , , 
 rnacentral_pipeline\cli\pdb.py,W0107,unnecessary-pass,1,1,RNAcentral/rnacentral-import-pipeline, ,Discuss,@click.group , , , , 
 rnacentral_pipeline\databases\europepmc\xml.py,W0107,unnecessary-pass,1,1,RNAcentral/rnacentral-import-pipeline, ,No,new exception class, , , , 
 rnacentral_pipeline\databases\gtrnadb\helpers.py,W0107,unnecessary-pass,1,1,RNAcentral/rnacentral-import-pipeline, ,No,new exception class, , , , 
-rnacentral_pipeline\databases\europepmc\stream.py,W0718, broad-exception-caught,1,1, , , , , , , , 
+rnacentral_pipeline\databases\europepmc\stream.py,W0718, broad-exception-caught,1,1,RNAcentral/rnacentral-import-pipeline, ,Discuss,The function fallback calls fetch.lookup (in line 41). I could not find which exceptions are excepted here. Can you consult?, , , , 
 rnacentral_pipeline\cli\europepmc.py,W0107,unnecessary-pass,1,1,RNAcentral/rnacentral-import-pipeline, ,Discuss,@click.group , , , , 
 rnacentral_pipeline\databases\hgnc\parser.py,R0911, too-many-return-statements,1,1, , , , , , , , 
 rnacentral_pipeline\databases\tmrna\helpers.py,C0301, line-too-long,1,1,RNAcentral/rnacentral-import-pipeline, ,Yes,Made a readable line shorter,7,regular,5,Made a readable line shorter
 rnacentral_pipeline\cli\lncbook.py,W0107,unnecessary-pass,1,1,RNAcentral/rnacentral-import-pipeline, ,Discuss,@click.group , , , , 
 rnacentral_pipeline\cli\ols.py,W0107,unnecessary-pass,1,1,RNAcentral/rnacentral-import-pipeline, ,Discuss,@click.group , , , , 
-rnacentral_pipeline\databases\crw\helpers.py,W0718, broad-exception-caught,1,1, , , , , , , , 
+rnacentral_pipeline\databases\crw\helpers.py,W0718, broad-exception-caught,1,1,RNAcentral/rnacentral-import-pipeline, ,Discuss,The function as_entry constructs an Entry object (line 79). Can you consult regarding the expected exceptions?, , , , 
 rnacentral_pipeline\rnacentral\precompute\data\accession.py,R0916, too-many-boolean-expressions,1,1, , , , , , , , 
 rnacentral_pipeline\rnacentral\precompute\utils.py,C0301, line-too-long,1,1,RNAcentral/rnacentral-import-pipeline, ,Yes,Made a readable line shorter,7,regular,5,Made a readable line shorter
-rnacentral_pipeline\databases\ensembl\vertebrates\parser.py,W0718, broad-exception-caught,1,1, , , , , , , , 
+rnacentral_pipeline\databases\ensembl\vertebrates\parser.py,W0718, broad-exception-caught,1,1,RNAcentral/rnacentral-import-pipeline, ,Discuss, The function as_entry calls embl.sequence in the try section (line 54). I could not understand which exception might be raised here. Can you consult? , , , , 
 rnacentral_pipeline\cli\qa.py,W0107,unnecessary-pass,1,1,RNAcentral/rnacentral-import-pipeline, ,Discuss,@click.group , , , , 
 rnacentral_pipeline\databases\sequence_ontology\tree.py,C0301, line-too-long,1,1,RNAcentral/rnacentral-import-pipeline, ,No,A readable line with a long url. Splitting does not make sense., , , , 
 rnacentral_pipeline\databases\data\trnascan.py,C0301, line-too-long,1,1,RNAcentral/rnacentral-import-pipeline, ,No,"Line represents output, better keep as is, though not readable.", , , , 
