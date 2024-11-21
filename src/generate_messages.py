@@ -111,13 +111,22 @@ def get_plan_discussion(interventions_file):
         print(i['path'])
         print(i[HARMFUL_REASON_COL])
 
+def describe_plan(plan: dict):
+    print(f"The plan is to do {plan['interventions_number']} interventions in {plan['file']} files")
+    print("The interventions will be of the following types:")
+
+    for intervention in sorted(plan['interventions_types']):
+        print(f"{intervention}: {plan[intervention]}")
+
 if __name__ == "__main__":
 
     pp = pprint.PrettyPrinter(depth=4)
     #pp.pprint(mydict)
 
-    interventions_file = "materialsproject_MPContribs_interventions_October_06_2024.csv"
-    #generate_intro(interventions_file)
-    #pp.pprint(get_plan_metrics(interventions_file))
+    interventions_file = "cmu-delphi_delphi-epidata_interventions_September_29_2024.csv"
+    generate_intro(interventions_file)
+    plan = get_plan_metrics(interventions_file)
+    describe_plan(plan)
+    #pp.pprint(plan)
     #generate_pr_creation("https://github.com/materialsproject/MPContribs/issues/1853")
-    get_plan_discussion(interventions_file)
+    #get_plan_discussion(interventions_file)
