@@ -50,11 +50,34 @@ def interventions_stats():
                                                  , will_not_fix=("Won't fix", 'mean')
                                                  , owner_objection=("Owner objection", 'mean')
                                                  )
+    merged_interventions = get_merged_interventions()
+    g = pd.merge(g
+                 , merged_interventions
+                 , on=['msg_id',	'msg']
+                 , how='left')
+
     g.to_csv(join(BASE_DIR
                     , 'interventions'
                     , 'all_done_interventions_stats.csv')
                , index=False)
 
+def get_merged_interventions():
+    all_df = pd.read_csv(join(BASE_DIR
+                    , 'interventions'
+                    , 'all_done_interventions.csv'))
+    repos_df = pd.read_csv(join(BASE_DIR
+                    , 'interventions'
+                    , 'repositories.csv'))
+    joint = pd.merge(all_df
+                     , repos_df
+                     , left_on=PR_COL
+                     , right_on='pr')
+    joint = joint[joint['status'] == 'merged']
+    g = joint.groupby(['msg_id',	'msg']
+                          , as_index=False).agg(merged_alerts=('alerts', lambda x: sum(x))
+                                                 , merged_repositories=(REPO_COL, 'nunique')
+                                                 )
+    return g
 
 if __name__ == "__main__":
     interventions_stats()
