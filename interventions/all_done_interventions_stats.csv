@@ -1,5 +1,5 @@
 msg_id,msg,alerts,repositories,benefit,harmfulness,will_not_fix,owner_objection,merged_alerts,merged_repositories
-C0301, line-too-long,66,12,5.068181818181818,0.46153846153846156,0.038461538461538464,0.019230769230769232,14.0,4.0
+C0301, line-too-long,66,12,5.068181818181818,0.46153846153846156,0.038461538461538464,0.019230769230769232,27.0,5.0
 C0302, too-many-lines,4,2,10.0,0.5,0.0,0.5,1.0,1.0
 C0325, superfluous-parens,12,6,5.666666666666667,0.8,0.0,0.0,4.0,3.0
 R0133, comparison-of-constants,1,1,8.0,1.0,0.0,0.0,1.0,1.0
@@ -11,7 +11,7 @@ R1702, too-many-nested-blocks,6,3,7.75,0.8,0.0,0.0,,
 R1703, simplifiable-if-statement,1,1,6.0,1.0,0.0,0.0,1.0,1.0
 R1719, simplifiable-if-expression,1,1,6.0,1.0,0.0,0.0,1.0,1.0
 W0104, pointless-statement,5,3,6.0,0.2,0.0,0.0,,
-W0107,unnecessary-pass,58,7,6.666666666666667,0.12,0.02,0.0,3.0,1.0
+W0107,unnecessary-pass,58,7,6.666666666666667,0.12,0.02,0.0,4.0,2.0
 W0125,using-constant-test,2,1,,0.0,0.0,0.0,,
 W0401, wildcard-import,7,5,5.333333333333333,0.3333333333333333,0.0,0.0,2.0,1.0
-W0718, broad-exception-caught,28,7,6.0,0.5,0.0,0.0,5.0,3.0
+W0718, broad-exception-caught,28,7,6.0,0.5,0.0,0.0,10.0,4.0
