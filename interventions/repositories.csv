@@ -33,9 +33,9 @@ donkirkby/live-py-plugin,contact,03/11/24,,https://github.com/donkirkby/live-py-
 peterhinch/micropython-async,contact,03/11/24,,https://github.com/peterhinch/micropython-async/issues/129,,
 bl4de/security-tools,intervened,03/11/24,,https://github.com/bl4de/security-tools/issues/33,https://github.com/bl4de/security-tools/pull/34,
 python-websockets/websockets,owner not interested,09/11/24,,https://github.com/python-websockets/websockets/issues/1536,,
-AndreiDrang/python-rucaptcha,intervened,09/11/24,"Test on API key fail, not seesm to e due to the PR",https://github.com/AndreiDrang/python-rucaptcha/issues/306,https://github.com/AndreiDrang/python-rucaptcha/pull/307,
+AndreiDrang/python-rucaptcha,intervened,09/11/24,"Test on API key fail, does not seem to be due to the PR",https://github.com/AndreiDrang/python-rucaptcha/issues/306,https://github.com/AndreiDrang/python-rucaptcha/pull/307,
 aajanki/yle-dl,merged,15/10/24,,https://github.com/aajanki/yle-dl/issues/370,https://github.com/aajanki/yle-dl/pull/373,a45a214ed59f2636a634e64a57bfbf845b21b96d
-SublimeText/PackageDev,intervened,10/11/24,,https://github.com/SublimeText/PackageDev/issues/401,https://github.com/SublimeText/PackageDev/pull/402,
+SublimeText/PackageDev,merged,10/11/24,,https://github.com/SublimeText/PackageDev/issues/401,https://github.com/SublimeText/PackageDev/pull/402,fd067a4ca42b30823461b2c2650e5c4aa368bb4c
 sphinx-gallery/sphinx-gallery,contact,10/11/24,,https://github.com/sphinx-gallery/sphinx-gallery/issues/1404,,
 containerbuildsystem/atomic-reactor,contact,10/11/24,,https://github.com/containerbuildsystem/atomic-reactor/issues/2128,,
 stamparm/maltrail,owner not interested,13/11/24,,https://github.com/stamparm/maltrail/issues/19282,,
@@ -56,4 +56,4 @@ bioconda/bioconda-utils,contact,21/11/24,,https://github.com/bioconda/bioconda-u
 cmu-delphi/delphi-epidata/,contact,21/11/24,,https://github.com/cmu-delphi/delphi-epidata/issues/1560,,
 akrherz/iembot,intervened,24/11/24,tried a PR first,https://github.com/akrherz/iembot/issues/98,https://github.com/akrherz/iembot/pull/99,
 progettowinstonsmith/e-privacy-site,intervened,24/11/24,tried a PR first,https://github.com/progettowinstonsmith/e-privacy-site/issues/5,https://github.com/progettowinstonsmith/e-privacy-site/pull/6,
-kianby/stacosys,intervened,24/11/24,tried a PR first,https://github.com/kianby/stacosys/issues/21,https://github.com/kianby/stacosys/pull/22,
+kianby/stacosys,merged,24/11/24,tried a PR first,https://github.com/kianby/stacosys/issues/21,https://github.com/kianby/stacosys/pull/22,
