@@ -340,7 +340,6 @@ fedora-infra/bodhi,Python,196,196,291,155,23,155
 fedora-infra/datanommer,Python,25,25,8,15,9,15
 fedora-infra/the-new-hotness,Python,32,32,19,44,24,44
 fedspendingtransparency/data-act-broker-backend,Python,30,30,6,54,34,54
-fedspendingtransparency/data-act-broker-backend,Python,30,30,6,54,34,54
 fi-ksi/web-backend,Python,4,4,21,10,2,10
 Fillll/reddit2telegram,Python,125,125,5,263,7,263
 firetools/blenderfds,Python,12,12,15,45,4,45
@@ -1125,7 +1124,6 @@ TravelModellingGroup/TMGToolbox,Python,17,17,3,34,16,34
 Tribler/tribler,Python,451,451,104,4855,145,4855
 tryton/account,Python,12,12,1,4,3,4
 tryton/account_invoice,Python,11,11,0,1,4,1
-tryton/purchase,Python,5,5,0,0,3,0
 tryton/purchase,Python,5,5,0,0,3,0
 tryton/stock,Python,18,18,0,9,6,9
 tseliot/ubuntu-drivers-common,Python,38,38,25,41,36,41
