@@ -107,6 +107,7 @@ def get_plan_discussion(interventions_file):
     df = df.sort_values('msg')
     #print(df[['msg', 'path', HARMFUL_REASON_COL]])
     for _, i in df[['msg', 'path', HARMFUL_REASON_COL]].iterrows():
+        print("")
         print(i['msg'])
         print(i['path'])
         print(i[HARMFUL_REASON_COL])
@@ -123,10 +124,10 @@ if __name__ == "__main__":
     pp = pprint.PrettyPrinter(depth=4)
     #pp.pprint(mydict)
 
-    interventions_file = "cmu-delphi_delphi-epidata_interventions_September_29_2024.csv"
+    interventions_file = "bioconda_bioconda-utils_interventions_September_27_2024.csv"
     generate_intro(interventions_file)
     plan = get_plan_metrics(interventions_file)
     describe_plan(plan)
     #pp.pprint(plan)
-    #generate_pr_creation("https://github.com/materialsproject/MPContribs/issues/1853")
-    #get_plan_discussion(interventions_file)
+    generate_pr_creation("https://github.com/bioconda/bioconda-utils/issues/1017")
+    get_plan_discussion(interventions_file)
