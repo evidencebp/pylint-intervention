@@ -1,0 +1,46 @@
+path,msg_id,msg,alerts,chosen,In which repository the modification was done?,In which pull request the modification was done?,Do you consider the removed alert harmful?,Why do you consider it harmful (or harmless)?,"What is the code quality (1 lowest, 10 best)? Code quality refers to the code prior to the pull request.",Why do you consider the code quality as such?,"What is the expected benefit(1 – negative, 5 – neutral, 10 – great)?",Why do you consider the pull request to improve the code (or not improve it)?
+bioconda_utils\artifacts.py,C0325, superfluous-parens,1,1,bioconda/bioconda-utils,https://github.com/bioconda/bioconda-utils/pull/1022,Yes,Removed unnecessary parenthesis,7,regular,5,Removed unnecessary parenthesis
+versioneer.py,R0912, too-many-branches,2,1,bioconda/bioconda-utils,https://github.com/bioconda/bioconda-utils/pull/1022,Yes, Method do_setup had 15 branches and function get_versions had 13 branches while Pylint recommends to have no more than 12. The functions are structured so I extracted _handle_keywords and _compute_ipy to fix the alert.,3,1800 LOC,7,"Reduced the number of branches a bit, some code in encapsulated. One extracted function returns two values to handle inner return. "
+bioconda_utils\aiopipe.py,W0706, try-except-raise,1,1,bioconda/bioconda-utils, ,Discuss," Function process catches asyncio.CancelledError and immediately raises it.In principle, it can just be removed but doing that here will make it handled by the Exception section below. It is not logged like other exceptions in the function.Is it intended?", , , , 
+bioconda_utils\bioconductor_skeleton.py,C0325, superfluous-parens,1,1,bioconda/bioconda-utils,https://github.com/bioconda/bioconda-utils/pull/1022,Yes,Removed unnecessary parenthesis,3,"1,300 LOC",5,Removed unnecessary parenthesis
+bioconda_utils\githandler.py,W0107,unnecessary-pass,1,1,bioconda/bioconda-utils,https://github.com/bioconda/bioconda-utils/pull/1022,Yes,Removed unnecessary pass,4,600 LOC,6,Removed unnecessary pass
+bioconda_utils\build.py,R0915, too-many-statements,2,1,bioconda/bioconda-utils,https://github.com/bioconda/bioconda-utils/pull/1022,Yes," The function build had 66 statements and the function  build_recipes   had 86, while Pylint recommends having no more than 50.  Functions were structured so I extracted methods to handle specific logics, simplifying the code.",4,500 LOC,7,"One of the extracted functions is huge, with plenty of parameters"
+bioconda_utils\update_pinnings.py,R0912, too-many-branches,1,1,bioconda/bioconda-utils,https://github.com/bioconda/bioconda-utils/pull/1022,Yes," The function ""check"" had 14 branches , while Pylint recommends having no more than 12. I extracted a method to handle the metas.",7,regular,7,code is somewhat more structured
+bioconda_utils\recipe.py,R0912, too-many-branches,2,1,bioconda/bioconda-utils,https://github.com/bioconda/bioconda-utils/pull/1022,Yes," In the class Recipe the method replace  had 13 branches and the static method _rewrite_selector_block  had 14, while Pylint recommends having no more than 12.  I extracted small methods to reduce the complexity.",4,800 LOC,7,code is somewhat more structured
+bioconda_utils\utils.py,R0912, too-many-branches,1,1,bioconda/bioconda-utils,https://github.com/bioconda/bioconda-utils/pull/1022,Yes," The function  run had 13 branches and, while Pylint recommends having no more than 12.  I extracted _handle_process to reduce the complexity. ",3,1600 LOC,7,code is somewhat more structured
+bioconda_utils\cli.py,R1703, simplifiable-if-statement,1,1,bioconda/bioconda-utils,https://github.com/bioconda/bioconda-utils/pull/1022,Yes," The function build checks the value of ""pkg_dir is None"" in a if statement and assigns it to the variable use_host_conda_bld (line 469).I assigned the expression directly to the variable, removing the unneeded if and simplifying the code.",3,"1,100 LOC",7,"Simpler code, avoids confusion or amusement "
+bioconda_utils\autobump.py,R0912, too-many-branches,1,1,bioconda/bioconda-utils,https://github.com/bioconda/bioconda-utils/pull/1022,Yes," The method apply of the class CreatePullRequest  had 14 branches and, while Pylint recommends having no more than 12.  I extracted _handle_open_PRs to reduce the complexity.",3,"1,200 LOC",8,extracted a significant logic. Extraction hints of assignment to unused variables.
+bioconda_utils\lint\__init__.py,W0718, broad-exception-caught,2,1,bioconda/bioconda-utils, ,Discuss," The function lint_one catches Exception in line 614. The tried code is res = self.check_instances[check].run(recipe, fix) I did not figure out which exceptions are expected. The handing logs the exception.  The method lint calls in line 557                msgs = self.lint_one(recipe_name, fix=fix)    leading to the same confusion.  ",4,600 LOC, , 
+bioconda_utils\githubhandler.py,C0302, too-many-lines,1,1,bioconda/bioconda-utils, ,Discuss," The file has over 1,300 lines of code, making it hard to read and understand. The class contains some different classes so it is natural to split the classes into dedicated files.  Are you ok with splitting the file? Are dedicated files per class the proper solution? ",3,"1,300 LOC", , 
+bioconda_utils\artifacts.py,C0301, line-too-long,3,0, , , , , , , , 
+bioconda_utils\artifacts.py,R0912, too-many-branches,1,0, , , , , , , , 
+bioconda_utils\artifacts.py,R0915, too-many-statements,1,0, , , , , , , , 
+bioconda_utils\artifacts.py,R1702, too-many-nested-blocks,1,0, , , , , , , , 
+versioneer.py,C0302, too-many-lines,1,0, , , , , , , , 
+versioneer.py,R0915, too-many-statements,2,0, , , , , , , , 
+.github\quay-namespace-info.py,C0301, line-too-long,5,0, , , , , , , , 
+bioconda_utils\bioconductor_skeleton.py,C0301, line-too-long,30,0, , , , , , , , 
+bioconda_utils\bioconductor_skeleton.py,C0302, too-many-lines,1,0, , , , , , , , 
+bioconda_utils\bioconductor_skeleton.py,R0912, too-many-branches,3,0, , , , , , , , 
+bioconda_utils\bioconductor_skeleton.py,R0915, too-many-statements,3,0, , , , , , , , 
+bioconda_utils\githandler.py,C0301, line-too-long,1,0, , , , , , , , 
+bioconda_utils\build.py,C0301, line-too-long,4,0, , , , , , , , 
+bioconda_utils\build.py,R0912, too-many-branches,3,0, , , , , , , , 
+bioconda_utils\update_pinnings.py,W0718, broad-exception-caught,1,0, , , , , , , , 
+bioconda_utils\lint\check_build_help.py,C0301, line-too-long,11,0, , , , , , , , 
+bioconda_utils\hosters.py,C0301, line-too-long,11,0, , , , , , , , 
+bioconda_utils\build_failure.py,C0301, line-too-long,15,0, , , , , , , , 
+bioconda_utils\utils.py,C0301, line-too-long,6,0, , , , , , , , 
+bioconda_utils\utils.py,C0302, too-many-lines,1,0, , , , , , , , 
+bioconda_utils\utils.py,R0915, too-many-statements,1,0, , , , , , , , 
+bioconda_utils\utils.py,W0301, unnecessary-semicolon,1,0, , , , , , , , 
+bioconda_utils\cli.py,C0301, line-too-long,21,0, , , , , , , , 
+bioconda_utils\cli.py,C0302, too-many-lines,1,0, , , , , , , , 
+bioconda_utils\cli.py,R0912, too-many-branches,2,0, , , , , , , , 
+bioconda_utils\cli.py,R0915, too-many-statements,1,0, , , , , , , , 
+bioconda_utils\cli.py,W0718, broad-exception-caught,1,0, , , , , , , , 
+bioconda_utils\autobump.py,C0302, too-many-lines,1,0, , , , , , , , 
+bioconda_utils\lint\__init__.py,R0912, too-many-branches,1,0, , , , , , , , 
+bioconda_utils\docker_utils.py,C0301, line-too-long,5,0, , , , , , , , 
+bioconda_utils\githubhandler.py,R0911, too-many-return-statements,1,0, , , , , , , , 
+bioconda_utils\githubhandler.py,R0912, too-many-branches,1,0, , , , , , , , 
