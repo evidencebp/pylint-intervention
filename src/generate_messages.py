@@ -119,15 +119,69 @@ def describe_plan(plan: dict):
     for intervention in sorted(plan['interventions_types']):
         print(f"{intervention}: {plan[intervention]}")
 
+
+def too_many_intervention_msg(name, cases, class_name=None, items='branches'):
+
+    recommendations = {'statements': 50
+                       , 'branches':12}
+    if class_name:
+        location = f'Method {name} of class {class_name} '
+    else:
+        location = f'Function {name} '
+
+    print(f"{location} had {cases} {items} while Pylint recommends having at most {recommendations[items]}.")
+    print("I extracted methods to make the code more structured and solve that.")
+
+def exception_intervention_msg(name
+                                , line
+                                , replacement
+                                , try_section
+                                , class_name=None
+                                , support=None
+                               ):
+    print()
+    print("Catching Exception might hide unexpected exceptions (e.g., due to new code that will be added).")
+    if class_name:
+        location = f'Method {name} of class {class_name} '
+    else:
+        location = f'Function {name} '
+
+    print(f"{location} catches exception (line {line})")
+    print()
+    print("The try section is")
+    print()
+    print(try_section)
+    print(f"Exception was changed to {replacement}")
+    if support:
+        print()
+        print("For details see")
+        print(support)
+
+
+
 if __name__ == "__main__":
 
     pp = pprint.PrettyPrinter(depth=4)
     #pp.pprint(mydict)
 
-    interventions_file = "bioconda_bioconda-utils_interventions_September_27_2024.csv"
+    interventions_file = "mralext20_alex-bot_interventions_October_05_2024.csv"
     generate_intro(interventions_file)
     plan = get_plan_metrics(interventions_file)
     describe_plan(plan)
     #pp.pprint(plan)
-    generate_pr_creation("https://github.com/bioconda/bioconda-utils/issues/1017")
-    get_plan_discussion(interventions_file)
+    generate_pr_creation("https://github.com/mralext20/alex-bot/issues/40")
+    #get_plan_discussion(interventions_file)
+
+    too_many_intervention_msg(name="vcShake"
+                              , cases=14
+                              , class_name="target_autocomplete"
+                              #, items='statements'
+                              )
+
+    exception_intervention_msg(name="sugery_update"
+                               , line=157
+                               , replacement="discord.ClientException, discord.Forbidde, and discord.HTTPException"
+                               , try_section="mainly member.edit"
+                               , class_name="Sugery"
+                               , support="https://discordpy.readthedocs.io/en/latest/api.html#discord.Member.edit"
+                               )
