@@ -3,6 +3,8 @@
 Getting code metrics using Radon
 https://radon.readthedocs.io/en/latest/index.html
 """
+import pandas as pd
+
 from utils import run_powershell_cmd
 
 def get_raw_metrics(file: str)-> dict:
@@ -34,4 +36,31 @@ def get_metrics_set(file: str
                                      : result.find('\\r\\n', i_pos)]
     return metrics_dict
 
-print(get_Halstead_metrics("C:/src/alex-bot/alexBot/cogs/voiceCommands.py"))
+def get_McCabe_complexity(file:str) -> pd.DataFrame:
+    cmd = f'radon  cc -s  {file}'
+
+    result = str(run_powershell_cmd(cmd).stdout)
+    result = result[result.find('\\r\\n'):] # Skipping file name
+
+    rows = []
+    while result.find(":") != -1:
+        start = result.find(":")
+        start = result.find(" ", start)
+        name = result[start+1:result.find(" ", start+1)]
+
+        # getting complexity
+        result = result[start:]
+        start = result.find("(")
+        end = result.find(")")
+        complexity = result[start+1: end]
+        result = result[end+1:]
+
+        rows.append((name, complexity))
+
+    df = pd.DataFrame(rows
+                      , columns=['name', 'complexity'])
+
+    return df
+
+
+print(get_McCabe_complexity("C:/src/alex-bot/alexBot/cogs/voiceCommands.py"))
