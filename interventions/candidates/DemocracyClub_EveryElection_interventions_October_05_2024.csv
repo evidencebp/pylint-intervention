@@ -29,7 +29,7 @@ every_election\apps\organisations\boundaries\management\commands\scrape_lgbce.py
 every_election\apps\elections\management\commands\add_referendum.py,C0301, line-too-long,1,1, , , , , , , , 
 every_election\apps\organisations\management\commands\create_combined_authority.py,C0301, line-too-long,1,1, , , , , , , , 
 cdk_stacks\aws_lambda_functions\ssm_run_command_once\command_runner.py,C0301, line-too-long,2,1, , , , , , , , 
-every_election\apps\elections\views\id_creator.py,W0125,using-constant-test,1,1, , , , , , , , 
+every_election\apps\elections\views\id_creator.py,W0125,using-constant-test,1,1, , ,No,"False positive. In line 280 cached property is used, which might missled pylint https://docs.python.org/3/library/functions.html#property", , , , 
 cdk_stacks\stacks\code_deploy_policies.py,C0301, line-too-long,3,0, , , , , , , , 
 docs\aws-resource-diagram.py,W0104, pointless-statement,4,0, , , , , , , , 
 every_election\settings\__init__.py,R0801, duplicate-code,74,0, , , , , , , , 
