@@ -55,10 +55,10 @@ def get_McCabe_complexity(file:str) -> pd.DataFrame:
         complexity = result[start+1: end]
         result = result[end+1:]
 
-        rows.append((name, complexity))
+        rows.append((file, name, complexity))
 
     df = pd.DataFrame(rows
-                      , columns=['name', 'complexity'])
+                      , columns=['file', 'name', 'complexity'])
 
     return df
 
