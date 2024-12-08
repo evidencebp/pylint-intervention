@@ -52,7 +52,7 @@ def get_McCabe_complexity(file:str) -> pd.DataFrame:
         result = result[start:]
         start = result.find("(")
         end = result.find(")")
-        complexity = result[start+1: end]
+        complexity = int(result[start+1: end])
         result = result[end+1:]
 
         rows.append((file, name, complexity))
@@ -62,5 +62,18 @@ def get_McCabe_complexity(file:str) -> pd.DataFrame:
 
     return df
 
+def analyze_file(file: str):
 
-print(get_McCabe_complexity("C:/src/alex-bot/alexBot/cogs/voiceCommands.py"))
+    metrics = get_raw_metrics(file)
+    metrics.update(get_Halstead_metrics(file))
+    McCabe = get_McCabe_complexity(file)
+    metrics['McCabe_mean'] = McCabe['complexity'].mean()
+    metrics['McCabe_sum'] = McCabe['complexity'].sum()
+    metrics['McCabe_max'] = McCabe['complexity'].max()
+
+    df = pd.DataFrame(metrics, index=[0])
+
+    return df
+
+
+print(analyze_file("C:/src/alex-bot/alexBot/cogs/voiceCommands.py"))
