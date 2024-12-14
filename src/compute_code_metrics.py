@@ -3,9 +3,13 @@
 Getting code metrics using Radon
 https://radon.readthedocs.io/en/latest/index.html
 """
+from os import listdir
+
+from os.path import join
 import pandas as pd
 
-from utils import run_powershell_cmd
+from configuration import DONE_DIRECTORY, PROJECTS_DIR, PR_COL, REPO_COL
+from utils import run_powershell_cmd, get_project_name
 
 def get_raw_metrics(file: str)-> dict:
 
@@ -75,5 +79,36 @@ def analyze_file(file: str):
 
     return df
 
+def get_current_repo_metrics(interventions_file):
+    df = pd.read_csv(interventions_file)
+    df = df[~df[PR_COL].isna()]
+    df = df[df[PR_COL].str.contains('github')]
 
-print(analyze_file("C:/src/alex-bot/alexBot/cogs/voiceCommands.py"))
+    metrics_list = []
+    for _, i in df.iterrows():
+        repo_name = i[REPO_COL]
+        metrics = analyze_file(join(PROJECTS_DIR
+                                , get_project_name(repo_name)
+                                , i.path))
+        metrics['path'] = i.path
+        metrics_list.append(metrics)
+
+    metrics_df = pd.concat(metrics_list)
+    metrics_df.to_csv(join("C:/src/pylint-intervention/data/code_metrics/after/"
+                           , repo_name.replace("/", "_slash_") + ".csv")
+                      , index=False)
+
+
+def get_all_current_repo_metrics():
+
+    intervention_files = listdir(DONE_DIRECTORY)
+
+    for i in intervention_files:
+        print(i)
+        get_current_repo_metrics(join(DONE_DIRECTORY
+                              , i))
+
+#interventions_file = "C:/src/pylint-intervention/interventions/done/mralext20_alex-bot_interventions_October_05_2024.csv"
+#get_current_repo_metrics(interventions_file)
+get_all_current_repo_metrics()
+#print(analyze_file("C:/src/alex-bot/alexBot/cogs/voiceCommands.py"))
