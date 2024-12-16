@@ -1,47 +1,47 @@
 path,msg_id,msg,alerts,chosen,In which repository the modification was done?,In which pull request the modification was done?,Do you consider the removed alert harmful?,Why do you consider it harmful (or harmless)?,"What is the code quality (1 lowest, 10 best)? Code quality refers to the code prior to the pull request.",Why do you consider the code quality as such?,"What is the expected benefit(1 – negative, 5 – neutral, 10 – great)?",Why do you consider the pull request to improve the code (or not improve it)?
-src\acquisition\quidel\quidel.py,R0912,too-many-branches,1,1, , , , , , , , 
-src\server\endpoints\sensors.py,C0301,line-too-long,2,1, , , , , , , , 
-src\acquisition\cdcp\cdc_upload.py,R0915,too-many-statements,1,1, , , , , , , , 
-src\acquisition\covidcast\csv_to_database.py,W0718,broad-exception-caught,1,1, , , , , , , , 
-src\server\_printer.py,R0911,too-many-return-statements,1,1, , , , , , , , 
-src\acquisition\paho\paho_db_update.py,C0301,line-too-long,1,1, , , , , , , , 
-src\maintenance\covidcast_meta_cache_updater.py,C0325,superfluous-parens,1,1, , , , , , , , 
-src\maintenance\delete_batch.py,W0718,broad-exception-caught,1,1, , , , , , , , 
-src\acquisition\covidcast\csv_importer.py,R0911,too-many-return-statements,1,1, , , , , , , , 
-src\server\_limiter.py,C0301,line-too-long,2,1, , , , , , , , 
-src\server\covidcast_issues_migration\proc_db_backups_pd.py,C0301,line-too-long,2,1, , , , , , , , 
-src\maintenance\remove_outdated_keys.py,C0301,line-too-long,2,1, , , , , , , , 
-src\acquisition\covid_hosp\common\database.py,R0912,too-many-branches,1,1, , , , , , , , 
-src\acquisition\wiki\wiki_util.py,C0301,line-too-long,1,1, , , , , , , , 
-src\acquisition\fluview\impute_missing_values.py,C0301,line-too-long,1,1, , , , , , , , 
-scripts\report_missing_covidcast_meta.py,C0301,line-too-long,1,1, , , , , , , , 
-src\acquisition\nidss\taiwan_update.py,W0401,wildcard-import,1,1, , , , , , , , 
-src\client\delphi_epidata.py,W0718,broad-exception-caught,2,1, , , , , , , , 
-src\server\endpoints\fluview_meta.py,C0301,line-too-long,1,1, , , , , , , , 
-src\server\endpoints\covidcast.py,R0915,too-many-statements,1,1, , , , , , , , 
-src\server\endpoints\covidcast_meta.py,C0301,line-too-long,2,1, , , , , , , , 
-src\server\utils\__init__.py,C0301,line-too-long,1,1, , , , , , , , 
-src\maintenance\update_last_usage.py,C0301,line-too-long,2,1, , , , , , , , 
-src\acquisition\ght\google_health_trends.py,C0301,line-too-long,2,1, , , , , , , , 
-src\server\endpoints\covid_hosp_facility_lookup.py,C0301,line-too-long,1,1, , , , , , , , 
-src\server\_pandas.py,C0301,line-too-long,2,1, , , , , , , , 
-src\server\endpoints\covidcast_utils\meta.py,C0301,line-too-long,1,1, , , , , , , , 
-src\acquisition\kcdc\kcdc_update.py,W0718,broad-exception-caught,1,1, , , , , , , , 
-src\acquisition\wiki\wiki_download.py,R0912,too-many-branches,1,1, , , , , , , , 
-src\acquisition\cdcp\cdc_extract.py,W0718,broad-exception-caught,1,1, , , , , , , , 
-src\server\main.py,C0301,line-too-long,1,1, , , , , , , , 
-tasks.py,C0301,line-too-long,2,1, , , , , , , , 
-src\server\_exceptions.py,C0301,line-too-long,1,1, , , , , , , , 
-src\server\utils\dates.py,W0718,broad-exception-caught,1,1, , , , , , , , 
-src\server\_query.py,R0133,comparison-of-constants,1,1, , , , , , , , 
-src\acquisition\twtr\healthtweets.py,C0301,line-too-long,2,1, , , , , , , , 
-src\maintenance\signal_dash_data_generator.py,C0301,line-too-long,1,1, , , , , , , , 
-src\server\endpoints\covid_hosp_facility.py,C0301,line-too-long,2,1, , , , , , , , 
-src\acquisition\ght\ght_update.py,R0915,too-many-statements,1,1, , , , , , , , 
-src\server\endpoints\delphi.py,C0301,line-too-long,1,1, , , , , , , , 
-src\common\covidcast_row.py,C0301,line-too-long,1,1, , , , , , , , 
-src\acquisition\paho\paho_download.py,W0718,broad-exception-caught,1,1, , , , , , , , 
-src\acquisition\covid_hosp\common\utils.py,C0301,line-too-long,2,1, , , , , , , , 
+src\acquisition\quidel\quidel.py,R0912,too-many-branches,1,1,cmu-delphi/delphi-epidata/,https://github.com/cmu-delphi/delphi-epidata/pull/1568,Yes, Method prepare_measurements of class QuidelData  had 19 branches while Pylint recommends having at most 12. I extracted the methods _prepare_device_id and to make the code more structured and solve that.,6,"magic values, 300 LOC",9,"extracted methods has too many parameters, large part is extracted"
+src\server\endpoints\sensors.py,C0301,line-too-long,2,1,cmu-delphi/delphi-epidata/,https://github.com/cmu-delphi/delphi-epidata/pull/1568,Yes,a one liner query,7,regular,7,query is more readable
+src\acquisition\cdcp\cdc_upload.py,R0915,too-many-statements,1,1,cmu-delphi/delphi-epidata/,https://github.com/cmu-delphi/delphi-epidata/pull/1568,Yes, Function upload  had 68 statements while Pylint recommends having at most 50. I added the cursor as a parameter to its external functions and moved them out.,5,"variables named a,b,c",7,"methods were internal, not used elsewhere"
+src\acquisition\covidcast\csv_to_database.py,W0718,broad-exception-caught,1,1,cmu-delphi/delphi-epidata/, ,No,"A deliberate logged exception, after catching a specific one", , , , 
+src\server\_printer.py,R0911,too-many-return-statements,1,1,cmu-delphi/delphi-epidata/,https://github.com/cmu-delphi/delphi-epidata/pull/1568,Yes, Function create_printer had 7 returns while Pylint recommends having at most 6. The code checks for a list of options.I removed some into a dictionary.I also assigned the results into a variable and used a single return at the end of the function., , , , 
+src\acquisition\paho\paho_db_update.py,C0301,line-too-long,1,1,cmu-delphi/delphi-epidata/,https://github.com/cmu-delphi/delphi-epidata/pull/1568,Yes,Made unreadable line shorter ,5,"nested, many returns, 300 LOC",6,Made unreadable line shorter 
+src\maintenance\covidcast_meta_cache_updater.py,C0325,superfluous-parens,1,1,cmu-delphi/delphi-epidata/,https://github.com/cmu-delphi/delphi-epidata/pull/1568,Yes,Removed unneeded parenthesis ,7,regular,5,Removed unneeded parenthesis 
+src\maintenance\delete_batch.py,W0718,broad-exception-caught,1,1,cmu-delphi/delphi-epidata/, ,No," Calls delete_batch which raises Exception when needed. This is a bad parctice in delete_batch, not in the calling function.", , , , 
+src\acquisition\covidcast\csv_importer.py,R0911,too-many-return-statements,1,1,cmu-delphi/delphi-epidata/,https://github.com/cmu-delphi/delphi-epidata/pull/1568,Yes, Static method extract_and_check_row of class CsvImporter had 14 returns while Pylint recommends having at most 6. I extracted the functions _validate_geo_type  and _validate_geo_id to make the code more structured and solve that.,4,"400 LOC, unstructured code, magic numbers",8,"small functions, high scope. Should have been static methods too but were not identified"
+src\server\_limiter.py,C0301,line-too-long,2,1,cmu-delphi/delphi-epidata/,https://github.com/cmu-delphi/delphi-epidata/pull/1568,Yes,Made readable lines shorter ,6,multiple returns,5,Made readable lines shorter 
+src\server\covidcast_issues_migration\proc_db_backups_pd.py,C0301,line-too-long,2,1,cmu-delphi/delphi-epidata/,https://github.com/cmu-delphi/delphi-epidata/pull/1568,Yes,Made readable lines shorter ,4,500 LOC,5,Made readable lines shorter 
+src\maintenance\remove_outdated_keys.py,C0301,line-too-long,2,1,cmu-delphi/delphi-epidata/,https://github.com/cmu-delphi/delphi-epidata/pull/1568,Yes, Made readable lines shorter. Email body is more readable.,7,regular,6,Email body is more readable.
+src\acquisition\covid_hosp\common\database.py,R0912,too-many-branches,1,1,cmu-delphi/delphi-epidata/,https://github.com/cmu-delphi/delphi-epidata/pull/1568,Yes, Method insert_dataset of class Database had 13 branches while Pylint recommends having at most 12. I extracted the method _process_rows   to make the code more structured and solve that.,7,regular,7,"high scope yet the extracted function signature has many parameters, some of them are modified."
+src\acquisition\wiki\wiki_util.py,C0301,line-too-long,1,1,cmu-delphi/delphi-epidata/,https://github.com/cmu-delphi/delphi-epidata/pull/1568,Yes,Made unreadable line shorter ,7,constants definition,5,Made unreadable line shorter 
+src\acquisition\fluview\impute_missing_values.py,C0301,line-too-long,1,1,cmu-delphi/delphi-epidata/,https://github.com/cmu-delphi/delphi-epidata/pull/1568,Yes,Made readable line shorter,5,"300 LOC, magic strings, unclear variable names",5,Made readable line shorter
+scripts\report_missing_covidcast_meta.py,C0301,line-too-long,1,1,cmu-delphi/delphi-epidata/,https://github.com/cmu-delphi/delphi-epidata/pull/1568,Yes,Made unreadable line shorter,7,regular,7,Made unreadable line shorter
+src\acquisition\nidss\taiwan_update.py,W0401,wildcard-import,1,1,cmu-delphi/delphi-epidata/,https://github.com/cmu-delphi/delphi-epidata/pull/1568,Yes," Wildcard imports (import *) make it harder to understand what is imported from where. Removing it is also a defensive programming act, lowering the probability of collisions due to future new imports or objects.  Instead, I imported explicitly delta_epiweeks, add_epiweeks from delphi.utils.epiweek (line 85)",6,unclear variable names,6,import is clearer
+src\client\delphi_epidata.py,W0718,broad-exception-caught,2,1,cmu-delphi/delphi-epidata/,https://github.com/cmu-delphi/delphi-epidata/pull/1568,Yes," Catching Exception might hide unexpected exceptions (e.g., due to new code that will be added). Static method _request of class Epidata  catches exception (line 134)  The try section is basically request.get Exception was changed to requests.exceptions.JSONDecodeError                    , requests.exceptions.HTTPError   , requests.exceptions.Timeout                    , requests.exceptions.TooManyRedirects  , and requests.exceptions.RequestException  For details see https://requests.readthedocs.io/en/latest/user/quickstart/#make-a-request Same happened in static method _version_check (line 63).  Added there also AttributeError due to looking for ['info']['version']  in line 62.     ",4,"700 LOC, unstructured code, magic numbers",6,exceptions are clearer
+src\server\endpoints\fluview_meta.py,C0301,line-too-long,1,1,cmu-delphi/delphi-epidata/,https://github.com/cmu-delphi/delphi-epidata/pull/1568,Yes,Made query more readable,7,regular,6,Made query more readable
+src\server\endpoints\covidcast.py,R0915,too-many-statements,1,1,cmu-delphi/delphi-epidata/,https://github.com/cmu-delphi/delphi-epidata/pull/1568,Yes, Function handle_meta had 65 statements while Pylint recommends having at most 50. I extracted _process_signals to make the code more structured and solve that. ,4,"500 LOC, unstructured code, magic numbers",7,"high scope yet the extracted function signature has many parameters, some of them are modified."
+src\server\endpoints\covidcast_meta.py,C0301,line-too-long,2,1,cmu-delphi/delphi-epidata/,https://github.com/cmu-delphi/delphi-epidata/pull/1568,Yes,Made query more readable,7,regular,6,Made query more readable
+src\server\utils\__init__.py,C0301,line-too-long,1,1,cmu-delphi/delphi-epidata/,https://github.com/cmu-delphi/delphi-epidata/pull/1568,Yes,Made unreadable line shorter ,7,just import in init,6,import is readable
+src\maintenance\update_last_usage.py,C0301,line-too-long,2,1,cmu-delphi/delphi-epidata/,https://github.com/cmu-delphi/delphi-epidata/pull/1568,Yes,"Used a single assignment per variable, made query more readable",6,unused variable,7,"Used a single assignment per variable, made query more readable"
+src\acquisition\ght\google_health_trends.py,C0301,line-too-long,2,1,cmu-delphi/delphi-epidata/,https://github.com/cmu-delphi/delphi-epidata/pull/1568,Yes,Made readable lines shorter ,7,regular,5,Made readable lines shorter 
+src\server\endpoints\covid_hosp_facility_lookup.py,C0301,line-too-long,1,1,cmu-delphi/delphi-epidata/,https://github.com/cmu-delphi/delphi-epidata/pull/1568,Yes,Made readable line shorter ,7,regular,5,Made readable line shorter 
+src\server\_pandas.py,C0301,line-too-long,2,1,cmu-delphi/delphi-epidata/,https://github.com/cmu-delphi/delphi-epidata/pull/1568,Yes,Made readable lines shorter ,8,uses type hints,5,Made readable lines shorter 
+src\server\endpoints\covidcast_utils\meta.py,C0301,line-too-long,1,1,cmu-delphi/delphi-epidata/,https://github.com/cmu-delphi/delphi-epidata/pull/1568,Yes,Made readable line shorter,7,regular,5,Made readable line shorter 
+src\acquisition\kcdc\kcdc_update.py,W0718,broad-exception-caught,1,1,cmu-delphi/delphi-epidata/,https://github.com/cmu-delphi/delphi-epidata/pull/1568,Yes,"  Catching Exception might hide unexpected exceptions (e.g., due to new code that will be added). Function update_from_data  catches exception (line 152)  The try section is cursor's execute Exception was changed to mysql.connector.Error  For details see https://dev.mysql.com/doc/connector-python/en/connector-python-api-errors-error.html ",6,"unclear variable names – row1, row2",6,exceptions are clearer
+src\acquisition\wiki\wiki_download.py,R0912,too-many-branches,1,1,cmu-delphi/delphi-epidata/,https://github.com/cmu-delphi/delphi-epidata/pull/1568,Yes, Function run had 24 branches while Pylint recommends having at most 12. I extracted the debug_log function (print in debug mode) which is reused a few times. I also extracted methods to make the code more structured and solve that.,5,"300 LOC, lacks abstraction and structure, repeating parts",10,"code reuse reduced complexity, clean extracted functions cover a lot of scope"
+src\acquisition\cdcp\cdc_extract.py,W0718,broad-exception-caught,1,1,cmu-delphi/delphi-epidata/, ,No," Calls get_total_hits which raises Exception when needed. This is a bad parctice in delete_batch, not in the calling function.", , , ,
+src\server\main.py,C0301,line-too-long,1,1,cmu-delphi/delphi-epidata/,https://github.com/cmu-delphi/delphi-epidata/pull/1568,Yes,Made readable line shorter,7,regular,5,Made readable line shorter 
+tasks.py,C0301,line-too-long,2,1,cmu-delphi/delphi-epidata/, ,No,unreadable very long urls,6,unused variable named c, , 
+src\server\_exceptions.py,C0301,line-too-long,1,1,cmu-delphi/delphi-epidata/,https://github.com/cmu-delphi/delphi-epidata/pull/1568,Yes,Made readable line shorter,7,regular,5,Made readable line shorter 
+src\server\utils\dates.py,W0718,broad-exception-caught,1,1,cmu-delphi/delphi-epidata/, ,Discuss,The try section calls get_structured_logger which I did not find. What are the possible exceptions?, , , , 
+src\server\_query.py,R0133,comparison-of-constants,1,1,cmu-delphi/delphi-epidata/,https://github.com/cmu-delphi/delphi-epidata/pull/1568,Yes," The code was    def dummy_gen():        if 3 >4:            yield {}  Clearly, the dummy_gen is not intended to reach the yield.To clarify that, I changed the condition to False.I still wonder why the function is needed.",6,500 LOC yet uses type hints,6,intention is a bit clearer
+src\acquisition\twtr\healthtweets.py,C0301,line-too-long,2,1,cmu-delphi/delphi-epidata/,https://github.com/cmu-delphi/delphi-epidata/pull/1568,Yes,"Made readable lines shorter. One line, having user agent, is still too long.",6,"variables date1, date2",5,Made readable lines shorter 
+src\maintenance\signal_dash_data_generator.py,C0301,line-too-long,1,1,cmu-delphi/delphi-epidata/,https://github.com/cmu-delphi/delphi-epidata/pull/1568,Yes,Made url more readable,6,magic numbers,6,Made url more readable
+src\server\endpoints\covid_hosp_facility.py,C0301,line-too-long,2,1,cmu-delphi/delphi-epidata/,https://github.com/cmu-delphi/delphi-epidata/pull/1568,Yes,Made unreadable query structured ,7,regular script,7,Made unreadable query structured 
+src\acquisition\ght\ght_update.py,R0915,too-many-statements,1,1,cmu-delphi/delphi-epidata/,https://github.com/cmu-delphi/delphi-epidata/pull/1568,Yes, Function update had 56 statements while Pylint recommends having at most 50. I extracted _process_values to make the code more structured and solve that. ,4,"400 LOC, unstructured code, magic numbers",7,"signature is large, parameters are modified"
+src\server\endpoints\delphi.py,C0301,line-too-long,1,1,cmu-delphi/delphi-epidata/,https://github.com/cmu-delphi/delphi-epidata/pull/1568,Yes,made readable query more structured,7,regular,6,made readable query more structured
+src\common\covidcast_row.py,C0301,line-too-long,1,1,cmu-delphi/delphi-epidata/,https://github.com/cmu-delphi/delphi-epidata/pull/1568,Yes,Made readable line shorter,8,uses type hints,5,Made readable line shorter
+src\acquisition\paho\paho_download.py,W0718,broad-exception-caught,1,1,cmu-delphi/delphi-epidata/, ,Discuss,What are the possible exceptions here?, , , , 
+src\acquisition\covid_hosp\common\utils.py,C0301,line-too-long,2,1,cmu-delphi/delphi-epidata/,https://github.com/cmu-delphi/delphi-epidata/pull/1568,Yes,Made readable lines shorter ,5,"magic numbers, structure problems",5,Made readable lines shorter 
 src\acquisition\quidel\quidel.py,C0301,line-too-long,3,0, , , , , , , , 
 src\acquisition\covidcast\csv_to_database.py,C0301,line-too-long,3,0, , , , , , , , 
 src\server\_printer.py,C0301,line-too-long,4,0, , , , , , , , 
