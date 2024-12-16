@@ -1,0 +1,2 @@
+LOC,LLOC,SLOC,Comments,Single comments,Multi,Blank,h1,h2,N1,N2,vocabulary,length,calculated_length,volume,difficulty,effort,time,bugs,McCabe_mean,McCabe_sum,McCabe_max,path
+4305,2815,2493,166,221,770,821,26,1771,1353,2511,1797,3864,19231.91862041931,41775.15181572241,18.431959345002824,769997.8998987164,42777.66110548424,13.925050605240804,3.306122448979592,972,45,chess\__init__.py
