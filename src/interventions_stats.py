@@ -37,7 +37,7 @@ def interventions_stats():
     all[NUM_HARMFUL_COL] = all[HARMFUL_COL].map(lambda x: 1 if x == 'Yes' else 0)
     all["Won't fix"] = all[PR_COL].map(lambda x: 1 if x == "Won’t fix" else 0)
     all["Owner objection"] = all[PR_COL].map(lambda x: 1 if x == "owner objected" else 0)
-
+    all['msg'] = all['msg'].map(lambda x: x.replace(' ', ''))
 
     performed = all[(all.chosen == 1)
                         & (all[PR_COL].notna())]
@@ -73,6 +73,8 @@ def get_merged_interventions():
                      , left_on=PR_COL
                      , right_on='pr')
     joint = joint[joint['status'] == 'merged']
+    joint['msg'] = joint['msg'].map(lambda x: x.replace(' ', ''))
+
     g = joint.groupby(['msg_id',	'msg']
                           , as_index=False).agg(merged_alerts=('alerts', lambda x: sum(x))
                                                  , merged_repositories=(REPO_COL, 'nunique')
