@@ -123,11 +123,12 @@ def describe_plan(plan: dict):
 def too_many_intervention_msg(name, cases, class_name=None, items='branches'):
 
     recommendations = {'statements': 50
-                       , 'branches':12}
+                       , 'branches':12
+                       , 'returns': 6}
     if class_name:
-        location = f'Method {name} of class {class_name} '
+        location = f'Method {name} of class {class_name}'
     else:
-        location = f'Function {name} '
+        location = f'Function {name}'
 
     print(f"{location} had {cases} {items} while Pylint recommends having at most {recommendations[items]}.")
     print("I extracted methods to make the code more structured and solve that.")
@@ -157,31 +158,44 @@ def exception_intervention_msg(name
         print("For details see")
         print(support)
 
-
+def wildcard_import_msg():
+    print("Wildcard imports (import *) make it harder to understand what is imported from where.")
+    print("Removing it is also a defensive programming act,")
+    print(" lowering the probability of collisions due to future new imports or objects.")
 
 if __name__ == "__main__":
 
     pp = pprint.PrettyPrinter(depth=4)
     #pp.pprint(mydict)
 
-    interventions_file = "mralext20_alex-bot_interventions_October_05_2024.csv"
-    generate_intro(interventions_file)
+    #interventions_file = "sysadmws_sysadmws-utils_interventions_October_05_2024.csv"
+    interventions_file = "cmu-delphi_delphi-epidata_interventions_December_06_2024.csv"
+    #generate_intro(interventions_file)
     plan = get_plan_metrics(interventions_file)
     describe_plan(plan)
-    #pp.pprint(plan)
-    generate_pr_creation("https://github.com/mralext20/alex-bot/issues/40")
-    #get_plan_discussion(interventions_file)
 
-    too_many_intervention_msg(name="vcShake"
-                              , cases=14
-                              , class_name="target_autocomplete"
-                              #, items='statements'
+    print("###")
+
+    interventions_file = "cmu-delphi_delphi-epidata_interventions_December_06_2024.csv"
+    #generate_intro(interventions_file)
+    plan = get_plan_metrics(interventions_file)
+    describe_plan(plan)
+
+    #pp.pprint(plan)
+    generate_pr_creation("https://github.com/cmu-delphi/delphi-epidata/issues/1560")
+    get_plan_discussion(interventions_file)
+    """
+    too_many_intervention_msg(name="update"
+                              , cases=56
+                              #, class_name="Database"
+                              , items='statements'
                               )
 
-    exception_intervention_msg(name="sugery_update"
-                               , line=157
-                               , replacement="discord.ClientException, discord.Forbidde, and discord.HTTPException"
-                               , try_section="mainly member.edit"
-                               , class_name="Sugery"
-                               , support="https://discordpy.readthedocs.io/en/latest/api.html#discord.Member.edit"
+    exception_intervention_msg(name="update_from_data"
+                               , line=152
+                               , replacement="mysql.connector.Error"
+                               , try_section="cursor's rexecute"
+                               , class_name=None
+                               , support="https://dev.mysql.com/doc/connector-python/en/connector-python-api-errors-error.html"
                                )
+"""
