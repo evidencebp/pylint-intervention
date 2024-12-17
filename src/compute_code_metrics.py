@@ -3,6 +3,7 @@
 Getting code metrics using Radon
 https://radon.readthedocs.io/en/latest/index.html
 """
+import datetime
 from os import listdir
 
 from os.path import join
@@ -79,13 +80,16 @@ def analyze_file(file: str):
 
     return df
 
-def get_current_repo_metrics(interventions_file):
+def get_current_repo_metrics(interventions_file
+                             , verbose=False):
     df = pd.read_csv(interventions_file)
     df = df[~df[PR_COL].isna()]
     df = df[df[PR_COL].str.contains('github')]
 
     metrics_list = []
     for _, i in df.iterrows():
+        if verbose:
+            print(datetime.datetime.now(), "analyzing ", i['path'])
         repo_name = i[REPO_COL]
         metrics = analyze_file(join(PROJECTS_DIR
                                 , get_project_name(repo_name)
@@ -102,11 +106,14 @@ def get_current_repo_metrics(interventions_file):
 def get_all_current_repo_metrics():
 
     intervention_files = listdir(DONE_DIRECTORY)
+    intervention_files = ['aajanki_yle-dl_interventions_October_06_2024.csv' # TODO - fix
+        ]
 
     for i in intervention_files:
-        print(i)
+        print(datetime.datetime.now(), i)
         get_current_repo_metrics(join(DONE_DIRECTORY
-                              , i))
+                              , i)
+                                , verbose=True)
 
 #interventions_file = "C:/src/pylint-intervention/interventions/done/mralext20_alex-bot_interventions_October_05_2024.csv"
 #get_current_repo_metrics(interventions_file)
