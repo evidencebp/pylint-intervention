@@ -1,5 +1,6 @@
 import os
 from os.path import join
+import re
 import subprocess
 
 
@@ -68,3 +69,33 @@ def count_repo_recent_commits(repo_dir: str
 
     return commits
 
+
+
+def get_file_prev_commit(commit, repo_dir):
+    """ Find the commit in which a file was changed, prior to the current commit.
+    """
+    cmd = f"cd {repo_dir};   git log --format='format: %H'"
+    result = run_powershell_cmd(cmd)
+
+    commits = str(result.stdout)
+    prev_commit_regex = commit + '\\\\n (?P<hash>[0-9a-f]{40})'
+    match = re.search(prev_commit_regex, commits)
+
+    return match.group('hash') if match else None
+
+def show_file_content(file_name
+                      , repo_dir
+                      , commit=None
+                      , output_file=None):
+    """ Show file in a given commit version.
+    """
+    file_name = file_name.replace("\\", "/")
+    if commit:
+        command = f'cd {repo_dir}; git show %s:%s' % (commit, file_name)
+    else:
+        command = f'cd {repo_dir}; git show HEAD:%s' % file_name
+
+    if output_file:
+        command = command + f" > {output_file}"
+
+    return str(run_powershell_cmd(command).stdout)
