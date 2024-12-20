@@ -9,8 +9,8 @@ from os import listdir
 from os.path import join
 import pandas as pd
 
-from configuration import DONE_DIRECTORY, PROJECTS_DIR, PR_COL, REPO_COL
-from utils import run_powershell_cmd, get_project_name
+from configuration import BASE_DIR, DONE_DIRECTORY, PROJECTS_DIR, PR_COL, REPO_COL
+from utils import run_powershell_cmd, get_project_name, get_file_prev_commit, show_file_content
 
 def get_raw_metrics(file: str)-> dict:
 
@@ -80,7 +80,8 @@ def analyze_file(file: str):
 
     return df
 
-def get_current_repo_metrics(interventions_file
+def get_repo_metrics(interventions_file
+                             , current=True
                              , verbose=False):
     df = pd.read_csv(interventions_file)
     df = df[~df[PR_COL].isna()]
@@ -91,31 +92,77 @@ def get_current_repo_metrics(interventions_file
         if verbose:
             print(datetime.datetime.now(), "analyzing ", i['path'])
         repo_name = i[REPO_COL]
-        metrics = analyze_file(join(PROJECTS_DIR
-                                , get_project_name(repo_name)
+        repo_dir = join(PROJECTS_DIR
+                        , get_project_name(repo_name))
+        if not current:
+            first_intervention_commit = get_author_first_commit_in_repo(repo_dir=repo_dir)
+            pre_intervention_commit = get_file_prev_commit(commit=first_intervention_commit
+                                                           ,repo_dir=repo_dir)
+            tmp_file = join(BASE_DIR
+                                                 , 'tmp.py')
+            show_file_content(i.path
+                              , repo_dir
+                              , commit=pre_intervention_commit
+                              , output_file=tmp_file)
+            metrics = analyze_file(join(repo_dir
+                                        , i.path))
+            metrics['commit'] = pre_intervention_commit
+        else:
+
+            metrics = analyze_file(join(repo_dir
                                 , i.path))
         metrics['path'] = i.path
         metrics_list.append(metrics)
 
     metrics_df = pd.concat(metrics_list)
-    metrics_df.to_csv(join("C:/src/pylint-intervention/data/code_metrics/after/"
+
+    if current:
+        metrics_df.to_csv(join("C:/src/pylint-intervention/data/code_metrics/after/"
+                           , repo_name.replace("/", "_slash_") + ".csv")
+                      , index=False)
+    else:
+        metrics_df.to_csv(join("C:/src/pylint-intervention/data/code_metrics/before/"
                            , repo_name.replace("/", "_slash_") + ".csv")
                       , index=False)
 
 
-def get_all_current_repo_metrics():
+def get_all_repo_metrics(current=True):
 
+    EXCLUDED_REPOS= ['aajanki_yle-dl_interventions_October_06_2024.csv'] # For some reason computation takes too long
     intervention_files = listdir(DONE_DIRECTORY)
-    intervention_files = ['aajanki_yle-dl_interventions_October_06_2024.csv' # TODO - fix
-        ]
+    intervention_files = set(intervention_files) - set(EXCLUDED_REPOS)
+
 
     for i in intervention_files:
         print(datetime.datetime.now(), i)
-        get_current_repo_metrics(join(DONE_DIRECTORY
+        get_repo_metrics(join(DONE_DIRECTORY
                               , i)
+                                , current=current
                                 , verbose=True)
+
+def get_author_first_commit_in_repo(repo_dir: str
+                                    , author_name: str = "evidencebp"):
+    # git log --author=evidencebp --format='format: %H'
+    cmd = f"cd {repo_dir};   git log --author={author_name} --format='format: %H'"
+    result = run_powershell_cmd(cmd)
+
+    commit = str(result.stdout)
+    commit = commit[commit.rfind("\\n") + 3:-1] # +3 due to "\\n ", -1 due to ending '
+
+    return commit
 
 #interventions_file = "C:/src/pylint-intervention/interventions/done/mralext20_alex-bot_interventions_October_05_2024.csv"
 #get_current_repo_metrics(interventions_file)
-get_all_current_repo_metrics()
+#get_all_current_repo_metrics()
 #print(analyze_file("C:/src/alex-bot/alexBot/cogs/voiceCommands.py"))
+
+#print(get_author_first_commit_in_repo("c:/interventions/alex-bot"))
+"""
+print(get_file_prev_commit(commit="0a6d54251d775b5111117de430683e2b6e7c3cb3"
+                           , repo_dir="c:/interventions/alex-bot"))
+print(show_file_content(file_name="alexBot\cogs\\reminders.py"
+                            , repo_dir="c:/interventions/alex-bot"
+                            , commit=get_file_prev_commit(commit="0a6d54251d775b5111117de430683e2b6e7c3cb3"
+                           , repo_dir="c:/interventions/alex-bot")))
+"""
+get_all_repo_metrics(current=False)
