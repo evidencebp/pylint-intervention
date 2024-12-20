@@ -1,0 +1,2 @@
+LOC,LLOC,SLOC,Comments,Single comments,Multi,Blank,h1,h2,N1,N2,vocabulary,length,calculated_length,volume,difficulty,effort,time,bugs,McCabe_mean,McCabe_sum,McCabe_max,path
+526,317,402,33,33,0,91,14,107,77,133,121,210,774.6399364537291,1452.961279827665,8.700934579439252,12642.121042238843,702.3400579021579,0.4843204266092217,4.40625,141,13,yledl\downloader.py

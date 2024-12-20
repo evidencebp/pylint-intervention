@@ -1,0 +1,2 @@
+LOC,LLOC,SLOC,Comments,Single comments,Multi,Blank,h1,h2,N1,N2,vocabulary,length,calculated_length,volume,difficulty,effort,time,bugs,McCabe_mean,McCabe_sum,McCabe_max,commit,path
+59,44,46,2,2,0,11,0,0,0,0,0,0,0,0,0,0,0.0,0.0,1.6666666666666667,10,3,dc776881e405693968e84651322d114242669100,src\stacosys\service\mail.py
