@@ -7,10 +7,16 @@ import datetime
 from os import listdir
 
 from os.path import join
+import numpy as np
 import pandas as pd
 
 from configuration import BASE_DIR, DONE_DIRECTORY, PROJECTS_DIR, PR_COL, REPO_COL
 from utils import run_powershell_cmd, get_project_name, get_file_prev_commit, show_file_content
+
+BEFORE_DIR = join(BASE_DIR
+                    , "data/code_metrics/before/")
+AFTER_DIR = join(BASE_DIR
+                    , "data/code_metrics/after/")
 
 def get_raw_metrics(file: str)-> dict:
 
@@ -80,6 +86,9 @@ def analyze_file(file: str):
 
     return df
 
+def get_metrics_file(repo_name):
+    return repo_name.replace("/", "_slash_") + ".csv"
+
 def get_repo_metrics(interventions_file
                              , current=True
                              , verbose=False):
@@ -112,17 +121,19 @@ def get_repo_metrics(interventions_file
             metrics = analyze_file(join(repo_dir
                                 , i.path))
         metrics['path'] = i.path
-        metrics_list.append(metrics)
+
+        if np.isreal(metrics['LOC']): # Avoid failure to analyze
+            metrics_list.append(metrics)
 
     metrics_df = pd.concat(metrics_list)
 
     if current:
-        metrics_df.to_csv(join("C:/src/pylint-intervention/data/code_metrics/after/"
-                           , repo_name.replace("/", "_slash_") + ".csv")
+        metrics_df.to_csv(join(AFTER_DIR
+                           , get_metrics_file(repo_name))
                       , index=False)
     else:
-        metrics_df.to_csv(join("C:/src/pylint-intervention/data/code_metrics/before/"
-                           , repo_name.replace("/", "_slash_") + ".csv")
+        metrics_df.to_csv(join(BEFORE_DIR
+                           , get_metrics_file(repo_name))
                       , index=False)
 
 
@@ -151,6 +162,58 @@ def get_author_first_commit_in_repo(repo_dir: str
 
     return commit
 
+def compute_code_differences():
+    KEY= 'path'
+
+    intervention_files = listdir(DONE_DIRECTORY)
+    #intervention_files = ['stanford-oval_storm_interventions_September_22_2024.csv'] # TODO - remove
+    EXCLUDED_REPOS= ['aajanki_yle-dl_interventions_October_06_2024.csv'
+                     , 'stanford-oval_storm_interventions_September_22_2024.csv'] # For some reason computation takes too long
+    intervention_files = set(intervention_files) - set(EXCLUDED_REPOS)
+
+    all_metrics = []
+    for i in intervention_files:
+        print(datetime.datetime.now(), i)
+
+        intervention_df = pd.read_csv(join(DONE_DIRECTORY
+                                           , i))
+        intervention_df = intervention_df[~intervention_df[PR_COL].isna()]
+        intervention_df = intervention_df[intervention_df[PR_COL].str.contains('github')]
+
+        repo_name = intervention_df[REPO_COL].max()
+        try:
+            before_df = pd.read_csv(join(BEFORE_DIR
+                                               , get_metrics_file(repo_name)))
+            after_df = pd.read_csv(join(AFTER_DIR
+                                               , get_metrics_file(repo_name)))
+            metrics = pd.merge(before_df
+                               , after_df
+                               , on=KEY
+                               , suffixes=('_before', '_after'))
+            aggs = {'path': 'count'
+                , 'msg': 'max'}
+            for c in set(before_df.columns) - set([KEY, 'commit']):
+                metrics[c + '_diff'] = metrics[c + '_after'] - metrics[c + '_before']
+                aggs[c + '_diff'] = 'mean'
+
+            joint = pd.merge(intervention_df
+                             , metrics
+                             , on=KEY)
+            all_metrics.append(joint)
+
+        except FileNotFoundError:
+            print("A file wans not forund", i)
+
+    all_metrics_df = pd.concat(all_metrics)
+    all_metrics_df.to_csv(join(BASE_DIR
+                            , 'interventions/interventions_code_metrics.csv')
+                       , index=False)
+
+    g = all_metrics_df.groupby(['msg_id']
+                            , as_index=False).agg(aggs)
+    g.to_csv(join(BASE_DIR
+                            , 'interventions/interventions_code_metrics_stats.csv'))
+
 #interventions_file = "C:/src/pylint-intervention/interventions/done/mralext20_alex-bot_interventions_October_05_2024.csv"
 #get_current_repo_metrics(interventions_file)
 #get_all_current_repo_metrics()
@@ -165,4 +228,5 @@ print(show_file_content(file_name="alexBot\cogs\\reminders.py"
                             , commit=get_file_prev_commit(commit="0a6d54251d775b5111117de430683e2b6e7c3cb3"
                            , repo_dir="c:/interventions/alex-bot")))
 """
-get_all_repo_metrics(current=False)
+#get_all_repo_metrics(current=False)
+compute_code_differences()
