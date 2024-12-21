@@ -169,9 +169,7 @@ def compute_code_differences():
     KEY= 'path'
 
     intervention_files = listdir(DONE_DIRECTORY)
-    #intervention_files = ['stanford-oval_storm_interventions_September_22_2024.csv'] # TODO - remove
-    EXCLUDED_REPOS= ['aajanki_yle-dl_interventions_October_06_2024.csv'
-                     , 'stanford-oval_storm_interventions_September_22_2024.csv'] # For some reason computation takes too long
+    EXCLUDED_REPOS= ['aajanki_yle-dl_interventions_October_06_2024.csv'] # For some reason computation takes too long
     intervention_files = set(intervention_files) - set(EXCLUDED_REPOS)
 
     all_metrics = []
@@ -195,8 +193,18 @@ def compute_code_differences():
                                , suffixes=('_before', '_after'))
             aggs = {'path': 'count'
                 , 'msg': 'max'}
-            for c in set(before_df.columns) - set([KEY, 'commit']):
-                metrics[c + '_diff'] = metrics[c + '_after'] - metrics[c + '_before']
+            for c in set(before_df.columns) - set([KEY, 'commit'
+                                                   , 'McCabe_max_diff', 'McCabe_mean_diff', 'McCabe_sum_diff']): # TODO - return McCabe
+                try:
+                    metrics['tmp'] = metrics[c + '_before'].map(lambda x: None if 'ERROR' in x else float(x))
+                    metrics[c + '_diff'] = metrics[c + '_after'] - metrics['tmp']
+                    #metrics[c + '_diff'] = metrics.apply(
+                    #    lambda x: None if ('ERROR' in str([c + '_before'])) else x[c + '_after'] - x[c + '_before']
+                    #    , axis=1
+                    #)
+                except TypeError:
+                    print("Type error in", c, i)
+                    metrics[c + '_diff'] = None
                 aggs[c + '_diff'] = 'mean'
 
             joint = pd.merge(intervention_df
@@ -205,7 +213,7 @@ def compute_code_differences():
             all_metrics.append(joint)
 
         except FileNotFoundError:
-            print("A file wans not forund", i)
+            print("A file was not found", i)
 
     all_metrics_df = pd.concat(all_metrics)
     all_metrics_df.to_csv(join(BASE_DIR
@@ -231,5 +239,5 @@ print(show_file_content(file_name="alexBot\cogs\\reminders.py"
                             , commit=get_file_prev_commit(commit="0a6d54251d775b5111117de430683e2b6e7c3cb3"
                            , repo_dir="c:/interventions/alex-bot")))
 """
-get_all_repo_metrics(current=False)
-#compute_code_differences()
+#get_all_repo_metrics(current=False)
+compute_code_differences()

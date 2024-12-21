@@ -3,6 +3,8 @@ from os.path import join
 import re
 import subprocess
 
+import codecs
+
 
 def get_project_name(repo_name: str) -> str:
 
@@ -95,7 +97,14 @@ def show_file_content(file_name
     else:
         command = f'cd {repo_dir}; git show HEAD:%s' % file_name
 
+    #result = str(run_powershell_cmd(command).stdout)[2:-1]
+    result = run_powershell_cmd(command).stdout
+    #result = str(result).encode("utf-8").replace("\n", os.linesep)
+    result = str(result).replace(r"\n", os.linesep)[2:-1]
     if output_file:
-        command = command + f" > {output_file}"
 
-    return str(run_powershell_cmd(command).stdout)
+        file = codecs.open(output_file, "w", "utf-8")
+        file.write(result)
+        file.close()
+
+    return result
