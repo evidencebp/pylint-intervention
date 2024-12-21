@@ -53,27 +53,32 @@ def get_McCabe_complexity(file:str) -> pd.DataFrame:
     result = str(run_powershell_cmd(cmd).stdout)
     result = result[result.find('\\r\\n'):] # Skipping file name
 
-    rows = []
-    while result.find(":") != -1:
-        start = result.find(":")
-        start = result.find(" ", start)
-        name = result[start+1:result.find(" ", start+1)]
+    if 'ERROR' in result:
+        print("Error in computing McCabe complexity ", file)
+        df = pd.DataFrame([[file, None, None]]
+                          , columns=['file', 'name', 'complexity'])
+    else:
+        rows = []
+        while result.find(":") != -1:
+            start = result.find(":")
+            start = result.find(" ", start)
+            name = result[start+1:result.find(" ", start+1)]
 
-        # getting complexity
-        result = result[start:]
-        start = result.find("(")
-        end = result.find(")")
-        try:
-            complexity = int(result[start+1: end])
-        except:
-            print("Error parsing complexity", file)
-            complexity = None
-        result = result[end+1:]
+            # getting complexity
+            result = result[start:]
+            start = result.find("(")
+            end = result.find(")")
+            try:
+                complexity = int(result[start+1: end])
+            except:
+                print("Error parsing complexity", file)
+                complexity = None
+            result = result[end+1:]
 
-        rows.append((file, name, complexity))
+            rows.append((file, name, complexity))
 
-    df = pd.DataFrame(rows
-                      , columns=['file', 'name', 'complexity'])
+        df = pd.DataFrame(rows
+                          , columns=['file', 'name', 'complexity'])
 
     return df
 
@@ -223,13 +228,16 @@ def compute_code_differences():
                             , 'interventions/interventions_code_metrics.csv')
                        , index=False)
 
+    all_metrics_df['valid'] = all_metrics_df['LOC_before'].map(lambda x: str(x).isnumeric())
+    all_metrics_df = all_metrics_df[all_metrics_df['valid'] == True]
     g = all_metrics_df.groupby(['msg_id']
                             , as_index=False).agg(aggs)
     g.to_csv(join(BASE_DIR
                             , 'interventions/interventions_code_metrics_stats.csv'))
 
 #interventions_file = "C:/src/pylint-intervention/interventions/done/mralext20_alex-bot_interventions_October_05_2024.csv"
-#get_current_repo_metrics(interventions_file)
+#get_repo_metrics(interventions_file
+#                 , current=False)
 #get_all_current_repo_metrics()
 #print(analyze_file("C:/src/alex-bot/alexBot/cogs/voiceCommands.py"))
 
