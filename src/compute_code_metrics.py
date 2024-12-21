@@ -63,7 +63,11 @@ def get_McCabe_complexity(file:str) -> pd.DataFrame:
         result = result[start:]
         start = result.find("(")
         end = result.find(")")
-        complexity = int(result[start+1: end])
+        try:
+            complexity = int(result[start+1: end])
+        except:
+            print("Error parsing complexity", file)
+            complexity = None
         result = result[end+1:]
 
         rows.append((file, name, complexity))
@@ -113,8 +117,7 @@ def get_repo_metrics(interventions_file
                               , repo_dir
                               , commit=pre_intervention_commit
                               , output_file=tmp_file)
-            metrics = analyze_file(join(repo_dir
-                                        , i.path))
+            metrics = analyze_file(tmp_file)
             metrics['commit'] = pre_intervention_commit
         else:
 
@@ -228,5 +231,5 @@ print(show_file_content(file_name="alexBot\cogs\\reminders.py"
                             , commit=get_file_prev_commit(commit="0a6d54251d775b5111117de430683e2b6e7c3cb3"
                            , repo_dir="c:/interventions/alex-bot")))
 """
-#get_all_repo_metrics(current=False)
-compute_code_differences()
+get_all_repo_metrics(current=False)
+#compute_code_differences()
