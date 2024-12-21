@@ -196,8 +196,11 @@ def compute_code_differences():
             for c in set(before_df.columns) - set([KEY, 'commit'
                                                    , 'McCabe_max_diff', 'McCabe_mean_diff', 'McCabe_sum_diff']): # TODO - return McCabe
                 try:
-                    metrics['tmp'] = metrics[c + '_before'].map(lambda x: None if 'ERROR' in x else float(x))
-                    metrics[c + '_diff'] = metrics[c + '_after'] - metrics['tmp']
+                    metrics['tmp_before'] = metrics[c + '_before'].map(lambda x: None if 'ERROR' in str(x) else float(x))
+                    metrics['tmp_after'] = metrics[c + '_after'].map(lambda x: None if not str(x).isnumeric() else float(x))
+                    metrics[c + '_diff'] = metrics['tmp_after'] - metrics['tmp_before']
+                    metrics.drop(columns=['tmp_before', 'tmp_after']
+                                 , inplace=True)
                     #metrics[c + '_diff'] = metrics.apply(
                     #    lambda x: None if ('ERROR' in str([c + '_before'])) else x[c + '_after'] - x[c + '_before']
                     #    , axis=1
