@@ -172,10 +172,12 @@ if __name__ == "__main__":
 
     #interventions_file = "sysadmws_sysadmws-utils_interventions_October_05_2024.csv"
     interventions_file = "sukeesh_Jarvis_interventions_September_29_2024.csv"
-    #generate_intro(interventions_file)
+    generate_intro(interventions_file)
     plan = get_plan_metrics(interventions_file)
     describe_plan(plan)
 
+    generate_pr_creation("https://github.com/sukeesh/Jarvis/issues/1230")
+    """
     print("###")
 
     #generate_intro(interventions_file)
@@ -183,7 +185,7 @@ if __name__ == "__main__":
     describe_plan(plan)
 
     #pp.pprint(plan)
-    generate_pr_creation("https://github.com/cmu-delphi/delphi-epidata/issues/1560")
+
     get_plan_discussion(interventions_file)
 
     too_many_intervention_msg(name="hexToAssembly"
@@ -197,6 +199,7 @@ if __name__ == "__main__":
                               , class_name="MipsConverter"
                               , items='statements'
                               )
+    """
 
     exception_intervention_msg(name="parse_articles"
                                , line="269"
