@@ -124,7 +124,8 @@ def too_many_intervention_msg(name, cases, class_name=None, items='branches'):
 
     recommendations = {'statements': 50
                        , 'branches':12
-                       , 'returns': 6}
+                       , 'returns': 6
+                       , 'nested-blocks': 5}
     if class_name:
         location = f'Method {name} of class {class_name}'
     else:
@@ -147,7 +148,7 @@ def exception_intervention_msg(name
     else:
         location = f'Function {name} '
 
-    print(f"{location} catches exception (line {line})")
+    print(f"{location} catches Exception (line {line})")
     print()
     print("The try section is")
     print()
@@ -161,22 +162,22 @@ def exception_intervention_msg(name
 def wildcard_import_msg():
     print("Wildcard imports (import *) make it harder to understand what is imported from where.")
     print("Removing it is also a defensive programming act,")
-    print(" lowering the probability of collisions due to future new imports or objects.")
+    print("lowering the probability of collisions due to future new imports or objects.")
 
 if __name__ == "__main__":
+
 
     pp = pprint.PrettyPrinter(depth=4)
     #pp.pprint(mydict)
 
     #interventions_file = "sysadmws_sysadmws-utils_interventions_October_05_2024.csv"
-    interventions_file = "cmu-delphi_delphi-epidata_interventions_December_06_2024.csv"
+    interventions_file = "sukeesh_Jarvis_interventions_September_29_2024.csv"
     #generate_intro(interventions_file)
     plan = get_plan_metrics(interventions_file)
     describe_plan(plan)
 
     print("###")
 
-    interventions_file = "cmu-delphi_delphi-epidata_interventions_December_06_2024.csv"
     #generate_intro(interventions_file)
     plan = get_plan_metrics(interventions_file)
     describe_plan(plan)
@@ -184,18 +185,25 @@ if __name__ == "__main__":
     #pp.pprint(plan)
     generate_pr_creation("https://github.com/cmu-delphi/delphi-epidata/issues/1560")
     get_plan_discussion(interventions_file)
-    """
-    too_many_intervention_msg(name="update"
-                              , cases=56
-                              #, class_name="Database"
+
+    too_many_intervention_msg(name="hexToAssembly"
+                              , cases=63
+                              , class_name="MipsConverter"
                               , items='statements'
                               )
 
-    exception_intervention_msg(name="update_from_data"
-                               , line=152
-                               , replacement="mysql.connector.Error"
-                               , try_section="cursor's rexecute"
-                               , class_name=None
-                               , support="https://dev.mysql.com/doc/connector-python/en/connector-python-api-errors-error.html"
+    too_many_intervention_msg(name="assemblyToHex"
+                              , cases=114
+                              , class_name="MipsConverter"
+                              , items='statements'
+                              )
+
+    exception_intervention_msg(name="parse_articles"
+                               , line="269"
+                               , replacement="ValueError"
+                               , try_section="converts index to int"
+                               , class_name="News"
+                               , support="https://docs.python.org/3/library/exceptions.html#ValueError"
                                )
-"""
+    wildcard_import_msg()
+
