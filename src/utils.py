@@ -117,3 +117,25 @@ def get_branch_name(repo_dir: str) -> str:
 
     return result
 
+def create_branch(repo_dir: str
+                  , branch_name: str
+                  , commit: str = None):
+    if commit:
+        command = f'cd {repo_dir}; git branch {branch_name} {commit}'
+    else:
+        command = f'cd {repo_dir}; git branch {branch_name}'
+    run_powershell_cmd(command)
+
+
+def checkout_branch(repo_dir: str
+                  , branch_name: str):
+
+    command = f'cd {repo_dir}; git checkout {branch_name}'
+    run_powershell_cmd(command)
+
+
+def delete_branch(repo_dir: str
+                    , branch_name: str):
+    command = f'cd {repo_dir}; git branch -d {branch_name}'
+    run_powershell_cmd(command)
+
