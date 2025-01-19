@@ -11,7 +11,7 @@ import numpy as np
 import pandas as pd
 
 from configuration import BASE_DIR, DONE_DIRECTORY, PROJECTS_DIR, PR_COL, REPO_COL
-from utils import run_powershell_cmd, get_project_name, get_file_prev_commit, show_file_content
+from utils import run_powershell_cmd, get_project_name, get_file_prev_commit, show_file_content, get_branch_name
 
 BEFORE_DIR = join(BASE_DIR
                     , "data/code_metrics/before/")
@@ -88,8 +88,8 @@ def analyze_file(file: str):
     metrics.update(get_Halstead_metrics(file))
     McCabe = get_McCabe_complexity(file)
     metrics['McCabe_mean'] = McCabe['complexity'].mean()
-    metrics['McCabe_sum'] = McCabe['complexity'].sum()
     metrics['McCabe_max'] = McCabe['complexity'].max()
+    metrics['McCabe_sum'] = McCabe['complexity'].max() if np.isnan(McCabe['complexity'].max()) else McCabe['complexity'].sum()
 
     df = pd.DataFrame(metrics, index=[0])
 
@@ -150,6 +150,7 @@ def get_all_repo_metrics(current=True):
     EXCLUDED_REPOS= ['aajanki_yle-dl_interventions_October_06_2024.csv'] # For some reason computation takes too long
     intervention_files = listdir(DONE_DIRECTORY)
     intervention_files = set(intervention_files) - set(EXCLUDED_REPOS)
+    intervention_files = ['niklasf_python-chess_interventions_October_01_2024.csv'] # TODO - remove
 
 
     for i in intervention_files:
@@ -218,6 +219,7 @@ def compute_code_differences():
             joint = pd.merge(intervention_df
                              , metrics
                              , on=KEY)
+            joint['file'] = i
             all_metrics.append(joint)
 
         except FileNotFoundError:
@@ -250,5 +252,11 @@ print(show_file_content(file_name="alexBot\cogs\\reminders.py"
                             , commit=get_file_prev_commit(commit="0a6d54251d775b5111117de430683e2b6e7c3cb3"
                            , repo_dir="c:/interventions/alex-bot")))
 """
+#get_all_repo_metrics(current=True)
 #get_all_repo_metrics(current=False)
-compute_code_differences()
+#compute_code_differences()
+# TODO - check McCabe in sum aggregation
+# TODO - Check parsing error
+# TODO - Check metrics are correct
+
+print(get_branch_name(repo_dir="c:/interventions/alex-bot"))
