@@ -189,9 +189,7 @@ def compute_code_differences():
 
     intervention_files = listdir(DONE_DIRECTORY)
     EXCLUDED_REPOS= ['aajanki_yle-dl_interventions_October_06_2024.csv' # For some reason computation takes too long
-                     , 'sukeesh_Jarvis_interventions_September_29_2024.csv'
-                     , 'stanford-oval_storm_interventions_September_22_2024.csv'
-                     , 'TheReverend403_ricedb_interventions_October_04_2024.csv']
+                     ]
     intervention_files = set(intervention_files) - set(EXCLUDED_REPOS)
 
     all_metrics = []
@@ -217,8 +215,9 @@ def compute_code_differences():
                 , 'msg': 'max'}
             for c in set(before_df.columns) - set([KEY, 'commit'
                                                    , 'McCabe_max_diff', 'McCabe_mean_diff', 'McCabe_sum_diff']): # TODO - return McCabe
+                #print(c)
                 try:
-                    metrics['tmp_before'] = metrics[c + '_before'].map(lambda x: None if 'ERROR' in str(x) else float(x))
+                    metrics['tmp_before'] = metrics[c + '_before'].map(lambda x: None if not str(x).isnumeric() else float(x))
                     metrics['tmp_after'] = metrics[c + '_after'].map(lambda x: None if not str(x).isnumeric() else float(x))
                     metrics[c + '_diff'] = metrics['tmp_after'] - metrics['tmp_before']
                     metrics.drop(columns=['tmp_before', 'tmp_after']
