@@ -11,7 +11,8 @@ import numpy as np
 import pandas as pd
 
 from configuration import BASE_DIR, DONE_DIRECTORY, PROJECTS_DIR, PR_COL, REPO_COL
-from utils import run_powershell_cmd, get_project_name, get_file_prev_commit, show_file_content, get_branch_name
+from utils import (run_powershell_cmd, get_project_name, get_file_prev_commit, show_file_content
+                    , get_branch_name, create_branch, checkout_branch, delete_branch)
 
 BEFORE_DIR = join(BASE_DIR
                     , "data/code_metrics/before/")
@@ -105,30 +106,36 @@ def get_repo_metrics(interventions_file
     df = df[~df[PR_COL].isna()]
     df = df[df[PR_COL].str.contains('github')]
 
+    repo_name = df[REPO_COL].max() # Should be same value, max takes one
+    repo_dir = join(PROJECTS_DIR
+                    , get_project_name(repo_name))
+
+    pre_intervention_commit = None
+    if not current:
+        first_intervention_commit = get_author_first_commit_in_repo(repo_dir=repo_dir)
+        pre_intervention_commit = get_file_prev_commit(commit=first_intervention_commit
+                                                       , repo_dir=repo_dir)
+        # Get current branch
+        intervention_branch = get_branch_name(repo_dir=repo_dir)
+        pre_branch_name = 'tmp_branch'
+
+        # Move to pre-intervention branch
+        create_branch(repo_dir=repo_dir
+                          , branch_name='tmp_branch'
+                          , commit=pre_intervention_commit)
+        checkout_branch(repo_dir=repo_dir
+                          , branch_name=pre_branch_name)
+
+
     metrics_list = []
     for _, i in df.iterrows():
         if verbose:
             print(datetime.datetime.now(), "analyzing ", i['path'])
-        repo_name = i[REPO_COL]
-        repo_dir = join(PROJECTS_DIR
-                        , get_project_name(repo_name))
-        if not current:
-            first_intervention_commit = get_author_first_commit_in_repo(repo_dir=repo_dir)
-            pre_intervention_commit = get_file_prev_commit(commit=first_intervention_commit
-                                                           ,repo_dir=repo_dir)
-            tmp_file = join(BASE_DIR
-                                                 , 'tmp.py')
-            show_file_content(i.path
-                              , repo_dir
-                              , commit=pre_intervention_commit
-                              , output_file=tmp_file)
-            metrics = analyze_file(tmp_file)
-            metrics['commit'] = pre_intervention_commit
-        else:
 
-            metrics = analyze_file(join(repo_dir
-                                , i.path))
+        metrics = analyze_file(join(repo_dir
+                            , i.path))
         metrics['path'] = i.path
+        metrics['commit'] = pre_intervention_commit
 
         if np.isreal(metrics['LOC']): # Avoid failure to analyze
             metrics_list.append(metrics)
@@ -144,13 +151,19 @@ def get_repo_metrics(interventions_file
                            , get_metrics_file(repo_name))
                       , index=False)
 
+        # Return to original branch
+        checkout_branch(repo_dir=repo_dir
+                          , branch_name=intervention_branch)
+        # Delete temp branch
+        delete_branch(repo_dir=repo_dir
+                      , branch_name=pre_branch_name)
+
 
 def get_all_repo_metrics(current=True):
 
     EXCLUDED_REPOS= ['aajanki_yle-dl_interventions_October_06_2024.csv'] # For some reason computation takes too long
     intervention_files = listdir(DONE_DIRECTORY)
     intervention_files = set(intervention_files) - set(EXCLUDED_REPOS)
-    intervention_files = ['niklasf_python-chess_interventions_October_01_2024.csv'] # TODO - remove
 
 
     for i in intervention_files:
@@ -175,7 +188,10 @@ def compute_code_differences():
     KEY= 'path'
 
     intervention_files = listdir(DONE_DIRECTORY)
-    EXCLUDED_REPOS= ['aajanki_yle-dl_interventions_October_06_2024.csv'] # For some reason computation takes too long
+    EXCLUDED_REPOS= ['aajanki_yle-dl_interventions_October_06_2024.csv' # For some reason computation takes too long
+                     , 'sukeesh_Jarvis_interventions_September_29_2024.csv'
+                     , 'stanford-oval_storm_interventions_September_22_2024.csv'
+                     , 'TheReverend403_ricedb_interventions_October_04_2024.csv']
     intervention_files = set(intervention_files) - set(EXCLUDED_REPOS)
 
     all_metrics = []
@@ -237,9 +253,9 @@ def compute_code_differences():
     g.to_csv(join(BASE_DIR
                             , 'interventions/interventions_code_metrics_stats.csv'))
 
-#interventions_file = "C:/src/pylint-intervention/interventions/done/mralext20_alex-bot_interventions_October_05_2024.csv"
-#get_repo_metrics(interventions_file
-#                 , current=False)
+interventions_file = "C:/src/pylint-intervention/interventions/done/mralext20_alex-bot_interventions_October_05_2024.csv"
+get_repo_metrics(interventions_file
+                 , current=False)
 #get_all_current_repo_metrics()
 #print(analyze_file("C:/src/alex-bot/alexBot/cogs/voiceCommands.py"))
 
@@ -254,9 +270,20 @@ print(show_file_content(file_name="alexBot\cogs\\reminders.py"
 """
 #get_all_repo_metrics(current=True)
 #get_all_repo_metrics(current=False)
-#compute_code_differences()
+compute_code_differences()
 # TODO - check McCabe in sum aggregation
 # TODO - Check parsing error
 # TODO - Check metrics are correct
 
-print(get_branch_name(repo_dir="c:/interventions/alex-bot"))
+repo_dir="c:/src/databases-course"
+branch_name='tmp_branch'
+"""print(get_branch_name(repo_dir=repo_dir))
+create_branch(repo_dir=repo_dir
+                  , branch_name='tmp_branch'
+                  , commit='aab9365ba5aa049cb75cc30467f2503335da29f9')
+checkout_branch(repo_dir=repo_dir
+                  , branch_name=branch_name)
+print(get_branch_name(repo_dir=repo_dir))
+delete_branch(repo_dir=repo_dir
+                    , branch_name=branch_name)
+"""
