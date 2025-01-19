@@ -171,12 +171,12 @@ if __name__ == "__main__":
     #pp.pprint(mydict)
 
     #interventions_file = "sysadmws_sysadmws-utils_interventions_October_05_2024.csv"
-    interventions_file = "sukeesh_Jarvis_interventions_September_29_2024.csv"
+    interventions_file = "nschloe_meshio_interventions_September_29_2024.csv"
     generate_intro(interventions_file)
     plan = get_plan_metrics(interventions_file)
     describe_plan(plan)
 
-    generate_pr_creation("https://github.com/sukeesh/Jarvis/issues/1230")
+    generate_pr_creation("https://github.com/nschloe/meshio/issues/1500")
     """
     print("###")
 
@@ -188,25 +188,34 @@ if __name__ == "__main__":
 
     get_plan_discussion(interventions_file)
 
-    too_many_intervention_msg(name="hexToAssembly"
-                              , cases=63
-                              , class_name="MipsConverter"
-                              , items='statements'
+
+    too_many_intervention_msg(name="_update"
+                              , cases=16
+                              , class_name="SchemaLoader"
+                              #, items='returns'
                               )
 
-    too_many_intervention_msg(name="assemblyToHex"
-                              , cases=114
-                              , class_name="MipsConverter"
-                              , items='statements'
-                              )
-    """
 
-    exception_intervention_msg(name="parse_articles"
-                               , line="269"
-                               , replacement="ValueError"
-                               , try_section="converts index to int"
-                               , class_name="News"
-                               , support="https://docs.python.org/3/library/exceptions.html#ValueError"
-                               )
     wildcard_import_msg()
 
+
+    too_many_intervention_msg(name="__init__"
+                              , cases=16
+                              , class_name="TimeSeriesReader"
+                              #, items='nested-blocks'
+                              )
+
+    too_many_intervention_msg(name="_read_cells"
+                              , cases=14
+                              #, class_name="TimeSeriesReader"
+                              #, items='statements'
+                              )
+
+    exception_intervention_msg(name="parse_articles"
+                               , line="12"
+                               , replacement="metadata.PackageNotFoundError"
+                               , try_section='__version__ = metadata.version("meshio")'
+                               #, class_name="News"
+                               , support="https://docs.python.org/3/library/importlib.metadata.html"
+                               )
+"""
