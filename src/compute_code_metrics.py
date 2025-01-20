@@ -252,6 +252,25 @@ def compute_code_differences():
     g.to_csv(join(BASE_DIR
                             , 'interventions/interventions_code_metrics_stats.csv'))
 
+
+
+def list_branches():
+    EXCLUDED_REPOS = [
+        'aajanki_yle-dl_interventions_October_06_2024.csv']  # For some reason computation takes too long
+    intervention_files = listdir(DONE_DIRECTORY)
+    intervention_files = set(intervention_files) - set(EXCLUDED_REPOS)
+
+    for i in intervention_files:
+        df = pd.read_csv(join(DONE_DIRECTORY
+                              , i))
+        df = df[~df[PR_COL].isna()]
+        df = df[df[PR_COL].str.contains('github')]
+        repo_name = df[REPO_COL].max()  # Should be same value, max takes one
+        repo_dir = join(PROJECTS_DIR
+                        , get_project_name(repo_name))
+        print(i, get_branch_name(repo_dir=repo_dir))
+
+
 interventions_file = "C:/src/pylint-intervention/interventions/done/mralext20_alex-bot_interventions_October_05_2024.csv"
 get_repo_metrics(interventions_file
                  , current=False)
@@ -269,9 +288,9 @@ print(show_file_content(file_name="alexBot\cogs\\reminders.py"
 """
 #get_all_repo_metrics(current=True)
 #get_all_repo_metrics(current=False)
+#list_branches()
 compute_code_differences()
-# TODO - check McCabe in sum aggregation
-# TODO - Check parsing error
+# TODO - branches not deleted
 # TODO - Check metrics are correct
 
 repo_dir="c:/src/databases-course"
