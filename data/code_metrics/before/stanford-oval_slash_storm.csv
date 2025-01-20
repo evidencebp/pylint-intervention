@@ -1,4 +1,4 @@
-LOC,LLOC,SLOC,Comments,Single comments,Multi,Blank,h1,h2,N1,N2,vocabulary,length,calculated_length,volume,difficulty,effort,time,bugs,McCabe_mean,McCabe_sum,McCabe_max,commit,path
-103,64,80,8,8,0,15,5,22,13,23,27,36,109.71713608445735,171.1759500778849,2.6136363636363638,447.3916877035628,24.855093761309046,0.05705865002596163,15.0,15,15.0,564a507c6523877f6956a6b6f136e07a2758c4d4,frontend\demo_light\pages_util\CreateNewArticle.py
-1b[0m,b[0m,b[0m,,,[0m,[0m,x1b[0m,x1b[0m,x1b[0m,x1b[0m,,0m,,0m,,0m,b[0m,b[0m,,0,,564a507c6523877f6956a6b6f136e07a2758c4d4,examples\helper\process_kaggle_arxiv_abstract_dataset.py
-60,41,47,2,2,0,11,2,11,7,14,13,21,40.053747805010275,77.70923408096293,1.2727272727272727,98.90266155758918,5.494592308754955,0.025903078026987644,11.0,11,11.0,564a507c6523877f6956a6b6f136e07a2758c4d4,frontend\demo_light\storm.py
+LOC,LLOC,SLOC,Comments,Single comments,Multi,Blank,h1,h2,N1,N2,vocabulary,length,calculated_length,volume,difficulty,effort,time,bugs,McCabe_mean,McCabe_max,McCabe_sum,path,commit
+103,64,80,8,8,0,15,5,22,13,23,27,36,109.71713608445735,171.1759500778849,2.6136363636363638,447.3916877035628,24.855093761309046,0.05705865002596163,15.0,15.0,15.0,frontend\demo_light\pages_util\CreateNewArticle.py,564a507c6523877f6956a6b6f136e07a2758c4d4
+1b[0m,b[0m,b[0m,,,[0m,[0m,x1b[0m,x1b[0m,x1b[0m,x1b[0m,,0m,,0m,,0m,b[0m,b[0m,,,,examples\helper\process_kaggle_arxiv_abstract_dataset.py,564a507c6523877f6956a6b6f136e07a2758c4d4
+60,41,47,2,2,0,11,2,11,7,14,13,21,40.053747805010275,77.70923408096293,1.2727272727272727,98.90266155758918,5.494592308754955,0.025903078026987644,11.0,11.0,11.0,frontend\demo_light\storm.py,564a507c6523877f6956a6b6f136e07a2758c4d4
