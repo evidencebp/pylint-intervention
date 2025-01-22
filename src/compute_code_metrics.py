@@ -184,13 +184,14 @@ def get_author_first_commit_in_repo(repo_dir: str
 
     return commit
 
-def compute_code_differences():
+def compute_code_differences(stats_per_repo=False):
     KEY= 'path'
 
     intervention_files = listdir(DONE_DIRECTORY)
     EXCLUDED_REPOS= ['aajanki_yle-dl_interventions_October_06_2024.csv' # For some reason computation takes too long
                      ]
     intervention_files = set(intervention_files) - set(EXCLUDED_REPOS)
+    #intervention_files = ['akrherz_iembot_interventions_October_04_2024.csv'] # TODO - remove
 
     all_metrics = []
     for i in intervention_files:
@@ -213,8 +214,7 @@ def compute_code_differences():
                                , suffixes=('_before', '_after'))
             aggs = {'path': 'count'
                 , 'msg': 'max'}
-            for c in set(before_df.columns) - set([KEY, 'commit'
-                                                   , 'McCabe_max_diff', 'McCabe_mean_diff', 'McCabe_sum_diff']): # TODO - return McCabe
+            for c in set(before_df.columns) - set([KEY, 'commit']):
                 #print(c)
                 try:
                     metrics['tmp_before'] = metrics[c + '_before'].map(lambda x: None if not str(x).isnumeric() else float(x))
@@ -235,6 +235,13 @@ def compute_code_differences():
                              , metrics
                              , on=KEY)
             joint['file'] = i
+            if stats_per_repo:
+                g = joint.groupby(['msg_id']
+                                           , as_index=False).agg(aggs)
+                g.to_csv(join(BASE_DIR
+                    , 'interventions/interventions_code_metrics_stats_{repo}.csv'.format(
+                        repo=repo_name.replace('/','_'))))
+
             all_metrics.append(joint)
 
         except FileNotFoundError:
@@ -272,8 +279,8 @@ def list_branches():
 
 
 interventions_file = "C:/src/pylint-intervention/interventions/done/mralext20_alex-bot_interventions_October_05_2024.csv"
-get_repo_metrics(interventions_file
-                 , current=False)
+#get_repo_metrics(interventions_file
+#                 , current=False)
 #get_all_current_repo_metrics()
 #print(analyze_file("C:/src/alex-bot/alexBot/cogs/voiceCommands.py"))
 
