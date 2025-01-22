@@ -236,6 +236,7 @@ def compute_code_differences(stats_per_repo=False):
             joint = pd.merge(intervention_df
                              , metrics
                              , on=KEY)
+            joint = joint[joint['alerts'] ==1] # Avoid multiple interventions in stats
             joint['file'] = i
             if stats_per_repo:
                 g = joint.groupby(['msg_id']

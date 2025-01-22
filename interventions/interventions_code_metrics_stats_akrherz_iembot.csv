@@ -1,0 +1,3 @@
+,msg_id,path,msg,length_diff,time_diff,McCabe_sum_diff,effort_diff,difficulty_diff,LLOC_diff,Multi_diff,vocabulary_diff,h1_diff,McCabe_max_diff,calculated_length_diff,Comments_diff,volume_diff,bugs_diff,N1_diff,Single comments_diff,McCabe_mean_diff,h2_diff,LOC_diff,Blank_diff,N2_diff,SLOC_diff
+0,R0912,2, too-many-branches,2.5,-5.066167479017821,-2.0,-91.19101462232038,-0.38578838276418903,8.5,0.0,4.5,0.0,-7.0,33.6446083601173,0.0,25.160324673438026,0.00838677489114599,1.0,0.0,-6.2662754447093345,4.5,16.0,7.5,1.5,8.5
+1,W0104,1, pointless-statement,0.0,0.0,0.0,0.0,0.0,-1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,-1.0,0.0,0.0,-1.0
