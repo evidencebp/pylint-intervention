@@ -217,8 +217,10 @@ def compute_code_differences(stats_per_repo=False):
             for c in set(before_df.columns) - set([KEY, 'commit']):
                 #print(c)
                 try:
-                    metrics['tmp_before'] = metrics[c + '_before'].map(lambda x: None if not str(x).isnumeric() else float(x))
-                    metrics['tmp_after'] = metrics[c + '_after'].map(lambda x: None if not str(x).isnumeric() else float(x))
+                    metrics['tmp_before'] = metrics[c + '_before'].map(lambda x: None if
+                                    not (str(x).isnumeric() or isinstance(x, (int, float))) else float(x))
+                    metrics['tmp_after'] = metrics[c + '_after'].map(lambda x: None if
+                                    not (str(x).isnumeric() or isinstance(x, (int, float))) else float(x))
                     metrics[c + '_diff'] = metrics['tmp_after'] - metrics['tmp_before']
                     metrics.drop(columns=['tmp_before', 'tmp_after']
                                  , inplace=True)
@@ -296,7 +298,7 @@ print(show_file_content(file_name="alexBot\cogs\\reminders.py"
 #get_all_repo_metrics(current=True)
 #get_all_repo_metrics(current=False)
 #list_branches()
-compute_code_differences()
+compute_code_differences(stats_per_repo=True)
 # TODO - branches not deleted
 # TODO - Check metrics are correct
 
