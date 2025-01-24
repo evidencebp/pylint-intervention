@@ -12,7 +12,7 @@ import pandas as pd
 
 from configuration import BASE_DIR, DONE_DIRECTORY, PROJECTS_DIR, PR_COL, REPO_COL
 from code_metrics import analyze_file
-from utils import (run_powershell_cmd, get_project_name, get_file_prev_commit
+from utils import (get_author_first_commit_in_repo, get_project_name, get_file_prev_commit
                     , get_branch_name, create_branch, checkout_branch, delete_branch)
 
 BEFORE_DIR = join(BASE_DIR
@@ -99,17 +99,6 @@ def get_all_repo_metrics(current=True):
                               , i)
                                 , current=current
                                 , verbose=True)
-
-def get_author_first_commit_in_repo(repo_dir: str
-                                    , author_name: str = "evidencebp"):
-    # git log --author=evidencebp --format='format: %H'
-    cmd = f"cd {repo_dir};   git log --author={author_name} --format='format: %H'"
-    result = run_powershell_cmd(cmd)
-
-    commit = str(result.stdout)
-    commit = commit[commit.rfind("\\n") + 3:-1] # +3 due to "\\n ", -1 due to ending '
-
-    return commit
 
 def compute_code_differences(stats_per_repo=False):
     KEY= 'path'

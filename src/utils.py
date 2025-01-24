@@ -139,3 +139,13 @@ def delete_branch(repo_dir: str
     command = f'cd {repo_dir}; git branch -d {branch_name}'
     run_powershell_cmd(command)
 
+
+def get_author_first_commit_in_repo(repo_dir: str
+                                    , author_name: str = "evidencebp"):
+    cmd = f"cd {repo_dir};   git log --author={author_name} --format='format: %H'"
+    result = run_powershell_cmd(cmd)
+
+    commit = str(result.stdout)
+    commit = commit[commit.rfind("\\n") + 3:-1] # +3 due to "\\n ", -1 due to ending '
+
+    return commit
