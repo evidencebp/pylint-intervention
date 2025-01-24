@@ -27,12 +27,16 @@ EXCLUDED_REPOS = ['aajanki_yle-dl_interventions_October_06_2024.csv'  # For some
 def get_metrics_file(repo_name):
     return repo_name.replace("/", "_slash_") + ".csv"
 
-def get_repo_metrics(interventions_file
-                             , current=True
-                             , verbose=False):
+def get_done_interventions(interventions_file):
     df = pd.read_csv(interventions_file)
     df = df[~df[PR_COL].isna()]
     df = df[df[PR_COL].str.contains('github')]
+
+    return df
+def get_repo_metrics(interventions_file
+                             , current=True
+                             , verbose=False):
+    df = get_done_interventions(interventions_file)
 
     repo_name = df[REPO_COL].max() # Should be same value, max takes one
     repo_dir = join(PROJECTS_DIR
@@ -87,7 +91,8 @@ def get_repo_metrics(interventions_file
                       , branch_name=pre_branch_name)
 
 
-def get_all_repo_metrics(current=True):
+def get_all_repo_metrics(current=True
+                         , verbose: bool = False):
 
     intervention_files = listdir(DONE_DIRECTORY)
     intervention_files = set(intervention_files) - set(EXCLUDED_REPOS)
@@ -98,7 +103,7 @@ def get_all_repo_metrics(current=True):
         get_repo_metrics(join(DONE_DIRECTORY
                               , i)
                                 , current=current
-                                , verbose=True)
+                                , verbose=verbose)
 
 def compute_code_differences(stats_per_repo=False):
     KEY= 'path'
@@ -183,10 +188,8 @@ def list_branches():
     intervention_files = set(intervention_files) - set(EXCLUDED_REPOS)
 
     for i in intervention_files:
-        df = pd.read_csv(join(DONE_DIRECTORY
+        df = get_done_interventions(join(DONE_DIRECTORY
                               , i))
-        df = df[~df[PR_COL].isna()]
-        df = df[df[PR_COL].str.contains('github')]
         repo_name = df[REPO_COL].max()  # Should be same value, max takes one
         repo_dir = join(PROJECTS_DIR
                         , get_project_name(repo_name))
@@ -210,20 +213,6 @@ print(show_file_content(file_name="alexBot\cogs\\reminders.py"
 """
 #get_all_repo_metrics(current=True)
 #get_all_repo_metrics(current=False)
-#list_branches()
 compute_code_differences(stats_per_repo=True)
 # TODO - branches not deleted
 # TODO - Check metrics are correct
-
-repo_dir="c:/src/databases-course"
-branch_name='tmp_branch'
-"""print(get_branch_name(repo_dir=repo_dir))
-create_branch(repo_dir=repo_dir
-                  , branch_name='tmp_branch'
-                  , commit='aab9365ba5aa049cb75cc30467f2503335da29f9')
-checkout_branch(repo_dir=repo_dir
-                  , branch_name=branch_name)
-print(get_branch_name(repo_dir=repo_dir))
-delete_branch(repo_dir=repo_dir
-                    , branch_name=branch_name)
-"""
