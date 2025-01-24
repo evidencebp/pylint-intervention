@@ -71,6 +71,8 @@ def get_repo_metrics(interventions_file
 
         if np.isreal(metrics['LOC']): # Avoid failure to analyze
             metrics_list.append(metrics)
+        else:
+            print("Not a real number LOC in ", interventions_file, i.path)
 
     metrics_df = pd.concat(metrics_list)
 
