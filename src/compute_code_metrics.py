@@ -20,6 +20,10 @@ BEFORE_DIR = join(BASE_DIR
 AFTER_DIR = join(BASE_DIR
                     , "data/code_metrics/after/")
 
+EXCLUDED_REPOS = ['aajanki_yle-dl_interventions_October_06_2024.csv'  # For some reason computation takes too long
+                  ]
+
+
 def get_metrics_file(repo_name):
     return repo_name.replace("/", "_slash_") + ".csv"
 
@@ -85,7 +89,6 @@ def get_repo_metrics(interventions_file
 
 def get_all_repo_metrics(current=True):
 
-    EXCLUDED_REPOS= ['aajanki_yle-dl_interventions_October_06_2024.csv'] # For some reason computation takes too long
     intervention_files = listdir(DONE_DIRECTORY)
     intervention_files = set(intervention_files) - set(EXCLUDED_REPOS)
 
@@ -112,8 +115,6 @@ def compute_code_differences(stats_per_repo=False):
     KEY= 'path'
 
     intervention_files = listdir(DONE_DIRECTORY)
-    EXCLUDED_REPOS= ['aajanki_yle-dl_interventions_October_06_2024.csv' # For some reason computation takes too long
-                     ]
     intervention_files = set(intervention_files) - set(EXCLUDED_REPOS)
     intervention_files = ['mralext20_alex-bot_interventions_October_05_2024.csv'] # TODO - remove
 
@@ -189,8 +190,6 @@ def compute_code_differences(stats_per_repo=False):
 
 
 def list_branches():
-    EXCLUDED_REPOS = [
-        'aajanki_yle-dl_interventions_October_06_2024.csv']  # For some reason computation takes too long
     intervention_files = listdir(DONE_DIRECTORY)
     intervention_files = set(intervention_files) - set(EXCLUDED_REPOS)
 
