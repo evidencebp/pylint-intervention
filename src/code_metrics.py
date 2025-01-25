@@ -1,3 +1,8 @@
+"""
+See
+https://radon.readthedocs.io/en/latest/index.html
+
+"""
 import numpy as np
 import pandas as pd
 
@@ -25,13 +30,12 @@ def get_raw_metrics(file: str)-> dict:
 
     return get_metrics_set(file
                     , type='raw'
-                    , metric_to_extract=['LOC', 'LLOC', 'SLOC', 'Comments', 'Single comments', 'Multi', 'Blank'])
+                    , metric_to_extract=['LOC', 'LLOC', 'SLOC'])
 
 def get_Halstead_metrics(file: str)-> dict:
     return get_metrics_set(file
                     , type='hal'
-                    , metric_to_extract=['h1', 'h2', 'N1', 'N2', 'vocabulary', 'length', 'calculated_length'
-                                         , 'volume', 'difficulty', 'effort', 'time', 'bugs'])
+                    , metric_to_extract=['N1', 'N2'])
 
 def get_McCabe_complexity(file:str) -> pd.DataFrame:
     cmd = f'radon  cc -s  {file}'
@@ -73,7 +77,6 @@ def analyze_file(file: str):
     metrics = get_raw_metrics(file)
     metrics.update(get_Halstead_metrics(file))
     McCabe = get_McCabe_complexity(file)
-    metrics['McCabe_mean'] = McCabe['complexity'].mean()
     metrics['McCabe_max'] = McCabe['complexity'].max()
     metrics['McCabe_sum'] = McCabe['complexity'].max() if np.isnan(McCabe['complexity'].max()) else McCabe['complexity'].sum()
 

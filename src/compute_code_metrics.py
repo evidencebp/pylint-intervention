@@ -13,7 +13,8 @@ import pandas as pd
 from configuration import BASE_DIR, DONE_DIRECTORY, PROJECTS_DIR, PR_COL, REPO_COL
 from code_metrics import analyze_file
 from utils import (get_author_first_commit_in_repo, get_project_name, get_file_prev_commit
-                    , get_branch_name, create_branch, checkout_branch, delete_branch)
+                    , get_branch_name, create_branch, checkout_branch, delete_branch
+                    , get_branch_names)
 
 BEFORE_DIR = join(BASE_DIR
                     , "data/code_metrics/before/")
@@ -67,7 +68,7 @@ def get_repo_metrics(interventions_file
         metrics = analyze_file(join(repo_dir
                             , i.path))
         metrics['path'] = i.path
-        metrics['commit'] = pre_intervention_commit
+        #metrics['commit'] = pre_intervention_commit
 
         if np.isreal(metrics['LOC']): # Avoid failure to analyze
             metrics_list.append(metrics)
@@ -112,7 +113,7 @@ def compute_code_differences(stats_per_repo=False):
 
     intervention_files = listdir(DONE_DIRECTORY)
     intervention_files = set(intervention_files) - set(EXCLUDED_REPOS)
-    intervention_files = ['mralext20_alex-bot_interventions_October_05_2024.csv'] # TODO - remove
+    #intervention_files = ['mralext20_alex-bot_interventions_October_05_2024.csv'] # TODO - remove
 
     all_metrics = []
     for i in intervention_files:
@@ -185,7 +186,7 @@ def compute_code_differences(stats_per_repo=False):
 
 
 
-def list_branches():
+def list_branches(func=get_branch_name):
     intervention_files = listdir(DONE_DIRECTORY)
     intervention_files = set(intervention_files) - set(EXCLUDED_REPOS)
 
@@ -195,7 +196,8 @@ def list_branches():
         repo_name = df[REPO_COL].max()  # Should be same value, max takes one
         repo_dir = join(PROJECTS_DIR
                         , get_project_name(repo_name))
-        print(i, get_branch_name(repo_dir=repo_dir))
+        print(i)
+        print(func(repo_dir=repo_dir))
 
 
 interventions_file = "C:/src/pylint-intervention/interventions/done/mralext20_alex-bot_interventions_October_05_2024.csv"
@@ -212,9 +214,12 @@ print(show_file_content(file_name="alexBot\cogs\\reminders.py"
                             , repo_dir="c:/interventions/alex-bot"
                             , commit=get_file_prev_commit(commit="0a6d54251d775b5111117de430683e2b6e7c3cb3"
                            , repo_dir="c:/interventions/alex-bot")))
-"""
-#get_all_repo_metrics(current=True)
-#get_all_repo_metrics(current=False)
+print("Compute current metrics")
+get_all_repo_metrics(current=True)
+print("Compute original metrics")
+get_all_repo_metrics(current=False)
 compute_code_differences(stats_per_repo=True)
+"""
 # TODO - branches not deleted
 # TODO - Check metrics are correct
+list_branches(get_branch_names)

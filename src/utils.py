@@ -117,6 +117,15 @@ def get_branch_name(repo_dir: str) -> str:
 
     return result
 
+
+def get_branch_names(repo_dir: str) -> str:
+
+    command = f'cd {repo_dir}; git branch'
+    result = str(run_powershell_cmd(command).stdout)
+    result = result[2:-1].replace(r"\n","")
+
+    return result
+
 def create_branch(repo_dir: str
                   , branch_name: str
                   , commit: str = None):
