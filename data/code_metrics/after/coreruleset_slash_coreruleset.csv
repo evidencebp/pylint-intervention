@@ -1,3 +1,3 @@
-LOC,LLOC,SLOC,Comments,Single comments,Multi,Blank,h1,h2,N1,N2,vocabulary,length,calculated_length,volume,difficulty,effort,time,bugs,McCabe_mean,McCabe_max,McCabe_sum,path,commit
-1133,727,863,158,104,77,89,16,441,277,548,457,825,3938.023966890867,7289.741542922908,9.941043083900226,72467.63474869393,4025.9797082607743,2.4299138476409694,12.333333333333334,47,222,util\crs-rules-check\rules-check.py,
-107,75,80,13,13,0,14,9,30,17,33,39,50,175.7360428812364,264.27011094311246,4.95,1308.1370491684067,72.67428050935592,0.08809003698103748,6.6,9,33,util\change-version\change-version.py,
+LOC,LLOC,SLOC,N1,N2,McCabe_max,McCabe_sum,path
+1133,727,863,277,548,47,222,util\crs-rules-check\rules-check.py
+107,75,80,17,33,9,33,util\change-version\change-version.py
