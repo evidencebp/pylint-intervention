@@ -11,7 +11,7 @@ def clean_whitespace(field):
     for i in intervention_files:
         df = pd.read_csv(join(DONE_DIRECTORY
                               , i))
-        df[field] = df[field].map(lambda x: str(x).strip())
+        df[field] = df[field].map(lambda x: str(x).strip() if isinstance(x, str) and ' ' in x else x)
         df.to_csv(join(DONE_DIRECTORY
                               , i)
                   , index=False)
