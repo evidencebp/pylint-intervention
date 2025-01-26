@@ -4,7 +4,7 @@ cappuccino\lastfm.py,R0911,too-many-return-statements,1,1,TheReverend403/cappucc
 cappuccino\triggers.py,R0911,too-many-return-statements,1,1,TheReverend403/cappuccino,https://github.com/TheReverend403/cappuccino/pull/23,Yes,"  Method trigger of class Triggers had 7 returns while Pylint recommends having at most 6.  Now, in the last returns, the return value is assigned into the variable response that is returned at the end. ",7,regular,7,response variable instead of return
 cappuccino\fun.py,C0301,line-too-long,2,1,TheReverend403/cappuccino, ,No,readable regex, , , , 
 cappuccino\rice.py,R0911,too-many-return-statements,1,1,TheReverend403/cappuccino,https://github.com/TheReverend403/cappuccino/pull/23,Yes," Method _generic_db of class Rice had 19 returns while Pylint recommends having at most 6.  Now, in the last returns, the return value is assigned into the variable response that is returned at the end. ",5,"too complex (e.g., branches too)",7,response variable instead of return
-cappuccino\urlinfo.py,R0912,too-many-branches,2,0, , , , , , , , 
-cappuccino\rice.py,C0301,line-too-long,9,0, , , , , , , , 
-cappuccino\rice.py,R0912,too-many-branches,1,0, , , , , , , , 
-cappuccino\rice.py,R0915,too-many-statements,1,0, , , , , , , , 
+cappuccino\urlinfo.py,R0912,too-many-branches,2,0,, , , , , , , 
+cappuccino\rice.py,C0301,line-too-long,9,0,, , , , , , , 
+cappuccino\rice.py,R0912,too-many-branches,1,0,, , , , , , , 
+cappuccino\rice.py,R0915,too-many-statements,1,0,, , , , , , , 

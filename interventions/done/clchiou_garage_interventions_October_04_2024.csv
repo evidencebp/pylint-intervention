@@ -24,9 +24,9 @@ python\g1\http\servers\g1\http\servers\wsgi.py,R0912,too-many-branches,1,1,clchi
 python\g1\third-party\capnp\capnp\dynamics.py,R0911,too-many-return-statements,2,1,clchiou/garage,https://github.com/clchiou/garage/pull/2,Yes, Functions _make_to_lower and _make_to_upper had 7 returns each. Pylint recommends having at most 6.   Now result is kept in a variable and returned at the end. ,5,"300 LOC, some classes",7,just uses a single return
 python\g1\third-party\capnp\capnp\schemas.py,R0912,too-many-branches,1,1,clchiou/garage,https://github.com/clchiou/garage/pull/2,Yes, Method _update of class SchemaLoader had 16 branches while Pylint recommends having at most 12. I extracted methods to make the code more structured and solve that. ,4,"400 LOC, Some classes",10,"clean functions, covering all logic"
 python\g1\asyncs\agents\g1\asyncs\agents\__init__.py,W0718,broad-exception-caught,1,1,clchiou/garage, ,No,shutdown comes from a queue and not known, , , , 
-python\g1\third-party\capnp\capnp\objects.py,R0912,too-many-branches,2,0, , , , , , , , 
-python\g1\bases\g1\bases\pools.py,W0718,broad-exception-caught,7,0, , , , , , , , 
-python\g1\messaging\g1\messaging\wiredata\jsons.py,R0912,too-many-branches,2,0, , , , , , , , 
-python\g1\messaging\g1\messaging\reqrep\servers.py,W0718,broad-exception-caught,4,0, , , , , , , , 
-python\g1\threads\g1\threads\futures.py,W0718,broad-exception-caught,3,0, , , , , , , , 
-python\g1\http\servers\g1\http\servers\wsgi.py,W0718,broad-exception-caught,1,0, , , , , , , , 
+python\g1\third-party\capnp\capnp\objects.py,R0912,too-many-branches,2,0,, , , , , , , 
+python\g1\bases\g1\bases\pools.py,W0718,broad-exception-caught,7,0,, , , , , , , 
+python\g1\messaging\g1\messaging\wiredata\jsons.py,R0912,too-many-branches,2,0,, , , , , , , 
+python\g1\messaging\g1\messaging\reqrep\servers.py,W0718,broad-exception-caught,4,0,, , , , , , , 
+python\g1\threads\g1\threads\futures.py,W0718,broad-exception-caught,3,0,, , , , , , , 
+python\g1\http\servers\g1\http\servers\wsgi.py,W0718,broad-exception-caught,1,0,, , , , , , , 
