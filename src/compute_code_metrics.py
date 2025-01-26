@@ -4,6 +4,7 @@ Getting code metrics using Radon
 https://radon.readthedocs.io/en/latest/index.html
 """
 import datetime
+import os
 from os import listdir
 
 from os.path import join
@@ -14,7 +15,7 @@ from configuration import BASE_DIR, DONE_DIRECTORY, PROJECTS_DIR, PR_COL, REPO_C
 from code_metrics import analyze_file
 from utils import (get_author_first_commit_in_repo, get_project_name, get_file_prev_commit
                     , get_branch_name, create_branch, checkout_branch, delete_branch
-                    , get_branch_names)
+                    , get_branch_names, copy_files)
 
 BEFORE_DIR = join(BASE_DIR
                     , "data/code_metrics/before/")
@@ -24,6 +25,26 @@ AFTER_DIR = join(BASE_DIR
 EXCLUDED_REPOS = ['aajanki_yle-dl_interventions_October_06_2024.csv'  # For some reason computation takes too long
                   ]
 
+def copy_repo_files(target_directory: str
+                    , repo_name:str
+                    , interventions_df:pd.DataFrame):
+
+    # Create repo dir if needed
+    repo_dir = join(target_directory
+                    , get_project_name(repo_name))
+
+    if not os.path.exists(repo_dir):
+        os.makedirs(repo_dir)
+
+    for i in interventions_df['path'].unique():
+        source = join(PROJECTS_DIR
+                      , get_project_name(repo_name)
+                      , i)
+        dest = join(target_directory
+                    , get_project_name(repo_name)
+                    , i.replace("\\", "_slash_"))
+        copy_files(source
+                   , dest)
 
 def get_metrics_file(repo_name):
     return repo_name.replace("/", "_slash_") + ".csv"
@@ -81,10 +102,19 @@ def get_repo_metrics(interventions_file
         metrics_df.to_csv(join(AFTER_DIR
                            , get_metrics_file(repo_name))
                       , index=False)
+        copy_repo_files(target_directory=join(BASE_DIR
+                                              , 'data/after')
+                        , repo_name=repo_name
+                        , interventions_df=df)
+
     else:
         metrics_df.to_csv(join(BEFORE_DIR
                            , get_metrics_file(repo_name))
                       , index=False)
+        copy_repo_files(target_directory=join(BASE_DIR
+                                              , 'data/before')
+                        , repo_name=repo_name
+                        , interventions_df=df)
 
         # Return to original branch
         checkout_branch(repo_dir=repo_dir
@@ -242,10 +272,11 @@ get_all_repo_metrics(current=True)
 print("Compute original metrics")
 get_all_repo_metrics(current=False)
 
+
 compute_code_differences(stats_per_repo=True)
+#list_branches(get_branch_names)
+
 # TODO - Check metrics are correct
-# TODO - space in message name
 # Check LOC definition
 # use relevant McCabe Functions
 # Keep code versions?
-#list_branches(get_branch_names)
