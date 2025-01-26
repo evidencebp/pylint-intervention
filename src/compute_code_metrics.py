@@ -179,12 +179,34 @@ def compute_code_differences(stats_per_repo=False):
 
     all_metrics_df['valid'] = all_metrics_df['LOC_before'].map(lambda x: str(x).isnumeric())
     all_metrics_df = all_metrics_df[all_metrics_df['valid'] == True]
+
+    get_metrics_dist(all_metrics_df)
+
     g = all_metrics_df.groupby(['msg_id']
                             , as_index=False).agg(aggs)
     g.to_csv(join(BASE_DIR
                             , 'interventions/interventions_code_metrics_stats.csv'))
 
 
+def get_metrics_dist(df):
+    alert = "line-too-long"
+    print(alert)
+    for i in ['SLOC_diff', 'LLOC_diff', 'LOC_diff']:
+        print(i)
+        print(df[df['msg']==alert][i].value_counts())
+
+    alert = "too-many-branches"
+    print(alert)
+    for i in ['McCabe_max_diff','McCabe_sum_diff']:
+        print(i)
+        print(df[df['msg']==alert][i].value_counts())
+
+    #  simplifiable-if-expression
+    alert = "simplifiable-if-expression"
+    print(alert)
+    for i in ['McCabe_max_diff','McCabe_sum_diff']:
+        print(i)
+        print(df[df['msg']==alert][i].value_counts())
 
 def list_branches(func=get_branch_name):
     intervention_files = listdir(DONE_DIRECTORY)
@@ -214,12 +236,16 @@ print(show_file_content(file_name="alexBot\cogs\\reminders.py"
                             , repo_dir="c:/interventions/alex-bot"
                             , commit=get_file_prev_commit(commit="0a6d54251d775b5111117de430683e2b6e7c3cb3"
                            , repo_dir="c:/interventions/alex-bot")))
+"""
 print("Compute current metrics")
 get_all_repo_metrics(current=True)
 print("Compute original metrics")
 get_all_repo_metrics(current=False)
+
 compute_code_differences(stats_per_repo=True)
-"""
-# TODO - branches not deleted
 # TODO - Check metrics are correct
-list_branches(get_branch_names)
+# TODO - space in message name
+# Check LOC definition
+# use relevant McCabe Functions
+# Keep code versions?
+#list_branches(get_branch_names)
