@@ -1,3 +1,3 @@
-,msg_id,path,msg,N2_diff,McCabe_sum_diff,SLOC_diff,N1_diff,LLOC_diff,McCabe_max_diff,LOC_diff
-0,C0301,2, line-too-long,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-1,R0912,1, too-many-branches,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+,msg_id,path,msg,LOC_diff,N1_diff,SLOC_diff,N2_diff,McCabe_max_diff,Multi_diff,McCabe_sum_diff,LLOC_diff
+0,C0301,2, line-too-long,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+1,R0912,1, too-many-branches,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0

@@ -1,4 +1,4 @@
-LOC,LLOC,SLOC,N1,N2,McCabe_max,McCabe_sum,path
-259,147,180,38,74,15,53,src\iembot\iemchatbot.py
-765,432,540,53,100,8,95,src\iembot\basicbot.py
-874,510,640,82,155,13,116,src\iembot\util.py
+LOC,LLOC,SLOC,Multi,N1,N2,McCabe_max,McCabe_sum,path
+259,147,180,9,38,74,15,53,src\iembot\iemchatbot.py
+765,432,540,94,53,100,8,95,src\iembot\basicbot.py
+874,510,640,65,82,155,13,116,src\iembot\util.py

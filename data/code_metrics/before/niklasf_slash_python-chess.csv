@@ -1,2 +1,2 @@
-LOC,LLOC,SLOC,N1,N2,McCabe_max,McCabe_sum,path
-4305,2815,2493,1353,2511,45,972,chess\__init__.py
+LOC,LLOC,SLOC,Multi,N1,N2,McCabe_max,McCabe_sum,path
+4305,2815,2493,770,1353,2511,45,972,chess\__init__.py
