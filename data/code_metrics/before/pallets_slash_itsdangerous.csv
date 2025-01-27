@@ -1,0 +1,3 @@
+LOC,LLOC,SLOC,N1,N2,McCabe_max,McCabe_sum,path
+228,110,136,15,30,14,35,src\itsdangerous\timed.py
+266,131,124,19,36,6,45,src\itsdangerous\signer.py

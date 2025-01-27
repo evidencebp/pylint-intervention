@@ -1,2 +1,2 @@
-LOC,LLOC,SLOC,Multi,N1,N2,McCabe_max,McCabe_sum,path
-59,44,46,0,0,0,3,10,src\stacosys\service\mail.py
+LOC,LLOC,SLOC,N1,N2,McCabe_max,McCabe_sum,path
+59,44,46,0,0,3,10,src\stacosys\service\mail.py

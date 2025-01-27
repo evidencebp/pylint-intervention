@@ -1,2 +1,2 @@
-LOC,LLOC,SLOC,Multi,N1,N2,McCabe_max,McCabe_sum,path
-76,43,40,11,13,24,7,13,filter.py
+LOC,LLOC,SLOC,N1,N2,McCabe_max,McCabe_sum,path
+76,43,40,13,24,7,13,filter.py

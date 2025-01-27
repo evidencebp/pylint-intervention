@@ -1,5 +1,5 @@
-LOC,LLOC,SLOC,Multi,N1,N2,McCabe_max,McCabe_sum,path
-1b[0m,b[0m,b[0m,[0m,x1b[0m,x1b[0m,,,cappuccino\urlinfo.py
-1b[0m,b[0m,b[0m,[0m,x1b[0m,x1b[0m,,,cappuccino\lastfm.py
-1b[0m,b[0m,b[0m,[0m,x1b[0m,x1b[0m,,,cappuccino\triggers.py
-1b[0m,b[0m,b[0m,[0m,x1b[0m,x1b[0m,,,cappuccino\rice.py
+LOC,LLOC,SLOC,N1,N2,McCabe_max,McCabe_sum,path
+1b[0m,b[0m,b[0m,x1b[0m,x1b[0m,,,cappuccino\urlinfo.py
+1b[0m,b[0m,b[0m,x1b[0m,x1b[0m,,,cappuccino\lastfm.py
+1b[0m,b[0m,b[0m,x1b[0m,x1b[0m,,,cappuccino\triggers.py
+1b[0m,b[0m,b[0m,x1b[0m,x1b[0m,,,cappuccino\rice.py

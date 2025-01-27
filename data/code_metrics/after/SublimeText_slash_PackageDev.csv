@@ -1,7 +1,7 @@
-LOC,LLOC,SLOC,Multi,N1,N2,McCabe_max,McCabe_sum,path
-83,54,62,0,5,7,6,22,plugins\create_package.py
-119,81,75,8,11,21,5,31,plugins\new_resource_file\__init__.py
-405,115,148,151,8,16,4,26,plugins\lib\fileconv\dumpers.py
-444,177,355,0,42,71,9,64,plugins\syntax_dev\completions.py
-429,197,208,102,55,104,10,88,plugins\lib\fileconv\loaders.py
-286,146,221,15,30,49,8,61,plugins\command_completions\__init__.py
+LOC,LLOC,SLOC,N1,N2,McCabe_max,McCabe_sum,path
+83,54,62,5,7,6,22,plugins\create_package.py
+119,81,75,11,21,5,31,plugins\new_resource_file\__init__.py
+405,115,148,8,16,4,26,plugins\lib\fileconv\dumpers.py
+444,177,355,42,71,9,64,plugins\syntax_dev\completions.py
+429,197,208,55,104,10,88,plugins\lib\fileconv\loaders.py
+286,146,221,30,49,8,61,plugins\command_completions\__init__.py

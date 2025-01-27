@@ -1,2 +1,2 @@
-LOC,LLOC,SLOC,Multi,N1,N2,McCabe_max,McCabe_sum,path
-8,7,7,0,0,0,,,examples\issues\issue37.py
+LOC,LLOC,SLOC,N1,N2,McCabe_max,McCabe_sum,path
+8,7,7,0,0,,,examples\issues\issue37.py
