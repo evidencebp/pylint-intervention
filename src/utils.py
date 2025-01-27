@@ -162,3 +162,9 @@ def get_author_first_commit_in_repo(repo_dir: str
 def force_dir(dir):
     if not os.path.exists(dir):
         os.makedirs(dir)
+
+def count_lines(file):
+    with open(file, "rb") as f:
+        num_lines = sum(1 for _ in f)
+
+    return num_lines
