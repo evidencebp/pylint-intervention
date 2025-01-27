@@ -15,7 +15,7 @@ from configuration import BASE_DIR, DONE_DIRECTORY, PROJECTS_DIR, PR_COL, REPO_C
 from code_metrics import analyze_file
 from utils import (get_author_first_commit_in_repo, get_project_name, get_file_prev_commit
                     , get_branch_name, create_branch, checkout_branch, delete_branch
-                    , get_branch_names, copy_files)
+                    , force_dir, copy_files)
 
 BEFORE_DIR = join(BASE_DIR
                     , "data/code_metrics/before/")
@@ -33,8 +33,7 @@ def copy_repo_files(target_directory: str
     repo_dir = join(target_directory
                     , get_project_name(repo_name))
 
-    if not os.path.exists(repo_dir):
-        os.makedirs(repo_dir)
+    force_dir(repo_dir)
 
     for i in interventions_df['path'].unique():
         source = join(PROJECTS_DIR
@@ -274,33 +273,34 @@ def get_pre_intervention_commits():
                                             , 'pre_intervention_commits.csv')
                                        , index=False)
 
-interventions_file = "C:/src/pylint-intervention/interventions/done/mralext20_alex-bot_interventions_October_05_2024.csv"
-#get_repo_metrics(interventions_file
-#                 , current=False)
-#get_all_current_repo_metrics()
-#print(analyze_file("C:/src/alex-bot/alexBot/cogs/voiceCommands.py"))
+if __name__ == "__main__":
+    interventions_file = "C:/src/pylint-intervention/interventions/done/mralext20_alex-bot_interventions_October_05_2024.csv"
+    #get_repo_metrics(interventions_file
+    #                 , current=False)
+    #get_all_current_repo_metrics()
+    #print(analyze_file("C:/src/alex-bot/alexBot/cogs/voiceCommands.py"))
 
-#print(get_author_first_commit_in_repo("c:/interventions/alex-bot"))
-"""
-print(get_file_prev_commit(commit="0a6d54251d775b5111117de430683e2b6e7c3cb3"
-                           , repo_dir="c:/interventions/alex-bot"))
-print(show_file_content(file_name="alexBot\cogs\\reminders.py"
-                            , repo_dir="c:/interventions/alex-bot"
-                            , commit=get_file_prev_commit(commit="0a6d54251d775b5111117de430683e2b6e7c3cb3"
-                           , repo_dir="c:/interventions/alex-bot")))
-print("Compute current metrics")
-get_all_repo_metrics(current=True)
-print("Compute original metrics")
-get_all_repo_metrics(current=False)
+    #print(get_author_first_commit_in_repo("c:/interventions/alex-bot"))
+    """
+    print(get_file_prev_commit(commit="0a6d54251d775b5111117de430683e2b6e7c3cb3"
+                               , repo_dir="c:/interventions/alex-bot"))
+    print(show_file_content(file_name="alexBot\cogs\\reminders.py"
+                                , repo_dir="c:/interventions/alex-bot"
+                                , commit=get_file_prev_commit(commit="0a6d54251d775b5111117de430683e2b6e7c3cb3"
+                               , repo_dir="c:/interventions/alex-bot")))
+    print("Compute current metrics")
+    get_all_repo_metrics(current=True)
+    print("Compute original metrics")
+    get_all_repo_metrics(current=False)
+    
+    
+    
+    compute_code_differences(stats_per_repo=True)
+    """
+    get_pre_intervention_commits()
+    #list_branches(get_branch_names)
 
-
-
-compute_code_differences(stats_per_repo=True)
-"""
-get_pre_intervention_commits()
-#list_branches(get_branch_names)
-
-# TODO - Check metrics are correct
-# Check LOC definition
-# use relevant McCabe Functions
-# identical version "C:\src\pylint-intervention\data\after\vault\src_slash_tools_slash_troubleshoot_db.py"
+    # TODO - Check metrics are correct
+    # Check LOC definition
+    # use relevant McCabe Functions
+    # identical version "C:\src\pylint-intervention\data\after\vault\src_slash_tools_slash_troubleshoot_db.py"

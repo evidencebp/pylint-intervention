@@ -158,3 +158,7 @@ def get_author_first_commit_in_repo(repo_dir: str
     commit = commit[commit.rfind("\\n") + 3:-1] # +3 due to "\\n ", -1 due to ending '
 
     return commit
+
+def force_dir(dir):
+    if not os.path.exists(dir):
+        os.makedirs(dir)
