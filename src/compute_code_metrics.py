@@ -64,13 +64,11 @@ def get_repo_metrics(interventions_file
     repo_dir = join(PROJECTS_DIR
                     , get_project_name(repo_name))
 
-    pre_intervention_commits = []
     pre_intervention_commit = None
     if not current:
         first_intervention_commit = get_author_first_commit_in_repo(repo_dir=repo_dir)
         pre_intervention_commit = get_file_prev_commit(commit=first_intervention_commit
                                                        , repo_dir=repo_dir)
-        pre_intervention_commits.append((repo_name, pre_intervention_commit))
         # Get current branch
         intervention_branch = get_branch_name(repo_dir=repo_dir)
         pre_branch_name = 'tmp_branch'
@@ -117,12 +115,6 @@ def get_repo_metrics(interventions_file
                                               , 'data/before')
                         , repo_name=repo_name
                         , interventions_df=df)
-        pre_intervention_commits_df = pd.DataFrame(pre_intervention_commits
-                                                   , columns=['repo_name', 'pre_intervention_commit'])
-        pre_intervention_commits_df.to_csv(join(BASE_DIR
-                                                , 'data/before'
-                                                , 'pre_intervention_commits.csv')
-                                           , index=False)
 
         # Return to original branch
         checkout_branch(repo_dir=repo_dir
@@ -137,7 +129,6 @@ def get_all_repo_metrics(current=True
 
     intervention_files = listdir(DONE_DIRECTORY)
     intervention_files = set(intervention_files) - set(EXCLUDED_REPOS)
-    #intervention_files = ['sukeesh_Jarvis_interventions_September_29_2024.csv'] # TODO - remove
 
 
     for i in intervention_files:
@@ -152,7 +143,6 @@ def compute_code_differences(stats_per_repo=False):
 
     intervention_files = listdir(DONE_DIRECTORY)
     intervention_files = set(intervention_files) - set(EXCLUDED_REPOS)
-    #intervention_files = ['mralext20_alex-bot_interventions_October_05_2024.csv'] # TODO - remove
 
     all_metrics = []
     for i in intervention_files:
@@ -261,6 +251,29 @@ def list_branches(func=get_branch_name):
         print(func(repo_dir=repo_dir))
 
 
+def get_pre_intervention_commits():
+    intervention_files = listdir(DONE_DIRECTORY)
+    intervention_files = set(intervention_files) - set(EXCLUDED_REPOS)
+
+    pre_intervention_commits = []
+    for i in intervention_files:
+        df = get_done_interventions(join(DONE_DIRECTORY
+                              , i))
+        repo_name = df[REPO_COL].astype(str).max()  # Should be same value, max takes one
+        repo_dir = join(PROJECTS_DIR
+                        , get_project_name(repo_name))
+        first_intervention_commit = get_author_first_commit_in_repo(repo_dir=repo_dir)
+        pre_intervention_commit = get_file_prev_commit(commit=first_intervention_commit
+                                                       , repo_dir=repo_dir)
+        pre_intervention_commits.append((repo_name, pre_intervention_commit))
+
+    pre_intervention_commits_df = pd.DataFrame(pre_intervention_commits
+                                               , columns=['repo_name', 'pre_intervention_commit'])
+    pre_intervention_commits_df.to_csv(join(BASE_DIR
+                                            , 'data/before'
+                                            , 'pre_intervention_commits.csv')
+                                       , index=False)
+
 interventions_file = "C:/src/pylint-intervention/interventions/done/mralext20_alex-bot_interventions_October_05_2024.csv"
 #get_repo_metrics(interventions_file
 #                 , current=False)
@@ -277,13 +290,14 @@ print(show_file_content(file_name="alexBot\cogs\\reminders.py"
                            , repo_dir="c:/interventions/alex-bot")))
 print("Compute current metrics")
 get_all_repo_metrics(current=True)
-"""
 print("Compute original metrics")
 get_all_repo_metrics(current=False)
 
 
 
 compute_code_differences(stats_per_repo=True)
+"""
+get_pre_intervention_commits()
 #list_branches(get_branch_names)
 
 # TODO - Check metrics are correct
