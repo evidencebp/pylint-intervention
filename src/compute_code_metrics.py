@@ -11,7 +11,8 @@ from os.path import join
 import numpy as np
 import pandas as pd
 
-from configuration import BASE_DIR, DONE_DIRECTORY, PROJECTS_DIR, PR_COL, REPO_COL, EXCLUDED_REPOS
+from configuration import (BASE_DIR, DONE_DIRECTORY, PROJECTS_DIR, PR_COL, REPO_COL, EXCLUDED_REPOS
+                                , BEFORE_DIR, AFTER_DIR)
 from code_metrics import analyze_file
 from utils import (get_author_first_commit_in_repo, get_project_name, get_file_prev_commit
                     , get_branch_name, create_branch, checkout_branch, delete_branch
@@ -22,8 +23,11 @@ METRICS_BEFORE_DIR = join(BASE_DIR
 METRICS_AFTER_DIR = join(BASE_DIR
                          , "data/code_metrics/after/")
 
+def encode_path(path):
+    return path.replace("/", "_slash_")
+
 def get_metrics_file(repo_name):
-    return repo_name.replace("/", "_slash_") + ".csv"
+    return encode_path(repo_name) + ".csv"
 
 
 def get_repo_metrics(interventions_file
@@ -32,25 +36,14 @@ def get_repo_metrics(interventions_file
     df = get_done_interventions(interventions_file)
 
     repo_name = df[REPO_COL].astype(str).max() # Should be same value, max takes one
-    repo_dir = join(PROJECTS_DIR
+    if current:
+        repo_dir = join(AFTER_DIR
                     , get_project_name(repo_name))
-
-    pre_intervention_commit = None
-    if not current:
-        first_intervention_commit = get_author_first_commit_in_repo(repo_dir=repo_dir)
-        pre_intervention_commit = get_file_prev_commit(commit=first_intervention_commit
-                                                       , repo_dir=repo_dir)
-        # Get current branch
-        intervention_branch = get_branch_name(repo_dir=repo_dir)
-        pre_branch_name = 'tmp_branch'
-
-        # Move to pre-intervention branch
-        create_branch(repo_dir=repo_dir
-                          , branch_name='tmp_branch'
-                          , commit=pre_intervention_commit)
-        checkout_branch(repo_dir=repo_dir
-                          , branch_name=pre_branch_name)
-
+        metrics_dir = METRICS_AFTER_DIR
+    else:
+        repo_dir = join(BEFORE_DIR
+                    , get_project_name(repo_name))
+        metrics_dir = METRICS_BEFORE_DIR
 
     metrics_list = []
     for _, i in df.iterrows():
@@ -58,9 +51,8 @@ def get_repo_metrics(interventions_file
             print(datetime.datetime.now(), "analyzing ", i['path'])
 
         metrics = analyze_file(join(repo_dir
-                            , i.path))
+                            , encode_path(i.path)))
         metrics['path'] = i.path
-        #metrics['commit'] = pre_intervention_commit
 
         if np.isreal(metrics['LOC']): # Avoid failure to analyze
             metrics_list.append(metrics)
@@ -69,30 +61,11 @@ def get_repo_metrics(interventions_file
 
     metrics_df = pd.concat(metrics_list)
 
-    if current:
-        metrics_df.to_csv(join(METRICS_AFTER_DIR
-                               , get_metrics_file(repo_name))
-                      , index=False)
-        copy_repo_files(target_directory=join(BASE_DIR
-                                              , 'data/after')
-                        , repo_name=repo_name
-                        , interventions_df=df)
+    metrics_df.to_csv(join(metrics_dir
+                           , get_metrics_file(repo_name))
+                  , index=False)
 
-    else:
-        metrics_df.to_csv(join(METRICS_BEFORE_DIR
-                               , get_metrics_file(repo_name))
-                      , index=False)
-        copy_repo_files(target_directory=join(BASE_DIR
-                                              , 'data/before')
-                        , repo_name=repo_name
-                        , interventions_df=df)
 
-        # Return to original branch
-        checkout_branch(repo_dir=repo_dir
-                          , branch_name=intervention_branch)
-        # Delete temp branch
-        delete_branch(repo_dir=repo_dir
-                      , branch_name=pre_branch_name)
 
 
 def get_all_repo_metrics(current=True
@@ -246,7 +219,7 @@ def get_pre_intervention_commits():
                                        , index=False)
 
 if __name__ == "__main__":
-    interventions_file = "C:/src/pylint-intervention/interventions/done/mralext20_alex-bot_interventions_October_05_2024.csv"
+    #interventions_file = "C:/src/pylint-intervention/interventions/done/mralext20_alex-bot_interventions_October_05_2024.csv"
     #get_repo_metrics(interventions_file
     #                 , current=False)
     #get_all_current_repo_metrics()
@@ -260,6 +233,7 @@ if __name__ == "__main__":
                                 , repo_dir="c:/interventions/alex-bot"
                                 , commit=get_file_prev_commit(commit="0a6d54251d775b5111117de430683e2b6e7c3cb3"
                                , repo_dir="c:/interventions/alex-bot")))
+    """
     print("Compute current metrics")
     get_all_repo_metrics(current=True)
     print("Compute original metrics")
@@ -268,8 +242,7 @@ if __name__ == "__main__":
     
     
     compute_code_differences(stats_per_repo=True)
-    """
-    get_pre_intervention_commits()
+#    get_pre_intervention_commits()
     #list_branches(get_branch_names)
 
     # TODO - Check metrics are correct
