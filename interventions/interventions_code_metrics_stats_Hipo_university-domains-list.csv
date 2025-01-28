@@ -1,2 +1,2 @@
-,msg_id,path,msg,McCabe_sum_diff,SLOC_diff,McCabe_max_diff,N1_diff,LOC_diff,N2_diff,LLOC_diff
-0,R1703,1,simplifiable-if-statement,0.0,-3.0,0.0,0.0,-4.0,0.0,-3.0
+,msg_id,path,msg,LLOC_diff,SLOC_diff,LOC_diff,McCabe_max_diff,N2_diff,N1_diff,McCabe_sum_diff
+0,R1703,1,simplifiable-if-statement,-3.0,-3.0,-4.0,0.0,0.0,0.0,0.0

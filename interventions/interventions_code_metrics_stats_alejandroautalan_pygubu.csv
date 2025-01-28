@@ -1,6 +1,6 @@
-,msg_id,path,msg,McCabe_sum_diff,SLOC_diff,McCabe_max_diff,N1_diff,LOC_diff,N2_diff,LLOC_diff
-0,C0301,6,line-too-long,0.0,1.0,0.0,1.0,1.0,2.0,0.0
-1,R0912,3,too-many-branches,1.3333333333333333,6.0,-5.0,0.0,8.333333333333334,0.0,6.0
-2,R1702,1,too-many-nested-blocks,1.0,3.0,0.0,0.0,4.0,0.0,3.0
-3,R1719,13,simplifiable-if-expression,-1.1538461538461537,0.0,0.0,0.0,0.0,0.0,0.0
+,msg_id,path,msg,LLOC_diff,SLOC_diff,LOC_diff,McCabe_max_diff,N2_diff,N1_diff,McCabe_sum_diff
+0,C0301,6,line-too-long,0.0,1.0,1.0,0.0,2.0,1.0,0.0
+1,R0912,3,too-many-branches,6.0,6.0,8.333333333333334,-5.0,0.0,0.0,1.3333333333333333
+2,R1702,1,too-many-nested-blocks,3.0,3.0,4.0,0.0,0.0,0.0,1.0
+3,R1719,13,simplifiable-if-expression,0.0,0.0,0.0,0.0,0.0,0.0,-1.1538461538461537
 4,W0718,1,broad-exception-caught,0.0,0.0,0.0,0.0,0.0,0.0,0.0
