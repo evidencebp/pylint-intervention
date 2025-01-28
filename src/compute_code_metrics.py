@@ -11,37 +11,16 @@ from os.path import join
 import numpy as np
 import pandas as pd
 
-from configuration import BASE_DIR, DONE_DIRECTORY, PROJECTS_DIR, PR_COL, REPO_COL
+from configuration import BASE_DIR, DONE_DIRECTORY, PROJECTS_DIR, PR_COL, REPO_COL, EXCLUDED_REPOS
 from code_metrics import analyze_file
 from utils import (get_author_first_commit_in_repo, get_project_name, get_file_prev_commit
                     , get_branch_name, create_branch, checkout_branch, delete_branch
                     , force_dir, copy_files, get_done_interventions)
 
-BEFORE_DIR = join(BASE_DIR
-                    , "data/code_metrics/before/")
-AFTER_DIR = join(BASE_DIR
-                    , "data/code_metrics/after/")
-
-
-def copy_repo_files(target_directory: str
-                    , repo_name:str
-                    , interventions_df:pd.DataFrame):
-
-    # Create repo dir if needed
-    repo_dir = join(target_directory
-                    , get_project_name(repo_name))
-
-    force_dir(repo_dir)
-
-    for i in interventions_df['path'].unique():
-        source = join(PROJECTS_DIR
-                      , get_project_name(repo_name)
-                      , i)
-        dest = join(target_directory
-                    , get_project_name(repo_name)
-                    , i.replace("\\", "_slash_"))
-        copy_files(source
-                   , dest)
+METRICS_BEFORE_DIR = join(BASE_DIR
+                          , "data/code_metrics/before/")
+METRICS_AFTER_DIR = join(BASE_DIR
+                         , "data/code_metrics/after/")
 
 def get_metrics_file(repo_name):
     return repo_name.replace("/", "_slash_") + ".csv"
@@ -91,8 +70,8 @@ def get_repo_metrics(interventions_file
     metrics_df = pd.concat(metrics_list)
 
     if current:
-        metrics_df.to_csv(join(AFTER_DIR
-                           , get_metrics_file(repo_name))
+        metrics_df.to_csv(join(METRICS_AFTER_DIR
+                               , get_metrics_file(repo_name))
                       , index=False)
         copy_repo_files(target_directory=join(BASE_DIR
                                               , 'data/after')
@@ -100,8 +79,8 @@ def get_repo_metrics(interventions_file
                         , interventions_df=df)
 
     else:
-        metrics_df.to_csv(join(BEFORE_DIR
-                           , get_metrics_file(repo_name))
+        metrics_df.to_csv(join(METRICS_BEFORE_DIR
+                               , get_metrics_file(repo_name))
                       , index=False)
         copy_repo_files(target_directory=join(BASE_DIR
                                               , 'data/before')
@@ -147,10 +126,10 @@ def compute_code_differences(stats_per_repo=False):
 
         repo_name = intervention_df[REPO_COL].astype(str).max()
         try:
-            before_df = pd.read_csv(join(BEFORE_DIR
-                                               , get_metrics_file(repo_name)))
-            after_df = pd.read_csv(join(AFTER_DIR
-                                               , get_metrics_file(repo_name)))
+            before_df = pd.read_csv(join(METRICS_BEFORE_DIR
+                                         , get_metrics_file(repo_name)))
+            after_df = pd.read_csv(join(METRICS_AFTER_DIR
+                                        , get_metrics_file(repo_name)))
             metrics = pd.merge(before_df
                                , after_df
                                , on=KEY
