@@ -4,7 +4,6 @@ Getting code metrics using Radon
 https://radon.readthedocs.io/en/latest/index.html
 """
 import datetime
-import os
 from os import listdir
 
 from os.path import join
@@ -14,6 +13,7 @@ import pandas as pd
 from configuration import (BASE_DIR, DONE_DIRECTORY, PROJECTS_DIR, PR_COL, REPO_COL, EXCLUDED_REPOS
                                 , BEFORE_DIR, AFTER_DIR)
 from code_metrics import analyze_file
+from compute_diffs import DIFF_SIZE_FILE
 from utils import (get_author_first_commit_in_repo, get_project_name, get_file_prev_commit
                     , get_branch_name, create_branch, checkout_branch, delete_branch
                     , force_dir, copy_files, get_done_interventions)
@@ -90,6 +90,9 @@ def compute_code_differences(stats_per_repo=False):
     intervention_files = listdir(DONE_DIRECTORY)
     intervention_files = set(intervention_files) - set(EXCLUDED_REPOS)
 
+    diff_df = pd.read_csv(DIFF_SIZE_FILE)
+    diff_df = diff_df[diff_df['size']>0]
+
     all_metrics = []
     for i in intervention_files:
         print(datetime.datetime.now(), i)
@@ -135,6 +138,9 @@ def compute_code_differences(stats_per_repo=False):
                              , on=KEY)
             joint = joint[joint['alerts'] ==1] # Avoid multiple interventions in stats
             joint['file'] = i
+            joint = pd.merge(joint
+                             , diff_df[[KEY]]
+                             , on=KEY)
             if stats_per_repo:
                 g = joint.groupby(['msg_id']
                                            , as_index=False).agg(aggs)
@@ -235,12 +241,12 @@ if __name__ == "__main__":
                                 , repo_dir="c:/interventions/alex-bot"
                                 , commit=get_file_prev_commit(commit="0a6d54251d775b5111117de430683e2b6e7c3cb3"
                                , repo_dir="c:/interventions/alex-bot")))
-    """
     print("Compute current metrics")
     get_all_repo_metrics(current=True)
     print("Compute original metrics")
     get_all_repo_metrics(current=False)
-    
+    """
+
     
     
     compute_code_differences(stats_per_repo=True)

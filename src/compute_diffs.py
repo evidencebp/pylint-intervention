@@ -10,6 +10,9 @@ from utils import (get_author_first_commit_in_repo, get_project_name, get_file_p
                     , get_branch_name, create_branch, checkout_branch, delete_branch
                     , force_dir, copy_files, get_done_interventions, count_lines)
 
+DIFF_SIZE_FILE = join(DIFFS_DIR
+                      , 'diff_sizes.csv')
+
 
 def copy_repo_files(target_directory: str
                     , repo_name:str
@@ -154,9 +157,8 @@ def compute_diff_sizes():
             sizes.append((repo_name, f, size))
 
     df = pd.DataFrame(sizes
-                      , columns=['repo_name', 'file', 'size'])
-    df.to_csv(join(DIFFS_DIR
-                   , 'diff_sizes.csv')
+                      , columns=['repo_name', 'path', 'size'])
+    df.to_csv(DIFF_SIZE_FILE
               , index=False)
 
 if __name__ == "__main__":
