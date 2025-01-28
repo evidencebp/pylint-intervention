@@ -161,7 +161,7 @@ def compute_diff_sizes():
 
 if __name__ == "__main__":
     #build_all_repo_versions()
-    compute_versions_diff()
-    #compute_diff_sizes()
+    #compute_versions_diff()
+    compute_diff_sizes()
 
 
