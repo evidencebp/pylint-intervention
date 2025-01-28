@@ -1,2 +1,2 @@
-,msg_id,path,msg,LLOC_diff,SLOC_diff,LOC_diff,McCabe_max_diff,N2_diff,N1_diff,McCabe_sum_diff
-0,W0718,2,broad-exception-caught,1.5,1.5,1.5,0.0,0.0,0.0,0.0
+,msg_id,path,msg,McCabe_max_diff,N2_diff,SLOC_diff,N1_diff,LLOC_diff,McCabe_sum_diff,LOC_diff
+0,W0718,2,broad-exception-caught,0.0,0.0,1.5,0.0,1.5,0.0,1.5

@@ -1,5 +1,5 @@
-,msg_id,path,msg,LLOC_diff,SLOC_diff,LOC_diff,McCabe_max_diff,N2_diff,N1_diff,McCabe_sum_diff
-0,C0301,2,line-too-long,0.0,1.5,1.5,0.0,0.0,0.0,0.0
+,msg_id,path,msg,McCabe_max_diff,N2_diff,SLOC_diff,N1_diff,LLOC_diff,McCabe_sum_diff,LOC_diff
+0,C0301,2,line-too-long,0.0,0.0,1.5,0.0,0.0,0.0,1.5
 1,C0325,2,superfluous-parens,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-2,R0916,1,too-many-boolean-expressions,2.0,2.0,2.0,0.0,2.0,2.0,0.0
-3,W0107,1,unnecessary-pass,-4.0,-3.0,-7.0,0.0,0.0,0.0,-1.0
+2,R0916,1,too-many-boolean-expressions,0.0,2.0,2.0,2.0,2.0,0.0,2.0
+3,W0107,1,unnecessary-pass,0.0,0.0,-3.0,0.0,-4.0,-1.0,-7.0
