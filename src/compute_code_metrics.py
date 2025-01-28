@@ -23,8 +23,10 @@ METRICS_BEFORE_DIR = join(BASE_DIR
 METRICS_AFTER_DIR = join(BASE_DIR
                          , "data/code_metrics/after/")
 
-def encode_path(path):
-    return path.replace("/", "_slash_")
+def encode_path(path
+                , direction='both'):
+
+    return path.replace("/", "_slash_").replace("\\", "_slash_")
 
 def get_metrics_file(repo_name):
     return encode_path(repo_name) + ".csv"
