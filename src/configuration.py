@@ -16,3 +16,6 @@ HARMFUL_COL = 'Do you consider the removed alert harmful?'
 HARMFUL_REASON_COL = 'Why do you consider it harmful (or harmless)?'
 BENEFIT_COL = 'What is the expected benefit(1 – negative, 5 – neutral, 10 – great)?'
 REPO_COL = 'In which repository the modification was done?'
+
+EXCLUDED_REPOS = ['aajanki_yle-dl_interventions_October_06_2024.csv'  # For some reason computation takes too long
+                  ]

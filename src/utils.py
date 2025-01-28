@@ -5,6 +5,9 @@ import subprocess
 
 import codecs
 
+import pandas as pd
+
+from configuration import PR_COL
 
 def get_project_name(repo_name: str) -> str:
 
@@ -168,3 +171,10 @@ def count_lines(file):
         num_lines = sum(1 for _ in f)
 
     return num_lines
+
+def get_done_interventions(interventions_file):
+    df = pd.read_csv(interventions_file)
+    df = df[~df[PR_COL].isna()]
+    df = df[df[PR_COL].str.contains('github')]
+
+    return df

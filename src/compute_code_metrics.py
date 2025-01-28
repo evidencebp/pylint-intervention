@@ -15,15 +15,13 @@ from configuration import BASE_DIR, DONE_DIRECTORY, PROJECTS_DIR, PR_COL, REPO_C
 from code_metrics import analyze_file
 from utils import (get_author_first_commit_in_repo, get_project_name, get_file_prev_commit
                     , get_branch_name, create_branch, checkout_branch, delete_branch
-                    , force_dir, copy_files)
+                    , force_dir, copy_files, get_done_interventions)
 
 BEFORE_DIR = join(BASE_DIR
                     , "data/code_metrics/before/")
 AFTER_DIR = join(BASE_DIR
                     , "data/code_metrics/after/")
 
-EXCLUDED_REPOS = ['aajanki_yle-dl_interventions_October_06_2024.csv'  # For some reason computation takes too long
-                  ]
 
 def copy_repo_files(target_directory: str
                     , repo_name:str
@@ -48,12 +46,7 @@ def copy_repo_files(target_directory: str
 def get_metrics_file(repo_name):
     return repo_name.replace("/", "_slash_") + ".csv"
 
-def get_done_interventions(interventions_file):
-    df = pd.read_csv(interventions_file)
-    df = df[~df[PR_COL].isna()]
-    df = df[df[PR_COL].str.contains('github')]
 
-    return df
 def get_repo_metrics(interventions_file
                              , current=True
                              , verbose=False):

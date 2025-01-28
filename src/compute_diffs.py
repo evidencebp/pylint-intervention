@@ -4,10 +4,9 @@ from os.path import join
 import pandas as pd
 
 from configuration import (DONE_DIRECTORY, REPO_COL
-                                , BEFORE_DIR, AFTER_DIR,DIFFS_DIR)
-from utils import (get_project_name, force_dir, count_lines)
+                                , BEFORE_DIR, AFTER_DIR,DIFFS_DIR, EXCLUDED_REPOS)
+from utils import (get_project_name, force_dir, count_lines, get_done_interventions)
 
-from compute_code_metrics import EXCLUDED_REPOS, get_done_interventions
 
 def compute_versions_diff():
     intervention_files = listdir(DONE_DIRECTORY)
