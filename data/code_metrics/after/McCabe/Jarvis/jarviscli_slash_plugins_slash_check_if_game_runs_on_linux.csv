@@ -1,0 +1,6 @@
+file,name,complexity
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_check_if_game_runs_on_linux.py,ProtonCompatibleGame.run,6
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_check_if_game_runs_on_linux.py,ProtonCompatibleGame,5
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_check_if_game_runs_on_linux.py,ProtonCompatibleGame.getAppIdFromTitle,3
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_check_if_game_runs_on_linux.py,ProtonCompatibleGame.getRating,2
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_check_if_game_runs_on_linux.py,my_plugin,1

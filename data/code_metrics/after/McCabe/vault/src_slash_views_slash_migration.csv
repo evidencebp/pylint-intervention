@@ -1,0 +1,7 @@
+file,name,complexity
+c:/src/pylint-intervention/data/after/vault\src_slash_views_slash_migration.py,migrate,4
+c:/src/pylint-intervention/data/after/vault\src_slash_views_slash_migration.py,get_category_name,4
+c:/src/pylint-intervention/data/after/vault\src_slash_views_slash_migration.py,unlock,2
+c:/src/pylint-intervention/data/after/vault\src_slash_views_slash_migration.py,get_hash,2
+c:/src/pylint-intervention/data/after/vault\src_slash_views_slash_migration.py,prepare_items,2
+c:/src/pylint-intervention/data/after/vault\src_slash_views_slash_migration.py,update_config,1

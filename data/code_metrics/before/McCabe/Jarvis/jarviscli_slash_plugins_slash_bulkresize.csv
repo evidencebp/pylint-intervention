@@ -1,0 +1,11 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_bulkresize.py,spin,6
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_bulkresize.py,bulk_resizer,5
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_bulkresize.py,list_contents,4
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_bulkresize.py,valid_path,2
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_bulkresize.py,dir_exist,2
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_bulkresize.py,remove_backslash,2
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_bulkresize.py,get_extension,2
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_bulkresize.py,create_dir,1
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_bulkresize.py,rename_img,1
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_bulkresize.py,output_path_concat,1

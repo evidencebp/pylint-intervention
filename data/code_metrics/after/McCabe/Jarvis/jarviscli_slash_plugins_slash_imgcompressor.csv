@@ -1,0 +1,11 @@
+file,name,complexity
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_imgcompressor.py,ImageCompressor.img_compressor,7
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_imgcompressor.py,ImageCompressor.compress_single_image,4
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_imgcompressor.py,ImageCompressor,3
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_imgcompressor.py,ImageCompressor.compress_multiple_images,3
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_imgcompressor.py,ImageCompressor.folder_images_compress,3
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_imgcompressor.py,ImageCompressor.img_compress,2
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_imgcompressor.py,ImageCompressor.__init__,1
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_imgcompressor.py,ImageCompressor.__call__,1
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_imgcompressor.py,ImageCompressor.available_options,1
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_imgcompressor.py,ImageCompressor.quality_option,1

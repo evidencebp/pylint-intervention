@@ -1,0 +1,7 @@
+file,name,complexity
+c:/src/pylint-intervention/data/after/stacosys\src_slash_stacosys_slash_service_slash_mail.py,Mailer.send,3
+c:/src/pylint-intervention/data/after/stacosys\src_slash_stacosys_slash_service_slash_mail.py,Mailer,2
+c:/src/pylint-intervention/data/after/stacosys\src_slash_stacosys_slash_service_slash_mail.py,Mailer.check,2
+c:/src/pylint-intervention/data/after/stacosys\src_slash_stacosys_slash_service_slash_mail.py,Mailer.__init__,1
+c:/src/pylint-intervention/data/after/stacosys\src_slash_stacosys_slash_service_slash_mail.py,Mailer.configure_smtp,1
+c:/src/pylint-intervention/data/after/stacosys\src_slash_stacosys_slash_service_slash_mail.py,Mailer.configure_destination,1

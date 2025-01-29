@@ -1,0 +1,6 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_wiki.py,Wiki.__call__,7
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_wiki.py,Wiki,5
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_wiki.py,Wiki.search,3
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_wiki.py,Wiki.summary,3
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_wiki.py,Wiki.content,3

@@ -1,0 +1,10 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/pygubu\src_slash_pygubu_slash_plugins_slash_ttkwidgets_slash_utils.py,AutocompleteBaseBO,4
+c:/src/pylint-intervention/data/before/pygubu\src_slash_pygubu_slash_plugins_slash_ttkwidgets_slash_utils.py,AutocompleteBaseBO._get_init_args,3
+c:/src/pylint-intervention/data/before/pygubu\src_slash_pygubu_slash_plugins_slash_ttkwidgets_slash_utils.py,AutocompleteBaseBO._code_process_property_value,3
+c:/src/pylint-intervention/data/before/pygubu\src_slash_pygubu_slash_plugins_slash_ttkwidgets_slash_utils.py,CallbakInitArgMixin,3
+c:/src/pylint-intervention/data/before/pygubu\src_slash_pygubu_slash_plugins_slash_ttkwidgets_slash_utils.py,AutocompleteBaseBO._process_property_value,2
+c:/src/pylint-intervention/data/before/pygubu\src_slash_pygubu_slash_plugins_slash_ttkwidgets_slash_utils.py,CallbakInitArgMixin._connect_command,2
+c:/src/pylint-intervention/data/before/pygubu\src_slash_pygubu_slash_plugins_slash_ttkwidgets_slash_utils.py,CallbakInitArgMixin._code_get_init_args,2
+c:/src/pylint-intervention/data/before/pygubu\src_slash_pygubu_slash_plugins_slash_ttkwidgets_slash_utils.py,CallbakInitArgMixin._code_connect_command,2
+c:/src/pylint-intervention/data/before/pygubu\src_slash_pygubu_slash_plugins_slash_ttkwidgets_slash_utils.py,CallbakInitArgMixin._get_init_args,1

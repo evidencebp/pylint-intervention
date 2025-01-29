@@ -1,0 +1,5 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_top_media.py,topmedia.conv_num,16
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_top_media.py,topmedia,10
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_top_media.py,topmedia.__call__,8
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_top_media.py,topmedia.top_250_extractor,4

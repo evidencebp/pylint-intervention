@@ -1,0 +1,9 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/MPContribs\mpcontribs-api_slash_mpcontribs_slash_api_slash_notebooks_slash_views.py,make,28
+c:/src/pylint-intervention/data/before/MPContribs\mpcontribs-api_slash_mpcontribs_slash_api_slash_notebooks_slash_views.py,result,6
+c:/src/pylint-intervention/data/before/MPContribs\mpcontribs-api_slash_mpcontribs_slash_api_slash_notebooks_slash_views.py,execute_cells,5
+c:/src/pylint-intervention/data/before/MPContribs\mpcontribs-api_slash_mpcontribs_slash_api_slash_notebooks_slash_views.py,build,5
+c:/src/pylint-intervention/data/before/MPContribs\mpcontribs-api_slash_mpcontribs_slash_api_slash_notebooks_slash_views.py,restart_kernels,4
+c:/src/pylint-intervention/data/before/MPContribs\mpcontribs-api_slash_mpcontribs_slash_api_slash_notebooks_slash_views.py,NotebooksResource,2
+c:/src/pylint-intervention/data/before/MPContribs\mpcontribs-api_slash_mpcontribs_slash_api_slash_notebooks_slash_views.py,NotebooksResource.get_optional_fields,1
+c:/src/pylint-intervention/data/before/MPContribs\mpcontribs-api_slash_mpcontribs_slash_api_slash_notebooks_slash_views.py,NotebooksView,1

@@ -1,0 +1,7 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_routine.py,new_routine,4
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_routine.py,execute_routine,3
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_routine.py,create_routine,2
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_routine.py,call_routine,2
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_routine.py,list_routines,2
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_routine.py,delete_routines,2

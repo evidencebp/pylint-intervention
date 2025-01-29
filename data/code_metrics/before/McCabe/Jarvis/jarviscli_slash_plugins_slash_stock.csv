@@ -1,0 +1,9 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_stock.py,Stock.__call__,11
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_stock.py,Stock,6
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_stock.py,Stock.get_stock_id,6
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_stock.py,Stock.get_stock_data,4
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_stock.py,Stock.get_financial_stmt,4
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_stock.py,Stock.get_gainers,4
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_stock.py,Stock.get_losers,4
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_stock.py,Stock.get_profile,3

@@ -1,0 +1,8 @@
+file,name,complexity
+c:/src/pylint-intervention/data/after/iembot\src_slash_iembot_slash_iemchatbot.py,JabberClient.processMessageGC,15
+c:/src/pylint-intervention/data/after/iembot\src_slash_iembot_slash_iemchatbot.py,JabberClient,8
+c:/src/pylint-intervention/data/after/iembot\src_slash_iembot_slash_iemchatbot.py,JabberClient._handle_mastodon_users,8
+c:/src/pylint-intervention/data/after/iembot\src_slash_iembot_slash_iemchatbot.py,JabberClient._handle_twitter_users,8
+c:/src/pylint-intervention/data/after/iembot\src_slash_iembot_slash_iemchatbot.py,JabberClient._check_message_conditions,6
+c:/src/pylint-intervention/data/after/iembot\src_slash_iembot_slash_iemchatbot.py,JabberClient.processMessagePC,5
+c:/src/pylint-intervention/data/after/iembot\src_slash_iembot_slash_iemchatbot.py,JabberClient._handle_rooms,3

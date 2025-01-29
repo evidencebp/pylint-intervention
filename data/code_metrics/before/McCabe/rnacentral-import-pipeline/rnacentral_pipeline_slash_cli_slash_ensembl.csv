@@ -1,0 +1,10 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/rnacentral-import-pipeline\rnacentral_pipeline_slash_cli_slash_ensembl.py,parse_data,3
+c:/src/pylint-intervention/data/before/rnacentral-import-pipeline\rnacentral_pipeline_slash_cli_slash_ensembl.py,vert_url,2
+c:/src/pylint-intervention/data/before/rnacentral-import-pipeline\rnacentral_pipeline_slash_cli_slash_ensembl.py,ensembl_write_karyotypes,2
+c:/src/pylint-intervention/data/before/rnacentral-import-pipeline\rnacentral_pipeline_slash_cli_slash_ensembl.py,ensembl_pseudogenes,2
+c:/src/pylint-intervention/data/before/rnacentral-import-pipeline\rnacentral_pipeline_slash_cli_slash_ensembl.py,cli,1
+c:/src/pylint-intervention/data/before/rnacentral-import-pipeline\rnacentral_pipeline_slash_cli_slash_ensembl.py,ensembl_write_assemblies,1
+c:/src/pylint-intervention/data/before/rnacentral-import-pipeline\rnacentral_pipeline_slash_cli_slash_ensembl.py,ensembl_coordinates,1
+c:/src/pylint-intervention/data/before/rnacentral-import-pipeline\rnacentral_pipeline_slash_cli_slash_ensembl.py,ensembl_proteins_cmd,1
+c:/src/pylint-intervention/data/before/rnacentral-import-pipeline\rnacentral_pipeline_slash_cli_slash_ensembl.py,ensembl_compara,1

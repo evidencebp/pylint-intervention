@@ -1,0 +1,4 @@
+file,name,complexity
+c:/src/pylint-intervention/data/after/university-domains-list\filter.py,main,7
+c:/src/pylint-intervention/data/after/university-domains-list\filter.py,_country_filter,3
+c:/src/pylint-intervention/data/after/university-domains-list\filter.py,country_filter,3

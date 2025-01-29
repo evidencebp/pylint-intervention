@@ -1,0 +1,6 @@
+file,name,complexity
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_create_plugin.py,create_plugin_MAC,8
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_create_plugin.py,create_plugin_LINUX,8
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_create_plugin.py,format_filename,3
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_create_plugin.py,file_exists,2
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_create_plugin.py,create_template,1

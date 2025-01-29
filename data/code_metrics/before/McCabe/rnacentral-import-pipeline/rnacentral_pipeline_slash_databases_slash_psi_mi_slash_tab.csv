@@ -1,0 +1,13 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/rnacentral-import-pipeline\rnacentral_pipeline_slash_databases_slash_psi_mi_slash_tab.py,as_taxid,5
+c:/src/pylint-intervention/data/before/rnacentral-import-pipeline\rnacentral_pipeline_slash_databases_slash_psi_mi_slash_tab.py,as_interactor,5
+c:/src/pylint-intervention/data/before/rnacentral-import-pipeline\rnacentral_pipeline_slash_databases_slash_psi_mi_slash_tab.py,identifiers,4
+c:/src/pylint-intervention/data/before/rnacentral-import-pipeline\rnacentral_pipeline_slash_databases_slash_psi_mi_slash_tab.py,as_unique_id,4
+c:/src/pylint-intervention/data/before/rnacentral-import-pipeline\rnacentral_pipeline_slash_databases_slash_psi_mi_slash_tab.py,as_bool,4
+c:/src/pylint-intervention/data/before/rnacentral-import-pipeline\rnacentral_pipeline_slash_databases_slash_psi_mi_slash_tab.py,as_pubs,4
+c:/src/pylint-intervention/data/before/rnacentral-import-pipeline\rnacentral_pipeline_slash_databases_slash_psi_mi_slash_tab.py,as_interaction,4
+c:/src/pylint-intervention/data/before/rnacentral-import-pipeline\rnacentral_pipeline_slash_databases_slash_psi_mi_slash_tab.py,IdentSemantics,3
+c:/src/pylint-intervention/data/before/rnacentral-import-pipeline\rnacentral_pipeline_slash_databases_slash_psi_mi_slash_tab.py,as_date,2
+c:/src/pylint-intervention/data/before/rnacentral-import-pipeline\rnacentral_pipeline_slash_databases_slash_psi_mi_slash_tab.py,stoichiometry,2
+c:/src/pylint-intervention/data/before/rnacentral-import-pipeline\rnacentral_pipeline_slash_databases_slash_psi_mi_slash_tab.py,IdentSemantics.string,2
+c:/src/pylint-intervention/data/before/rnacentral-import-pipeline\rnacentral_pipeline_slash_databases_slash_psi_mi_slash_tab.py,parse,1

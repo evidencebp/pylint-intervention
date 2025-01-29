@@ -1,0 +1,15 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_common_slash_covidcast_row.py,set_df_dtypes,4
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_common_slash_covidcast_row.py,CovidcastRow.as_dict,3
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_common_slash_covidcast_row.py,check_valid_dtype,2
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_common_slash_covidcast_row.py,CovidcastRow,2
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_common_slash_covidcast_row.py,CovidcastRow.as_api_row_dict,2
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_common_slash_covidcast_row.py,CovidcastRow.as_api_compatibility_row_dict,2
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_common_slash_covidcast_row.py,CovidcastRow.as_db_row_dict,2
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_common_slash_covidcast_row.py,CovidcastRow.as_api_row_df,2
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_common_slash_covidcast_row.py,CovidcastRow.as_api_compatibility_row_df,2
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_common_slash_covidcast_row.py,CovidcastRow.as_db_row_df,2
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_common_slash_covidcast_row.py,CovidcastRow.as_dataframe,1
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_common_slash_covidcast_row.py,CovidcastRow.signal_pair,1
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_common_slash_covidcast_row.py,CovidcastRow.geo_pair,1
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_common_slash_covidcast_row.py,CovidcastRow.time_pair,1

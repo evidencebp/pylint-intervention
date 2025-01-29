@@ -1,0 +1,16 @@
+file,name,complexity
+c:/src/pylint-intervention/data/after/MPContribs\mpcontribs-api_slash_mpcontribs_slash_api_slash_notebooks_slash_views.py,make,16
+c:/src/pylint-intervention/data/after/MPContribs\mpcontribs-api_slash_mpcontribs_slash_api_slash_notebooks_slash_views.py,result,6
+c:/src/pylint-intervention/data/after/MPContribs\mpcontribs-api_slash_mpcontribs_slash_api_slash_notebooks_slash_views.py,execute_cells,5
+c:/src/pylint-intervention/data/after/MPContribs\mpcontribs-api_slash_mpcontribs_slash_api_slash_notebooks_slash_views.py,build,5
+c:/src/pylint-intervention/data/after/MPContribs\mpcontribs-api_slash_mpcontribs_slash_api_slash_notebooks_slash_views.py,restart_kernels,4
+c:/src/pylint-intervention/data/after/MPContribs\mpcontribs-api_slash_mpcontribs_slash_api_slash_notebooks_slash_views.py,_build_query,4
+c:/src/pylint-intervention/data/after/MPContribs\mpcontribs-api_slash_mpcontribs_slash_api_slash_notebooks_slash_views.py,_update_doc_notebook,3
+c:/src/pylint-intervention/data/after/MPContribs\mpcontribs-api_slash_mpcontribs_slash_api_slash_notebooks_slash_views.py,_handle_document_notebook,3
+c:/src/pylint-intervention/data/after/MPContribs\mpcontribs-api_slash_mpcontribs_slash_api_slash_notebooks_slash_views.py,_handle_document_attachmentss,3
+c:/src/pylint-intervention/data/after/MPContribs\mpcontribs-api_slash_mpcontribs_slash_api_slash_notebooks_slash_views.py,_handle_document_structures,3
+c:/src/pylint-intervention/data/after/MPContribs\mpcontribs-api_slash_mpcontribs_slash_api_slash_notebooks_slash_views.py,_handle_document_tables,3
+c:/src/pylint-intervention/data/after/MPContribs\mpcontribs-api_slash_mpcontribs_slash_api_slash_notebooks_slash_views.py,NotebooksResource,2
+c:/src/pylint-intervention/data/after/MPContribs\mpcontribs-api_slash_mpcontribs_slash_api_slash_notebooks_slash_views.py,_set_doc,1
+c:/src/pylint-intervention/data/after/MPContribs\mpcontribs-api_slash_mpcontribs_slash_api_slash_notebooks_slash_views.py,NotebooksResource.get_optional_fields,1
+c:/src/pylint-intervention/data/after/MPContribs\mpcontribs-api_slash_mpcontribs_slash_api_slash_notebooks_slash_views.py,NotebooksView,1

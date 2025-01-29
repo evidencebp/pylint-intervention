@@ -1,0 +1,8 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_acquisition_slash_wiki_slash_wiki_download.py,run,28
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_acquisition_slash_wiki_slash_wiki_download.py,extract_article_counts,8
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_acquisition_slash_wiki_slash_wiki_download.py,extract_article_counts_orig,8
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_acquisition_slash_wiki_slash_wiki_download.py,data,2
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_acquisition_slash_wiki_slash_wiki_download.py,text,1
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_acquisition_slash_wiki_slash_wiki_download.py,get_hmac_sha256,1
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_acquisition_slash_wiki_slash_wiki_download.py,main,1

@@ -1,0 +1,5 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_server_slash_endpoints_slash_covidcast_utils_slash_meta.py,CovidcastMetaEntry,5
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_server_slash_endpoints_slash_covidcast_utils_slash_meta.py,CovidcastMetaEntry.intergrate,4
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_server_slash_endpoints_slash_covidcast_utils_slash_meta.py,CovidcastMetaEntry.asdict,3
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_server_slash_endpoints_slash_covidcast_utils_slash_meta.py,CovidcastMetaStats,1

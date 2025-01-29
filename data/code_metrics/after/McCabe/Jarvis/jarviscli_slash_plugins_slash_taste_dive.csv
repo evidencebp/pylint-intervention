@@ -1,0 +1,9 @@
+file,name,complexity
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_taste_dive.py,TasteDive._get_suggestion,8
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_taste_dive.py,TasteDive._get_info,6
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_taste_dive.py,TasteDive,5
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_taste_dive.py,TasteDive.__call__,5
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_taste_dive.py,TasteDive._get_input,5
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_taste_dive.py,TasteDive._get_data,3
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_taste_dive.py,TasteDive.__init__,1
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_taste_dive.py,TasteDive._print_help,1

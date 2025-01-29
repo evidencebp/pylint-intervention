@@ -1,0 +1,4 @@
+file,name,complexity
+c:/src/pylint-intervention/data/after/pygubu\src_slash_pygubu_slash_plugins_slash_tkcalendar_slash_basecalendar.py,CalendarBaseBO,5
+c:/src/pylint-intervention/data/after/pygubu\src_slash_pygubu_slash_plugins_slash_tkcalendar_slash_basecalendar.py,CalendarBaseBO._process_property_value,5
+c:/src/pylint-intervention/data/after/pygubu\src_slash_pygubu_slash_plugins_slash_tkcalendar_slash_basecalendar.py,CalendarBaseBO._code_process_property_value,3

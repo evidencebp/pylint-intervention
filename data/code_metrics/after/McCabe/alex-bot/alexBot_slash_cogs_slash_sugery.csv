@@ -1,0 +1,8 @@
+file,name,complexity
+c:/src/pylint-intervention/data/after/alex-bot\alexBot_slash_cogs_slash_sugery.py,Sugery.sugery_update,26
+c:/src/pylint-intervention/data/after/alex-bot\alexBot_slash_cogs_slash_sugery.py,Sugery,8
+c:/src/pylint-intervention/data/after/alex-bot\alexBot_slash_cogs_slash_sugery.py,Sugery.on_message,5
+c:/src/pylint-intervention/data/after/alex-bot\alexBot_slash_cogs_slash_sugery.py,Sugery.before_sugery,2
+c:/src/pylint-intervention/data/after/alex-bot\alexBot_slash_cogs_slash_sugery.py,setup,1
+c:/src/pylint-intervention/data/after/alex-bot\alexBot_slash_cogs_slash_sugery.py,Sugery.__init__,1
+c:/src/pylint-intervention/data/after/alex-bot\alexBot_slash_cogs_slash_sugery.py,Sugery.cog_unload,1

@@ -1,0 +1,13 @@
+file,name,complexity
+c:/src/pylint-intervention/data/after/itsdangerous\src_slash_itsdangerous_slash_timed.py,TimestampSigner.unsign,14
+c:/src/pylint-intervention/data/after/itsdangerous\src_slash_itsdangerous_slash_timed.py,TimedSerializer.loads,5
+c:/src/pylint-intervention/data/after/itsdangerous\src_slash_itsdangerous_slash_timed.py,TimestampSigner,4
+c:/src/pylint-intervention/data/after/itsdangerous\src_slash_itsdangerous_slash_timed.py,TimedSerializer,3
+c:/src/pylint-intervention/data/after/itsdangerous\src_slash_itsdangerous_slash_timed.py,TimestampSigner.validate,2
+c:/src/pylint-intervention/data/after/itsdangerous\src_slash_itsdangerous_slash_timed.py,TimestampSigner.get_timestamp,1
+c:/src/pylint-intervention/data/after/itsdangerous\src_slash_itsdangerous_slash_timed.py,TimestampSigner.timestamp_to_datetime,1
+c:/src/pylint-intervention/data/after/itsdangerous\src_slash_itsdangerous_slash_timed.py,TimestampSigner.sign,1
+c:/src/pylint-intervention/data/after/itsdangerous\src_slash_itsdangerous_slash_timed.py,TimestampSigner.unsign,1
+c:/src/pylint-intervention/data/after/itsdangerous\src_slash_itsdangerous_slash_timed.py,TimestampSigner.unsign,1
+c:/src/pylint-intervention/data/after/itsdangerous\src_slash_itsdangerous_slash_timed.py,TimedSerializer.iter_unsigners,1
+c:/src/pylint-intervention/data/after/itsdangerous\src_slash_itsdangerous_slash_timed.py,TimedSerializer.loads_unsafe,1

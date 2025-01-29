@@ -1,0 +1,6 @@
+file,name,complexity
+c:/src/pylint-intervention/data/after/security-tools\Vi_slash_vi.py,recon,15
+c:/src/pylint-intervention/data/after/security-tools\Vi_slash_vi.py,tear_off,2
+c:/src/pylint-intervention/data/after/security-tools\Vi_slash_vi.py,extract_emails,1
+c:/src/pylint-intervention/data/after/security-tools\Vi_slash_vi.py,extract_javascript_files,1
+c:/src/pylint-intervention/data/after/security-tools\Vi_slash_vi.py,parse_javascript_file,1

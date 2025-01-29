@@ -1,0 +1,6 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/pygubu\src_slash_pygubu_slash_plugins_slash_tksheet_slash___init__.py,TksheetLoader,2
+c:/src/pylint-intervention/data/before/pygubu\src_slash_pygubu_slash_plugins_slash_tksheet_slash___init__.py,TksheetLoader.do_activate,2
+c:/src/pylint-intervention/data/before/pygubu\src_slash_pygubu_slash_plugins_slash_tksheet_slash___init__.py,TksheetLoader.get_module_for,1
+c:/src/pylint-intervention/data/before/pygubu\src_slash_pygubu_slash_plugins_slash_tksheet_slash___init__.py,TksheetLoader.get_all_modules,1
+c:/src/pylint-intervention/data/before/pygubu\src_slash_pygubu_slash_plugins_slash_tksheet_slash___init__.py,TksheetLoader.can_load,1

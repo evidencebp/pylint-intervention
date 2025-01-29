@@ -1,0 +1,7 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_get_host_info.py,get_host_info,6
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_get_host_info.py,sanitize_host,3
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_get_host_info.py,whois_lookup,2
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_get_host_info.py,ns_lookup,1
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_get_host_info.py,ping,1
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_get_host_info.py,main,1

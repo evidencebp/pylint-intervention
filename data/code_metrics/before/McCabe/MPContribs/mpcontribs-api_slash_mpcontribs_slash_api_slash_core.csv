@@ -1,0 +1,17 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/MPContribs\mpcontribs-api_slash_mpcontribs_slash_api_slash_core.py,SwaggerView.has_read_permission,31
+c:/src/pylint-intervention/data/before/MPContribs\mpcontribs-api_slash_mpcontribs_slash_api_slash_core.py,get_specs,25
+c:/src/pylint-intervention/data/before/MPContribs\mpcontribs-api_slash_mpcontribs_slash_api_slash_core.py,get_filter_params,10
+c:/src/pylint-intervention/data/before/MPContribs\mpcontribs-api_slash_mpcontribs_slash_api_slash_core.py,SwaggerView.get_projects_filter,9
+c:/src/pylint-intervention/data/before/MPContribs\mpcontribs-api_slash_mpcontribs_slash_api_slash_core.py,SwaggerView.__init_subclass__,7
+c:/src/pylint-intervention/data/before/MPContribs\mpcontribs-api_slash_mpcontribs_slash_api_slash_core.py,SwaggerView,6
+c:/src/pylint-intervention/data/before/MPContribs\mpcontribs-api_slash_mpcontribs_slash_api_slash_core.py,SwaggerView.is_admin_or_project_user,6
+c:/src/pylint-intervention/data/before/MPContribs\mpcontribs-api_slash_mpcontribs_slash_api_slash_core.py,SwaggerView.is_anonymous,4
+c:/src/pylint-intervention/data/before/MPContribs\mpcontribs-api_slash_mpcontribs_slash_api_slash_core.py,SwaggerView.get_groups,3
+c:/src/pylint-intervention/data/before/MPContribs\mpcontribs-api_slash_mpcontribs_slash_api_slash_core.py,get_limit_params,2
+c:/src/pylint-intervention/data/before/MPContribs\mpcontribs-api_slash_mpcontribs_slash_api_slash_core.py,SwaggerView.is_external,2
+c:/src/pylint-intervention/data/before/MPContribs\mpcontribs-api_slash_mpcontribs_slash_api_slash_core.py,SwaggerView.is_admin,1
+c:/src/pylint-intervention/data/before/MPContribs\mpcontribs-api_slash_mpcontribs_slash_api_slash_core.py,SwaggerView.get_projects,1
+c:/src/pylint-intervention/data/before/MPContribs\mpcontribs-api_slash_mpcontribs_slash_api_slash_core.py,SwaggerView.has_add_permission,1
+c:/src/pylint-intervention/data/before/MPContribs\mpcontribs-api_slash_mpcontribs_slash_api_slash_core.py,SwaggerView.has_change_permission,1
+c:/src/pylint-intervention/data/before/MPContribs\mpcontribs-api_slash_mpcontribs_slash_api_slash_core.py,SwaggerView.has_delete_permission,1

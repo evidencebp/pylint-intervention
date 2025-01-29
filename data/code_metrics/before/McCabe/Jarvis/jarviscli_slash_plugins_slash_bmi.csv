@@ -1,0 +1,7 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_bmi.py,Bmi.ask_measurements,17
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_bmi.py,Bmi,7
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_bmi.py,Bmi.print_body_state,5
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_bmi.py,Bmi.get_system,4
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_bmi.py,Bmi.__call__,3
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_bmi.py,Bmi.calc_bmi,3

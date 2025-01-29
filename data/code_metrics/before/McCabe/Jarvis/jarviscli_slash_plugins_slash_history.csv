@@ -1,0 +1,11 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_history.py,history._parse_arguments,12
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_history.py,history._parse_config,7
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_history.py,history,5
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_history.py,history._identify_month,5
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_history.py,history.__call__,4
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_history.py,history._generate_query,2
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_history.py,history._get_data,2
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_history.py,history._print_result,2
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_history.py,history.__init__,1
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_history.py,history._print_help,1

@@ -1,0 +1,5 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_battery.py,battery_linux_fallback,4
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_battery.py,battery_WIN32,2
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_battery.py,get_specific_info,2
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_battery.py,battery_LINUX,1

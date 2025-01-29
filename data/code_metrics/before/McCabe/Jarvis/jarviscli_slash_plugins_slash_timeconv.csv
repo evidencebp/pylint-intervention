@@ -1,0 +1,6 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_timeconv.py,timeconv.time_convert,8
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_timeconv.py,timeconv.__call__,7
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_timeconv.py,timeconv,6
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_timeconv.py,timeconv.get_units,3
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_timeconv.py,timeconv.txt_build,3

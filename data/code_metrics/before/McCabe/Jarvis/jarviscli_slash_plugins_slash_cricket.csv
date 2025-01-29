@@ -1,0 +1,9 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_cricket.py,Cricket.score,19
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_cricket.py,Cricket,6
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_cricket.py,Cricket.live_score,6
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_cricket.py,Cricket.commentary,4
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_cricket.py,Cricket.scorecard,4
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_cricket.py,Cricket._refresh,2
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_cricket.py,Cricket.__init__,1
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_cricket.py,Cricket.__call__,1

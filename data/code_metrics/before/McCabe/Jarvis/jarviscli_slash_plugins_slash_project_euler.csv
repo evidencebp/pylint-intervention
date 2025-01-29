@@ -1,0 +1,7 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_project_euler.py,Euler.get_problem_by_number,7
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_project_euler.py,Euler,4
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_project_euler.py,Euler.__call__,4
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_project_euler.py,Euler.__init__,1
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_project_euler.py,Euler.show_info,1
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_project_euler.py,Euler.get_last_problem_id,1

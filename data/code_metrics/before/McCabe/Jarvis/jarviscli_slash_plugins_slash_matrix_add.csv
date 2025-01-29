@@ -1,0 +1,4 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_matrix_add.py,get_matrix,9
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_matrix_add.py,matrix_add,6
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_matrix_add.py,print_matrix,2

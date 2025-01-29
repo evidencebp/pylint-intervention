@@ -1,0 +1,5 @@
+file,name,complexity
+c:/src/pylint-intervention/data/after/python-rucaptcha\src_slash_python_rucaptcha_slash_key_captcha.py,KeyCaptcha,2
+c:/src/pylint-intervention/data/after/python-rucaptcha\src_slash_python_rucaptcha_slash_key_captcha.py,KeyCaptcha.__init__,2
+c:/src/pylint-intervention/data/after/python-rucaptcha\src_slash_python_rucaptcha_slash_key_captcha.py,KeyCaptcha.captcha_handler,1
+c:/src/pylint-intervention/data/after/python-rucaptcha\src_slash_python_rucaptcha_slash_key_captcha.py,KeyCaptcha.aio_captcha_handler,1

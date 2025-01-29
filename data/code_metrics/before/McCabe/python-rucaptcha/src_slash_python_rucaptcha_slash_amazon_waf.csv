@@ -1,0 +1,5 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/python-rucaptcha\src_slash_python_rucaptcha_slash_amazon_waf.py,AmazonWAF,2
+c:/src/pylint-intervention/data/before/python-rucaptcha\src_slash_python_rucaptcha_slash_amazon_waf.py,AmazonWAF.__init__,2
+c:/src/pylint-intervention/data/before/python-rucaptcha\src_slash_python_rucaptcha_slash_amazon_waf.py,AmazonWAF.captcha_handler,1
+c:/src/pylint-intervention/data/before/python-rucaptcha\src_slash_python_rucaptcha_slash_amazon_waf.py,AmazonWAF.aio_captcha_handler,1

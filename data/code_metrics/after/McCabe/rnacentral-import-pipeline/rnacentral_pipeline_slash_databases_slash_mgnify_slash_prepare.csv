@@ -1,0 +1,3 @@
+file,name,complexity
+c:/src/pylint-intervention/data/after/rnacentral-import-pipeline\rnacentral_pipeline_slash_databases_slash_mgnify_slash_prepare.py,prepare_mgnify_data,6
+c:/src/pylint-intervention/data/after/rnacentral-import-pipeline\rnacentral_pipeline_slash_databases_slash_mgnify_slash_prepare.py,get_so_type,2

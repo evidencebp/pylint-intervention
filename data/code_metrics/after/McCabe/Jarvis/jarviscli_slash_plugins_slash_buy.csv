@@ -1,0 +1,5 @@
+file,name,complexity
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_buy.py,buy,5
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_buy.py,generateURL,5
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_buy.py,shop,3
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_buy.py,oneLineCommand,2

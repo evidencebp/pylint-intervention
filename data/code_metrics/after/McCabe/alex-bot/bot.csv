@@ -1,0 +1,11 @@
+file,name,complexity
+c:/src/pylint-intervention/data/after/alex-bot\bot.py,Bot.on_command,4
+c:/src/pylint-intervention/data/after/alex-bot\bot.py,Bot.cogSetup,3
+c:/src/pylint-intervention/data/after/alex-bot\bot.py,Bot,2
+c:/src/pylint-intervention/data/after/alex-bot\bot.py,Bot.on_message,2
+c:/src/pylint-intervention/data/after/alex-bot\bot.py,Bot.__init__,1
+c:/src/pylint-intervention/data/after/alex-bot\bot.py,Bot.on_ready,1
+c:/src/pylint-intervention/data/after/alex-bot\bot.py,Bot.clean_mentions,1
+c:/src/pylint-intervention/data/after/alex-bot\bot.py,Bot.clean_formatting,1
+c:/src/pylint-intervention/data/after/alex-bot\bot.py,Bot.clean_links,1
+c:/src/pylint-intervention/data/after/alex-bot\bot.py,Bot.clean_clean,1

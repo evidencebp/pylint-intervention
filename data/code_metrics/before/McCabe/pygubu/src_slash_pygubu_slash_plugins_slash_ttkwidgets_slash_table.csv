@@ -1,0 +1,5 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/pygubu\src_slash_pygubu_slash_plugins_slash_ttkwidgets_slash_table.py,TableColumnBO,5
+c:/src/pylint-intervention/data/before/pygubu\src_slash_pygubu_slash_plugins_slash_ttkwidgets_slash_table.py,TableColumnBO._get_column_properties,4
+c:/src/pylint-intervention/data/before/pygubu\src_slash_pygubu_slash_plugins_slash_ttkwidgets_slash_table.py,TableBO,3
+c:/src/pylint-intervention/data/before/pygubu\src_slash_pygubu_slash_plugins_slash_ttkwidgets_slash_table.py,TableBO._process_property_value,2

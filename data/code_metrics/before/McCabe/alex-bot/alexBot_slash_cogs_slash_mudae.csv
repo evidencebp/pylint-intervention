@@ -1,0 +1,13 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/alex-bot\alexBot_slash_cogs_slash_mudae.py,Mudae.extract_series,22
+c:/src/pylint-intervention/data/before/alex-bot\alexBot_slash_cogs_slash_mudae.py,Mudae.on_message,11
+c:/src/pylint-intervention/data/before/alex-bot\alexBot_slash_cogs_slash_mudae.py,Mudae.message_series_detector,9
+c:/src/pylint-intervention/data/before/alex-bot\alexBot_slash_cogs_slash_mudae.py,Mudae,7
+c:/src/pylint-intervention/data/before/alex-bot\alexBot_slash_cogs_slash_mudae.py,Mudae.addSeriesFromRoll,5
+c:/src/pylint-intervention/data/before/alex-bot\alexBot_slash_cogs_slash_mudae.py,Mudae.removeSeriesFromRoll,5
+c:/src/pylint-intervention/data/before/alex-bot\alexBot_slash_cogs_slash_mudae.py,Mudae.cog_load,2
+c:/src/pylint-intervention/data/before/alex-bot\alexBot_slash_cogs_slash_mudae.py,Mudae.cog_unload,2
+c:/src/pylint-intervention/data/before/alex-bot\alexBot_slash_cogs_slash_mudae.py,Mudae.series_autocomplete,2
+c:/src/pylint-intervention/data/before/alex-bot\alexBot_slash_cogs_slash_mudae.py,setup,1
+c:/src/pylint-intervention/data/before/alex-bot\alexBot_slash_cogs_slash_mudae.py,Mudae.__init__,1
+c:/src/pylint-intervention/data/before/alex-bot\alexBot_slash_cogs_slash_mudae.py,Mudae.removeSeriesViaCommand,1

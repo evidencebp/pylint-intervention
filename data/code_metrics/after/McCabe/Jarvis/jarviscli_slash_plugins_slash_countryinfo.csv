@@ -1,0 +1,6 @@
+file,name,complexity
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_countryinfo.py,country_info.get_country,5
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_countryinfo.py,country_info,4
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_countryinfo.py,country_info.get_income,3
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_countryinfo.py,country_info.__call__,2
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_countryinfo.py,country_info.country_info,1

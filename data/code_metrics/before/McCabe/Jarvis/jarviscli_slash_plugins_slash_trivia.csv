@@ -1,0 +1,8 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_trivia.py,trivia.__call__,5
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_trivia.py,trivia,4
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_trivia.py,trivia.true_false_answer,3
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_trivia.py,trivia.mcq_question,3
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_trivia.py,trivia.mcq_answer,3
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_trivia.py,trivia.true_false_question,2
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_trivia.py,trivia.get_trivia,1

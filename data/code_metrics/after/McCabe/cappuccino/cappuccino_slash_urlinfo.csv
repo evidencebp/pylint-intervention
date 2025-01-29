@@ -1,0 +1,16 @@
+file,name,complexity
+c:/src/pylint-intervention/data/after/cappuccino\cappuccino_slash_urlinfo.py,UrlInfo.on_url,23
+c:/src/pylint-intervention/data/after/cappuccino\cappuccino_slash_urlinfo.py,UrlInfo._extract_title_and_size,14
+c:/src/pylint-intervention/data/after/cappuccino\cappuccino_slash_urlinfo.py,UrlInfo,7
+c:/src/pylint-intervention/data/after/cappuccino\cappuccino_slash_urlinfo.py,_clean_url,5
+c:/src/pylint-intervention/data/after/cappuccino\cappuccino_slash_urlinfo.py,UrlInfo._stream_response,5
+c:/src/pylint-intervention/data/after/cappuccino\cappuccino_slash_urlinfo.py,UrlInfo._process_url,5
+c:/src/pylint-intervention/data/after/cappuccino\cappuccino_slash_urlinfo.py,UrlInfo._validate_ip_address,3
+c:/src/pylint-intervention/data/after/cappuccino\cappuccino_slash_urlinfo.py,UrlInfo._validate_content_type,3
+c:/src/pylint-intervention/data/after/cappuccino\cappuccino_slash_urlinfo.py,UrlInfo._extract_title_from_soup,2
+c:/src/pylint-intervention/data/after/cappuccino\cappuccino_slash_urlinfo.py,UrlInfo._extract_site_name_from_soup,2
+c:/src/pylint-intervention/data/after/cappuccino\cappuccino_slash_urlinfo.py,ResponseBodyTooLarge,1
+c:/src/pylint-intervention/data/after/cappuccino\cappuccino_slash_urlinfo.py,InvalidIPAddressError,1
+c:/src/pylint-intervention/data/after/cappuccino\cappuccino_slash_urlinfo.py,ContentTypeNotAllowedError,1
+c:/src/pylint-intervention/data/after/cappuccino\cappuccino_slash_urlinfo.py,RequestTimeout,1
+c:/src/pylint-intervention/data/after/cappuccino\cappuccino_slash_urlinfo.py,UrlInfo.__init__,1

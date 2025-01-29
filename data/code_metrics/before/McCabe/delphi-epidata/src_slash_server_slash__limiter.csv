@@ -1,0 +1,7 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_server_slash__limiter.py,get_multiples_count,10
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_server_slash__limiter.py,deduct_on_success,7
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_server_slash__limiter.py,check_signals_allowlist,7
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_server_slash__limiter.py,_no_rate_limit,4
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_server_slash__limiter.py,_resolve_tracking_key,2
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_server_slash__limiter.py,ratelimit_handler,1

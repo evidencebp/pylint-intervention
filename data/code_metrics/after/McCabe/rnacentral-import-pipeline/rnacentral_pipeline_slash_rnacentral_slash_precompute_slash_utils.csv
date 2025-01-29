@@ -1,0 +1,8 @@
+file,name,complexity
+c:/src/pylint-intervention/data/after/rnacentral-import-pipeline\rnacentral_pipeline_slash_rnacentral_slash_precompute_slash_utils.py,entropy,7
+c:/src/pylint-intervention/data/after/rnacentral-import-pipeline\rnacentral_pipeline_slash_rnacentral_slash_precompute_slash_utils.py,group_consecutives,6
+c:/src/pylint-intervention/data/after/rnacentral-import-pipeline\rnacentral_pipeline_slash_rnacentral_slash_precompute_slash_utils.py,trim_trailing_rna_type,6
+c:/src/pylint-intervention/data/after/rnacentral-import-pipeline\rnacentral_pipeline_slash_rnacentral_slash_precompute_slash_utils.py,best,5
+c:/src/pylint-intervention/data/after/rnacentral-import-pipeline\rnacentral_pipeline_slash_rnacentral_slash_precompute_slash_utils.py,item_sorter,2
+c:/src/pylint-intervention/data/after/rnacentral-import-pipeline\rnacentral_pipeline_slash_rnacentral_slash_precompute_slash_utils.py,remove_extra_description_terms,1
+c:/src/pylint-intervention/data/after/rnacentral-import-pipeline\rnacentral_pipeline_slash_rnacentral_slash_precompute_slash_utils.py,NoBestFoundException,1

@@ -1,0 +1,4 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_hangman.py,hangman,16
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_hangman.py,drawStickMan,10
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_hangman.py,continueOrNot,5

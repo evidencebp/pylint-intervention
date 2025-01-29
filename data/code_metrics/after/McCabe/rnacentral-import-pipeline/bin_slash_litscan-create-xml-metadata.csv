@@ -1,0 +1,3 @@
+file,name,complexity
+c:/src/pylint-intervention/data/after/rnacentral-import-pipeline\bin_slash_litscan-create-xml-metadata.py,main,5
+c:/src/pylint-intervention/data/after/rnacentral-import-pipeline\bin_slash_litscan-create-xml-metadata.py,create_xml_file,2

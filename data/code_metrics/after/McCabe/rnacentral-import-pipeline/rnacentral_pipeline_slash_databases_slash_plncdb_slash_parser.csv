@@ -1,0 +1,6 @@
+file,name,complexity
+c:/src/pylint-intervention/data/after/rnacentral-import-pipeline\rnacentral_pipeline_slash_databases_slash_plncdb_slash_parser.py,parse,6
+c:/src/pylint-intervention/data/after/rnacentral-import-pipeline\rnacentral_pipeline_slash_databases_slash_plncdb_slash_parser.py,_find_gff_file,4
+c:/src/pylint-intervention/data/after/rnacentral-import-pipeline\rnacentral_pipeline_slash_databases_slash_plncdb_slash_parser.py,_find_fasta_file,4
+c:/src/pylint-intervention/data/after/rnacentral-import-pipeline\rnacentral_pipeline_slash_databases_slash_plncdb_slash_parser.py,_find_info_file,4
+c:/src/pylint-intervention/data/after/rnacentral-import-pipeline\rnacentral_pipeline_slash_databases_slash_plncdb_slash_parser.py,_generate_description,1

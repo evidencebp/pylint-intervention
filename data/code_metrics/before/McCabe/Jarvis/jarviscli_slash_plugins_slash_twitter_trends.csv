@@ -1,0 +1,15 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_twitter_trends.py,TwitterTrends.get_country,5
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_twitter_trends.py,TwitterTrends.main,4
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_twitter_trends.py,TwitterTrends,3
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_twitter_trends.py,TwitterTrends.is_out_of_range,3
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_twitter_trends.py,TwitterTrends.is_exit_input,3
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_twitter_trends.py,TwitterTrends.is_valid_input,3
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_twitter_trends.py,TwitterTrends.get_trends_from,3
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_twitter_trends.py,TwitterTrends.__call__,2
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_twitter_trends.py,TwitterTrends.is_end,2
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_twitter_trends.py,TwitterTrends.available_countries,2
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_twitter_trends.py,TwitterTrends.get_json,2
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_twitter_trends.py,TwitterTrends.display_countries,2
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_twitter_trends.py,TwitterTrends.display_trends,2
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_twitter_trends.py,TwitterTrends.__init__,1

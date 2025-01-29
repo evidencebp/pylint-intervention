@@ -1,0 +1,7 @@
+file,name,complexity
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_quote.py,Quote.get_keyword_quotes,9
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_quote.py,Quote,5
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_quote.py,Quote.get_input,5
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_quote.py,Quote.__call__,2
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_quote.py,Quote.get_quote_of_the_day,2
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_quote.py,Quote.contains_word,2

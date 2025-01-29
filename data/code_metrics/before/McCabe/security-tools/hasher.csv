@@ -1,0 +1,4 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/security-tools\hasher.py,main,4
+c:/src/pylint-intervention/data/before/security-tools\hasher.py,hex_encode,2
+c:/src/pylint-intervention/data/before/security-tools\hasher.py,usage,1

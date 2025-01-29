@@ -1,0 +1,10 @@
+file,name,complexity
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_packages_slash_memory_slash_memory.py,Memory,2
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_packages_slash_memory_slash_memory.py,Memory.__init__,2
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_packages_slash_memory_slash_memory.py,Memory.get_data,2
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_packages_slash_memory_slash_memory.py,Memory.add_data,2
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_packages_slash_memory_slash_memory.py,Memory.del_data,2
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_packages_slash_memory_slash_memory.py,Memory.get_all,1
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_packages_slash_memory_slash_memory.py,Memory.update_data,1
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_packages_slash_memory_slash_memory.py,Memory.del_all,1
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_packages_slash_memory_slash_memory.py,Memory.save,1

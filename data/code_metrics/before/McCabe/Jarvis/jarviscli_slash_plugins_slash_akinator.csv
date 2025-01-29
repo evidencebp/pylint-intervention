@@ -1,0 +1,5 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_akinator.py,main_game,13
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_akinator.py,akinator_main,4
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_akinator.py,opening_message,1
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_akinator.py,print_help,1

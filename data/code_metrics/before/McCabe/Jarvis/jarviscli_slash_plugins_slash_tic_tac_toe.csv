@@ -1,0 +1,10 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_tic_tac_toe.py,evaluate,19
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_tic_tac_toe.py,minimax,11
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_tic_tac_toe.py,game,10
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_tic_tac_toe.py,checkWinner,9
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_tic_tac_toe.py,switch_board_representation,6
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_tic_tac_toe.py,findBestMove,5
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_tic_tac_toe.py,isMovesLeft,4
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_tic_tac_toe.py,restartBoard,2
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_tic_tac_toe.py,printBoard,1

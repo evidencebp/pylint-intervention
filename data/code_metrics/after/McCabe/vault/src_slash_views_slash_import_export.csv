@@ -1,0 +1,10 @@
+file,name,complexity
+c:/src/pylint-intervention/data/after/vault\src_slash_views_slash_import_export.py,import_from_json,5
+c:/src/pylint-intervention/data/after/vault\src_slash_views_slash_import_export.py,import_items,4
+c:/src/pylint-intervention/data/after/vault\src_slash_views_slash_import_export.py,import_,2
+c:/src/pylint-intervention/data/after/vault\src_slash_views_slash_import_export.py,export_,2
+c:/src/pylint-intervention/data/after/vault\src_slash_views_slash_import_export.py,export_to_json,2
+c:/src/pylint-intervention/data/after/vault\src_slash_views_slash_import_export.py,to_table,2
+c:/src/pylint-intervention/data/after/vault\src_slash_views_slash_import_export.py,read_file,2
+c:/src/pylint-intervention/data/after/vault\src_slash_views_slash_import_export.py,save_file,2
+c:/src/pylint-intervention/data/after/vault\src_slash_views_slash_import_export.py,unlock,1

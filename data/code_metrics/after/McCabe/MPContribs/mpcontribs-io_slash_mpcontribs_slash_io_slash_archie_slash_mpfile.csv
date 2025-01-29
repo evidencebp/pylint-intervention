@@ -1,0 +1,4 @@
+file,name,complexity
+c:/src/pylint-intervention/data/after/MPContribs\mpcontribs-io_slash_mpcontribs_slash_io_slash_archie_slash_mpfile.py,MPFile,24
+c:/src/pylint-intervention/data/after/MPContribs\mpcontribs-io_slash_mpcontribs_slash_io_slash_archie_slash_mpfile.py,MPFile.get_string,23
+c:/src/pylint-intervention/data/after/MPContribs\mpcontribs-io_slash_mpcontribs_slash_io_slash_archie_slash_mpfile.py,MPFile.from_string,22

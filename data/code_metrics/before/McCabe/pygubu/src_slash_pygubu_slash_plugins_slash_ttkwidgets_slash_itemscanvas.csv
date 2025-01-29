@@ -1,0 +1,4 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/pygubu\src_slash_pygubu_slash_plugins_slash_ttkwidgets_slash_itemscanvas.py,ItemsCanvasBO,4
+c:/src/pylint-intervention/data/before/pygubu\src_slash_pygubu_slash_plugins_slash_ttkwidgets_slash_itemscanvas.py,ItemsCanvasBO._code_define_callback_args,4
+c:/src/pylint-intervention/data/before/pygubu\src_slash_pygubu_slash_plugins_slash_ttkwidgets_slash_itemscanvas.py,ItemsCanvasBO._process_property_value,2

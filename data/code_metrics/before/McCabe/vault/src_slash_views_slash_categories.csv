@@ -1,0 +1,15 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/vault\src_slash_views_slash_categories.py,pick,7
+c:/src/pylint-intervention/data/before/vault\src_slash_views_slash_categories.py,main_menu,7
+c:/src/pylint-intervention/data/before/vault\src_slash_views_slash_categories.py,delete_input,5
+c:/src/pylint-intervention/data/before/vault\src_slash_views_slash_categories.py,rename_input,4
+c:/src/pylint-intervention/data/before/vault\src_slash_views_slash_categories.py,to_table,3
+c:/src/pylint-intervention/data/before/vault\src_slash_views_slash_categories.py,get_name,3
+c:/src/pylint-intervention/data/before/vault\src_slash_views_slash_categories.py,get_id,3
+c:/src/pylint-intervention/data/before/vault\src_slash_views_slash_categories.py,exists,2
+c:/src/pylint-intervention/data/before/vault\src_slash_views_slash_categories.py,add_input,2
+c:/src/pylint-intervention/data/before/vault\src_slash_views_slash_categories.py,rename,2
+c:/src/pylint-intervention/data/before/vault\src_slash_views_slash_categories.py,delete,2
+c:/src/pylint-intervention/data/before/vault\src_slash_views_slash_categories.py,is_used,2
+c:/src/pylint-intervention/data/before/vault\src_slash_views_slash_categories.py,all,1
+c:/src/pylint-intervention/data/before/vault\src_slash_views_slash_categories.py,add,1

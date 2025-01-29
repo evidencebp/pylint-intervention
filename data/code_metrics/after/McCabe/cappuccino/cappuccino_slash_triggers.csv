@@ -1,0 +1,9 @@
+file,name,complexity
+c:/src/pylint-intervention/data/after/cappuccino\cappuccino_slash_triggers.py,Triggers.trigger,10
+c:/src/pylint-intervention/data/after/cappuccino\cappuccino_slash_triggers.py,Triggers.on_privmsg,7
+c:/src/pylint-intervention/data/after/cappuccino\cappuccino_slash_triggers.py,Triggers,4
+c:/src/pylint-intervention/data/after/cappuccino\cappuccino_slash_triggers.py,Triggers._set_trigger,2
+c:/src/pylint-intervention/data/after/cappuccino\cappuccino_slash_triggers.py,Triggers._get_triggers_list,2
+c:/src/pylint-intervention/data/after/cappuccino\cappuccino_slash_triggers.py,Triggers.__init__,1
+c:/src/pylint-intervention/data/after/cappuccino\cappuccino_slash_triggers.py,Triggers._get_trigger,1
+c:/src/pylint-intervention/data/after/cappuccino\cappuccino_slash_triggers.py,Triggers._delete_trigger,1

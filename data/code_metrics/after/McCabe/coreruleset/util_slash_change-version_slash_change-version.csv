@@ -1,0 +1,6 @@
+file,name,complexity
+c:/src/pylint-intervention/data/after/coreruleset\util_slash_change-version_slash_change-version.py,FileTransform.change_version,9
+c:/src/pylint-intervention/data/after/coreruleset\util_slash_change-version_slash_change-version.py,FileHandler,9
+c:/src/pylint-intervention/data/after/coreruleset\util_slash_change-version_slash_change-version.py,FileHandler.__init__,8
+c:/src/pylint-intervention/data/after/coreruleset\util_slash_change-version_slash_change-version.py,FileTransform,6
+c:/src/pylint-intervention/data/after/coreruleset\util_slash_change-version_slash_change-version.py,FileTransform.__init__,1

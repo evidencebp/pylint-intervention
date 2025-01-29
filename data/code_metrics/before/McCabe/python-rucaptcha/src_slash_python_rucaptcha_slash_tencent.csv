@@ -1,0 +1,5 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/python-rucaptcha\src_slash_python_rucaptcha_slash_tencent.py,Tencent,2
+c:/src/pylint-intervention/data/before/python-rucaptcha\src_slash_python_rucaptcha_slash_tencent.py,Tencent.__init__,2
+c:/src/pylint-intervention/data/before/python-rucaptcha\src_slash_python_rucaptcha_slash_tencent.py,Tencent.captcha_handler,1
+c:/src/pylint-intervention/data/before/python-rucaptcha\src_slash_python_rucaptcha_slash_tencent.py,Tencent.aio_captcha_handler,1

@@ -1,0 +1,11 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_server_slash_endpoints_slash_covidcast.py,handle_meta,35
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_server_slash_endpoints_slash_covidcast.py,handle_export,14
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_server_slash_endpoints_slash_covidcast.py,handle_coverage,12
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_server_slash_endpoints_slash_covidcast.py,restrict_by_roles,6
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_server_slash_endpoints_slash_covidcast.py,handle_trend,6
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_server_slash_endpoints_slash_covidcast.py,_verify_argument_time_type_matches,5
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_server_slash_endpoints_slash_covidcast.py,handle_trendseries,4
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_server_slash_endpoints_slash_covidcast.py,handle_backfill,3
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_server_slash_endpoints_slash_covidcast.py,handle,2
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_server_slash_endpoints_slash_covidcast.py,handle_anomalies,1

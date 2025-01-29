@@ -1,0 +1,15 @@
+file,name,complexity
+c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_maintenance_slash_signal_dash_data_generator.py,Database.write_coverage,9
+c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_maintenance_slash_signal_dash_data_generator.py,main,6
+c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_maintenance_slash_signal_dash_data_generator.py,Database.write_status,6
+c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_maintenance_slash_signal_dash_data_generator.py,Database,5
+c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_maintenance_slash_signal_dash_data_generator.py,get_coverage,3
+c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_maintenance_slash_signal_dash_data_generator.py,Database.get_enabled_signals,2
+c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_maintenance_slash_signal_dash_data_generator.py,get_argument_parser,1
+c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_maintenance_slash_signal_dash_data_generator.py,get_latest_issue_from_metadata,1
+c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_maintenance_slash_signal_dash_data_generator.py,get_latest_time_value_from_metadata,1
+c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_maintenance_slash_signal_dash_data_generator.py,DashboardSignal,1
+c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_maintenance_slash_signal_dash_data_generator.py,DashboardSignalCoverage,1
+c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_maintenance_slash_signal_dash_data_generator.py,DashboardSignalStatus,1
+c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_maintenance_slash_signal_dash_data_generator.py,Database.__init__,1
+c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_maintenance_slash_signal_dash_data_generator.py,Database.rowcount,1

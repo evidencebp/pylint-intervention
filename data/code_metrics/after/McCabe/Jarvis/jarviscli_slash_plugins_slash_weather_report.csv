@@ -1,0 +1,5 @@
+file,name,complexity
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_weather_report.py,WeatherReport,4
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_weather_report.py,WeatherReport.ask_for_forecast,4
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_weather_report.py,WeatherReport.print_weather,3
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_weather_report.py,WeatherReport.__call__,1

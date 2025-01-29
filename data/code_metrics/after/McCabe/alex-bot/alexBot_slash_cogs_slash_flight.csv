@@ -1,0 +1,7 @@
+file,name,complexity
+c:/src/pylint-intervention/data/after/alex-bot\alexBot_slash_cogs_slash_flight.py,Flight.metar,10
+c:/src/pylint-intervention/data/after/alex-bot\alexBot_slash_cogs_slash_flight.py,Flight,6
+c:/src/pylint-intervention/data/after/alex-bot\alexBot_slash_cogs_slash_flight.py,Flight._handle_wind,4
+c:/src/pylint-intervention/data/after/alex-bot\alexBot_slash_cogs_slash_flight.py,Flight._compute_magdec,4
+c:/src/pylint-intervention/data/after/alex-bot\alexBot_slash_cogs_slash_flight.py,Flight.taf,4
+c:/src/pylint-intervention/data/after/alex-bot\alexBot_slash_cogs_slash_flight.py,setup,1

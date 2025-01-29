@@ -1,0 +1,16 @@
+file,name,complexity
+c:/src/pylint-intervention/data/after/alex-bot\alexBot_slash_cogs_slash_voiceTTS.py,VoiceTTS.model_autocomplete,15
+c:/src/pylint-intervention/data/after/alex-bot\alexBot_slash_cogs_slash_voiceTTS.py,VoiceTTS.vc_tts,12
+c:/src/pylint-intervention/data/after/alex-bot\alexBot_slash_cogs_slash_voiceTTS.py,VoiceTTS.on_voice_state_update,10
+c:/src/pylint-intervention/data/after/alex-bot\alexBot_slash_cogs_slash_voiceTTS.py,VoiceTTS._vc_tts_validation,8
+c:/src/pylint-intervention/data/after/alex-bot\alexBot_slash_cogs_slash_voiceTTS.py,VoiceTTS,7
+c:/src/pylint-intervention/data/after/alex-bot\alexBot_slash_cogs_slash_voiceTTS.py,VoiceTTS.on_message,7
+c:/src/pylint-intervention/data/after/alex-bot\alexBot_slash_cogs_slash_voiceTTS.py,VoiceTTS.queue_handler,6
+c:/src/pylint-intervention/data/after/alex-bot\alexBot_slash_cogs_slash_voiceTTS.py,VoiceTTS.sendTTS,4
+c:/src/pylint-intervention/data/after/alex-bot\alexBot_slash_cogs_slash_voiceTTS.py,setup,3
+c:/src/pylint-intervention/data/after/alex-bot\alexBot_slash_cogs_slash_voiceTTS.py,VoiceTTS.cog_load,2
+c:/src/pylint-intervention/data/after/alex-bot\alexBot_slash_cogs_slash_voiceTTS.py,VoiceTTS.cog_unload,2
+c:/src/pylint-intervention/data/after/alex-bot\alexBot_slash_cogs_slash_voiceTTS.py,VoiceTTS.after,2
+c:/src/pylint-intervention/data/after/alex-bot\alexBot_slash_cogs_slash_voiceTTS.py,TTSUserInstance,1
+c:/src/pylint-intervention/data/after/alex-bot\alexBot_slash_cogs_slash_voiceTTS.py,TTSInstance,1
+c:/src/pylint-intervention/data/after/alex-bot\alexBot_slash_cogs_slash_voiceTTS.py,VoiceTTS.__init__,1

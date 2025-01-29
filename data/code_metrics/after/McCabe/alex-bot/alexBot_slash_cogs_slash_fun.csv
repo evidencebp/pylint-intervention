@@ -1,0 +1,11 @@
+file,name,complexity
+c:/src/pylint-intervention/data/after/alex-bot\alexBot_slash_cogs_slash_fun.py,Fun.on_message,23
+c:/src/pylint-intervention/data/after/alex-bot\alexBot_slash_cogs_slash_fun.py,Fun,5
+c:/src/pylint-intervention/data/after/alex-bot\alexBot_slash_cogs_slash_fun.py,Fun.stealEmoji,4
+c:/src/pylint-intervention/data/after/alex-bot\alexBot_slash_cogs_slash_fun.py,Fun.dog,3
+c:/src/pylint-intervention/data/after/alex-bot\alexBot_slash_cogs_slash_fun.py,Fun.stealSticker,2
+c:/src/pylint-intervention/data/after/alex-bot\alexBot_slash_cogs_slash_fun.py,setup,1
+c:/src/pylint-intervention/data/after/alex-bot\alexBot_slash_cogs_slash_fun.py,Fun.__init__,1
+c:/src/pylint-intervention/data/after/alex-bot\alexBot_slash_cogs_slash_fun.py,Fun.cog_load,1
+c:/src/pylint-intervention/data/after/alex-bot\alexBot_slash_cogs_slash_fun.py,Fun.cog_unload,1
+c:/src/pylint-intervention/data/after/alex-bot\alexBot_slash_cogs_slash_fun.py,Fun.slash_cat,1

@@ -1,0 +1,5 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_maintenance_slash_remove_outdated_keys.py,main,3
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_maintenance_slash_remove_outdated_keys.py,get_old_keys,2
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_maintenance_slash_remove_outdated_keys.py,send_notification,2
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_maintenance_slash_remove_outdated_keys.py,remove_outdated_key,1

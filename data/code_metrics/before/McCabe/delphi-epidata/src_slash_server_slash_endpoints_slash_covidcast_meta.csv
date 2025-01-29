@@ -1,0 +1,6 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_server_slash_endpoints_slash_covidcast_meta.py,handle,6
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_server_slash_endpoints_slash_covidcast_meta.py,SourceSignal,3
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_server_slash_endpoints_slash_covidcast_meta.py,_nonerator,2
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_server_slash_endpoints_slash_covidcast_meta.py,SourceSignal.__init__,2
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_server_slash_endpoints_slash_covidcast_meta.py,SourceSignal.__str__,1

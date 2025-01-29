@@ -1,0 +1,4 @@
+file,name,complexity
+c:/src/pylint-intervention/data/after/alchemlyb\src_slash_alchemlyb_slash_parsing_slash_util.py,anyopen,12
+c:/src/pylint-intervention/data/after/alchemlyb\src_slash_alchemlyb_slash_parsing_slash_util.py,bz2_open,2
+c:/src/pylint-intervention/data/after/alchemlyb\src_slash_alchemlyb_slash_parsing_slash_util.py,gzip_open,2

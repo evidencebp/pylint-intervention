@@ -1,0 +1,10 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_curl.py,GenerateCurl._validate_parameters,9
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_curl.py,GenerateCurl._valid_data,4
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_curl.py,GenerateCurl,3
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_curl.py,GenerateCurl._generate_curl_request,3
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_curl.py,GenerateCurl._valid_method,2
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_curl.py,GenerateCurl.__call__,1
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_curl.py,GenerateCurl._collect_parameters,1
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_curl.py,GenerateCurl._valid_content_type,1
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_curl.py,GenerateCurl._valid_endpoint,1

@@ -1,0 +1,14 @@
+file,name,complexity
+c:/src/pylint-intervention/data/after/bioconda-utils\bioconda_utils_slash_update_pinnings.py,check,10
+c:/src/pylint-intervention/data/after/bioconda-utils\bioconda_utils_slash_update_pinnings.py,_handle_metas,7
+c:/src/pylint-intervention/data/after/bioconda-utils\bioconda_utils_slash_update_pinnings.py,will_build_variant,4
+c:/src/pylint-intervention/data/after/bioconda-utils\bioconda_utils_slash_update_pinnings.py,will_build_only_missing,4
+c:/src/pylint-intervention/data/after/bioconda-utils\bioconda_utils_slash_update_pinnings.py,_have_partially_matching_build_id,3
+c:/src/pylint-intervention/data/after/bioconda-utils\bioconda_utils_slash_update_pinnings.py,have_noarch_python_build_number,3
+c:/src/pylint-intervention/data/after/bioconda-utils\bioconda_utils_slash_update_pinnings.py,have_variant,2
+c:/src/pylint-intervention/data/after/bioconda-utils\bioconda_utils_slash_update_pinnings.py,has_invalid_build_string,2
+c:/src/pylint-intervention/data/after/bioconda-utils\bioconda_utils_slash_update_pinnings.py,State,2
+c:/src/pylint-intervention/data/after/bioconda-utils\bioconda_utils_slash_update_pinnings.py,_get_build_variants,1
+c:/src/pylint-intervention/data/after/bioconda-utils\bioconda_utils_slash_update_pinnings.py,skip_for_variants,1
+c:/src/pylint-intervention/data/after/bioconda-utils\bioconda_utils_slash_update_pinnings.py,State.needs_bump,1
+c:/src/pylint-intervention/data/after/bioconda-utils\bioconda_utils_slash_update_pinnings.py,State.failed,1

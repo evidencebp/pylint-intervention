@@ -1,0 +1,17 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/MPContribs\mpcontribs-io_slash_mpcontribs_slash_io_slash_core_slash_components_slash_tdata.py,Table.to_backgrid_dict,18
+c:/src/pylint-intervention/data/before/MPContribs\mpcontribs-io_slash_mpcontribs_slash_io_slash_core_slash_components_slash_tdata.py,TabularData.__init__,7
+c:/src/pylint-intervention/data/before/MPContribs\mpcontribs-io_slash_mpcontribs_slash_io_slash_core_slash_components_slash_tdata.py,Table,6
+c:/src/pylint-intervention/data/before/MPContribs\mpcontribs-io_slash_mpcontribs_slash_io_slash_core_slash_components_slash_tdata.py,Table.to_dict,5
+c:/src/pylint-intervention/data/before/MPContribs\mpcontribs-io_slash_mpcontribs_slash_io_slash_core_slash_components_slash_tdata.py,TabularData,5
+c:/src/pylint-intervention/data/before/MPContribs\mpcontribs-io_slash_mpcontribs_slash_io_slash_core_slash_components_slash_tdata.py,Table.from_dict,4
+c:/src/pylint-intervention/data/before/MPContribs\mpcontribs-io_slash_mpcontribs_slash_io_slash_core_slash_components_slash_tdata.py,Table.render,4
+c:/src/pylint-intervention/data/before/MPContribs\mpcontribs-io_slash_mpcontribs_slash_io_slash_core_slash_components_slash_tdata.py,TabularData._ipython_display_,4
+c:/src/pylint-intervention/data/before/MPContribs\mpcontribs-io_slash_mpcontribs_slash_io_slash_core_slash_components_slash_tdata.py,Table.__init__,3
+c:/src/pylint-intervention/data/before/MPContribs\mpcontribs-io_slash_mpcontribs_slash_io_slash_core_slash_components_slash_tdata.py,Tables,3
+c:/src/pylint-intervention/data/before/MPContribs\mpcontribs-io_slash_mpcontribs_slash_io_slash_core_slash_components_slash_tdata.py,Tables.__init__,3
+c:/src/pylint-intervention/data/before/MPContribs\mpcontribs-io_slash_mpcontribs_slash_io_slash_core_slash_components_slash_tdata.py,Tables._ipython_display_,2
+c:/src/pylint-intervention/data/before/MPContribs\mpcontribs-io_slash_mpcontribs_slash_io_slash_core_slash_components_slash_tdata.py,Table.from_items,1
+c:/src/pylint-intervention/data/before/MPContribs\mpcontribs-io_slash_mpcontribs_slash_io_slash_core_slash_components_slash_tdata.py,Table._ipython_display_,1
+c:/src/pylint-intervention/data/before/MPContribs\mpcontribs-io_slash_mpcontribs_slash_io_slash_core_slash_components_slash_tdata.py,Tables.__str__,1
+c:/src/pylint-intervention/data/before/MPContribs\mpcontribs-io_slash_mpcontribs_slash_io_slash_core_slash_components_slash_tdata.py,TabularData.__str__,1

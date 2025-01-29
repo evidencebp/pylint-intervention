@@ -1,0 +1,6 @@
+file,name,complexity
+c:/src/pylint-intervention/data/after/security-tools\diggit_slash_diggit.py,save_git_object,9
+c:/src/pylint-intervention/data/after/security-tools\diggit_slash_diggit.py,print_object_details,3
+c:/src/pylint-intervention/data/after/security-tools\diggit_slash_diggit.py,get_object_url,1
+c:/src/pylint-intervention/data/after/security-tools\diggit_slash_diggit.py,get_object_dir_prefix,1
+c:/src/pylint-intervention/data/after/security-tools\diggit_slash_diggit.py,get_objhash_from_object_desc,1

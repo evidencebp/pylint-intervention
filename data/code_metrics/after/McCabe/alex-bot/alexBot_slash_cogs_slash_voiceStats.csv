@@ -1,0 +1,13 @@
+file,name,complexity
+c:/src/pylint-intervention/data/after/alex-bot\alexBot_slash_cogs_slash_voiceStats.py,VoiceStats.on_voice_state_update,19
+c:/src/pylint-intervention/data/after/alex-bot\alexBot_slash_cogs_slash_voiceStats.py,VoiceStats.member_leaving_call,9
+c:/src/pylint-intervention/data/after/alex-bot\alexBot_slash_cogs_slash_voiceStats.py,VoiceStats.voiceStats,9
+c:/src/pylint-intervention/data/after/alex-bot\alexBot_slash_cogs_slash_voiceStats.py,VoiceStats,7
+c:/src/pylint-intervention/data/after/alex-bot\alexBot_slash_cogs_slash_voiceStats.py,VoiceStats.ending_a_call,7
+c:/src/pylint-intervention/data/after/alex-bot\alexBot_slash_cogs_slash_voiceStats.py,VoiceStats.starting_a_call,4
+c:/src/pylint-intervention/data/after/alex-bot\alexBot_slash_cogs_slash_voiceStats.py,VoiceStats.any_other_voice_chats,4
+c:/src/pylint-intervention/data/after/alex-bot\alexBot_slash_cogs_slash_voiceStats.py,VoiceStats.member_joining_call,3
+c:/src/pylint-intervention/data/after/alex-bot\alexBot_slash_cogs_slash_voiceStats.py,VoiceStats.on_guild_leave,2
+c:/src/pylint-intervention/data/after/alex-bot\alexBot_slash_cogs_slash_voiceStats.py,setup,1
+c:/src/pylint-intervention/data/after/alex-bot\alexBot_slash_cogs_slash_voiceStats.py,VoiceStats.cog_load,1
+c:/src/pylint-intervention/data/after/alex-bot\alexBot_slash_cogs_slash_voiceStats.py,VoiceStats.cog_unload,1

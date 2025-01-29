@@ -1,0 +1,17 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/PackageDev\plugins_slash_lib_slash_fileconv_slash_dumpers.py,DumperProto.__init__,4
+c:/src/pylint-intervention/data/before/PackageDev\plugins_slash_lib_slash_fileconv_slash_dumpers.py,DumperProto,3
+c:/src/pylint-intervention/data/before/PackageDev\plugins_slash_lib_slash_fileconv_slash_dumpers.py,DumperProto.validate_params,3
+c:/src/pylint-intervention/data/before/PackageDev\plugins_slash_lib_slash_fileconv_slash_dumpers.py,JSONDumper,2
+c:/src/pylint-intervention/data/before/PackageDev\plugins_slash_lib_slash_fileconv_slash_dumpers.py,PlistDumper,2
+c:/src/pylint-intervention/data/before/PackageDev\plugins_slash_lib_slash_fileconv_slash_dumpers.py,YAMLDumper,2
+c:/src/pylint-intervention/data/before/PackageDev\plugins_slash_lib_slash_fileconv_slash_dumpers.py,DumperProto.validate_data,1
+c:/src/pylint-intervention/data/before/PackageDev\plugins_slash_lib_slash_fileconv_slash_dumpers.py,DumperProto._validate_data,1
+c:/src/pylint-intervention/data/before/PackageDev\plugins_slash_lib_slash_fileconv_slash_dumpers.py,DumperProto.dump,1
+c:/src/pylint-intervention/data/before/PackageDev\plugins_slash_lib_slash_fileconv_slash_dumpers.py,DumperProto.write,1
+c:/src/pylint-intervention/data/before/PackageDev\plugins_slash_lib_slash_fileconv_slash_dumpers.py,JSONDumper.validate_data,1
+c:/src/pylint-intervention/data/before/PackageDev\plugins_slash_lib_slash_fileconv_slash_dumpers.py,JSONDumper.write,1
+c:/src/pylint-intervention/data/before/PackageDev\plugins_slash_lib_slash_fileconv_slash_dumpers.py,PlistDumper.validate_data,1
+c:/src/pylint-intervention/data/before/PackageDev\plugins_slash_lib_slash_fileconv_slash_dumpers.py,PlistDumper.write,1
+c:/src/pylint-intervention/data/before/PackageDev\plugins_slash_lib_slash_fileconv_slash_dumpers.py,YAMLDumper.validate_data,1
+c:/src/pylint-intervention/data/before/PackageDev\plugins_slash_lib_slash_fileconv_slash_dumpers.py,YAMLDumper.write,1

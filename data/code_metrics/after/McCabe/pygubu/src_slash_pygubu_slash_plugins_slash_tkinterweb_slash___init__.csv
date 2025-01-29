@@ -1,0 +1,7 @@
+file,name,complexity
+c:/src/pylint-intervention/data/after/pygubu\src_slash_pygubu_slash_plugins_slash_tkinterweb_slash___init__.py,TkinterwebLoader.get_module_for,3
+c:/src/pylint-intervention/data/after/pygubu\src_slash_pygubu_slash_plugins_slash_tkinterweb_slash___init__.py,TkinterwebLoader,2
+c:/src/pylint-intervention/data/after/pygubu\src_slash_pygubu_slash_plugins_slash_tkinterweb_slash___init__.py,TkinterwebLoader.get_all_modules,2
+c:/src/pylint-intervention/data/after/pygubu\src_slash_pygubu_slash_plugins_slash_tkinterweb_slash___init__.py,TkinterwebLoader.do_activate,1
+c:/src/pylint-intervention/data/after/pygubu\src_slash_pygubu_slash_plugins_slash_tkinterweb_slash___init__.py,TkinterwebLoader.can_load,1
+c:/src/pylint-intervention/data/after/pygubu\src_slash_pygubu_slash_plugins_slash_tkinterweb_slash___init__.py,TkinterwebLoader.get_designer_plugin,1

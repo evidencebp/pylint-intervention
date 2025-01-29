@@ -1,0 +1,8 @@
+file,name,complexity
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_pdftoimg.py,PdfToImage.pdf_to_img,9
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_pdftoimg.py,PdfToImage,3
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_pdftoimg.py,PdfToImage.save_images,2
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_pdftoimg.py,PdfToImage.__init__,1
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_pdftoimg.py,PdfToImage.__call__,1
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_pdftoimg.py,PdfToImage.convert_to_images,1
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_pdftoimg.py,PdfToImage.available_options,1

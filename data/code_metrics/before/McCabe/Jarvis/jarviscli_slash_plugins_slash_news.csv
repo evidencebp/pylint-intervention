@@ -1,0 +1,14 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_news.py,News.__call__,17
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_news.py,News.parse_articles,10
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_news.py,News.remove_source,8
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_news.py,News.configure,7
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_news.py,News,6
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_news.py,News.get_news,4
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_news.py,News.get_headlines,3
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_news.py,News._get,3
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_news.py,News.__init__,2
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_news.py,News.get_news_sources,2
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_news.py,News.add_source,2
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_news.py,News.get_api_key,1
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_news.py,News.update_api_key,1

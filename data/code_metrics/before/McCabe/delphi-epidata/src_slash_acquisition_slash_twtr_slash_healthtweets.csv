@@ -1,0 +1,9 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_acquisition_slash_twtr_slash_healthtweets.py,HealthTweets._get_values,9
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_acquisition_slash_twtr_slash_healthtweets.py,HealthTweets,6
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_acquisition_slash_twtr_slash_healthtweets.py,HealthTweets.check_state,6
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_acquisition_slash_twtr_slash_healthtweets.py,HealthTweets._go,6
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_acquisition_slash_twtr_slash_healthtweets.py,HealthTweets.__init__,4
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_acquisition_slash_twtr_slash_healthtweets.py,HealthTweets.get_values,3
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_acquisition_slash_twtr_slash_healthtweets.py,main,2
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_acquisition_slash_twtr_slash_healthtweets.py,HealthTweets._get_token,1

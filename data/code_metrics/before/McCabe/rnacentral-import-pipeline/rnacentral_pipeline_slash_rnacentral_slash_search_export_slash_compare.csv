@@ -1,0 +1,4 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/rnacentral-import-pipeline\rnacentral_pipeline_slash_rnacentral_slash_search_export_slash_compare.py,compare,7
+c:/src/pylint-intervention/data/before/rnacentral-import-pipeline\rnacentral_pipeline_slash_rnacentral_slash_search_export_slash_compare.py,write,3
+c:/src/pylint-intervention/data/before/rnacentral-import-pipeline\rnacentral_pipeline_slash_rnacentral_slash_search_export_slash_compare.py,search,2

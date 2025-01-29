@@ -1,0 +1,17 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/alex-bot\alexBot_slash_cogs_slash_voiceCommands.py,VoiceCommands.vcShake,31
+c:/src/pylint-intervention/data/before/alex-bot\alexBot_slash_cogs_slash_voiceCommands.py,VoiceCommands.target_autocomplete,28
+c:/src/pylint-intervention/data/before/alex-bot\alexBot_slash_cogs_slash_voiceCommands.py,VoiceCommands.on_voice_state_update,16
+c:/src/pylint-intervention/data/before/alex-bot\alexBot_slash_cogs_slash_voiceCommands.py,VoiceCommands.sleep,16
+c:/src/pylint-intervention/data/before/alex-bot\alexBot_slash_cogs_slash_voiceCommands.py,VoiceCommands,10
+c:/src/pylint-intervention/data/before/alex-bot\alexBot_slash_cogs_slash_voiceCommands.py,VoiceCommands.voice_theatre,8
+c:/src/pylint-intervention/data/before/alex-bot\alexBot_slash_cogs_slash_voiceCommands.py,VoiceCommands.voice_action_autocomplete,6
+c:/src/pylint-intervention/data/before/alex-bot\alexBot_slash_cogs_slash_voiceCommands.py,VoiceCommands.slash_command_proxy,6
+c:/src/pylint-intervention/data/before/alex-bot\alexBot_slash_cogs_slash_voiceCommands.py,VoiceCommands.vc_disconnect,6
+c:/src/pylint-intervention/data/before/alex-bot\alexBot_slash_cogs_slash_voiceCommands.py,VoiceCommands.vc_move,6
+c:/src/pylint-intervention/data/before/alex-bot\alexBot_slash_cogs_slash_voiceCommands.py,VoiceCommands.user_in_same_vc,3
+c:/src/pylint-intervention/data/before/alex-bot\alexBot_slash_cogs_slash_voiceCommands.py,VoiceCommands.voice_move,3
+c:/src/pylint-intervention/data/before/alex-bot\alexBot_slash_cogs_slash_voiceCommands.py,setup,1
+c:/src/pylint-intervention/data/before/alex-bot\alexBot_slash_cogs_slash_voiceCommands.py,VoiceCommands.__init__,1
+c:/src/pylint-intervention/data/before/alex-bot\alexBot_slash_cogs_slash_voiceCommands.py,VoiceCommands.cog_load,1
+c:/src/pylint-intervention/data/before/alex-bot\alexBot_slash_cogs_slash_voiceCommands.py,VoiceCommands.cog_unload,1

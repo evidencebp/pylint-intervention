@@ -1,0 +1,10 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/vault\src_slash_views_slash_menu.py,menu,10
+c:/src/pylint-intervention/data/before/vault\src_slash_views_slash_menu.py,get_input,6
+c:/src/pylint-intervention/data/before/vault\src_slash_views_slash_menu.py,unlock,5
+c:/src/pylint-intervention/data/before/vault\src_slash_views_slash_menu.py,check_autolock_timer,3
+c:/src/pylint-intervention/data/before/vault\src_slash_views_slash_menu.py,validate_key,1
+c:/src/pylint-intervention/data/before/vault\src_slash_views_slash_menu.py,lock,1
+c:/src/pylint-intervention/data/before/vault\src_slash_views_slash_menu.py,quit,1
+c:/src/pylint-intervention/data/before/vault\src_slash_views_slash_menu.py,set_autolock_timer,1
+c:/src/pylint-intervention/data/before/vault\src_slash_views_slash_menu.py,check_then_set_autolock_timer,1

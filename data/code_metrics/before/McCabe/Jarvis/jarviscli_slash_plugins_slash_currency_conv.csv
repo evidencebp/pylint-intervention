@@ -1,0 +1,6 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_currency_conv.py,Currencyconv.get_currency,5
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_currency_conv.py,Currencyconv,4
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_currency_conv.py,Currencyconv.currencyconv,3
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_currency_conv.py,Currencyconv.find_currencies,3
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_currency_conv.py,Currencyconv.__call__,1

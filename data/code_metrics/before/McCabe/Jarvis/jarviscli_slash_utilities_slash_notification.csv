@@ -1,0 +1,6 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_utilities_slash_notification.py,notify__MAC,1
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_utilities_slash_notification.py,notify__LINUX,1
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_utilities_slash_notification.py,notify__WIN10,1
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_utilities_slash_notification.py,notify__GUI_FALLBACK,1
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_utilities_slash_notification.py,notify__CLI_FALLBACK,1

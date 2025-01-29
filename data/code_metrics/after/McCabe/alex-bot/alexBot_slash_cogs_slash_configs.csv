@@ -1,0 +1,9 @@
+file,name,complexity
+c:/src/pylint-intervention/data/after/alex-bot\alexBot_slash_cogs_slash_configs.py,Configs.value_autocomplete,14
+c:/src/pylint-intervention/data/after/alex-bot\alexBot_slash_cogs_slash_configs.py,Configs.user_setConfig,10
+c:/src/pylint-intervention/data/after/alex-bot\alexBot_slash_cogs_slash_configs.py,Configs,8
+c:/src/pylint-intervention/data/after/alex-bot\alexBot_slash_cogs_slash_configs.py,Configs.setConfig,7
+c:/src/pylint-intervention/data/after/alex-bot\alexBot_slash_cogs_slash_configs.py,Configs.user_showConfig,4
+c:/src/pylint-intervention/data/after/alex-bot\alexBot_slash_cogs_slash_configs.py,Configs.guild_showConfig,4
+c:/src/pylint-intervention/data/after/alex-bot\alexBot_slash_cogs_slash_configs.py,Configs.guild_setConfig,3
+c:/src/pylint-intervention/data/after/alex-bot\alexBot_slash_cogs_slash_configs.py,setup,1

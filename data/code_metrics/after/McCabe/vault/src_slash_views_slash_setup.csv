@@ -1,0 +1,6 @@
+file,name,complexity
+c:/src/pylint-intervention/data/after/vault\src_slash_views_slash_setup.py,get_key_input,5
+c:/src/pylint-intervention/data/after/vault\src_slash_views_slash_setup.py,initialize,4
+c:/src/pylint-intervention/data/after/vault\src_slash_views_slash_setup.py,is_key_valid,2
+c:/src/pylint-intervention/data/after/vault\src_slash_views_slash_setup.py,check_key_and_repeat,2
+c:/src/pylint-intervention/data/after/vault\src_slash_views_slash_setup.py,create_db,1

@@ -1,0 +1,10 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_converted.py,directions,2
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_converted.py,do_weather,2
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_converted.py,check_time,1
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_converted.py,check_forecast,1
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_converted.py,check_weather,1
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_converted.py,do_near,1
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_converted.py,do_pinpoint,1
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_converted.py,do_umbrella,1
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_converted.py,do_update,1

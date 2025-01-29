@@ -1,0 +1,6 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_lyrics.py,lyrics.find,7
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_lyrics.py,get_lyric,6
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_lyrics.py,lyrics,4
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_lyrics.py,lyrics.__call__,1
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_lyrics.py,lyrics.parse,1

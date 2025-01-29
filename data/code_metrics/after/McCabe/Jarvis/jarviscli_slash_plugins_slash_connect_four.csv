@@ -1,0 +1,12 @@
+file,name,complexity
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_connect_four.py,checkDiagWin,19
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_connect_four.py,game,13
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_connect_four.py,checkHorizWin,7
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_connect_four.py,checkForWin,6
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_connect_four.py,checkVertWin,5
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_connect_four.py,printBoard,4
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_connect_four.py,restartBoard,3
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_connect_four.py,placeToken,3
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_connect_four.py,checkTie,3
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_connect_four.py,checkIfFree,2
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_connect_four.py,whatsAtPos,2

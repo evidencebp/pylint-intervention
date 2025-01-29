@@ -1,0 +1,10 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_workout.py,pullups,9
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_workout.py,pushups,8
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_workout.py,workout,7
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_workout.py,push_compute_rest,5
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_workout.py,pull_compute_rest,5
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_workout.py,timer,2
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_workout.py,push_compute_num,1
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_workout.py,pull_compute_num,1
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_workout.py,quit,1

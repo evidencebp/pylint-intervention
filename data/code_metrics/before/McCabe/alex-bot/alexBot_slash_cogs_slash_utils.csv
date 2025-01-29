@@ -1,0 +1,10 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/alex-bot\alexBot_slash_cogs_slash_utils.py,Utils.roll,9
+c:/src/pylint-intervention/data/before/alex-bot\alexBot_slash_cogs_slash_utils.py,Utils.difference,6
+c:/src/pylint-intervention/data/before/alex-bot\alexBot_slash_cogs_slash_utils.py,Utils,5
+c:/src/pylint-intervention/data/before/alex-bot\alexBot_slash_cogs_slash_utils.py,Utils.inviteDetails,5
+c:/src/pylint-intervention/data/before/alex-bot\alexBot_slash_cogs_slash_utils.py,Roll,3
+c:/src/pylint-intervention/data/before/alex-bot\alexBot_slash_cogs_slash_utils.py,Roll.__str__,2
+c:/src/pylint-intervention/data/before/alex-bot\alexBot_slash_cogs_slash_utils.py,setup,1
+c:/src/pylint-intervention/data/before/alex-bot\alexBot_slash_cogs_slash_utils.py,Utils.info,1
+c:/src/pylint-intervention/data/before/alex-bot\alexBot_slash_cogs_slash_utils.py,Utils.invite,1

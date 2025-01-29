@@ -1,0 +1,5 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/rnacentral-import-pipeline\rnacentral_pipeline_slash_databases_slash_tmrna_slash_helpers.py,extract_taxid,6
+c:/src/pylint-intervention/data/before/rnacentral-import-pipeline\rnacentral_pipeline_slash_databases_slash_tmrna_slash_helpers.py,get_taxids_for_accessions,5
+c:/src/pylint-intervention/data/before/rnacentral-import-pipeline\rnacentral_pipeline_slash_databases_slash_tmrna_slash_helpers.py,fetch_records,4
+c:/src/pylint-intervention/data/before/rnacentral-import-pipeline\rnacentral_pipeline_slash_databases_slash_tmrna_slash_helpers.py,taxid_mapping,3

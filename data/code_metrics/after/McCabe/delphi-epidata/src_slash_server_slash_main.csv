@@ -1,0 +1,5 @@
+file,name,complexity
+c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_server_slash_main.py,handle_generic,3
+c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_server_slash_main.py,send_index_file,1
+c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_server_slash_main.py,send_version,1
+c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_server_slash_main.py,send_lib_file,1

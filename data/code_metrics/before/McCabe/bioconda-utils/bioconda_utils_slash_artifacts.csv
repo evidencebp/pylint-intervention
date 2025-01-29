@@ -1,0 +1,10 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/bioconda-utils\bioconda_utils_slash_artifacts.py,upload_pr_artifacts,19
+c:/src/pylint-intervention/data/before/bioconda-utils\bioconda_utils_slash_artifacts.py,fetch_artifacts,9
+c:/src/pylint-intervention/data/before/bioconda-utils\bioconda_utils_slash_artifacts.py,get_circleci_artifacts,8
+c:/src/pylint-intervention/data/before/bioconda-utils\bioconda_utils_slash_artifacts.py,download_artifact,5
+c:/src/pylint-intervention/data/before/bioconda-utils\bioconda_utils_slash_artifacts.py,get_azure_artifacts,3
+c:/src/pylint-intervention/data/before/bioconda-utils\bioconda_utils_slash_artifacts.py,get_gha_artifacts,3
+c:/src/pylint-intervention/data/before/bioconda-utils\bioconda_utils_slash_artifacts.py,parse_azure_build_id,1
+c:/src/pylint-intervention/data/before/bioconda-utils\bioconda_utils_slash_artifacts.py,parse_gha_build_id,1
+c:/src/pylint-intervention/data/before/bioconda-utils\bioconda_utils_slash_artifacts.py,UploadResult,1

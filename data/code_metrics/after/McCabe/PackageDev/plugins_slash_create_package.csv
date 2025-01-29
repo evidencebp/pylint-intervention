@@ -1,0 +1,9 @@
+file,name,complexity
+c:/src/pylint-intervention/data/after/PackageDev\plugins_slash_create_package.py,PackagedevCreatePackageCommand,6
+c:/src/pylint-intervention/data/after/PackageDev\plugins_slash_create_package.py,_create_package,5
+c:/src/pylint-intervention/data/after/PackageDev\plugins_slash_create_package.py,PackagedevCreatePackageCommand.run,5
+c:/src/pylint-intervention/data/after/PackageDev\plugins_slash_create_package.py,_archived_packages_in_path,2
+c:/src/pylint-intervention/data/after/PackageDev\plugins_slash_create_package.py,get_default_packages,1
+c:/src/pylint-intervention/data/after/PackageDev\plugins_slash_create_package.py,get_installed_packages,1
+c:/src/pylint-intervention/data/after/PackageDev\plugins_slash_create_package.py,_is_override_package,1
+c:/src/pylint-intervention/data/after/PackageDev\plugins_slash_create_package.py,open_folder_in_st,1

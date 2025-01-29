@@ -1,0 +1,6 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/cappuccino\cappuccino_slash_lastfm.py,LastFM.now_playing,11
+c:/src/pylint-intervention/data/before/cappuccino\cappuccino_slash_lastfm.py,LastFM,6
+c:/src/pylint-intervention/data/before/cappuccino\cappuccino_slash_lastfm.py,LastFM._set_lastfm_username,3
+c:/src/pylint-intervention/data/before/cappuccino\cappuccino_slash_lastfm.py,_add_lastfm_suffix,2
+c:/src/pylint-intervention/data/before/cappuccino\cappuccino_slash_lastfm.py,LastFM.__init__,2

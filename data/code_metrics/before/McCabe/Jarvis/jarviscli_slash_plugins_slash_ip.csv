@@ -1,0 +1,7 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_ip.py,IP,2
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_ip.py,IP.__call__,2
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_ip.py,ip_WIN32,1
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_ip.py,IP.__init__,1
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_ip.py,IP._get_local_ip,1
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_ip.py,IP._get_public_ip,1

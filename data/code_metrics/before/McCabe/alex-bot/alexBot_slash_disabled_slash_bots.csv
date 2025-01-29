@@ -1,0 +1,6 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/alex-bot\alexBot_slash_disabled_slash_bots.py,Bots.on_member_update,13
+c:/src/pylint-intervention/data/before/alex-bot\alexBot_slash_disabled_slash_bots.py,Bots,8
+c:/src/pylint-intervention/data/before/alex-bot\alexBot_slash_disabled_slash_bots.py,Bots.is_shard_presence_guild,6
+c:/src/pylint-intervention/data/before/alex-bot\alexBot_slash_disabled_slash_bots.py,setup,1
+c:/src/pylint-intervention/data/before/alex-bot\alexBot_slash_disabled_slash_bots.py,Bots.send,1

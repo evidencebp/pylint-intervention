@@ -1,0 +1,9 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/PackageDev\plugins_slash_new_resource_file_slash___init__.py,_default_file_name,5
+c:/src/pylint-intervention/data/before/PackageDev\plugins_slash_new_resource_file_slash___init__.py,PackagedevNewResourceCommand,5
+c:/src/pylint-intervention/data/before/PackageDev\plugins_slash_new_resource_file_slash___init__.py,PackagedevNewResourceCommand.run,5
+c:/src/pylint-intervention/data/before/PackageDev\plugins_slash_new_resource_file_slash___init__.py,PackagedevNewResourceCommand._is_package_path,5
+c:/src/pylint-intervention/data/before/PackageDev\plugins_slash_new_resource_file_slash___init__.py,_get_template,3
+c:/src/pylint-intervention/data/before/PackageDev\plugins_slash_new_resource_file_slash___init__.py,PackagedevNewResourceCommand._guess_package_name,3
+c:/src/pylint-intervention/data/before/PackageDev\plugins_slash_new_resource_file_slash___init__.py,PackagedevNewResourceCommand._guess_folder,3
+c:/src/pylint-intervention/data/before/PackageDev\plugins_slash_new_resource_file_slash___init__.py,_syntax_path_for_kind,2

@@ -1,0 +1,10 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/vault\src_slash_modules_slash_misc.py,confirm,10
+c:/src/pylint-intervention/data/before/vault\src_slash_modules_slash_misc.py,erase_vault,4
+c:/src/pylint-intervention/data/before/vault\src_slash_modules_slash_misc.py,create_directory_if_missing,3
+c:/src/pylint-intervention/data/before/vault\src_slash_modules_slash_misc.py,assess_integrity,3
+c:/src/pylint-intervention/data/before/vault\src_slash_modules_slash_misc.py,is_unicode_supported,2
+c:/src/pylint-intervention/data/before/vault\src_slash_modules_slash_misc.py,lock_prefix,2
+c:/src/pylint-intervention/data/before/vault\src_slash_modules_slash_misc.py,logo,1
+c:/src/pylint-intervention/data/before/vault\src_slash_modules_slash_misc.py,logo_small,1
+c:/src/pylint-intervention/data/before/vault\src_slash_modules_slash_misc.py,clear_screen,1

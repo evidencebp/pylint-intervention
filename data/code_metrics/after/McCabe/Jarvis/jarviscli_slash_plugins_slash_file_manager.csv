@@ -1,0 +1,8 @@
+file,name,complexity
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_file_manager.py,file_manage.delete,8
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_file_manager.py,file_manage,5
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_file_manager.py,file_manage.__call__,5
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_file_manager.py,file_manage.get_cmd,4
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_file_manager.py,file_manage.move,3
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_file_manager.py,file_manage.rename,3
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_file_manager.py,file_manage.get_file_directory,1

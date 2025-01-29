@@ -1,0 +1,5 @@
+file,name,complexity
+c:/src/pylint-intervention/data/after/rnacentral-import-pipeline\rnacentral_pipeline_slash_databases_slash_europepmc_slash_stream.py,lookup,9
+c:/src/pylint-intervention/data/after/rnacentral-import-pipeline\rnacentral_pipeline_slash_databases_slash_europepmc_slash_stream.py,load_ids,4
+c:/src/pylint-intervention/data/after/rnacentral-import-pipeline\rnacentral_pipeline_slash_databases_slash_europepmc_slash_stream.py,fallback,3
+c:/src/pylint-intervention/data/after/rnacentral-import-pipeline\rnacentral_pipeline_slash_databases_slash_europepmc_slash_stream.py,write_lookup,3

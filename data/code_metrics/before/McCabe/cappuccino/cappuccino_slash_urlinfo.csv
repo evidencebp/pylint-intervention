@@ -1,0 +1,11 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/cappuccino\cappuccino_slash_urlinfo.py,UrlInfo._process_url,29
+c:/src/pylint-intervention/data/before/cappuccino\cappuccino_slash_urlinfo.py,UrlInfo.on_url,23
+c:/src/pylint-intervention/data/before/cappuccino\cappuccino_slash_urlinfo.py,UrlInfo,15
+c:/src/pylint-intervention/data/before/cappuccino\cappuccino_slash_urlinfo.py,_clean_url,5
+c:/src/pylint-intervention/data/before/cappuccino\cappuccino_slash_urlinfo.py,UrlInfo._stream_response,5
+c:/src/pylint-intervention/data/before/cappuccino\cappuccino_slash_urlinfo.py,ResponseBodyTooLarge,1
+c:/src/pylint-intervention/data/before/cappuccino\cappuccino_slash_urlinfo.py,InvalidIPAddressError,1
+c:/src/pylint-intervention/data/before/cappuccino\cappuccino_slash_urlinfo.py,ContentTypeNotAllowedError,1
+c:/src/pylint-intervention/data/before/cappuccino\cappuccino_slash_urlinfo.py,RequestTimeout,1
+c:/src/pylint-intervention/data/before/cappuccino\cappuccino_slash_urlinfo.py,UrlInfo.__init__,1

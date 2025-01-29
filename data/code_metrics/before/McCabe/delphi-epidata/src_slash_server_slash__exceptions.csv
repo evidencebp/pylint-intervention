@@ -1,0 +1,10 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_server_slash__exceptions.py,EpiDataException,3
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_server_slash__exceptions.py,DatabaseErrorException,3
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_server_slash__exceptions.py,EpiDataException.__init__,2
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_server_slash__exceptions.py,MissingOrWrongSourceException,2
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_server_slash__exceptions.py,ValidationFailedException,2
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_server_slash__exceptions.py,DatabaseErrorException.__init__,2
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_server_slash__exceptions.py,_is_using_status_codes,1
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_server_slash__exceptions.py,MissingOrWrongSourceException.__init__,1
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_server_slash__exceptions.py,ValidationFailedException.__init__,1

@@ -1,0 +1,15 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/cappuccino\cappuccino_slash_rice.py,Rice._generic_db,39
+c:/src/pylint-intervention/data/before/cappuccino\cappuccino_slash_rice.py,Rice,5
+c:/src/pylint-intervention/data/before/cappuccino\cappuccino_slash_rice.py,_from_user_index,2
+c:/src/pylint-intervention/data/before/cappuccino\cappuccino_slash_rice.py,_to_user_index,1
+c:/src/pylint-intervention/data/before/cappuccino\cappuccino_slash_rice.py,Rice.__init__,1
+c:/src/pylint-intervention/data/before/cappuccino\cappuccino_slash_rice.py,Rice.station,1
+c:/src/pylint-intervention/data/before/cappuccino\cappuccino_slash_rice.py,Rice.dtop,1
+c:/src/pylint-intervention/data/before/cappuccino\cappuccino_slash_rice.py,Rice.dotfiles,1
+c:/src/pylint-intervention/data/before/cappuccino\cappuccino_slash_rice.py,Rice.handwriting,1
+c:/src/pylint-intervention/data/before/cappuccino\cappuccino_slash_rice.py,Rice.distro,1
+c:/src/pylint-intervention/data/before/cappuccino\cappuccino_slash_rice.py,Rice.homescreen,1
+c:/src/pylint-intervention/data/before/cappuccino\cappuccino_slash_rice.py,Rice.selfie,1
+c:/src/pylint-intervention/data/before/cappuccino\cappuccino_slash_rice.py,Rice.pet,1
+c:/src/pylint-intervention/data/before/cappuccino\cappuccino_slash_rice.py,Rice.website,1

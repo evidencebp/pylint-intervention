@@ -1,0 +1,9 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_file_organise.py,File_Organise.organise,11
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_file_organise.py,File_Organise.source_path,7
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_file_organise.py,File_Organise,5
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_file_organise.py,File_Organise.destination_path,3
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_file_organise.py,File_Organise.print_before,2
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_file_organise.py,File_Organise.print_after,2
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_file_organise.py,File_Organise.__call__,1
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_file_organise.py,File_Organise.file_manage,1

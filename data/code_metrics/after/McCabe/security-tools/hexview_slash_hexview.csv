@@ -1,0 +1,7 @@
+file,name,complexity
+c:/src/pylint-intervention/data/after/security-tools\hexview_slash_hexview.py,make_color,9
+c:/src/pylint-intervention/data/after/security-tools\hexview_slash_hexview.py,format_chunk,8
+c:/src/pylint-intervention/data/after/security-tools\hexview_slash_hexview.py,format_text,4
+c:/src/pylint-intervention/data/after/security-tools\hexview_slash_hexview.py,file_type,3
+c:/src/pylint-intervention/data/after/security-tools\hexview_slash_hexview.py,char_type,3
+c:/src/pylint-intervention/data/after/security-tools\hexview_slash_hexview.py,extract_shellcode,3

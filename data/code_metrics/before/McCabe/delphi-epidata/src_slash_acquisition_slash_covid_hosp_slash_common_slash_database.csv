@@ -1,0 +1,10 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_acquisition_slash_covid_hosp_slash_common_slash_database.py,Database.insert_dataset,20
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_acquisition_slash_covid_hosp_slash_common_slash_database.py,Database.__init__,6
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_acquisition_slash_covid_hosp_slash_common_slash_database.py,Database,5
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_acquisition_slash_covid_hosp_slash_common_slash_database.py,Database.get_max_issue,4
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_acquisition_slash_covid_hosp_slash_common_slash_database.py,Database.contains_revision,2
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_acquisition_slash_covid_hosp_slash_common_slash_database.py,Database.logger,1
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_acquisition_slash_covid_hosp_slash_common_slash_database.py,Database.connect,1
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_acquisition_slash_covid_hosp_slash_common_slash_database.py,Database.new_cursor,1
+c:/src/pylint-intervention/data/before/delphi-epidata/src_slash_acquisition_slash_covid_hosp_slash_common_slash_database.py,Database.insert_metadata,1

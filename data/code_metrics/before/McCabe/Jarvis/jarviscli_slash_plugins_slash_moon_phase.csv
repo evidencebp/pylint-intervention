@@ -1,0 +1,9 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_moon_phase.py,moonphase,8
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_moon_phase.py,fullmoon_finder,4
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_moon_phase.py,fullmoon_text,3
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_moon_phase.py,position,2
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_moon_phase.py,phase_calculator,1
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_moon_phase.py,help_text,1
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_moon_phase.py,phase,1
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_moon_phase.py,ascii_art,1

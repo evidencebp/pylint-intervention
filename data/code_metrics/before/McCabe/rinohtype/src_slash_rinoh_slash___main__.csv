@@ -1,0 +1,10 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/rinohtype\src_slash_rinoh_slash___main__.py,main,42
+c:/src/pylint-intervention/data/before/rinohtype\src_slash_rinoh_slash___main__.py,get_reader_by_extension,3
+c:/src/pylint-intervention/data/before/rinohtype\src_slash_rinoh_slash___main__.py,installed_typefaces,3
+c:/src/pylint-intervention/data/before/rinohtype\src_slash_rinoh_slash___main__.py,get_distribution_name,2
+c:/src/pylint-intervention/data/before/rinohtype\src_slash_rinoh_slash___main__.py,get_reader_by_name,2
+c:/src/pylint-intervention/data/before/rinohtype\src_slash_rinoh_slash___main__.py,display_fonts,2
+c:/src/pylint-intervention/data/before/rinohtype\src_slash_rinoh_slash___main__.py,CwdSource,2
+c:/src/pylint-intervention/data/before/rinohtype\src_slash_rinoh_slash___main__.py,CwdSource.location,1
+c:/src/pylint-intervention/data/before/rinohtype\src_slash_rinoh_slash___main__.py,CwdSource.root,1

@@ -1,0 +1,6 @@
+file,name,complexity
+c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_acquisition_slash_ght_slash_google_health_trends.py,main,8
+c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_acquisition_slash_ght_slash_google_health_trends.py,GHT.get_data,7
+c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_acquisition_slash_ght_slash_google_health_trends.py,GHT,4
+c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_acquisition_slash_ght_slash_google_health_trends.py,GHT.__init__,1
+c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_acquisition_slash_ght_slash_google_health_trends.py,GHT._ew2date,1

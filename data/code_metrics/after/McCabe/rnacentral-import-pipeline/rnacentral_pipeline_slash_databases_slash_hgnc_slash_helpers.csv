@@ -1,0 +1,14 @@
+file,name,complexity
+c:/src/pylint-intervention/data/after/rnacentral-import-pipeline\rnacentral_pipeline_slash_databases_slash_hgnc_slash_helpers.py,so_term,13
+c:/src/pylint-intervention/data/after/rnacentral-import-pipeline\rnacentral_pipeline_slash_databases_slash_hgnc_slash_helpers.py,load,2
+c:/src/pylint-intervention/data/after/rnacentral-import-pipeline\rnacentral_pipeline_slash_databases_slash_hgnc_slash_helpers.py,gtrnadb_to_urs,2
+c:/src/pylint-intervention/data/after/rnacentral-import-pipeline\rnacentral_pipeline_slash_databases_slash_hgnc_slash_helpers.py,refseq_id_to_urs,2
+c:/src/pylint-intervention/data/after/rnacentral-import-pipeline\rnacentral_pipeline_slash_databases_slash_hgnc_slash_helpers.py,ensembl_sequence,2
+c:/src/pylint-intervention/data/after/rnacentral-import-pipeline\rnacentral_pipeline_slash_databases_slash_hgnc_slash_helpers.py,md5_to_urs,2
+c:/src/pylint-intervention/data/after/rnacentral-import-pipeline\rnacentral_pipeline_slash_databases_slash_hgnc_slash_helpers.py,url,1
+c:/src/pylint-intervention/data/after/rnacentral-import-pipeline\rnacentral_pipeline_slash_databases_slash_hgnc_slash_helpers.py,description,1
+c:/src/pylint-intervention/data/after/rnacentral-import-pipeline\rnacentral_pipeline_slash_databases_slash_hgnc_slash_helpers.py,gene,1
+c:/src/pylint-intervention/data/after/rnacentral-import-pipeline\rnacentral_pipeline_slash_databases_slash_hgnc_slash_helpers.py,gene_synonyms,1
+c:/src/pylint-intervention/data/after/rnacentral-import-pipeline\rnacentral_pipeline_slash_databases_slash_hgnc_slash_helpers.py,md5,1
+c:/src/pylint-intervention/data/after/rnacentral-import-pipeline\rnacentral_pipeline_slash_databases_slash_hgnc_slash_helpers.py,ensembl_gene_to_urs,1
+c:/src/pylint-intervention/data/after/rnacentral-import-pipeline\rnacentral_pipeline_slash_databases_slash_hgnc_slash_helpers.py,urs_to_sequence,1

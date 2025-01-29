@@ -1,0 +1,7 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_rockpaperscissors.py,rockpaperscissors.__call__,15
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_rockpaperscissors.py,rockpaperscissors,8
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_rockpaperscissors.py,rockpaperscissors.game,8
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_rockpaperscissors.py,rockpaperscissors.get_users,6
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_rockpaperscissors.py,rockpaperscissors.get_rounds,4
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_rockpaperscissors.py,rockpaperscissors.get_jarvis,1

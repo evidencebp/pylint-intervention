@@ -1,0 +1,4 @@
+file,name,complexity
+c:/src/pylint-intervention/data/after/rnacentral-import-pipeline\rnacentral_pipeline_slash_rnacentral_slash_r2dt_slash_parser.py,parse,9
+c:/src/pylint-intervention/data/after/rnacentral-import-pipeline\rnacentral_pipeline_slash_rnacentral_slash_r2dt_slash_parser.py,load_hit_info,6
+c:/src/pylint-intervention/data/after/rnacentral-import-pipeline\rnacentral_pipeline_slash_rnacentral_slash_r2dt_slash_parser.py,load_model_info,4

@@ -1,0 +1,3 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_food_recipe.py,getAllRecipes,11
+c:/src/pylint-intervention/data/before/Jarvis\jarviscli_slash_plugins_slash_food_recipe.py,getChoices,2

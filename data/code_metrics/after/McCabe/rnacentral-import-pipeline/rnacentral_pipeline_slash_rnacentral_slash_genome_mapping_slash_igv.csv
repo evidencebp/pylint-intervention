@@ -1,0 +1,5 @@
+file,name,complexity
+c:/src/pylint-intervention/data/after/rnacentral-import-pipeline\rnacentral_pipeline_slash_rnacentral_slash_genome_mapping_slash_igv.py,check_url,23
+c:/src/pylint-intervention/data/after/rnacentral-import-pipeline\rnacentral_pipeline_slash_rnacentral_slash_genome_mapping_slash_igv.py,ftp,2
+c:/src/pylint-intervention/data/after/rnacentral-import-pipeline\rnacentral_pipeline_slash_rnacentral_slash_genome_mapping_slash_igv.py,create_json,2
+c:/src/pylint-intervention/data/after/rnacentral-import-pipeline\rnacentral_pipeline_slash_rnacentral_slash_genome_mapping_slash_igv.py,NoFastaFile,1

@@ -1,0 +1,5 @@
+file,name,complexity
+c:/src/pylint-intervention/data/before/MPContribs\mpcontribs-portal_slash_mpcontribs_slash_users_slash_redox_thermo_csp_slash_pre_submission.py,run,14
+c:/src/pylint-intervention/data/before/MPContribs\mpcontribs-portal_slash_mpcontribs_slash_users_slash_redox_thermo_csp_slash_pre_submission.py,add_comp_one,6
+c:/src/pylint-intervention/data/before/MPContribs\mpcontribs-portal_slash_mpcontribs_slash_users_slash_redox_thermo_csp_slash_pre_submission.py,get_fit_pars,4
+c:/src/pylint-intervention/data/before/MPContribs\mpcontribs-portal_slash_mpcontribs_slash_users_slash_redox_thermo_csp_slash_pre_submission.py,get_table,1
