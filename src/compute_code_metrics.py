@@ -12,7 +12,7 @@ import pandas as pd
 
 from configuration import (BASE_DIR, DONE_DIRECTORY, PROJECTS_DIR, PR_COL, REPO_COL, EXCLUDED_REPOS
                                 , BEFORE_DIR, AFTER_DIR)
-from code_metrics import analyze_file
+from code_metrics import analyze_file, get_McCabe_complexity
 from compute_diffs import DIFF_SIZE_FILE
 from utils import (get_author_first_commit_in_repo, get_project_name, get_file_prev_commit
                     , get_branch_name, create_branch, checkout_branch, delete_branch
@@ -52,10 +52,21 @@ def get_repo_metrics(interventions_file
         if verbose:
             print(datetime.datetime.now(), "analyzing ", i['path'])
 
-        metrics = analyze_file(join(repo_dir
-                            , encode_path(i.path)))
+        file = join(repo_dir
+                            , encode_path(i.path))
+        metrics = analyze_file(file)
         metrics['path'] = i.path
 
+        McCabe_df = get_McCabe_complexity(file)
+        McCabe_path = METRICS_AFTER_DIR if current else METRICS_BEFORE_DIR
+        McCabe_path = join(McCabe_path
+                           , 'McCabe'
+                           , get_project_name(repo_name))
+        force_dir(McCabe_path)
+        McCabe_file = join(McCabe_path
+                           ,encode_path(i.path).replace('.py', '.csv'))
+        McCabe_df.to_csv(McCabe_file
+                         , index=False)
         if np.isreal(metrics['LOC']): # Avoid failure to analyze
             metrics_list.append(metrics)
         else:
@@ -174,20 +185,20 @@ def get_metrics_dist(df):
     print(alert)
     for i in ['SLOC_diff', 'LLOC_diff', 'LOC_diff']:
         print(i)
-        print(df[df['msg']==alert][i].value_counts())
+        print(df[df['msg']==alert][i].value_counts().sort_index())
 
     alert = "too-many-branches"
     print(alert)
     for i in ['McCabe_max_diff','McCabe_sum_diff']:
         print(i)
-        print(df[df['msg']==alert][i].value_counts())
+        print(df[df['msg']==alert][i].value_counts().sort_index())
 
     #  simplifiable-if-expression
     alert = "simplifiable-if-expression"
     print(alert)
     for i in ['McCabe_max_diff','McCabe_sum_diff']:
         print(i)
-        print(df[df['msg']==alert][i].value_counts())
+        print(df[df['msg']==alert][i].value_counts().sort_index())
 
 def list_branches(func=get_branch_name):
     intervention_files = listdir(DONE_DIRECTORY)
@@ -241,11 +252,11 @@ if __name__ == "__main__":
                                 , repo_dir="c:/interventions/alex-bot"
                                 , commit=get_file_prev_commit(commit="0a6d54251d775b5111117de430683e2b6e7c3cb3"
                                , repo_dir="c:/interventions/alex-bot")))
+    """
     print("Compute current metrics")
     get_all_repo_metrics(current=True)
     print("Compute original metrics")
     get_all_repo_metrics(current=False)
-    """
 
     
     
@@ -256,4 +267,4 @@ if __name__ == "__main__":
     # TODO - Check metrics are correct
     # Check LOC definition
     # use relevant McCabe Functions
-    # identical version "C:\src\pylint-intervention\data\after\vault\src_slash_tools_slash_troubleshoot_db.py"
+    # Zero diff
