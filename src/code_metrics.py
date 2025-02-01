@@ -3,10 +3,12 @@ See
 https://radon.readthedocs.io/en/latest/index.html
 
 """
+from os.path import join
 import numpy as np
 import pandas as pd
 
-from utils import run_powershell_cmd
+from configuration import METRICS_BEFORE_DIR, METRICS_AFTER_DIR, REPO_COL
+from utils import run_powershell_cmd, get_project_name, encode_path, get_done_interventions
 
 
 def get_metrics_set(file: str
@@ -83,3 +85,70 @@ def analyze_file(file: str):
     df = pd.DataFrame(metrics, index=[0])
 
     return df
+
+def get_relevant_McCabe_stats(repo_name
+                              , source_file):
+
+    metrics = {'repo_name': repo_name
+               , 'path': source_file}
+
+    McCabe_path = join(METRICS_BEFORE_DIR
+                       , 'McCabe'
+                       , get_project_name(repo_name))
+    McCabe_file = join(McCabe_path
+                       , encode_path(source_file).replace('.py', '.csv'))
+    before_df = pd.read_csv(McCabe_file)
+
+    McCabe_path = join(METRICS_AFTER_DIR
+                       , 'McCabe'
+                       , get_project_name(repo_name))
+    McCabe_file = join(McCabe_path
+                       , encode_path(source_file).replace('.py', '.csv'))
+    after_df = pd.read_csv(McCabe_file)
+
+
+    joint = pd.merge(after_df[['name', 'complexity']]
+                        , before_df[['name', 'complexity']]
+                        , on=['name']
+                        #, how='left'
+                        , suffixes=('_after', '_before'))
+    joint = joint[(joint['complexity_before'] != joint['complexity_after'])]
+    if len(joint):
+        """
+        joint['complexity_before'] = joint['complexity_before'].map(lambda x: 0 if np.isnan(x) else x)
+        joint['diff'] = joint.apply(lambda x: x['complexity_after'] - x['complexity_before']
+                                    , axis=1)
+        """
+        metrics['modified_McCabe_max_diff'] = joint['complexity_after'].max() - joint['complexity_before'].max()
+
+        """
+        complexity_before_sum = (joint['complexity_before'].max() if np.isnan(joint['complexity_before'].max())
+                                 else joint['complexity_before'].sum())
+        complexity_after_sum = (joint['complexity_after'].max() if np.isnan(joint['complexity_after'].max())
+                                 else joint['complexity_after'].sum())
+
+        metrics['modified_McCabe_sum_diff'] = complexity_after_sum - complexity_before_sum
+        """
+    else:
+        metrics['modified_McCabe_max_diff'] = None
+        #metrics['modified_McCabe_sum_diff'] = None
+
+    df = pd.DataFrame(metrics, index=[0])
+
+    return df
+
+def get_repo_relevant_McCabe_stats(interventions_file):
+    df = get_done_interventions(interventions_file)
+
+    repo_name = df[REPO_COL].astype(str).max() # Should be same value, max takes one
+
+    stats = []
+    for source_file in df['path'].unique():
+        stat = get_relevant_McCabe_stats(repo_name
+                              , source_file)
+        stats.append(stat)
+
+    stats_df = pd.concat(stats)
+
+    return stats_df
+

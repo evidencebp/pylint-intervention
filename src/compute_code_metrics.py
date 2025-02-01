@@ -118,7 +118,7 @@ def compute_code_differences(stats_per_repo=False):
             aggs = {'path': 'count'
                 , 'msg': 'max'
                 , 'modified_McCabe_max_diff': 'mean'
-                , 'modified_McCabe_sum_diff': 'mean'}
+                    }
             for c in set(before_df.columns) - set([KEY, 'commit']):
                 #print(c)
                 try:
@@ -149,7 +149,7 @@ def compute_code_differences(stats_per_repo=False):
             modified_McCabe = get_repo_relevant_McCabe_stats(interventions_file)
             joint = pd.merge(joint
                              , modified_McCabe
-                             , on='file'
+                             , on='path'
                              , how='left')
             if stats_per_repo:
                 g = joint.groupby(['msg_id']
@@ -164,6 +164,7 @@ def compute_code_differences(stats_per_repo=False):
             print("A file was not found", i)
 
     all_metrics_df = pd.concat(all_metrics)
+    all_metrics_df.sort_values(['repo_name', 'msg'], inplace=True)
     all_metrics_df.to_csv(join(BASE_DIR
                             , 'interventions/interventions_code_metrics.csv')
                        , index=False)
@@ -174,7 +175,7 @@ def compute_code_differences(stats_per_repo=False):
     get_metrics_dist(all_metrics_df)
 
     g = all_metrics_df.groupby(['msg_id']
-                            , as_index=False).agg(aggs)
+                            , as_index=False).agg(aggs).sort_values('msg')
     g.to_csv(join(BASE_DIR
                             , 'interventions/interventions_code_metrics_stats.csv'))
 
@@ -188,14 +189,14 @@ def get_metrics_dist(df):
 
     alert = "too-many-branches"
     print(alert)
-    for i in ['McCabe_max_diff','McCabe_sum_diff']:
+    for i in ['McCabe_max_diff','McCabe_sum_diff', 'modified_McCabe_max_diff']:
         print(i)
         print(df[df['msg']==alert][i].value_counts().sort_index())
 
     #  simplifiable-if-expression
     alert = "simplifiable-if-expression"
     print(alert)
-    for i in ['McCabe_max_diff','McCabe_sum_diff']:
+    for i in ['McCabe_max_diff','McCabe_sum_diff', 'modified_McCabe_max_diff']:
         print(i)
         print(df[df['msg']==alert][i].value_counts().sort_index())
 
