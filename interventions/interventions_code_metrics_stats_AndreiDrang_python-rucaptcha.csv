@@ -1,2 +1,2 @@
-,msg_id,path,msg,N1_diff,McCabe_max_diff,SLOC_diff,McCabe_sum_diff,N2_diff,LOC_diff,LLOC_diff
-0,C0301,7,line-too-long,0.5714285714285714,0.0,1.1428571428571428,0.0,1.1428571428571428,1.2857142857142858,0.0
+,msg_id,path,msg,modified_McCabe_max_diff,N2_diff,LLOC_diff,LOC_diff,N1_diff,McCabe_max_diff,SLOC_diff,McCabe_sum_diff
+0,C0301,7,line-too-long,,1.1428571428571428,0.0,1.2857142857142858,0.5714285714285714,0.0,1.1428571428571428,0.0

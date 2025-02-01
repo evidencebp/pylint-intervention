@@ -32,6 +32,8 @@ def get_input(message='', secure=False, lowercase=False, check_timer=True, non_l
             input_ = input_.lower()
     except KeyboardInterrupt:
         return False
+    except Exception:  # Other Exception
+        return False
 
     return input_
 
