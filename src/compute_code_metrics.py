@@ -11,22 +11,13 @@ import numpy as np
 import pandas as pd
 
 from configuration import (BASE_DIR, DONE_DIRECTORY, PROJECTS_DIR, PR_COL, REPO_COL, EXCLUDED_REPOS
-                                , BEFORE_DIR, AFTER_DIR)
-from code_metrics import analyze_file, get_McCabe_complexity
+                                , BEFORE_DIR, AFTER_DIR, METRICS_BEFORE_DIR, METRICS_AFTER_DIR)
+from code_metrics import analyze_file, get_McCabe_complexity, get_repo_relevant_McCabe_stats
 from compute_diffs import DIFF_SIZE_FILE
 from utils import (get_author_first_commit_in_repo, get_project_name, get_file_prev_commit
                     , get_branch_name, create_branch, checkout_branch, delete_branch
-                    , force_dir, copy_files, get_done_interventions)
+                    , force_dir, copy_files, get_done_interventions, encode_path)
 
-METRICS_BEFORE_DIR = join(BASE_DIR
-                          , "data/code_metrics/before/")
-METRICS_AFTER_DIR = join(BASE_DIR
-                         , "data/code_metrics/after/")
-
-def encode_path(path
-                , direction='both'):
-
-    return path.replace("/", "_slash_").replace("\\", "_slash_")
 
 def get_metrics_file(repo_name):
     return encode_path(repo_name) + ".csv"
@@ -108,8 +99,9 @@ def compute_code_differences(stats_per_repo=False):
     for i in intervention_files:
         print(datetime.datetime.now(), i)
 
-        intervention_df = pd.read_csv(join(DONE_DIRECTORY
-                                           , i))
+        interventions_file = join(DONE_DIRECTORY
+                                           , i)
+        intervention_df = pd.read_csv(interventions_file)
         intervention_df = intervention_df[~intervention_df[PR_COL].isna()]
         intervention_df = intervention_df[intervention_df[PR_COL].str.contains('github')]
 
@@ -124,7 +116,9 @@ def compute_code_differences(stats_per_repo=False):
                                , on=KEY
                                , suffixes=('_before', '_after'))
             aggs = {'path': 'count'
-                , 'msg': 'max'}
+                , 'msg': 'max'
+                , 'modified_McCabe_max_diff': 'mean'
+                , 'modified_McCabe_sum_diff': 'mean'}
             for c in set(before_df.columns) - set([KEY, 'commit']):
                 #print(c)
                 try:
@@ -152,6 +146,11 @@ def compute_code_differences(stats_per_repo=False):
             joint = pd.merge(joint
                              , diff_df[[KEY]]
                              , on=KEY)
+            modified_McCabe = get_repo_relevant_McCabe_stats(interventions_file)
+            joint = pd.merge(joint
+                             , modified_McCabe
+                             , on='file'
+                             , how='left')
             if stats_per_repo:
                 g = joint.groupby(['msg_id']
                                            , as_index=False).agg(aggs)
@@ -252,13 +251,15 @@ if __name__ == "__main__":
                                 , repo_dir="c:/interventions/alex-bot"
                                 , commit=get_file_prev_commit(commit="0a6d54251d775b5111117de430683e2b6e7c3cb3"
                                , repo_dir="c:/interventions/alex-bot")))
-    """
+
+
     print("Compute current metrics")
     get_all_repo_metrics(current=True)
     print("Compute original metrics")
     get_all_repo_metrics(current=False)
 
-    
+    """
+
     
     compute_code_differences(stats_per_repo=True)
 #    get_pre_intervention_commits()

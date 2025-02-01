@@ -178,3 +178,9 @@ def get_done_interventions(interventions_file):
     df = df[df[PR_COL].str.contains('github')]
 
     return df
+
+
+def encode_path(path
+                , direction='both'):
+
+    return path.replace("/", "_slash_").replace("\\", "_slash_")

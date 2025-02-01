@@ -10,6 +10,11 @@ BEFORE_DIR = join(DATA_DIR, 'before/')
 AFTER_DIR = join(DATA_DIR, 'after/')
 DIFFS_DIR = join(DATA_DIR, 'diffs/')
 
+METRICS_BEFORE_DIR = join(BASE_DIR
+                          , "data/code_metrics/before/")
+METRICS_AFTER_DIR = join(BASE_DIR
+                         , "data/code_metrics/after/")
+
 
 PR_COL = 'In which pull request the modification was done?'
 HARMFUL_COL = 'Do you consider the removed alert harmful?'
