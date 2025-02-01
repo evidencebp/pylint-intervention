@@ -52,7 +52,7 @@ def build_repo_varsion(interventions_file
 
         # Move to pre-intervention branch
         create_branch(repo_dir=repo_dir
-                      , branch_name='tmp_branch'
+                      , branch_name=pre_branch_name
                       , commit=pre_intervention_commit)
         checkout_branch(repo_dir=repo_dir
                         , branch_name=pre_branch_name)
@@ -158,6 +158,8 @@ def compute_diff_sizes():
 
     df = pd.DataFrame(sizes
                       , columns=['repo_name', 'path', 'size'])
+    df.sort_values(['repo_name', 'size', 'path']
+                   , inplace=True)
     df.to_csv(DIFF_SIZE_FILE
               , index=False)
 
