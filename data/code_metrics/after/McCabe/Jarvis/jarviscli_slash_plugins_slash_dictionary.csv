@@ -1,2 +1,4 @@
 file,name,complexity
-c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_dictionary.py,dictionary,16
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_dictionary.py,dictionary,8
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_dictionary.py,present_results,5
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_dictionary.py,build_datasets,5

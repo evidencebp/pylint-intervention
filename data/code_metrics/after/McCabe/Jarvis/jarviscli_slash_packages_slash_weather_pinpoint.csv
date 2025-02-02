@@ -1,2 +1,6 @@
 file,name,complexity
-c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_packages_slash_weather_pinpoint.py,main,17
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_packages_slash_weather_pinpoint.py,main,5
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_packages_slash_weather_pinpoint.py,handle_location_change,3
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_packages_slash_weather_pinpoint.py,get_weather_for_city,3
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_packages_slash_weather_pinpoint.py,handle_new_location,1
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_packages_slash_weather_pinpoint.py,ask_set_new_location,1

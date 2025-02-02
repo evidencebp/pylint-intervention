@@ -1,2 +1,3 @@
 file,name,complexity
-c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_flightradar.py,flightradar,41
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_flightradar.py,check_flight_between_destinations,23
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_flightradar.py,flightradar,19

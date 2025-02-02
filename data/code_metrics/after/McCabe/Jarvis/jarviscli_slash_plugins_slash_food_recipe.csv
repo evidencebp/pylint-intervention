@@ -1,3 +1,8 @@
 file,name,complexity
-c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_food_recipe.py,getAllRecipes,11
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_food_recipe.py,get_user_selection,4
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_food_recipe.py,get_recipe_id,3
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_food_recipe.py,getAllRecipes,3
 c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_food_recipe.py,getChoices,2
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_food_recipe.py,get_recipe_titles,2
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_food_recipe.py,print_titles,2
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_food_recipe.py,print_recipe_details,2

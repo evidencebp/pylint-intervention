@@ -1,8 +1,13 @@
 file,name,complexity
-c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_acquisition_slash_wiki_slash_wiki_download.py,run,28
+c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_acquisition_slash_wiki_slash_wiki_download.py,run,15
 c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_acquisition_slash_wiki_slash_wiki_download.py,extract_article_counts,8
 c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_acquisition_slash_wiki_slash_wiki_download.py,extract_article_counts_orig,8
+c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_acquisition_slash_wiki_slash_wiki_download.py,_alert_on_limit_reach,5
+c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_acquisition_slash_wiki_slash_wiki_download.py,_validate_hash,3
 c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_acquisition_slash_wiki_slash_wiki_download.py,data,2
+c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_acquisition_slash_wiki_slash_wiki_download.py,debug_log,2
+c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_acquisition_slash_wiki_slash_wiki_download.py,_get_job_content,2
+c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_acquisition_slash_wiki_slash_wiki_download.py,_remove_raw_files,2
 c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_acquisition_slash_wiki_slash_wiki_download.py,text,1
 c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_acquisition_slash_wiki_slash_wiki_download.py,get_hmac_sha256,1
 c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_acquisition_slash_wiki_slash_wiki_download.py,main,1

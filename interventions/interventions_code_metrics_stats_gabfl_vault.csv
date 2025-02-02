@@ -1,1 +1,5 @@
-,msg_id,path,msg,modified_McCabe_max_diff,N2_diff,LLOC_diff,LOC_diff,N1_diff,McCabe_max_diff,SLOC_diff,McCabe_sum_diff
+,msg_id,path,msg,modified_McCabe_max_diff,SLOC_diff,N1_diff,LOC_diff,N2_diff,LLOC_diff,McCabe_sum_diff,McCabe_max_diff
+0,C0301,3,line-too-long,,0.6666666666666666,0.3333333333333333,1.0,0.6666666666666666,0.0,0.0,0.0
+1,C0325,1,superfluous-parens,,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+2,R1719,1,simplifiable-if-expression,-1.0,0.0,0.0,0.0,0.0,0.0,-1.0,0.0
+3,W0718,3,broad-exception-caught,-1.0,-1.3333333333333333,0.0,-1.3333333333333333,0.0,-1.3333333333333333,-0.6666666666666666,0.0

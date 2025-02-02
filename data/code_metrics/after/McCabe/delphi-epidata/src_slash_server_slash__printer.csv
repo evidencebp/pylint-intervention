@@ -1,10 +1,10 @@
 file,name,complexity
-c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_server_slash__printer.py,create_printer,7
 c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_server_slash__printer.py,print_non_standard,5
 c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_server_slash__printer.py,ClassicPrinter,5
 c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_server_slash__printer.py,ClassicPrinter._end,5
 c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_server_slash__printer.py,ClassicPrinter._format_row,4
 c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_server_slash__printer.py,ClassicTreePrinter._format_row,4
+c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_server_slash__printer.py,create_printer,3
 c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_server_slash__printer.py,APrinter._print_row,3
 c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_server_slash__printer.py,ClassicTreePrinter,3
 c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_server_slash__printer.py,CSVPrinter.make_response,3

@@ -1,3 +1,8 @@
 file,name,complexity
-c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_utilities_slash_textParser.py,parse_date,27
 c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_utilities_slash_textParser.py,parse_number,14
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_utilities_slash_textParser.py,parse_date,11
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_utilities_slash_textParser.py,_handle_time_delta,8
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_utilities_slash_textParser.py,_parse_time_formats,6
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_utilities_slash_textParser.py,_parse_date_formats,5
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_utilities_slash_textParser.py,_parse_day_format,4
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_utilities_slash_textParser.py,_update_parse_delta_unit,2

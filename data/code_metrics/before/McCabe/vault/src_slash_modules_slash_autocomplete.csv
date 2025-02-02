@@ -1,5 +1,5 @@
 file,name,complexity
 c:/src/pylint-intervention/data/before/vault\src_slash_modules_slash_autocomplete.py,autocomplete,8
+c:/src/pylint-intervention/data/before/vault\src_slash_modules_slash_autocomplete.py,get_input_autocomplete,4
 c:/src/pylint-intervention/data/before/vault\src_slash_modules_slash_autocomplete.py,find_breaking_strings,3
-c:/src/pylint-intervention/data/before/vault\src_slash_modules_slash_autocomplete.py,get_input_autocomplete,3
 c:/src/pylint-intervention/data/before/vault\src_slash_modules_slash_autocomplete.py,set_parameters,1

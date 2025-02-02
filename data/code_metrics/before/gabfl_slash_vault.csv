@@ -1,10 +1,9 @@
 LOC,LLOC,SLOC,N1,N2,McCabe_max,McCabe_sum,path
-108,60,59,8,16,5,14,src\views\setup.py
-133,85,79,9,18,2,12,src\tools\troubleshoot_db.py
-187,102,97,17,34,10,29,src\views\menu.py
-93,41,43,2,3,2,11,src\lib\Config.py
-72,42,38,8,15,8,15,src\modules\autocomplete.py
+107,60,58,7,14,5,14,src\views\setup.py
+133,85,79,9,18,2,13,src\tools\troubleshoot_db.py
+189,104,99,17,34,10,30,src\views\menu.py
+92,41,42,2,3,2,11,src\lib\Config.py
+74,44,40,8,15,8,16,src\modules\autocomplete.py
 165,93,85,15,27,10,27,src\modules\misc.py
-190,88,90,12,22,5,22,src\views\import_export.py
-167,89,92,15,29,4,15,src\views\migration.py
+189,88,90,12,22,5,22,src\views\import_export.py
 298,150,146,32,58,7,44,src\views\categories.py

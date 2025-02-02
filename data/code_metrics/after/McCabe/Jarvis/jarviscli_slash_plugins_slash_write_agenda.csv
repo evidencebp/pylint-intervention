@@ -1,3 +1,6 @@
 file,name,complexity
-c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_write_agenda.py,write_agenda,14
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_write_agenda.py,write_agenda,8
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_write_agenda.py,check_agenda_file,3
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_write_agenda.py,get_valid_date,3
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_write_agenda.py,get_valid_time,3
 c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_write_agenda.py,read_agenda,3

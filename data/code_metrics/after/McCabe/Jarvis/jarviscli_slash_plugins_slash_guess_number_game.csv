@@ -1,3 +1,7 @@
 file,name,complexity
-c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_guess_number_game.py,helloworld,19
 c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_guess_number_game.py,show,12
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_guess_number_game.py,play_game,8
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_guess_number_game.py,get_game_mode,4
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_guess_number_game.py,helloworld,2
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_guess_number_game.py,get_valid_number_input,2
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_guess_number_game.py,display_welcome_message,1

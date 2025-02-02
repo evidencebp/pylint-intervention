@@ -1,8 +1,11 @@
 file,name,complexity
 c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_blackjack.py,blackjack,18
-c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_blackjack.py,move,12
 c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_blackjack.py,blackjacksum,9
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_blackjack.py,move,9
 c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_blackjack.py,pprinthand,6
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_blackjack.py,handle_split,3
 c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_blackjack.py,pprinthandlist,2
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_blackjack.py,handle_double_down,2
 c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_blackjack.py,delay,1
 c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_blackjack.py,wiped_slate,1
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_blackjack.py,handle_hit,1

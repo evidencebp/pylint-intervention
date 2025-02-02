@@ -1,10 +1,12 @@
 file,name,complexity
-c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_acquisition_slash_covidcast_slash_csv_importer.py,CsvImporter.extract_and_check_row,29
+c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_acquisition_slash_covidcast_slash_csv_importer.py,_validate_geo_type,19
 c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_acquisition_slash_covidcast_slash_csv_importer.py,CsvImporter.validate_missing_code,11
 c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_acquisition_slash_covidcast_slash_csv_importer.py,CsvImporter.find_csv_files,10
-c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_acquisition_slash_covidcast_slash_csv_importer.py,CsvImporter,7
+c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_acquisition_slash_covidcast_slash_csv_importer.py,CsvImporter.extract_and_check_row,10
+c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_acquisition_slash_covidcast_slash_csv_importer.py,CsvImporter,6
 c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_acquisition_slash_covidcast_slash_csv_importer.py,CsvImporter.find_issue_specific_csv_files,5
 c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_acquisition_slash_covidcast_slash_csv_importer.py,CsvImporter.load_csv,5
+c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_acquisition_slash_covidcast_slash_csv_importer.py,_validate_geo_id,4
 c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_acquisition_slash_covidcast_slash_csv_importer.py,CsvImporter.is_sane_day,4
 c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_acquisition_slash_covidcast_slash_csv_importer.py,CsvImporter.is_sane_week,3
 c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_acquisition_slash_covidcast_slash_csv_importer.py,CsvImporter.maybe_apply,3

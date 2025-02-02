@@ -1,5 +1,6 @@
 file,name,complexity
-c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_acquisition_slash_covid_hosp_slash_common_slash_database.py,Database.insert_dataset,20
+c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_acquisition_slash_covid_hosp_slash_common_slash_database.py,Database.insert_dataset,12
+c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_acquisition_slash_covid_hosp_slash_common_slash_database.py,Database._process_rows,9
 c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_acquisition_slash_covid_hosp_slash_common_slash_database.py,Database.__init__,6
 c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_acquisition_slash_covid_hosp_slash_common_slash_database.py,Database,5
 c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_acquisition_slash_covid_hosp_slash_common_slash_database.py,Database.get_max_issue,4

@@ -1,5 +1,6 @@
 file,name,complexity
-c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_server_slash_endpoints_slash_covidcast.py,handle_meta,35
+c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_server_slash_endpoints_slash_covidcast.py,handle_meta,19
+c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_server_slash_endpoints_slash_covidcast.py,_process_signals,17
 c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_server_slash_endpoints_slash_covidcast.py,handle_export,14
 c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_server_slash_endpoints_slash_covidcast.py,handle_coverage,12
 c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_server_slash_endpoints_slash_covidcast.py,restrict_by_roles,6

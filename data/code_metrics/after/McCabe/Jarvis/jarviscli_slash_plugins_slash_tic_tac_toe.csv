@@ -1,5 +1,5 @@
 file,name,complexity
-c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_tic_tac_toe.py,evaluate,19
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_tic_tac_toe.py,evaluate,22
 c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_tic_tac_toe.py,minimax,11
 c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_tic_tac_toe.py,game,10
 c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_tic_tac_toe.py,checkWinner,9

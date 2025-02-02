@@ -3,6 +3,6 @@ c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_qr_ge
 c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_qr_generator.py,QRGenerator,4
 c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_qr_generator.py,QRGenerator.__call__,4
 c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_qr_generator.py,QRGenerator._get_path,4
-c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_qr_generator.py,QRGenerator._generate_qr,2
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_qr_generator.py,QRGenerator._generate_qr,3
 c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_qr_generator.py,QRGenerator.__init__,1
 c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_qr_generator.py,QRGenerator._print_help,1

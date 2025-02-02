@@ -1,4 +1,9 @@
 file,name,complexity
-c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_hangman.py,hangman,16
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_hangman.py,play,10
 c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_hangman.py,drawStickMan,10
 c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_hangman.py,continueOrNot,5
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_hangman.py,get_new_word_to_guess,3
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_hangman.py,get_word_to_guess,3
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_hangman.py,hangman,2
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_hangman.py,print_hello,1
+c:/src/pylint-intervention/data/after/Jarvis\jarviscli_slash_plugins_slash_hangman.py,print_goodbye,1

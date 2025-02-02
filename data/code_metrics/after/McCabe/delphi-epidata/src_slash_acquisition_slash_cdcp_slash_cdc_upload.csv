@@ -1,3 +1,8 @@
 file,name,complexity
+c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_acquisition_slash_cdcp_slash_cdc_upload.py,parse_zip,7
 c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_acquisition_slash_cdcp_slash_cdc_upload.py,upload,7
+c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_acquisition_slash_cdcp_slash_cdc_upload.py,find_header,4
+c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_acquisition_slash_cdcp_slash_cdc_upload.py,insert_cdc,1
+c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_acquisition_slash_cdcp_slash_cdc_upload.py,insert_cdc_meta,1
+c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_acquisition_slash_cdcp_slash_cdc_upload.py,parse_csv,1
 c:/src/pylint-intervention/data/after/delphi-epidata/src_slash_acquisition_slash_cdcp_slash_cdc_upload.py,main,1
