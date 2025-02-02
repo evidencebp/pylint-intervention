@@ -253,20 +253,15 @@ if __name__ == "__main__":
                                 , commit=get_file_prev_commit(commit="0a6d54251d775b5111117de430683e2b6e7c3cb3"
                                , repo_dir="c:/interventions/alex-bot")))
 
+    """
 
     print("Compute current metrics")
     get_all_repo_metrics(current=True)
     print("Compute original metrics")
     get_all_repo_metrics(current=False)
 
-    """
 
     
     compute_code_differences(stats_per_repo=True)
 #    get_pre_intervention_commits()
     #list_branches(get_branch_names)
-
-    # TODO - Check metrics are correct
-    # Check LOC definition
-    # use relevant McCabe Functions
-    # Zero diff
