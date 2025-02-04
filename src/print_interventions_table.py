@@ -18,17 +18,17 @@ def print_interventions_table():
         , 'pointless-statement': 'Usually unintended'
         , 'simplifiable-if-expression': 'True if cond else False, equivalent to cond'
         , 'simplifiable-if-statement': 'As the expression yet with a full if'
-        , 'superfluous-parens': 'Unneeded extra parenthesis, common in return statements and conditions'
+        , 'superfluous-parens': 'Unneeded extra parenthesis, common in return statements and conditions. \cite{zampetti2022using,amit2021follow}'
         , 'too-many-boolean-expressions': 'An if with many terms'
         , 'too-many-branches': 'A function/method with too many if statements'
         , 'too-many-lines': 'A file with too many lines'
-        , 'too-many-nested-blocks': 'A function/method with too high nesting level'
+        , 'too-many-nested-blocks': 'A function/method with too high nesting level \cite{zhang2018automated, lenarduzzi2020sonarqube, amit2021follow}'
         ,'too-many-return-statements': 'A function/method with too return statements'
         , 'too-many-statements': 'A function/method with too many lines'
         , 'try-except-raise': 'Might be a useless error handling'
         , 'unnecessary-pass': 'Sometimes a useless statement, many time an empty class'
         , 'using-constant-test': 'An if whose result is known. Usually a bug'
-       , 'wildcard-import': 'Import *. Leads to unclear source and possible future collisions'
+       , 'wildcard-import': 'Import *. Leads to unclear source and possible future collisions \cite{kery2016examining, bestPractices, lenarduzzi2020sonarqube, lenarduzzi2020sonarqube, amit2021follow}'
                         }
 
     done_df = pd.read_csv(DONE_INTERVENTIONS_STATS)
@@ -55,7 +55,7 @@ def print_interventions_table():
     for i in ['Alerts', 'Repositories', 'Merged']:
         table_df[i] = table_df[i].map(lambda x: str(x) + ' ')
 
-    title = 'Interventions Code Metrics Difference'
+    title = ' \label{tab:alerts} Interventions Code Metrics Difference'
     print()
     df_to_latex_table(
         table_df[['Alert', 'Description', 'Alerts', 'Merged', 'Repositories',  'McCabe Max', 'McCabe Sum', 'LOC']]
