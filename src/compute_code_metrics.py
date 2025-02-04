@@ -18,6 +18,9 @@ from utils import (get_author_first_commit_in_repo, get_project_name, get_file_p
                     , get_branch_name, create_branch, checkout_branch, delete_branch
                     , force_dir, copy_files, get_done_interventions, encode_path)
 
+INTERVENTIONS_CODE_METRICS_STATS = join(BASE_DIR
+                            , 'interventions/interventions_code_metrics_stats.csv')
+
 
 def get_metrics_file(repo_name):
     return encode_path(repo_name) + ".csv"
@@ -166,7 +169,7 @@ def compute_code_differences(stats_per_repo=False):
     all_metrics_df = pd.concat(all_metrics)
     all_metrics_df.sort_values(['repo_name', 'msg'], inplace=True)
     all_metrics_df.to_csv(join(BASE_DIR
-                            , 'interventions/interventions_code_metrics.csv')
+                                  , 'interventions/interventions_code_metrics.csv')
                        , index=False)
 
     all_metrics_df['valid'] = all_metrics_df['LOC_before'].map(lambda x: str(x).isnumeric())
@@ -176,8 +179,7 @@ def compute_code_differences(stats_per_repo=False):
 
     g = all_metrics_df.groupby(['msg_id']
                             , as_index=False).agg(aggs).sort_values('msg')
-    g.to_csv(join(BASE_DIR
-                            , 'interventions/interventions_code_metrics_stats.csv'))
+    g.to_csv(INTERVENTIONS_CODE_METRICS_STATS)
 
 
 def get_metrics_dist(df):
@@ -261,7 +263,7 @@ if __name__ == "__main__":
     get_all_repo_metrics(current=False)
 
 
-    
+
     compute_code_differences(stats_per_repo=True)
 #    get_pre_intervention_commits()
     #list_branches(get_branch_names)

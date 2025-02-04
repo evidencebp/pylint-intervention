@@ -7,6 +7,11 @@ from configuration import BASE_DIR, DONE_DIRECTORY, PR_COL, HARMFUL_COL, BENEFIT
 
 NUM_HARMFUL_COL = 'Is harmful?'
 
+DONE_INTERVENTIONS_STATS = join(BASE_DIR
+                                , 'interventions'
+                                , 'all_done_interventions_stats.csv')
+
+
 def get_all_interventions():
 
     intervention_files = listdir(DONE_DIRECTORY)
@@ -56,9 +61,7 @@ def interventions_stats():
                  , on=['msg_id',	'msg']
                  , how='left')
 
-    g.to_csv(join(BASE_DIR
-                    , 'interventions'
-                    , 'all_done_interventions_stats.csv')
+    g.to_csv(DONE_INTERVENTIONS_STATS
                , index=False)
 
 def get_merged_interventions():
