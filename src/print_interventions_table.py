@@ -1,6 +1,9 @@
 # PATCHING analysis utils
 # https://github.com/evidencebp/analysis_utils
 import sys
+
+import numpy as np
+
 ANALYSIS_PATH = r'c:\src\analysis_utils'
 sys.path.append(ANALYSIS_PATH)
 
@@ -41,8 +44,6 @@ def print_interventions_table():
     table_df.sort_values('msg'
                       , inplace=True)
     table_df['Description'] = table_df['msg'].map(lambda x: description_dict[x])
-    table_df.fillna(''
-                    , inplace=True)
     table_df.rename(columns={'msg': 'Alert'
                              , 'alerts': 'Alerts'
                              , 'repositories': 'Repositories'
@@ -52,8 +53,12 @@ def print_interventions_table():
                              , 'McCabe_sum_diff': 'McCabe Sum'}
 
                     , inplace=True)
+
     for i in ['Alerts', 'Repositories', 'Merged']:
-        table_df[i] = table_df[i].map(lambda x: str(x) + ' ')
+        table_df[i] = table_df[i].map(lambda x: ''  if np.isnan(x) else str(int(x)) + ' ')
+
+    table_df.fillna(''
+                    , inplace=True)
 
     title = ' \label{tab:alerts} Interventions Code Metrics Difference'
     print()
