@@ -1,5 +1,5 @@
-,msg_id,path,msg,modified_McCabe_max_diff,SLOC_diff,N1_diff,LOC_diff,N2_diff,LLOC_diff,McCabe_sum_diff,McCabe_max_diff
-0,C0325,2,superfluous-parens,,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-1,R0912,3,too-many-branches,-6.0,3.0,0.0,4.0,0.0,3.0,0.6666666666666666,-3.3333333333333335
-2,R1703,1,simplifiable-if-statement,-1.0,-3.0,0.0,-3.0,0.0,-3.0,-1.0,0.0
-3,W0107,1,unnecessary-pass,,-1.0,0.0,-1.0,0.0,-1.0,0.0,0.0
+,msg_id,path,msg,modified_McCabe_max_diff,SLOC_diff,difficulty_diff,LLOC_diff,N1_diff,h2_diff,volume_diff,bugs_diff,calculated_length_diff,Single comments_diff,vocabulary_diff,h1_diff,Multi_diff,time_diff,Blank_diff,effort_diff,length_diff,McCabe_max_diff,LOC_diff,Comments_diff,N2_diff,McCabe_sum_diff
+0,C0325,2,superfluous-parens,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+1,R0912,3,too-many-branches,-6.0,3.0,-0.15070343526296584,3.0,0.0,1.6666666666666667,3.9021882079820593,0.0013007294026607108,13.322572834490785,0.0,1.6666666666666667,0.0,0.0,-7.325403339537331,1.0,-131.8572601116695,0.0,-3.3333333333333335,4.0,0.0,0.0,0.6666666666666666
+2,R1703,1,simplifiable-if-statement,-1.0,-3.0,0.0,-3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,-3.0,0.0,0.0,-1.0
+3,W0107,1,unnecessary-pass,,-1.0,0.0,-1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,-1.0,0.0,0.0,0.0

@@ -1,5 +1,5 @@
-,msg_id,path,msg,modified_McCabe_max_diff,SLOC_diff,N1_diff,LOC_diff,N2_diff,LLOC_diff,McCabe_sum_diff,McCabe_max_diff
-0,C0325,2,superfluous-parens,,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-1,R0911,1,too-many-return-statements,,3.0,0.0,5.0,0.0,3.0,0.0,0.0
-2,W0107,1,unnecessary-pass,,0.0,0.0,1.0,0.0,0.0,0.0,0.0
-3,W0718,1,broad-exception-caught,1.0,2.0,0.0,2.0,0.0,2.0,1.0,0.0
+,msg_id,path,msg,modified_McCabe_max_diff,SLOC_diff,difficulty_diff,LLOC_diff,N1_diff,h2_diff,volume_diff,bugs_diff,calculated_length_diff,Single comments_diff,vocabulary_diff,h1_diff,Multi_diff,time_diff,Blank_diff,effort_diff,length_diff,McCabe_max_diff,LOC_diff,Comments_diff,N2_diff,McCabe_sum_diff
+0,C0325,2,superfluous-parens,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+1,R0911,1,too-many-return-statements,,3.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,5.0,0.0,0.0,0.0
+2,W0107,1,unnecessary-pass,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+3,W0718,1,broad-exception-caught,1.0,2.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,1.0

@@ -1,3 +1,3 @@
-,msg_id,path,msg,modified_McCabe_max_diff,SLOC_diff,N1_diff,LOC_diff,N2_diff,LLOC_diff,McCabe_sum_diff,McCabe_max_diff
-0,R0912,2,too-many-branches,-11.0,8.5,1.0,16.0,1.5,8.5,-2.0,-7.0
-1,W0104,1,pointless-statement,,-1.0,0.0,-1.0,0.0,-1.0,0.0,0.0
+,msg_id,path,msg,modified_McCabe_max_diff,SLOC_diff,difficulty_diff,LLOC_diff,N1_diff,h2_diff,volume_diff,bugs_diff,calculated_length_diff,Single comments_diff,vocabulary_diff,h1_diff,Multi_diff,time_diff,Blank_diff,effort_diff,length_diff,McCabe_max_diff,LOC_diff,Comments_diff,N2_diff,McCabe_sum_diff
+0,R0912,2,too-many-branches,-11.0,8.5,-0.38578838276418903,8.5,1.0,4.5,25.160324673438026,0.00838677489114599,33.6446083601173,0.0,4.5,0.0,0.0,-5.066167479017821,7.5,-91.19101462232038,2.5,-7.0,16.0,0.0,1.5,-2.0
+1,W0104,1,pointless-statement,,-1.0,0.0,-1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,-1.0,0.0,0.0,0.0

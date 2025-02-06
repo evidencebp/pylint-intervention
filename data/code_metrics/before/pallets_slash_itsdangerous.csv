@@ -1,3 +1,3 @@
-LOC,LLOC,SLOC,N1,N2,McCabe_max,McCabe_sum,path
-228,110,136,15,30,14,35,src\itsdangerous\timed.py
-266,131,124,19,36,6,45,src\itsdangerous\signer.py
+LOC,LLOC,SLOC,Comments,Single comments,Multi,Blank,h1,h2,N1,N2,vocabulary,length,calculated_length,volume,difficulty,effort,time,bugs,McCabe_max,McCabe_sum,path
+228,110,136,20,19,35,38,9,19,15,30,28,45,109.23994776840894,216.33097149259217,7.105263157894737,1537.0884816578919,py:,0.07211032383086406,14,35,src\itsdangerous\timed.py
+266,131,124,20,25,60,57,7,25,19,36,32,55,135.74788919877133,275.0,5.04,1386.0,77.0,0.09166666666666666,6,45,src\itsdangerous\signer.py

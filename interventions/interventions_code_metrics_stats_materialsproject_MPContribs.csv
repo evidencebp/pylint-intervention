@@ -1,5 +1,5 @@
-,msg_id,path,msg,modified_McCabe_max_diff,SLOC_diff,N1_diff,LOC_diff,N2_diff,LLOC_diff,McCabe_sum_diff,McCabe_max_diff
-0,C0301,2,line-too-long,,1.5,0.0,1.5,0.0,0.0,0.0,0.0
-1,R0915,1,too-many-statements,-12.0,19.0,0.0,28.0,0.0,19.0,8.0,-12.0
-2,R1702,1,too-many-nested-blocks,-3.0,3.0,0.0,4.0,0.0,3.0,-1.0,-3.0
-3,W0718,1,broad-exception-caught,,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+,msg_id,path,msg,modified_McCabe_max_diff,SLOC_diff,difficulty_diff,LLOC_diff,N1_diff,h2_diff,volume_diff,bugs_diff,calculated_length_diff,Single comments_diff,vocabulary_diff,h1_diff,Multi_diff,time_diff,Blank_diff,effort_diff,length_diff,McCabe_max_diff,LOC_diff,Comments_diff,N2_diff,McCabe_sum_diff
+0,C0301,2,line-too-long,,1.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.5,0.0,0.0,0.0
+1,R0915,1,too-many-statements,-12.0,19.0,-0.12020905923344927,19.0,0.0,1.0,2.0855481103643,0.0006951827034548108,6.81769956736656,0.0,1.0,0.0,0.0,-2.1804188950517585,9.0,-39.24754011093182,0.0,-12.0,28.0,0.0,0.0,8.0
+2,R1702,1,too-many-nested-blocks,-3.0,3.0,-0.14705882352941213,3.0,0.0,1.0,2.2492875735082407,0.0007497625245028172,7.129172902790515,0.0,1.0,0.0,0.0,-3.897361488378891,1.0,-70.15250679081964,0.0,-3.0,4.0,0.0,0.0,-1.0
+3,W0718,1,broad-exception-caught,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0

@@ -1,2 +1,2 @@
-,msg_id,path,msg,modified_McCabe_max_diff,SLOC_diff,N1_diff,LOC_diff,N2_diff,LLOC_diff,McCabe_sum_diff,McCabe_max_diff
-0,R0912,2,too-many-branches,-8.0,4.5,0.0,6.5,0.0,4.5,2.0,-3.0
+,msg_id,path,msg,modified_McCabe_max_diff,SLOC_diff,difficulty_diff,LLOC_diff,N1_diff,h2_diff,volume_diff,bugs_diff,calculated_length_diff,Single comments_diff,vocabulary_diff,h1_diff,Multi_diff,time_diff,Blank_diff,effort_diff,length_diff,McCabe_max_diff,LOC_diff,Comments_diff,N2_diff,McCabe_sum_diff
+0,R0912,2,too-many-branches,-8.0,4.5,-0.10977494074854777,4.5,0.0,5.0,12.134562757338244,0.004044854252446162,48.9604621843248,0.0,5.0,0.0,0.0,-24.61827899081152,2.0,-443.12902183459846,0.0,-3.0,6.5,0.0,0.0,2.0

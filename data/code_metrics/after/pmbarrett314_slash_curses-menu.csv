@@ -1,2 +1,2 @@
-LOC,LLOC,SLOC,N1,N2,McCabe_max,McCabe_sum,path
-8,7,7,0,0,,,examples\issues\issue37.py
+LOC,LLOC,SLOC,Comments,Single comments,Multi,Blank,h1,h2,N1,N2,vocabulary,length,calculated_length,volume,difficulty,effort,time,bugs,McCabe_max,McCabe_sum,path
+8,7,7,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0.0,0.0,,,examples\issues\issue37.py
