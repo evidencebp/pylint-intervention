@@ -187,20 +187,26 @@ def get_metrics_dist(df):
     print(alert)
     for i in ['SLOC_diff', 'LLOC_diff', 'LOC_diff']:
         print(i)
-        print(df[df['msg']==alert][i].value_counts().sort_index())
+        print(df[df['msg']==alert][i].value_counts(normalize=True).sort_index().cumsum())
 
     alert = "too-many-branches"
     print(alert)
-    for i in ['McCabe_max_diff','McCabe_sum_diff', 'modified_McCabe_max_diff']:
+    for i in ['McCabe_sum_diff', 'modified_McCabe_max_diff']:
         print(i)
-        print(df[df['msg']==alert][i].value_counts().sort_index())
+        print(df[df['msg']==alert][i].value_counts(normalize=True).sort_index().cumsum())
 
     #  simplifiable-if-expression
     alert = "simplifiable-if-expression"
     print(alert)
-    for i in ['McCabe_max_diff','McCabe_sum_diff', 'modified_McCabe_max_diff']:
+    for i in ['McCabe_sum_diff', 'modified_McCabe_max_diff']:
         print(i)
-        print(df[df['msg']==alert][i].value_counts().sort_index())
+        print(df[df['msg']==alert][i].value_counts(normalize=True).sort_index().cumsum())
+
+    alert = 'too-many-statements'
+    print(alert)
+    for i in ['McCabe_sum_diff', 'modified_McCabe_max_diff']:
+        print(i)
+        print(df[df['msg']==alert][i].value_counts(normalize=True).sort_index().cumsum())
 
 def list_branches(func=get_branch_name):
     intervention_files = listdir(DONE_DIRECTORY)
