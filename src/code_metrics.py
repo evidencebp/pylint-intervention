@@ -32,12 +32,13 @@ def get_raw_metrics(file: str)-> dict:
 
     return get_metrics_set(file
                     , type='raw'
-                    , metric_to_extract=['LOC', 'LLOC', 'SLOC'])
+                    , metric_to_extract=['LOC', 'LLOC', 'SLOC', 'Comments', 'Single comments', 'Multi', 'Blank'])
 
 def get_Halstead_metrics(file: str)-> dict:
     return get_metrics_set(file
                     , type='hal'
-                    , metric_to_extract=['N1', 'N2'])
+                    , metric_to_extract=['h1', 'h2', 'N1', 'N2', 'vocabulary', 'length', 'calculated_length'
+                                         , 'volume', 'difficulty', 'effort', 'time', 'bugs'])
 
 def get_McCabe_complexity(file:str) -> pd.DataFrame:
     cmd = f'radon  cc -s  {file}'
