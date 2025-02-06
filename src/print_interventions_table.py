@@ -31,7 +31,7 @@ def print_interventions_table():
         , 'try-except-raise': 'Might be a useless error handling'
         , 'unnecessary-pass': 'Sometimes a useless statement, many time an empty class'
         , 'using-constant-test': 'An if whose result is known. Usually a bug'
-       , 'wildcard-import': 'Import *. Leads to unclear source and possible future collisions \cite{kery2016examining, bestPractices, lenarduzzi2020sonarqube, lenarduzzi2020sonarqube, amit2021follow}'
+       , 'wildcard-import': 'Import *. Leads to unclear source and possible future collisions \cite{kery2016examining, bestPractices, lenarduzzi2020sonarqube, amit2021follow}'
                         }
 
     done_df = pd.read_csv(DONE_INTERVENTIONS_STATS)
