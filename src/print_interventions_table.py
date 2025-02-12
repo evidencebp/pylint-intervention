@@ -46,7 +46,7 @@ def print_interventions_table():
     table_df['Description'] = table_df['msg'].map(lambda x: description_dict[x])
     table_df.rename(columns={'msg': 'Alert'
                              , 'alerts': 'Alerts'
-                             , 'repositories': 'Repositories'
+                             , 'repositories': 'Repos.'
                              , 'merged_alerts': 'Merged'
                              , 'modified_McCabe_max_diff': 'McCabe Max'
                              , 'SLOC_diff': 'LOC'
@@ -54,8 +54,8 @@ def print_interventions_table():
 
                     , inplace=True)
 
-    for i in ['Alerts', 'Repositories', 'Merged']:
-        table_df[i] = table_df[i].map(lambda x: ''  if np.isnan(x) else str(int(x)) + ' ')
+    for i in ['Alerts', 'Repos.', 'Merged']:
+        table_df[i] = table_df[i].map(lambda x: '' if np.isnan(x) else str(int(x)) + ' ')
 
     table_df.fillna(''
                     , inplace=True)
@@ -63,7 +63,7 @@ def print_interventions_table():
     title = ' \label{tab:alerts} Interventions Code Metrics Difference'
     print()
     df_to_latex_table(
-        table_df[['Alert', 'Description', 'Alerts', 'Merged', 'Repositories',  'McCabe Max', 'McCabe Sum', 'LOC']]
+        table_df[['Alert', 'Description','Repos.', 'Alerts', 'Merged',  'McCabe Max', 'McCabe Sum', 'LOC']]
         , title
         , rounding_digits=1)
     print()
