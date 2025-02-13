@@ -31,3 +31,26 @@ where
 base.extension = '.py'
 and not regexp_contains(lower(base.path), '(test|setup|__init__|version|__manifest__)')
 ;
+
+
+drop table if exists general.code_python_feb_content_aug_22;
+
+create table
+general.code_python_feb_content_aug_22
+as
+select
+diff.repo_name
+, diff.path
+, repo_split
+, file_split
+, base_size
+, content
+from
+general.code_python_python_feb_aug_22 as diff
+join
+general.contents_1_february_2022 as cont
+on
+diff.repo_name = cont.repo_name
+and
+diff.path = cont.path
+;
