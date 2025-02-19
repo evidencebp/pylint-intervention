@@ -106,11 +106,20 @@ def show_file_content(file_name
     result = str(result).replace(r"\n", os.linesep)[2:-1]
     if output_file:
 
-        file = codecs.open(output_file, "w", "utf-8")
-        file.write(result)
-        file.close()
+        write_file(output_file, result)
 
     return result
+
+
+def write_file(output_file
+               , content
+               , mode="w"):
+    file = codecs.open(output_file
+                       , mode
+                       , "utf-8")
+    file.write(content)
+    file.close()
+
 
 def get_branch_name(repo_dir: str) -> str:
 
@@ -184,3 +193,41 @@ def encode_path(path
                 , direction='both'):
 
     return path.replace("/", "_slash_").replace("\\", "_slash_")
+
+
+def pylint_analysis(target: str
+                    , config: str
+                    , types : pd.DataFrame):
+    ALERTS_FILE = "alerts.csv"
+
+    # get alerts
+    PYLINT_CMD = f"pylint --rcfile={config} --score=n" \
+                 + " --msg-template='{path},{line},{msg_id}' " + f"{target} > " \
+                 + ALERTS_FILE
+    os.system(PYLINT_CMD)
+    lines = count_lines(ALERTS_FILE)
+    if lines:
+        df = pd.read_csv(ALERTS_FILE, skiprows=1, header=None)
+
+        # aggregate alerts
+        df.columns = ['path', 'line', 'msg_id']
+        df = pd.merge(df
+                      , types
+                      , on='msg_id'
+                      , how='left')
+
+        df = df[df['path'].notna()
+                & df['line'].notna()
+                & df['msg_id'].notna()
+                & df['msg'].notna()]  # Filter out bad parsing
+        agg = df.groupby(['path', 'msg_id']
+                         , as_index=False).agg({'line': 'count'
+                                                   , 'msg': 'max'})  # Message is similar
+        # , max chooses one
+        agg.rename(columns={'line': 'alerts'}
+                   , inplace=True)
+    else:
+        os.remove(ALERTS_FILE)
+        agg = None
+
+    return agg
