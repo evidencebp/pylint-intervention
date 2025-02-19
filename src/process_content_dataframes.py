@@ -76,6 +76,35 @@ def process_content_dataframes():
     alerts_df.to_csv('C:/tmp/aug/code_python_aug_alerts.csv'
                          , index=False)
 
+def build_alert_diffs():
+    feb_df = pd.read_csv(join(BASE_DIR
+                              , 'data/in_the_wild/code_python_feb_alerts.csv'))
+    aug_df = pd.read_csv(join(BASE_DIR
+                              , 'data/in_the_wild/code_python_aug_alerts.csv'))
+
+    feb_single_alert = feb_df[feb_df['alerts'] == 1]
+    removed_alerts = pd.merge(feb_single_alert
+                              , aug_df
+                              , on=['repo_name', 'path', 'msg_id', 'msg']
+                              , how='left'
+                              , suffixes=('_feb', '_aug'))
+    removed_alerts = removed_alerts[removed_alerts['alerts_aug'].isna()]
+    removed_alerts[['path', 'msg_id', 'msg', 'repo_name']].to_csv(join(BASE_DIR
+                              , 'data/in_the_wild/removed_alerts.csv')
+                          , index=False)
+
+    aug_single_alert = aug_df[aug_df['alerts'] == 1]
+    added_alerts = pd.merge(aug_single_alert
+                              , feb_df
+                              , on=['repo_name', 'path', 'msg_id', 'msg']
+                              , how='left'
+                              , suffixes=('_aug', '_feb'))
+    added_alerts = added_alerts[added_alerts['alerts_feb'].isna()]
+    added_alerts[['path', 'msg_id', 'msg', 'repo_name']].to_csv(join(BASE_DIR
+                              , 'data/in_the_wild/added_alerts.csv')
+                          , index=False)
+
 
 if __name__ == "__main__":
-    process_content_dataframes()
+    #process_content_dataframes()
+    build_alert_diffs()
