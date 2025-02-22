@@ -11,6 +11,10 @@ CONFIG_FILE = join(BASE_DIR
 TYPES_FILE = join(BASE_DIR
                     , "tools/project_analysis/alert_types.csv")
 
+CHANGES_FILE = join(BASE_DIR
+                    , 'data/in_the_wild/changed_alerts.csv')
+
+
 def process_content_dataframe(df: pd.DataFrame
                               , output_file: str = None):
 
@@ -105,11 +109,26 @@ def build_alert_diffs():
     
     changed_alerts = pd.concat([removed_alerts
                                 , added_alerts])
-    changed_alerts.to_csv(join(BASE_DIR
-                              , 'data/in_the_wild/changed_alerts.csv')
+    changed_alerts.to_csv(CHANGES_FILE
                           , index=False)
 
 
+def change_stats():
+    df = pd.read_csv(CHANGES_FILE)
+    print(df.msg.value_counts().sort_index())
+
+    g = df[df['change']=='removed'].groupby(
+        ['msg']
+        , as_index=False).agg({'repo_name': 'nunique'
+                            , 'path': 'nunique'}).sort_values(['msg'])
+    print(g)
+
+    print("repos of interest"
+          , df[(df['change']=='removed')
+                & (df.msg.isin(['simplifiable-if-expression'
+                                   , 'simplifiable-if-statement']))].repo_name.nunique())
+
 if __name__ == "__main__":
     #process_content_dataframes()
-    build_alert_diffs()
+    #build_alert_diffs()
+    change_stats()
