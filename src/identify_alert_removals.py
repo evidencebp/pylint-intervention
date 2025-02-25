@@ -2,9 +2,10 @@ from os.path import join
 
 import pandas as pd
 
-from git_wrapper import GitWrapper
-from process_content_dataframes import CHANGES_FILE
-from utils import clone_repo, get_project_name
+from process_content_dataframes import CHANGES_FILE, CONFIG_FILE, TYPES_FILE
+
+from utils import (clone_repo, get_project_name, get_all_commits, copy_file_at_commit, delete_directory
+            , pylint_analysis)
 
 WILD_DIR = 'c:/in_the_wild'
 
@@ -29,13 +30,16 @@ def clone_relevant_projects(alert_list: list
 def find_change_commits(alert_list
                         , output: str = None):
 
+    types_df = pd.read_csv(TYPES_FILE)
+
     changed_files = get_changed_files(alert_list)
 
     changes = []
     for _, file in changed_files.iterrows():
-        change_commits = find_file_change_commits(file['repo']
+        change_commits = find_file_change_commits(file['repo_name']
                                                     , file['path']
-                                                    , alert_list)
+                                                    , alert_list
+                                                    , types_df)
         change_commits['repo_name'] = file['repo']
         change_commits['file'] = file['path']
         changes.append(change_commits)
@@ -50,27 +54,78 @@ def find_change_commits(alert_list
 
 def find_file_change_commits(repo_name: str
                              , file_name: str
-                             , alert_list) -> pd.DataFrame:
+                             , alert_list
+                             , types_df) -> pd.DataFrame:
 
-    gw = GitWrapper(join(WILD_DIR
-                         , get_project_name(repo_name)))
+    TMP_FILE = 'c:/tmp/tmp.py'
 
     # Get files all commits from the first to the last
+    repo_dir = join(WILD_DIR
+                    , get_project_name(repo_name))
+    commits_df = get_all_commits(repo_dir=repo_dir
+                    , target=file_name)
+    commits = list(reversed(commits_df.commit.tolist()))
 
     # get first version and analyze it
+    prev_commit = commits[0]
+    copy_file_at_commit(repo_dir=repo_dir
+                            , source_file=file_name
+                            , target_path=TMP_FILE
+                            , commit=prev_commit)
+    prev_alerts = pylint_analysis(target=TMP_FILE
+                             , config=CONFIG_FILE
+                             , types=types_df)
 
+    delete_directory(TMP_FILE)
     # Go over the rest of commits
+    for cur_commit in commits[1:]:
 
         # Get commit version
+        copy_file_at_commit(repo_dir=repo_dir
+                            , source_file=file_name
+                            , target_path=TMP_FILE
+                            , commit=cur_commit)
 
         # Analyze alerts
+        cur_alerts = pylint_analysis(target=TMP_FILE
+                                      , config=CONFIG_FILE
+                                      , types=types_df)
 
+        delete_directory(TMP_FILE)
+
+        changes = []
         # Compare to previous version alerts
+        for alert in alert_list:
+            prev_count = 0 if len(prev_alerts[['msg']==alert])==0 else prev_alerts[['msg']==alert].alerts.max()
+            cur_count = 0 if len(cur_alerts[['msg']==alert])==0 else cur_alerts[['msg']==alert].alerts.max()
 
-        # Add change
+            state = None
+            # added
+            if prev_count == 0 and cur_count > 0:
+                state = 'added'
+            elif prev_count > 0 and cur_count == 0:
+                state = 'removed'
+            elif prev_count < cur_count:
+                state = 'increase'
+            elif prev_count > cur_count:
+                state = 'decrease'
+            elif prev_count == cur_count:
+                state = 'no change'
+
+            # Add change
+            changes.append((repo_name, file_name, alert, cur_commit,  state, prev_count, cur_count))
+
+        prev_alerts = cur_alerts
+
+    changes_df = pd.DataFrame(changes
+                              , columns=['repo_name', 'file_name', 'alert'
+                                            , 'commit', 'state', 'prev_count', 'cur_count'])
+
+    return changes_df
 
 if __name__ == "__main__":
     alert_list = ['simplifiable-if-expression']
     #clone_relevant_projects(alert_list)
-    find_change_commits(alert_list)
+    find_change_commits(alert_list
+                        , output='c:/tmp/alert_changes.csv')
 

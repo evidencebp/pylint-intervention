@@ -84,7 +84,8 @@ class GitWrapper(object):
                         , format_regex='(?P<hash>[0-9a-f]{5,40}) (?P<email>[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+) (?P<time>.{25})'
                         , columns=['commit', 'email', 'commit_time']
                         , since=None
-                        , until=None):
+                        , until=None
+                        , target=None):
         """ Returns all the commits in a given period of time.
             The parameters git_format, format_regex and columns are given to
             allow flexibility.
@@ -95,6 +96,8 @@ class GitWrapper(object):
         command = "git log --format=%s" % git_format
         command = command + (" --since='%s' " % since) if since else command
         command = command + (" --until='%s' " % until) if until else command
+        command = command + (" " + target) if target else command
+
         commits = self.exec_git_command(command)
         matches = re.findall(format_regex, commits)
         return DataFrame(matches, columns=columns)

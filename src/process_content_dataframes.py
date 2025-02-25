@@ -2,14 +2,10 @@ import os
 from os.path import join
 import pandas as pd
 
-from configuration import BASE_DIR
+from configuration import BASE_DIR, CONFIG_FILE, TYPES_FILE
 from utils import pylint_analysis, write_file
 
 TEMP_FILE = 'c:/tmp/tmp_content.py'
-CONFIG_FILE = join(BASE_DIR
-                    , "tools/project_analysis/pylint_short.cfg")
-TYPES_FILE = join(BASE_DIR
-                    , "tools/project_analysis/alert_types.csv")
 
 CHANGES_FILE = join(BASE_DIR
                     , 'data/in_the_wild/changed_alerts.csv')

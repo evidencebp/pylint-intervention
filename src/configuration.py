@@ -24,3 +24,8 @@ REPO_COL = 'In which repository the modification was done?'
 
 EXCLUDED_REPOS = ['aajanki_yle-dl_interventions_October_06_2024.csv'  # For some reason computation takes too long
                   ]
+
+CONFIG_FILE = join(BASE_DIR
+                    , "tools/project_analysis/pylint_short.cfg")
+TYPES_FILE = join(BASE_DIR
+                    , "tools/project_analysis/alert_types.csv")
