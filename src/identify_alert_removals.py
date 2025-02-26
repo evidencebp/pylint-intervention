@@ -40,9 +40,10 @@ def find_change_commits(alert_list
                                                     , file['path']
                                                     , alert_list
                                                     , types_df)
-        change_commits['repo_name'] = file['repo']
-        change_commits['file'] = file['path']
-        changes.append(change_commits)
+        if change_commits is not None:
+            change_commits['repo_name'] = file['repo_name']
+            change_commits['file'] = file['path']
+            changes.append(change_commits)
 
     changes_df = pd.concat(changes)
 
@@ -66,6 +67,12 @@ def find_file_change_commits(repo_name: str
                     , target=file_name)
     commits = list(reversed(commits_df.commit.tolist()))
 
+    if commits is None or len(commits) == 0:
+        # Seems to be due to deleted files
+        # https://stackoverflow.com/questions/7203515/how-to-find-a-deleted-file-in-the-project-commit-history
+        print("Error, no commits identified in ", repo_name, file_name)
+        return None
+
     # get first version and analyze it
     prev_commit = commits[0]
     copy_file_at_commit(repo_dir=repo_dir
@@ -77,6 +84,8 @@ def find_file_change_commits(repo_name: str
                              , types=types_df)
 
     delete_directory(TMP_FILE)
+
+    changes = []
     # Go over the rest of commits
     for cur_commit in commits[1:]:
 
@@ -93,11 +102,12 @@ def find_file_change_commits(repo_name: str
 
         delete_directory(TMP_FILE)
 
-        changes = []
         # Compare to previous version alerts
         for alert in alert_list:
-            prev_count = 0 if len(prev_alerts[['msg']==alert])==0 else prev_alerts[['msg']==alert].alerts.max()
-            cur_count = 0 if len(cur_alerts[['msg']==alert])==0 else cur_alerts[['msg']==alert].alerts.max()
+            prev_count = (0 if prev_alerts is None or len(prev_alerts[prev_alerts['msg']==alert])==0
+                          else prev_alerts[prev_alerts['msg']==alert].alerts.sum())
+            cur_count = (0 if cur_alerts is None or len(cur_alerts[cur_alerts['msg']==alert])==0
+                         else cur_alerts[cur_alerts['msg']==alert].alerts.sum())
 
             state = None
             # added
@@ -113,7 +123,9 @@ def find_file_change_commits(repo_name: str
                 state = 'no change'
 
             # Add change
-            changes.append((repo_name, file_name, alert, cur_commit,  state, prev_count, cur_count))
+            if state != 'no change':
+                changes.append((repo_name, file_name, alert
+                                , cur_commit,  state, prev_count, cur_count))
 
         prev_alerts = cur_alerts
 
