@@ -33,9 +33,13 @@ def find_change_commits(alert_list
     types_df = pd.read_csv(TYPES_FILE)
 
     changed_files = get_changed_files(alert_list)
+    print(f"Processing {len(changed_files)} files")
 
     changes = []
+    file_num = 0
     for _, file in changed_files.iterrows():
+        file_num = file_num + 1
+        print("file", file, "number", file_num)
         change_commits = find_file_change_commits(file['repo_name']
                                                     , file['path']
                                                     , alert_list
