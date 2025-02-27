@@ -42,13 +42,18 @@ def move_files(source: str
 
 
 def clone_repo(repo_name: str
-               , target_dir: str) -> bool:
+               , target_dir: str
+               , recreate_if_exists: bool = False) -> bool:
 
-    cmd = "cd {dir};  git clone https://github.com/{repo_name}".format(dir=target_dir
+    repo_dir = join(target_dir
+                    , get_project_name(repo_name))
+    already_exists = os.path.exists(repo_dir)
+    if not already_exists or recreate_if_exists:
+        cmd = "cd {dir};  git clone https://github.com/{repo_name}".format(dir=target_dir
                                                                    , repo_name=repo_name)
-    run_powershell_cmd(cmd)
+        run_powershell_cmd(cmd)
 
-    return os.path.exists(os.path.join(target_dir, get_project_name(repo_name)))
+    return os.path.exists(repo_dir)
 
 
 

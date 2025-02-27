@@ -9,11 +9,16 @@ from utils import (clone_repo, get_project_name, get_all_commits, copy_file_at_c
 
 WILD_DIR = 'c:/in_the_wild'
 
+TOO_LARGE_REPOS = ['chromium/chromium']
+
+
 def get_changed_files(alert_list: list
                       , change_types: list = ['removed']):
     df = pd.read_csv(CHANGES_FILE)
     df = df[df['msg'].isin(alert_list)]
     df = df[df['change'].isin(change_types)]
+
+    df = df[~df['repo_name'].isin(TOO_LARGE_REPOS)]
 
     return df
 
@@ -22,6 +27,7 @@ def clone_relevant_projects(alert_list: list
 
     df = get_changed_files(alert_list)
 
+    print(f"Cloning {len(df)} repositories")
     for i in df['repo_name'].unique():
         print(i)
         clone_repo(i
@@ -33,27 +39,34 @@ def find_change_commits(alert_list
     types_df = pd.read_csv(TYPES_FILE)
 
     changed_files = get_changed_files(alert_list)
+    changed_files = changed_files[~changed_files['repo_name'].isin(TOO_LARGE_REPOS)]
+
     print(f"Processing {len(changed_files)} files")
 
     changes = []
     file_num = 0
     for _, file in changed_files.iterrows():
-        file_num = file_num + 1
-        print("file", file, "number", file_num)
-        change_commits = find_file_change_commits(file['repo_name']
-                                                    , file['path']
-                                                    , alert_list
-                                                    , types_df)
-        if change_commits is not None:
-            change_commits['repo_name'] = file['repo_name']
-            change_commits['file'] = file['path']
-            changes.append(change_commits)
+        try:
+            file_num = file_num + 1
+            print("file", file, "number", file_num)
+            change_commits = find_file_change_commits(file['repo_name']
+                                                        , file['path']
+                                                        , alert_list
+                                                        , types_df)
+            if change_commits is not None:
+                change_commits['repo_name'] = file['repo_name']
+                change_commits['file'] = file['path']
+                changes.append(change_commits)
 
-    changes_df = pd.concat(changes)
+        except Exception as e:
+            print("Error processing", file, e)
 
-    if output:
-        changes_df.to_csv(output
-                          , index=False)
+        if len(changes):
+            changes_df = pd.concat(changes)
+
+            if output:
+                changes_df.to_csv(output
+                                  , index=False)
 
     return changes_df
 
@@ -140,7 +153,7 @@ def find_file_change_commits(repo_name: str
     return changes_df
 
 if __name__ == "__main__":
-    alert_list = ['simplifiable-if-expression']
+    alert_list = ['too-many-branches']
     #clone_relevant_projects(alert_list)
     find_change_commits(alert_list
                         , output='c:/tmp/alert_changes.csv')
