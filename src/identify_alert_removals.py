@@ -15,7 +15,8 @@ TOO_LARGE_REPOS = ['chromium/chromium']
 def get_changed_files(alert_list: list
                       , change_types: list = ['removed']):
     df = pd.read_csv(CHANGES_FILE)
-    df = df[df['msg'].isin(alert_list)]
+    if alert_list:
+        df = df[df['msg'].isin(alert_list)]
     df = df[df['change'].isin(change_types)]
 
     df = df[~df['repo_name'].isin(TOO_LARGE_REPOS)]
@@ -27,7 +28,7 @@ def clone_relevant_projects(alert_list: list
 
     df = get_changed_files(alert_list)
 
-    print(f"Cloning {len(df)} repositories")
+    print(f"Cloning {len(df['repo_name'].unique())} repositories")
     for i in df['repo_name'].unique():
         print(i)
         clone_repo(i
@@ -48,7 +49,7 @@ def find_change_commits(alert_list
     for _, file in changed_files.iterrows():
         try:
             file_num = file_num + 1
-            print("file", file, "number", file_num)
+            print("repo", file['repo_name'], "file", file['path'], "number", file_num)
             change_commits = find_file_change_commits(file['repo_name']
                                                         , file['path']
                                                         , alert_list
@@ -64,6 +65,7 @@ def find_change_commits(alert_list
         if len(changes):
             changes_df = pd.concat(changes)
 
+            changes_df = changes_df.drop_duplicates()
             if output:
                 changes_df.to_csv(output
                                   , index=False)
@@ -153,8 +155,13 @@ def find_file_change_commits(repo_name: str
     return changes_df
 
 if __name__ == "__main__":
-    alert_list = ['too-many-branches']
-    #clone_relevant_projects(alert_list)
+    processed = ['simplifiable-if-expression', 'too-many-branches', 'superfluous-parens', 'too-many-statements'
+    , 'too-many-return-statements', 'too-many-nested-blocks', 'Simplify-boolean-expression', 'comparison-of-constants'
+        , 'simplifiable-condition', 'too-many-boolean-expressions', 'unnecessary-semicolon'
+        , 'simplifiable-if-statement', 'using-constant-test', 'try-except-raise', 'broad-exception-caught'
+        , 'wildcard-import', 'unnecessary-pass', 'pointless-statement']
+    alert_list = ['too-many-lines']
+    clone_relevant_projects(alert_list)
     find_change_commits(alert_list
-                        , output='c:/tmp/alert_changes.csv')
+                        , output='c:/tmp/alert_change_commits.csv')
 
