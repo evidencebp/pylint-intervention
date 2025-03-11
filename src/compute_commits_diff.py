@@ -25,10 +25,19 @@ def create_commit_version_directories(versions_dir
                     , commit)
 
     force_dir(commit_dir)
+
     force_dir(join(commit_dir
                    , 'before'))
     force_dir(join(commit_dir
+                   , 'before'
+                   , 'metrics'))
+
+    force_dir(join(commit_dir
                    , 'after'))
+    force_dir(join(commit_dir
+                   , 'after'
+                   , 'metrics'))
+
     force_dir(join(commit_dir
                    , 'diffs'))
 
@@ -96,8 +105,8 @@ def run_compute_commits_diff():
     df = df[df['state']=='removed']
 
     # TODO - remove
-    #df = pd.DataFrame([('Flexget/Flexget', '1e7e0181d712b087dad29aa885ede37e8349ac6e', 'flexget/_version.py')]
-    #                  , columns=['repo_name', 'commit', 'file_name'])
+    df = pd.DataFrame([('Flexget/Flexget', '1e7e0181d712b087dad29aa885ede37e8349ac6e', 'flexget/_version.py')]
+                      , columns=['repo_name', 'commit', 'file_name'])
     compute_commits_diff(df)
 
 if __name__ == "__main__":
