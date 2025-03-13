@@ -21,6 +21,15 @@ def get_changed_files(alert_list: list
 
     df = df[~df['repo_name'].isin(TOO_LARGE_REPOS)]
 
+    computed_df = pd.read_csv("C:/src/pylint-intervention/data/in_the_wild/alert_change_commits.csv")
+    computed_df = computed_df[['repo_name',	'file_name', 'cur_count']]
+    df = pd.merge(df
+                  , computed_df
+                  , left_on=['repo_name',	'path']
+                  , right_on=['repo_name',	'file_name']
+                  , how='left')
+    df = df[df['cur_count'].isna()]
+
     return df
 
 def clone_relevant_projects(alert_list: list
@@ -159,8 +168,8 @@ if __name__ == "__main__":
     , 'too-many-return-statements', 'too-many-nested-blocks', 'Simplify-boolean-expression', 'comparison-of-constants'
         , 'simplifiable-condition', 'too-many-boolean-expressions', 'unnecessary-semicolon'
         , 'simplifiable-if-statement', 'using-constant-test', 'try-except-raise', 'broad-exception-caught'
-        , 'wildcard-import', 'unnecessary-pass', 'pointless-statement']
-    alert_list = ['too-many-lines']
+        , 'wildcard-import', 'unnecessary-pass', 'pointless-statement', 'too-many-lines']
+    alert_list = ['line-too-long']
     clone_relevant_projects(alert_list)
     find_change_commits(alert_list
                         , output='c:/tmp/alert_change_commits.csv')
