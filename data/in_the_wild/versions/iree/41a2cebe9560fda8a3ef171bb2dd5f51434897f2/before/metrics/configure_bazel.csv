@@ -1,0 +1,3 @@
+file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/iree/41a2cebe9560fda8a3ef171bb2dd5f51434897f2/before/configure_bazel.py,detect_unix_platform_config,10
+c:/src/pylint-intervention/data/in_the_wild\versions/iree/41a2cebe9560fda8a3ef171bb2dd5f51434897f2/before/configure_bazel.py,write_platform,3

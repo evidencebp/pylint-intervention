@@ -1,0 +1,5 @@
+file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/dwm/f88fccdb0b7a3343f6855cda0858dc236152c520/before/book.py,BOOKDN,4
+c:/src/pylint-intervention/data/in_the_wild\versions/dwm/f88fccdb0b7a3343f6855cda0858dc236152c520/before/book.py,BOOKDN.test1,4
+c:/src/pylint-intervention/data/in_the_wild\versions/dwm/f88fccdb0b7a3343f6855cda0858dc236152c520/before/book.py,BOOKDN.test,4
+c:/src/pylint-intervention/data/in_the_wild\versions/dwm/f88fccdb0b7a3343f6855cda0858dc236152c520/before/book.py,BOOKDN.query_info,1

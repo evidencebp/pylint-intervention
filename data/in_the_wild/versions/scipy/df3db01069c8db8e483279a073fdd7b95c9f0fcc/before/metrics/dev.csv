@@ -1,0 +1,10 @@
+file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/scipy/df3db01069c8db8e483279a073fdd7b95c9f0fcc/before/dev.py,main,46
+c:/src/pylint-intervention/data/in_the_wild\versions/scipy/df3db01069c8db8e483279a073fdd7b95c9f0fcc/before/dev.py,setup_build,12
+c:/src/pylint-intervention/data/in_the_wild\versions/scipy/df3db01069c8db8e483279a073fdd7b95c9f0fcc/before/dev.py,install_project,11
+c:/src/pylint-intervention/data/in_the_wild\versions/scipy/df3db01069c8db8e483279a073fdd7b95c9f0fcc/before/dev.py,build_project,8
+c:/src/pylint-intervention/data/in_the_wild\versions/scipy/df3db01069c8db8e483279a073fdd7b95c9f0fcc/before/dev.py,copy_openblas,4
+c:/src/pylint-intervention/data/in_the_wild\versions/scipy/df3db01069c8db8e483279a073fdd7b95c9f0fcc/before/dev.py,run_mypy,3
+c:/src/pylint-intervention/data/in_the_wild\versions/scipy/df3db01069c8db8e483279a073fdd7b95c9f0fcc/before/dev.py,get_project_info,2
+c:/src/pylint-intervention/data/in_the_wild\versions/scipy/df3db01069c8db8e483279a073fdd7b95c9f0fcc/before/dev.py,get_site_packages,2
+c:/src/pylint-intervention/data/in_the_wild\versions/scipy/df3db01069c8db8e483279a073fdd7b95c9f0fcc/before/dev.py,import_module_from_path,1

@@ -1,0 +1,13 @@
+file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/hashview/598d5f8315496f575a570aa2244ae223eeaaed64/after/hashview.py,data_retention_cleanup,11
+c:/src/pylint-intervention/data/in_the_wild\versions/hashview/598d5f8315496f575a570aa2244ae223eeaaed64/after/hashview.py,ensure_admin_account,6
+c:/src/pylint-intervention/data/in_the_wild\versions/hashview/598d5f8315496f575a570aa2244ae223eeaaed64/after/hashview.py,cli,6
+c:/src/pylint-intervention/data/in_the_wild\versions/hashview/598d5f8315496f575a570aa2244ae223eeaaed64/after/hashview.py,ensure_settings,4
+c:/src/pylint-intervention/data/in_the_wild\versions/hashview/598d5f8315496f575a570aa2244ae223eeaaed64/after/hashview.py,ensure_flask_bcrypt,3
+c:/src/pylint-intervention/data/in_the_wild\versions/hashview/598d5f8315496f575a570aa2244ae223eeaaed64/after/hashview.py,ensure_authlib,2
+c:/src/pylint-intervention/data/in_the_wild\versions/hashview/598d5f8315496f575a570aa2244ae223eeaaed64/after/hashview.py,ensure_requests,2
+c:/src/pylint-intervention/data/in_the_wild\versions/hashview/598d5f8315496f575a570aa2244ae223eeaaed64/after/hashview.py,ensure_dynamic_wordlist,2
+c:/src/pylint-intervention/data/in_the_wild\versions/hashview/598d5f8315496f575a570aa2244ae223eeaaed64/after/hashview.py,ensure_static_wordlist,2
+c:/src/pylint-intervention/data/in_the_wild\versions/hashview/598d5f8315496f575a570aa2244ae223eeaaed64/after/hashview.py,ensure_rules,2
+c:/src/pylint-intervention/data/in_the_wild\versions/hashview/598d5f8315496f575a570aa2244ae223eeaaed64/after/hashview.py,ensure_tasks,2
+c:/src/pylint-intervention/data/in_the_wild\versions/hashview/598d5f8315496f575a570aa2244ae223eeaaed64/after/hashview.py,ensure_version_alignment,1

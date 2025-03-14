@@ -1,0 +1,14 @@
+file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/discord_bot/8f2741356287e68cea624972f27beb6f55454d6c/after/main.py,ShinobuBot.on_message,11
+c:/src/pylint-intervention/data/in_the_wild\versions/discord_bot/8f2741356287e68cea624972f27beb6f55454d6c/after/main.py,ShinobuBot.on_command_error,6
+c:/src/pylint-intervention/data/in_the_wild\versions/discord_bot/8f2741356287e68cea624972f27beb6f55454d6c/after/main.py,ShinobuBot.on_member_join,5
+c:/src/pylint-intervention/data/in_the_wild\versions/discord_bot/8f2741356287e68cea624972f27beb6f55454d6c/after/main.py,ShinobuBot,4
+c:/src/pylint-intervention/data/in_the_wild\versions/discord_bot/8f2741356287e68cea624972f27beb6f55454d6c/after/main.py,ShinobuBot.on_ready,4
+c:/src/pylint-intervention/data/in_the_wild\versions/discord_bot/8f2741356287e68cea624972f27beb6f55454d6c/after/main.py,ShinobuBot.on_member_remove,4
+c:/src/pylint-intervention/data/in_the_wild\versions/discord_bot/8f2741356287e68cea624972f27beb6f55454d6c/after/main.py,ShinobuBot.on_error,3
+c:/src/pylint-intervention/data/in_the_wild\versions/discord_bot/8f2741356287e68cea624972f27beb6f55454d6c/after/main.py,ShinobuBot._randomGame,2
+c:/src/pylint-intervention/data/in_the_wild\versions/discord_bot/8f2741356287e68cea624972f27beb6f55454d6c/after/main.py,_currenttime,1
+c:/src/pylint-intervention/data/in_the_wild\versions/discord_bot/8f2741356287e68cea624972f27beb6f55454d6c/after/main.py,ShinobuBot.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/discord_bot/8f2741356287e68cea624972f27beb6f55454d6c/after/main.py,ShinobuBot.on_command,1
+c:/src/pylint-intervention/data/in_the_wild\versions/discord_bot/8f2741356287e68cea624972f27beb6f55454d6c/after/main.py,ShinobuBot.on_guild_join,1
+c:/src/pylint-intervention/data/in_the_wild\versions/discord_bot/8f2741356287e68cea624972f27beb6f55454d6c/after/main.py,ShinobuBot.on_guild_remove,1

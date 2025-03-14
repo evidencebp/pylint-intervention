@@ -1,0 +1,16 @@
+file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/discord_bot/9a8b367c381c8fe190b6d505e3ec0a299ef08f9c/before/main.py,on_message,10
+c:/src/pylint-intervention/data/in_the_wild\versions/discord_bot/9a8b367c381c8fe190b6d505e3ec0a299ef08f9c/before/main.py,on_command_error,6
+c:/src/pylint-intervention/data/in_the_wild\versions/discord_bot/9a8b367c381c8fe190b6d505e3ec0a299ef08f9c/before/main.py,on_member_join,5
+c:/src/pylint-intervention/data/in_the_wild\versions/discord_bot/9a8b367c381c8fe190b6d505e3ec0a299ef08f9c/before/main.py,on_ready,4
+c:/src/pylint-intervention/data/in_the_wild\versions/discord_bot/9a8b367c381c8fe190b6d505e3ec0a299ef08f9c/before/main.py,on_member_remove,4
+c:/src/pylint-intervention/data/in_the_wild\versions/discord_bot/9a8b367c381c8fe190b6d505e3ec0a299ef08f9c/before/main.py,_randomGame,2
+c:/src/pylint-intervention/data/in_the_wild\versions/discord_bot/9a8b367c381c8fe190b6d505e3ec0a299ef08f9c/before/main.py,_getHash,2
+c:/src/pylint-intervention/data/in_the_wild\versions/discord_bot/9a8b367c381c8fe190b6d505e3ec0a299ef08f9c/before/main.py,_fileCheck,2
+c:/src/pylint-intervention/data/in_the_wild\versions/discord_bot/9a8b367c381c8fe190b6d505e3ec0a299ef08f9c/before/main.py,on_command,2
+c:/src/pylint-intervention/data/in_the_wild\versions/discord_bot/9a8b367c381c8fe190b6d505e3ec0a299ef08f9c/before/main.py,on_error,2
+c:/src/pylint-intervention/data/in_the_wild\versions/discord_bot/9a8b367c381c8fe190b6d505e3ec0a299ef08f9c/before/main.py,shutdown_backup,2
+c:/src/pylint-intervention/data/in_the_wild\versions/discord_bot/9a8b367c381c8fe190b6d505e3ec0a299ef08f9c/before/main.py,_currenttime,1
+c:/src/pylint-intervention/data/in_the_wild\versions/discord_bot/9a8b367c381c8fe190b6d505e3ec0a299ef08f9c/before/main.py,_setupDatabase,1
+c:/src/pylint-intervention/data/in_the_wild\versions/discord_bot/9a8b367c381c8fe190b6d505e3ec0a299ef08f9c/before/main.py,on_server_join,1
+c:/src/pylint-intervention/data/in_the_wild\versions/discord_bot/9a8b367c381c8fe190b6d505e3ec0a299ef08f9c/before/main.py,on_server_remove,1

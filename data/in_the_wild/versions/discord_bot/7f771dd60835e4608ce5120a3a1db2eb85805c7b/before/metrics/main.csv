@@ -1,0 +1,14 @@
+file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/discord_bot/7f771dd60835e4608ce5120a3a1db2eb85805c7b/before/main.py,on_message,11
+c:/src/pylint-intervention/data/in_the_wild\versions/discord_bot/7f771dd60835e4608ce5120a3a1db2eb85805c7b/before/main.py,on_member_join,6
+c:/src/pylint-intervention/data/in_the_wild\versions/discord_bot/7f771dd60835e4608ce5120a3a1db2eb85805c7b/before/main.py,on_command_error,6
+c:/src/pylint-intervention/data/in_the_wild\versions/discord_bot/7f771dd60835e4608ce5120a3a1db2eb85805c7b/before/main.py,on_ready,4
+c:/src/pylint-intervention/data/in_the_wild\versions/discord_bot/7f771dd60835e4608ce5120a3a1db2eb85805c7b/before/main.py,on_member_remove,4
+c:/src/pylint-intervention/data/in_the_wild\versions/discord_bot/7f771dd60835e4608ce5120a3a1db2eb85805c7b/before/main.py,on_error,3
+c:/src/pylint-intervention/data/in_the_wild\versions/discord_bot/7f771dd60835e4608ce5120a3a1db2eb85805c7b/before/main.py,_randomGame,2
+c:/src/pylint-intervention/data/in_the_wild\versions/discord_bot/7f771dd60835e4608ce5120a3a1db2eb85805c7b/before/main.py,shutdown_backup,2
+c:/src/pylint-intervention/data/in_the_wild\versions/discord_bot/7f771dd60835e4608ce5120a3a1db2eb85805c7b/before/main.py,_currenttime,1
+c:/src/pylint-intervention/data/in_the_wild\versions/discord_bot/7f771dd60835e4608ce5120a3a1db2eb85805c7b/before/main.py,_setupDatabase,1
+c:/src/pylint-intervention/data/in_the_wild\versions/discord_bot/7f771dd60835e4608ce5120a3a1db2eb85805c7b/before/main.py,on_command,1
+c:/src/pylint-intervention/data/in_the_wild\versions/discord_bot/7f771dd60835e4608ce5120a3a1db2eb85805c7b/before/main.py,on_guild_join,1
+c:/src/pylint-intervention/data/in_the_wild\versions/discord_bot/7f771dd60835e4608ce5120a3a1db2eb85805c7b/before/main.py,on_guild_remove,1

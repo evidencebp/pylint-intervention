@@ -1,0 +1,13 @@
+file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/xnote/82d6522b2866e65998d1854dbfb5d45be351816a/before/app.py,handle_args,11
+c:/src/pylint-intervention/data/in_the_wild\versions/xnote/82d6522b2866e65998d1854dbfb5d45be351816a/before/app.py,LogMiddleware,3
+c:/src/pylint-intervention/data/in_the_wild\versions/xnote/82d6522b2866e65998d1854dbfb5d45be351816a/before/app.py,LogMiddleware.log,3
+c:/src/pylint-intervention/data/in_the_wild\versions/xnote/82d6522b2866e65998d1854dbfb5d45be351816a/before/app.py,handle_signal,2
+c:/src/pylint-intervention/data/in_the_wild\versions/xnote/82d6522b2866e65998d1854dbfb5d45be351816a/before/app.py,try_init_sqlite,2
+c:/src/pylint-intervention/data/in_the_wild\versions/xnote/82d6522b2866e65998d1854dbfb5d45be351816a/before/app.py,try_init_ldb,2
+c:/src/pylint-intervention/data/in_the_wild\versions/xnote/82d6522b2866e65998d1854dbfb5d45be351816a/before/app.py,try_load_cache,2
+c:/src/pylint-intervention/data/in_the_wild\versions/xnote/82d6522b2866e65998d1854dbfb5d45be351816a/before/app.py,main,2
+c:/src/pylint-intervention/data/in_the_wild\versions/xnote/82d6522b2866e65998d1854dbfb5d45be351816a/before/app.py,LogMiddleware.__call__,2
+c:/src/pylint-intervention/data/in_the_wild\versions/xnote/82d6522b2866e65998d1854dbfb5d45be351816a/before/app.py,init_autoreload,1
+c:/src/pylint-intervention/data/in_the_wild\versions/xnote/82d6522b2866e65998d1854dbfb5d45be351816a/before/app.py,LogMiddleware.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/xnote/82d6522b2866e65998d1854dbfb5d45be351816a/before/app.py,LogMiddleware.invoke_app,1

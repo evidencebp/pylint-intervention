@@ -1,0 +1,17 @@
+file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/osmose-frontend/b3f15d0bf840ad61175dbe5a858c88f821b7984f/before/osmose.py,oauth_,5
+c:/src/pylint-intervention/data/in_the_wild\versions/osmose-frontend/b3f15d0bf840ad61175dbe5a858c88f821b7984f/before/osmose.py,error404,4
+c:/src/pylint-intervention/data/in_the_wild\versions/osmose-frontend/b3f15d0bf840ad61175dbe5a858c88f821b7984f/before/osmose.py,setup_request,2
+c:/src/pylint-intervention/data/in_the_wild\versions/osmose-frontend/b3f15d0bf840ad61175dbe5a858c88f821b7984f/before/osmose.py,login,2
+c:/src/pylint-intervention/data/in_the_wild\versions/osmose-frontend/b3f15d0bf840ad61175dbe5a858c88f821b7984f/before/osmose.py,login,2
+c:/src/pylint-intervention/data/in_the_wild\versions/osmose-frontend/b3f15d0bf840ad61175dbe5a858c88f821b7984f/before/osmose.py,josm_proxy,2
+c:/src/pylint-intervention/data/in_the_wild\versions/osmose-frontend/b3f15d0bf840ad61175dbe5a858c88f821b7984f/before/osmose.py,OsmoseBottle,2
+c:/src/pylint-intervention/data/in_the_wild\versions/osmose-frontend/b3f15d0bf840ad61175dbe5a858c88f821b7984f/before/osmose.py,ext_filter,1
+c:/src/pylint-intervention/data/in_the_wild\versions/osmose-frontend/b3f15d0bf840ad61175dbe5a858c88f821b7984f/before/osmose.py,uuid_filter,1
+c:/src/pylint-intervention/data/in_the_wild\versions/osmose-frontend/b3f15d0bf840ad61175dbe5a858c88f821b7984f/before/osmose.py,index,1
+c:/src/pylint-intervention/data/in_the_wild\versions/osmose-frontend/b3f15d0bf840ad61175dbe5a858c88f821b7984f/before/osmose.py,contact,1
+c:/src/pylint-intervention/data/in_the_wild\versions/osmose-frontend/b3f15d0bf840ad61175dbe5a858c88f821b7984f/before/osmose.py,copyright,1
+c:/src/pylint-intervention/data/in_the_wild\versions/osmose-frontend/b3f15d0bf840ad61175dbe5a858c88f821b7984f/before/osmose.py,translation,1
+c:/src/pylint-intervention/data/in_the_wild\versions/osmose-frontend/b3f15d0bf840ad61175dbe5a858c88f821b7984f/before/osmose.py,enable_cors_generic_route,1
+c:/src/pylint-intervention/data/in_the_wild\versions/osmose-frontend/b3f15d0bf840ad61175dbe5a858c88f821b7984f/before/osmose.py,static,1
+c:/src/pylint-intervention/data/in_the_wild\versions/osmose-frontend/b3f15d0bf840ad61175dbe5a858c88f821b7984f/before/osmose.py,OsmoseBottle.default_error_handler,1

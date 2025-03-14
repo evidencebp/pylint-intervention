@@ -1,0 +1,16 @@
+file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/discord_bot/836bb60b2cabca69ef49bd55c72354ade1e7d3f3/after/main.py,on_message,13
+c:/src/pylint-intervention/data/in_the_wild\versions/discord_bot/836bb60b2cabca69ef49bd55c72354ade1e7d3f3/after/main.py,on_member_join,6
+c:/src/pylint-intervention/data/in_the_wild\versions/discord_bot/836bb60b2cabca69ef49bd55c72354ade1e7d3f3/after/main.py,on_command_error,6
+c:/src/pylint-intervention/data/in_the_wild\versions/discord_bot/836bb60b2cabca69ef49bd55c72354ade1e7d3f3/after/main.py,on_command,4
+c:/src/pylint-intervention/data/in_the_wild\versions/discord_bot/836bb60b2cabca69ef49bd55c72354ade1e7d3f3/after/main.py,on_member_remove,4
+c:/src/pylint-intervention/data/in_the_wild\versions/discord_bot/836bb60b2cabca69ef49bd55c72354ade1e7d3f3/after/main.py,on_error,3
+c:/src/pylint-intervention/data/in_the_wild\versions/discord_bot/836bb60b2cabca69ef49bd55c72354ade1e7d3f3/after/main.py,_randomGame,2
+c:/src/pylint-intervention/data/in_the_wild\versions/discord_bot/836bb60b2cabca69ef49bd55c72354ade1e7d3f3/after/main.py,_getHash,2
+c:/src/pylint-intervention/data/in_the_wild\versions/discord_bot/836bb60b2cabca69ef49bd55c72354ade1e7d3f3/after/main.py,_fileCheck,2
+c:/src/pylint-intervention/data/in_the_wild\versions/discord_bot/836bb60b2cabca69ef49bd55c72354ade1e7d3f3/after/main.py,on_ready,2
+c:/src/pylint-intervention/data/in_the_wild\versions/discord_bot/836bb60b2cabca69ef49bd55c72354ade1e7d3f3/after/main.py,shutdown_backup,2
+c:/src/pylint-intervention/data/in_the_wild\versions/discord_bot/836bb60b2cabca69ef49bd55c72354ade1e7d3f3/after/main.py,_currenttime,1
+c:/src/pylint-intervention/data/in_the_wild\versions/discord_bot/836bb60b2cabca69ef49bd55c72354ade1e7d3f3/after/main.py,_setupDatabase,1
+c:/src/pylint-intervention/data/in_the_wild\versions/discord_bot/836bb60b2cabca69ef49bd55c72354ade1e7d3f3/after/main.py,on_guild_join,1
+c:/src/pylint-intervention/data/in_the_wild\versions/discord_bot/836bb60b2cabca69ef49bd55c72354ade1e7d3f3/after/main.py,on_guild_remove,1

@@ -1,0 +1,17 @@
+file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/beta.httparchive.org/4e738fed3eca6a0bb9b37cac6f71543f4c8ed4c4/before/main.py,report,38
+c:/src/pylint-intervention/data/in_the_wild\versions/beta.httparchive.org/4e738fed3eca6a0bb9b37cac6f71543f4c8ed4c4/before/main.py,metric,5
+c:/src/pylint-intervention/data/in_the_wild\versions/beta.httparchive.org/4e738fed3eca6a0bb9b37cac6f71543f4c8ed4c4/before/main.py,get_lens_id,4
+c:/src/pylint-intervention/data/in_the_wild\versions/beta.httparchive.org/4e738fed3eca6a0bb9b37cac6f71543f4c8ed4c4/before/main.py,url_for,2
+c:/src/pylint-intervention/data/in_the_wild\versions/beta.httparchive.org/4e738fed3eca6a0bb9b37cac6f71543f4c8ed4c4/before/main.py,reports,2
+c:/src/pylint-intervention/data/in_the_wild\versions/beta.httparchive.org/4e738fed3eca6a0bb9b37cac6f71543f4c8ed4c4/before/main.py,get_report_view,2
+c:/src/pylint-intervention/data/in_the_wild\versions/beta.httparchive.org/4e738fed3eca6a0bb9b37cac6f71543f4c8ed4c4/before/main.py,page_not_found,2
+c:/src/pylint-intervention/data/in_the_wild\versions/beta.httparchive.org/4e738fed3eca6a0bb9b37cac6f71543f4c8ed4c4/before/main.py,index,1
+c:/src/pylint-intervention/data/in_the_wild\versions/beta.httparchive.org/4e738fed3eca6a0bb9b37cac6f71543f4c8ed4c4/before/main.py,about,1
+c:/src/pylint-intervention/data/in_the_wild\versions/beta.httparchive.org/4e738fed3eca6a0bb9b37cac6f71543f4c8ed4c4/before/main.py,faq,1
+c:/src/pylint-intervention/data/in_the_wild\versions/beta.httparchive.org/4e738fed3eca6a0bb9b37cac6f71543f4c8ed4c4/before/main.py,get_format,1
+c:/src/pylint-intervention/data/in_the_wild\versions/beta.httparchive.org/4e738fed3eca6a0bb9b37cac6f71543f4c8ed4c4/before/main.py,bad_request,1
+c:/src/pylint-intervention/data/in_the_wild\versions/beta.httparchive.org/4e738fed3eca6a0bb9b37cac6f71543f4c8ed4c4/before/main.py,server_error_500,1
+c:/src/pylint-intervention/data/in_the_wild\versions/beta.httparchive.org/4e738fed3eca6a0bb9b37cac6f71543f4c8ed4c4/before/main.py,server_error_502,1
+c:/src/pylint-intervention/data/in_the_wild\versions/beta.httparchive.org/4e738fed3eca6a0bb9b37cac6f71543f4c8ed4c4/before/main.py,static_from_root,1
+c:/src/pylint-intervention/data/in_the_wild\versions/beta.httparchive.org/4e738fed3eca6a0bb9b37cac6f71543f4c8ed4c4/before/main.py,sitemap,1

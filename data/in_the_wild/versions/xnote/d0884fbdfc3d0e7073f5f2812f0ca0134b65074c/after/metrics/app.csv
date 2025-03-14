@@ -1,0 +1,17 @@
+file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/xnote/d0884fbdfc3d0e7073f5f2812f0ca0134b65074c/after/app.py,try_init_ldb,9
+c:/src/pylint-intervention/data/in_the_wild\versions/xnote/d0884fbdfc3d0e7073f5f2812f0ca0134b65074c/after/app.py,count_worker_thread,3
+c:/src/pylint-intervention/data/in_the_wild\versions/xnote/d0884fbdfc3d0e7073f5f2812f0ca0134b65074c/after/app.py,wait_thread_exit,3
+c:/src/pylint-intervention/data/in_the_wild\versions/xnote/d0884fbdfc3d0e7073f5f2812f0ca0134b65074c/after/app.py,get_bool_by_sys_arg,2
+c:/src/pylint-intervention/data/in_the_wild\versions/xnote/d0884fbdfc3d0e7073f5f2812f0ca0134b65074c/after/app.py,get_int_by_sys_arg,2
+c:/src/pylint-intervention/data/in_the_wild\versions/xnote/d0884fbdfc3d0e7073f5f2812f0ca0134b65074c/after/app.py,handle_args_and_init_config,2
+c:/src/pylint-intervention/data/in_the_wild\versions/xnote/d0884fbdfc3d0e7073f5f2812f0ca0134b65074c/after/app.py,handle_signal,2
+c:/src/pylint-intervention/data/in_the_wild\versions/xnote/d0884fbdfc3d0e7073f5f2812f0ca0134b65074c/after/app.py,try_init_sqlite,2
+c:/src/pylint-intervention/data/in_the_wild\versions/xnote/d0884fbdfc3d0e7073f5f2812f0ca0134b65074c/after/app.py,init_cluster,2
+c:/src/pylint-intervention/data/in_the_wild\versions/xnote/d0884fbdfc3d0e7073f5f2812f0ca0134b65074c/after/app.py,init_app_no_lock,2
+c:/src/pylint-intervention/data/in_the_wild\versions/xnote/d0884fbdfc3d0e7073f5f2812f0ca0134b65074c/after/app.py,main,2
+c:/src/pylint-intervention/data/in_the_wild\versions/xnote/d0884fbdfc3d0e7073f5f2812f0ca0134b65074c/after/app.py,print_debug_info,1
+c:/src/pylint-intervention/data/in_the_wild\versions/xnote/d0884fbdfc3d0e7073f5f2812f0ca0134b65074c/after/app.py,init_autoreload,1
+c:/src/pylint-intervention/data/in_the_wild\versions/xnote/d0884fbdfc3d0e7073f5f2812f0ca0134b65074c/after/app.py,init_web_app,1
+c:/src/pylint-intervention/data/in_the_wild\versions/xnote/d0884fbdfc3d0e7073f5f2812f0ca0134b65074c/after/app.py,print_env_info,1
+c:/src/pylint-intervention/data/in_the_wild\versions/xnote/d0884fbdfc3d0e7073f5f2812f0ca0134b65074c/after/app.py,init_app,1

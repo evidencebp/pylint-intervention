@@ -1,0 +1,3 @@
+file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/PyDev.Debugger/47e298499ef19563bb2ef5941a57046a35ae6868/before/pydev_coverage.py,execute,12
+c:/src/pylint-intervention/data/in_the_wild\versions/PyDev.Debugger/47e298499ef19563bb2ef5941a57046a35ae6868/before/pydev_coverage.py,is_valid_py_file,4

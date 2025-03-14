@@ -9,30 +9,40 @@ from utils import get_project_name, encode_path
 def compute_commits_code_metrics(commits_df
                                  , path_format):
     all_metrics = []
+
+    print(f"Processing {len(commits_df)} commits")
+    commit_num = 0
     for _, i in commits_df.iterrows():
-        repo_name = i['repo_name']
-        project_name = get_project_name(repo_name)
-        commit = i['commit']
-        file_name = i['file_name']
+        try:
+            repo_name = i['repo_name']
+            project_name = get_project_name(repo_name)
+            commit = i['commit']
+            file_name = i['file_name']
+            commit_num += 1
+            print(f"{commit_num} {repo_name} {file_name} {commit}")
 
-        path = join(path_format.format(project_name=project_name
-                                  , commit=commit)
-                    , file_name)
-        metrics = analyze_file(path)
-        metrics['repo_name'] = repo_name
-        metrics['commit'] = commit
-        metrics['path'] = file_name
+            path = join(path_format.format(project_name=project_name
+                                      , commit=commit)
+                        , file_name)
+            metrics = analyze_file(path)
+            metrics['repo_name'] = repo_name
+            metrics['commit'] = commit
+            metrics['path'] = file_name
 
-        all_metrics.append(metrics)
+            all_metrics.append(metrics)
 
-        # McCabe
-        McCabe_df = get_McCabe_complexity(path)
-        McCabe_path = join(path_format.format(project_name=project_name
-                                  , commit=commit)
-                    , 'metrics'
-                    , encode_path(file_name).replace('.py', '.csv'))
-        McCabe_df.to_csv(McCabe_path
-                         , index=False)
+            # McCabe
+            McCabe_df = get_McCabe_complexity(path)
+            McCabe_path = join(path_format.format(project_name=project_name
+                                      , commit=commit)
+                        , 'metrics'
+                        , encode_path(file_name).replace('.py', '.csv'))
+            McCabe_df.to_csv(McCabe_path
+                             , index=False)
+        except Exception as e:
+            print("***********************************")
+            print(f"Error processing {commit_num} {repo_name} {file_name} {commit}")
+            print(e)
 
     df = pd.concat(all_metrics)
     
@@ -46,9 +56,8 @@ def run_compute_commits_code_metrics():
     df = pd.read_csv(alert_change_commits_file)
     df = df[df['state'] == 'removed']
 
-    # TODO - remove
-    df = pd.DataFrame([('Flexget/Flexget', '1e7e0181d712b087dad29aa885ede37e8349ac6e', 'flexget/_version.py')]
-                      , columns=['repo_name', 'commit', 'file_name'])
+    #df = pd.DataFrame([('Flexget/Flexget', '1e7e0181d712b087dad29aa885ede37e8349ac6e', 'flexget/_version.py')]
+    #                  , columns=['repo_name', 'commit', 'file_name'])
     
     before_path_format = VERSIONS_DIR + "/{project_name}/{commit}/before/"
     before_df = compute_commits_code_metrics(commits_df=df

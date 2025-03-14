@@ -1,0 +1,16 @@
+file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/gnaf-loader/21535653aada61dde6976db0438f462a7715d4ae/after/load-gnaf.py,load_raw_admin_boundaries,20
+c:/src/pylint-intervention/data/in_the_wild\versions/gnaf-loader/21535653aada61dde6976db0438f462a7715d4ae/after/load-gnaf.py,boundary_tag_gnaf,16
+c:/src/pylint-intervention/data/in_the_wild\versions/gnaf-loader/21535653aada61dde6976db0438f462a7715d4ae/after/load-gnaf.py,clean_authority_files,13
+c:/src/pylint-intervention/data/in_the_wild\versions/gnaf-loader/21535653aada61dde6976db0438f462a7715d4ae/after/load-gnaf.py,main,11
+c:/src/pylint-intervention/data/in_the_wild\versions/gnaf-loader/21535653aada61dde6976db0438f462a7715d4ae/after/load-gnaf.py,create_qa_tables,9
+c:/src/pylint-intervention/data/in_the_wild\versions/gnaf-loader/21535653aada61dde6976db0438f462a7715d4ae/after/load-gnaf.py,create_reference_tables,8
+c:/src/pylint-intervention/data/in_the_wild\versions/gnaf-loader/21535653aada61dde6976db0438f462a7715d4ae/after/load-gnaf.py,get_raw_gnaf_files,6
+c:/src/pylint-intervention/data/in_the_wild\versions/gnaf-loader/21535653aada61dde6976db0438f462a7715d4ae/after/load-gnaf.py,index_raw_gnaf,4
+c:/src/pylint-intervention/data/in_the_wild\versions/gnaf-loader/21535653aada61dde6976db0438f462a7715d4ae/after/load-gnaf.py,create_admin_bdys_for_analysis,4
+c:/src/pylint-intervention/data/in_the_wild\versions/gnaf-loader/21535653aada61dde6976db0438f462a7715d4ae/after/load-gnaf.py,create_raw_gnaf_tables,3
+c:/src/pylint-intervention/data/in_the_wild\versions/gnaf-loader/21535653aada61dde6976db0438f462a7715d4ae/after/load-gnaf.py,populate_raw_gnaf,3
+c:/src/pylint-intervention/data/in_the_wild\versions/gnaf-loader/21535653aada61dde6976db0438f462a7715d4ae/after/load-gnaf.py,create_primary_foreign_keys,3
+c:/src/pylint-intervention/data/in_the_wild\versions/gnaf-loader/21535653aada61dde6976db0438f462a7715d4ae/after/load-gnaf.py,drop_tables_and_vacuum_db,2
+c:/src/pylint-intervention/data/in_the_wild\versions/gnaf-loader/21535653aada61dde6976db0438f462a7715d4ae/after/load-gnaf.py,analyse_raw_gnaf_tables,2
+c:/src/pylint-intervention/data/in_the_wild\versions/gnaf-loader/21535653aada61dde6976db0438f462a7715d4ae/after/load-gnaf.py,prep_admin_bdys,2

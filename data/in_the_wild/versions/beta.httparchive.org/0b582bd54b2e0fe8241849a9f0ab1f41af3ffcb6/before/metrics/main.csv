@@ -1,0 +1,15 @@
+file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/beta.httparchive.org/0b582bd54b2e0fe8241849a9f0ab1f41af3ffcb6/before/main.py,report,25
+c:/src/pylint-intervention/data/in_the_wild\versions/beta.httparchive.org/0b582bd54b2e0fe8241849a9f0ab1f41af3ffcb6/before/main.py,get_similar_reports,5
+c:/src/pylint-intervention/data/in_the_wild\versions/beta.httparchive.org/0b582bd54b2e0fe8241849a9f0ab1f41af3ffcb6/before/main.py,update_reports,2
+c:/src/pylint-intervention/data/in_the_wild\versions/beta.httparchive.org/0b582bd54b2e0fe8241849a9f0ab1f41af3ffcb6/before/main.py,get_report,1
+c:/src/pylint-intervention/data/in_the_wild\versions/beta.httparchive.org/0b582bd54b2e0fe8241849a9f0ab1f41af3ffcb6/before/main.py,get_metric,1
+c:/src/pylint-intervention/data/in_the_wild\versions/beta.httparchive.org/0b582bd54b2e0fe8241849a9f0ab1f41af3ffcb6/before/main.py,index,1
+c:/src/pylint-intervention/data/in_the_wild\versions/beta.httparchive.org/0b582bd54b2e0fe8241849a9f0ab1f41af3ffcb6/before/main.py,about,1
+c:/src/pylint-intervention/data/in_the_wild\versions/beta.httparchive.org/0b582bd54b2e0fe8241849a9f0ab1f41af3ffcb6/before/main.py,faq,1
+c:/src/pylint-intervention/data/in_the_wild\versions/beta.httparchive.org/0b582bd54b2e0fe8241849a9f0ab1f41af3ffcb6/before/main.py,reports,1
+c:/src/pylint-intervention/data/in_the_wild\versions/beta.httparchive.org/0b582bd54b2e0fe8241849a9f0ab1f41af3ffcb6/before/main.py,bad_request,1
+c:/src/pylint-intervention/data/in_the_wild\versions/beta.httparchive.org/0b582bd54b2e0fe8241849a9f0ab1f41af3ffcb6/before/main.py,page_not_found,1
+c:/src/pylint-intervention/data/in_the_wild\versions/beta.httparchive.org/0b582bd54b2e0fe8241849a9f0ab1f41af3ffcb6/before/main.py,server_error,1
+c:/src/pylint-intervention/data/in_the_wild\versions/beta.httparchive.org/0b582bd54b2e0fe8241849a9f0ab1f41af3ffcb6/before/main.py,server_error,1
+c:/src/pylint-intervention/data/in_the_wild\versions/beta.httparchive.org/0b582bd54b2e0fe8241849a9f0ab1f41af3ffcb6/before/main.py,VizTypes,1

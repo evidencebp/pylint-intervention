@@ -1,0 +1,5 @@
+file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/osmose-frontend/758a5bf0d9beda2ba618b126a45a6656970efaf5/before/osmose.py,marker,2
+c:/src/pylint-intervention/data/in_the_wild\versions/osmose-frontend/758a5bf0d9beda2ba618b126a45a6656970efaf5/before/osmose.py,static,2
+c:/src/pylint-intervention/data/in_the_wild\versions/osmose-frontend/758a5bf0d9beda2ba618b126a45a6656970efaf5/before/osmose.py,pathinfo_adjust_wrapper,1
+c:/src/pylint-intervention/data/in_the_wild\versions/osmose-frontend/758a5bf0d9beda2ba618b126a45a6656970efaf5/before/osmose.py,index,1

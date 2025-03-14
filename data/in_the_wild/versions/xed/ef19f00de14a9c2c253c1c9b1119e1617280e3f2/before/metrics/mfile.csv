@@ -1,0 +1,6 @@
+file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/xed/ef19f00de14a9c2c253c1c9b1119e1617280e3f2/before/mfile.py,find_mbuild_import,6
+c:/src/pylint-intervention/data/in_the_wild\versions/xed/ef19f00de14a9c2c253c1c9b1119e1617280e3f2/before/mfile.py,work,6
+c:/src/pylint-intervention/data/in_the_wild\versions/xed/ef19f00de14a9c2c253c1c9b1119e1617280e3f2/before/mfile.py,find_dir,3
+c:/src/pylint-intervention/data/in_the_wild\versions/xed/ef19f00de14a9c2c253c1c9b1119e1617280e3f2/before/mfile.py,try_mbuild_import,2
+c:/src/pylint-intervention/data/in_the_wild\versions/xed/ef19f00de14a9c2c253c1c9b1119e1617280e3f2/before/mfile.py,fatal,1

@@ -1,0 +1,6 @@
+file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/pymath/e340a4c4cad59f19774dc659f9f3a1242720760e/after/bch.py,bch,8
+c:/src/pylint-intervention/data/in_the_wild\versions/pymath/e340a4c4cad59f19774dc659f9f3a1242720760e/after/bch.py,bchmatrix,2
+c:/src/pylint-intervention/data/in_the_wild\versions/pymath/e340a4c4cad59f19774dc659f9f3a1242720760e/after/bch.py,lcm,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pymath/e340a4c4cad59f19774dc659f9f3a1242720760e/after/bch.py,encode,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pymath/e340a4c4cad59f19774dc659f9f3a1242720760e/after/bch.py,pcheckmatrix,1

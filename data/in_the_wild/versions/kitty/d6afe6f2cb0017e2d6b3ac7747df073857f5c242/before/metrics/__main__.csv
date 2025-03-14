@@ -1,0 +1,15 @@
+file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/kitty/d6afe6f2cb0017e2d6b3ac7747df073857f5c242/before/__main__.py,main,7
+c:/src/pylint-intervention/data/in_the_wild\versions/kitty/d6afe6f2cb0017e2d6b3ac7747df073857f5c242/before/__main__.py,launch,5
+c:/src/pylint-intervention/data/in_the_wild\versions/kitty/d6afe6f2cb0017e2d6b3ac7747df073857f5c242/before/__main__.py,shebang,5
+c:/src/pylint-intervention/data/in_the_wild\versions/kitty/d6afe6f2cb0017e2d6b3ac7747df073857f5c242/before/__main__.py,hold,4
+c:/src/pylint-intervention/data/in_the_wild\versions/kitty/d6afe6f2cb0017e2d6b3ac7747df073857f5c242/before/__main__.py,namespaced,3
+c:/src/pylint-intervention/data/in_the_wild\versions/kitty/d6afe6f2cb0017e2d6b3ac7747df073857f5c242/before/__main__.py,runpy,2
+c:/src/pylint-intervention/data/in_the_wild\versions/kitty/d6afe6f2cb0017e2d6b3ac7747df073857f5c242/before/__main__.py,run_kitten,2
+c:/src/pylint-intervention/data/in_the_wild\versions/kitty/d6afe6f2cb0017e2d6b3ac7747df073857f5c242/before/__main__.py,setup_openssl_environment,2
+c:/src/pylint-intervention/data/in_the_wild\versions/kitty/d6afe6f2cb0017e2d6b3ac7747df073857f5c242/before/__main__.py,icat,1
+c:/src/pylint-intervention/data/in_the_wild\versions/kitty/d6afe6f2cb0017e2d6b3ac7747df073857f5c242/before/__main__.py,list_fonts,1
+c:/src/pylint-intervention/data/in_the_wild\versions/kitty/d6afe6f2cb0017e2d6b3ac7747df073857f5c242/before/__main__.py,remote_control,1
+c:/src/pylint-intervention/data/in_the_wild\versions/kitty/d6afe6f2cb0017e2d6b3ac7747df073857f5c242/before/__main__.py,complete,1
+c:/src/pylint-intervention/data/in_the_wild\versions/kitty/d6afe6f2cb0017e2d6b3ac7747df073857f5c242/before/__main__.py,open_urls,1
+c:/src/pylint-intervention/data/in_the_wild\versions/kitty/d6afe6f2cb0017e2d6b3ac7747df073857f5c242/before/__main__.py,edit_config_file,1
