@@ -44,11 +44,15 @@ def create_commit_version_directories(versions_dir
 
 def compute_commits_diff(commits_df):
 
+    print(f"Processing {len(commits_df)} commits")
+    commit_num = 0
     for _, i in commits_df.iterrows():
 
         repo_name = i['repo_name']
         cur_commit = i['commit']
         file_name = i['file_name']
+        commit_num += 1
+        print(f"{commit_num} {repo_name} {file_name} {cur_commit}")
 
         # Verify needed directories exist
         create_commit_version_directories(VERSIONS_DIR
@@ -104,9 +108,8 @@ def run_compute_commits_diff():
     df = pd.read_csv(alert_change_commits_file)
     df = df[df['state']=='removed']
 
-    # TODO - remove
-    df = pd.DataFrame([('Flexget/Flexget', '1e7e0181d712b087dad29aa885ede37e8349ac6e', 'flexget/_version.py')]
-                      , columns=['repo_name', 'commit', 'file_name'])
+    #df = pd.DataFrame([('Flexget/Flexget', '1e7e0181d712b087dad29aa885ede37e8349ac6e', 'flexget/_version.py')]
+    #                  , columns=['repo_name', 'commit', 'file_name'])
     compute_commits_diff(df)
 
 if __name__ == "__main__":
