@@ -1,1 +1,5 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/wagtail/5d81269548fc1a51f17c6e578586ac88f52250f1/after/wagtail_slash_contrib_slash_settings_slash_views.py,edit,5
+c:/src/pylint-intervention/data/in_the_wild\versions/wagtail/5d81269548fc1a51f17c6e578586ac88f52250f1/after/wagtail_slash_contrib_slash_settings_slash_views.py,get_model_from_url_params,2
+c:/src/pylint-intervention/data/in_the_wild\versions/wagtail/5d81269548fc1a51f17c6e578586ac88f52250f1/after/wagtail_slash_contrib_slash_settings_slash_views.py,get_setting_edit_handler,1
+c:/src/pylint-intervention/data/in_the_wild\versions/wagtail/5d81269548fc1a51f17c6e578586ac88f52250f1/after/wagtail_slash_contrib_slash_settings_slash_views.py,edit_current_site,1

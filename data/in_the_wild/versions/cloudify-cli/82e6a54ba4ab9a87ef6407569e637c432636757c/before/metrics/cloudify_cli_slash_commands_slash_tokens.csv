@@ -1,1 +1,3 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/cloudify-cli/82e6a54ba4ab9a87ef6407569e637c432636757c/before/cloudify_cli_slash_commands_slash_tokens.py,tokens,1
+c:/src/pylint-intervention/data/in_the_wild\versions/cloudify-cli/82e6a54ba4ab9a87ef6407569e637c432636757c/before/cloudify_cli_slash_commands_slash_tokens.py,get,1

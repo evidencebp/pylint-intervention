@@ -1,1 +1,9 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/django-admin-interface/4deefc20b7123e5feab170826b6bbdfd3ea09539/before/admin_interface_slash_models.py,ThemeQuerySet,6
+c:/src/pylint-intervention/data/in_the_wild\versions/django-admin-interface/4deefc20b7123e5feab170826b6bbdfd3ea09539/before/admin_interface_slash_models.py,ThemeQuerySet.get_active,5
+c:/src/pylint-intervention/data/in_the_wild\versions/django-admin-interface/4deefc20b7123e5feab170826b6bbdfd3ea09539/before/admin_interface_slash_models.py,pre_save_handler,3
+c:/src/pylint-intervention/data/in_the_wild\versions/django-admin-interface/4deefc20b7123e5feab170826b6bbdfd3ea09539/before/admin_interface_slash_models.py,post_save_handler,2
+c:/src/pylint-intervention/data/in_the_wild\versions/django-admin-interface/4deefc20b7123e5feab170826b6bbdfd3ea09539/before/admin_interface_slash_models.py,Theme,2
+c:/src/pylint-intervention/data/in_the_wild\versions/django-admin-interface/4deefc20b7123e5feab170826b6bbdfd3ea09539/before/admin_interface_slash_models.py,post_delete_handler,1
+c:/src/pylint-intervention/data/in_the_wild\versions/django-admin-interface/4deefc20b7123e5feab170826b6bbdfd3ea09539/before/admin_interface_slash_models.py,Theme.set_active,1
+c:/src/pylint-intervention/data/in_the_wild\versions/django-admin-interface/4deefc20b7123e5feab170826b6bbdfd3ea09539/before/admin_interface_slash_models.py,Theme.__str__,1

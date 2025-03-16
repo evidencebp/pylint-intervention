@@ -1,1 +1,3 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/Mycodo/4e2856128998cf3c783863f61e81a35574254be7/before/mycodo_slash_config.py,ProdConfig,3
+c:/src/pylint-intervention/data/in_the_wild\versions/Mycodo/4e2856128998cf3c783863f61e81a35574254be7/before/mycodo_slash_config.py,TestConfig,1

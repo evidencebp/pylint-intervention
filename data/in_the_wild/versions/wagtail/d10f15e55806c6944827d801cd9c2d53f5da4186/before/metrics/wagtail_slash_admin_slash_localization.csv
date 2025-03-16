@@ -1,1 +1,4 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/wagtail/d10f15e55806c6944827d801cd9c2d53f5da4186/before/wagtail_slash_admin_slash_localization.py,get_js_translation_strings,4
+c:/src/pylint-intervention/data/in_the_wild\versions/wagtail/d10f15e55806c6944827d801cd9c2d53f5da4186/before/wagtail_slash_admin_slash_localization.py,get_available_admin_time_zones,2
+c:/src/pylint-intervention/data/in_the_wild\versions/wagtail/d10f15e55806c6944827d801cd9c2d53f5da4186/before/wagtail_slash_admin_slash_localization.py,get_available_admin_languages,1

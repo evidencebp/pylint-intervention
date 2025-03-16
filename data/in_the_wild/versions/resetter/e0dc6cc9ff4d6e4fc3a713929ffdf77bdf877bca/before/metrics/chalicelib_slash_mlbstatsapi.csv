@@ -1,1 +1,13 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/resetter/e0dc6cc9ff4d6e4fc3a713929ffdf77bdf877bca/before/chalicelib_slash_mlbstatsapi.py,getReset,28
+c:/src/pylint-intervention/data/in_the_wild\versions/resetter/e0dc6cc9ff4d6e4fc3a713929ffdf77bdf877bca/before/chalicelib_slash_mlbstatsapi.py,getTVNets,9
+c:/src/pylint-intervention/data/in_the_wild\versions/resetter/e0dc6cc9ff4d6e4fc3a713929ffdf77bdf877bca/before/chalicelib_slash_mlbstatsapi.py,getProbables,9
+c:/src/pylint-intervention/data/in_the_wild\versions/resetter/e0dc6cc9ff4d6e4fc3a713929ffdf77bdf877bca/before/chalicelib_slash_mlbstatsapi.py,launch,9
+c:/src/pylint-intervention/data/in_the_wild\versions/resetter/e0dc6cc9ff4d6e4fc3a713929ffdf77bdf877bca/before/chalicelib_slash_mlbstatsapi.py,findGameNodes,7
+c:/src/pylint-intervention/data/in_the_wild\versions/resetter/e0dc6cc9ff4d6e4fc3a713929ffdf77bdf877bca/before/chalicelib_slash_mlbstatsapi.py,buildVarsToCode,4
+c:/src/pylint-intervention/data/in_the_wild\versions/resetter/e0dc6cc9ff4d6e4fc3a713929ffdf77bdf877bca/before/chalicelib_slash_mlbstatsapi.py,placeAndScore,4
+c:/src/pylint-intervention/data/in_the_wild\versions/resetter/e0dc6cc9ff4d6e4fc3a713929ffdf77bdf877bca/before/chalicelib_slash_mlbstatsapi.py,getWLERA,4
+c:/src/pylint-intervention/data/in_the_wild\versions/resetter/e0dc6cc9ff4d6e4fc3a713929ffdf77bdf877bca/before/chalicelib_slash_mlbstatsapi.py,loadSAPIScoreboard,3
+c:/src/pylint-intervention/data/in_the_wild\versions/resetter/e0dc6cc9ff4d6e4fc3a713929ffdf77bdf877bca/before/chalicelib_slash_mlbstatsapi.py,getPitcher,3
+c:/src/pylint-intervention/data/in_the_wild\versions/resetter/e0dc6cc9ff4d6e4fc3a713929ffdf77bdf877bca/before/chalicelib_slash_mlbstatsapi.py,iso8601toLocalTZ,1
+c:/src/pylint-intervention/data/in_the_wild\versions/resetter/e0dc6cc9ff4d6e4fc3a713929ffdf77bdf877bca/before/chalicelib_slash_mlbstatsapi.py,is_doubleheader,1

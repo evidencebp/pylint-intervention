@@ -1,1 +1,14 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/websocket-client/9adfb69e1e0af80a767874f9248416739e72c742/before/websocket_slash__http.py,_open_socket,13
+c:/src/pylint-intervention/data/in_the_wild\versions/websocket-client/9adfb69e1e0af80a767874f9248416739e72c742/before/websocket_slash__http.py,_wrap_sni_socket,12
+c:/src/pylint-intervention/data/in_the_wild\versions/websocket-client/9adfb69e1e0af80a767874f9248416739e72c742/before/websocket_slash__http.py,_start_proxied_socket,11
+c:/src/pylint-intervention/data/in_the_wild\versions/websocket-client/9adfb69e1e0af80a767874f9248416739e72c742/before/websocket_slash__http.py,connect,11
+c:/src/pylint-intervention/data/in_the_wild\versions/websocket-client/9adfb69e1e0af80a767874f9248416739e72c742/before/websocket_slash__http.py,_ssl_socket,8
+c:/src/pylint-intervention/data/in_the_wild\versions/websocket-client/9adfb69e1e0af80a767874f9248416739e72c742/before/websocket_slash__http.py,read_headers,8
+c:/src/pylint-intervention/data/in_the_wild\versions/websocket-client/9adfb69e1e0af80a767874f9248416739e72c742/before/websocket_slash__http.py,_tunnel,6
+c:/src/pylint-intervention/data/in_the_wild\versions/websocket-client/9adfb69e1e0af80a767874f9248416739e72c742/before/websocket_slash__http.py,_get_addrinfo_list,5
+c:/src/pylint-intervention/data/in_the_wild\versions/websocket-client/9adfb69e1e0af80a767874f9248416739e72c742/before/websocket_slash__http.py,proxy_info,4
+c:/src/pylint-intervention/data/in_the_wild\versions/websocket-client/9adfb69e1e0af80a767874f9248416739e72c742/before/websocket_slash__http.py,proxy_info.__init__,3
+c:/src/pylint-intervention/data/in_the_wild\versions/websocket-client/9adfb69e1e0af80a767874f9248416739e72c742/before/websocket_slash__http.py,ProxyError,1
+c:/src/pylint-intervention/data/in_the_wild\versions/websocket-client/9adfb69e1e0af80a767874f9248416739e72c742/before/websocket_slash__http.py,ProxyTimeoutError,1
+c:/src/pylint-intervention/data/in_the_wild\versions/websocket-client/9adfb69e1e0af80a767874f9248416739e72c742/before/websocket_slash__http.py,ProxyConnectionError,1

@@ -1,1 +1,3 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/moto/dc5353f1aeedbd4c182ed3ce3e3e90acd555e154/after/moto_slash_server.py,main,7
+c:/src/pylint-intervention/data/in_the_wild\versions/moto/dc5353f1aeedbd4c182ed3ce3e3e90acd555e154/after/moto_slash_server.py,signal_handler,1

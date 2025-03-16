@@ -1,1 +1,5 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/scikit-learn/a601e8c74ebf5c7220a32f52e82fa08532215d12/before/sklearn_slash_neighbors_slash__nearest_centroid.py,NearestCentroid.fit,13
+c:/src/pylint-intervention/data/in_the_wild\versions/scikit-learn/a601e8c74ebf5c7220a32f52e82fa08532215d12/before/sklearn_slash_neighbors_slash__nearest_centroid.py,NearestCentroid,6
+c:/src/pylint-intervention/data/in_the_wild\versions/scikit-learn/a601e8c74ebf5c7220a32f52e82fa08532215d12/before/sklearn_slash_neighbors_slash__nearest_centroid.py,NearestCentroid.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/scikit-learn/a601e8c74ebf5c7220a32f52e82fa08532215d12/before/sklearn_slash_neighbors_slash__nearest_centroid.py,NearestCentroid.predict,1

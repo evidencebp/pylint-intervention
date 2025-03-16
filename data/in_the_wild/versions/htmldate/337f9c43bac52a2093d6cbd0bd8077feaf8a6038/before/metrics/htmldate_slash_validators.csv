@@ -1,1 +1,9 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/htmldate/337f9c43bac52a2093d6cbd0bd8077feaf8a6038/before/htmldate_slash_validators.py,plausible_year_filter,9
+c:/src/pylint-intervention/data/in_the_wild\versions/htmldate/337f9c43bac52a2093d6cbd0bd8077feaf8a6038/before/htmldate_slash_validators.py,date_validator,8
+c:/src/pylint-intervention/data/in_the_wild\versions/htmldate/337f9c43bac52a2093d6cbd0bd8077feaf8a6038/before/htmldate_slash_validators.py,compare_values,5
+c:/src/pylint-intervention/data/in_the_wild\versions/htmldate/337f9c43bac52a2093d6cbd0bd8077feaf8a6038/before/htmldate_slash_validators.py,filter_ymd_candidate,5
+c:/src/pylint-intervention/data/in_the_wild\versions/htmldate/337f9c43bac52a2093d6cbd0bd8077feaf8a6038/before/htmldate_slash_validators.py,output_format_validator,4
+c:/src/pylint-intervention/data/in_the_wild\versions/htmldate/337f9c43bac52a2093d6cbd0bd8077feaf8a6038/before/htmldate_slash_validators.py,convert_date,3
+c:/src/pylint-intervention/data/in_the_wild\versions/htmldate/337f9c43bac52a2093d6cbd0bd8077feaf8a6038/before/htmldate_slash_validators.py,check_extracted_reference,3
+c:/src/pylint-intervention/data/in_the_wild\versions/htmldate/337f9c43bac52a2093d6cbd0bd8077feaf8a6038/before/htmldate_slash_validators.py,get_max_date,3

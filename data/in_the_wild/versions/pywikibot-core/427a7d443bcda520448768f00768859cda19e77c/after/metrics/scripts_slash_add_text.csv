@@ -1,1 +1,5 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/pywikibot-core/427a7d443bcda520448768f00768859cda19e77c/after/scripts_slash_add_text.py,add_text,22
+c:/src/pylint-intervention/data/in_the_wild\versions/pywikibot-core/427a7d443bcda520448768f00768859cda19e77c/after/scripts_slash_add_text.py,main,22
+c:/src/pylint-intervention/data/in_the_wild\versions/pywikibot-core/427a7d443bcda520448768f00768859cda19e77c/after/scripts_slash_add_text.py,put_text,8
+c:/src/pylint-intervention/data/in_the_wild\versions/pywikibot-core/427a7d443bcda520448768f00768859cda19e77c/after/scripts_slash_add_text.py,get_text,5

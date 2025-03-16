@@ -1,1 +1,3 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/pyGAPS/25a8eafc64d6cb355f423d808e4489cc7caf056a/before/src_slash_pygaps_slash_parsing_slash_csv.py,isotherm_from_csv,24
+c:/src/pylint-intervention/data/in_the_wild\versions/pyGAPS/25a8eafc64d6cb355f423d808e4489cc7caf056a/before/src_slash_pygaps_slash_parsing_slash_csv.py,isotherm_to_csv,7

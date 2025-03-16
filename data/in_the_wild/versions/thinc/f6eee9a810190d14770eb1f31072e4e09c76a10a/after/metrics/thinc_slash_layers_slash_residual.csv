@@ -1,1 +1,4 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/thinc/f6eee9a810190d14770eb1f31072e4e09c76a10a/after/thinc_slash_layers_slash_residual.py,forward,5
+c:/src/pylint-intervention/data/in_the_wild\versions/thinc/f6eee9a810190d14770eb1f31072e4e09c76a10a/after/thinc_slash_layers_slash_residual.py,init,4
+c:/src/pylint-intervention/data/in_the_wild\versions/thinc/f6eee9a810190d14770eb1f31072e4e09c76a10a/after/thinc_slash_layers_slash_residual.py,residual,3

@@ -1,1 +1,8 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/Bible-Playlist-Generator/678a2339d0a0dd0838a560e3043a7d59fc173d49/after/tenlists_slash_cli_slash___main__.py,reading_list,74
+c:/src/pylint-intervention/data/in_the_wild\versions/Bible-Playlist-Generator/678a2339d0a0dd0838a560e3043a7d59fc173d49/after/tenlists_slash_cli_slash___main__.py,create_mp3_dir,8
+c:/src/pylint-intervention/data/in_the_wild\versions/Bible-Playlist-Generator/678a2339d0a0dd0838a560e3043a7d59fc173d49/after/tenlists_slash_cli_slash___main__.py,create_m3u,4
+c:/src/pylint-intervention/data/in_the_wild\versions/Bible-Playlist-Generator/678a2339d0a0dd0838a560e3043a7d59fc173d49/after/tenlists_slash_cli_slash___main__.py,log,3
+c:/src/pylint-intervention/data/in_the_wild\versions/Bible-Playlist-Generator/678a2339d0a0dd0838a560e3043a7d59fc173d49/after/tenlists_slash_cli_slash___main__.py,ten_lists,3
+c:/src/pylint-intervention/data/in_the_wild\versions/Bible-Playlist-Generator/678a2339d0a0dd0838a560e3043a7d59fc173d49/after/tenlists_slash_cli_slash___main__.py,log_traceback,1
+c:/src/pylint-intervention/data/in_the_wild\versions/Bible-Playlist-Generator/678a2339d0a0dd0838a560e3043a7d59fc173d49/after/tenlists_slash_cli_slash___main__.py,cmd,1

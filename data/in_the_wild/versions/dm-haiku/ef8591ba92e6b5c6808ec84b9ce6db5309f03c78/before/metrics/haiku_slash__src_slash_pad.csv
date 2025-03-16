@@ -1,1 +1,9 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/dm-haiku/ef8591ba92e6b5c6808ec84b9ce6db5309f03c78/before/haiku_slash__src_slash_pad.py,create_from_tuple,5
+c:/src/pylint-intervention/data/in_the_wild\versions/dm-haiku/ef8591ba92e6b5c6808ec84b9ce6db5309f03c78/before/haiku_slash__src_slash_pad.py,is_padfn,2
+c:/src/pylint-intervention/data/in_the_wild\versions/dm-haiku/ef8591ba92e6b5c6808ec84b9ce6db5309f03c78/before/haiku_slash__src_slash_pad.py,valid,1
+c:/src/pylint-intervention/data/in_the_wild\versions/dm-haiku/ef8591ba92e6b5c6808ec84b9ce6db5309f03c78/before/haiku_slash__src_slash_pad.py,same,1
+c:/src/pylint-intervention/data/in_the_wild\versions/dm-haiku/ef8591ba92e6b5c6808ec84b9ce6db5309f03c78/before/haiku_slash__src_slash_pad.py,full,1
+c:/src/pylint-intervention/data/in_the_wild\versions/dm-haiku/ef8591ba92e6b5c6808ec84b9ce6db5309f03c78/before/haiku_slash__src_slash_pad.py,causal,1
+c:/src/pylint-intervention/data/in_the_wild\versions/dm-haiku/ef8591ba92e6b5c6808ec84b9ce6db5309f03c78/before/haiku_slash__src_slash_pad.py,reverse_causal,1
+c:/src/pylint-intervention/data/in_the_wild\versions/dm-haiku/ef8591ba92e6b5c6808ec84b9ce6db5309f03c78/before/haiku_slash__src_slash_pad.py,create_from_padfn,1

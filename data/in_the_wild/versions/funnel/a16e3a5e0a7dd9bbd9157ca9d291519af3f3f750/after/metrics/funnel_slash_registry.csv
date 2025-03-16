@@ -1,1 +1,16 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/funnel/a16e3a5e0a7dd9bbd9157ca9d291519af3f3f750/after/funnel_slash_registry.py,ResourceRegistry,5
+c:/src/pylint-intervention/data/in_the_wild\versions/funnel/a16e3a5e0a7dd9bbd9157ca9d291519af3f3f750/after/funnel_slash_registry.py,ResourceRegistry.resource,4
+c:/src/pylint-intervention/data/in_the_wild\versions/funnel/a16e3a5e0a7dd9bbd9157ca9d291519af3f3f750/after/funnel_slash_registry.py,LoginProviderRegistry,3
+c:/src/pylint-intervention/data/in_the_wild\versions/funnel/a16e3a5e0a7dd9bbd9157ca9d291519af3f3f750/after/funnel_slash_registry.py,LoginProviderRegistry.at_username_services,3
+c:/src/pylint-intervention/data/in_the_wild\versions/funnel/a16e3a5e0a7dd9bbd9157ca9d291519af3f3f750/after/funnel_slash_registry.py,LoginProviderRegistry.at_login_items,3
+c:/src/pylint-intervention/data/in_the_wild\versions/funnel/a16e3a5e0a7dd9bbd9157ca9d291519af3f3f750/after/funnel_slash_registry.py,LoginProvider,2
+c:/src/pylint-intervention/data/in_the_wild\versions/funnel/a16e3a5e0a7dd9bbd9157ca9d291519af3f3f750/after/funnel_slash_registry.py,LoginProviderData,1
+c:/src/pylint-intervention/data/in_the_wild\versions/funnel/a16e3a5e0a7dd9bbd9157ca9d291519af3f3f750/after/funnel_slash_registry.py,LoginProviderRegistry.__setitem__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/funnel/a16e3a5e0a7dd9bbd9157ca9d291519af3f3f750/after/funnel_slash_registry.py,LoginProviderRegistry.__delitem__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/funnel/a16e3a5e0a7dd9bbd9157ca9d291519af3f3f750/after/funnel_slash_registry.py,LoginError,1
+c:/src/pylint-intervention/data/in_the_wild\versions/funnel/a16e3a5e0a7dd9bbd9157ca9d291519af3f3f750/after/funnel_slash_registry.py,LoginInitError,1
+c:/src/pylint-intervention/data/in_the_wild\versions/funnel/a16e3a5e0a7dd9bbd9157ca9d291519af3f3f750/after/funnel_slash_registry.py,LoginCallbackError,1
+c:/src/pylint-intervention/data/in_the_wild\versions/funnel/a16e3a5e0a7dd9bbd9157ca9d291519af3f3f750/after/funnel_slash_registry.py,LoginProvider.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/funnel/a16e3a5e0a7dd9bbd9157ca9d291519af3f3f750/after/funnel_slash_registry.py,LoginProvider.do,1
+c:/src/pylint-intervention/data/in_the_wild\versions/funnel/a16e3a5e0a7dd9bbd9157ca9d291519af3f3f750/after/funnel_slash_registry.py,LoginProvider.callback,1

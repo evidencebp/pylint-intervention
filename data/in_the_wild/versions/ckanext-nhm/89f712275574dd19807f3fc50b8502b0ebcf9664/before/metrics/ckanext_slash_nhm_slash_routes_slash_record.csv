@@ -1,1 +1,5 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/ckanext-nhm/89f712275574dd19807f3fc50b8502b0ebcf9664/before/ckanext_slash_nhm_slash_routes_slash_record.py,_load_data,28
+c:/src/pylint-intervention/data/in_the_wild\versions/ckanext-nhm/89f712275574dd19807f3fc50b8502b0ebcf9664/before/ckanext_slash_nhm_slash_routes_slash_record.py,init_jinja_extensions,1
+c:/src/pylint-intervention/data/in_the_wild\versions/ckanext-nhm/89f712275574dd19807f3fc50b8502b0ebcf9664/before/ckanext_slash_nhm_slash_routes_slash_record.py,view,1
+c:/src/pylint-intervention/data/in_the_wild\versions/ckanext-nhm/89f712275574dd19807f3fc50b8502b0ebcf9664/before/ckanext_slash_nhm_slash_routes_slash_record.py,dwc,1

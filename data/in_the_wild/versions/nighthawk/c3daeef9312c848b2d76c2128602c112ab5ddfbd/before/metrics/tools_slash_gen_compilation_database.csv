@@ -1,1 +1,6 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/nighthawk/c3daeef9312c848b2d76c2128602c112ab5ddfbd/before/tools_slash_gen_compilation_database.py,is_compile_target,10
+c:/src/pylint-intervention/data/in_the_wild\versions/nighthawk/c3daeef9312c848b2d76c2128602c112ab5ddfbd/before/tools_slash_gen_compilation_database.py,modify_compile_command,5
+c:/src/pylint-intervention/data/in_the_wild\versions/nighthawk/c3daeef9312c848b2d76c2128602c112ab5ddfbd/before/tools_slash_gen_compilation_database.py,is_header,3
+c:/src/pylint-intervention/data/in_the_wild\versions/nighthawk/c3daeef9312c848b2d76c2128602c112ab5ddfbd/before/tools_slash_gen_compilation_database.py,fix_compilation_database,3
+c:/src/pylint-intervention/data/in_the_wild\versions/nighthawk/c3daeef9312c848b2d76c2128602c112ab5ddfbd/before/tools_slash_gen_compilation_database.py,generate_compilation_database,2

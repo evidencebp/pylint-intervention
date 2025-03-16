@@ -1,1 +1,9 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/Medusa/a1fa3e90d768201af8b5589005b5caf81273dabc/after/medusa_slash_issue_submitter.py,IssueSubmitter.find_similar_issues,12
+c:/src/pylint-intervention/data/in_the_wild\versions/Medusa/a1fa3e90d768201af8b5589005b5caf81273dabc/after/medusa_slash_issue_submitter.py,IssueSubmitter.submit_github_issue,11
+c:/src/pylint-intervention/data/in_the_wild\versions/Medusa/a1fa3e90d768201af8b5589005b5caf81273dabc/after/medusa_slash_issue_submitter.py,IssueSubmitter,6
+c:/src/pylint-intervention/data/in_the_wild\versions/Medusa/a1fa3e90d768201af8b5589005b5caf81273dabc/after/medusa_slash_issue_submitter.py,IssueSubmitter.submit_issues,5
+c:/src/pylint-intervention/data/in_the_wild\versions/Medusa/a1fa3e90d768201af8b5589005b5caf81273dabc/after/medusa_slash_issue_submitter.py,IssueSubmitter.create_gist,4
+c:/src/pylint-intervention/data/in_the_wild\versions/Medusa/a1fa3e90d768201af8b5589005b5caf81273dabc/after/medusa_slash_issue_submitter.py,IssueSubmitter.create_issue_data,4
+c:/src/pylint-intervention/data/in_the_wild\versions/Medusa/a1fa3e90d768201af8b5589005b5caf81273dabc/after/medusa_slash_issue_submitter.py,IssueSubmitter.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/Medusa/a1fa3e90d768201af8b5589005b5caf81273dabc/after/medusa_slash_issue_submitter.py,IssueSubmitter.similar,1

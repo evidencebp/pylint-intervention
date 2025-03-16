@@ -1,1 +1,9 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/newTrackon/076a342ff4d3406daea8de54864d480c1835aa0c/after/newTrackon_slash_trackon.py,add_one_tracker_to_submitted_deque,8
+c:/src/pylint-intervention/data/in_the_wild\versions/newTrackon/076a342ff4d3406daea8de54864d480c1835aa0c/after/newTrackon_slash_trackon.py,process_new_tracker,8
+c:/src/pylint-intervention/data/in_the_wild\versions/newTrackon/076a342ff4d3406daea8de54864d480c1835aa0c/after/newTrackon_slash_trackon.py,update_outdated_trackers,6
+c:/src/pylint-intervention/data/in_the_wild\versions/newTrackon/076a342ff4d3406daea8de54864d480c1835aa0c/after/newTrackon_slash_trackon.py,enqueue_new_trackers,4
+c:/src/pylint-intervention/data/in_the_wild\versions/newTrackon/076a342ff4d3406daea8de54864d480c1835aa0c/after/newTrackon_slash_trackon.py,get_all_ips_tracked,4
+c:/src/pylint-intervention/data/in_the_wild\versions/newTrackon/076a342ff4d3406daea8de54864d480c1835aa0c/after/newTrackon_slash_trackon.py,detect_new_ip_duplicates,3
+c:/src/pylint-intervention/data/in_the_wild\versions/newTrackon/076a342ff4d3406daea8de54864d480c1835aa0c/after/newTrackon_slash_trackon.py,process_submitted_deque,2
+c:/src/pylint-intervention/data/in_the_wild\versions/newTrackon/076a342ff4d3406daea8de54864d480c1835aa0c/after/newTrackon_slash_trackon.py,log_wrong_interval_denial,1

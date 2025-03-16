@@ -1,1 +1,16 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/zulip/a1fa2a8cf502f93bdead1f12fbde34fb12499342/after/zerver_slash_lib_slash_scim.py,ZulipSCIMUser.save,15
+c:/src/pylint-intervention/data/in_the_wild\versions/zulip/a1fa2a8cf502f93bdead1f12fbde34fb12499342/after/zerver_slash_lib_slash_scim.py,ZulipSCIMUser.handle_replace,12
+c:/src/pylint-intervention/data/in_the_wild\versions/zulip/a1fa2a8cf502f93bdead1f12fbde34fb12499342/after/zerver_slash_lib_slash_scim.py,ZulipSCIMUser.from_dict,11
+c:/src/pylint-intervention/data/in_the_wild\versions/zulip/a1fa2a8cf502f93bdead1f12fbde34fb12499342/after/zerver_slash_lib_slash_scim.py,ZulipSCIMUser,6
+c:/src/pylint-intervention/data/in_the_wild\versions/zulip/a1fa2a8cf502f93bdead1f12fbde34fb12499342/after/zerver_slash_lib_slash_scim.py,ZulipSCIMUser.to_dict,3
+c:/src/pylint-intervention/data/in_the_wild\versions/zulip/a1fa2a8cf502f93bdead1f12fbde34fb12499342/after/zerver_slash_lib_slash_scim.py,ZulipSCIMUser.change_full_name,3
+c:/src/pylint-intervention/data/in_the_wild\versions/zulip/a1fa2a8cf502f93bdead1f12fbde34fb12499342/after/zerver_slash_lib_slash_scim.py,ZulipSCIMUser.change_is_active,3
+c:/src/pylint-intervention/data/in_the_wild\versions/zulip/a1fa2a8cf502f93bdead1f12fbde34fb12499342/after/zerver_slash_lib_slash_scim.py,base_scim_location_getter,2
+c:/src/pylint-intervention/data/in_the_wild\versions/zulip/a1fa2a8cf502f93bdead1f12fbde34fb12499342/after/zerver_slash_lib_slash_scim.py,ZulipSCIMUser.__init__,2
+c:/src/pylint-intervention/data/in_the_wild\versions/zulip/a1fa2a8cf502f93bdead1f12fbde34fb12499342/after/zerver_slash_lib_slash_scim.py,ZulipSCIMUser.change_delivery_email,2
+c:/src/pylint-intervention/data/in_the_wild\versions/zulip/a1fa2a8cf502f93bdead1f12fbde34fb12499342/after/zerver_slash_lib_slash_scim.py,get_extra_model_filter_kwargs_getter,1
+c:/src/pylint-intervention/data/in_the_wild\versions/zulip/a1fa2a8cf502f93bdead1f12fbde34fb12499342/after/zerver_slash_lib_slash_scim.py,ZulipSCIMUser.is_new_user,1
+c:/src/pylint-intervention/data/in_the_wild\versions/zulip/a1fa2a8cf502f93bdead1f12fbde34fb12499342/after/zerver_slash_lib_slash_scim.py,ZulipSCIMUser.display_name,1
+c:/src/pylint-intervention/data/in_the_wild\versions/zulip/a1fa2a8cf502f93bdead1f12fbde34fb12499342/after/zerver_slash_lib_slash_scim.py,ZulipSCIMUser.delete,1
+c:/src/pylint-intervention/data/in_the_wild\versions/zulip/a1fa2a8cf502f93bdead1f12fbde34fb12499342/after/zerver_slash_lib_slash_scim.py,ConflictError,1

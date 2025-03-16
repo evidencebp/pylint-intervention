@@ -1,1 +1,5 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/sirepo/48eb6a685f43ac18e8bb6184cd689455e6040331/before/sirepo_slash_template_slash_elegant_command_parser.py,parse_file,11
+c:/src/pylint-intervention/data/in_the_wild\versions/sirepo/48eb6a685f43ac18e8bb6184cd689455e6040331/before/sirepo_slash_template_slash_elegant_command_parser.py,_parse_line,9
+c:/src/pylint-intervention/data/in_the_wild\versions/sirepo/48eb6a685f43ac18e8bb6184cd689455e6040331/before/sirepo_slash_template_slash_elegant_command_parser.py,_update_lattice_names,9
+c:/src/pylint-intervention/data/in_the_wild\versions/sirepo/48eb6a685f43ac18e8bb6184cd689455e6040331/before/sirepo_slash_template_slash_elegant_command_parser.py,_parse_array_value,8

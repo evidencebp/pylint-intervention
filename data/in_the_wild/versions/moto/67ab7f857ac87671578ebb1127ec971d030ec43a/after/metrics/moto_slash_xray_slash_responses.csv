@@ -1,1 +1,13 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/moto/67ab7f857ac87671578ebb1127ec971d030ec43a/after/moto_slash_xray_slash_responses.py,XRayResponse.trace_summaries,7
+c:/src/pylint-intervention/data/in_the_wild\versions/moto/67ab7f857ac87671578ebb1127ec971d030ec43a/after/moto_slash_xray_slash_responses.py,XRayResponse.trace_segments,6
+c:/src/pylint-intervention/data/in_the_wild\versions/moto/67ab7f857ac87671578ebb1127ec971d030ec43a/after/moto_slash_xray_slash_responses.py,XRayResponse.traces,4
+c:/src/pylint-intervention/data/in_the_wild\versions/moto/67ab7f857ac87671578ebb1127ec971d030ec43a/after/moto_slash_xray_slash_responses.py,XRayResponse,3
+c:/src/pylint-intervention/data/in_the_wild\versions/moto/67ab7f857ac87671578ebb1127ec971d030ec43a/after/moto_slash_xray_slash_responses.py,XRayResponse.service_graph,3
+c:/src/pylint-intervention/data/in_the_wild\versions/moto/67ab7f857ac87671578ebb1127ec971d030ec43a/after/moto_slash_xray_slash_responses.py,XRayResponse.request_params,2
+c:/src/pylint-intervention/data/in_the_wild\versions/moto/67ab7f857ac87671578ebb1127ec971d030ec43a/after/moto_slash_xray_slash_responses.py,XRayResponse.trace_graph,2
+c:/src/pylint-intervention/data/in_the_wild\versions/moto/67ab7f857ac87671578ebb1127ec971d030ec43a/after/moto_slash_xray_slash_responses.py,XRayResponse._error,1
+c:/src/pylint-intervention/data/in_the_wild\versions/moto/67ab7f857ac87671578ebb1127ec971d030ec43a/after/moto_slash_xray_slash_responses.py,XRayResponse.xray_backend,1
+c:/src/pylint-intervention/data/in_the_wild\versions/moto/67ab7f857ac87671578ebb1127ec971d030ec43a/after/moto_slash_xray_slash_responses.py,XRayResponse._get_param,1
+c:/src/pylint-intervention/data/in_the_wild\versions/moto/67ab7f857ac87671578ebb1127ec971d030ec43a/after/moto_slash_xray_slash_responses.py,XRayResponse._get_action,1
+c:/src/pylint-intervention/data/in_the_wild\versions/moto/67ab7f857ac87671578ebb1127ec971d030ec43a/after/moto_slash_xray_slash_responses.py,XRayResponse.telemetry_records,1

@@ -1,1 +1,3 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/python-neo/136e80004e5978a6bc0dc6ea1eeec9204629cea5/after/neo_slash_io_slash_alphaomegaio.py,AlphaOmegaIO,2
+c:/src/pylint-intervention/data/in_the_wild\versions/python-neo/136e80004e5978a6bc0dc6ea1eeec9204629cea5/after/neo_slash_io_slash_alphaomegaio.py,AlphaOmegaIO.__init__,1

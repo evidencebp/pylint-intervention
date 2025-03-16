@@ -1,1 +1,5 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/funnel/ec0f1cd6633bfeae18dc227dcd0c34018d96d767/before/funnel_slash_loginproviders_slash_github.py,GitHubProvider.callback,13
+c:/src/pylint-intervention/data/in_the_wild\versions/funnel/ec0f1cd6633bfeae18dc227dcd0c34018d96d767/before/funnel_slash_loginproviders_slash_github.py,GitHubProvider,6
+c:/src/pylint-intervention/data/in_the_wild\versions/funnel/ec0f1cd6633bfeae18dc227dcd0c34018d96d767/before/funnel_slash_loginproviders_slash_github.py,GitHubProvider.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/funnel/ec0f1cd6633bfeae18dc227dcd0c34018d96d767/before/funnel_slash_loginproviders_slash_github.py,GitHubProvider.do,1

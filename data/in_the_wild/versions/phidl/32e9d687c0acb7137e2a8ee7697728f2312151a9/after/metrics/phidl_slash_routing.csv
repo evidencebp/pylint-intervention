@@ -1,1 +1,15 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/phidl/32e9d687c0acb7137e2a8ee7697728f2312151a9/after/phidl_slash_routing.py,path_manhattan,23
+c:/src/pylint-intervention/data/in_the_wild\versions/phidl/32e9d687c0acb7137e2a8ee7697728f2312151a9/after/phidl_slash_routing.py,route_smooth,18
+c:/src/pylint-intervention/data/in_the_wild\versions/phidl/32e9d687c0acb7137e2a8ee7697728f2312151a9/after/phidl_slash_routing.py,route_sharp,15
+c:/src/pylint-intervention/data/in_the_wild\versions/phidl/32e9d687c0acb7137e2a8ee7697728f2312151a9/after/phidl_slash_routing.py,path_xy,11
+c:/src/pylint-intervention/data/in_the_wild\versions/phidl/32e9d687c0acb7137e2a8ee7697728f2312151a9/after/phidl_slash_routing.py,route_quad,5
+c:/src/pylint-intervention/data/in_the_wild\versions/phidl/32e9d687c0acb7137e2a8ee7697728f2312151a9/after/phidl_slash_routing.py,route_xy,5
+c:/src/pylint-intervention/data/in_the_wild\versions/phidl/32e9d687c0acb7137e2a8ee7697728f2312151a9/after/phidl_slash_routing.py,path_straight,4
+c:/src/pylint-intervention/data/in_the_wild\versions/phidl/32e9d687c0acb7137e2a8ee7697728f2312151a9/after/phidl_slash_routing.py,path_L,2
+c:/src/pylint-intervention/data/in_the_wild\versions/phidl/32e9d687c0acb7137e2a8ee7697728f2312151a9/after/phidl_slash_routing.py,path_U,2
+c:/src/pylint-intervention/data/in_the_wild\versions/phidl/32e9d687c0acb7137e2a8ee7697728f2312151a9/after/phidl_slash_routing.py,path_J,2
+c:/src/pylint-intervention/data/in_the_wild\versions/phidl/32e9d687c0acb7137e2a8ee7697728f2312151a9/after/phidl_slash_routing.py,path_C,2
+c:/src/pylint-intervention/data/in_the_wild\versions/phidl/32e9d687c0acb7137e2a8ee7697728f2312151a9/after/phidl_slash_routing.py,_get_rotated_basis,1
+c:/src/pylint-intervention/data/in_the_wild\versions/phidl/32e9d687c0acb7137e2a8ee7697728f2312151a9/after/phidl_slash_routing.py,path_Z,1
+c:/src/pylint-intervention/data/in_the_wild\versions/phidl/32e9d687c0acb7137e2a8ee7697728f2312151a9/after/phidl_slash_routing.py,path_V,1

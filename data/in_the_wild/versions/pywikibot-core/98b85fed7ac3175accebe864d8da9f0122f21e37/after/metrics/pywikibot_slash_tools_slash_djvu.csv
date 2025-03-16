@@ -1,1 +1,17 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/pywikibot-core/98b85fed7ac3175accebe864d8da9f0122f21e37/after/pywikibot_slash_tools_slash_djvu.py,DjVuFile._get_page_info,9
+c:/src/pylint-intervention/data/in_the_wild\versions/pywikibot-core/98b85fed7ac3175accebe864d8da9f0122f21e37/after/pywikibot_slash_tools_slash_djvu.py,DjVuFile.whiten_page,9
+c:/src/pylint-intervention/data/in_the_wild\versions/pywikibot-core/98b85fed7ac3175accebe864d8da9f0122f21e37/after/pywikibot_slash_tools_slash_djvu.py,DjVuFile.delete_page,8
+c:/src/pylint-intervention/data/in_the_wild\versions/pywikibot-core/98b85fed7ac3175accebe864d8da9f0122f21e37/after/pywikibot_slash_tools_slash_djvu.py,_call_cmd,4
+c:/src/pylint-intervention/data/in_the_wild\versions/pywikibot-core/98b85fed7ac3175accebe864d8da9f0122f21e37/after/pywikibot_slash_tools_slash_djvu.py,DjVuFile,4
+c:/src/pylint-intervention/data/in_the_wild\versions/pywikibot-core/98b85fed7ac3175accebe864d8da9f0122f21e37/after/pywikibot_slash_tools_slash_djvu.py,DjVuFile.number_of_images,3
+c:/src/pylint-intervention/data/in_the_wild\versions/pywikibot-core/98b85fed7ac3175accebe864d8da9f0122f21e37/after/pywikibot_slash_tools_slash_djvu.py,DjVuFile.page_info,3
+c:/src/pylint-intervention/data/in_the_wild\versions/pywikibot-core/98b85fed7ac3175accebe864d8da9f0122f21e37/after/pywikibot_slash_tools_slash_djvu.py,DjVuFile.get_page,3
+c:/src/pylint-intervention/data/in_the_wild\versions/pywikibot-core/98b85fed7ac3175accebe864d8da9f0122f21e37/after/pywikibot_slash_tools_slash_djvu.py,DjVuFile.get_most_common_info,2
+c:/src/pylint-intervention/data/in_the_wild\versions/pywikibot-core/98b85fed7ac3175accebe864d8da9f0122f21e37/after/pywikibot_slash_tools_slash_djvu.py,DjVuFile.has_text,2
+c:/src/pylint-intervention/data/in_the_wild\versions/pywikibot-core/98b85fed7ac3175accebe864d8da9f0122f21e37/after/pywikibot_slash_tools_slash_djvu.py,DjVuFile.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pywikibot-core/98b85fed7ac3175accebe864d8da9f0122f21e37/after/pywikibot_slash_tools_slash_djvu.py,DjVuFile.__repr__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pywikibot-core/98b85fed7ac3175accebe864d8da9f0122f21e37/after/pywikibot_slash_tools_slash_djvu.py,DjVuFile.__str__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pywikibot-core/98b85fed7ac3175accebe864d8da9f0122f21e37/after/pywikibot_slash_tools_slash_djvu.py,DjVuFile.check_cache,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pywikibot-core/98b85fed7ac3175accebe864d8da9f0122f21e37/after/pywikibot_slash_tools_slash_djvu.py,DjVuFile.check_page_number,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pywikibot-core/98b85fed7ac3175accebe864d8da9f0122f21e37/after/pywikibot_slash_tools_slash_djvu.py,DjVuFile._remove_control_chars,1

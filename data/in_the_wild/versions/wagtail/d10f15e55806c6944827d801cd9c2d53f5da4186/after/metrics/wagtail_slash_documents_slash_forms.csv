@@ -1,1 +1,6 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/wagtail/d10f15e55806c6944827d801cd9c2d53f5da4186/after/wagtail_slash_documents_slash_forms.py,get_document_multi_form,4
+c:/src/pylint-intervention/data/in_the_wild\versions/wagtail/d10f15e55806c6944827d801cd9c2d53f5da4186/after/wagtail_slash_documents_slash_forms.py,formfield_for_dbfield,2
+c:/src/pylint-intervention/data/in_the_wild\versions/wagtail/d10f15e55806c6944827d801cd9c2d53f5da4186/after/wagtail_slash_documents_slash_forms.py,get_document_base_form,2
+c:/src/pylint-intervention/data/in_the_wild\versions/wagtail/d10f15e55806c6944827d801cd9c2d53f5da4186/after/wagtail_slash_documents_slash_forms.py,get_document_form,2
+c:/src/pylint-intervention/data/in_the_wild\versions/wagtail/d10f15e55806c6944827d801cd9c2d53f5da4186/after/wagtail_slash_documents_slash_forms.py,BaseDocumentForm,1

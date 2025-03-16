@@ -1,1 +1,9 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/pex/a126114ce3f6fb3a9c0bf2ee9c448ffe3619e13d/after/pex_slash_tools_slash_commands_slash_venv.py,Venv.run,10
+c:/src/pylint-intervention/data/in_the_wild\versions/pex/a126114ce3f6fb3a9c0bf2ee9c448ffe3619e13d/after/pex_slash_tools_slash_commands_slash_venv.py,Venv,7
+c:/src/pylint-intervention/data/in_the_wild\versions/pex/a126114ce3f6fb3a9c0bf2ee9c448ffe3619e13d/after/pex_slash_tools_slash_commands_slash_venv.py,InstallScopeState,3
+c:/src/pylint-intervention/data/in_the_wild\versions/pex/a126114ce3f6fb3a9c0bf2ee9c448ffe3619e13d/after/pex_slash_tools_slash_commands_slash_venv.py,InstallScopeState.load,3
+c:/src/pylint-intervention/data/in_the_wild\versions/pex/a126114ce3f6fb3a9c0bf2ee9c448ffe3619e13d/after/pex_slash_tools_slash_commands_slash_venv.py,InstallScopeState.save,2
+c:/src/pylint-intervention/data/in_the_wild\versions/pex/a126114ce3f6fb3a9c0bf2ee9c448ffe3619e13d/after/pex_slash_tools_slash_commands_slash_venv.py,RemoveScope,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pex/a126114ce3f6fb3a9c0bf2ee9c448ffe3619e13d/after/pex_slash_tools_slash_commands_slash_venv.py,InstallScopeState.is_partial_install,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pex/a126114ce3f6fb3a9c0bf2ee9c448ffe3619e13d/after/pex_slash_tools_slash_commands_slash_venv.py,Venv.add_arguments,1

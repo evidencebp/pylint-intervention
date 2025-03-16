@@ -1,1 +1,6 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/41555edab98034fcc669ef90f25753533ab93327/after/mitmproxy_slash_contentviews_slash_msgpack.py,format_msgpack,12
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/41555edab98034fcc669ef90f25753533ab93327/after/mitmproxy_slash_contentviews_slash_msgpack.py,ViewMsgPack,3
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/41555edab98034fcc669ef90f25753533ab93327/after/mitmproxy_slash_contentviews_slash_msgpack.py,parse_msgpack,2
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/41555edab98034fcc669ef90f25753533ab93327/after/mitmproxy_slash_contentviews_slash_msgpack.py,ViewMsgPack.__call__,2
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/41555edab98034fcc669ef90f25753533ab93327/after/mitmproxy_slash_contentviews_slash_msgpack.py,ViewMsgPack.render_priority,2

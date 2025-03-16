@@ -1,1 +1,8 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/borealis/557f73756e4444824443867a52aa471a954b7c44/after/scheduler_slash_local_scd_server.py,SWG.parse_swg_to_scd,19
+c:/src/pylint-intervention/data/in_the_wild\versions/borealis/557f73756e4444824443867a52aa471a954b7c44/after/scheduler_slash_local_scd_server.py,main,17
+c:/src/pylint-intervention/data/in_the_wild\versions/borealis/557f73756e4444824443867a52aa471a954b7c44/after/scheduler_slash_local_scd_server.py,SWG,6
+c:/src/pylint-intervention/data/in_the_wild\versions/borealis/557f73756e4444824443867a52aa471a954b7c44/after/scheduler_slash_local_scd_server.py,SWG.__init__,2
+c:/src/pylint-intervention/data/in_the_wild\versions/borealis/557f73756e4444824443867a52aa471a954b7c44/after/scheduler_slash_local_scd_server.py,SWG.get_next_month,2
+c:/src/pylint-intervention/data/in_the_wild\versions/borealis/557f73756e4444824443867a52aa471a954b7c44/after/scheduler_slash_local_scd_server.py,SWG.new_swg_file_available,1
+c:/src/pylint-intervention/data/in_the_wild\versions/borealis/557f73756e4444824443867a52aa471a954b7c44/after/scheduler_slash_local_scd_server.py,SWG.pull_new_swg_file,1

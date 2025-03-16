@@ -1,1 +1,14 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/kart/b660e3bc5aade797ab22f91de379a58b291fd443/before/diffusion_slash_models.py,Place,4
+c:/src/pylint-intervention/data/in_the_wild\versions/kart/b660e3bc5aade797ab22f91de379a58b291fd443/before/diffusion_slash_models.py,Place.__unicode__,3
+c:/src/pylint-intervention/data/in_the_wild\versions/kart/b660e3bc5aade797ab22f91de379a58b291fd443/before/diffusion_slash_models.py,Award,3
+c:/src/pylint-intervention/data/in_the_wild\versions/kart/b660e3bc5aade797ab22f91de379a58b291fd443/before/diffusion_slash_models.py,Diffusion,3
+c:/src/pylint-intervention/data/in_the_wild\versions/kart/b660e3bc5aade797ab22f91de379a58b291fd443/before/diffusion_slash_models.py,MetaAward,2
+c:/src/pylint-intervention/data/in_the_wild\versions/kart/b660e3bc5aade797ab22f91de379a58b291fd443/before/diffusion_slash_models.py,Award.__unicode__,2
+c:/src/pylint-intervention/data/in_the_wild\versions/kart/b660e3bc5aade797ab22f91de379a58b291fd443/before/diffusion_slash_models.py,MetaEvent,2
+c:/src/pylint-intervention/data/in_the_wild\versions/kart/b660e3bc5aade797ab22f91de379a58b291fd443/before/diffusion_slash_models.py,Diffusion.__unicode__,2
+c:/src/pylint-intervention/data/in_the_wild\versions/kart/b660e3bc5aade797ab22f91de379a58b291fd443/before/diffusion_slash_models.py,main_event_true,1
+c:/src/pylint-intervention/data/in_the_wild\versions/kart/b660e3bc5aade797ab22f91de379a58b291fd443/before/diffusion_slash_models.py,main_event_false,1
+c:/src/pylint-intervention/data/in_the_wild\versions/kart/b660e3bc5aade797ab22f91de379a58b291fd443/before/diffusion_slash_models.py,staff_and_artist_user_limit,1
+c:/src/pylint-intervention/data/in_the_wild\versions/kart/b660e3bc5aade797ab22f91de379a58b291fd443/before/diffusion_slash_models.py,MetaAward.__unicode__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/kart/b660e3bc5aade797ab22f91de379a58b291fd443/before/diffusion_slash_models.py,MetaEvent.__unicode__,1

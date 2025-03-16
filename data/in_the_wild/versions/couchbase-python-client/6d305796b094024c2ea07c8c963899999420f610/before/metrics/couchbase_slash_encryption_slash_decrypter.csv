@@ -1,1 +1,6 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/couchbase-python-client/6d305796b094024c2ea07c8c963899999420f610/before/couchbase_slash_encryption_slash_decrypter.py,Decrypter,2
+c:/src/pylint-intervention/data/in_the_wild\versions/couchbase-python-client/6d305796b094024c2ea07c8c963899999420f610/before/couchbase_slash_encryption_slash_decrypter.py,Decrypter.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/couchbase-python-client/6d305796b094024c2ea07c8c963899999420f610/before/couchbase_slash_encryption_slash_decrypter.py,Decrypter.keyring,1
+c:/src/pylint-intervention/data/in_the_wild\versions/couchbase-python-client/6d305796b094024c2ea07c8c963899999420f610/before/couchbase_slash_encryption_slash_decrypter.py,Decrypter.algorithm,1
+c:/src/pylint-intervention/data/in_the_wild\versions/couchbase-python-client/6d305796b094024c2ea07c8c963899999420f610/before/couchbase_slash_encryption_slash_decrypter.py,Decrypter.decrypt,1

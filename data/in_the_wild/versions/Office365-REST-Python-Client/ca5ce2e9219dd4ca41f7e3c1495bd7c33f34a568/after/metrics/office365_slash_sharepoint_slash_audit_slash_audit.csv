@@ -1,1 +1,3 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/Office365-REST-Python-Client/ca5ce2e9219dd4ca41f7e3c1495bd7c33f34a568/after/office365_slash_sharepoint_slash_audit_slash_audit.py,Audit,2
+c:/src/pylint-intervention/data/in_the_wild\versions/Office365-REST-Python-Client/ca5ce2e9219dd4ca41f7e3c1495bd7c33f34a568/after/office365_slash_sharepoint_slash_audit_slash_audit.py,Audit.allow_designer,1

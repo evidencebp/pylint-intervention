@@ -1,1 +1,4 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/python-docs-samples/f3554321f74ab6e54a4dbe4ef18f1edefcb65127/before/billing_slash_main.py,stop_billing,4
+c:/src/pylint-intervention/data/in_the_wild\versions/python-docs-samples/f3554321f74ab6e54a4dbe4ef18f1edefcb65127/before/billing_slash_main.py,__is_billing_enabled,3
+c:/src/pylint-intervention/data/in_the_wild\versions/python-docs-samples/f3554321f74ab6e54a4dbe4ef18f1edefcb65127/before/billing_slash_main.py,__disable_billing_for_project,2

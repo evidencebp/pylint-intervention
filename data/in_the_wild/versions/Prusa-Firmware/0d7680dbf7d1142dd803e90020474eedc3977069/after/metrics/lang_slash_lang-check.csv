@@ -1,1 +1,12 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/Prusa-Firmware/0d7680dbf7d1142dd803e90020474eedc3977069/after/lang_slash_lang-check.py,check_translation,61
+c:/src/pylint-intervention/data/in_the_wild\versions/Prusa-Firmware/0d7680dbf7d1142dd803e90020474eedc3977069/after/lang_slash_lang-check.py,main,7
+c:/src/pylint-intervention/data/in_the_wild\versions/Prusa-Firmware/0d7680dbf7d1142dd803e90020474eedc3977069/after/lang_slash_lang-check.py,print_wrapped,4
+c:/src/pylint-intervention/data/in_the_wild\versions/Prusa-Firmware/0d7680dbf7d1142dd803e90020474eedc3977069/after/lang_slash_lang-check.py,wrap_text,3
+c:/src/pylint-intervention/data/in_the_wild\versions/Prusa-Firmware/0d7680dbf7d1142dd803e90020474eedc3977069/after/lang_slash_lang-check.py,color_maybe,2
+c:/src/pylint-intervention/data/in_the_wild\versions/Prusa-Firmware/0d7680dbf7d1142dd803e90020474eedc3977069/after/lang_slash_lang-check.py,print_truncated,2
+c:/src/pylint-intervention/data/in_the_wild\versions/Prusa-Firmware/0d7680dbf7d1142dd803e90020474eedc3977069/after/lang_slash_lang-check.py,print_source_translation,2
+c:/src/pylint-intervention/data/in_the_wild\versions/Prusa-Firmware/0d7680dbf7d1142dd803e90020474eedc3977069/after/lang_slash_lang-check.py,highlight_trailing_white,2
+c:/src/pylint-intervention/data/in_the_wild\versions/Prusa-Firmware/0d7680dbf7d1142dd803e90020474eedc3977069/after/lang_slash_lang-check.py,ign_char_first,2
+c:/src/pylint-intervention/data/in_the_wild\versions/Prusa-Firmware/0d7680dbf7d1142dd803e90020474eedc3977069/after/lang_slash_lang-check.py,ign_char_last,2
+c:/src/pylint-intervention/data/in_the_wild\versions/Prusa-Firmware/0d7680dbf7d1142dd803e90020474eedc3977069/after/lang_slash_lang-check.py,print_ruler,1

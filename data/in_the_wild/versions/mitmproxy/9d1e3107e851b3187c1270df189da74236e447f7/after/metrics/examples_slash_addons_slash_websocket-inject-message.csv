@@ -1,1 +1,4 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/9d1e3107e851b3187c1270df189da74236e447f7/after/examples_slash_addons_slash_websocket-inject-message.py,websocket_message,4
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/9d1e3107e851b3187c1270df189da74236e447f7/after/examples_slash_addons_slash_websocket-inject-message.py,inject_async,3
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/9d1e3107e851b3187c1270df189da74236e447f7/after/examples_slash_addons_slash_websocket-inject-message.py,websocket_start,1

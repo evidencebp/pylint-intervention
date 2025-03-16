@@ -1,1 +1,3 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/ccxt/9295a68f4b1f4b217feb1cf60a3eca78b5ba394b/after/python_slash_ccxt_slash_gateio.py,gateio,2
+c:/src/pylint-intervention/data/in_the_wild\versions/ccxt/9295a68f4b1f4b217feb1cf60a3eca78b5ba394b/after/python_slash_ccxt_slash_gateio.py,gateio.describe,1

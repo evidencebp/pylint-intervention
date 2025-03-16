@@ -1,1 +1,10 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/ESPEI/b9bc9feb9632a7df58abf6897cf685b0122ad131/after/espei_slash_paramselect.py,phase_fit,41
+c:/src/pylint-intervention/data/in_the_wild\versions/ESPEI/b9bc9feb9632a7df58abf6897cf685b0122ad131/after/espei_slash_paramselect.py,fit_ternary_interactions,15
+c:/src/pylint-intervention/data/in_the_wild\versions/ESPEI/b9bc9feb9632a7df58abf6897cf685b0122ad131/after/espei_slash_paramselect.py,fit_formation_energy,14
+c:/src/pylint-intervention/data/in_the_wild\versions/ESPEI/b9bc9feb9632a7df58abf6897cf685b0122ad131/after/espei_slash_paramselect.py,_poly_degrees,4
+c:/src/pylint-intervention/data/in_the_wild\versions/ESPEI/b9bc9feb9632a7df58abf6897cf685b0122ad131/after/espei_slash_paramselect.py,has_symbol,4
+c:/src/pylint-intervention/data/in_the_wild\versions/ESPEI/b9bc9feb9632a7df58abf6897cf685b0122ad131/after/espei_slash_paramselect.py,_param_present_in_database,3
+c:/src/pylint-intervention/data/in_the_wild\versions/ESPEI/b9bc9feb9632a7df58abf6897cf685b0122ad131/after/espei_slash_paramselect.py,_build_feature_matrix,3
+c:/src/pylint-intervention/data/in_the_wild\versions/ESPEI/b9bc9feb9632a7df58abf6897cf685b0122ad131/after/espei_slash_paramselect.py,generate_parameters,3
+c:/src/pylint-intervention/data/in_the_wild\versions/ESPEI/b9bc9feb9632a7df58abf6897cf685b0122ad131/after/espei_slash_paramselect.py,get_next_symbol,2

@@ -1,1 +1,11 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/airflow/0cd3b11f3a5c406fbbd4433d8e44d326086db634/before/airflow_slash_models_slash_base.py,Operator.resolve_template_files,14
+c:/src/pylint-intervention/data/in_the_wild\versions/airflow/0cd3b11f3a5c406fbbd4433d8e44d326086db634/before/airflow_slash_models_slash_base.py,Operator.priority_weight_total,6
+c:/src/pylint-intervention/data/in_the_wild\versions/airflow/0cd3b11f3a5c406fbbd4433d8e44d326086db634/before/airflow_slash_models_slash_base.py,Operator,5
+c:/src/pylint-intervention/data/in_the_wild\versions/airflow/0cd3b11f3a5c406fbbd4433d8e44d326086db634/before/airflow_slash_models_slash_base.py,Operator.get_flat_relative_ids,5
+c:/src/pylint-intervention/data/in_the_wild\versions/airflow/0cd3b11f3a5c406fbbd4433d8e44d326086db634/before/airflow_slash_models_slash_base.py,get_id_collation_args,4
+c:/src/pylint-intervention/data/in_the_wild\versions/airflow/0cd3b11f3a5c406fbbd4433d8e44d326086db634/before/airflow_slash_models_slash_base.py,Operator.dag_id,2
+c:/src/pylint-intervention/data/in_the_wild\versions/airflow/0cd3b11f3a5c406fbbd4433d8e44d326086db634/before/airflow_slash_models_slash_base.py,Operator.get_template_env,2
+c:/src/pylint-intervention/data/in_the_wild\versions/airflow/0cd3b11f3a5c406fbbd4433d8e44d326086db634/before/airflow_slash_models_slash_base.py,Operator.get_direct_relative_ids,2
+c:/src/pylint-intervention/data/in_the_wild\versions/airflow/0cd3b11f3a5c406fbbd4433d8e44d326086db634/before/airflow_slash_models_slash_base.py,Operator.get_dag,1
+c:/src/pylint-intervention/data/in_the_wild\versions/airflow/0cd3b11f3a5c406fbbd4433d8e44d326086db634/before/airflow_slash_models_slash_base.py,Operator.prepare_template,1

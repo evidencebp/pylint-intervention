@@ -1,1 +1,9 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/weblate/1804a951c8ae9199d23099a8ec322134ee5b45bc/after/weblate_slash_trans_slash_views_slash_js.py,ignore_check_source,4
+c:/src/pylint-intervention/data/in_the_wild\versions/weblate/1804a951c8ae9199d23099a8ec322134ee5b45bc/after/weblate_slash_trans_slash_views_slash_js.py,git_status_shared,4
+c:/src/pylint-intervention/data/in_the_wild\versions/weblate/1804a951c8ae9199d23099a8ec322134ee5b45bc/after/weblate_slash_trans_slash_views_slash_js.py,ignore_check,2
+c:/src/pylint-intervention/data/in_the_wild\versions/weblate/1804a951c8ae9199d23099a8ec322134ee5b45bc/after/weblate_slash_trans_slash_views_slash_js.py,git_status_component,2
+c:/src/pylint-intervention/data/in_the_wild\versions/weblate/1804a951c8ae9199d23099a8ec322134ee5b45bc/after/weblate_slash_trans_slash_views_slash_js.py,git_status_translation,2
+c:/src/pylint-intervention/data/in_the_wild\versions/weblate/1804a951c8ae9199d23099a8ec322134ee5b45bc/after/weblate_slash_trans_slash_views_slash_js.py,get_unit_translations,1
+c:/src/pylint-intervention/data/in_the_wild\versions/weblate/1804a951c8ae9199d23099a8ec322134ee5b45bc/after/weblate_slash_trans_slash_views_slash_js.py,git_status_project,1
+c:/src/pylint-intervention/data/in_the_wild\versions/weblate/1804a951c8ae9199d23099a8ec322134ee5b45bc/after/weblate_slash_trans_slash_views_slash_js.py,matomo,1

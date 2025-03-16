@@ -1,1 +1,7 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/burnman/f721b43e529d3743335783a23a9ea0dddded2894/after/burnman_slash_tools_slash_chemistry.py,hugoniot,3
+c:/src/pylint-intervention/data/in_the_wild\versions/burnman/f721b43e529d3743335783a23a9ea0dddded2894/after/burnman_slash_tools_slash_chemistry.py,fugacity,1
+c:/src/pylint-intervention/data/in_the_wild\versions/burnman/f721b43e529d3743335783a23a9ea0dddded2894/after/burnman_slash_tools_slash_chemistry.py,relative_fugacity,1
+c:/src/pylint-intervention/data/in_the_wild\versions/burnman/f721b43e529d3743335783a23a9ea0dddded2894/after/burnman_slash_tools_slash_chemistry.py,equilibrium_pressure,1
+c:/src/pylint-intervention/data/in_the_wild\versions/burnman/f721b43e529d3743335783a23a9ea0dddded2894/after/burnman_slash_tools_slash_chemistry.py,equilibrium_temperature,1
+c:/src/pylint-intervention/data/in_the_wild\versions/burnman/f721b43e529d3743335783a23a9ea0dddded2894/after/burnman_slash_tools_slash_chemistry.py,invariant_point,1

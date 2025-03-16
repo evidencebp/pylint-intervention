@@ -1,1 +1,10 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/xnote/cc1502a1f835abd2533dafca0eaf9c82ae6c610a/after/handlers_slash_system_slash_system_log.py,read_tail_lines,6
+c:/src/pylint-intervention/data/in_the_wild\versions/xnote/cc1502a1f835abd2533dafca0eaf9c82ae6c610a/after/handlers_slash_system_slash_system_log.py,LogHandler.handle_mem_log,5
+c:/src/pylint-intervention/data/in_the_wild\versions/xnote/cc1502a1f835abd2533dafca0eaf9c82ae6c610a/after/handlers_slash_system_slash_system_log.py,LogHandler,4
+c:/src/pylint-intervention/data/in_the_wild\versions/xnote/cc1502a1f835abd2533dafca0eaf9c82ae6c610a/after/handlers_slash_system_slash_system_log.py,LogHandler.handle_file_log,3
+c:/src/pylint-intervention/data/in_the_wild\versions/xnote/cc1502a1f835abd2533dafca0eaf9c82ae6c610a/after/handlers_slash_system_slash_system_log.py,LogHandler.handle,3
+c:/src/pylint-intervention/data/in_the_wild\versions/xnote/cc1502a1f835abd2533dafca0eaf9c82ae6c610a/after/handlers_slash_system_slash_system_log.py,readlines,2
+c:/src/pylint-intervention/data/in_the_wild\versions/xnote/cc1502a1f835abd2533dafca0eaf9c82ae6c610a/after/handlers_slash_system_slash_system_log.py,LogHandler.get_arg_date,2
+c:/src/pylint-intervention/data/in_the_wild\versions/xnote/cc1502a1f835abd2533dafca0eaf9c82ae6c610a/after/handlers_slash_system_slash_system_log.py,get_log_path,1
+c:/src/pylint-intervention/data/in_the_wild\versions/xnote/cc1502a1f835abd2533dafca0eaf9c82ae6c610a/after/handlers_slash_system_slash_system_log.py,LogHandler.render_options,1

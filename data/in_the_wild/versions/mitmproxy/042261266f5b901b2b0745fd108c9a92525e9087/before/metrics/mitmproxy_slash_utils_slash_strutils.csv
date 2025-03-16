@@ -1,1 +1,10 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/042261266f5b901b2b0745fd108c9a92525e9087/before/mitmproxy_slash_utils_slash_strutils.py,bytes_to_escaped_str,6
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/042261266f5b901b2b0745fd108c9a92525e9087/before/mitmproxy_slash_utils_slash_strutils.py,is_mostly_bin,6
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/042261266f5b901b2b0745fd108c9a92525e9087/before/mitmproxy_slash_utils_slash_strutils.py,always_bytes,4
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/042261266f5b901b2b0745fd108c9a92525e9087/before/mitmproxy_slash_utils_slash_strutils.py,native,3
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/042261266f5b901b2b0745fd108c9a92525e9087/before/mitmproxy_slash_utils_slash_strutils.py,escape_control_characters,3
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/042261266f5b901b2b0745fd108c9a92525e9087/before/mitmproxy_slash_utils_slash_strutils.py,clean_hanging_newline,3
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/042261266f5b901b2b0745fd108c9a92525e9087/before/mitmproxy_slash_utils_slash_strutils.py,hexdump,3
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/042261266f5b901b2b0745fd108c9a92525e9087/before/mitmproxy_slash_utils_slash_strutils.py,escaped_str_to_bytes,2
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/042261266f5b901b2b0745fd108c9a92525e9087/before/mitmproxy_slash_utils_slash_strutils.py,is_xml,1

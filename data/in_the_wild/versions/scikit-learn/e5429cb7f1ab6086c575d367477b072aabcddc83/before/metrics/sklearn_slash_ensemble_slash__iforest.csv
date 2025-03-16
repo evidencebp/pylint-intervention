@@ -1,1 +1,12 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/scikit-learn/e5429cb7f1ab6086c575d367477b072aabcddc83/before/sklearn_slash_ensemble_slash__iforest.py,IsolationForest.fit,10
+c:/src/pylint-intervention/data/in_the_wild\versions/scikit-learn/e5429cb7f1ab6086c575d367477b072aabcddc83/before/sklearn_slash_ensemble_slash__iforest.py,IsolationForest,3
+c:/src/pylint-intervention/data/in_the_wild\versions/scikit-learn/e5429cb7f1ab6086c575d367477b072aabcddc83/before/sklearn_slash_ensemble_slash__iforest.py,IsolationForest._compute_chunked_score_samples,3
+c:/src/pylint-intervention/data/in_the_wild\versions/scikit-learn/e5429cb7f1ab6086c575d367477b072aabcddc83/before/sklearn_slash_ensemble_slash__iforest.py,IsolationForest._compute_score_samples,3
+c:/src/pylint-intervention/data/in_the_wild\versions/scikit-learn/e5429cb7f1ab6086c575d367477b072aabcddc83/before/sklearn_slash_ensemble_slash__iforest.py,IsolationForest.score_samples,2
+c:/src/pylint-intervention/data/in_the_wild\versions/scikit-learn/e5429cb7f1ab6086c575d367477b072aabcddc83/before/sklearn_slash_ensemble_slash__iforest.py,_average_path_length,1
+c:/src/pylint-intervention/data/in_the_wild\versions/scikit-learn/e5429cb7f1ab6086c575d367477b072aabcddc83/before/sklearn_slash_ensemble_slash__iforest.py,IsolationForest.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/scikit-learn/e5429cb7f1ab6086c575d367477b072aabcddc83/before/sklearn_slash_ensemble_slash__iforest.py,IsolationForest._set_oob_score,1
+c:/src/pylint-intervention/data/in_the_wild\versions/scikit-learn/e5429cb7f1ab6086c575d367477b072aabcddc83/before/sklearn_slash_ensemble_slash__iforest.py,IsolationForest._parallel_args,1
+c:/src/pylint-intervention/data/in_the_wild\versions/scikit-learn/e5429cb7f1ab6086c575d367477b072aabcddc83/before/sklearn_slash_ensemble_slash__iforest.py,IsolationForest.predict,1
+c:/src/pylint-intervention/data/in_the_wild\versions/scikit-learn/e5429cb7f1ab6086c575d367477b072aabcddc83/before/sklearn_slash_ensemble_slash__iforest.py,IsolationForest.decision_function,1

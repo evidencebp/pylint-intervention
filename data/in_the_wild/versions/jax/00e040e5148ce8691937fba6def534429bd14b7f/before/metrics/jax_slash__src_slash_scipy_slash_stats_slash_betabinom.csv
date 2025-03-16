@@ -1,1 +1,3 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/jax/00e040e5148ce8691937fba6def534429bd14b7f/before/jax_slash__src_slash_scipy_slash_stats_slash_betabinom.py,logpmf,1
+c:/src/pylint-intervention/data/in_the_wild\versions/jax/00e040e5148ce8691937fba6def534429bd14b7f/before/jax_slash__src_slash_scipy_slash_stats_slash_betabinom.py,pmf,1

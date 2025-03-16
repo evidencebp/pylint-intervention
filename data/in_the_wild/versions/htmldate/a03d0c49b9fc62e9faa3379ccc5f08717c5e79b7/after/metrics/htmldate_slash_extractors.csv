@@ -1,1 +1,15 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/htmldate/a03d0c49b9fc62e9faa3379ccc5f08717c5e79b7/after/htmldate_slash_extractors.py,custom_parse,24
+c:/src/pylint-intervention/data/in_the_wild\versions/htmldate/a03d0c49b9fc62e9faa3379ccc5f08717c5e79b7/after/htmldate_slash_extractors.py,extract_idiosyncrasy,13
+c:/src/pylint-intervention/data/in_the_wild\versions/htmldate/a03d0c49b9fc62e9faa3379ccc5f08717c5e79b7/after/htmldate_slash_extractors.py,try_date_expr,9
+c:/src/pylint-intervention/data/in_the_wild\versions/htmldate/a03d0c49b9fc62e9faa3379ccc5f08717c5e79b7/after/htmldate_slash_extractors.py,json_search,7
+c:/src/pylint-intervention/data/in_the_wild\versions/htmldate/a03d0c49b9fc62e9faa3379ccc5f08717c5e79b7/after/htmldate_slash_extractors.py,regex_parse,5
+c:/src/pylint-intervention/data/in_the_wild\versions/htmldate/a03d0c49b9fc62e9faa3379ccc5f08717c5e79b7/after/htmldate_slash_extractors.py,extract_url_date,4
+c:/src/pylint-intervention/data/in_the_wild\versions/htmldate/a03d0c49b9fc62e9faa3379ccc5f08717c5e79b7/after/htmldate_slash_extractors.py,extract_partial_url_date,4
+c:/src/pylint-intervention/data/in_the_wild\versions/htmldate/a03d0c49b9fc62e9faa3379ccc5f08717c5e79b7/after/htmldate_slash_extractors.py,correct_year,3
+c:/src/pylint-intervention/data/in_the_wild\versions/htmldate/a03d0c49b9fc62e9faa3379ccc5f08717c5e79b7/after/htmldate_slash_extractors.py,try_swap_values,3
+c:/src/pylint-intervention/data/in_the_wild\versions/htmldate/a03d0c49b9fc62e9faa3379ccc5f08717c5e79b7/after/htmldate_slash_extractors.py,external_date_parser,3
+c:/src/pylint-intervention/data/in_the_wild\versions/htmldate/a03d0c49b9fc62e9faa3379ccc5f08717c5e79b7/after/htmldate_slash_extractors.py,img_search,3
+c:/src/pylint-intervention/data/in_the_wild\versions/htmldate/a03d0c49b9fc62e9faa3379ccc5f08717c5e79b7/after/htmldate_slash_extractors.py,timestamp_search,3
+c:/src/pylint-intervention/data/in_the_wild\versions/htmldate/a03d0c49b9fc62e9faa3379ccc5f08717c5e79b7/after/htmldate_slash_extractors.py,idiosyncrasies_search,3
+c:/src/pylint-intervention/data/in_the_wild\versions/htmldate/a03d0c49b9fc62e9faa3379ccc5f08717c5e79b7/after/htmldate_slash_extractors.py,discard_unwanted,2

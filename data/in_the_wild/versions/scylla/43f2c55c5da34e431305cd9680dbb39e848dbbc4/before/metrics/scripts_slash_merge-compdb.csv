@@ -1,1 +1,4 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/scylla/43f2c55c5da34e431305cd9680dbb39e848dbbc4/before/scripts_slash_merge-compdb.py,read_input,4
+c:/src/pylint-intervention/data/in_the_wild\versions/scylla/43f2c55c5da34e431305cd9680dbb39e848dbbc4/before/scripts_slash_merge-compdb.py,is_indexable,2
+c:/src/pylint-intervention/data/in_the_wild\versions/scylla/43f2c55c5da34e431305cd9680dbb39e848dbbc4/before/scripts_slash_merge-compdb.py,is_relevant,2

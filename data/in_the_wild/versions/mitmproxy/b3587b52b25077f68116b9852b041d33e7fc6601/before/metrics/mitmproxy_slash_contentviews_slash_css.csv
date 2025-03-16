@@ -1,1 +1,5 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/b3587b52b25077f68116b9852b041d33e7fc6601/before/mitmproxy_slash_contentviews_slash_css.py,ViewCSS,3
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/b3587b52b25077f68116b9852b041d33e7fc6601/before/mitmproxy_slash_contentviews_slash_css.py,ViewCSS.render_priority,2
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/b3587b52b25077f68116b9852b041d33e7fc6601/before/mitmproxy_slash_contentviews_slash_css.py,beautify,1
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/b3587b52b25077f68116b9852b041d33e7fc6601/before/mitmproxy_slash_contentviews_slash_css.py,ViewCSS.__call__,1

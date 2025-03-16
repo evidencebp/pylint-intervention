@@ -1,1 +1,3 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/pip/728e4fe7c4168f62b8f47721aa56576cce5e46fb/after/src_slash_pip_slash__internal_slash_cli_slash_progress_bars.py,_rich_progress_bar,4
+c:/src/pylint-intervention/data/in_the_wild\versions/pip/728e4fe7c4168f62b8f47721aa56576cce5e46fb/after/src_slash_pip_slash__internal_slash_cli_slash_progress_bars.py,get_download_progress_renderer,2

@@ -1,1 +1,9 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/pex/a126114ce3f6fb3a9c0bf2ee9c448ffe3619e13d/before/pex_slash_tools_slash_commands_slash_venv.py,populate_venv_with_pex,28
+c:/src/pylint-intervention/data/in_the_wild\versions/pex/a126114ce3f6fb3a9c0bf2ee9c448ffe3619e13d/before/pex_slash_tools_slash_commands_slash_venv.py,_copytree,18
+c:/src/pylint-intervention/data/in_the_wild\versions/pex/a126114ce3f6fb3a9c0bf2ee9c448ffe3619e13d/before/pex_slash_tools_slash_commands_slash_venv.py,Venv.run,8
+c:/src/pylint-intervention/data/in_the_wild\versions/pex/a126114ce3f6fb3a9c0bf2ee9c448ffe3619e13d/before/pex_slash_tools_slash_commands_slash_venv.py,Venv,6
+c:/src/pylint-intervention/data/in_the_wild\versions/pex/a126114ce3f6fb3a9c0bf2ee9c448ffe3619e13d/before/pex_slash_tools_slash_commands_slash_venv.py,_relative_symlink,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pex/a126114ce3f6fb3a9c0bf2ee9c448ffe3619e13d/before/pex_slash_tools_slash_commands_slash_venv.py,CollisionError,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pex/a126114ce3f6fb3a9c0bf2ee9c448ffe3619e13d/before/pex_slash_tools_slash_commands_slash_venv.py,RemoveScope,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pex/a126114ce3f6fb3a9c0bf2ee9c448ffe3619e13d/before/pex_slash_tools_slash_commands_slash_venv.py,Venv.add_arguments,1

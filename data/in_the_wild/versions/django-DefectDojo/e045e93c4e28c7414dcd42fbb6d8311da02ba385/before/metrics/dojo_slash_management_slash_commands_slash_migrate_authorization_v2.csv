@@ -1,1 +1,5 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/django-DefectDojo/e045e93c4e28c7414dcd42fbb6d8311da02ba385/before/dojo_slash_management_slash_commands_slash_migrate_authorization_v2.py,Command.handle,15
+c:/src/pylint-intervention/data/in_the_wild\versions/django-DefectDojo/e045e93c4e28c7414dcd42fbb6d8311da02ba385/before/dojo_slash_management_slash_commands_slash_migrate_authorization_v2.py,Command,8
+c:/src/pylint-intervention/data/in_the_wild\versions/django-DefectDojo/e045e93c4e28c7414dcd42fbb6d8311da02ba385/before/dojo_slash_management_slash_commands_slash_migrate_authorization_v2.py,Command.get_role,4
+c:/src/pylint-intervention/data/in_the_wild\versions/django-DefectDojo/e045e93c4e28c7414dcd42fbb6d8311da02ba385/before/dojo_slash_management_slash_commands_slash_migrate_authorization_v2.py,Command.__init__,1

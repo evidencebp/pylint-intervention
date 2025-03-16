@@ -1,1 +1,5 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/pykern/9551826282bb90d1a4d73219af726637da75665c/after/pykern_slash_pkplatform.py,is_darwin,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pykern/9551826282bb90d1a4d73219af726637da75665c/after/pykern_slash_pkplatform.py,is_linux,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pykern/9551826282bb90d1a4d73219af726637da75665c/after/pykern_slash_pkplatform.py,is_unix,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pykern/9551826282bb90d1a4d73219af726637da75665c/after/pykern_slash_pkplatform.py,is_windows,1

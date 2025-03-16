@@ -1,1 +1,4 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/funnel/66932ccb641803edbd395f1fee9f79cfbfede996/after/funnel_slash_views_slash_helpers.py,localize_date,5
+c:/src/pylint-intervention/data/in_the_wild\versions/funnel/66932ccb641803edbd395f1fee9f79cfbfede996/after/funnel_slash_views_slash_helpers.py,localize_micro_timestamp,1
+c:/src/pylint-intervention/data/in_the_wild\versions/funnel/66932ccb641803edbd395f1fee9f79cfbfede996/after/funnel_slash_views_slash_helpers.py,localize_timestamp,1

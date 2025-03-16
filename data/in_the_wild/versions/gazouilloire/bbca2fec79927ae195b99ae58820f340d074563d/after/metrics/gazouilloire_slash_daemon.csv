@@ -1,1 +1,12 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/gazouilloire/bbca2fec79927ae195b99ae58820f340d074563d/after/gazouilloire_slash_daemon.py,Daemon.daemonize,5
+c:/src/pylint-intervention/data/in_the_wild\versions/gazouilloire/bbca2fec79927ae195b99ae58820f340d074563d/after/gazouilloire_slash_daemon.py,Daemon.search_pid,4
+c:/src/pylint-intervention/data/in_the_wild\versions/gazouilloire/bbca2fec79927ae195b99ae58820f340d074563d/after/gazouilloire_slash_daemon.py,Daemon,2
+c:/src/pylint-intervention/data/in_the_wild\versions/gazouilloire/bbca2fec79927ae195b99ae58820f340d074563d/after/gazouilloire_slash_daemon.py,Daemon.__init__,2
+c:/src/pylint-intervention/data/in_the_wild\versions/gazouilloire/bbca2fec79927ae195b99ae58820f340d074563d/after/gazouilloire_slash_daemon.py,Daemon.write_lock_file,1
+c:/src/pylint-intervention/data/in_the_wild\versions/gazouilloire/bbca2fec79927ae195b99ae58820f340d074563d/after/gazouilloire_slash_daemon.py,Daemon.onstop,1
+c:/src/pylint-intervention/data/in_the_wild\versions/gazouilloire/bbca2fec79927ae195b99ae58820f340d074563d/after/gazouilloire_slash_daemon.py,Daemon.run,1
+c:/src/pylint-intervention/data/in_the_wild\versions/gazouilloire/bbca2fec79927ae195b99ae58820f340d074563d/after/gazouilloire_slash_daemon.py,Daemon.start,1
+c:/src/pylint-intervention/data/in_the_wild\versions/gazouilloire/bbca2fec79927ae195b99ae58820f340d074563d/after/gazouilloire_slash_daemon.py,Daemon.stop,1
+c:/src/pylint-intervention/data/in_the_wild\versions/gazouilloire/bbca2fec79927ae195b99ae58820f340d074563d/after/gazouilloire_slash_daemon.py,Daemon.restart,1
+c:/src/pylint-intervention/data/in_the_wild\versions/gazouilloire/bbca2fec79927ae195b99ae58820f340d074563d/after/gazouilloire_slash_daemon.py,Daemon.quit,1

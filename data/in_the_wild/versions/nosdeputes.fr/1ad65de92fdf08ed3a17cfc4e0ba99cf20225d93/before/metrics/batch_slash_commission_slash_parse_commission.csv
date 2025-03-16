@@ -1,1 +1,8 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/nosdeputes.fr/1ad65de92fdf08ed3a17cfc4e0ba99cf20225d93/before/batch_slash_commission_slash_parse_commission.py,html2json,73
+c:/src/pylint-intervention/data/in_the_wild\versions/nosdeputes.fr/1ad65de92fdf08ed3a17cfc4e0ba99cf20225d93/before/batch_slash_commission_slash_parse_commission.py,getIntervenantFonction,44
+c:/src/pylint-intervention/data/in_the_wild\versions/nosdeputes.fr/1ad65de92fdf08ed3a17cfc4e0ba99cf20225d93/before/batch_slash_commission_slash_parse_commission.py,intervention_video,23
+c:/src/pylint-intervention/data/in_the_wild\versions/nosdeputes.fr/1ad65de92fdf08ed3a17cfc4e0ba99cf20225d93/before/batch_slash_commission_slash_parse_commission.py,new_intervention,10
+c:/src/pylint-intervention/data/in_the_wild\versions/nosdeputes.fr/1ad65de92fdf08ed3a17cfc4e0ba99cf20225d93/before/batch_slash_commission_slash_parse_commission.py,requests_get,5
+c:/src/pylint-intervention/data/in_the_wild\versions/nosdeputes.fr/1ad65de92fdf08ed3a17cfc4e0ba99cf20225d93/before/batch_slash_commission_slash_parse_commission.py,hasPrefixIntervenant,3
+c:/src/pylint-intervention/data/in_the_wild\versions/nosdeputes.fr/1ad65de92fdf08ed3a17cfc4e0ba99cf20225d93/before/batch_slash_commission_slash_parse_commission.py,cleanhtml,1

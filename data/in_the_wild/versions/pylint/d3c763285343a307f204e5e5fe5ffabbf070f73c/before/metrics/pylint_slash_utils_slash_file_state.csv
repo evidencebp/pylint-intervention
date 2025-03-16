@@ -1,1 +1,9 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/pylint/d3c763285343a307f204e5e5fe5ffabbf070f73c/before/pylint_slash_utils_slash_file_state.py,FileState._collect_block_lines,16
+c:/src/pylint-intervention/data/in_the_wild\versions/pylint/d3c763285343a307f204e5e5fe5ffabbf070f73c/before/pylint_slash_utils_slash_file_state.py,FileState.iter_spurious_suppression_messages,8
+c:/src/pylint-intervention/data/in_the_wild\versions/pylint/d3c763285343a307f204e5e5fe5ffabbf070f73c/before/pylint_slash_utils_slash_file_state.py,FileState,6
+c:/src/pylint-intervention/data/in_the_wild\versions/pylint/d3c763285343a307f204e5e5fe5ffabbf070f73c/before/pylint_slash_utils_slash_file_state.py,FileState.__init__,4
+c:/src/pylint-intervention/data/in_the_wild\versions/pylint/d3c763285343a307f204e5e5fe5ffabbf070f73c/before/pylint_slash_utils_slash_file_state.py,FileState.handle_ignored_message,4
+c:/src/pylint-intervention/data/in_the_wild\versions/pylint/d3c763285343a307f204e5e5fe5ffabbf070f73c/before/pylint_slash_utils_slash_file_state.py,FileState.set_msg_status,3
+c:/src/pylint-intervention/data/in_the_wild\versions/pylint/d3c763285343a307f204e5e5fe5ffabbf070f73c/before/pylint_slash_utils_slash_file_state.py,FileState.collect_block_lines,2
+c:/src/pylint-intervention/data/in_the_wild\versions/pylint/d3c763285343a307f204e5e5fe5ffabbf070f73c/before/pylint_slash_utils_slash_file_state.py,FileState.get_effective_max_line_number,1

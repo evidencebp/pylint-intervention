@@ -1,1 +1,3 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/streamlink/48f89595aa8a853801ac1ab9adca2e105f35d88d/after/src_slash_streamlink_slash_plugins_slash_cdnbg.py,CDNBG,11
+c:/src/pylint-intervention/data/in_the_wild\versions/streamlink/48f89595aa8a853801ac1ab9adca2e105f35d88d/after/src_slash_streamlink_slash_plugins_slash_cdnbg.py,CDNBG._get_streams,10

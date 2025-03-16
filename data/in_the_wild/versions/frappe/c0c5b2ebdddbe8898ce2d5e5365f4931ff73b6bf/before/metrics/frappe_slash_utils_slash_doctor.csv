@@ -1,1 +1,9 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/frappe/c0c5b2ebdddbe8898ce2d5e5365f4931ff73b6bf/before/frappe_slash_utils_slash_doctor.py,purge_pending_jobs,11
+c:/src/pylint-intervention/data/in_the_wild\versions/frappe/c0c5b2ebdddbe8898ce2d5e5365f4931ff73b6bf/before/frappe_slash_utils_slash_doctor.py,get_jobs_by_queue,9
+c:/src/pylint-intervention/data/in_the_wild\versions/frappe/c0c5b2ebdddbe8898ce2d5e5365f4931ff73b6bf/before/frappe_slash_utils_slash_doctor.py,doctor,7
+c:/src/pylint-intervention/data/in_the_wild\versions/frappe/c0c5b2ebdddbe8898ce2d5e5365f4931ff73b6bf/before/frappe_slash_utils_slash_doctor.py,get_pending_jobs,5
+c:/src/pylint-intervention/data/in_the_wild\versions/frappe/c0c5b2ebdddbe8898ce2d5e5365f4931ff73b6bf/before/frappe_slash_utils_slash_doctor.py,pending_jobs,3
+c:/src/pylint-intervention/data/in_the_wild\versions/frappe/c0c5b2ebdddbe8898ce2d5e5365f4931ff73b6bf/before/frappe_slash_utils_slash_doctor.py,get_running_tasks,2
+c:/src/pylint-intervention/data/in_the_wild\versions/frappe/c0c5b2ebdddbe8898ce2d5e5365f4931ff73b6bf/before/frappe_slash_utils_slash_doctor.py,get_workers,1
+c:/src/pylint-intervention/data/in_the_wild\versions/frappe/c0c5b2ebdddbe8898ce2d5e5365f4931ff73b6bf/before/frappe_slash_utils_slash_doctor.py,check_number_of_workers,1

@@ -1,1 +1,9 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/BORIS/aca350dca3b57553cc5b880fde3733cf0bd5d6aa/before/boris_slash_plot_spectrogram_rt.py,Plot_spectrogram_RT.plot_spectro,7
+c:/src/pylint-intervention/data/in_the_wild\versions/BORIS/aca350dca3b57553cc5b880fde3733cf0bd5d6aa/before/boris_slash_plot_spectrogram_rt.py,Plot_spectrogram_RT,3
+c:/src/pylint-intervention/data/in_the_wild\versions/BORIS/aca350dca3b57553cc5b880fde3733cf0bd5d6aa/before/boris_slash_plot_spectrogram_rt.py,Plot_spectrogram_RT.time_interval_changed,3
+c:/src/pylint-intervention/data/in_the_wild\versions/BORIS/aca350dca3b57553cc5b880fde3733cf0bd5d6aa/before/boris_slash_plot_spectrogram_rt.py,Plot_spectrogram_RT.load_wav,3
+c:/src/pylint-intervention/data/in_the_wild\versions/BORIS/aca350dca3b57553cc5b880fde3733cf0bd5d6aa/before/boris_slash_plot_spectrogram_rt.py,Plot_spectrogram_RT.eventFilter,2
+c:/src/pylint-intervention/data/in_the_wild\versions/BORIS/aca350dca3b57553cc5b880fde3733cf0bd5d6aa/before/boris_slash_plot_spectrogram_rt.py,Plot_spectrogram_RT.get_wav_info,2
+c:/src/pylint-intervention/data/in_the_wild\versions/BORIS/aca350dca3b57553cc5b880fde3733cf0bd5d6aa/before/boris_slash_plot_spectrogram_rt.py,Plot_spectrogram_RT.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/BORIS/aca350dca3b57553cc5b880fde3733cf0bd5d6aa/before/boris_slash_plot_spectrogram_rt.py,Plot_spectrogram_RT.frequency_interval_changed,1

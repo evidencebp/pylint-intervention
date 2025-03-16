@@ -1,1 +1,5 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/jewelcraft/53791c3c6e0564cb7bbb79a524cedf69db7dc9a0/before/op_design_report_slash_report_get.py,data_collect,21
+c:/src/pylint-intervention/data/in_the_wild\versions/jewelcraft/53791c3c6e0564cb7bbb79a524cedf69db7dc9a0/before/op_design_report_slash_report_get.py,_Data,3
+c:/src/pylint-intervention/data/in_the_wild\versions/jewelcraft/53791c3c6e0564cb7bbb79a524cedf69db7dc9a0/before/op_design_report_slash_report_get.py,_Data.is_empty,3
+c:/src/pylint-intervention/data/in_the_wild\versions/jewelcraft/53791c3c6e0564cb7bbb79a524cedf69db7dc9a0/before/op_design_report_slash_report_get.py,_Data.__init__,1

@@ -1,1 +1,17 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/flax/09bd6cc84c9adb7adb542c864e3dbd2c343e3b2f/before/flax_slash_linen_slash_recurrent.py,DenseParams,3
+c:/src/pylint-intervention/data/in_the_wild\versions/flax/09bd6cc84c9adb7adb542c864e3dbd2c343e3b2f/before/flax_slash_linen_slash_recurrent.py,OptimizedLSTMCell,3
+c:/src/pylint-intervention/data/in_the_wild\versions/flax/09bd6cc84c9adb7adb542c864e3dbd2c343e3b2f/before/flax_slash_linen_slash_recurrent.py,RNNCellBase,2
+c:/src/pylint-intervention/data/in_the_wild\versions/flax/09bd6cc84c9adb7adb542c864e3dbd2c343e3b2f/before/flax_slash_linen_slash_recurrent.py,LSTMCell,2
+c:/src/pylint-intervention/data/in_the_wild\versions/flax/09bd6cc84c9adb7adb542c864e3dbd2c343e3b2f/before/flax_slash_linen_slash_recurrent.py,DenseParams.__call__,2
+c:/src/pylint-intervention/data/in_the_wild\versions/flax/09bd6cc84c9adb7adb542c864e3dbd2c343e3b2f/before/flax_slash_linen_slash_recurrent.py,OptimizedLSTMCell.__call__,2
+c:/src/pylint-intervention/data/in_the_wild\versions/flax/09bd6cc84c9adb7adb542c864e3dbd2c343e3b2f/before/flax_slash_linen_slash_recurrent.py,GRUCell,2
+c:/src/pylint-intervention/data/in_the_wild\versions/flax/09bd6cc84c9adb7adb542c864e3dbd2c343e3b2f/before/flax_slash_linen_slash_recurrent.py,ConvLSTM,2
+c:/src/pylint-intervention/data/in_the_wild\versions/flax/09bd6cc84c9adb7adb542c864e3dbd2c343e3b2f/before/flax_slash_linen_slash_recurrent.py,RNNCellBase.initialize_carry,1
+c:/src/pylint-intervention/data/in_the_wild\versions/flax/09bd6cc84c9adb7adb542c864e3dbd2c343e3b2f/before/flax_slash_linen_slash_recurrent.py,LSTMCell.__call__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/flax/09bd6cc84c9adb7adb542c864e3dbd2c343e3b2f/before/flax_slash_linen_slash_recurrent.py,LSTMCell.initialize_carry,1
+c:/src/pylint-intervention/data/in_the_wild\versions/flax/09bd6cc84c9adb7adb542c864e3dbd2c343e3b2f/before/flax_slash_linen_slash_recurrent.py,OptimizedLSTMCell.initialize_carry,1
+c:/src/pylint-intervention/data/in_the_wild\versions/flax/09bd6cc84c9adb7adb542c864e3dbd2c343e3b2f/before/flax_slash_linen_slash_recurrent.py,GRUCell.__call__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/flax/09bd6cc84c9adb7adb542c864e3dbd2c343e3b2f/before/flax_slash_linen_slash_recurrent.py,GRUCell.initialize_carry,1
+c:/src/pylint-intervention/data/in_the_wild\versions/flax/09bd6cc84c9adb7adb542c864e3dbd2c343e3b2f/before/flax_slash_linen_slash_recurrent.py,ConvLSTM.__call__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/flax/09bd6cc84c9adb7adb542c864e3dbd2c343e3b2f/before/flax_slash_linen_slash_recurrent.py,ConvLSTM.initialize_carry,1

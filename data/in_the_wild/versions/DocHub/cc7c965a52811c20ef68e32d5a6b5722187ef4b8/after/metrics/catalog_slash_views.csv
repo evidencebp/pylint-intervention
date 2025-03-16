@@ -1,1 +1,11 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/cc7c965a52811c20ef68e32d5a6b5722187ef4b8/after/catalog_slash_views.py,CourseDetailView,4
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/cc7c965a52811c20ef68e32d5a6b5722187ef4b8/after/catalog_slash_views.py,CourseDetailView.get_context_data,3
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/cc7c965a52811c20ef68e32d5a6b5722187ef4b8/after/catalog_slash_views.py,unfollow_all_courses,2
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/cc7c965a52811c20ef68e32d5a6b5722187ef4b8/after/catalog_slash_views.py,CourseDetailView.get_template_names,2
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/cc7c965a52811c20ef68e32d5a6b5722187ef4b8/after/catalog_slash_views.py,set_follow_course,1
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/cc7c965a52811c20ef68e32d5a6b5722187ef4b8/after/catalog_slash_views.py,join_course,1
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/cc7c965a52811c20ef68e32d5a6b5722187ef4b8/after/catalog_slash_views.py,leave_course,1
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/cc7c965a52811c20ef68e32d5a6b5722187ef4b8/after/catalog_slash_views.py,show_courses,1
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/cc7c965a52811c20ef68e32d5a6b5722187ef4b8/after/catalog_slash_views.py,course_tree,1
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/cc7c965a52811c20ef68e32d5a6b5722187ef4b8/after/catalog_slash_views.py,CategoryDetailView,1

@@ -1,1 +1,5 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/esp-idf/d50f021a8cf9bea290f616f0d20157206aceaa21/after/components_slash_espcoredump_slash_espcoredump.py,info_corefile,31
+c:/src/pylint-intervention/data/in_the_wild\versions/esp-idf/d50f021a8cf9bea290f616f0d20157206aceaa21/after/components_slash_espcoredump_slash_espcoredump.py,core_prepare,5
+c:/src/pylint-intervention/data/in_the_wild\versions/esp-idf/d50f021a8cf9bea290f616f0d20157206aceaa21/after/components_slash_espcoredump_slash_espcoredump.py,load_aux_elf,4
+c:/src/pylint-intervention/data/in_the_wild\versions/esp-idf/d50f021a8cf9bea290f616f0d20157206aceaa21/after/components_slash_espcoredump_slash_espcoredump.py,dbg_corefile,1

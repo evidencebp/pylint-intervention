@@ -1,1 +1,7 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/pinkfish/b875daec838d5101f01b57872a0d22c13ed1e6e3/after/examples_slash_180.momentum_slash_strategy.py,Strategy._algo,10
+c:/src/pylint-intervention/data/in_the_wild\versions/pinkfish/b875daec838d5101f01b57872a0d22c13ed1e6e3/after/examples_slash_180.momentum_slash_strategy.py,Strategy,4
+c:/src/pylint-intervention/data/in_the_wild\versions/pinkfish/b875daec838d5101f01b57872a0d22c13ed1e6e3/after/examples_slash_180.momentum_slash_strategy.py,Strategy.run,2
+c:/src/pylint-intervention/data/in_the_wild\versions/pinkfish/b875daec838d5101f01b57872a0d22c13ed1e6e3/after/examples_slash_180.momentum_slash_strategy.py,Strategy.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pinkfish/b875daec838d5101f01b57872a0d22c13ed1e6e3/after/examples_slash_180.momentum_slash_strategy.py,Strategy._get_logs,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pinkfish/b875daec838d5101f01b57872a0d22c13ed1e6e3/after/examples_slash_180.momentum_slash_strategy.py,Strategy._get_stats,1

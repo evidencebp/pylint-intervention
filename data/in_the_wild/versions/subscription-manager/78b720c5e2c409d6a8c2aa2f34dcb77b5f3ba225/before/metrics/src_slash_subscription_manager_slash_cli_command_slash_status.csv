@@ -1,1 +1,4 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/subscription-manager/78b720c5e2c409d6a8c2aa2f34dcb77b5f3ba225/before/src_slash_subscription_manager_slash_cli_command_slash_status.py,StatusCommand._do_command,15
+c:/src/pylint-intervention/data/in_the_wild\versions/subscription-manager/78b720c5e2c409d6a8c2aa2f34dcb77b5f3ba225/before/src_slash_subscription_manager_slash_cli_command_slash_status.py,StatusCommand,9
+c:/src/pylint-intervention/data/in_the_wild\versions/subscription-manager/78b720c5e2c409d6a8c2aa2f34dcb77b5f3ba225/before/src_slash_subscription_manager_slash_cli_command_slash_status.py,StatusCommand.__init__,1

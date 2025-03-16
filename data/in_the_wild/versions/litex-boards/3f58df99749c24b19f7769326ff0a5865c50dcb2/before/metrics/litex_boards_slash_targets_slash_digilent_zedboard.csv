@@ -1,1 +1,7 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/litex-boards/3f58df99749c24b19f7769326ff0a5865c50dcb2/before/litex_boards_slash_targets_slash_digilent_zedboard.py,BaseSoC,5
+c:/src/pylint-intervention/data/in_the_wild\versions/litex-boards/3f58df99749c24b19f7769326ff0a5865c50dcb2/before/litex_boards_slash_targets_slash_digilent_zedboard.py,BaseSoC.__init__,4
+c:/src/pylint-intervention/data/in_the_wild\versions/litex-boards/3f58df99749c24b19f7769326ff0a5865c50dcb2/before/litex_boards_slash_targets_slash_digilent_zedboard.py,BaseSoC.finalize,4
+c:/src/pylint-intervention/data/in_the_wild\versions/litex-boards/3f58df99749c24b19f7769326ff0a5865c50dcb2/before/litex_boards_slash_targets_slash_digilent_zedboard.py,main,3
+c:/src/pylint-intervention/data/in_the_wild\versions/litex-boards/3f58df99749c24b19f7769326ff0a5865c50dcb2/before/litex_boards_slash_targets_slash_digilent_zedboard.py,_CRG,3
+c:/src/pylint-intervention/data/in_the_wild\versions/litex-boards/3f58df99749c24b19f7769326ff0a5865c50dcb2/before/litex_boards_slash_targets_slash_digilent_zedboard.py,_CRG.__init__,2

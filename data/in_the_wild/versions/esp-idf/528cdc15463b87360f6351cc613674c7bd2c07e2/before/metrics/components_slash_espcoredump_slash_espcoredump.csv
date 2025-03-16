@@ -1,1 +1,8 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/esp-idf/528cdc15463b87360f6351cc613674c7bd2c07e2/before/components_slash_espcoredump_slash_espcoredump.py,info_corefile,31
+c:/src/pylint-intervention/data/in_the_wild\versions/esp-idf/528cdc15463b87360f6351cc613674c7bd2c07e2/before/components_slash_espcoredump_slash_espcoredump.py,get_core_dump_elf,5
+c:/src/pylint-intervention/data/in_the_wild\versions/esp-idf/528cdc15463b87360f6351cc613674c7bd2c07e2/before/components_slash_espcoredump_slash_espcoredump.py,get_gdb_path,5
+c:/src/pylint-intervention/data/in_the_wild\versions/esp-idf/528cdc15463b87360f6351cc613674c7bd2c07e2/before/components_slash_espcoredump_slash_espcoredump.py,load_aux_elf,4
+c:/src/pylint-intervention/data/in_the_wild\versions/esp-idf/528cdc15463b87360f6351cc613674c7bd2c07e2/before/components_slash_espcoredump_slash_espcoredump.py,get_rom_elf_path,3
+c:/src/pylint-intervention/data/in_the_wild\versions/esp-idf/528cdc15463b87360f6351cc613674c7bd2c07e2/before/components_slash_espcoredump_slash_espcoredump.py,get_target,2
+c:/src/pylint-intervention/data/in_the_wild\versions/esp-idf/528cdc15463b87360f6351cc613674c7bd2c07e2/before/components_slash_espcoredump_slash_espcoredump.py,dbg_corefile,1

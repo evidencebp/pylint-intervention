@@ -1,1 +1,7 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/glazier/9d3b44c05e82276ece613f8c7c51df239d533824/after/glazier_slash_lib_slash_config_slash_base.py,ConfigBase,3
+c:/src/pylint-intervention/data/in_the_wild\versions/glazier/9d3b44c05e82276ece613f8c7c51df239d533824/after/glazier_slash_lib_slash_config_slash_base.py,ConfigBase._GetAction,2
+c:/src/pylint-intervention/data/in_the_wild\versions/glazier/9d3b44c05e82276ece613f8c7c51df239d533824/after/glazier_slash_lib_slash_config_slash_base.py,ConfigBase._IsRealtimeAction,2
+c:/src/pylint-intervention/data/in_the_wild\versions/glazier/9d3b44c05e82276ece613f8c7c51df239d533824/after/glazier_slash_lib_slash_config_slash_base.py,ConfigBase._ProcessAction,2
+c:/src/pylint-intervention/data/in_the_wild\versions/glazier/9d3b44c05e82276ece613f8c7c51df239d533824/after/glazier_slash_lib_slash_config_slash_base.py,ConfigError,1
+c:/src/pylint-intervention/data/in_the_wild\versions/glazier/9d3b44c05e82276ece613f8c7c51df239d533824/after/glazier_slash_lib_slash_config_slash_base.py,ConfigBase.__init__,1

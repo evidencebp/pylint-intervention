@@ -1,1 +1,5 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/hashview/24316264b6e04f34795601277cf1223303ea9956/before/hashview_slash_wordlists_slash_routes.py,wordlists_delete,6
+c:/src/pylint-intervention/data/in_the_wild\versions/hashview/24316264b6e04f34795601277cf1223303ea9956/before/hashview_slash_wordlists_slash_routes.py,wordlists_add,3
+c:/src/pylint-intervention/data/in_the_wild\versions/hashview/24316264b6e04f34795601277cf1223303ea9956/before/hashview_slash_wordlists_slash_routes.py,dynamicwordlist_update,2
+c:/src/pylint-intervention/data/in_the_wild\versions/hashview/24316264b6e04f34795601277cf1223303ea9956/before/hashview_slash_wordlists_slash_routes.py,wordlists_list,1

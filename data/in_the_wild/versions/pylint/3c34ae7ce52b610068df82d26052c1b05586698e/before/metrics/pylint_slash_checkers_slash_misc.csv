@@ -1,1 +1,11 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/pylint/3c34ae7ce52b610068df82d26052c1b05586698e/before/pylint_slash_checkers_slash_misc.py,EncodingChecker.process_tokens,12
+c:/src/pylint-intervention/data/in_the_wild\versions/pylint/3c34ae7ce52b610068df82d26052c1b05586698e/before/pylint_slash_checkers_slash_misc.py,EncodingChecker,7
+c:/src/pylint-intervention/data/in_the_wild\versions/pylint/3c34ae7ce52b610068df82d26052c1b05586698e/before/pylint_slash_checkers_slash_misc.py,EncodingChecker._check_encoding,6
+c:/src/pylint-intervention/data/in_the_wild\versions/pylint/3c34ae7ce52b610068df82d26052c1b05586698e/before/pylint_slash_checkers_slash_misc.py,ByIdManagedMessagesChecker.process_module,4
+c:/src/pylint-intervention/data/in_the_wild\versions/pylint/3c34ae7ce52b610068df82d26052c1b05586698e/before/pylint_slash_checkers_slash_misc.py,ByIdManagedMessagesChecker,3
+c:/src/pylint-intervention/data/in_the_wild\versions/pylint/3c34ae7ce52b610068df82d26052c1b05586698e/before/pylint_slash_checkers_slash_misc.py,EncodingChecker.open,3
+c:/src/pylint-intervention/data/in_the_wild\versions/pylint/3c34ae7ce52b610068df82d26052c1b05586698e/before/pylint_slash_checkers_slash_misc.py,EncodingChecker.process_module,3
+c:/src/pylint-intervention/data/in_the_wild\versions/pylint/3c34ae7ce52b610068df82d26052c1b05586698e/before/pylint_slash_checkers_slash_misc.py,register,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pylint/3c34ae7ce52b610068df82d26052c1b05586698e/before/pylint_slash_checkers_slash_misc.py,ByIdManagedMessagesChecker._clear_by_id_managed_msgs,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pylint/3c34ae7ce52b610068df82d26052c1b05586698e/before/pylint_slash_checkers_slash_misc.py,ByIdManagedMessagesChecker._get_by_id_managed_msgs,1

@@ -1,1 +1,16 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/Erasmus/dd62366908a9e2cbf95f2e38ac87f38b35a22210/before/erasmus_slash_erasmus.py,Erasmus.on_command_error,25
+c:/src/pylint-intervention/data/in_the_wild\versions/Erasmus/dd62366908a9e2cbf95f2e38ac87f38b35a22210/before/erasmus_slash_erasmus.py,Erasmus.help,10
+c:/src/pylint-intervention/data/in_the_wild\versions/Erasmus/dd62366908a9e2cbf95f2e38ac87f38b35a22210/before/erasmus_slash_erasmus.py,Erasmus,5
+c:/src/pylint-intervention/data/in_the_wild\versions/Erasmus/dd62366908a9e2cbf95f2e38ac87f38b35a22210/before/erasmus_slash_erasmus.py,Erasmus.__init__,3
+c:/src/pylint-intervention/data/in_the_wild\versions/Erasmus/dd62366908a9e2cbf95f2e38ac87f38b35a22210/before/erasmus_slash_erasmus.py,Erasmus.on_message,2
+c:/src/pylint-intervention/data/in_the_wild\versions/Erasmus/dd62366908a9e2cbf95f2e38ac87f38b35a22210/before/erasmus_slash_erasmus.py,Erasmus.process_commands,2
+c:/src/pylint-intervention/data/in_the_wild\versions/Erasmus/dd62366908a9e2cbf95f2e38ac87f38b35a22210/before/erasmus_slash_erasmus.py,Erasmus._report_guilds,2
+c:/src/pylint-intervention/data/in_the_wild\versions/Erasmus/dd62366908a9e2cbf95f2e38ac87f38b35a22210/before/erasmus_slash_erasmus.py,remove_mentions,1
+c:/src/pylint-intervention/data/in_the_wild\versions/Erasmus/dd62366908a9e2cbf95f2e38ac87f38b35a22210/before/erasmus_slash_erasmus.py,Erasmus.run_with_config,1
+c:/src/pylint-intervention/data/in_the_wild\versions/Erasmus/dd62366908a9e2cbf95f2e38ac87f38b35a22210/before/erasmus_slash_erasmus.py,Erasmus.close,1
+c:/src/pylint-intervention/data/in_the_wild\versions/Erasmus/dd62366908a9e2cbf95f2e38ac87f38b35a22210/before/erasmus_slash_erasmus.py,Erasmus.get_context,1
+c:/src/pylint-intervention/data/in_the_wild\versions/Erasmus/dd62366908a9e2cbf95f2e38ac87f38b35a22210/before/erasmus_slash_erasmus.py,Erasmus.on_ready,1
+c:/src/pylint-intervention/data/in_the_wild\versions/Erasmus/dd62366908a9e2cbf95f2e38ac87f38b35a22210/before/erasmus_slash_erasmus.py,Erasmus.on_guild_available,1
+c:/src/pylint-intervention/data/in_the_wild\versions/Erasmus/dd62366908a9e2cbf95f2e38ac87f38b35a22210/before/erasmus_slash_erasmus.py,Erasmus.on_guild_join,1
+c:/src/pylint-intervention/data/in_the_wild\versions/Erasmus/dd62366908a9e2cbf95f2e38ac87f38b35a22210/before/erasmus_slash_erasmus.py,Erasmus.on_guild_remove,1

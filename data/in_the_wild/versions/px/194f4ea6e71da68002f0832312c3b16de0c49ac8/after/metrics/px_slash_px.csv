@@ -1,1 +1,6 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/px/194f4ea6e71da68002f0832312c3b16de0c49ac8/after/px_slash_px.py,_main,23
+c:/src/pylint-intervention/data/in_the_wild\versions/px/194f4ea6e71da68002f0832312c3b16de0c49ac8/after/px_slash_px.py,install,3
+c:/src/pylint-intervention/data/in_the_wild\versions/px/194f4ea6e71da68002f0832312c3b16de0c49ac8/after/px_slash_px.py,main,3
+c:/src/pylint-intervention/data/in_the_wild\versions/px/194f4ea6e71da68002f0832312c3b16de0c49ac8/after/px_slash_px.py,configureLogging,3
+c:/src/pylint-intervention/data/in_the_wild\versions/px/194f4ea6e71da68002f0832312c3b16de0c49ac8/after/px_slash_px.py,handleLogMessages,2

@@ -1,1 +1,5 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/thinc/522aff0243a625a1a460333a528903abdccd6825/before/thinc_slash_layers_slash_chain.py,init,22
+c:/src/pylint-intervention/data/in_the_wild\versions/thinc/522aff0243a625a1a460333a528903abdccd6825/before/thinc_slash_layers_slash_chain.py,chain,8
+c:/src/pylint-intervention/data/in_the_wild\versions/thinc/522aff0243a625a1a460333a528903abdccd6825/before/thinc_slash_layers_slash_chain.py,chains,5
+c:/src/pylint-intervention/data/in_the_wild\versions/thinc/522aff0243a625a1a460333a528903abdccd6825/before/thinc_slash_layers_slash_chain.py,forward,2

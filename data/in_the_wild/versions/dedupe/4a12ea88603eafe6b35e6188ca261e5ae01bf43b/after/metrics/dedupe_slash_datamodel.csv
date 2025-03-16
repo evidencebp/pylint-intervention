@@ -1,1 +1,17 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/dedupe/4a12ea88603eafe6b35e6188ca261e5ae01bf43b/after/dedupe_slash_datamodel.py,typify_variables,15
+c:/src/pylint-intervention/data/in_the_wild\versions/dedupe/4a12ea88603eafe6b35e6188ca261e5ae01bf43b/after/dedupe_slash_datamodel.py,DataModel.predicates,7
+c:/src/pylint-intervention/data/in_the_wild\versions/dedupe/4a12ea88603eafe6b35e6188ca261e5ae01bf43b/after/dedupe_slash_datamodel.py,DataModel.distances,6
+c:/src/pylint-intervention/data/in_the_wild\versions/dedupe/4a12ea88603eafe6b35e6188ca261e5ae01bf43b/after/dedupe_slash_datamodel.py,interaction_indices,5
+c:/src/pylint-intervention/data/in_the_wild\versions/dedupe/4a12ea88603eafe6b35e6188ca261e5ae01bf43b/after/dedupe_slash_datamodel.py,interactions,4
+c:/src/pylint-intervention/data/in_the_wild\versions/dedupe/4a12ea88603eafe6b35e6188ca261e5ae01bf43b/after/dedupe_slash_datamodel.py,DataModel,4
+c:/src/pylint-intervention/data/in_the_wild\versions/dedupe/4a12ea88603eafe6b35e6188ca261e5ae01bf43b/after/dedupe_slash_datamodel.py,missing,3
+c:/src/pylint-intervention/data/in_the_wild\versions/dedupe/4a12ea88603eafe6b35e6188ca261e5ae01bf43b/after/dedupe_slash_datamodel.py,missing_field_indices,3
+c:/src/pylint-intervention/data/in_the_wild\versions/dedupe/4a12ea88603eafe6b35e6188ca261e5ae01bf43b/after/dedupe_slash_datamodel.py,DataModel._add_derived_distances,3
+c:/src/pylint-intervention/data/in_the_wild\versions/dedupe/4a12ea88603eafe6b35e6188ca261e5ae01bf43b/after/dedupe_slash_datamodel.py,DataModel.check,3
+c:/src/pylint-intervention/data/in_the_wild\versions/dedupe/4a12ea88603eafe6b35e6188ca261e5ae01bf43b/after/dedupe_slash_datamodel.py,DataModel.__setstate__,3
+c:/src/pylint-intervention/data/in_the_wild\versions/dedupe/4a12ea88603eafe6b35e6188ca261e5ae01bf43b/after/dedupe_slash_datamodel.py,DataModel.__init__,2
+c:/src/pylint-intervention/data/in_the_wild\versions/dedupe/4a12ea88603eafe6b35e6188ca261e5ae01bf43b/after/dedupe_slash_datamodel.py,DataModel._field_comparators,2
+c:/src/pylint-intervention/data/in_the_wild\versions/dedupe/4a12ea88603eafe6b35e6188ca261e5ae01bf43b/after/dedupe_slash_datamodel.py,reduce_method,1
+c:/src/pylint-intervention/data/in_the_wild\versions/dedupe/4a12ea88603eafe6b35e6188ca261e5ae01bf43b/after/dedupe_slash_datamodel.py,DataModel.__len__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/dedupe/4a12ea88603eafe6b35e6188ca261e5ae01bf43b/after/dedupe_slash_datamodel.py,DataModel.__getstate__,1

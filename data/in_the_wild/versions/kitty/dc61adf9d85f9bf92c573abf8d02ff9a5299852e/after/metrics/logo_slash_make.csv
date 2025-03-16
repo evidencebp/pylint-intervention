@@ -1,1 +1,5 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/kitty/dc61adf9d85f9bf92c573abf8d02ff9a5299852e/after/logo_slash_make.py,main,6
+c:/src/pylint-intervention/data/in_the_wild\versions/kitty/dc61adf9d85f9bf92c573abf8d02ff9a5299852e/after/logo_slash_make.py,run,2
+c:/src/pylint-intervention/data/in_the_wild\versions/kitty/dc61adf9d85f9bf92c573abf8d02ff9a5299852e/after/logo_slash_make.py,abspath,1
+c:/src/pylint-intervention/data/in_the_wild\versions/kitty/dc61adf9d85f9bf92c573abf8d02ff9a5299852e/after/logo_slash_make.py,render,1

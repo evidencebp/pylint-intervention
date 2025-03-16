@@ -1,1 +1,8 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/Tuxemon/2ee8582a84aa7515dcf94e10d712dec7ba3a4bdb/before/tuxemon_slash_formula.py,simple_damage_multiplier,7
+c:/src/pylint-intervention/data/in_the_wild\versions/Tuxemon/2ee8582a84aa7515dcf94e10d712dec7ba3a4bdb/before/tuxemon_slash_formula.py,simple_damage_calculate,6
+c:/src/pylint-intervention/data/in_the_wild\versions/Tuxemon/2ee8582a84aa7515dcf94e10d712dec7ba3a4bdb/before/tuxemon_slash_formula.py,simple_poison,1
+c:/src/pylint-intervention/data/in_the_wild\versions/Tuxemon/2ee8582a84aa7515dcf94e10d712dec7ba3a4bdb/before/tuxemon_slash_formula.py,simple_recover,1
+c:/src/pylint-intervention/data/in_the_wild\versions/Tuxemon/2ee8582a84aa7515dcf94e10d712dec7ba3a4bdb/before/tuxemon_slash_formula.py,simple_lifeleech,1
+c:/src/pylint-intervention/data/in_the_wild\versions/Tuxemon/2ee8582a84aa7515dcf94e10d712dec7ba3a4bdb/before/tuxemon_slash_formula.py,simple_overfeed,1
+c:/src/pylint-intervention/data/in_the_wild\versions/Tuxemon/2ee8582a84aa7515dcf94e10d712dec7ba3a4bdb/before/tuxemon_slash_formula.py,TypeChart,1

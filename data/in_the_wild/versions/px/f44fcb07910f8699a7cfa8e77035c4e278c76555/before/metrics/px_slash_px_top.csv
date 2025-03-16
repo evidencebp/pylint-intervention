@@ -1,1 +1,14 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/px/f44fcb07910f8699a7cfa8e77035c4e278c76555/before/px_slash_px_top.py,get_screen_lines,8
+c:/src/pylint-intervention/data/in_the_wild\versions/px/f44fcb07910f8699a7cfa8e77035c4e278c76555/before/px_slash_px_top.py,adjust_cpu_times,7
+c:/src/pylint-intervention/data/in_the_wild\versions/px/f44fcb07910f8699a7cfa8e77035c4e278c76555/before/px_slash_px_top.py,read_select,6
+c:/src/pylint-intervention/data/in_the_wild\versions/px/f44fcb07910f8699a7cfa8e77035c4e278c76555/before/px_slash_px_top.py,get_command,5
+c:/src/pylint-intervention/data/in_the_wild\versions/px/f44fcb07910f8699a7cfa8e77035c4e278c76555/before/px_slash_px_top.py,_top,5
+c:/src/pylint-intervention/data/in_the_wild\versions/px/f44fcb07910f8699a7cfa8e77035c4e278c76555/before/px_slash_px_top.py,getch,4
+c:/src/pylint-intervention/data/in_the_wild\versions/px/f44fcb07910f8699a7cfa8e77035c4e278c76555/before/px_slash_px_top.py,get_notnone_cpu_time_seconds,2
+c:/src/pylint-intervention/data/in_the_wild\versions/px/f44fcb07910f8699a7cfa8e77035c4e278c76555/before/px_slash_px_top.py,redraw,2
+c:/src/pylint-intervention/data/in_the_wild\versions/px/f44fcb07910f8699a7cfa8e77035c4e278c76555/before/px_slash_px_top.py,top,2
+c:/src/pylint-intervention/data/in_the_wild\versions/px/f44fcb07910f8699a7cfa8e77035c4e278c76555/before/px_slash_px_top.py,get_toplist,1
+c:/src/pylint-intervention/data/in_the_wild\versions/px/f44fcb07910f8699a7cfa8e77035c4e278c76555/before/px_slash_px_top.py,writebytes,1
+c:/src/pylint-intervention/data/in_the_wild\versions/px/f44fcb07910f8699a7cfa8e77035c4e278c76555/before/px_slash_px_top.py,clear_screen,1
+c:/src/pylint-intervention/data/in_the_wild\versions/px/f44fcb07910f8699a7cfa8e77035c4e278c76555/before/px_slash_px_top.py,sigwinch_handler,1

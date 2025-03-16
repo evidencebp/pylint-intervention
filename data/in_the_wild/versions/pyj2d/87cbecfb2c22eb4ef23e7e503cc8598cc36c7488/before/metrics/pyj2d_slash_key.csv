@@ -1,1 +1,8 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/pyj2d/87cbecfb2c22eb4ef23e7e503cc8598cc36c7488/before/pyj2d_slash_key.py,Key.set_repeat,5
+c:/src/pylint-intervention/data/in_the_wild\versions/pyj2d/87cbecfb2c22eb4ef23e7e503cc8598cc36c7488/before/pyj2d_slash_key.py,Key,2
+c:/src/pylint-intervention/data/in_the_wild\versions/pyj2d/87cbecfb2c22eb4ef23e7e503cc8598cc36c7488/before/pyj2d_slash_key.py,Key.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pyj2d/87cbecfb2c22eb4ef23e7e503cc8598cc36c7488/before/pyj2d_slash_key.py,Key.name,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pyj2d/87cbecfb2c22eb4ef23e7e503cc8598cc36c7488/before/pyj2d_slash_key.py,Key.get_mods,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pyj2d/87cbecfb2c22eb4ef23e7e503cc8598cc36c7488/before/pyj2d_slash_key.py,Key.get_repeat,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pyj2d/87cbecfb2c22eb4ef23e7e503cc8598cc36c7488/before/pyj2d_slash_key.py,Key._nonimplemented_methods,1

@@ -1,1 +1,4 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/pywikibot-core/402beea5ac23ab9d7263f71cbfa5da93ad7b9033/before/pywikibot_slash_userinterfaces_slash_transliteration.py,transliterator,8
+c:/src/pylint-intervention/data/in_the_wild\versions/pywikibot-core/402beea5ac23ab9d7263f71cbfa5da93ad7b9033/before/pywikibot_slash_userinterfaces_slash_transliteration.py,transliterator.transliterate,7
+c:/src/pylint-intervention/data/in_the_wild\versions/pywikibot-core/402beea5ac23ab9d7263f71cbfa5da93ad7b9033/before/pywikibot_slash_userinterfaces_slash_transliteration.py,transliterator.__init__,6

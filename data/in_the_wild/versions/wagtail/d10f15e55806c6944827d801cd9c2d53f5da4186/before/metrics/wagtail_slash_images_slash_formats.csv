@@ -1,1 +1,13 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/wagtail/d10f15e55806c6944827d801cd9c2d53f5da4186/before/wagtail_slash_images_slash_formats.py,unregister_image_format,5
+c:/src/pylint-intervention/data/in_the_wild\versions/wagtail/d10f15e55806c6944827d801cd9c2d53f5da4186/before/wagtail_slash_images_slash_formats.py,Format.image_to_html,3
+c:/src/pylint-intervention/data/in_the_wild\versions/wagtail/d10f15e55806c6944827d801cd9c2d53f5da4186/before/wagtail_slash_images_slash_formats.py,register_image_format,2
+c:/src/pylint-intervention/data/in_the_wild\versions/wagtail/d10f15e55806c6944827d801cd9c2d53f5da4186/before/wagtail_slash_images_slash_formats.py,search_for_image_formats,2
+c:/src/pylint-intervention/data/in_the_wild\versions/wagtail/d10f15e55806c6944827d801cd9c2d53f5da4186/before/wagtail_slash_images_slash_formats.py,Format,2
+c:/src/pylint-intervention/data/in_the_wild\versions/wagtail/d10f15e55806c6944827d801cd9c2d53f5da4186/before/wagtail_slash_images_slash_formats.py,get_image_formats,1
+c:/src/pylint-intervention/data/in_the_wild\versions/wagtail/d10f15e55806c6944827d801cd9c2d53f5da4186/before/wagtail_slash_images_slash_formats.py,get_image_format,1
+c:/src/pylint-intervention/data/in_the_wild\versions/wagtail/d10f15e55806c6944827d801cd9c2d53f5da4186/before/wagtail_slash_images_slash_formats.py,Format.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/wagtail/d10f15e55806c6944827d801cd9c2d53f5da4186/before/wagtail_slash_images_slash_formats.py,Format.__str__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/wagtail/d10f15e55806c6944827d801cd9c2d53f5da4186/before/wagtail_slash_images_slash_formats.py,Format.__repr__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/wagtail/d10f15e55806c6944827d801cd9c2d53f5da4186/before/wagtail_slash_images_slash_formats.py,Format.editor_attributes,1
+c:/src/pylint-intervention/data/in_the_wild\versions/wagtail/d10f15e55806c6944827d801cd9c2d53f5da4186/before/wagtail_slash_images_slash_formats.py,Format.image_to_editor_html,1

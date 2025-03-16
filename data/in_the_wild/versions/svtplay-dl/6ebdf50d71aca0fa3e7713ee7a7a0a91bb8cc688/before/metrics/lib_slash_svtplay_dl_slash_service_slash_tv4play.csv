@@ -1,1 +1,9 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/svtplay-dl/6ebdf50d71aca0fa3e7713ee7a7a0a91bb8cc688/before/lib_slash_svtplay_dl_slash_service_slash_tv4play.py,Tv4play.find_all_episodes,22
+c:/src/pylint-intervention/data/in_the_wild\versions/svtplay-dl/6ebdf50d71aca0fa3e7713ee7a7a0a91bb8cc688/before/lib_slash_svtplay_dl_slash_service_slash_tv4play.py,Tv4play.get,12
+c:/src/pylint-intervention/data/in_the_wild\versions/svtplay-dl/6ebdf50d71aca0fa3e7713ee7a7a0a91bb8cc688/before/lib_slash_svtplay_dl_slash_service_slash_tv4play.py,Tv4play,9
+c:/src/pylint-intervention/data/in_the_wild\versions/svtplay-dl/6ebdf50d71aca0fa3e7713ee7a7a0a91bb8cc688/before/lib_slash_svtplay_dl_slash_service_slash_tv4play.py,Tv4,6
+c:/src/pylint-intervention/data/in_the_wild\versions/svtplay-dl/6ebdf50d71aca0fa3e7713ee7a7a0a91bb8cc688/before/lib_slash_svtplay_dl_slash_service_slash_tv4play.py,Tv4play._graphql,5
+c:/src/pylint-intervention/data/in_the_wild\versions/svtplay-dl/6ebdf50d71aca0fa3e7713ee7a7a0a91bb8cc688/before/lib_slash_svtplay_dl_slash_service_slash_tv4play.py,Tv4.get,5
+c:/src/pylint-intervention/data/in_the_wild\versions/svtplay-dl/6ebdf50d71aca0fa3e7713ee7a7a0a91bb8cc688/before/lib_slash_svtplay_dl_slash_service_slash_tv4play.py,Tv4play._getjson,1
+c:/src/pylint-intervention/data/in_the_wild\versions/svtplay-dl/6ebdf50d71aca0fa3e7713ee7a7a0a91bb8cc688/before/lib_slash_svtplay_dl_slash_service_slash_tv4play.py,Tv4play.get_thumbnail,1

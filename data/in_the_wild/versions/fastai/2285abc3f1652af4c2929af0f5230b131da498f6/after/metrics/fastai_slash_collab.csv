@@ -1,1 +1,15 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/fastai/2285abc3f1652af4c2929af0f5230b131da498f6/after/fastai_slash_collab.py,EmbeddingDotBias._get_idx,7
+c:/src/pylint-intervention/data/in_the_wild\versions/fastai/2285abc3f1652af4c2929af0f5230b131da498f6/after/fastai_slash_collab.py,collab_learner,6
+c:/src/pylint-intervention/data/in_the_wild\versions/fastai/2285abc3f1652af4c2929af0f5230b131da498f6/after/fastai_slash_collab.py,EmbeddingDotBias,4
+c:/src/pylint-intervention/data/in_the_wild\versions/fastai/2285abc3f1652af4c2929af0f5230b131da498f6/after/fastai_slash_collab.py,EmbeddingDotBias.from_classes,3
+c:/src/pylint-intervention/data/in_the_wild\versions/fastai/2285abc3f1652af4c2929af0f5230b131da498f6/after/fastai_slash_collab.py,CollabDataLoaders,2
+c:/src/pylint-intervention/data/in_the_wild\versions/fastai/2285abc3f1652af4c2929af0f5230b131da498f6/after/fastai_slash_collab.py,EmbeddingDotBias.__init__,2
+c:/src/pylint-intervention/data/in_the_wild\versions/fastai/2285abc3f1652af4c2929af0f5230b131da498f6/after/fastai_slash_collab.py,EmbeddingDotBias.forward,2
+c:/src/pylint-intervention/data/in_the_wild\versions/fastai/2285abc3f1652af4c2929af0f5230b131da498f6/after/fastai_slash_collab.py,EmbeddingDotBias.bias,2
+c:/src/pylint-intervention/data/in_the_wild\versions/fastai/2285abc3f1652af4c2929af0f5230b131da498f6/after/fastai_slash_collab.py,EmbeddingDotBias.weight,2
+c:/src/pylint-intervention/data/in_the_wild\versions/fastai/2285abc3f1652af4c2929af0f5230b131da498f6/after/fastai_slash_collab.py,EmbeddingNN,2
+c:/src/pylint-intervention/data/in_the_wild\versions/fastai/2285abc3f1652af4c2929af0f5230b131da498f6/after/fastai_slash_collab.py,TabularCollab,1
+c:/src/pylint-intervention/data/in_the_wild\versions/fastai/2285abc3f1652af4c2929af0f5230b131da498f6/after/fastai_slash_collab.py,CollabDataLoaders.from_df,1
+c:/src/pylint-intervention/data/in_the_wild\versions/fastai/2285abc3f1652af4c2929af0f5230b131da498f6/after/fastai_slash_collab.py,CollabDataLoaders.from_csv,1
+c:/src/pylint-intervention/data/in_the_wild\versions/fastai/2285abc3f1652af4c2929af0f5230b131da498f6/after/fastai_slash_collab.py,EmbeddingNN.__init__,1

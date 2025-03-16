@@ -1,1 +1,9 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/couchbase-python-client/6d305796b094024c2ea07c8c963899999420f610/after/couchbase_slash_management_slash_buckets.py,BucketManager,2
+c:/src/pylint-intervention/data/in_the_wild\versions/couchbase-python-client/6d305796b094024c2ea07c8c963899999420f610/after/couchbase_slash_management_slash_buckets.py,BucketManager.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/couchbase-python-client/6d305796b094024c2ea07c8c963899999420f610/after/couchbase_slash_management_slash_buckets.py,BucketManager.create_bucket,1
+c:/src/pylint-intervention/data/in_the_wild\versions/couchbase-python-client/6d305796b094024c2ea07c8c963899999420f610/after/couchbase_slash_management_slash_buckets.py,BucketManager.update_bucket,1
+c:/src/pylint-intervention/data/in_the_wild\versions/couchbase-python-client/6d305796b094024c2ea07c8c963899999420f610/after/couchbase_slash_management_slash_buckets.py,BucketManager.drop_bucket,1
+c:/src/pylint-intervention/data/in_the_wild\versions/couchbase-python-client/6d305796b094024c2ea07c8c963899999420f610/after/couchbase_slash_management_slash_buckets.py,BucketManager.get_bucket,1
+c:/src/pylint-intervention/data/in_the_wild\versions/couchbase-python-client/6d305796b094024c2ea07c8c963899999420f610/after/couchbase_slash_management_slash_buckets.py,BucketManager.get_all_buckets,1
+c:/src/pylint-intervention/data/in_the_wild\versions/couchbase-python-client/6d305796b094024c2ea07c8c963899999420f610/after/couchbase_slash_management_slash_buckets.py,BucketManager.flush_bucket,1

@@ -1,1 +1,8 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/psutil/54c0648bd1d7552d27c577d65f70c25023001071/before/scripts_slash_internal_slash_git_pre_commit.py,main,17
+c:/src/pylint-intervention/data/in_the_wild\versions/psutil/54c0648bd1d7552d27c577d65f70c25023001071/before/scripts_slash_internal_slash_git_pre_commit.py,git_commit_files,7
+c:/src/pylint-intervention/data/in_the_wild\versions/psutil/54c0648bd1d7552d27c577d65f70c25023001071/before/scripts_slash_internal_slash_git_pre_commit.py,hilite,5
+c:/src/pylint-intervention/data/in_the_wild\versions/psutil/54c0648bd1d7552d27c577d65f70c25023001071/before/scripts_slash_internal_slash_git_pre_commit.py,term_supports_colors,4
+c:/src/pylint-intervention/data/in_the_wild\versions/psutil/54c0648bd1d7552d27c577d65f70c25023001071/before/scripts_slash_internal_slash_git_pre_commit.py,sh,4
+c:/src/pylint-intervention/data/in_the_wild\versions/psutil/54c0648bd1d7552d27c577d65f70c25023001071/before/scripts_slash_internal_slash_git_pre_commit.py,open_text,2
+c:/src/pylint-intervention/data/in_the_wild\versions/psutil/54c0648bd1d7552d27c577d65f70c25023001071/before/scripts_slash_internal_slash_git_pre_commit.py,exit,1

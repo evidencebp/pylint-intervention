@@ -1,1 +1,11 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/protwis/1dc064ddeb1f3b9bed2126964d2e761938497691/before/ligand_slash_functions.py,assess_pathway_preferences,37
+c:/src/pylint-intervention/data/in_the_wild\versions/protwis/1dc064ddeb1f3b9bed2126964d2e761938497691/before/ligand_slash_functions.py,get_or_make_ligand,31
+c:/src/pylint-intervention/data/in_the_wild\versions/protwis/1dc064ddeb1f3b9bed2126964d2e761938497691/before/ligand_slash_functions.py,calculate_second_delta,27
+c:/src/pylint-intervention/data/in_the_wild\versions/protwis/1dc064ddeb1f3b9bed2126964d2e761938497691/before/ligand_slash_functions.py,OnTheFly,27
+c:/src/pylint-intervention/data/in_the_wild\versions/protwis/1dc064ddeb1f3b9bed2126964d2e761938497691/before/ligand_slash_functions.py,assess_reference,22
+c:/src/pylint-intervention/data/in_the_wild\versions/protwis/1dc064ddeb1f3b9bed2126964d2e761938497691/before/ligand_slash_functions.py,calculate_first_delta,12
+c:/src/pylint-intervention/data/in_the_wild\versions/protwis/1dc064ddeb1f3b9bed2126964d2e761938497691/before/ligand_slash_functions.py,assess_comparisons,7
+c:/src/pylint-intervention/data/in_the_wild\versions/protwis/1dc064ddeb1f3b9bed2126964d2e761938497691/before/ligand_slash_functions.py,find_best_subtype,7
+c:/src/pylint-intervention/data/in_the_wild\versions/protwis/1dc064ddeb1f3b9bed2126964d2e761938497691/before/ligand_slash_functions.py,AddPathwayData,6
+c:/src/pylint-intervention/data/in_the_wild\versions/protwis/1dc064ddeb1f3b9bed2126964d2e761938497691/before/ligand_slash_functions.py,define_ligand_pathways,3

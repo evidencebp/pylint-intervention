@@ -1,1 +1,5 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/xnote/e452b9d17f052855a16c6b4f80b878919d4b8fff/before/handlers_slash_note_slash_note_stat.py,StatHandler.get_admin_stat_list,5
+c:/src/pylint-intervention/data/in_the_wild\versions/xnote/e452b9d17f052855a16c6b4f80b878919d4b8fff/before/handlers_slash_note_slash_note_stat.py,StatHandler,4
+c:/src/pylint-intervention/data/in_the_wild\versions/xnote/e452b9d17f052855a16c6b4f80b878919d4b8fff/before/handlers_slash_note_slash_note_stat.py,StatHandler.handle,2
+c:/src/pylint-intervention/data/in_the_wild\versions/xnote/e452b9d17f052855a16c6b4f80b878919d4b8fff/before/handlers_slash_note_slash_note_stat.py,StatHandler.get_stat_list,1

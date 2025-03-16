@@ -1,1 +1,5 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/calibre-web/aaa749933d16a57b06309f01ef33962a866e3cc1/before/cps_slash_search_metadata.py,metadata_change_active_provider,9
+c:/src/pylint-intervention/data/in_the_wild\versions/calibre-web/aaa749933d16a57b06309f01ef33962a866e3cc1/before/cps_slash_search_metadata.py,metadata_search,7
+c:/src/pylint-intervention/data/in_the_wild\versions/calibre-web/aaa749933d16a57b06309f01ef33962a866e3cc1/before/cps_slash_search_metadata.py,list_classes,6
+c:/src/pylint-intervention/data/in_the_wild\versions/calibre-web/aaa749933d16a57b06309f01ef33962a866e3cc1/before/cps_slash_search_metadata.py,metadata_provider,2

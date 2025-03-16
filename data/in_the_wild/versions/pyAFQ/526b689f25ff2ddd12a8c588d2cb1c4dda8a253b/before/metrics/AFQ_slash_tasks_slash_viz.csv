@@ -1,1 +1,7 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/pyAFQ/526b689f25ff2ddd12a8c588d2cb1c4dda8a253b/before/AFQ_slash_tasks_slash_viz.py,viz_indivBundle,14
+c:/src/pylint-intervention/data/in_the_wild\versions/pyAFQ/526b689f25ff2ddd12a8c588d2cb1c4dda8a253b/before/AFQ_slash_tasks_slash_viz.py,viz_bundles,5
+c:/src/pylint-intervention/data/in_the_wild\versions/pyAFQ/526b689f25ff2ddd12a8c588d2cb1c4dda8a253b/before/AFQ_slash_tasks_slash_viz.py,init_viz_backend,5
+c:/src/pylint-intervention/data/in_the_wild\versions/pyAFQ/526b689f25ff2ddd12a8c588d2cb1c4dda8a253b/before/AFQ_slash_tasks_slash_viz.py,_viz_prepare_vol,4
+c:/src/pylint-intervention/data/in_the_wild\versions/pyAFQ/526b689f25ff2ddd12a8c588d2cb1c4dda8a253b/before/AFQ_slash_tasks_slash_viz.py,plot_tract_profiles,3
+c:/src/pylint-intervention/data/in_the_wild\versions/pyAFQ/526b689f25ff2ddd12a8c588d2cb1c4dda8a253b/before/AFQ_slash_tasks_slash_viz.py,get_viz_plan,1

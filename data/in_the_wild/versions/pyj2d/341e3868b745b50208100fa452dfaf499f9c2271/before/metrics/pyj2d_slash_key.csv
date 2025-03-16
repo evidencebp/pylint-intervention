@@ -1,1 +1,6 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/pyj2d/341e3868b745b50208100fa452dfaf499f9c2271/before/pyj2d_slash_key.py,Key,2
+c:/src/pylint-intervention/data/in_the_wild\versions/pyj2d/341e3868b745b50208100fa452dfaf499f9c2271/before/pyj2d_slash_key.py,Key.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pyj2d/341e3868b745b50208100fa452dfaf499f9c2271/before/pyj2d_slash_key.py,Key.name,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pyj2d/341e3868b745b50208100fa452dfaf499f9c2271/before/pyj2d_slash_key.py,Key.get_mods,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pyj2d/341e3868b745b50208100fa452dfaf499f9c2271/before/pyj2d_slash_key.py,Key._nonimplemented_methods,1

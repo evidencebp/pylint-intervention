@@ -1,1 +1,4 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/l2/ebf0291714e5886ab70733cdd5199d2ef52593f8/before/users_slash_management_slash_commands_slash_export_research.py,Command,3
+c:/src/pylint-intervention/data/in_the_wild\versions/l2/ebf0291714e5886ab70733cdd5199d2ef52593f8/before/users_slash_management_slash_commands_slash_export_research.py,Command.handle,3
+c:/src/pylint-intervention/data/in_the_wild\versions/l2/ebf0291714e5886ab70733cdd5199d2ef52593f8/before/users_slash_management_slash_commands_slash_export_research.py,Command.add_arguments,1

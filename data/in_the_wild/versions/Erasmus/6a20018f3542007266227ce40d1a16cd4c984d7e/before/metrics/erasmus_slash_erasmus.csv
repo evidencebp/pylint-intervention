@@ -1,1 +1,7 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/Erasmus/6a20018f3542007266227ce40d1a16cd4c984d7e/before/erasmus_slash_erasmus.py,Erasmus.on_command_error,22
+c:/src/pylint-intervention/data/in_the_wild\versions/Erasmus/6a20018f3542007266227ce40d1a16cd4c984d7e/before/erasmus_slash_erasmus.py,Erasmus,7
+c:/src/pylint-intervention/data/in_the_wild\versions/Erasmus/6a20018f3542007266227ce40d1a16cd4c984d7e/before/erasmus_slash_erasmus.py,Erasmus.__init__,3
+c:/src/pylint-intervention/data/in_the_wild\versions/Erasmus/6a20018f3542007266227ce40d1a16cd4c984d7e/before/erasmus_slash_erasmus.py,Erasmus.on_message,2
+c:/src/pylint-intervention/data/in_the_wild\versions/Erasmus/6a20018f3542007266227ce40d1a16cd4c984d7e/before/erasmus_slash_erasmus.py,Erasmus.process_commands,2
+c:/src/pylint-intervention/data/in_the_wild\versions/Erasmus/6a20018f3542007266227ce40d1a16cd4c984d7e/before/erasmus_slash_erasmus.py,Erasmus.on_ready,1

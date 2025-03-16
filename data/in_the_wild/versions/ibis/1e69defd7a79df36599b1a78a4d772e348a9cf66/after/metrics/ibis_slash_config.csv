@@ -1,1 +1,13 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/ibis/1e69defd7a79df36599b1a78a4d772e348a9cf66/after/ibis_slash_config.py,_default_backend,4
+c:/src/pylint-intervention/data/in_the_wild\versions/ibis/1e69defd7a79df36599b1a78a4d772e348a9cf66/after/ibis_slash_config.py,Config,3
+c:/src/pylint-intervention/data/in_the_wild\versions/ibis/1e69defd7a79df36599b1a78a4d772e348a9cf66/after/ibis_slash_config.py,Config._with_temporary,3
+c:/src/pylint-intervention/data/in_the_wild\versions/ibis/1e69defd7a79df36599b1a78a4d772e348a9cf66/after/ibis_slash_config.py,Config.get,2
+c:/src/pylint-intervention/data/in_the_wild\versions/ibis/1e69defd7a79df36599b1a78a4d772e348a9cf66/after/ibis_slash_config.py,Config.set,2
+c:/src/pylint-intervention/data/in_the_wild\versions/ibis/1e69defd7a79df36599b1a78a4d772e348a9cf66/after/ibis_slash_config.py,option_context,1
+c:/src/pylint-intervention/data/in_the_wild\versions/ibis/1e69defd7a79df36599b1a78a4d772e348a9cf66/after/ibis_slash_config.py,Config.__call__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/ibis/1e69defd7a79df36599b1a78a4d772e348a9cf66/after/ibis_slash_config.py,ContextAdjustment,1
+c:/src/pylint-intervention/data/in_the_wild\versions/ibis/1e69defd7a79df36599b1a78a4d772e348a9cf66/after/ibis_slash_config.py,SQL,1
+c:/src/pylint-intervention/data/in_the_wild\versions/ibis/1e69defd7a79df36599b1a78a4d772e348a9cf66/after/ibis_slash_config.py,Interactive,1
+c:/src/pylint-intervention/data/in_the_wild\versions/ibis/1e69defd7a79df36599b1a78a4d772e348a9cf66/after/ibis_slash_config.py,Repr,1
+c:/src/pylint-intervention/data/in_the_wild\versions/ibis/1e69defd7a79df36599b1a78a4d772e348a9cf66/after/ibis_slash_config.py,Options,1

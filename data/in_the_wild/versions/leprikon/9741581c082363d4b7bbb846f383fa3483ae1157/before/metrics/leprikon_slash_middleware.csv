@@ -1,1 +1,9 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/leprikon/9741581c082363d4b7bbb846f383fa3483ae1157/before/leprikon_slash_middleware.py,LeprikonMiddleware.__call__,16
+c:/src/pylint-intervention/data/in_the_wild\versions/leprikon/9741581c082363d4b7bbb846f383fa3483ae1157/before/leprikon_slash_middleware.py,LeprikonMiddleware,7
+c:/src/pylint-intervention/data/in_the_wild\versions/leprikon/9741581c082363d4b7bbb846f383fa3483ae1157/before/leprikon_slash_middleware.py,school_year.__get__,5
+c:/src/pylint-intervention/data/in_the_wild\versions/leprikon/9741581c082363d4b7bbb846f383fa3483ae1157/before/leprikon_slash_middleware.py,school_year,4
+c:/src/pylint-intervention/data/in_the_wild\versions/leprikon/9741581c082363d4b7bbb846f383fa3483ae1157/before/leprikon_slash_middleware.py,school_year.__set__,2
+c:/src/pylint-intervention/data/in_the_wild\versions/leprikon/9741581c082363d4b7bbb846f383fa3483ae1157/before/leprikon_slash_middleware.py,school_year.__delete__,2
+c:/src/pylint-intervention/data/in_the_wild\versions/leprikon/9741581c082363d4b7bbb846f383fa3483ae1157/before/leprikon_slash_middleware.py,LeprikonMiddleware.process_exception,2
+c:/src/pylint-intervention/data/in_the_wild\versions/leprikon/9741581c082363d4b7bbb846f383fa3483ae1157/before/leprikon_slash_middleware.py,LeprikonMiddleware.__init__,1

@@ -1,1 +1,7 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/colabtools/571db156067c26e6dee3081a950e815f556d47bf/before/google_slash_colab_slash_drive.py,_mount,37
+c:/src/pylint-intervention/data/in_the_wild\versions/colabtools/571db156067c26e6dee3081a950e815f556d47bf/before/google_slash_colab_slash_drive.py,flush_and_unmount,5
+c:/src/pylint-intervention/data/in_the_wild\versions/colabtools/571db156067c26e6dee3081a950e815f556d47bf/before/google_slash_colab_slash_drive.py,_env,4
+c:/src/pylint-intervention/data/in_the_wild\versions/colabtools/571db156067c26e6dee3081a950e815f556d47bf/before/google_slash_colab_slash_drive.py,mount,2
+c:/src/pylint-intervention/data/in_the_wild\versions/colabtools/571db156067c26e6dee3081a950e815f556d47bf/before/google_slash_colab_slash_drive.py,_logs_dir,1
+c:/src/pylint-intervention/data/in_the_wild\versions/colabtools/571db156067c26e6dee3081a950e815f556d47bf/before/google_slash_colab_slash_drive.py,_timeouts_path,1

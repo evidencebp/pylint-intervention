@@ -1,1 +1,4 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/helfertool/eb47e6df3416883df8f07f137494e2f351f7f300/after/src_slash_mail_slash_tracking_slash_handler.py,_handle_event,4
+c:/src/pylint-intervention/data/in_the_wild\versions/helfertool/eb47e6df3416883df8f07f137494e2f351f7f300/after/src_slash_mail_slash_tracking_slash_handler.py,handle_tracking,3
+c:/src/pylint-intervention/data/in_the_wild\versions/helfertool/eb47e6df3416883df8f07f137494e2f351f7f300/after/src_slash_mail_slash_tracking_slash_handler.py,_handle_registration,2

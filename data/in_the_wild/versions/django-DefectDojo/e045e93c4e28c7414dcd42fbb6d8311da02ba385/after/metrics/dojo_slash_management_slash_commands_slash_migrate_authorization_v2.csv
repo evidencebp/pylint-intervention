@@ -1,1 +1,3 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/django-DefectDojo/e045e93c4e28c7414dcd42fbb6d8311da02ba385/after/dojo_slash_management_slash_commands_slash_migrate_authorization_v2.py,Command,2
+c:/src/pylint-intervention/data/in_the_wild\versions/django-DefectDojo/e045e93c4e28c7414dcd42fbb6d8311da02ba385/after/dojo_slash_management_slash_commands_slash_migrate_authorization_v2.py,Command.handle,1

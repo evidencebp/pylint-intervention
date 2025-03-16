@@ -1,1 +1,5 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/cobbler/d5cd6f054d62fa5fc3d03bed13abbf0649e26977/after/cobbler_slash_download_manager.py,DownloadManager.download_file,5
+c:/src/pylint-intervention/data/in_the_wild\versions/cobbler/d5cd6f054d62fa5fc3d03bed13abbf0649e26977/after/cobbler_slash_download_manager.py,DownloadManager,4
+c:/src/pylint-intervention/data/in_the_wild\versions/cobbler/d5cd6f054d62fa5fc3d03bed13abbf0649e26977/after/cobbler_slash_download_manager.py,DownloadManager.urlread,3
+c:/src/pylint-intervention/data/in_the_wild\versions/cobbler/d5cd6f054d62fa5fc3d03bed13abbf0649e26977/after/cobbler_slash_download_manager.py,DownloadManager.__init__,2

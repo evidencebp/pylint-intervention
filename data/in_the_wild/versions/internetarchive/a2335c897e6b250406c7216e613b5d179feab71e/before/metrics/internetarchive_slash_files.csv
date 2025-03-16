@@ -1,1 +1,10 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/internetarchive/a2335c897e6b250406c7216e613b5d179feab71e/before/internetarchive_slash_files.py,File.download,49
+c:/src/pylint-intervention/data/in_the_wild\versions/internetarchive/a2335c897e6b250406c7216e613b5d179feab71e/before/internetarchive_slash_files.py,File,18
+c:/src/pylint-intervention/data/in_the_wild\versions/internetarchive/a2335c897e6b250406c7216e613b5d179feab71e/before/internetarchive_slash_files.py,File.delete,14
+c:/src/pylint-intervention/data/in_the_wild\versions/internetarchive/a2335c897e6b250406c7216e613b5d179feab71e/before/internetarchive_slash_files.py,BaseFile,10
+c:/src/pylint-intervention/data/in_the_wild\versions/internetarchive/a2335c897e6b250406c7216e613b5d179feab71e/before/internetarchive_slash_files.py,BaseFile.__init__,9
+c:/src/pylint-intervention/data/in_the_wild\versions/internetarchive/a2335c897e6b250406c7216e613b5d179feab71e/before/internetarchive_slash_files.py,File.__init__,3
+c:/src/pylint-intervention/data/in_the_wild\versions/internetarchive/a2335c897e6b250406c7216e613b5d179feab71e/before/internetarchive_slash_files.py,OnTheFlyFile,2
+c:/src/pylint-intervention/data/in_the_wild\versions/internetarchive/a2335c897e6b250406c7216e613b5d179feab71e/before/internetarchive_slash_files.py,File.__repr__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/internetarchive/a2335c897e6b250406c7216e613b5d179feab71e/before/internetarchive_slash_files.py,OnTheFlyFile.__init__,1

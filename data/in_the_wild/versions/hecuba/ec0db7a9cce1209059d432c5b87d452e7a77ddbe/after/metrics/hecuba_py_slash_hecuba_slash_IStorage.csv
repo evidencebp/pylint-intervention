@@ -1,1 +1,16 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/hecuba/ec0db7a9cce1209059d432c5b87d452e7a77ddbe/after/hecuba_py_slash_hecuba_slash_IStorage.py,IStorage.__init__,8
+c:/src/pylint-intervention/data/in_the_wild\versions/hecuba/ec0db7a9cce1209059d432c5b87d452e7a77ddbe/after/hecuba_py_slash_hecuba_slash_IStorage.py,IStorage.make_persistent,5
+c:/src/pylint-intervention/data/in_the_wild\versions/hecuba/ec0db7a9cce1209059d432c5b87d452e7a77ddbe/after/hecuba_py_slash_hecuba_slash_IStorage.py,IStorage,3
+c:/src/pylint-intervention/data/in_the_wild\versions/hecuba/ec0db7a9cce1209059d432c5b87d452e7a77ddbe/after/hecuba_py_slash_hecuba_slash_IStorage.py,IStorage.storage_id,3
+c:/src/pylint-intervention/data/in_the_wild\versions/hecuba/ec0db7a9cce1209059d432c5b87d452e7a77ddbe/after/hecuba_py_slash_hecuba_slash_IStorage.py,IStorage._set_name,3
+c:/src/pylint-intervention/data/in_the_wild\versions/hecuba/ec0db7a9cce1209059d432c5b87d452e7a77ddbe/after/hecuba_py_slash_hecuba_slash_IStorage.py,IStorage.split,3
+c:/src/pylint-intervention/data/in_the_wild\versions/hecuba/ec0db7a9cce1209059d432c5b87d452e7a77ddbe/after/hecuba_py_slash_hecuba_slash_IStorage.py,IStorage.__eq__,2
+c:/src/pylint-intervention/data/in_the_wild\versions/hecuba/ec0db7a9cce1209059d432c5b87d452e7a77ddbe/after/hecuba_py_slash_hecuba_slash_IStorage.py,IStorage.stop_persistent,2
+c:/src/pylint-intervention/data/in_the_wild\versions/hecuba/ec0db7a9cce1209059d432c5b87d452e7a77ddbe/after/hecuba_py_slash_hecuba_slash_IStorage.py,IStorage.delete_persistent,2
+c:/src/pylint-intervention/data/in_the_wild\versions/hecuba/ec0db7a9cce1209059d432c5b87d452e7a77ddbe/after/hecuba_py_slash_hecuba_slash_IStorage.py,IStorage._get_name,2
+c:/src/pylint-intervention/data/in_the_wild\versions/hecuba/ec0db7a9cce1209059d432c5b87d452e7a77ddbe/after/hecuba_py_slash_hecuba_slash_IStorage.py,IStorage.sync,2
+c:/src/pylint-intervention/data/in_the_wild\versions/hecuba/ec0db7a9cce1209059d432c5b87d452e7a77ddbe/after/hecuba_py_slash_hecuba_slash_IStorage.py,AlreadyPersistentError,1
+c:/src/pylint-intervention/data/in_the_wild\versions/hecuba/ec0db7a9cce1209059d432c5b87d452e7a77ddbe/after/hecuba_py_slash_hecuba_slash_IStorage.py,IStorage.storage_id,1
+c:/src/pylint-intervention/data/in_the_wild\versions/hecuba/ec0db7a9cce1209059d432c5b87d452e7a77ddbe/after/hecuba_py_slash_hecuba_slash_IStorage.py,IStorage.get_by_alias,1
+c:/src/pylint-intervention/data/in_the_wild\versions/hecuba/ec0db7a9cce1209059d432c5b87d452e7a77ddbe/after/hecuba_py_slash_hecuba_slash_IStorage.py,IStorage.getID,1

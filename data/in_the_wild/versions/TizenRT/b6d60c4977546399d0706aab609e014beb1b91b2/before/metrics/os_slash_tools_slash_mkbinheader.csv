@@ -1,1 +1,4 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/TizenRT/b6d60c4977546399d0706aab609e014beb1b91b2/before/os_slash_tools_slash_mkbinheader.py,get_static_ram_size,11
+c:/src/pylint-intervention/data/in_the_wild\versions/TizenRT/b6d60c4977546399d0706aab609e014beb1b91b2/before/os_slash_tools_slash_mkbinheader.py,check_optimize_config,4
+c:/src/pylint-intervention/data/in_the_wild\versions/TizenRT/b6d60c4977546399d0706aab609e014beb1b91b2/before/os_slash_tools_slash_mkbinheader.py,roundup_power_two,1

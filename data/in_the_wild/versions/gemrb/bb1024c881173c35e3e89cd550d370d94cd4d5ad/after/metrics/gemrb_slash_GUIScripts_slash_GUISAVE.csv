@@ -1,1 +1,11 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/gemrb/bb1024c881173c35e3e89cd550d370d94cd4d5ad/after/gemrb_slash_GUIScripts_slash_GUISAVE.py,OpenConfirmWindow,9
+c:/src/pylint-intervention/data/in_the_wild\versions/gemrb/bb1024c881173c35e3e89cd550d370d94cd4d5ad/after/gemrb_slash_GUIScripts_slash_GUISAVE.py,ScrollBarPress,8
+c:/src/pylint-intervention/data/in_the_wild\versions/gemrb/bb1024c881173c35e3e89cd550d370d94cd4d5ad/after/gemrb_slash_GUIScripts_slash_GUISAVE.py,OpenSaveWindow,6
+c:/src/pylint-intervention/data/in_the_wild\versions/gemrb/bb1024c881173c35e3e89cd550d370d94cd4d5ad/after/gemrb_slash_GUIScripts_slash_GUISAVE.py,ConfirmedSaveGame,3
+c:/src/pylint-intervention/data/in_the_wild\versions/gemrb/bb1024c881173c35e3e89cd550d370d94cd4d5ad/after/gemrb_slash_GUIScripts_slash_GUISAVE.py,CloseSaveWindow,3
+c:/src/pylint-intervention/data/in_the_wild\versions/gemrb/bb1024c881173c35e3e89cd550d370d94cd4d5ad/after/gemrb_slash_GUIScripts_slash_GUISAVE.py,QuickSavePressed,2
+c:/src/pylint-intervention/data/in_the_wild\versions/gemrb/bb1024c881173c35e3e89cd550d370d94cd4d5ad/after/gemrb_slash_GUIScripts_slash_GUISAVE.py,CloseConfirmWindow,2
+c:/src/pylint-intervention/data/in_the_wild\versions/gemrb/bb1024c881173c35e3e89cd550d370d94cd4d5ad/after/gemrb_slash_GUIScripts_slash_GUISAVE.py,EditChange,2
+c:/src/pylint-intervention/data/in_the_wild\versions/gemrb/bb1024c881173c35e3e89cd550d370d94cd4d5ad/after/gemrb_slash_GUIScripts_slash_GUISAVE.py,DeleteGameConfirm,2
+c:/src/pylint-intervention/data/in_the_wild\versions/gemrb/bb1024c881173c35e3e89cd550d370d94cd4d5ad/after/gemrb_slash_GUIScripts_slash_GUISAVE.py,DeleteGamePress,1

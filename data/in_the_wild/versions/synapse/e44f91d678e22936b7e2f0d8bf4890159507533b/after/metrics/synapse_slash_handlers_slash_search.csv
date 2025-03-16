@@ -1,1 +1,10 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/synapse/e44f91d678e22936b7e2f0d8bf4890159507533b/after/synapse_slash_handlers_slash_search.py,SearchHandler._search,25
+c:/src/pylint-intervention/data/in_the_wild\versions/synapse/e44f91d678e22936b7e2f0d8bf4890159507533b/after/synapse_slash_handlers_slash_search.py,SearchHandler._search_by_recent,14
+c:/src/pylint-intervention/data/in_the_wild\versions/synapse/e44f91d678e22936b7e2f0d8bf4890159507533b/after/synapse_slash_handlers_slash_search.py,SearchHandler.search,12
+c:/src/pylint-intervention/data/in_the_wild\versions/synapse/e44f91d678e22936b7e2f0d8bf4890159507533b/after/synapse_slash_handlers_slash_search.py,SearchHandler,11
+c:/src/pylint-intervention/data/in_the_wild\versions/synapse/e44f91d678e22936b7e2f0d8bf4890159507533b/after/synapse_slash_handlers_slash_search.py,SearchHandler._calculate_event_contexts,9
+c:/src/pylint-intervention/data/in_the_wild\versions/synapse/e44f91d678e22936b7e2f0d8bf4890159507533b/after/synapse_slash_handlers_slash_search.py,SearchHandler.get_old_rooms_from_upgraded_room,5
+c:/src/pylint-intervention/data/in_the_wild\versions/synapse/e44f91d678e22936b7e2f0d8bf4890159507533b/after/synapse_slash_handlers_slash_search.py,SearchHandler._search_by_rank,5
+c:/src/pylint-intervention/data/in_the_wild\versions/synapse/e44f91d678e22936b7e2f0d8bf4890159507533b/after/synapse_slash_handlers_slash_search.py,_SearchResult,1
+c:/src/pylint-intervention/data/in_the_wild\versions/synapse/e44f91d678e22936b7e2f0d8bf4890159507533b/after/synapse_slash_handlers_slash_search.py,SearchHandler.__init__,1

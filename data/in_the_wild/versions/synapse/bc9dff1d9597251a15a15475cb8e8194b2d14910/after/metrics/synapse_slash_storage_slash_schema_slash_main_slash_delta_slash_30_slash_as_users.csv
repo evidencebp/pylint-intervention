@@ -1,1 +1,3 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/synapse/bc9dff1d9597251a15a15475cb8e8194b2d14910/after/synapse_slash_storage_slash_schema_slash_main_slash_delta_slash_30_slash_as_users.py,run_upgrade,10
+c:/src/pylint-intervention/data/in_the_wild\versions/synapse/bc9dff1d9597251a15a15475cb8e8194b2d14910/after/synapse_slash_storage_slash_schema_slash_main_slash_delta_slash_30_slash_as_users.py,run_create,2

@@ -1,1 +1,4 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/the-blue-alliance/c8ea847616bd757d4ccd073f45a41f64c93cb518/before/src_slash_backend_slash_common_slash_queries_slash_mobile_client_query.py,MobileClientQuery,4
+c:/src/pylint-intervention/data/in_the_wild\versions/the-blue-alliance/c8ea847616bd757d4ccd073f45a41f64c93cb518/before/src_slash_backend_slash_common_slash_queries_slash_mobile_client_query.py,MobileClientQuery._query_async,4
+c:/src/pylint-intervention/data/in_the_wild\versions/the-blue-alliance/c8ea847616bd757d4ccd073f45a41f64c93cb518/before/src_slash_backend_slash_common_slash_queries_slash_mobile_client_query.py,MobileClientQuery.__init__,1

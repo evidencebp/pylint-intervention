@@ -1,1 +1,10 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/astropy/682550e007fe3b5da8e20218c214cdb79fd2aecd/after/astropy_slash_cosmology_slash_core.py,Cosmology.clone,5
+c:/src/pylint-intervention/data/in_the_wild\versions/astropy/682550e007fe3b5da8e20218c214cdb79fd2aecd/after/astropy_slash_cosmology_slash_core.py,Cosmology.__eq__,5
+c:/src/pylint-intervention/data/in_the_wild\versions/astropy/682550e007fe3b5da8e20218c214cdb79fd2aecd/after/astropy_slash_cosmology_slash_core.py,Cosmology,3
+c:/src/pylint-intervention/data/in_the_wild\versions/astropy/682550e007fe3b5da8e20218c214cdb79fd2aecd/after/astropy_slash_cosmology_slash_core.py,Cosmology.__init__,2
+c:/src/pylint-intervention/data/in_the_wild\versions/astropy/682550e007fe3b5da8e20218c214cdb79fd2aecd/after/astropy_slash_cosmology_slash_core.py,CosmologyError,1
+c:/src/pylint-intervention/data/in_the_wild\versions/astropy/682550e007fe3b5da8e20218c214cdb79fd2aecd/after/astropy_slash_cosmology_slash_core.py,Cosmology.__init_subclass__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/astropy/682550e007fe3b5da8e20218c214cdb79fd2aecd/after/astropy_slash_cosmology_slash_core.py,Cosmology.__new__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/astropy/682550e007fe3b5da8e20218c214cdb79fd2aecd/after/astropy_slash_cosmology_slash_core.py,Cosmology._init_signature,1
+c:/src/pylint-intervention/data/in_the_wild\versions/astropy/682550e007fe3b5da8e20218c214cdb79fd2aecd/after/astropy_slash_cosmology_slash_core.py,Cosmology.name,1

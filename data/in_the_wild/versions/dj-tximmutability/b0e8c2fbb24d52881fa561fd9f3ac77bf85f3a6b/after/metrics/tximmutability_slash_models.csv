@@ -1,1 +1,12 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/dj-tximmutability/b0e8c2fbb24d52881fa561fd9f3ac77bf85f3a6b/after/tximmutability_slash_models.py,AbstractFieldTracker,3
+c:/src/pylint-intervention/data/in_the_wild\versions/dj-tximmutability/b0e8c2fbb24d52881fa561fd9f3ac77bf85f3a6b/after/tximmutability_slash_models.py,MutableQuerySet,3
+c:/src/pylint-intervention/data/in_the_wild\versions/dj-tximmutability/b0e8c2fbb24d52881fa561fd9f3ac77bf85f3a6b/after/tximmutability_slash_models.py,MutableQuerySet._pre_bulk_update_validate_immutability,3
+c:/src/pylint-intervention/data/in_the_wild\versions/dj-tximmutability/b0e8c2fbb24d52881fa561fd9f3ac77bf85f3a6b/after/tximmutability_slash_models.py,MutableModel.save,3
+c:/src/pylint-intervention/data/in_the_wild\versions/dj-tximmutability/b0e8c2fbb24d52881fa561fd9f3ac77bf85f3a6b/after/tximmutability_slash_models.py,AbstractFieldTracker.finalize_class,2
+c:/src/pylint-intervention/data/in_the_wild\versions/dj-tximmutability/b0e8c2fbb24d52881fa561fd9f3ac77bf85f3a6b/after/tximmutability_slash_models.py,MutableModel,2
+c:/src/pylint-intervention/data/in_the_wild\versions/dj-tximmutability/b0e8c2fbb24d52881fa561fd9f3ac77bf85f3a6b/after/tximmutability_slash_models.py,MutableModel.delete,2
+c:/src/pylint-intervention/data/in_the_wild\versions/dj-tximmutability/b0e8c2fbb24d52881fa561fd9f3ac77bf85f3a6b/after/tximmutability_slash_models.py,MutableQuerySet.update,1
+c:/src/pylint-intervention/data/in_the_wild\versions/dj-tximmutability/b0e8c2fbb24d52881fa561fd9f3ac77bf85f3a6b/after/tximmutability_slash_models.py,MutableModel.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/dj-tximmutability/b0e8c2fbb24d52881fa561fd9f3ac77bf85f3a6b/after/tximmutability_slash_models.py,MutableModel.mutability_rules,1
+c:/src/pylint-intervention/data/in_the_wild\versions/dj-tximmutability/b0e8c2fbb24d52881fa561fd9f3ac77bf85f3a6b/after/tximmutability_slash_models.py,MutableModel.saved_value,1

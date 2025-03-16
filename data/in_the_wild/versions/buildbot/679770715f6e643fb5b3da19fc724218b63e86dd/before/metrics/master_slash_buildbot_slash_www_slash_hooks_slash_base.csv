@@ -1,1 +1,4 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/buildbot/679770715f6e643fb5b3da19fc724218b63e86dd/before/master_slash_buildbot_slash_www_slash_hooks_slash_base.py,BaseHookHandler.getChanges,8
+c:/src/pylint-intervention/data/in_the_wild\versions/buildbot/679770715f6e643fb5b3da19fc724218b63e86dd/before/master_slash_buildbot_slash_www_slash_hooks_slash_base.py,BaseHookHandler,6
+c:/src/pylint-intervention/data/in_the_wild\versions/buildbot/679770715f6e643fb5b3da19fc724218b63e86dd/before/master_slash_buildbot_slash_www_slash_hooks_slash_base.py,BaseHookHandler.__init__,1

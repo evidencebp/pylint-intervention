@@ -1,1 +1,4 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/wagtail/815cb6e405c0671db829279ed418c4a0ed21bbbf/before/wagtail_slash_contrib_slash_forms_slash_views.py,list_submissions,26
+c:/src/pylint-intervention/data/in_the_wild\versions/wagtail/815cb6e405c0671db829279ed418c4a0ed21bbbf/before/wagtail_slash_contrib_slash_forms_slash_views.py,delete_submissions,3
+c:/src/pylint-intervention/data/in_the_wild\versions/wagtail/815cb6e405c0671db829279ed418c4a0ed21bbbf/before/wagtail_slash_contrib_slash_forms_slash_views.py,index,1

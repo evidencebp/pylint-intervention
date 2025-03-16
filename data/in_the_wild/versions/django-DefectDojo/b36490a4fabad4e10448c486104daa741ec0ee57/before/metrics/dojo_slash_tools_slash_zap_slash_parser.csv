@@ -1,1 +1,15 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/django-DefectDojo/b36490a4fabad4e10448c486104daa741ec0ee57/before/dojo_slash_tools_slash_zap_slash_parser.py,Item.__init__,22
+c:/src/pylint-intervention/data/in_the_wild\versions/django-DefectDojo/b36490a4fabad4e10448c486104daa741ec0ee57/before/dojo_slash_tools_slash_zap_slash_parser.py,Item,13
+c:/src/pylint-intervention/data/in_the_wild\versions/django-DefectDojo/b36490a4fabad4e10448c486104daa741ec0ee57/before/dojo_slash_tools_slash_zap_slash_parser.py,get_attrib_from_subnode,7
+c:/src/pylint-intervention/data/in_the_wild\versions/django-DefectDojo/b36490a4fabad4e10448c486104daa741ec0ee57/before/dojo_slash_tools_slash_zap_slash_parser.py,ZapParser.get_items,5
+c:/src/pylint-intervention/data/in_the_wild\versions/django-DefectDojo/b36490a4fabad4e10448c486104daa741ec0ee57/before/dojo_slash_tools_slash_zap_slash_parser.py,ZapParser,3
+c:/src/pylint-intervention/data/in_the_wild\versions/django-DefectDojo/b36490a4fabad4e10448c486104daa741ec0ee57/before/dojo_slash_tools_slash_zap_slash_parser.py,Site,3
+c:/src/pylint-intervention/data/in_the_wild\versions/django-DefectDojo/b36490a4fabad4e10448c486104daa741ec0ee57/before/dojo_slash_tools_slash_zap_slash_parser.py,Site.__init__,2
+c:/src/pylint-intervention/data/in_the_wild\versions/django-DefectDojo/b36490a4fabad4e10448c486104daa741ec0ee57/before/dojo_slash_tools_slash_zap_slash_parser.py,Site.get_text_from_subnode,2
+c:/src/pylint-intervention/data/in_the_wild\versions/django-DefectDojo/b36490a4fabad4e10448c486104daa741ec0ee57/before/dojo_slash_tools_slash_zap_slash_parser.py,Site.resolve,2
+c:/src/pylint-intervention/data/in_the_wild\versions/django-DefectDojo/b36490a4fabad4e10448c486104daa741ec0ee57/before/dojo_slash_tools_slash_zap_slash_parser.py,Item.get_text_from_subnode,2
+c:/src/pylint-intervention/data/in_the_wild\versions/django-DefectDojo/b36490a4fabad4e10448c486104daa741ec0ee57/before/dojo_slash_tools_slash_zap_slash_parser.py,ZapParser.get_scan_types,1
+c:/src/pylint-intervention/data/in_the_wild\versions/django-DefectDojo/b36490a4fabad4e10448c486104daa741ec0ee57/before/dojo_slash_tools_slash_zap_slash_parser.py,ZapParser.get_label_for_scan_types,1
+c:/src/pylint-intervention/data/in_the_wild\versions/django-DefectDojo/b36490a4fabad4e10448c486104daa741ec0ee57/before/dojo_slash_tools_slash_zap_slash_parser.py,ZapParser.get_description_for_scan_types,1
+c:/src/pylint-intervention/data/in_the_wild\versions/django-DefectDojo/b36490a4fabad4e10448c486104daa741ec0ee57/before/dojo_slash_tools_slash_zap_slash_parser.py,ZapParser.get_findings,1

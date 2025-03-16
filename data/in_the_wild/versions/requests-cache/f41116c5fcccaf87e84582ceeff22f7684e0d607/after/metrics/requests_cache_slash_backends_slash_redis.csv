@@ -1,1 +1,12 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/requests-cache/f41116c5fcccaf87e84582ceeff22f7684e0d607/after/requests_cache_slash_backends_slash_redis.py,RedisDict.bulk_delete,3
+c:/src/pylint-intervention/data/in_the_wild\versions/requests-cache/f41116c5fcccaf87e84582ceeff22f7684e0d607/after/requests_cache_slash_backends_slash_redis.py,RedisCache,2
+c:/src/pylint-intervention/data/in_the_wild\versions/requests-cache/f41116c5fcccaf87e84582ceeff22f7684e0d607/after/requests_cache_slash_backends_slash_redis.py,RedisDict,2
+c:/src/pylint-intervention/data/in_the_wild\versions/requests-cache/f41116c5fcccaf87e84582ceeff22f7684e0d607/after/requests_cache_slash_backends_slash_redis.py,RedisDict.__init__,2
+c:/src/pylint-intervention/data/in_the_wild\versions/requests-cache/f41116c5fcccaf87e84582ceeff22f7684e0d607/after/requests_cache_slash_backends_slash_redis.py,RedisDict.__getitem__,2
+c:/src/pylint-intervention/data/in_the_wild\versions/requests-cache/f41116c5fcccaf87e84582ceeff22f7684e0d607/after/requests_cache_slash_backends_slash_redis.py,RedisDict.__delitem__,2
+c:/src/pylint-intervention/data/in_the_wild\versions/requests-cache/f41116c5fcccaf87e84582ceeff22f7684e0d607/after/requests_cache_slash_backends_slash_redis.py,RedisDict.__iter__,2
+c:/src/pylint-intervention/data/in_the_wild\versions/requests-cache/f41116c5fcccaf87e84582ceeff22f7684e0d607/after/requests_cache_slash_backends_slash_redis.py,RedisCache.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/requests-cache/f41116c5fcccaf87e84582ceeff22f7684e0d607/after/requests_cache_slash_backends_slash_redis.py,RedisDict.__setitem__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/requests-cache/f41116c5fcccaf87e84582ceeff22f7684e0d607/after/requests_cache_slash_backends_slash_redis.py,RedisDict.__len__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/requests-cache/f41116c5fcccaf87e84582ceeff22f7684e0d607/after/requests_cache_slash_backends_slash_redis.py,RedisDict.clear,1

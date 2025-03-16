@@ -1,1 +1,6 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/catapult/ef16f927e50151533a42c5ecf789c9f75f9f95b3/before/devil_slash_devil_slash_utils_slash_zip_utils.py,_WriteToZipFile,4
+c:/src/pylint-intervention/data/in_the_wild\versions/catapult/ef16f927e50151533a42c5ecf789c9f75f9f95b3/before/devil_slash_devil_slash_utils_slash_zip_utils.py,WriteZipFile,4
+c:/src/pylint-intervention/data/in_the_wild\versions/catapult/ef16f927e50151533a42c5ecf789c9f75f9f95b3/before/devil_slash_devil_slash_utils_slash_zip_utils.py,_WriteZipFile,2
+c:/src/pylint-intervention/data/in_the_wild\versions/catapult/ef16f927e50151533a42c5ecf789c9f75f9f95b3/before/devil_slash_devil_slash_utils_slash_zip_utils.py,main,1
+c:/src/pylint-intervention/data/in_the_wild\versions/catapult/ef16f927e50151533a42c5ecf789c9f75f9f95b3/before/devil_slash_devil_slash_utils_slash_zip_utils.py,ZipFailedError,1

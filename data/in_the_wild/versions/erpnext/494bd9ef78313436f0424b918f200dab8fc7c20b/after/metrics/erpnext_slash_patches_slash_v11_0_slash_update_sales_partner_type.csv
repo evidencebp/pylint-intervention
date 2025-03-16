@@ -1,1 +1,3 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/erpnext/494bd9ef78313436f0424b918f200dab8fc7c20b/after/erpnext_slash_patches_slash_v11_0_slash_update_sales_partner_type.py,execute,8
+c:/src/pylint-intervention/data/in_the_wild\versions/erpnext/494bd9ef78313436f0424b918f200dab8fc7c20b/after/erpnext_slash_patches_slash_v11_0_slash_update_sales_partner_type.py,insert_sales_partner_type,2

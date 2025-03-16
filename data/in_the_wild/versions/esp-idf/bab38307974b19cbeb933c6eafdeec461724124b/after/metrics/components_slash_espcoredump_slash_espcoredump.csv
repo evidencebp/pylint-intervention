@@ -1,1 +1,3 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/esp-idf/bab38307974b19cbeb933c6eafdeec461724124b/after/components_slash_espcoredump_slash_espcoredump.py,main,12
+c:/src/pylint-intervention/data/in_the_wild\versions/esp-idf/bab38307974b19cbeb933c6eafdeec461724124b/after/components_slash_espcoredump_slash_espcoredump.py,get_prefix_map_gdbinit_path,2

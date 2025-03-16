@@ -1,1 +1,11 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/CorpBot.py/63bc266de4bada799f4581bba84f2d607c5d9703/before/Cogs_slash_XpStack.py,XpStack.checkxp,21
+c:/src/pylint-intervention/data/in_the_wild\versions/CorpBot.py/63bc266de4bada799f4581bba84f2d607c5d9703/before/Cogs_slash_XpStack.py,XpStack.clearxp,8
+c:/src/pylint-intervention/data/in_the_wild\versions/CorpBot.py/63bc266de4bada799f4581bba84f2d607c5d9703/before/Cogs_slash_XpStack.py,XpStack,7
+c:/src/pylint-intervention/data/in_the_wild\versions/CorpBot.py/63bc266de4bada799f4581bba84f2d607c5d9703/before/Cogs_slash_XpStack.py,XpStack.setxpcount,6
+c:/src/pylint-intervention/data/in_the_wild\versions/CorpBot.py/63bc266de4bada799f4581bba84f2d607c5d9703/before/Cogs_slash_XpStack.py,XpStack._send_embed,4
+c:/src/pylint-intervention/data/in_the_wild\versions/CorpBot.py/63bc266de4bada799f4581bba84f2d607c5d9703/before/Cogs_slash_XpStack.py,XpStack.clearallxp,4
+c:/src/pylint-intervention/data/in_the_wild\versions/CorpBot.py/63bc266de4bada799f4581bba84f2d607c5d9703/before/Cogs_slash_XpStack.py,XpStack.on_xp,4
+c:/src/pylint-intervention/data/in_the_wild\versions/CorpBot.py/63bc266de4bada799f4581bba84f2d607c5d9703/before/Cogs_slash_XpStack.py,XpStack.xpcount,3
+c:/src/pylint-intervention/data/in_the_wild\versions/CorpBot.py/63bc266de4bada799f4581bba84f2d607c5d9703/before/Cogs_slash_XpStack.py,setup,1
+c:/src/pylint-intervention/data/in_the_wild\versions/CorpBot.py/63bc266de4bada799f4581bba84f2d607c5d9703/before/Cogs_slash_XpStack.py,XpStack.__init__,1

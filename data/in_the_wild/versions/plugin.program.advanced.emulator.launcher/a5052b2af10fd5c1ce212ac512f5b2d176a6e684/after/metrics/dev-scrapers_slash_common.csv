@@ -1,1 +1,6 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/plugin.program.advanced.emulator.launcher/a5052b2af10fd5c1ce212ac512f5b2d176a6e684/after/dev-scrapers_slash_common.py,handle_get_candidates,4
+c:/src/pylint-intervention/data/in_the_wild\versions/plugin.program.advanced.emulator.launcher/a5052b2af10fd5c1ce212ac512f5b2d176a6e684/after/dev-scrapers_slash_common.py,abort_on_error,2
+c:/src/pylint-intervention/data/in_the_wild\versions/plugin.program.advanced.emulator.launcher/a5052b2af10fd5c1ce212ac512f5b2d176a6e684/after/dev-scrapers_slash_common.py,print_candidate_list,2
+c:/src/pylint-intervention/data/in_the_wild\versions/plugin.program.advanced.emulator.launcher/a5052b2af10fd5c1ce212ac512f5b2d176a6e684/after/dev-scrapers_slash_common.py,print_game_assets,2
+c:/src/pylint-intervention/data/in_the_wild\versions/plugin.program.advanced.emulator.launcher/a5052b2af10fd5c1ce212ac512f5b2d176a6e684/after/dev-scrapers_slash_common.py,print_game_metadata,1

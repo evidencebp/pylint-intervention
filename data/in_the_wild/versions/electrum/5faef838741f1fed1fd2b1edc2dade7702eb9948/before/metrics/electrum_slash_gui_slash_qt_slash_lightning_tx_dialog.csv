@@ -1,1 +1,4 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/electrum/5faef838741f1fed1fd2b1edc2dade7702eb9948/before/electrum_slash_gui_slash_qt_slash_lightning_tx_dialog.py,LightningTxDialog.__init__,6
+c:/src/pylint-intervention/data/in_the_wild\versions/electrum/5faef838741f1fed1fd2b1edc2dade7702eb9948/before/electrum_slash_gui_slash_qt_slash_lightning_tx_dialog.py,LightningTxDialog,5
+c:/src/pylint-intervention/data/in_the_wild\versions/electrum/5faef838741f1fed1fd2b1edc2dade7702eb9948/before/electrum_slash_gui_slash_qt_slash_lightning_tx_dialog.py,LightningTxDialog.show_qr,1

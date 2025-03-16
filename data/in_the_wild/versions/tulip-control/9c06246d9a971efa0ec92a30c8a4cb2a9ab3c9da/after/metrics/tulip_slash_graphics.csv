@@ -1,1 +1,7 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/tulip-control/9c06246d9a971efa0ec92a30c8a4cb2a9ab3c9da/after/tulip_slash_graphics.py,newax,10
+c:/src/pylint-intervention/data/in_the_wild\versions/tulip-control/9c06246d9a971efa0ec92a30c8a4cb2a9ab3c9da/after/tulip_slash_graphics.py,quiver,8
+c:/src/pylint-intervention/data/in_the_wild\versions/tulip-control/9c06246d9a971efa0ec92a30c8a4cb2a9ab3c9da/after/tulip_slash_graphics.py,dimension,2
+c:/src/pylint-intervention/data/in_the_wild\versions/tulip-control/9c06246d9a971efa0ec92a30c8a4cb2a9ab3c9da/after/tulip_slash_graphics.py,_import_pyplot,2
+c:/src/pylint-intervention/data/in_the_wild\versions/tulip-control/9c06246d9a971efa0ec92a30c8a4cb2a9ab3c9da/after/tulip_slash_graphics.py,dom2vec,1
+c:/src/pylint-intervention/data/in_the_wild\versions/tulip-control/9c06246d9a971efa0ec92a30c8a4cb2a9ab3c9da/after/tulip_slash_graphics.py,_grouper,1

@@ -1,1 +1,6 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/rocFFT/e13f3dc20e0af40a708a533c619930544a7a9601/after/scripts_slash_perf_slash_perflib_slash_specs.py,get_machine_specs,12
+c:/src/pylint-intervention/data/in_the_wild\versions/rocFFT/e13f3dc20e0af40a708a533c619930544a7a9601/after/scripts_slash_perf_slash_perflib_slash_specs.py,search,2
+c:/src/pylint-intervention/data/in_the_wild\versions/rocFFT/e13f3dc20e0af40a708a533c619930544a7a9601/after/scripts_slash_perf_slash_perflib_slash_specs.py,MachineSpecs,2
+c:/src/pylint-intervention/data/in_the_wild\versions/rocFFT/e13f3dc20e0af40a708a533c619930544a7a9601/after/scripts_slash_perf_slash_perflib_slash_specs.py,run,1
+c:/src/pylint-intervention/data/in_the_wild\versions/rocFFT/e13f3dc20e0af40a708a533c619930544a7a9601/after/scripts_slash_perf_slash_perflib_slash_specs.py,MachineSpecs.__str__,1

@@ -1,1 +1,8 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/couchbase-python-client/6d305796b094024c2ea07c8c963899999420f610/after/couchbase_slash_management_slash_collections.py,CollectionManager,2
+c:/src/pylint-intervention/data/in_the_wild\versions/couchbase-python-client/6d305796b094024c2ea07c8c963899999420f610/after/couchbase_slash_management_slash_collections.py,CollectionManager.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/couchbase-python-client/6d305796b094024c2ea07c8c963899999420f610/after/couchbase_slash_management_slash_collections.py,CollectionManager.create_scope,1
+c:/src/pylint-intervention/data/in_the_wild\versions/couchbase-python-client/6d305796b094024c2ea07c8c963899999420f610/after/couchbase_slash_management_slash_collections.py,CollectionManager.drop_scope,1
+c:/src/pylint-intervention/data/in_the_wild\versions/couchbase-python-client/6d305796b094024c2ea07c8c963899999420f610/after/couchbase_slash_management_slash_collections.py,CollectionManager.get_all_scopes,1
+c:/src/pylint-intervention/data/in_the_wild\versions/couchbase-python-client/6d305796b094024c2ea07c8c963899999420f610/after/couchbase_slash_management_slash_collections.py,CollectionManager.create_collection,1
+c:/src/pylint-intervention/data/in_the_wild\versions/couchbase-python-client/6d305796b094024c2ea07c8c963899999420f610/after/couchbase_slash_management_slash_collections.py,CollectionManager.drop_collection,1

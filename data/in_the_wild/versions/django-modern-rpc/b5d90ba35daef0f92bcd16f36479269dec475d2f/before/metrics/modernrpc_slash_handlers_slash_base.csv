@@ -1,1 +1,9 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/django-modern-rpc/b5d90ba35daef0f92bcd16f36479269dec475d2f/before/modernrpc_slash_handlers_slash_base.py,RPCHandler.process_request,8
+c:/src/pylint-intervention/data/in_the_wild\versions/django-modern-rpc/b5d90ba35daef0f92bcd16f36479269dec475d2f/before/modernrpc_slash_handlers_slash_base.py,RPCHandler,3
+c:/src/pylint-intervention/data/in_the_wild\versions/django-modern-rpc/b5d90ba35daef0f92bcd16f36479269dec475d2f/before/modernrpc_slash_handlers_slash_base.py,RPCHandler.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/django-modern-rpc/b5d90ba35daef0f92bcd16f36479269dec475d2f/before/modernrpc_slash_handlers_slash_base.py,RPCHandler.valid_content_types,1
+c:/src/pylint-intervention/data/in_the_wild\versions/django-modern-rpc/b5d90ba35daef0f92bcd16f36479269dec475d2f/before/modernrpc_slash_handlers_slash_base.py,RPCHandler.can_handle,1
+c:/src/pylint-intervention/data/in_the_wild\versions/django-modern-rpc/b5d90ba35daef0f92bcd16f36479269dec475d2f/before/modernrpc_slash_handlers_slash_base.py,RPCHandler.parse_request,1
+c:/src/pylint-intervention/data/in_the_wild\versions/django-modern-rpc/b5d90ba35daef0f92bcd16f36479269dec475d2f/before/modernrpc_slash_handlers_slash_base.py,RPCHandler.validate_request,1
+c:/src/pylint-intervention/data/in_the_wild\versions/django-modern-rpc/b5d90ba35daef0f92bcd16f36479269dec475d2f/before/modernrpc_slash_handlers_slash_base.py,RPCHandler.build_response_data,1

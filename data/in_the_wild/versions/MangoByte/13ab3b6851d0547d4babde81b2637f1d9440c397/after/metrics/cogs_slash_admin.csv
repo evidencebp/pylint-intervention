@@ -1,1 +1,12 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/MangoByte/13ab3b6851d0547d4babde81b2637f1d9440c397/after/cogs_slash_admin.py,Admin.bot_check,10
+c:/src/pylint-intervention/data/in_the_wild\versions/MangoByte/13ab3b6851d0547d4babde81b2637f1d9440c397/after/cogs_slash_admin.py,Admin.summon,8
+c:/src/pylint-intervention/data/in_the_wild\versions/MangoByte/13ab3b6851d0547d4babde81b2637f1d9440c397/after/cogs_slash_admin.py,Admin,6
+c:/src/pylint-intervention/data/in_the_wild\versions/MangoByte/13ab3b6851d0547d4babde81b2637f1d9440c397/after/cogs_slash_admin.py,Admin.get_command_or_cog,6
+c:/src/pylint-intervention/data/in_the_wild\versions/MangoByte/13ab3b6851d0547d4babde81b2637f1d9440c397/after/cogs_slash_admin.py,Admin.enablecommand,6
+c:/src/pylint-intervention/data/in_the_wild\versions/MangoByte/13ab3b6851d0547d4babde81b2637f1d9440c397/after/cogs_slash_admin.py,Admin.config,6
+c:/src/pylint-intervention/data/in_the_wild\versions/MangoByte/13ab3b6851d0547d4babde81b2637f1d9440c397/after/cogs_slash_admin.py,Admin.cog_check,4
+c:/src/pylint-intervention/data/in_the_wild\versions/MangoByte/13ab3b6851d0547d4babde81b2637f1d9440c397/after/cogs_slash_admin.py,Admin.botunban,4
+c:/src/pylint-intervention/data/in_the_wild\versions/MangoByte/13ab3b6851d0547d4babde81b2637f1d9440c397/after/cogs_slash_admin.py,Admin.unsummon,3
+c:/src/pylint-intervention/data/in_the_wild\versions/MangoByte/13ab3b6851d0547d4babde81b2637f1d9440c397/after/cogs_slash_admin.py,setup,1
+c:/src/pylint-intervention/data/in_the_wild\versions/MangoByte/13ab3b6851d0547d4babde81b2637f1d9440c397/after/cogs_slash_admin.py,Admin.__init__,1

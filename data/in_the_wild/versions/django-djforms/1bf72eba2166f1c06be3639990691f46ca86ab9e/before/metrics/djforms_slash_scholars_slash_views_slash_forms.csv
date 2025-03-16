@@ -1,1 +1,4 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/django-djforms/1bf72eba2166f1c06be3639990691f46ca86ab9e/before/djforms_slash_scholars_slash_views_slash_forms.py,PresentationForm,3
+c:/src/pylint-intervention/data/in_the_wild\versions/django-djforms/1bf72eba2166f1c06be3639990691f46ca86ab9e/before/djforms_slash_scholars_slash_views_slash_forms.py,PresentationForm.__init__,2
+c:/src/pylint-intervention/data/in_the_wild\versions/django-djforms/1bf72eba2166f1c06be3639990691f46ca86ab9e/before/djforms_slash_scholars_slash_views_slash_forms.py,EmailPresentersForm,1

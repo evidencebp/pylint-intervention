@@ -1,1 +1,6 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/gnome-characters/1daaaf7cdea19732cf885a7b225b0c0535e31ef2/after/lib_slash_gen-emoji.py,Builder.read,15
+c:/src/pylint-intervention/data/in_the_wild\versions/gnome-characters/1daaaf7cdea19732cf885a7b225b0c0535e31ef2/after/lib_slash_gen-emoji.py,Builder,7
+c:/src/pylint-intervention/data/in_the_wild\versions/gnome-characters/1daaaf7cdea19732cf885a7b225b0c0535e31ef2/after/lib_slash_gen-emoji.py,Builder.write,7
+c:/src/pylint-intervention/data/in_the_wild\versions/gnome-characters/1daaaf7cdea19732cf885a7b225b0c0535e31ef2/after/lib_slash_gen-emoji.py,Builder.sort_data,2
+c:/src/pylint-intervention/data/in_the_wild\versions/gnome-characters/1daaaf7cdea19732cf885a7b225b0c0535e31ef2/after/lib_slash_gen-emoji.py,Builder.__init__,1

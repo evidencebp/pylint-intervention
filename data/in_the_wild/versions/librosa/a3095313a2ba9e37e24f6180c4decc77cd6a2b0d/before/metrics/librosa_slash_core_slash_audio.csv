@@ -1,1 +1,17 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/librosa/a3095313a2ba9e37e24f6180c4decc77cd6a2b0d/before/librosa_slash_core_slash_audio.py,stream,12
+c:/src/pylint-intervention/data/in_the_wild\versions/librosa/a3095313a2ba9e37e24f6180c4decc77cd6a2b0d/before/librosa_slash_core_slash_audio.py,resample,10
+c:/src/pylint-intervention/data/in_the_wild\versions/librosa/a3095313a2ba9e37e24f6180c4decc77cd6a2b0d/before/librosa_slash_core_slash_audio.py,clicks,10
+c:/src/pylint-intervention/data/in_the_wild\versions/librosa/a3095313a2ba9e37e24f6180c4decc77cd6a2b0d/before/librosa_slash_core_slash_audio.py,__audioread_load,9
+c:/src/pylint-intervention/data/in_the_wild\versions/librosa/a3095313a2ba9e37e24f6180c4decc77cd6a2b0d/before/librosa_slash_core_slash_audio.py,load,8
+c:/src/pylint-intervention/data/in_the_wild\versions/librosa/a3095313a2ba9e37e24f6180c4decc77cd6a2b0d/before/librosa_slash_core_slash_audio.py,chirp,7
+c:/src/pylint-intervention/data/in_the_wild\versions/librosa/a3095313a2ba9e37e24f6180c4decc77cd6a2b0d/before/librosa_slash_core_slash_audio.py,get_duration,6
+c:/src/pylint-intervention/data/in_the_wild\versions/librosa/a3095313a2ba9e37e24f6180c4decc77cd6a2b0d/before/librosa_slash_core_slash_audio.py,zero_crossings,6
+c:/src/pylint-intervention/data/in_the_wild\versions/librosa/a3095313a2ba9e37e24f6180c4decc77cd6a2b0d/before/librosa_slash_core_slash_audio.py,tone,5
+c:/src/pylint-intervention/data/in_the_wild\versions/librosa/a3095313a2ba9e37e24f6180c4decc77cd6a2b0d/before/librosa_slash_core_slash_audio.py,mu_compress,5
+c:/src/pylint-intervention/data/in_the_wild\versions/librosa/a3095313a2ba9e37e24f6180c4decc77cd6a2b0d/before/librosa_slash_core_slash_audio.py,mu_expand,5
+c:/src/pylint-intervention/data/in_the_wild\versions/librosa/a3095313a2ba9e37e24f6180c4decc77cd6a2b0d/before/librosa_slash_core_slash_audio.py,get_samplerate,3
+c:/src/pylint-intervention/data/in_the_wild\versions/librosa/a3095313a2ba9e37e24f6180c4decc77cd6a2b0d/before/librosa_slash_core_slash_audio.py,autocorrelate,3
+c:/src/pylint-intervention/data/in_the_wild\versions/librosa/a3095313a2ba9e37e24f6180c4decc77cd6a2b0d/before/librosa_slash_core_slash_audio.py,lpc,3
+c:/src/pylint-intervention/data/in_the_wild\versions/librosa/a3095313a2ba9e37e24f6180c4decc77cd6a2b0d/before/librosa_slash_core_slash_audio.py,__lpc,3
+c:/src/pylint-intervention/data/in_the_wild\versions/librosa/a3095313a2ba9e37e24f6180c4decc77cd6a2b0d/before/librosa_slash_core_slash_audio.py,to_mono,2

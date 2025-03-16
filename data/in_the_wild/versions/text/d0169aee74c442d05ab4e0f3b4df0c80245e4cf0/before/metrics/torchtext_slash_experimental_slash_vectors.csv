@@ -1,1 +1,11 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/text/d0169aee74c442d05ab4e0f3b4df0c80245e4cf0/before/torchtext_slash_experimental_slash_vectors.py,_load_token_and_vectors_from_file,10
+c:/src/pylint-intervention/data/in_the_wild\versions/text/d0169aee74c442d05ab4e0f3b4df0c80245e4cf0/before/torchtext_slash_experimental_slash_vectors.py,GloVe,8
+c:/src/pylint-intervention/data/in_the_wild\versions/text/d0169aee74c442d05ab4e0f3b4df0c80245e4cf0/before/torchtext_slash_experimental_slash_vectors.py,Vectors.__init__,6
+c:/src/pylint-intervention/data/in_the_wild\versions/text/d0169aee74c442d05ab4e0f3b4df0c80245e4cf0/before/torchtext_slash_experimental_slash_vectors.py,FastText,4
+c:/src/pylint-intervention/data/in_the_wild\versions/text/d0169aee74c442d05ab4e0f3b4df0c80245e4cf0/before/torchtext_slash_experimental_slash_vectors.py,Vectors,3
+c:/src/pylint-intervention/data/in_the_wild\versions/text/d0169aee74c442d05ab4e0f3b4df0c80245e4cf0/before/torchtext_slash_experimental_slash_vectors.py,_infer_shape,2
+c:/src/pylint-intervention/data/in_the_wild\versions/text/d0169aee74c442d05ab4e0f3b4df0c80245e4cf0/before/torchtext_slash_experimental_slash_vectors.py,vectors_from_file_object,2
+c:/src/pylint-intervention/data/in_the_wild\versions/text/d0169aee74c442d05ab4e0f3b4df0c80245e4cf0/before/torchtext_slash_experimental_slash_vectors.py,Vectors.__setitem__,2
+c:/src/pylint-intervention/data/in_the_wild\versions/text/d0169aee74c442d05ab4e0f3b4df0c80245e4cf0/before/torchtext_slash_experimental_slash_vectors.py,Vectors.__getitem__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/text/d0169aee74c442d05ab4e0f3b4df0c80245e4cf0/before/torchtext_slash_experimental_slash_vectors.py,Vectors.__len__,1

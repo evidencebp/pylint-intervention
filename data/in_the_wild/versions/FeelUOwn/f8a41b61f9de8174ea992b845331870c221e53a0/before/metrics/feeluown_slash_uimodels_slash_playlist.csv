@@ -1,1 +1,6 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/FeelUOwn/f8a41b61f9de8174ea992b845331870c221e53a0/before/feeluown_slash_uimodels_slash_playlist.py,PlaylistUiManager,2
+c:/src/pylint-intervention/data/in_the_wild\versions/FeelUOwn/f8a41b61f9de8174ea992b845331870c221e53a0/before/feeluown_slash_uimodels_slash_playlist.py,PlaylistUiItem,1
+c:/src/pylint-intervention/data/in_the_wild\versions/FeelUOwn/f8a41b61f9de8174ea992b845331870c221e53a0/before/feeluown_slash_uimodels_slash_playlist.py,PlaylistUiManager.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/FeelUOwn/f8a41b61f9de8174ea992b845331870c221e53a0/before/feeluown_slash_uimodels_slash_playlist.py,PlaylistUiManager.add,1
+c:/src/pylint-intervention/data/in_the_wild\versions/FeelUOwn/f8a41b61f9de8174ea992b845331870c221e53a0/before/feeluown_slash_uimodels_slash_playlist.py,PlaylistUiManager.clear,1

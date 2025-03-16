@@ -1,1 +1,13 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/django-oppia/0782515fe167587b66de27b6671852df51335fae/after/profile_slash_models.py,UserProfile.update_customfields,8
+c:/src/pylint-intervention/data/in_the_wild\versions/django-oppia/0782515fe167587b66de27b6671852df51335fae/after/profile_slash_models.py,UserProfile,4
+c:/src/pylint-intervention/data/in_the_wild\versions/django-oppia/0782515fe167587b66de27b6671852df51335fae/after/profile_slash_models.py,UserProfile.get_can_upload,3
+c:/src/pylint-intervention/data/in_the_wild\versions/django-oppia/0782515fe167587b66de27b6671852df51335fae/after/profile_slash_models.py,UserProfile.is_student_only,3
+c:/src/pylint-intervention/data/in_the_wild\versions/django-oppia/0782515fe167587b66de27b6671852df51335fae/after/profile_slash_models.py,UserProfile.is_teacher_only,3
+c:/src/pylint-intervention/data/in_the_wild\versions/django-oppia/0782515fe167587b66de27b6671852df51335fae/after/profile_slash_models.py,UserProfileCustomField,3
+c:/src/pylint-intervention/data/in_the_wild\versions/django-oppia/0782515fe167587b66de27b6671852df51335fae/after/profile_slash_models.py,UserProfileCustomField.get_value,3
+c:/src/pylint-intervention/data/in_the_wild\versions/django-oppia/0782515fe167587b66de27b6671852df51335fae/after/profile_slash_models.py,CustomField,2
+c:/src/pylint-intervention/data/in_the_wild\versions/django-oppia/0782515fe167587b66de27b6671852df51335fae/after/profile_slash_models.py,UserProfileCustomField.get_user_value,2
+c:/src/pylint-intervention/data/in_the_wild\versions/django-oppia/0782515fe167587b66de27b6671852df51335fae/after/profile_slash_models.py,UserProfile.get_can_upload_activitylog,1
+c:/src/pylint-intervention/data/in_the_wild\versions/django-oppia/0782515fe167587b66de27b6671852df51335fae/after/profile_slash_models.py,CustomField.__str__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/django-oppia/0782515fe167587b66de27b6671852df51335fae/after/profile_slash_models.py,UserProfileCustomField.__str__,1

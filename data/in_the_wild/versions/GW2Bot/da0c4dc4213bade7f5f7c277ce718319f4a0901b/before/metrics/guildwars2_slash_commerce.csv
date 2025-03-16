@@ -1,1 +1,13 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/GW2Bot/da0c4dc4213bade7f5f7c277ce718319f4a0901b/before/guildwars2_slash_commerce.py,CommerceMixin.get_tp_embed,12
+c:/src/pylint-intervention/data/in_the_wild\versions/GW2Bot/da0c4dc4213bade7f5f7c277ce718319f4a0901b/before/guildwars2_slash_commerce.py,CommerceMixin.tp_price,12
+c:/src/pylint-intervention/data/in_the_wild\versions/GW2Bot/da0c4dc4213bade7f5f7c277ce718319f4a0901b/before/guildwars2_slash_commerce.py,CommerceMixin.tp_delivery,7
+c:/src/pylint-intervention/data/in_the_wild\versions/GW2Bot/da0c4dc4213bade7f5f7c277ce718319f4a0901b/before/guildwars2_slash_commerce.py,CommerceMixin,5
+c:/src/pylint-intervention/data/in_the_wild\versions/GW2Bot/da0c4dc4213bade7f5f7c277ce718319f4a0901b/before/guildwars2_slash_commerce.py,CommerceMixin.gold_to_coins,4
+c:/src/pylint-intervention/data/in_the_wild\versions/GW2Bot/da0c4dc4213bade7f5f7c277ce718319f4a0901b/before/guildwars2_slash_commerce.py,CommerceMixin.gem_price,3
+c:/src/pylint-intervention/data/in_the_wild\versions/GW2Bot/da0c4dc4213bade7f5f7c277ce718319f4a0901b/before/guildwars2_slash_commerce.py,CommerceMixin.tp_selling,2
+c:/src/pylint-intervention/data/in_the_wild\versions/GW2Bot/da0c4dc4213bade7f5f7c277ce718319f4a0901b/before/guildwars2_slash_commerce.py,CommerceMixin.tp_buying,2
+c:/src/pylint-intervention/data/in_the_wild\versions/GW2Bot/da0c4dc4213bade7f5f7c277ce718319f4a0901b/before/guildwars2_slash_commerce.py,CommerceMixin.gem_track,2
+c:/src/pylint-intervention/data/in_the_wild\versions/GW2Bot/da0c4dc4213bade7f5f7c277ce718319f4a0901b/before/guildwars2_slash_commerce.py,CommerceMixin.rarity_to_color,1
+c:/src/pylint-intervention/data/in_the_wild\versions/GW2Bot/da0c4dc4213bade7f5f7c277ce718319f4a0901b/before/guildwars2_slash_commerce.py,CommerceMixin.get_gem_price,1
+c:/src/pylint-intervention/data/in_the_wild\versions/GW2Bot/da0c4dc4213bade7f5f7c277ce718319f4a0901b/before/guildwars2_slash_commerce.py,CommerceMixin.get_coin_price,1

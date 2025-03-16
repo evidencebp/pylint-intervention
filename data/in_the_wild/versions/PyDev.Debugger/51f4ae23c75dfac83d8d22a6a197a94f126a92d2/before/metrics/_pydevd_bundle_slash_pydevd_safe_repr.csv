@@ -1,1 +1,13 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/PyDev.Debugger/51f4ae23c75dfac83d8d22a6a197a94f126a92d2/before/_pydevd_bundle_slash_pydevd_safe_repr.py,SafeRepr._repr_obj,21
+c:/src/pylint-intervention/data/in_the_wild\versions/PyDev.Debugger/51f4ae23c75dfac83d8d22a6a197a94f126a92d2/before/_pydevd_bundle_slash_pydevd_safe_repr.py,SafeRepr._is_long_iter,17
+c:/src/pylint-intervention/data/in_the_wild\versions/PyDev.Debugger/51f4ae23c75dfac83d8d22a6a197a94f126a92d2/before/_pydevd_bundle_slash_pydevd_safe_repr.py,SafeRepr._repr_dict,13
+c:/src/pylint-intervention/data/in_the_wild\versions/PyDev.Debugger/51f4ae23c75dfac83d8d22a6a197a94f126a92d2/before/_pydevd_bundle_slash_pydevd_safe_repr.py,SafeRepr._repr,12
+c:/src/pylint-intervention/data/in_the_wild\versions/PyDev.Debugger/51f4ae23c75dfac83d8d22a6a197a94f126a92d2/before/_pydevd_bundle_slash_pydevd_safe_repr.py,SafeRepr,10
+c:/src/pylint-intervention/data/in_the_wild\versions/PyDev.Debugger/51f4ae23c75dfac83d8d22a6a197a94f126a92d2/before/_pydevd_bundle_slash_pydevd_safe_repr.py,SafeRepr._repr_iter,10
+c:/src/pylint-intervention/data/in_the_wild\versions/PyDev.Debugger/51f4ae23c75dfac83d8d22a6a197a94f126a92d2/before/_pydevd_bundle_slash_pydevd_safe_repr.py,SafeRepr._bytes_as_unicode_if_possible,9
+c:/src/pylint-intervention/data/in_the_wild\versions/PyDev.Debugger/51f4ae23c75dfac83d8d22a6a197a94f126a92d2/before/_pydevd_bundle_slash_pydevd_safe_repr.py,SafeRepr._repr_str,7
+c:/src/pylint-intervention/data/in_the_wild\versions/PyDev.Debugger/51f4ae23c75dfac83d8d22a6a197a94f126a92d2/before/_pydevd_bundle_slash_pydevd_safe_repr.py,SafeRepr.__call__,6
+c:/src/pylint-intervention/data/in_the_wild\versions/PyDev.Debugger/51f4ae23c75dfac83d8d22a6a197a94f126a92d2/before/_pydevd_bundle_slash_pydevd_safe_repr.py,SafeRepr._repr_long_iter,4
+c:/src/pylint-intervention/data/in_the_wild\versions/PyDev.Debugger/51f4ae23c75dfac83d8d22a6a197a94f126a92d2/before/_pydevd_bundle_slash_pydevd_safe_repr.py,SafeRepr._convert_to_unicode_or_bytes_repr,4
+c:/src/pylint-intervention/data/in_the_wild\versions/PyDev.Debugger/51f4ae23c75dfac83d8d22a6a197a94f126a92d2/before/_pydevd_bundle_slash_pydevd_safe_repr.py,SafeRepr._repr_other,1

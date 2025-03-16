@@ -1,1 +1,8 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/psychopy/877f712c137332ef0c41fa62fa5fad105f56733a/after/psychopy_slash_core.py,quit,5
+c:/src/pylint-intervention/data/in_the_wild\versions/psychopy/877f712c137332ef0c41fa62fa5fad105f56733a/after/psychopy_slash_core.py,wait,5
+c:/src/pylint-intervention/data/in_the_wild\versions/psychopy/877f712c137332ef0c41fa62fa5fad105f56733a/after/psychopy_slash_core.py,shellCall,3
+c:/src/pylint-intervention/data/in_the_wild\versions/psychopy/877f712c137332ef0c41fa62fa5fad105f56733a/after/psychopy_slash_core.py,Clock,2
+c:/src/pylint-intervention/data/in_the_wild\versions/psychopy/877f712c137332ef0c41fa62fa5fad105f56733a/after/psychopy_slash_core.py,Clock.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/psychopy/877f712c137332ef0c41fa62fa5fad105f56733a/after/psychopy_slash_core.py,Clock.getTime,1
+c:/src/pylint-intervention/data/in_the_wild\versions/psychopy/877f712c137332ef0c41fa62fa5fad105f56733a/after/psychopy_slash_core.py,Clock.reset,1

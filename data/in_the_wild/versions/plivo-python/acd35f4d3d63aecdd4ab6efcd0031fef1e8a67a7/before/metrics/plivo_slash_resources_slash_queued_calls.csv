@@ -1,1 +1,5 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/plivo-python/acd35f4d3d63aecdd4ab6efcd0031fef1e8a67a7/before/plivo_slash_resources_slash_queued_calls.py,QueuedCalls,2
+c:/src/pylint-intervention/data/in_the_wild\versions/plivo-python/acd35f4d3d63aecdd4ab6efcd0031fef1e8a67a7/before/plivo_slash_resources_slash_queued_calls.py,QueuedCall,1
+c:/src/pylint-intervention/data/in_the_wild\versions/plivo-python/acd35f4d3d63aecdd4ab6efcd0031fef1e8a67a7/before/plivo_slash_resources_slash_queued_calls.py,QueuedCalls.list_ids,1
+c:/src/pylint-intervention/data/in_the_wild\versions/plivo-python/acd35f4d3d63aecdd4ab6efcd0031fef1e8a67a7/before/plivo_slash_resources_slash_queued_calls.py,QueuedCalls.get,1

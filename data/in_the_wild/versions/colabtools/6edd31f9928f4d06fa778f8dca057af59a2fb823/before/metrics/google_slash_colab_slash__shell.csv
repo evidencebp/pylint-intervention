@@ -1,1 +1,14 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/colabtools/6edd31f9928f4d06fa778f8dca057af59a2fb823/before/google_slash_colab_slash__shell.py,Shell._ofind,22
+c:/src/pylint-intervention/data/in_the_wild\versions/colabtools/6edd31f9928f4d06fa778f8dca057af59a2fb823/before/google_slash_colab_slash__shell.py,Shell,5
+c:/src/pylint-intervention/data/in_the_wild\versions/colabtools/6edd31f9928f4d06fa778f8dca057af59a2fb823/before/google_slash_colab_slash__shell.py,Shell.system,5
+c:/src/pylint-intervention/data/in_the_wild\versions/colabtools/6edd31f9928f4d06fa778f8dca057af59a2fb823/before/google_slash_colab_slash__shell.py,Shell._getattr_property,5
+c:/src/pylint-intervention/data/in_the_wild\versions/colabtools/6edd31f9928f4d06fa778f8dca057af59a2fb823/before/google_slash_colab_slash__shell.py,Shell.getoutput,4
+c:/src/pylint-intervention/data/in_the_wild\versions/colabtools/6edd31f9928f4d06fa778f8dca057af59a2fb823/before/google_slash_colab_slash__shell.py,Shell._showtraceback,3
+c:/src/pylint-intervention/data/in_the_wild\versions/colabtools/6edd31f9928f4d06fa778f8dca057af59a2fb823/before/google_slash_colab_slash__shell.py,Shell.object_inspect,3
+c:/src/pylint-intervention/data/in_the_wild\versions/colabtools/6edd31f9928f4d06fa778f8dca057af59a2fb823/before/google_slash_colab_slash__shell.py,Shell._send_error,2
+c:/src/pylint-intervention/data/in_the_wild\versions/colabtools/6edd31f9928f4d06fa778f8dca057af59a2fb823/before/google_slash_colab_slash__shell.py,_show_pip_warning,1
+c:/src/pylint-intervention/data/in_the_wild\versions/colabtools/6edd31f9928f4d06fa778f8dca057af59a2fb823/before/google_slash_colab_slash__shell.py,Shell.init_events,1
+c:/src/pylint-intervention/data/in_the_wild\versions/colabtools/6edd31f9928f4d06fa778f8dca057af59a2fb823/before/google_slash_colab_slash__shell.py,Shell.init_inspector,1
+c:/src/pylint-intervention/data/in_the_wild\versions/colabtools/6edd31f9928f4d06fa778f8dca057af59a2fb823/before/google_slash_colab_slash__shell.py,Shell.init_history,1
+c:/src/pylint-intervention/data/in_the_wild\versions/colabtools/6edd31f9928f4d06fa778f8dca057af59a2fb823/before/google_slash_colab_slash__shell.py,Shell._should_use_native_system_methods,1

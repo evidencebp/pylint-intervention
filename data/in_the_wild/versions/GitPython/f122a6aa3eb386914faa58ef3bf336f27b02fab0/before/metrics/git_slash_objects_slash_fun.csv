@@ -1,1 +1,7 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/GitPython/f122a6aa3eb386914faa58ef3bf336f27b02fab0/before/git_slash_objects_slash_fun.py,traverse_trees_recursive,13
+c:/src/pylint-intervention/data/in_the_wild\versions/GitPython/f122a6aa3eb386914faa58ef3bf336f27b02fab0/before/git_slash_objects_slash_fun.py,_find_by_name,9
+c:/src/pylint-intervention/data/in_the_wild\versions/GitPython/f122a6aa3eb386914faa58ef3bf336f27b02fab0/before/git_slash_objects_slash_fun.py,tree_to_stream,5
+c:/src/pylint-intervention/data/in_the_wild\versions/GitPython/f122a6aa3eb386914faa58ef3bf336f27b02fab0/before/git_slash_objects_slash_fun.py,tree_entries_from_data,5
+c:/src/pylint-intervention/data/in_the_wild\versions/GitPython/f122a6aa3eb386914faa58ef3bf336f27b02fab0/before/git_slash_objects_slash_fun.py,traverse_tree_recursive,3
+c:/src/pylint-intervention/data/in_the_wild\versions/GitPython/f122a6aa3eb386914faa58ef3bf336f27b02fab0/before/git_slash_objects_slash_fun.py,_to_full_path,2

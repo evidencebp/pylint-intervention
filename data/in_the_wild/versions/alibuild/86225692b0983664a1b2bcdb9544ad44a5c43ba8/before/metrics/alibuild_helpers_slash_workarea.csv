@@ -1,1 +1,4 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/alibuild/86225692b0983664a1b2bcdb9544ad44a5c43ba8/before/alibuild_helpers_slash_workarea.py,updateReferenceRepo,13
+c:/src/pylint-intervention/data/in_the_wild\versions/alibuild/86225692b0983664a1b2bcdb9544ad44a5c43ba8/before/alibuild_helpers_slash_workarea.py,updateReferenceRepoSpec,2
+c:/src/pylint-intervention/data/in_the_wild\versions/alibuild/86225692b0983664a1b2bcdb9544ad44a5c43ba8/before/alibuild_helpers_slash_workarea.py,is_writeable,2

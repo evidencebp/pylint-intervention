@@ -1,1 +1,7 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/pex/2b3bdee8cd99ffab0538a63fdd36de8de356f857/before/pex_slash_finders.py,get_entry_point_from_console_script,6
+c:/src/pylint-intervention/data/in_the_wild\versions/pex/2b3bdee8cd99ffab0538a63fdd36de8de356f857/before/pex_slash_finders.py,get_script_from_distributions,3
+c:/src/pylint-intervention/data/in_the_wild\versions/pex/2b3bdee8cd99ffab0538a63fdd36de8de356f857/before/pex_slash_finders.py,DistributionScript,3
+c:/src/pylint-intervention/data/in_the_wild\versions/pex/2b3bdee8cd99ffab0538a63fdd36de8de356f857/before/pex_slash_finders.py,DistributionScript.python_script,3
+c:/src/pylint-intervention/data/in_the_wild\versions/pex/2b3bdee8cd99ffab0538a63fdd36de8de356f857/before/pex_slash_finders.py,DistributionScript.find,2
+c:/src/pylint-intervention/data/in_the_wild\versions/pex/2b3bdee8cd99ffab0538a63fdd36de8de356f857/before/pex_slash_finders.py,DistributionScript.read_contents,1

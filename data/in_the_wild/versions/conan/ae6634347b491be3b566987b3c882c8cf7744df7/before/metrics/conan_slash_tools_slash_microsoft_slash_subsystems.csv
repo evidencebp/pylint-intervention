@@ -1,1 +1,6 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/conan/ae6634347b491be3b566987b3c882c8cf7744df7/before/conan_slash_tools_slash_microsoft_slash_subsystems.py,run_in_windows_bash,12
+c:/src/pylint-intervention/data/in_the_wild\versions/conan/ae6634347b491be3b566987b3c882c8cf7744df7/before/conan_slash_tools_slash_microsoft_slash_subsystems.py,subsystem_path,11
+c:/src/pylint-intervention/data/in_the_wild\versions/conan/ae6634347b491be3b566987b3c882c8cf7744df7/before/conan_slash_tools_slash_microsoft_slash_subsystems.py,deduce_subsystem,9
+c:/src/pylint-intervention/data/in_the_wild\versions/conan/ae6634347b491be3b566987b3c882c8cf7744df7/before/conan_slash_tools_slash_microsoft_slash_subsystems.py,get_cased_path,8
+c:/src/pylint-intervention/data/in_the_wild\versions/conan/ae6634347b491be3b566987b3c882c8cf7744df7/before/conan_slash_tools_slash_microsoft_slash_subsystems.py,escape_windows_cmd,3

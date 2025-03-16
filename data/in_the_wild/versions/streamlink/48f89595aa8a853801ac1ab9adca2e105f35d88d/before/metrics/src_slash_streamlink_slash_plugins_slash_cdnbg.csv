@@ -1,1 +1,4 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/streamlink/48f89595aa8a853801ac1ab9adca2e105f35d88d/before/src_slash_streamlink_slash_plugins_slash_cdnbg.py,CDNBG,4
+c:/src/pylint-intervention/data/in_the_wild\versions/streamlink/48f89595aa8a853801ac1ab9adca2e105f35d88d/before/src_slash_streamlink_slash_plugins_slash_cdnbg.py,CDNBG.find_iframe,3
+c:/src/pylint-intervention/data/in_the_wild\versions/streamlink/48f89595aa8a853801ac1ab9adca2e105f35d88d/before/src_slash_streamlink_slash_plugins_slash_cdnbg.py,CDNBG._get_streams,2

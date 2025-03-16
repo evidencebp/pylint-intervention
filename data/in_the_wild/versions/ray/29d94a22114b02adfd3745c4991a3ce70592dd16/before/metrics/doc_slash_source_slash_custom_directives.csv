@@ -1,1 +1,6 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/ray/29d94a22114b02adfd3745c4991a3ce70592dd16/before/doc_slash_source_slash_custom_directives.py,CustomGalleryItemDirective,6
+c:/src/pylint-intervention/data/in_the_wild\versions/ray/29d94a22114b02adfd3745c4991a3ce70592dd16/before/doc_slash_source_slash_custom_directives.py,CustomGalleryItemDirective.run,5
+c:/src/pylint-intervention/data/in_the_wild\versions/ray/29d94a22114b02adfd3745c4991a3ce70592dd16/before/doc_slash_source_slash_custom_directives.py,fix_xgb_lgbm_docs,4
+c:/src/pylint-intervention/data/in_the_wild\versions/ray/29d94a22114b02adfd3745c4991a3ce70592dd16/before/doc_slash_source_slash_custom_directives.py,feedback_form_url,1
+c:/src/pylint-intervention/data/in_the_wild\versions/ray/29d94a22114b02adfd3745c4991a3ce70592dd16/before/doc_slash_source_slash_custom_directives.py,update_context,1

@@ -1,1 +1,5 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/Medusa/6da7bfa9017fe726add1c5ce1450adfa0ac58335/before/ext_slash_knowit_slash_utils.py,recurse_paths,16
+c:/src/pylint-intervention/data/in_the_wild\versions/Medusa/6da7bfa9017fe726add1c5ce1450adfa0ac58335/before/ext_slash_knowit_slash_utils.py,todict,15
+c:/src/pylint-intervention/data/in_the_wild\versions/Medusa/6da7bfa9017fe726add1c5ce1450adfa0ac58335/before/ext_slash_knowit_slash_utils.py,define_candidate,10
+c:/src/pylint-intervention/data/in_the_wild\versions/Medusa/6da7bfa9017fe726add1c5ce1450adfa0ac58335/before/ext_slash_knowit_slash_utils.py,detect_os,3

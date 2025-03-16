@@ -1,1 +1,9 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/bench/3c3007407826173e034cd3b45cd80fa82a9fd18d/before/bench_slash_app.py,pull_all_apps,6
+c:/src/pylint-intervention/data/in_the_wild\versions/bench/3c3007407826173e034cd3b45cd80fa82a9fd18d/before/bench_slash_app.py,get_app,5
+c:/src/pylint-intervention/data/in_the_wild\versions/bench/3c3007407826173e034cd3b45cd80fa82a9fd18d/before/bench_slash_app.py,get_apps,2
+c:/src/pylint-intervention/data/in_the_wild\versions/bench/3c3007407826173e034cd3b45cd80fa82a9fd18d/before/bench_slash_app.py,add_to_appstxt,2
+c:/src/pylint-intervention/data/in_the_wild\versions/bench/3c3007407826173e034cd3b45cd80fa82a9fd18d/before/bench_slash_app.py,install_app,2
+c:/src/pylint-intervention/data/in_the_wild\versions/bench/3c3007407826173e034cd3b45cd80fa82a9fd18d/before/bench_slash_app.py,install_apps_from_path,2
+c:/src/pylint-intervention/data/in_the_wild\versions/bench/3c3007407826173e034cd3b45cd80fa82a9fd18d/before/bench_slash_app.py,get_apps_json,2
+c:/src/pylint-intervention/data/in_the_wild\versions/bench/3c3007407826173e034cd3b45cd80fa82a9fd18d/before/bench_slash_app.py,new_app,1

@@ -1,1 +1,5 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/opentitan/75a2452b170e23caeb5e7d3e56496937c68b645a/after/hw_slash_top_englishbreakfast_slash_util_slash_prepare_sw.py,find_dirs,4
+c:/src/pylint-intervention/data/in_the_wild\versions/opentitan/75a2452b170e23caeb5e7d3e56496937c68b645a/after/hw_slash_top_englishbreakfast_slash_util_slash_prepare_sw.py,main,4
+c:/src/pylint-intervention/data/in_the_wild\versions/opentitan/75a2452b170e23caeb5e7d3e56496937c68b645a/after/hw_slash_top_englishbreakfast_slash_util_slash_prepare_sw.py,delete_path,3
+c:/src/pylint-intervention/data/in_the_wild\versions/opentitan/75a2452b170e23caeb5e7d3e56496937c68b645a/after/hw_slash_top_englishbreakfast_slash_util_slash_prepare_sw.py,shell_out,1

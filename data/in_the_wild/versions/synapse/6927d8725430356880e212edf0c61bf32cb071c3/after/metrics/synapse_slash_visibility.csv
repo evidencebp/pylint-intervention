@@ -1,1 +1,5 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/synapse/6927d8725430356880e212edf0c61bf32cb071c3/after/synapse_slash_visibility.py,filter_events_for_client,11
+c:/src/pylint-intervention/data/in_the_wild\versions/synapse/6927d8725430356880e212edf0c61bf32cb071c3/after/synapse_slash_visibility.py,_event_to_history_vis,10
+c:/src/pylint-intervention/data/in_the_wild\versions/synapse/6927d8725430356880e212edf0c61bf32cb071c3/after/synapse_slash_visibility.py,_event_to_memberships,10
+c:/src/pylint-intervention/data/in_the_wild\versions/synapse/6927d8725430356880e212edf0c61bf32cb071c3/after/synapse_slash_visibility.py,filter_events_for_server,9

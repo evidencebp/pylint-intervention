@@ -1,1 +1,17 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/WeasyPrint/9b4150c406e45fde9f0dd1832409b368f521f9a4/after/weasyprint_slash_document.py,Document.write_pdf,60
+c:/src/pylint-intervention/data/in_the_wild\versions/WeasyPrint/9b4150c406e45fde9f0dd1832409b368f521f9a4/after/weasyprint_slash_document.py,Document,12
+c:/src/pylint-intervention/data/in_the_wild\versions/WeasyPrint/9b4150c406e45fde9f0dd1832409b368f521f9a4/after/weasyprint_slash_document.py,Document._use_references,12
+c:/src/pylint-intervention/data/in_the_wild\versions/WeasyPrint/9b4150c406e45fde9f0dd1832409b368f521f9a4/after/weasyprint_slash_document.py,_w3c_date_to_pdf,11
+c:/src/pylint-intervention/data/in_the_wild\versions/WeasyPrint/9b4150c406e45fde9f0dd1832409b368f521f9a4/after/weasyprint_slash_document.py,_write_pdf_attachment,9
+c:/src/pylint-intervention/data/in_the_wild\versions/WeasyPrint/9b4150c406e45fde9f0dd1832409b368f521f9a4/after/weasyprint_slash_document.py,Document._build_layout_context,7
+c:/src/pylint-intervention/data/in_the_wild\versions/WeasyPrint/9b4150c406e45fde9f0dd1832409b368f521f9a4/after/weasyprint_slash_document.py,DocumentMetadata,5
+c:/src/pylint-intervention/data/in_the_wild\versions/WeasyPrint/9b4150c406e45fde9f0dd1832409b368f521f9a4/after/weasyprint_slash_document.py,DocumentMetadata.__init__,4
+c:/src/pylint-intervention/data/in_the_wild\versions/WeasyPrint/9b4150c406e45fde9f0dd1832409b368f521f9a4/after/weasyprint_slash_document.py,Document._render,4
+c:/src/pylint-intervention/data/in_the_wild\versions/WeasyPrint/9b4150c406e45fde9f0dd1832409b368f521f9a4/after/weasyprint_slash_document.py,Page,3
+c:/src/pylint-intervention/data/in_the_wild\versions/WeasyPrint/9b4150c406e45fde9f0dd1832409b368f521f9a4/after/weasyprint_slash_document.py,Document._reference_resources,3
+c:/src/pylint-intervention/data/in_the_wild\versions/WeasyPrint/9b4150c406e45fde9f0dd1832409b368f521f9a4/after/weasyprint_slash_document.py,Document.copy,3
+c:/src/pylint-intervention/data/in_the_wild\versions/WeasyPrint/9b4150c406e45fde9f0dd1832409b368f521f9a4/after/weasyprint_slash_document.py,Page.__init__,2
+c:/src/pylint-intervention/data/in_the_wild\versions/WeasyPrint/9b4150c406e45fde9f0dd1832409b368f521f9a4/after/weasyprint_slash_document.py,Page.paint,2
+c:/src/pylint-intervention/data/in_the_wild\versions/WeasyPrint/9b4150c406e45fde9f0dd1832409b368f521f9a4/after/weasyprint_slash_document.py,Document.make_bookmark_tree,2
+c:/src/pylint-intervention/data/in_the_wild\versions/WeasyPrint/9b4150c406e45fde9f0dd1832409b368f521f9a4/after/weasyprint_slash_document.py,Document.__init__,1

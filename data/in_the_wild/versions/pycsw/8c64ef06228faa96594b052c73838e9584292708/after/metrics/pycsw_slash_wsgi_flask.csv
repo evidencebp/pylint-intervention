@@ -1,1 +1,14 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/pycsw/8c64ef06228faa96594b052c73838e9584292708/after/pycsw_slash_wsgi_flask.py,get_response,2
+c:/src/pylint-intervention/data/in_the_wild\versions/pycsw/8c64ef06228faa96594b052c73838e9584292708/after/pycsw_slash_wsgi_flask.py,items,2
+c:/src/pylint-intervention/data/in_the_wild\versions/pycsw/8c64ef06228faa96594b052c73838e9584292708/after/pycsw_slash_wsgi_flask.py,item,2
+c:/src/pylint-intervention/data/in_the_wild\versions/pycsw/8c64ef06228faa96594b052c73838e9584292708/after/pycsw_slash_wsgi_flask.py,landing_page,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pycsw/8c64ef06228faa96594b052c73838e9584292708/after/pycsw_slash_wsgi_flask.py,openapi,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pycsw/8c64ef06228faa96594b052c73838e9584292708/after/pycsw_slash_wsgi_flask.py,conformance,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pycsw/8c64ef06228faa96594b052c73838e9584292708/after/pycsw_slash_wsgi_flask.py,collections,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pycsw/8c64ef06228faa96594b052c73838e9584292708/after/pycsw_slash_wsgi_flask.py,collection,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pycsw/8c64ef06228faa96594b052c73838e9584292708/after/pycsw_slash_wsgi_flask.py,queryables,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pycsw/8c64ef06228faa96594b052c73838e9584292708/after/pycsw_slash_wsgi_flask.py,csw,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pycsw/8c64ef06228faa96594b052c73838e9584292708/after/pycsw_slash_wsgi_flask.py,opensearch,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pycsw/8c64ef06228faa96594b052c73838e9584292708/after/pycsw_slash_wsgi_flask.py,oaipmh,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pycsw/8c64ef06228faa96594b052c73838e9584292708/after/pycsw_slash_wsgi_flask.py,sru,1

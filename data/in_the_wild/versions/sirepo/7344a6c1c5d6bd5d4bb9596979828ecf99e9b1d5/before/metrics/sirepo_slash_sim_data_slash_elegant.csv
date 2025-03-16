@@ -1,1 +1,10 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/sirepo/7344a6c1c5d6bd5d4bb9596979828ecf99e9b1d5/before/sirepo_slash_sim_data_slash_elegant.py,SimData.fixup_old_data,22
+c:/src/pylint-intervention/data/in_the_wild\versions/sirepo/7344a6c1c5d6bd5d4bb9596979828ecf99e9b1d5/before/sirepo_slash_sim_data_slash_elegant.py,SimData,6
+c:/src/pylint-intervention/data/in_the_wild\versions/sirepo/7344a6c1c5d6bd5d4bb9596979828ecf99e9b1d5/before/sirepo_slash_sim_data_slash_elegant.py,SimData.elegant_max_id,6
+c:/src/pylint-intervention/data/in_the_wild\versions/sirepo/7344a6c1c5d6bd5d4bb9596979828ecf99e9b1d5/before/sirepo_slash_sim_data_slash_elegant.py,SimData._compute_job_fields,4
+c:/src/pylint-intervention/data/in_the_wild\versions/sirepo/7344a6c1c5d6bd5d4bb9596979828ecf99e9b1d5/before/sirepo_slash_sim_data_slash_elegant.py,SimData.__create_command,3
+c:/src/pylint-intervention/data/in_the_wild\versions/sirepo/7344a6c1c5d6bd5d4bb9596979828ecf99e9b1d5/before/sirepo_slash_sim_data_slash_elegant.py,SimData.__find_first_bunch_command,3
+c:/src/pylint-intervention/data/in_the_wild\versions/sirepo/7344a6c1c5d6bd5d4bb9596979828ecf99e9b1d5/before/sirepo_slash_sim_data_slash_elegant.py,SimData._lib_files,2
+c:/src/pylint-intervention/data/in_the_wild\versions/sirepo/7344a6c1c5d6bd5d4bb9596979828ecf99e9b1d5/before/sirepo_slash_sim_data_slash_elegant.py,SimData.__create_commands,2
+c:/src/pylint-intervention/data/in_the_wild\versions/sirepo/7344a6c1c5d6bd5d4bb9596979828ecf99e9b1d5/before/sirepo_slash_sim_data_slash_elegant.py,SimData.resource_files,1

@@ -1,1 +1,12 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/schemaorg/06c03957d4915e4689690ee7f00d8438fa876234/after/software_slash_util_slash_buildocspages.py,homePage,16
+c:/src/pylint-intervention/data/in_the_wild\versions/schemaorg/06c03957d4915e4689690ee7f00d8438fa876234/after/software_slash_util_slash_buildocspages.py,_jsonldtree,10
+c:/src/pylint-intervention/data/in_the_wild\versions/schemaorg/06c03957d4915e4689690ee7f00d8438fa876234/after/software_slash_util_slash_buildocspages.py,buildDocs,7
+c:/src/pylint-intervention/data/in_the_wild\versions/schemaorg/06c03957d4915e4689690ee7f00d8438fa876234/after/software_slash_util_slash_buildocspages.py,listingNode,7
+c:/src/pylint-intervention/data/in_the_wild\versions/schemaorg/06c03957d4915e4689690ee7f00d8438fa876234/after/software_slash_util_slash_buildocspages.py,listingNode.__init__,6
+c:/src/pylint-intervention/data/in_the_wild\versions/schemaorg/06c03957d4915e4689690ee7f00d8438fa876234/after/software_slash_util_slash_buildocspages.py,docsTemplateRender,2
+c:/src/pylint-intervention/data/in_the_wild\versions/schemaorg/06c03957d4915e4689690ee7f00d8438fa876234/after/software_slash_util_slash_buildocspages.py,fullPage,2
+c:/src/pylint-intervention/data/in_the_wild\versions/schemaorg/06c03957d4915e4689690ee7f00d8438fa876234/after/software_slash_util_slash_buildocspages.py,fileName,1
+c:/src/pylint-intervention/data/in_the_wild\versions/schemaorg/06c03957d4915e4689690ee7f00d8438fa876234/after/software_slash_util_slash_buildocspages.py,schemasPage,1
+c:/src/pylint-intervention/data/in_the_wild\versions/schemaorg/06c03957d4915e4689690ee7f00d8438fa876234/after/software_slash_util_slash_buildocspages.py,jsonldtree,1
+c:/src/pylint-intervention/data/in_the_wild\versions/schemaorg/06c03957d4915e4689690ee7f00d8438fa876234/after/software_slash_util_slash_buildocspages.py,fullReleasePage,1

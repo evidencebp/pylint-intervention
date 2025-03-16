@@ -1,1 +1,10 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/Tuxemon/2ee8582a84aa7515dcf94e10d712dec7ba3a4bdb/after/tuxemon_slash_ui_slash_text.py,draw_text,15
+c:/src/pylint-intervention/data/in_the_wild\versions/Tuxemon/2ee8582a84aa7515dcf94e10d712dec7ba3a4bdb/after/tuxemon_slash_ui_slash_text.py,TextArea.text,3
+c:/src/pylint-intervention/data/in_the_wild\versions/Tuxemon/2ee8582a84aa7515dcf94e10d712dec7ba3a4bdb/after/tuxemon_slash_ui_slash_text.py,TextArea.__next__,3
+c:/src/pylint-intervention/data/in_the_wild\versions/Tuxemon/2ee8582a84aa7515dcf94e10d712dec7ba3a4bdb/after/tuxemon_slash_ui_slash_text.py,TextArea,2
+c:/src/pylint-intervention/data/in_the_wild\versions/Tuxemon/2ee8582a84aa7515dcf94e10d712dec7ba3a4bdb/after/tuxemon_slash_ui_slash_text.py,TextArea.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/Tuxemon/2ee8582a84aa7515dcf94e10d712dec7ba3a4bdb/after/tuxemon_slash_ui_slash_text.py,TextArea.__iter__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/Tuxemon/2ee8582a84aa7515dcf94e10d712dec7ba3a4bdb/after/tuxemon_slash_ui_slash_text.py,TextArea.__len__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/Tuxemon/2ee8582a84aa7515dcf94e10d712dec7ba3a4bdb/after/tuxemon_slash_ui_slash_text.py,TextArea.text,1
+c:/src/pylint-intervention/data/in_the_wild\versions/Tuxemon/2ee8582a84aa7515dcf94e10d712dec7ba3a4bdb/after/tuxemon_slash_ui_slash_text.py,TextArea._start_text_animation,1

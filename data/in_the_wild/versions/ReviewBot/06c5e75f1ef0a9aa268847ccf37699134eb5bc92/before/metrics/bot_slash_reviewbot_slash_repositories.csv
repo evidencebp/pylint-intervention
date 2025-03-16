@@ -1,1 +1,14 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/ReviewBot/06c5e75f1ef0a9aa268847ccf37699134eb5bc92/before/bot_slash_reviewbot_slash_repositories.py,fetch_repositories,8
+c:/src/pylint-intervention/data/in_the_wild\versions/ReviewBot/06c5e75f1ef0a9aa268847ccf37699134eb5bc92/before/bot_slash_reviewbot_slash_repositories.py,init_repository,3
+c:/src/pylint-intervention/data/in_the_wild\versions/ReviewBot/06c5e75f1ef0a9aa268847ccf37699134eb5bc92/before/bot_slash_reviewbot_slash_repositories.py,init_repositories,3
+c:/src/pylint-intervention/data/in_the_wild\versions/ReviewBot/06c5e75f1ef0a9aa268847ccf37699134eb5bc92/before/bot_slash_reviewbot_slash_repositories.py,Repository,2
+c:/src/pylint-intervention/data/in_the_wild\versions/ReviewBot/06c5e75f1ef0a9aa268847ccf37699134eb5bc92/before/bot_slash_reviewbot_slash_repositories.py,GitRepository,2
+c:/src/pylint-intervention/data/in_the_wild\versions/ReviewBot/06c5e75f1ef0a9aa268847ccf37699134eb5bc92/before/bot_slash_reviewbot_slash_repositories.py,GitRepository.sync,2
+c:/src/pylint-intervention/data/in_the_wild\versions/ReviewBot/06c5e75f1ef0a9aa268847ccf37699134eb5bc92/before/bot_slash_reviewbot_slash_repositories.py,HgRepository,2
+c:/src/pylint-intervention/data/in_the_wild\versions/ReviewBot/06c5e75f1ef0a9aa268847ccf37699134eb5bc92/before/bot_slash_reviewbot_slash_repositories.py,HgRepository.sync,2
+c:/src/pylint-intervention/data/in_the_wild\versions/ReviewBot/06c5e75f1ef0a9aa268847ccf37699134eb5bc92/before/bot_slash_reviewbot_slash_repositories.py,Repository.sync,1
+c:/src/pylint-intervention/data/in_the_wild\versions/ReviewBot/06c5e75f1ef0a9aa268847ccf37699134eb5bc92/before/bot_slash_reviewbot_slash_repositories.py,GitRepository.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/ReviewBot/06c5e75f1ef0a9aa268847ccf37699134eb5bc92/before/bot_slash_reviewbot_slash_repositories.py,GitRepository.checkout,1
+c:/src/pylint-intervention/data/in_the_wild\versions/ReviewBot/06c5e75f1ef0a9aa268847ccf37699134eb5bc92/before/bot_slash_reviewbot_slash_repositories.py,HgRepository.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/ReviewBot/06c5e75f1ef0a9aa268847ccf37699134eb5bc92/before/bot_slash_reviewbot_slash_repositories.py,HgRepository.checkout,1

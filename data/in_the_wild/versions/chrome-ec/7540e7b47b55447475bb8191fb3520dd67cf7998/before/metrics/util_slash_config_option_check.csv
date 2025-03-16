@@ -1,1 +1,11 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/chrome-ec/7540e7b47b55447475bb8191fb3520dd67cf7998/before/util_slash_config_option_check.py,obtain_config_options_in_use,20
+c:/src/pylint-intervention/data/in_the_wild\versions/chrome-ec/7540e7b47b55447475bb8191fb3520dd67cf7998/before/util_slash_config_option_check.py,get_hunks,19
+c:/src/pylint-intervention/data/in_the_wild\versions/chrome-ec/7540e7b47b55447475bb8191fb3520dd67cf7998/before/util_slash_config_option_check.py,print_missing_config_options,16
+c:/src/pylint-intervention/data/in_the_wild\versions/chrome-ec/7540e7b47b55447475bb8191fb3520dd67cf7998/before/util_slash_config_option_check.py,in_comment,10
+c:/src/pylint-intervention/data/in_the_wild\versions/chrome-ec/7540e7b47b55447475bb8191fb3520dd67cf7998/before/util_slash_config_option_check.py,obtain_current_config_options,4
+c:/src/pylint-intervention/data/in_the_wild\versions/chrome-ec/7540e7b47b55447475bb8191fb3520dd67cf7998/before/util_slash_config_option_check.py,main,2
+c:/src/pylint-intervention/data/in_the_wild\versions/chrome-ec/7540e7b47b55447475bb8191fb3520dd67cf7998/before/util_slash_config_option_check.py,Line,2
+c:/src/pylint-intervention/data/in_the_wild\versions/chrome-ec/7540e7b47b55447475bb8191fb3520dd67cf7998/before/util_slash_config_option_check.py,Hunk,2
+c:/src/pylint-intervention/data/in_the_wild\versions/chrome-ec/7540e7b47b55447475bb8191fb3520dd67cf7998/before/util_slash_config_option_check.py,Line.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/chrome-ec/7540e7b47b55447475bb8191fb3520dd67cf7998/before/util_slash_config_option_check.py,Hunk.__init__,1

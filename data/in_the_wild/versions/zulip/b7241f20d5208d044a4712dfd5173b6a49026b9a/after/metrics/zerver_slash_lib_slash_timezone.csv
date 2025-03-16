@@ -1,1 +1,5 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/zulip/b7241f20d5208d044a4712dfd5173b6a49026b9a/after/zerver_slash_lib_slash_timezone.py,_calculate_timezones,6
+c:/src/pylint-intervention/data/in_the_wild\versions/zulip/b7241f20d5208d044a4712dfd5173b6a49026b9a/after/zerver_slash_lib_slash_timezone.py,get_common_timezones,2
+c:/src/pylint-intervention/data/in_the_wild\versions/zulip/b7241f20d5208d044a4712dfd5173b6a49026b9a/after/zerver_slash_lib_slash_timezone.py,get_all_timezones,1
+c:/src/pylint-intervention/data/in_the_wild\versions/zulip/b7241f20d5208d044a4712dfd5173b6a49026b9a/after/zerver_slash_lib_slash_timezone.py,get_timezone,1

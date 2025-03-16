@@ -1,1 +1,9 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/ngsperl/124e20a89eaa2d5fa592dca0c256bdb2fb8914eb/before/lib_slash_scRNA_slash_enclone_to_clonotype.py,convert,15
+c:/src/pylint-intervention/data/in_the_wild\versions/ngsperl/124e20a89eaa2d5fa592dca0c256bdb2fb8914eb/before/lib_slash_scRNA_slash_enclone_to_clonotype.py,main,4
+c:/src/pylint-intervention/data/in_the_wild\versions/ngsperl/124e20a89eaa2d5fa592dca0c256bdb2fb8914eb/before/lib_slash_scRNA_slash_enclone_to_clonotype.py,check_file,2
+c:/src/pylint-intervention/data/in_the_wild\versions/ngsperl/124e20a89eaa2d5fa592dca0c256bdb2fb8914eb/before/lib_slash_scRNA_slash_enclone_to_clonotype.py,read_file_map,2
+c:/src/pylint-intervention/data/in_the_wild\versions/ngsperl/124e20a89eaa2d5fa592dca0c256bdb2fb8914eb/before/lib_slash_scRNA_slash_enclone_to_clonotype.py,initialize_logger,1
+c:/src/pylint-intervention/data/in_the_wild\versions/ngsperl/124e20a89eaa2d5fa592dca0c256bdb2fb8914eb/before/lib_slash_scRNA_slash_enclone_to_clonotype.py,getValidFilename,1
+c:/src/pylint-intervention/data/in_the_wild\versions/ngsperl/124e20a89eaa2d5fa592dca0c256bdb2fb8914eb/before/lib_slash_scRNA_slash_enclone_to_clonotype.py,runCommand,1
+c:/src/pylint-intervention/data/in_the_wild\versions/ngsperl/124e20a89eaa2d5fa592dca0c256bdb2fb8914eb/before/lib_slash_scRNA_slash_enclone_to_clonotype.py,sortByCells,1

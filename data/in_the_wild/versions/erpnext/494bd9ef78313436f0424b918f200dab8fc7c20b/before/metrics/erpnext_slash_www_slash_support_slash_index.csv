@@ -1,1 +1,5 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/erpnext/494bd9ef78313436f0424b918f200dab8fc7c20b/before/erpnext_slash_www_slash_support_slash_index.py,get_context,5
+c:/src/pylint-intervention/data/in_the_wild\versions/erpnext/494bd9ef78313436f0424b918f200dab8fc7c20b/before/erpnext_slash_www_slash_support_slash_index.py,get_favorite_articles,3
+c:/src/pylint-intervention/data/in_the_wild\versions/erpnext/494bd9ef78313436f0424b918f200dab8fc7c20b/before/erpnext_slash_www_slash_support_slash_index.py,get_help_article_list,3
+c:/src/pylint-intervention/data/in_the_wild\versions/erpnext/494bd9ef78313436f0424b918f200dab8fc7c20b/before/erpnext_slash_www_slash_support_slash_index.py,get_favorite_articles_by_page_view,1

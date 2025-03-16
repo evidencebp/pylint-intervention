@@ -1,1 +1,5 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/460ef47e8f76c1d1bae35ce45fbd05ac60dc347e/after/documents_slash_logic.py,add_file_to_course,7
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/460ef47e8f76c1d1bae35ce45fbd05ac60dc347e/after/documents_slash_logic.py,tags_from_name,6
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/460ef47e8f76c1d1bae35ce45fbd05ac60dc347e/after/documents_slash_logic.py,clean_filename,2
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/460ef47e8f76c1d1bae35ce45fbd05ac60dc347e/after/documents_slash_logic.py,cast_tag,2

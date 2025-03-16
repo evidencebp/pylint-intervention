@@ -1,1 +1,6 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/rdkit/a3062a2f816bc8e72a26f922e7bdcaa6fce4da0d/before/rdkit_slash_Chem_slash_MolDb_slash_Loader_sa.py,LoadDb,34
+c:/src/pylint-intervention/data/in_the_wild\versions/rdkit/a3062a2f816bc8e72a26f922e7bdcaa6fce4da0d/before/rdkit_slash_Chem_slash_MolDb_slash_Loader_sa.py,ProcessMol,12
+c:/src/pylint-intervention/data/in_the_wild\versions/rdkit/a3062a2f816bc8e72a26f922e7bdcaa6fce4da0d/before/rdkit_slash_Chem_slash_MolDb_slash_Loader_sa.py,RegisterSchema,1
+c:/src/pylint-intervention/data/in_the_wild\versions/rdkit/a3062a2f816bc8e72a26f922e7bdcaa6fce4da0d/before/rdkit_slash_Chem_slash_MolDb_slash_Loader_sa.py,_ConnectToSchema,1
+c:/src/pylint-intervention/data/in_the_wild\versions/rdkit/a3062a2f816bc8e72a26f922e7bdcaa6fce4da0d/before/rdkit_slash_Chem_slash_MolDb_slash_Loader_sa.py,Compound,1

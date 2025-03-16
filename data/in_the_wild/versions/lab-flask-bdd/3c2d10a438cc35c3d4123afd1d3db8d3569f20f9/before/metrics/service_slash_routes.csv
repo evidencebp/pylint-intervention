@@ -1,1 +1,14 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/lab-flask-bdd/3c2d10a438cc35c3d4123afd1d3db8d3569f20f9/before/service_slash_routes.py,list_pets,6
+c:/src/pylint-intervention/data/in_the_wild\versions/lab-flask-bdd/3c2d10a438cc35c3d4123afd1d3db8d3569f20f9/before/service_slash_routes.py,purchase_pets,3
+c:/src/pylint-intervention/data/in_the_wild\versions/lab-flask-bdd/3c2d10a438cc35c3d4123afd1d3db8d3569f20f9/before/service_slash_routes.py,check_content_type,3
+c:/src/pylint-intervention/data/in_the_wild\versions/lab-flask-bdd/3c2d10a438cc35c3d4123afd1d3db8d3569f20f9/before/service_slash_routes.py,initialize_logging,3
+c:/src/pylint-intervention/data/in_the_wild\versions/lab-flask-bdd/3c2d10a438cc35c3d4123afd1d3db8d3569f20f9/before/service_slash_routes.py,get_pets,2
+c:/src/pylint-intervention/data/in_the_wild\versions/lab-flask-bdd/3c2d10a438cc35c3d4123afd1d3db8d3569f20f9/before/service_slash_routes.py,create_pets,2
+c:/src/pylint-intervention/data/in_the_wild\versions/lab-flask-bdd/3c2d10a438cc35c3d4123afd1d3db8d3569f20f9/before/service_slash_routes.py,update_pets,2
+c:/src/pylint-intervention/data/in_the_wild\versions/lab-flask-bdd/3c2d10a438cc35c3d4123afd1d3db8d3569f20f9/before/service_slash_routes.py,delete_pets,2
+c:/src/pylint-intervention/data/in_the_wild\versions/lab-flask-bdd/3c2d10a438cc35c3d4123afd1d3db8d3569f20f9/before/service_slash_routes.py,data_reset,2
+c:/src/pylint-intervention/data/in_the_wild\versions/lab-flask-bdd/3c2d10a438cc35c3d4123afd1d3db8d3569f20f9/before/service_slash_routes.py,healthcheck,1
+c:/src/pylint-intervention/data/in_the_wild\versions/lab-flask-bdd/3c2d10a438cc35c3d4123afd1d3db8d3569f20f9/before/service_slash_routes.py,index,1
+c:/src/pylint-intervention/data/in_the_wild\versions/lab-flask-bdd/3c2d10a438cc35c3d4123afd1d3db8d3569f20f9/before/service_slash_routes.py,init_db,1
+c:/src/pylint-intervention/data/in_the_wild\versions/lab-flask-bdd/3c2d10a438cc35c3d4123afd1d3db8d3569f20f9/before/service_slash_routes.py,data_load,1

@@ -1,1 +1,5 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/yoda-portal/882e87577d00b57cc6facdc614953e8cbcfe29c1/after/stats_slash_stats.py,export,5
+c:/src/pylint-intervention/data/in_the_wild\versions/yoda-portal/882e87577d00b57cc6facdc614953e8cbcfe29c1/after/stats_slash_stats.py,index,4
+c:/src/pylint-intervention/data/in_the_wild\versions/yoda-portal/882e87577d00b57cc6facdc614953e8cbcfe29c1/after/stats_slash_stats.py,get_tiers,1
+c:/src/pylint-intervention/data/in_the_wild\versions/yoda-portal/882e87577d00b57cc6facdc614953e8cbcfe29c1/after/stats_slash_stats.py,get_resource_details,1

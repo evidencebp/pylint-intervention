@@ -1,1 +1,11 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/GPflow/aa9f042cb1b909908e1d3dc34e851ab6a5dff18e/before/gpflow_slash_optimizers_slash_scipy.py,Scipy.minimize,6
+c:/src/pylint-intervention/data/in_the_wild\versions/GPflow/aa9f042cb1b909908e1d3dc34e851ab6a5dff18e/before/gpflow_slash_optimizers_slash_scipy.py,Scipy._filter_unused_variables,5
+c:/src/pylint-intervention/data/in_the_wild\versions/GPflow/aa9f042cb1b909908e1d3dc34e851ab6a5dff18e/before/gpflow_slash_optimizers_slash_scipy.py,Scipy,3
+c:/src/pylint-intervention/data/in_the_wild\versions/GPflow/aa9f042cb1b909908e1d3dc34e851ab6a5dff18e/before/gpflow_slash_optimizers_slash_scipy.py,Scipy.assign_tensors,3
+c:/src/pylint-intervention/data/in_the_wild\versions/GPflow/aa9f042cb1b909908e1d3dc34e851ab6a5dff18e/before/gpflow_slash_optimizers_slash_scipy.py,Scipy.eval_func,2
+c:/src/pylint-intervention/data/in_the_wild\versions/GPflow/aa9f042cb1b909908e1d3dc34e851ab6a5dff18e/before/gpflow_slash_optimizers_slash_scipy.py,Scipy.pack_tensors,2
+c:/src/pylint-intervention/data/in_the_wild\versions/GPflow/aa9f042cb1b909908e1d3dc34e851ab6a5dff18e/before/gpflow_slash_optimizers_slash_scipy.py,Scipy.unpack_tensors,2
+c:/src/pylint-intervention/data/in_the_wild\versions/GPflow/aa9f042cb1b909908e1d3dc34e851ab6a5dff18e/before/gpflow_slash_optimizers_slash_scipy.py,_compute_loss_and_gradients,1
+c:/src/pylint-intervention/data/in_the_wild\versions/GPflow/aa9f042cb1b909908e1d3dc34e851ab6a5dff18e/before/gpflow_slash_optimizers_slash_scipy.py,Scipy.initial_parameters,1
+c:/src/pylint-intervention/data/in_the_wild\versions/GPflow/aa9f042cb1b909908e1d3dc34e851ab6a5dff18e/before/gpflow_slash_optimizers_slash_scipy.py,Scipy.callback_func,1

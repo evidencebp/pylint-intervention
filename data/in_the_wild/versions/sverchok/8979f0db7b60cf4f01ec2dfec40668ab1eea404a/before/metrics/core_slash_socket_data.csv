@@ -1,1 +1,16 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/sverchok/8979f0db7b60cf4f01ec2dfec40668ab1eea404a/before/core_slash_socket_data.py,SvGetSocketInfo,8
+c:/src/pylint-intervention/data/in_the_wild\versions/sverchok/8979f0db7b60cf4f01ec2dfec40668ab1eea404a/before/core_slash_socket_data.py,SvGetSocket,6
+c:/src/pylint-intervention/data/in_the_wild\versions/sverchok/8979f0db7b60cf4f01ec2dfec40668ab1eea404a/before/core_slash_socket_data.py,sv_deep_copy,5
+c:/src/pylint-intervention/data/in_the_wild\versions/sverchok/8979f0db7b60cf4f01ec2dfec40668ab1eea404a/before/core_slash_socket_data.py,SvForgetSocket,4
+c:/src/pylint-intervention/data/in_the_wild\versions/sverchok/8979f0db7b60cf4f01ec2dfec40668ab1eea404a/before/core_slash_socket_data.py,SvNoDataError.__init__,4
+c:/src/pylint-intervention/data/in_the_wild\versions/sverchok/8979f0db7b60cf4f01ec2dfec40668ab1eea404a/before/core_slash_socket_data.py,SvNoDataError.get_message,4
+c:/src/pylint-intervention/data/in_the_wild\versions/sverchok/8979f0db7b60cf4f01ec2dfec40668ab1eea404a/before/core_slash_socket_data.py,get_output_socket_data,3
+c:/src/pylint-intervention/data/in_the_wild\versions/sverchok/8979f0db7b60cf4f01ec2dfec40668ab1eea404a/before/core_slash_socket_data.py,SvNoDataError,3
+c:/src/pylint-intervention/data/in_the_wild\versions/sverchok/8979f0db7b60cf4f01ec2dfec40668ab1eea404a/before/core_slash_socket_data.py,SvSetSocket,2
+c:/src/pylint-intervention/data/in_the_wild\versions/sverchok/8979f0db7b60cf4f01ec2dfec40668ab1eea404a/before/core_slash_socket_data.py,reset_socket_cache,1
+c:/src/pylint-intervention/data/in_the_wild\versions/sverchok/8979f0db7b60cf4f01ec2dfec40668ab1eea404a/before/core_slash_socket_data.py,clear_all_socket_cache,1
+c:/src/pylint-intervention/data/in_the_wild\versions/sverchok/8979f0db7b60cf4f01ec2dfec40668ab1eea404a/before/core_slash_socket_data.py,SvNoDataError.__repr__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/sverchok/8979f0db7b60cf4f01ec2dfec40668ab1eea404a/before/core_slash_socket_data.py,SvNoDataError.__str__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/sverchok/8979f0db7b60cf4f01ec2dfec40668ab1eea404a/before/core_slash_socket_data.py,SvNoDataError.__unicode__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/sverchok/8979f0db7b60cf4f01ec2dfec40668ab1eea404a/before/core_slash_socket_data.py,SvNoDataError.__format__,1

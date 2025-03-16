@@ -1,1 +1,16 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/fd5948097f630b3224f21b7ac2f50a9563359455/after/users_slash_models.py,User.write_perm,5
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/fd5948097f630b3224f21b7ac2f50a9563359455/after/users_slash_models.py,CustomUserManager,2
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/fd5948097f630b3224f21b7ac2f50a9563359455/after/users_slash_models.py,CustomUserManager._create_user,2
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/fd5948097f630b3224f21b7ac2f50a9563359455/after/users_slash_models.py,User,2
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/fd5948097f630b3224f21b7ac2f50a9563359455/after/users_slash_models.py,CustomUserManager.create_user,1
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/fd5948097f630b3224f21b7ac2f50a9563359455/after/users_slash_models.py,CustomUserManager.create_superuser,1
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/fd5948097f630b3224f21b7ac2f50a9563359455/after/users_slash_models.py,User.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/fd5948097f630b3224f21b7ac2f50a9563359455/after/users_slash_models.py,User.name,1
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/fd5948097f630b3224f21b7ac2f50a9563359455/after/users_slash_models.py,User.following_courses,1
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/fd5948097f630b3224f21b7ac2f50a9563359455/after/users_slash_models.py,User.is_following,1
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/fd5948097f630b3224f21b7ac2f50a9563359455/after/users_slash_models.py,User.has_module_perms,1
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/fd5948097f630b3224f21b7ac2f50a9563359455/after/users_slash_models.py,User.has_perm,1
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/fd5948097f630b3224f21b7ac2f50a9563359455/after/users_slash_models.py,User.fullname,1
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/fd5948097f630b3224f21b7ac2f50a9563359455/after/users_slash_models.py,User.get_short_name,1
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/fd5948097f630b3224f21b7ac2f50a9563359455/after/users_slash_models.py,User.initials,1

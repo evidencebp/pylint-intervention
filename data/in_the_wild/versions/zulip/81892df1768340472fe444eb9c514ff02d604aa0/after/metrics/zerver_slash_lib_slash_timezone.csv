@@ -1,1 +1,3 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/zulip/81892df1768340472fe444eb9c514ff02d604aa0/after/zerver_slash_lib_slash_timezone.py,get_canonical_timezone_map,3
+c:/src/pylint-intervention/data/in_the_wild\versions/zulip/81892df1768340472fe444eb9c514ff02d604aa0/after/zerver_slash_lib_slash_timezone.py,canonicalize_timezone,1

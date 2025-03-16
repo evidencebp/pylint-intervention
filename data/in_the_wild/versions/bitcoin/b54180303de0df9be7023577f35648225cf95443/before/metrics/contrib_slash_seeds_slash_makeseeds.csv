@@ -1,1 +1,8 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/bitcoin/b54180303de0df9be7023577f35648225cf95443/before/contrib_slash_seeds_slash_makeseeds.py,main,14
+c:/src/pylint-intervention/data/in_the_wild\versions/bitcoin/b54180303de0df9be7023577f35648225cf95443/before/contrib_slash_seeds_slash_makeseeds.py,parseline,11
+c:/src/pylint-intervention/data/in_the_wild\versions/bitcoin/b54180303de0df9be7023577f35648225cf95443/before/contrib_slash_seeds_slash_makeseeds.py,filterbyasn,10
+c:/src/pylint-intervention/data/in_the_wild\versions/bitcoin/b54180303de0df9be7023577f35648225cf95443/before/contrib_slash_seeds_slash_makeseeds.py,lookup_asn,6
+c:/src/pylint-intervention/data/in_the_wild\versions/bitcoin/b54180303de0df9be7023577f35648225cf95443/before/contrib_slash_seeds_slash_makeseeds.py,filtermultiport,4
+c:/src/pylint-intervention/data/in_the_wild\versions/bitcoin/b54180303de0df9be7023577f35648225cf95443/before/contrib_slash_seeds_slash_makeseeds.py,ip_stats,3
+c:/src/pylint-intervention/data/in_the_wild\versions/bitcoin/b54180303de0df9be7023577f35648225cf95443/before/contrib_slash_seeds_slash_makeseeds.py,dedup,2

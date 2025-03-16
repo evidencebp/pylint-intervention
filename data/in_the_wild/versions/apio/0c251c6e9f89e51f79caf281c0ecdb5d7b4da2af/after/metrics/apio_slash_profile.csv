@@ -1,1 +1,16 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/apio/0c251c6e9f89e51f79caf281c0ecdb5d7b4da2af/after/apio_slash_profile.py,Profile.get_package_version,6
+c:/src/pylint-intervention/data/in_the_wild\versions/apio/0c251c6e9f89e51f79caf281c0ecdb5d7b4da2af/after/apio_slash_profile.py,Profile._load_profile,6
+c:/src/pylint-intervention/data/in_the_wild\versions/apio/0c251c6e9f89e51f79caf281c0ecdb5d7b4da2af/after/apio_slash_profile.py,Profile,3
+c:/src/pylint-intervention/data/in_the_wild\versions/apio/0c251c6e9f89e51f79caf281c0ecdb5d7b4da2af/after/apio_slash_profile.py,Profile.installed_version,2
+c:/src/pylint-intervention/data/in_the_wild\versions/apio/0c251c6e9f89e51f79caf281c0ecdb5d7b4da2af/after/apio_slash_profile.py,Profile._convert_old_version,2
+c:/src/pylint-intervention/data/in_the_wild\versions/apio/0c251c6e9f89e51f79caf281c0ecdb5d7b4da2af/after/apio_slash_profile.py,Profile.add_config,2
+c:/src/pylint-intervention/data/in_the_wild\versions/apio/0c251c6e9f89e51f79caf281c0ecdb5d7b4da2af/after/apio_slash_profile.py,Profile.remove_package,2
+c:/src/pylint-intervention/data/in_the_wild\versions/apio/0c251c6e9f89e51f79caf281c0ecdb5d7b4da2af/after/apio_slash_profile.py,Profile.load,2
+c:/src/pylint-intervention/data/in_the_wild\versions/apio/0c251c6e9f89e51f79caf281c0ecdb5d7b4da2af/after/apio_slash_profile.py,Profile.list,2
+c:/src/pylint-intervention/data/in_the_wild\versions/apio/0c251c6e9f89e51f79caf281c0ecdb5d7b4da2af/after/apio_slash_profile.py,Profile.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/apio/0c251c6e9f89e51f79caf281c0ecdb5d7b4da2af/after/apio_slash_profile.py,Profile.check_exe_default,1
+c:/src/pylint-intervention/data/in_the_wild\versions/apio/0c251c6e9f89e51f79caf281c0ecdb5d7b4da2af/after/apio_slash_profile.py,Profile.add_package,1
+c:/src/pylint-intervention/data/in_the_wild\versions/apio/0c251c6e9f89e51f79caf281c0ecdb5d7b4da2af/after/apio_slash_profile.py,Profile.add_setting,1
+c:/src/pylint-intervention/data/in_the_wild\versions/apio/0c251c6e9f89e51f79caf281c0ecdb5d7b4da2af/after/apio_slash_profile.py,Profile.get_verbose_mode,1
+c:/src/pylint-intervention/data/in_the_wild\versions/apio/0c251c6e9f89e51f79caf281c0ecdb5d7b4da2af/after/apio_slash_profile.py,Profile.save,1

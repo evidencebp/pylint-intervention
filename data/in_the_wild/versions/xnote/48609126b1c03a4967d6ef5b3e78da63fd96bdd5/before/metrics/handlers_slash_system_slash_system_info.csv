@@ -1,1 +1,11 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/xnote/48609126b1c03a4967d6ef5b3e78da63fd96bdd5/before/handlers_slash_system_slash_system_info.py,InfoHandler,5
+c:/src/pylint-intervention/data/in_the_wild\versions/xnote/48609126b1c03a4967d6ef5b3e78da63fd96bdd5/before/handlers_slash_system_slash_system_info.py,InfoHandler.GET,4
+c:/src/pylint-intervention/data/in_the_wild\versions/xnote/48609126b1c03a4967d6ef5b3e78da63fd96bdd5/before/handlers_slash_system_slash_system_info.py,get_free_data_space,2
+c:/src/pylint-intervention/data/in_the_wild\versions/xnote/48609126b1c03a4967d6ef5b3e78da63fd96bdd5/before/handlers_slash_system_slash_system_info.py,get_sys_info_detail,2
+c:/src/pylint-intervention/data/in_the_wild\versions/xnote/48609126b1c03a4967d6ef5b3e78da63fd96bdd5/before/handlers_slash_system_slash_system_info.py,SystemInfoItem,2
+c:/src/pylint-intervention/data/in_the_wild\versions/xnote/48609126b1c03a4967d6ef5b3e78da63fd96bdd5/before/handlers_slash_system_slash_system_info.py,get_xnote_version,1
+c:/src/pylint-intervention/data/in_the_wild\versions/xnote/48609126b1c03a4967d6ef5b3e78da63fd96bdd5/before/handlers_slash_system_slash_system_info.py,get_mem_info,1
+c:/src/pylint-intervention/data/in_the_wild\versions/xnote/48609126b1c03a4967d6ef5b3e78da63fd96bdd5/before/handlers_slash_system_slash_system_info.py,get_python_version,1
+c:/src/pylint-intervention/data/in_the_wild\versions/xnote/48609126b1c03a4967d6ef5b3e78da63fd96bdd5/before/handlers_slash_system_slash_system_info.py,get_startup_time,1
+c:/src/pylint-intervention/data/in_the_wild\versions/xnote/48609126b1c03a4967d6ef5b3e78da63fd96bdd5/before/handlers_slash_system_slash_system_info.py,SystemInfoItem.__init__,1

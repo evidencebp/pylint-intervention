@@ -1,1 +1,9 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/couchbase-python-client/6d305796b094024c2ea07c8c963899999420f610/after/couchbase_slash_n1ql.py,N1QLRequest.__next__,4
+c:/src/pylint-intervention/data/in_the_wild\versions/couchbase-python-client/6d305796b094024c2ea07c8c963899999420f610/after/couchbase_slash_n1ql.py,N1QLRequest,3
+c:/src/pylint-intervention/data/in_the_wild\versions/couchbase-python-client/6d305796b094024c2ea07c8c963899999420f610/after/couchbase_slash_n1ql.py,N1QLRequest.__iter__,3
+c:/src/pylint-intervention/data/in_the_wild\versions/couchbase-python-client/6d305796b094024c2ea07c8c963899999420f610/after/couchbase_slash_n1ql.py,N1QLRequest._get_next_row,3
+c:/src/pylint-intervention/data/in_the_wild\versions/couchbase-python-client/6d305796b094024c2ea07c8c963899999420f610/after/couchbase_slash_n1ql.py,N1QLRequest.execute,2
+c:/src/pylint-intervention/data/in_the_wild\versions/couchbase-python-client/6d305796b094024c2ea07c8c963899999420f610/after/couchbase_slash_n1ql.py,N1QLRequest._get_metadata,2
+c:/src/pylint-intervention/data/in_the_wild\versions/couchbase-python-client/6d305796b094024c2ea07c8c963899999420f610/after/couchbase_slash_n1ql.py,N1QLRequest.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/couchbase-python-client/6d305796b094024c2ea07c8c963899999420f610/after/couchbase_slash_n1ql.py,N1QLRequest.generate_n1ql_request,1

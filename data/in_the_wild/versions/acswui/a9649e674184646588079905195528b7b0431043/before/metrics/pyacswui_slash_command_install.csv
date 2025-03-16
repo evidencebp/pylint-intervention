@@ -1,1 +1,14 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/acswui/a9649e674184646588079905195528b7b0431043/before/pyacswui_slash_command_install.py,CommandInstall.__work_copy_files,16
+c:/src/pylint-intervention/data/in_the_wild\versions/acswui/a9649e674184646588079905195528b7b0431043/before/pyacswui_slash_command_install.py,CommandInstall.__work_cconfig,14
+c:/src/pylint-intervention/data/in_the_wild\versions/acswui/a9649e674184646588079905195528b7b0431043/before/pyacswui_slash_command_install.py,CommandInstall.__work_scan_cars,14
+c:/src/pylint-intervention/data/in_the_wild\versions/acswui/a9649e674184646588079905195528b7b0431043/before/pyacswui_slash_command_install.py,CommandInstall.__work_install_basics,12
+c:/src/pylint-intervention/data/in_the_wild\versions/acswui/a9649e674184646588079905195528b7b0431043/before/pyacswui_slash_command_install.py,CommandInstall,9
+c:/src/pylint-intervention/data/in_the_wild\versions/acswui/a9649e674184646588079905195528b7b0431043/before/pyacswui_slash_command_install.py,CommandInstall.__work_scan_tracks,9
+c:/src/pylint-intervention/data/in_the_wild\versions/acswui/a9649e674184646588079905195528b7b0431043/before/pyacswui_slash_command_install.py,CommandInstall.__parse_json,7
+c:/src/pylint-intervention/data/in_the_wild\versions/acswui/a9649e674184646588079905195528b7b0431043/before/pyacswui_slash_command_install.py,CommandInstall.__work_db_tables,7
+c:/src/pylint-intervention/data/in_the_wild\versions/acswui/a9649e674184646588079905195528b7b0431043/before/pyacswui_slash_command_install.py,CommandInstall.__set_chmod,5
+c:/src/pylint-intervention/data/in_the_wild\versions/acswui/a9649e674184646588079905195528b7b0431043/before/pyacswui_slash_command_install.py,CommandInstall.dict2php,4
+c:/src/pylint-intervention/data/in_the_wild\versions/acswui/a9649e674184646588079905195528b7b0431043/before/pyacswui_slash_command_install.py,CommandInstall.__work_translations,4
+c:/src/pylint-intervention/data/in_the_wild\versions/acswui/a9649e674184646588079905195528b7b0431043/before/pyacswui_slash_command_install.py,CommandInstall.process,2
+c:/src/pylint-intervention/data/in_the_wild\versions/acswui/a9649e674184646588079905195528b7b0431043/before/pyacswui_slash_command_install.py,CommandInstall.__init__,1

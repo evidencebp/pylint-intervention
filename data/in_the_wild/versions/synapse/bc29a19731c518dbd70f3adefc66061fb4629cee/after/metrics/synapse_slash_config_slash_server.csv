@@ -1,1 +1,11 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/synapse/bc29a19731c518dbd70f3adefc66061fb4629cee/after/synapse_slash_config_slash_server.py,ServerConfig.read_config,28
+c:/src/pylint-intervention/data/in_the_wild\versions/synapse/bc29a19731c518dbd70f3adefc66061fb4629cee/after/synapse_slash_config_slash_server.py,ServerConfig,10
+c:/src/pylint-intervention/data/in_the_wild\versions/synapse/bc29a19731c518dbd70f3adefc66061fb4629cee/after/synapse_slash_config_slash_server.py,ServerConfig.generate_config_section,10
+c:/src/pylint-intervention/data/in_the_wild\versions/synapse/bc29a19731c518dbd70f3adefc66061fb4629cee/after/synapse_slash_config_slash_server.py,_check_resource_config,8
+c:/src/pylint-intervention/data/in_the_wild\versions/synapse/bc29a19731c518dbd70f3adefc66061fb4629cee/after/synapse_slash_config_slash_server.py,_warn_if_webclient_configured,5
+c:/src/pylint-intervention/data/in_the_wild\versions/synapse/bc29a19731c518dbd70f3adefc66061fb4629cee/after/synapse_slash_config_slash_server.py,is_threepid_reserved,4
+c:/src/pylint-intervention/data/in_the_wild\versions/synapse/bc29a19731c518dbd70f3adefc66061fb4629cee/after/synapse_slash_config_slash_server.py,read_gc_thresholds,4
+c:/src/pylint-intervention/data/in_the_wild\versions/synapse/bc29a19731c518dbd70f3adefc66061fb4629cee/after/synapse_slash_config_slash_server.py,ServerConfig.read_arguments,4
+c:/src/pylint-intervention/data/in_the_wild\versions/synapse/bc29a19731c518dbd70f3adefc66061fb4629cee/after/synapse_slash_config_slash_server.py,ServerConfig.has_tls_listener,2
+c:/src/pylint-intervention/data/in_the_wild\versions/synapse/bc29a19731c518dbd70f3adefc66061fb4629cee/after/synapse_slash_config_slash_server.py,ServerConfig.add_arguments,1

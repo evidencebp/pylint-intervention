@@ -1,1 +1,3 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/dit/6a360589ecc84840ffb2c9687a9202ea75e4191d/before/dit_slash_algorithms_slash_convex_maximization.py,polytope_extremepoint_iterator,21
+c:/src/pylint-intervention/data/in_the_wild\versions/dit/6a360589ecc84840ffb2c9687a9202ea75e4191d/before/dit_slash_algorithms_slash_convex_maximization.py,maximize_convex_function,4

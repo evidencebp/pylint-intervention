@@ -1,1 +1,10 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/sos/2996d4078a28f865c9bf339c62b55c914b336815/after/sos_slash_report_slash_plugins_slash_networking.py,Networking.setup,13
+c:/src/pylint-intervention/data/in_the_wild\versions/sos/2996d4078a28f865c9bf339c62b55c914b336815/after/sos_slash_report_slash_plugins_slash_networking.py,Networking,5
+c:/src/pylint-intervention/data/in_the_wild\versions/sos/2996d4078a28f865c9bf339c62b55c914b336815/after/sos_slash_report_slash_plugins_slash_networking.py,RedHatNetworking,4
+c:/src/pylint-intervention/data/in_the_wild\versions/sos/2996d4078a28f865c9bf339c62b55c914b336815/after/sos_slash_report_slash_plugins_slash_networking.py,RedHatNetworking.setup,3
+c:/src/pylint-intervention/data/in_the_wild\versions/sos/2996d4078a28f865c9bf339c62b55c914b336815/after/sos_slash_report_slash_plugins_slash_networking.py,UbuntuNetworking,3
+c:/src/pylint-intervention/data/in_the_wild\versions/sos/2996d4078a28f865c9bf339c62b55c914b336815/after/sos_slash_report_slash_plugins_slash_networking.py,UbuntuNetworking.setup,2
+c:/src/pylint-intervention/data/in_the_wild\versions/sos/2996d4078a28f865c9bf339c62b55c914b336815/after/sos_slash_report_slash_plugins_slash_networking.py,Networking.collect_iptable,1
+c:/src/pylint-intervention/data/in_the_wild\versions/sos/2996d4078a28f865c9bf339c62b55c914b336815/after/sos_slash_report_slash_plugins_slash_networking.py,Networking.collect_ip6table,1
+c:/src/pylint-intervention/data/in_the_wild\versions/sos/2996d4078a28f865c9bf339c62b55c914b336815/after/sos_slash_report_slash_plugins_slash_networking.py,Networking.collect_nftables,1

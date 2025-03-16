@@ -1,1 +1,16 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/scoda/a115dfab86e3ef4e1fadfb50c624448f5555cd62/before/scoda_slash_public.py,demographics,36
+c:/src/pylint-intervention/data/in_the_wild\versions/scoda/a115dfab86e3ef4e1fadfb50c624448f5555cd62/before/scoda_slash_public.py,parse_data,23
+c:/src/pylint-intervention/data/in_the_wild\versions/scoda/a115dfab86e3ef4e1fadfb50c624448f5555cd62/before/scoda_slash_public.py,api_explore,22
+c:/src/pylint-intervention/data/in_the_wild\versions/scoda/a115dfab86e3ef4e1fadfb50c624448f5555cd62/before/scoda_slash_public.py,explore,20
+c:/src/pylint-intervention/data/in_the_wild\versions/scoda/a115dfab86e3ef4e1fadfb50c624448f5555cd62/before/scoda_slash_public.py,demographics_night_jhb,20
+c:/src/pylint-intervention/data/in_the_wild\versions/scoda/a115dfab86e3ef4e1fadfb50c624448f5555cd62/before/scoda_slash_public.py,api_demographics,19
+c:/src/pylint-intervention/data/in_the_wild\versions/scoda/a115dfab86e3ef4e1fadfb50c624448f5555cd62/before/scoda_slash_public.py,demographics_night_eth,18
+c:/src/pylint-intervention/data/in_the_wild\versions/scoda/a115dfab86e3ef4e1fadfb50c624448f5555cd62/before/scoda_slash_public.py,api_codebook,11
+c:/src/pylint-intervention/data/in_the_wild\versions/scoda/a115dfab86e3ef4e1fadfb50c624448f5555cd62/before/scoda_slash_public.py,parse_demo,7
+c:/src/pylint-intervention/data/in_the_wild\versions/scoda/a115dfab86e3ef4e1fadfb50c624448f5555cd62/before/scoda_slash_public.py,api_indicators_list,6
+c:/src/pylint-intervention/data/in_the_wild\versions/scoda/a115dfab86e3ef4e1fadfb50c624448f5555cd62/before/scoda_slash_public.py,demographics_download,4
+c:/src/pylint-intervention/data/in_the_wild\versions/scoda/a115dfab86e3ef4e1fadfb50c624448f5555cd62/before/scoda_slash_public.py,api_indicators,3
+c:/src/pylint-intervention/data/in_the_wild\versions/scoda/a115dfab86e3ef4e1fadfb50c624448f5555cd62/before/scoda_slash_public.py,grouper,1
+c:/src/pylint-intervention/data/in_the_wild\versions/scoda/a115dfab86e3ef4e1fadfb50c624448f5555cd62/before/scoda_slash_public.py,help,1
+c:/src/pylint-intervention/data/in_the_wild\versions/scoda/a115dfab86e3ef4e1fadfb50c624448f5555cd62/before/scoda_slash_public.py,land_gen,1

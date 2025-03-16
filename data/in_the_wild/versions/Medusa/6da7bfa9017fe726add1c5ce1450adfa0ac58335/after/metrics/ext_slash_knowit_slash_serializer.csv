@@ -1,1 +1,9 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/Medusa/6da7bfa9017fe726add1c5ce1450adfa0ac58335/after/ext_slash_knowit_slash_serializer.py,format_quantity,9
+c:/src/pylint-intervention/data/in_the_wild\versions/Medusa/6da7bfa9017fe726add1c5ce1450adfa0ac58335/after/ext_slash_knowit_slash_serializer.py,get_yaml_loader,6
+c:/src/pylint-intervention/data/in_the_wild\versions/Medusa/6da7bfa9017fe726add1c5ce1450adfa0ac58335/after/ext_slash_knowit_slash_serializer.py,format_duration,6
+c:/src/pylint-intervention/data/in_the_wild\versions/Medusa/6da7bfa9017fe726add1c5ce1450adfa0ac58335/after/ext_slash_knowit_slash_serializer.py,_format_quantity,5
+c:/src/pylint-intervention/data/in_the_wild\versions/Medusa/6da7bfa9017fe726add1c5ce1450adfa0ac58335/after/ext_slash_knowit_slash_serializer.py,format_property,4
+c:/src/pylint-intervention/data/in_the_wild\versions/Medusa/6da7bfa9017fe726add1c5ce1450adfa0ac58335/after/ext_slash_knowit_slash_serializer.py,format_language,2
+c:/src/pylint-intervention/data/in_the_wild\versions/Medusa/6da7bfa9017fe726add1c5ce1450adfa0ac58335/after/ext_slash_knowit_slash_serializer.py,get_json_encoder,1
+c:/src/pylint-intervention/data/in_the_wild\versions/Medusa/6da7bfa9017fe726add1c5ce1450adfa0ac58335/after/ext_slash_knowit_slash_serializer.py,get_yaml_dumper,1

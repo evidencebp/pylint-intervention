@@ -1,1 +1,4 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/python-uncompyle6/c806ef59c6fffb505ca044b570bbb25aa84fd48a/before/uncompyle6_slash_scanners_slash_scanner30.py,Scanner30.detect_control_flow,112
+c:/src/pylint-intervention/data/in_the_wild\versions/python-uncompyle6/c806ef59c6fffb505ca044b570bbb25aa84fd48a/before/uncompyle6_slash_scanners_slash_scanner30.py,Scanner30,58
+c:/src/pylint-intervention/data/in_the_wild\versions/python-uncompyle6/c806ef59c6fffb505ca044b570bbb25aa84fd48a/before/uncompyle6_slash_scanners_slash_scanner30.py,Scanner30.__init__,1

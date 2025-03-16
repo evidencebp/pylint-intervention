@@ -1,1 +1,7 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/sos/1d57cdaf45e806fc47233d72add126f89023e08a/before/sos_slash_report_slash_plugins_slash_networking.py,Networking,18
+c:/src/pylint-intervention/data/in_the_wild\versions/sos/1d57cdaf45e806fc47233d72add126f89023e08a/before/sos_slash_report_slash_plugins_slash_networking.py,Networking.setup,17
+c:/src/pylint-intervention/data/in_the_wild\versions/sos/1d57cdaf45e806fc47233d72add126f89023e08a/before/sos_slash_report_slash_plugins_slash_networking.py,RedHatNetworking,4
+c:/src/pylint-intervention/data/in_the_wild\versions/sos/1d57cdaf45e806fc47233d72add126f89023e08a/before/sos_slash_report_slash_plugins_slash_networking.py,RedHatNetworking.setup,3
+c:/src/pylint-intervention/data/in_the_wild\versions/sos/1d57cdaf45e806fc47233d72add126f89023e08a/before/sos_slash_report_slash_plugins_slash_networking.py,UbuntuNetworking,3
+c:/src/pylint-intervention/data/in_the_wild\versions/sos/1d57cdaf45e806fc47233d72add126f89023e08a/before/sos_slash_report_slash_plugins_slash_networking.py,UbuntuNetworking.setup,2

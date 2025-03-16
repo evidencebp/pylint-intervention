@@ -1,1 +1,11 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/cellpy/20b9648c7ba6803e87cdc977a8a378315ea2de9e/before/cellpy_slash_parameters_slash_prms.py,CellPyConfig,1
+c:/src/pylint-intervention/data/in_the_wild\versions/cellpy/20b9648c7ba6803e87cdc977a8a378315ea2de9e/before/cellpy_slash_parameters_slash_prms.py,PathsClass,1
+c:/src/pylint-intervention/data/in_the_wild\versions/cellpy/20b9648c7ba6803e87cdc977a8a378315ea2de9e/before/cellpy_slash_parameters_slash_prms.py,FileNamesClass,1
+c:/src/pylint-intervention/data/in_the_wild\versions/cellpy/20b9648c7ba6803e87cdc977a8a378315ea2de9e/before/cellpy_slash_parameters_slash_prms.py,ReaderClass,1
+c:/src/pylint-intervention/data/in_the_wild\versions/cellpy/20b9648c7ba6803e87cdc977a8a378315ea2de9e/before/cellpy_slash_parameters_slash_prms.py,DataSetClass,1
+c:/src/pylint-intervention/data/in_the_wild\versions/cellpy/20b9648c7ba6803e87cdc977a8a378315ea2de9e/before/cellpy_slash_parameters_slash_prms.py,DbClass,1
+c:/src/pylint-intervention/data/in_the_wild\versions/cellpy/20b9648c7ba6803e87cdc977a8a378315ea2de9e/before/cellpy_slash_parameters_slash_prms.py,DbColsClass,1
+c:/src/pylint-intervention/data/in_the_wild\versions/cellpy/20b9648c7ba6803e87cdc977a8a378315ea2de9e/before/cellpy_slash_parameters_slash_prms.py,MaterialsClass,1
+c:/src/pylint-intervention/data/in_the_wild\versions/cellpy/20b9648c7ba6803e87cdc977a8a378315ea2de9e/before/cellpy_slash_parameters_slash_prms.py,BatchClass,1
+c:/src/pylint-intervention/data/in_the_wild\versions/cellpy/20b9648c7ba6803e87cdc977a8a378315ea2de9e/before/cellpy_slash_parameters_slash_prms.py,InstrumentsClass,1

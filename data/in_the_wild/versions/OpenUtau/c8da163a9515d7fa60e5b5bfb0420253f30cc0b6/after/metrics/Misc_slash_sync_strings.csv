@@ -1,1 +1,4 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/OpenUtau/c8da163a9515d7fa60e5b5bfb0420253f30cc0b6/after/Misc_slash_sync_strings.py,dict_to_file,7
+c:/src/pylint-intervention/data/in_the_wild\versions/OpenUtau/c8da163a9515d7fa60e5b5bfb0420253f30cc0b6/after/Misc_slash_sync_strings.py,register_all_namespaces,3
+c:/src/pylint-intervention/data/in_the_wild\versions/OpenUtau/c8da163a9515d7fa60e5b5bfb0420253f30cc0b6/after/Misc_slash_sync_strings.py,file_to_dict,2

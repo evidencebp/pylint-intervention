@@ -1,1 +1,9 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/tornado/bc68b8add400cd246281b6b65e05425641c15633/before/tornado_slash_autoreload.py,main,14
+c:/src/pylint-intervention/data/in_the_wild\versions/tornado/bc68b8add400cd246281b6b65e05425641c15633/before/tornado_slash_autoreload.py,_reload,11
+c:/src/pylint-intervention/data/in_the_wild\versions/tornado/bc68b8add400cd246281b6b65e05425641c15633/before/tornado_slash_autoreload.py,_reload_on_update,9
+c:/src/pylint-intervention/data/in_the_wild\versions/tornado/bc68b8add400cd246281b6b65e05425641c15633/before/tornado_slash_autoreload.py,_check_file,4
+c:/src/pylint-intervention/data/in_the_wild\versions/tornado/bc68b8add400cd246281b6b65e05425641c15633/before/tornado_slash_autoreload.py,start,3
+c:/src/pylint-intervention/data/in_the_wild\versions/tornado/bc68b8add400cd246281b6b65e05425641c15633/before/tornado_slash_autoreload.py,wait,1
+c:/src/pylint-intervention/data/in_the_wild\versions/tornado/bc68b8add400cd246281b6b65e05425641c15633/before/tornado_slash_autoreload.py,watch,1
+c:/src/pylint-intervention/data/in_the_wild\versions/tornado/bc68b8add400cd246281b6b65e05425641c15633/before/tornado_slash_autoreload.py,add_reload_hook,1

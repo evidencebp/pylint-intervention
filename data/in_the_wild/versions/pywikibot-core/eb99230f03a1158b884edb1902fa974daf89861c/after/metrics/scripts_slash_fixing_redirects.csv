@@ -1,1 +1,6 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/pywikibot-core/eb99230f03a1158b884edb1902fa974daf89861c/after/scripts_slash_fixing_redirects.py,FixingRedirectBot.replace_links,24
+c:/src/pylint-intervention/data/in_the_wild\versions/pywikibot-core/eb99230f03a1158b884edb1902fa974daf89861c/after/scripts_slash_fixing_redirects.py,FixingRedirectBot,14
+c:/src/pylint-intervention/data/in_the_wild\versions/pywikibot-core/eb99230f03a1158b884edb1902fa974daf89861c/after/scripts_slash_fixing_redirects.py,main,10
+c:/src/pylint-intervention/data/in_the_wild\versions/pywikibot-core/eb99230f03a1158b884edb1902fa974daf89861c/after/scripts_slash_fixing_redirects.py,FixingRedirectBot.get_target,8
+c:/src/pylint-intervention/data/in_the_wild\versions/pywikibot-core/eb99230f03a1158b884edb1902fa974daf89861c/after/scripts_slash_fixing_redirects.py,FixingRedirectBot.treat_page,7

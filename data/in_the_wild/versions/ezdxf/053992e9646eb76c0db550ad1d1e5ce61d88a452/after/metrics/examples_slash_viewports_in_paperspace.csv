@@ -1,1 +1,6 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/ezdxf/053992e9646eb76c0db550ad1d1e5ce61d88a452/after/examples_slash_viewports_in_paperspace.py,build_cos_sin_mesh,3
+c:/src/pylint-intervention/data/in_the_wild\versions/ezdxf/053992e9646eb76c0db550ad1d1e5ce61d88a452/after/examples_slash_viewports_in_paperspace.py,create_2d_modelspace_content,1
+c:/src/pylint-intervention/data/in_the_wild\versions/ezdxf/053992e9646eb76c0db550ad1d1e5ce61d88a452/after/examples_slash_viewports_in_paperspace.py,create_3d_modelspace_content,1
+c:/src/pylint-intervention/data/in_the_wild\versions/ezdxf/053992e9646eb76c0db550ad1d1e5ce61d88a452/after/examples_slash_viewports_in_paperspace.py,create_viewports,1
+c:/src/pylint-intervention/data/in_the_wild\versions/ezdxf/053992e9646eb76c0db550ad1d1e5ce61d88a452/after/examples_slash_viewports_in_paperspace.py,main,1

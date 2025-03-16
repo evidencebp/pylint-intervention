@@ -1,1 +1,4 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/KiCost/1dc55e3d360d365e1a3f744f920afa2123b9a463/before/kicost_slash_distributors_slash_dist_local_template.py,dist_local_template.query_part_info,27
+c:/src/pylint-intervention/data/in_the_wild\versions/KiCost/1dc55e3d360d365e1a3f744f920afa2123b9a463/before/kicost_slash_distributors_slash_dist_local_template.py,dist_local_template,15
+c:/src/pylint-intervention/data/in_the_wild\versions/KiCost/1dc55e3d360d365e1a3f744f920afa2123b9a463/before/kicost_slash_distributors_slash_dist_local_template.py,dist_local_template.dist_init_distributor_dict,1

@@ -1,1 +1,17 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/dark-matter/e20d18eb697c3158e9a6194c77b6ce11c8c72982/after/dark_slash_consensus.py,addPairsInfo,17
+c:/src/pylint-intervention/data/in_the_wild\versions/dark-matter/e20d18eb697c3158e9a6194c77b6ce11c8c72982/after/dark_slash_consensus.py,fetchConsensus,16
+c:/src/pylint-intervention/data/in_the_wild\versions/dark-matter/e20d18eb697c3158e9a6194c77b6ce11c8c72982/after/dark_slash_consensus.py,compareCorrespondences,13
+c:/src/pylint-intervention/data/in_the_wild\versions/dark-matter/e20d18eb697c3158e9a6194c77b6ce11c8c72982/after/dark_slash_consensus.py,basesToConsensus,10
+c:/src/pylint-intervention/data/in_the_wild\versions/dark-matter/e20d18eb697c3158e9a6194c77b6ce11c8c72982/after/dark_slash_consensus.py,Insertion.resolve,9
+c:/src/pylint-intervention/data/in_the_wild\versions/dark-matter/e20d18eb697c3158e9a6194c77b6ce11c8c72982/after/dark_slash_consensus.py,consensusFromBAM,7
+c:/src/pylint-intervention/data/in_the_wild\versions/dark-matter/e20d18eb697c3158e9a6194c77b6ce11c8c72982/after/dark_slash_consensus.py,pileupCorrespondences,7
+c:/src/pylint-intervention/data/in_the_wild\versions/dark-matter/e20d18eb697c3158e9a6194c77b6ce11c8c72982/after/dark_slash_consensus.py,getPairs,4
+c:/src/pylint-intervention/data/in_the_wild\versions/dark-matter/e20d18eb697c3158e9a6194c77b6ce11c8c72982/after/dark_slash_consensus.py,Insertion,3
+c:/src/pylint-intervention/data/in_the_wild\versions/dark-matter/e20d18eb697c3158e9a6194c77b6ce11c8c72982/after/dark_slash_consensus.py,getConsensusId,2
+c:/src/pylint-intervention/data/in_the_wild\versions/dark-matter/e20d18eb697c3158e9a6194c77b6ce11c8c72982/after/dark_slash_consensus.py,Insertion.__str__,2
+c:/src/pylint-intervention/data/in_the_wild\versions/dark-matter/e20d18eb697c3158e9a6194c77b6ce11c8c72982/after/dark_slash_consensus.py,ConsensusError,1
+c:/src/pylint-intervention/data/in_the_wild\versions/dark-matter/e20d18eb697c3158e9a6194c77b6ce11c8c72982/after/dark_slash_consensus.py,Insertion.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/dark-matter/e20d18eb697c3158e9a6194c77b6ce11c8c72982/after/dark_slash_consensus.py,Insertion.start,1
+c:/src/pylint-intervention/data/in_the_wild\versions/dark-matter/e20d18eb697c3158e9a6194c77b6ce11c8c72982/after/dark_slash_consensus.py,Insertion.readCount,1
+c:/src/pylint-intervention/data/in_the_wild\versions/dark-matter/e20d18eb697c3158e9a6194c77b6ce11c8c72982/after/dark_slash_consensus.py,Insertion.append,1

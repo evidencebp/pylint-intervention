@@ -1,1 +1,7 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/erpnext/494bd9ef78313436f0424b918f200dab8fc7c20b/before/erpnext_slash_stock_slash_reorder_item.py,create_material_request,18
+c:/src/pylint-intervention/data/in_the_wild\versions/erpnext/494bd9ef78313436f0424b918f200dab8fc7c20b/before/erpnext_slash_stock_slash_reorder_item.py,_reorder_item,9
+c:/src/pylint-intervention/data/in_the_wild\versions/erpnext/494bd9ef78313436f0424b918f200dab8fc7c20b/before/erpnext_slash_stock_slash_reorder_item.py,get_item_warehouse_projected_qty,6
+c:/src/pylint-intervention/data/in_the_wild\versions/erpnext/494bd9ef78313436f0424b918f200dab8fc7c20b/before/erpnext_slash_stock_slash_reorder_item.py,reorder_item,4
+c:/src/pylint-intervention/data/in_the_wild\versions/erpnext/494bd9ef78313436f0424b918f200dab8fc7c20b/before/erpnext_slash_stock_slash_reorder_item.py,notify_errors,2
+c:/src/pylint-intervention/data/in_the_wild\versions/erpnext/494bd9ef78313436f0424b918f200dab8fc7c20b/before/erpnext_slash_stock_slash_reorder_item.py,send_email_notification,1

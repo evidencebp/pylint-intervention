@@ -1,1 +1,5 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/pycbc/fa39c24f29fb7b08a5599332b612a1c1959f83b4/before/pycbc_slash_workflow_slash_minifollowups.py,setup_minifollowups,4
+c:/src/pylint-intervention/data/in_the_wild\versions/pycbc/fa39c24f29fb7b08a5599332b612a1c1959f83b4/before/pycbc_slash_workflow_slash_minifollowups.py,MinifollowupsTableExecutable,2
+c:/src/pylint-intervention/data/in_the_wild\versions/pycbc/fa39c24f29fb7b08a5599332b612a1c1959f83b4/before/pycbc_slash_workflow_slash_minifollowups.py,MinifollowupsTableExecutable.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pycbc/fa39c24f29fb7b08a5599332b612a1c1959f83b4/before/pycbc_slash_workflow_slash_minifollowups.py,MinifollowupsTableExecutable.create_node,1

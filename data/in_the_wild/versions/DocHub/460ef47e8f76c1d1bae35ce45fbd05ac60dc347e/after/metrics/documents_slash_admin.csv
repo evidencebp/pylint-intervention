@@ -1,1 +1,8 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/460ef47e8f76c1d1bae35ce45fbd05ac60dc347e/after/documents_slash_admin.py,reprocess,3
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/460ef47e8f76c1d1bae35ce45fbd05ac60dc347e/after/documents_slash_admin.py,repair,3
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/460ef47e8f76c1d1bae35ce45fbd05ac60dc347e/after/documents_slash_admin.py,autotag,2
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/460ef47e8f76c1d1bae35ce45fbd05ac60dc347e/after/documents_slash_admin.py,VoteInline,1
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/460ef47e8f76c1d1bae35ce45fbd05ac60dc347e/after/documents_slash_admin.py,VoteAdmin,1
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/460ef47e8f76c1d1bae35ce45fbd05ac60dc347e/after/documents_slash_admin.py,DocumentAdmin,1
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/460ef47e8f76c1d1bae35ce45fbd05ac60dc347e/after/documents_slash_admin.py,DocumentErrorAdmin,1

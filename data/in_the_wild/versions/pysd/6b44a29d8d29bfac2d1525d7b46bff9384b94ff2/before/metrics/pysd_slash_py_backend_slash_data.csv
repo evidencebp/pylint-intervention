@@ -1,1 +1,14 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/pysd/6b44a29d8d29bfac2d1525d7b46bff9384b94ff2/before/pysd_slash_py_backend_slash_data.py,Data,12
+c:/src/pylint-intervention/data/in_the_wild\versions/pysd/6b44a29d8d29bfac2d1525d7b46bff9384b94ff2/before/pysd_slash_py_backend_slash_data.py,Data.__call__,11
+c:/src/pylint-intervention/data/in_the_wild\versions/pysd/6b44a29d8d29bfac2d1525d7b46bff9384b94ff2/before/pysd_slash_py_backend_slash_data.py,Columns.get_columns,9
+c:/src/pylint-intervention/data/in_the_wild\versions/pysd/6b44a29d8d29bfac2d1525d7b46bff9384b94ff2/before/pysd_slash_py_backend_slash_data.py,Columns.read_file,6
+c:/src/pylint-intervention/data/in_the_wild\versions/pysd/6b44a29d8d29bfac2d1525d7b46bff9384b94ff2/before/pysd_slash_py_backend_slash_data.py,TabData,6
+c:/src/pylint-intervention/data/in_the_wild\versions/pysd/6b44a29d8d29bfac2d1525d7b46bff9384b94ff2/before/pysd_slash_py_backend_slash_data.py,TabData.load_data,6
+c:/src/pylint-intervention/data/in_the_wild\versions/pysd/6b44a29d8d29bfac2d1525d7b46bff9384b94ff2/before/pysd_slash_py_backend_slash_data.py,Columns,5
+c:/src/pylint-intervention/data/in_the_wild\versions/pysd/6b44a29d8d29bfac2d1525d7b46bff9384b94ff2/before/pysd_slash_py_backend_slash_data.py,TabData._load_data,5
+c:/src/pylint-intervention/data/in_the_wild\versions/pysd/6b44a29d8d29bfac2d1525d7b46bff9384b94ff2/before/pysd_slash_py_backend_slash_data.py,Columns.read,3
+c:/src/pylint-intervention/data/in_the_wild\versions/pysd/6b44a29d8d29bfac2d1525d7b46bff9384b94ff2/before/pysd_slash_py_backend_slash_data.py,Columns.read_line,3
+c:/src/pylint-intervention/data/in_the_wild\versions/pysd/6b44a29d8d29bfac2d1525d7b46bff9384b94ff2/before/pysd_slash_py_backend_slash_data.py,Columns.read_col,3
+c:/src/pylint-intervention/data/in_the_wild\versions/pysd/6b44a29d8d29bfac2d1525d7b46bff9384b94ff2/before/pysd_slash_py_backend_slash_data.py,TabData.__init__,3
+c:/src/pylint-intervention/data/in_the_wild\versions/pysd/6b44a29d8d29bfac2d1525d7b46bff9384b94ff2/before/pysd_slash_py_backend_slash_data.py,Columns.clean,1

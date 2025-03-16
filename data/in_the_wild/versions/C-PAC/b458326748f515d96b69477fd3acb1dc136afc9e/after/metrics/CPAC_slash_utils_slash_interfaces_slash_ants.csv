@@ -1,1 +1,17 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/C-PAC/b458326748f515d96b69477fd3acb1dc136afc9e/after/CPAC_slash_utils_slash_interfaces_slash_ants.py,AI._format_arg,6
+c:/src/pylint-intervention/data/in_the_wild\versions/C-PAC/b458326748f515d96b69477fd3acb1dc136afc9e/after/CPAC_slash_utils_slash_interfaces_slash_ants.py,ResampleImageBySpacing,5
+c:/src/pylint-intervention/data/in_the_wild\versions/C-PAC/b458326748f515d96b69477fd3acb1dc136afc9e/after/CPAC_slash_utils_slash_interfaces_slash_ants.py,ResampleImageBySpacing._format_arg,4
+c:/src/pylint-intervention/data/in_the_wild\versions/C-PAC/b458326748f515d96b69477fd3acb1dc136afc9e/after/CPAC_slash_utils_slash_interfaces_slash_ants.py,AI,4
+c:/src/pylint-intervention/data/in_the_wild\versions/C-PAC/b458326748f515d96b69477fd3acb1dc136afc9e/after/CPAC_slash_utils_slash_interfaces_slash_ants.py,ImageMathInputSpec,1
+c:/src/pylint-intervention/data/in_the_wild\versions/C-PAC/b458326748f515d96b69477fd3acb1dc136afc9e/after/CPAC_slash_utils_slash_interfaces_slash_ants.py,ImageMathOuputSpec,1
+c:/src/pylint-intervention/data/in_the_wild\versions/C-PAC/b458326748f515d96b69477fd3acb1dc136afc9e/after/CPAC_slash_utils_slash_interfaces_slash_ants.py,ImageMath,1
+c:/src/pylint-intervention/data/in_the_wild\versions/C-PAC/b458326748f515d96b69477fd3acb1dc136afc9e/after/CPAC_slash_utils_slash_interfaces_slash_ants.py,ResampleImageBySpacingInputSpec,1
+c:/src/pylint-intervention/data/in_the_wild\versions/C-PAC/b458326748f515d96b69477fd3acb1dc136afc9e/after/CPAC_slash_utils_slash_interfaces_slash_ants.py,ResampleImageBySpacingOutputSpec,1
+c:/src/pylint-intervention/data/in_the_wild\versions/C-PAC/b458326748f515d96b69477fd3acb1dc136afc9e/after/CPAC_slash_utils_slash_interfaces_slash_ants.py,ThresholdImageInputSpec,1
+c:/src/pylint-intervention/data/in_the_wild\versions/C-PAC/b458326748f515d96b69477fd3acb1dc136afc9e/after/CPAC_slash_utils_slash_interfaces_slash_ants.py,ThresholdImageOutputSpec,1
+c:/src/pylint-intervention/data/in_the_wild\versions/C-PAC/b458326748f515d96b69477fd3acb1dc136afc9e/after/CPAC_slash_utils_slash_interfaces_slash_ants.py,ThresholdImage,1
+c:/src/pylint-intervention/data/in_the_wild\versions/C-PAC/b458326748f515d96b69477fd3acb1dc136afc9e/after/CPAC_slash_utils_slash_interfaces_slash_ants.py,AIInputSpec,1
+c:/src/pylint-intervention/data/in_the_wild\versions/C-PAC/b458326748f515d96b69477fd3acb1dc136afc9e/after/CPAC_slash_utils_slash_interfaces_slash_ants.py,AIOuputSpec,1
+c:/src/pylint-intervention/data/in_the_wild\versions/C-PAC/b458326748f515d96b69477fd3acb1dc136afc9e/after/CPAC_slash_utils_slash_interfaces_slash_ants.py,AI._run_interface,1
+c:/src/pylint-intervention/data/in_the_wild\versions/C-PAC/b458326748f515d96b69477fd3acb1dc136afc9e/after/CPAC_slash_utils_slash_interfaces_slash_ants.py,AI._list_outputs,1

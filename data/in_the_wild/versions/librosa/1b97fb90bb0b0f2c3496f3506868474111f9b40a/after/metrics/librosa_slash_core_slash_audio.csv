@@ -1,1 +1,8 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/librosa/1b97fb90bb0b0f2c3496f3506868474111f9b40a/after/librosa_slash_core_slash_audio.py,load,11
+c:/src/pylint-intervention/data/in_the_wild\versions/librosa/1b97fb90bb0b0f2c3496f3506868474111f9b40a/after/librosa_slash_core_slash_audio.py,clicks,10
+c:/src/pylint-intervention/data/in_the_wild\versions/librosa/1b97fb90bb0b0f2c3496f3506868474111f9b40a/after/librosa_slash_core_slash_audio.py,resample,7
+c:/src/pylint-intervention/data/in_the_wild\versions/librosa/1b97fb90bb0b0f2c3496f3506868474111f9b40a/after/librosa_slash_core_slash_audio.py,zero_crossings,6
+c:/src/pylint-intervention/data/in_the_wild\versions/librosa/1b97fb90bb0b0f2c3496f3506868474111f9b40a/after/librosa_slash_core_slash_audio.py,get_duration,5
+c:/src/pylint-intervention/data/in_the_wild\versions/librosa/1b97fb90bb0b0f2c3496f3506868474111f9b40a/after/librosa_slash_core_slash_audio.py,autocorrelate,3
+c:/src/pylint-intervention/data/in_the_wild\versions/librosa/1b97fb90bb0b0f2c3496f3506868474111f9b40a/after/librosa_slash_core_slash_audio.py,to_mono,2

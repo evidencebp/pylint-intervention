@@ -1,1 +1,7 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/FuzzManager/bb12ebd389864bbba8c2c9e15ab808efae54e660/after/misc_slash_libfuzzer_slash_libfuzzer.py,main,23
+c:/src/pylint-intervention/data/in_the_wild\versions/FuzzManager/bb12ebd389864bbba8c2c9e15ab808efae54e660/after/misc_slash_libfuzzer_slash_libfuzzer.py,LibFuzzerMonitor.run,7
+c:/src/pylint-intervention/data/in_the_wild\versions/FuzzManager/bb12ebd389864bbba8c2c9e15ab808efae54e660/after/misc_slash_libfuzzer_slash_libfuzzer.py,LibFuzzerMonitor,4
+c:/src/pylint-intervention/data/in_the_wild\versions/FuzzManager/bb12ebd389864bbba8c2c9e15ab808efae54e660/after/misc_slash_libfuzzer_slash_libfuzzer.py,LibFuzzerMonitor.__init__,2
+c:/src/pylint-intervention/data/in_the_wild\versions/FuzzManager/bb12ebd389864bbba8c2c9e15ab808efae54e660/after/misc_slash_libfuzzer_slash_libfuzzer.py,LibFuzzerMonitor.getASanTrace,1
+c:/src/pylint-intervention/data/in_the_wild\versions/FuzzManager/bb12ebd389864bbba8c2c9e15ab808efae54e660/after/misc_slash_libfuzzer_slash_libfuzzer.py,LibFuzzerMonitor.getTestcase,1

@@ -1,1 +1,13 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/sverchok/db9529bdf62cd9874d8124dab604759003b10bc4/after/core_slash_main_tree_handler.py,ContextTrees.calc_cam_update_time_group,11
+c:/src/pylint-intervention/data/in_the_wild\versions/sverchok/db9529bdf62cd9874d8124dab604759003b10bc4/after/core_slash_main_tree_handler.py,TreeHandler,9
+c:/src/pylint-intervention/data/in_the_wild\versions/sverchok/db9529bdf62cd9874d8124dab604759003b10bc4/after/core_slash_main_tree_handler.py,TreeHandler.send,8
+c:/src/pylint-intervention/data/in_the_wild\versions/sverchok/db9529bdf62cd9874d8124dab604759003b10bc4/after/core_slash_main_tree_handler.py,ContextTrees.calc_cam_update_time,8
+c:/src/pylint-intervention/data/in_the_wild\versions/sverchok/db9529bdf62cd9874d8124dab604759003b10bc4/after/core_slash_main_tree_handler.py,ContextTrees._update_topology_status,8
+c:/src/pylint-intervention/data/in_the_wild\versions/sverchok/db9529bdf62cd9874d8124dab604759003b10bc4/after/core_slash_main_tree_handler.py,ContextTrees,7
+c:/src/pylint-intervention/data/in_the_wild\versions/sverchok/db9529bdf62cd9874d8124dab604759003b10bc4/after/core_slash_main_tree_handler.py,ContextTrees.get,5
+c:/src/pylint-intervention/data/in_the_wild\versions/sverchok/db9529bdf62cd9874d8124dab604759003b10bc4/after/core_slash_main_tree_handler.py,ContextTrees.mark_nodes_outdated,5
+c:/src/pylint-intervention/data/in_the_wild\versions/sverchok/db9529bdf62cd9874d8124dab604759003b10bc4/after/core_slash_main_tree_handler.py,ContextTrees.reset_data,4
+c:/src/pylint-intervention/data/in_the_wild\versions/sverchok/db9529bdf62cd9874d8124dab604759003b10bc4/after/core_slash_main_tree_handler.py,PathManager,3
+c:/src/pylint-intervention/data/in_the_wild\versions/sverchok/db9529bdf62cd9874d8124dab604759003b10bc4/after/core_slash_main_tree_handler.py,ContextTrees.mark_tree_outdated,2
+c:/src/pylint-intervention/data/in_the_wild\versions/sverchok/db9529bdf62cd9874d8124dab604759003b10bc4/after/core_slash_main_tree_handler.py,PathManager.generate_path,2

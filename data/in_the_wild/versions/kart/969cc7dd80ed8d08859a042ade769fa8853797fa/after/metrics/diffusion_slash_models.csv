@@ -1,1 +1,14 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/kart/969cc7dd80ed8d08859a042ade769fa8853797fa/after/diffusion_slash_models.py,Place,5
+c:/src/pylint-intervention/data/in_the_wild\versions/kart/969cc7dd80ed8d08859a042ade769fa8853797fa/after/diffusion_slash_models.py,Place.__str__,4
+c:/src/pylint-intervention/data/in_the_wild\versions/kart/969cc7dd80ed8d08859a042ade769fa8853797fa/after/diffusion_slash_models.py,MetaAward,4
+c:/src/pylint-intervention/data/in_the_wild\versions/kart/969cc7dd80ed8d08859a042ade769fa8853797fa/after/diffusion_slash_models.py,MetaAward.__str__,3
+c:/src/pylint-intervention/data/in_the_wild\versions/kart/969cc7dd80ed8d08859a042ade769fa8853797fa/after/diffusion_slash_models.py,Award,3
+c:/src/pylint-intervention/data/in_the_wild\versions/kart/969cc7dd80ed8d08859a042ade769fa8853797fa/after/diffusion_slash_models.py,Diffusion,3
+c:/src/pylint-intervention/data/in_the_wild\versions/kart/969cc7dd80ed8d08859a042ade769fa8853797fa/after/diffusion_slash_models.py,Award.__str__,2
+c:/src/pylint-intervention/data/in_the_wild\versions/kart/969cc7dd80ed8d08859a042ade769fa8853797fa/after/diffusion_slash_models.py,MetaEvent,2
+c:/src/pylint-intervention/data/in_the_wild\versions/kart/969cc7dd80ed8d08859a042ade769fa8853797fa/after/diffusion_slash_models.py,Diffusion.__str__,2
+c:/src/pylint-intervention/data/in_the_wild\versions/kart/969cc7dd80ed8d08859a042ade769fa8853797fa/after/diffusion_slash_models.py,main_event_true,1
+c:/src/pylint-intervention/data/in_the_wild\versions/kart/969cc7dd80ed8d08859a042ade769fa8853797fa/after/diffusion_slash_models.py,main_event_false,1
+c:/src/pylint-intervention/data/in_the_wild\versions/kart/969cc7dd80ed8d08859a042ade769fa8853797fa/after/diffusion_slash_models.py,staff_and_artist_user_limit,1
+c:/src/pylint-intervention/data/in_the_wild\versions/kart/969cc7dd80ed8d08859a042ade769fa8853797fa/after/diffusion_slash_models.py,MetaEvent.__str__,1

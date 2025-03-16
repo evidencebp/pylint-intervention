@@ -1,1 +1,8 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/python-can/f1808ed5e8e20ebbf489713fe5da4a44fea079f0/after/can_slash_exceptions.py,error_check,3
+c:/src/pylint-intervention/data/in_the_wild\versions/python-can/f1808ed5e8e20ebbf489713fe5da4a44fea079f0/after/can_slash_exceptions.py,CanError,3
+c:/src/pylint-intervention/data/in_the_wild\versions/python-can/f1808ed5e8e20ebbf489713fe5da4a44fea079f0/after/can_slash_exceptions.py,CanError.__init__,2
+c:/src/pylint-intervention/data/in_the_wild\versions/python-can/f1808ed5e8e20ebbf489713fe5da4a44fea079f0/after/can_slash_exceptions.py,CanInterfaceNotImplementedError,1
+c:/src/pylint-intervention/data/in_the_wild\versions/python-can/f1808ed5e8e20ebbf489713fe5da4a44fea079f0/after/can_slash_exceptions.py,CanInitializationError,1
+c:/src/pylint-intervention/data/in_the_wild\versions/python-can/f1808ed5e8e20ebbf489713fe5da4a44fea079f0/after/can_slash_exceptions.py,CanOperationError,1
+c:/src/pylint-intervention/data/in_the_wild\versions/python-can/f1808ed5e8e20ebbf489713fe5da4a44fea079f0/after/can_slash_exceptions.py,CanTimeoutError,1

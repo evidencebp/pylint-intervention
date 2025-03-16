@@ -1,1 +1,8 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/zulip/e4bf7066f3e1c78de7dfacbe727ba4c277e51cd9/before/zerver_slash_tornado_slash_ioloop_logging.py,InstrumentedPoll.poll,9
+c:/src/pylint-intervention/data/in_the_wild\versions/zulip/e4bf7066f3e1c78de7dfacbe727ba4c277e51cd9/before/zerver_slash_tornado_slash_ioloop_logging.py,InstrumentedPoll,5
+c:/src/pylint-intervention/data/in_the_wild\versions/zulip/e4bf7066f3e1c78de7dfacbe727ba4c277e51cd9/before/zerver_slash_tornado_slash_ioloop_logging.py,InstrumentedPollIOLoop,2
+c:/src/pylint-intervention/data/in_the_wild\versions/zulip/e4bf7066f3e1c78de7dfacbe727ba4c277e51cd9/before/zerver_slash_tornado_slash_ioloop_logging.py,instrument_tornado_ioloop,1
+c:/src/pylint-intervention/data/in_the_wild\versions/zulip/e4bf7066f3e1c78de7dfacbe727ba4c277e51cd9/before/zerver_slash_tornado_slash_ioloop_logging.py,InstrumentedPollIOLoop.initialize,1
+c:/src/pylint-intervention/data/in_the_wild\versions/zulip/e4bf7066f3e1c78de7dfacbe727ba4c277e51cd9/before/zerver_slash_tornado_slash_ioloop_logging.py,InstrumentedPoll.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/zulip/e4bf7066f3e1c78de7dfacbe727ba4c277e51cd9/before/zerver_slash_tornado_slash_ioloop_logging.py,InstrumentedPoll.__getattr__,1

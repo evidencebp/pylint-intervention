@@ -1,1 +1,9 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/stingray/34957b43ae27e888140a5e9042e527e336983cc8/before/stingray_slash_powerspectrum.py,Periodogram.__init__,5
+c:/src/pylint-intervention/data/in_the_wild\versions/stingray/34957b43ae27e888140a5e9042e527e336983cc8/before/stingray_slash_powerspectrum.py,Periodogram,3
+c:/src/pylint-intervention/data/in_the_wild\versions/stingray/34957b43ae27e888140a5e9042e527e336983cc8/before/stingray_slash_powerspectrum.py,Periodogram._normalize_periodogram,3
+c:/src/pylint-intervention/data/in_the_wild\versions/stingray/34957b43ae27e888140a5e9042e527e336983cc8/before/stingray_slash_powerspectrum.py,Periodogram.rebin_log,3
+c:/src/pylint-intervention/data/in_the_wild\versions/stingray/34957b43ae27e888140a5e9042e527e336983cc8/before/stingray_slash_powerspectrum.py,AveragedPeriodogram,2
+c:/src/pylint-intervention/data/in_the_wild\versions/stingray/34957b43ae27e888140a5e9042e527e336983cc8/before/stingray_slash_powerspectrum.py,Periodogram._fourier_transform,1
+c:/src/pylint-intervention/data/in_the_wild\versions/stingray/34957b43ae27e888140a5e9042e527e336983cc8/before/stingray_slash_powerspectrum.py,Periodogram.rebin,1
+c:/src/pylint-intervention/data/in_the_wild\versions/stingray/34957b43ae27e888140a5e9042e527e336983cc8/before/stingray_slash_powerspectrum.py,AveragedPeriodogram.__init__,1

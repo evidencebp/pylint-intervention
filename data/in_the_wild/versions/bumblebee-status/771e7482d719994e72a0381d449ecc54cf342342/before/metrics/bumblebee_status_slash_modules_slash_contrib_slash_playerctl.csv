@@ -1,1 +1,5 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/bumblebee-status/771e7482d719994e72a0381d449ecc54cf342342/before/bumblebee_status_slash_modules_slash_contrib_slash_playerctl.py,Module.update,12
+c:/src/pylint-intervention/data/in_the_wild\versions/bumblebee-status/771e7482d719994e72a0381d449ecc54cf342342/before/bumblebee_status_slash_modules_slash_contrib_slash_playerctl.py,Module,8
+c:/src/pylint-intervention/data/in_the_wild\versions/bumblebee-status/771e7482d719994e72a0381d449ecc54cf342342/before/bumblebee_status_slash_modules_slash_contrib_slash_playerctl.py,Module.__init__,8
+c:/src/pylint-intervention/data/in_the_wild\versions/bumblebee-status/771e7482d719994e72a0381d449ecc54cf342342/before/bumblebee_status_slash_modules_slash_contrib_slash_playerctl.py,Module.__get_song,2

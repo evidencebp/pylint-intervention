@@ -1,1 +1,11 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/MangoByte/54346e76e261f87d99edd826c1df097f9dffd992/after/cogs_slash_dotastats.py,DotaStats.write_stats,8
+c:/src/pylint-intervention/data/in_the_wild\versions/MangoByte/54346e76e261f87d99edd826c1df097f9dffd992/after/cogs_slash_dotastats.py,DotaStats.setsteam,6
+c:/src/pylint-intervention/data/in_the_wild\versions/MangoByte/54346e76e261f87d99edd826c1df097f9dffd992/after/cogs_slash_dotastats.py,DotaStats.whois,5
+c:/src/pylint-intervention/data/in_the_wild\versions/MangoByte/54346e76e261f87d99edd826c1df097f9dffd992/after/cogs_slash_dotastats.py,DotaStats,4
+c:/src/pylint-intervention/data/in_the_wild\versions/MangoByte/54346e76e261f87d99edd826c1df097f9dffd992/after/cogs_slash_dotastats.py,opendota_query,2
+c:/src/pylint-intervention/data/in_the_wild\versions/MangoByte/54346e76e261f87d99edd826c1df097f9dffd992/after/cogs_slash_dotastats.py,setup,2
+c:/src/pylint-intervention/data/in_the_wild\versions/MangoByte/54346e76e261f87d99edd826c1df097f9dffd992/after/cogs_slash_dotastats.py,DotaStats.lastgame,2
+c:/src/pylint-intervention/data/in_the_wild\versions/MangoByte/54346e76e261f87d99edd826c1df097f9dffd992/after/cogs_slash_dotastats.py,DotaStats.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/MangoByte/54346e76e261f87d99edd826c1df097f9dffd992/after/cogs_slash_dotastats.py,DotaStats.addstats,1
+c:/src/pylint-intervention/data/in_the_wild\versions/MangoByte/54346e76e261f87d99edd826c1df097f9dffd992/after/cogs_slash_dotastats.py,DotaStats.stats,1

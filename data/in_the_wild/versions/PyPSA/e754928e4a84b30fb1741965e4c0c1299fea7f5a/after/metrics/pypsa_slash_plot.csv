@@ -1,1 +1,12 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/PyPSA/e754928e4a84b30fb1741965e4c0c1299fea7f5a/after/pypsa_slash_plot.py,plot,47
+c:/src/pylint-intervention/data/in_the_wild\versions/PyPSA/e754928e4a84b30fb1741965e4c0c1299fea7f5a/after/pypsa_slash_plot.py,iplot,27
+c:/src/pylint-intervention/data/in_the_wild\versions/PyPSA/e754928e4a84b30fb1741965e4c0c1299fea7f5a/after/pypsa_slash_plot.py,_flow_ds_from_arg,8
+c:/src/pylint-intervention/data/in_the_wild\versions/PyPSA/e754928e4a84b30fb1741965e4c0c1299fea7f5a/after/pypsa_slash_plot.py,draw_map_cartopy,7
+c:/src/pylint-intervention/data/in_the_wild\versions/PyPSA/e754928e4a84b30fb1741965e4c0c1299fea7f5a/after/pypsa_slash_plot.py,get_projection_from_crs,4
+c:/src/pylint-intervention/data/in_the_wild\versions/PyPSA/e754928e4a84b30fb1741965e4c0c1299fea7f5a/after/pypsa_slash_plot.py,autogenerate_coordinates,4
+c:/src/pylint-intervention/data/in_the_wild\versions/PyPSA/e754928e4a84b30fb1741965e4c0c1299fea7f5a/after/pypsa_slash_plot.py,projected_area_factor,3
+c:/src/pylint-intervention/data/in_the_wild\versions/PyPSA/e754928e4a84b30fb1741965e4c0c1299fea7f5a/after/pypsa_slash_plot.py,directed_flow,3
+c:/src/pylint-intervention/data/in_the_wild\versions/PyPSA/e754928e4a84b30fb1741965e4c0c1299fea7f5a/after/pypsa_slash_plot.py,_get_coordinates,3
+c:/src/pylint-intervention/data/in_the_wild\versions/PyPSA/e754928e4a84b30fb1741965e4c0c1299fea7f5a/after/pypsa_slash_plot.py,as_branch_series,2
+c:/src/pylint-intervention/data/in_the_wild\versions/PyPSA/e754928e4a84b30fb1741965e4c0c1299fea7f5a/after/pypsa_slash_plot.py,compute_bbox_with_margins,1

@@ -1,1 +1,9 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/dedupe/f5213d79b10333aabe353da6e3ae1cca5802b17e/before/dedupe_slash_backport.py,signature,6
+c:/src/pylint-intervention/data/in_the_wild\versions/dedupe/f5213d79b10333aabe353da6e3ae1cca5802b17e/before/dedupe_slash_backport.py,Signature,4
+c:/src/pylint-intervention/data/in_the_wild\versions/dedupe/f5213d79b10333aabe353da6e3ae1cca5802b17e/before/dedupe_slash_backport.py,Parameter,3
+c:/src/pylint-intervention/data/in_the_wild\versions/dedupe/f5213d79b10333aabe353da6e3ae1cca5802b17e/before/dedupe_slash_backport.py,Signature.__init__,3
+c:/src/pylint-intervention/data/in_the_wild\versions/dedupe/f5213d79b10333aabe353da6e3ae1cca5802b17e/before/dedupe_slash_backport.py,signature,2
+c:/src/pylint-intervention/data/in_the_wild\versions/dedupe/f5213d79b10333aabe353da6e3ae1cca5802b17e/before/dedupe_slash_backport.py,Parameter.replace,2
+c:/src/pylint-intervention/data/in_the_wild\versions/dedupe/f5213d79b10333aabe353da6e3ae1cca5802b17e/before/dedupe_slash_backport.py,_empty,1
+c:/src/pylint-intervention/data/in_the_wild\versions/dedupe/f5213d79b10333aabe353da6e3ae1cca5802b17e/before/dedupe_slash_backport.py,Parameter.__init__,1

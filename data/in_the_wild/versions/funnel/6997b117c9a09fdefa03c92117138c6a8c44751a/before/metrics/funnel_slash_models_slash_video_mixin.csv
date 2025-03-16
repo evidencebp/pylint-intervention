@@ -1,1 +1,8 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/funnel/6997b117c9a09fdefa03c92117138c6a8c44751a/before/funnel_slash_models_slash_video_mixin.py,parse_video_url,19
+c:/src/pylint-intervention/data/in_the_wild\versions/funnel/6997b117c9a09fdefa03c92117138c6a8c44751a/before/funnel_slash_models_slash_video_mixin.py,VideoMixin.embeddable_video_url,6
+c:/src/pylint-intervention/data/in_the_wild\versions/funnel/6997b117c9a09fdefa03c92117138c6a8c44751a/before/funnel_slash_models_slash_video_mixin.py,make_video_url,5
+c:/src/pylint-intervention/data/in_the_wild\versions/funnel/6997b117c9a09fdefa03c92117138c6a8c44751a/before/funnel_slash_models_slash_video_mixin.py,VideoMixin,5
+c:/src/pylint-intervention/data/in_the_wild\versions/funnel/6997b117c9a09fdefa03c92117138c6a8c44751a/before/funnel_slash_models_slash_video_mixin.py,VideoMixin.video_url,3
+c:/src/pylint-intervention/data/in_the_wild\versions/funnel/6997b117c9a09fdefa03c92117138c6a8c44751a/before/funnel_slash_models_slash_video_mixin.py,VideoMixin.video_url,2
+c:/src/pylint-intervention/data/in_the_wild\versions/funnel/6997b117c9a09fdefa03c92117138c6a8c44751a/before/funnel_slash_models_slash_video_mixin.py,VideoError,1

@@ -1,1 +1,6 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/coquery/e86d4299e2d0b688e1f9cb2d3b0dfe9c13eb1f07/after/coquery_slash_gui_slash_orphanageddatabases.py,check_orphans,10
+c:/src/pylint-intervention/data/in_the_wild\versions/coquery/e86d4299e2d0b688e1f9cb2d3b0dfe9c13eb1f07/after/coquery_slash_gui_slash_orphanageddatabases.py,OrphanagedDatabasesDialog.display,8
+c:/src/pylint-intervention/data/in_the_wild\versions/coquery/e86d4299e2d0b688e1f9cb2d3b0dfe9c13eb1f07/after/coquery_slash_gui_slash_orphanageddatabases.py,OrphanagedDatabasesDialog,6
+c:/src/pylint-intervention/data/in_the_wild\versions/coquery/e86d4299e2d0b688e1f9cb2d3b0dfe9c13eb1f07/after/coquery_slash_gui_slash_orphanageddatabases.py,OrphanagedDatabasesDialog.__init__,3
+c:/src/pylint-intervention/data/in_the_wild\versions/coquery/e86d4299e2d0b688e1f9cb2d3b0dfe9c13eb1f07/after/coquery_slash_gui_slash_orphanageddatabases.py,OrphanagedDatabasesDialog.remove_orphans,3

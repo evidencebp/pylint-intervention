@@ -1,1 +1,5 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/pylint/88512d0aefdab4598c228c121f02f7bbe86d8f48/after/pylint_slash_extensions_slash_broad_try_clause.py,BroadTryClauseChecker,4
+c:/src/pylint-intervention/data/in_the_wild\versions/pylint/88512d0aefdab4598c228c121f02f7bbe86d8f48/after/pylint_slash_extensions_slash_broad_try_clause.py,BroadTryClauseChecker._count_statements,3
+c:/src/pylint-intervention/data/in_the_wild\versions/pylint/88512d0aefdab4598c228c121f02f7bbe86d8f48/after/pylint_slash_extensions_slash_broad_try_clause.py,BroadTryClauseChecker.visit_tryexcept,2
+c:/src/pylint-intervention/data/in_the_wild\versions/pylint/88512d0aefdab4598c228c121f02f7bbe86d8f48/after/pylint_slash_extensions_slash_broad_try_clause.py,register,1

@@ -1,1 +1,8 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/quodlibet/0cd37f779b0a8c9caf1f7d42041c7715e2a63fd6/after/quodlibet_slash_util_slash_misc.py,total_ordering,5
+c:/src/pylint-intervention/data/in_the_wild\versions/quodlibet/0cd37f779b0a8c9caf1f7d42041c7715e2a63fd6/after/quodlibet_slash_util_slash_misc.py,hashable,4
+c:/src/pylint-intervention/data/in_the_wild\versions/quodlibet/0cd37f779b0a8c9caf1f7d42041c7715e2a63fd6/after/quodlibet_slash_util_slash_misc.py,get_module_dir,2
+c:/src/pylint-intervention/data/in_the_wild\versions/quodlibet/0cd37f779b0a8c9caf1f7d42041c7715e2a63fd6/after/quodlibet_slash_util_slash_misc.py,get_ca_file,2
+c:/src/pylint-intervention/data/in_the_wild\versions/quodlibet/0cd37f779b0a8c9caf1f7d42041c7715e2a63fd6/after/quodlibet_slash_util_slash_misc.py,cmp,1
+c:/src/pylint-intervention/data/in_the_wild\versions/quodlibet/0cd37f779b0a8c9caf1f7d42041c7715e2a63fd6/after/quodlibet_slash_util_slash_misc.py,cached_func,1
+c:/src/pylint-intervention/data/in_the_wild\versions/quodlibet/0cd37f779b0a8c9caf1f7d42041c7715e2a63fd6/after/quodlibet_slash_util_slash_misc.py,NamedTemporaryFile,1

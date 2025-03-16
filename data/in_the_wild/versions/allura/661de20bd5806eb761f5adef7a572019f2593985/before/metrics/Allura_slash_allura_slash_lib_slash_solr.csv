@@ -1,1 +1,15 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/allura/661de20bd5806eb761f5adef7a572019f2593985/before/Allura_slash_allura_slash_lib_slash_solr.py,MockSOLR.search,20
+c:/src/pylint-intervention/data/in_the_wild\versions/allura/661de20bd5806eb761f5adef7a572019f2593985/before/Allura_slash_allura_slash_lib_slash_solr.py,MockSOLR,7
+c:/src/pylint-intervention/data/in_the_wild\versions/allura/661de20bd5806eb761f5adef7a572019f2593985/before/Allura_slash_allura_slash_lib_slash_solr.py,Solr.add,5
+c:/src/pylint-intervention/data/in_the_wild\versions/allura/661de20bd5806eb761f5adef7a572019f2593985/before/Allura_slash_allura_slash_lib_slash_solr.py,MockSOLR.delete,5
+c:/src/pylint-intervention/data/in_the_wild\versions/allura/661de20bd5806eb761f5adef7a572019f2593985/before/Allura_slash_allura_slash_lib_slash_solr.py,Solr,4
+c:/src/pylint-intervention/data/in_the_wild\versions/allura/661de20bd5806eb761f5adef7a572019f2593985/before/Allura_slash_allura_slash_lib_slash_solr.py,Solr.__init__,3
+c:/src/pylint-intervention/data/in_the_wild\versions/allura/661de20bd5806eb761f5adef7a572019f2593985/before/Allura_slash_allura_slash_lib_slash_solr.py,Solr.delete,3
+c:/src/pylint-intervention/data/in_the_wild\versions/allura/661de20bd5806eb761f5adef7a572019f2593985/before/Allura_slash_allura_slash_lib_slash_solr.py,escape_solr_arg,2
+c:/src/pylint-intervention/data/in_the_wild\versions/allura/661de20bd5806eb761f5adef7a572019f2593985/before/Allura_slash_allura_slash_lib_slash_solr.py,Solr.commit,2
+c:/src/pylint-intervention/data/in_the_wild\versions/allura/661de20bd5806eb761f5adef7a572019f2593985/before/Allura_slash_allura_slash_lib_slash_solr.py,MockSOLR.add,2
+c:/src/pylint-intervention/data/in_the_wild\versions/allura/661de20bd5806eb761f5adef7a572019f2593985/before/Allura_slash_allura_slash_lib_slash_solr.py,make_solr_from_config,1
+c:/src/pylint-intervention/data/in_the_wild\versions/allura/661de20bd5806eb761f5adef7a572019f2593985/before/Allura_slash_allura_slash_lib_slash_solr.py,Solr.search,1
+c:/src/pylint-intervention/data/in_the_wild\versions/allura/661de20bd5806eb761f5adef7a572019f2593985/before/Allura_slash_allura_slash_lib_slash_solr.py,MockSOLR.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/allura/661de20bd5806eb761f5adef7a572019f2593985/before/Allura_slash_allura_slash_lib_slash_solr.py,MockSOLR.commit,1

@@ -1,1 +1,11 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/nDPI/beef4f997bccc90c545abdf8d387bab600b4af8f/before/python_slash_ndpi_example.py,packetcaptured,12
+c:/src/pylint-intervention/data/in_the_wild\versions/nDPI/beef4f997bccc90c545abdf8d387bab600b4af8f/before/python_slash_ndpi_example.py,py_cmp_fun,11
+c:/src/pylint-intervention/data/in_the_wild\versions/nDPI/beef4f997bccc90c545abdf8d387bab600b4af8f/before/python_slash_ndpi_example.py,get_flow,6
+c:/src/pylint-intervention/data/in_the_wild\versions/nDPI/beef4f997bccc90c545abdf8d387bab600b4af8f/before/python_slash_ndpi_example.py,node_proto_guess_walker,4
+c:/src/pylint-intervention/data/in_the_wild\versions/nDPI/beef4f997bccc90c545abdf8d387bab600b4af8f/before/python_slash_ndpi_example.py,result,3
+c:/src/pylint-intervention/data/in_the_wild\versions/nDPI/beef4f997bccc90c545abdf8d387bab600b4af8f/before/python_slash_ndpi_example.py,freer,1
+c:/src/pylint-intervention/data/in_the_wild\versions/nDPI/beef4f997bccc90c545abdf8d387bab600b4af8f/before/python_slash_ndpi_example.py,ip2int,1
+c:/src/pylint-intervention/data/in_the_wild\versions/nDPI/beef4f997bccc90c545abdf8d387bab600b4af8f/before/python_slash_ndpi_example.py,free,1
+c:/src/pylint-intervention/data/in_the_wild\versions/nDPI/beef4f997bccc90c545abdf8d387bab600b4af8f/before/python_slash_ndpi_example.py,initialize,1
+c:/src/pylint-intervention/data/in_the_wild\versions/nDPI/beef4f997bccc90c545abdf8d387bab600b4af8f/before/python_slash_ndpi_example.py,WorkFlow,1

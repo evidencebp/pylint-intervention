@@ -1,1 +1,13 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/bundlewrap/e11af341069e5a822d855f9ff808ef288e624b99/before/bundlewrap_slash_metadata.py,check_for_metadata_conflicts_between_groups,20
+c:/src/pylint-intervention/data/in_the_wild\versions/bundlewrap/e11af341069e5a822d855f9ff808ef288e624b99/before/bundlewrap_slash_metadata.py,check_for_metadata_conflicts_between_defaults_and_reactors,13
+c:/src/pylint-intervention/data/in_the_wild\versions/bundlewrap/e11af341069e5a822d855f9ff808ef288e624b99/before/bundlewrap_slash_metadata.py,find_groups_causing_metadata_conflict,11
+c:/src/pylint-intervention/data/in_the_wild\versions/bundlewrap/e11af341069e5a822d855f9ff808ef288e624b99/before/bundlewrap_slash_metadata.py,validate_metadata,9
+c:/src/pylint-intervention/data/in_the_wild\versions/bundlewrap/e11af341069e5a822d855f9ff808ef288e624b99/before/bundlewrap_slash_metadata.py,deepcopy_metadata,7
+c:/src/pylint-intervention/data/in_the_wild\versions/bundlewrap/e11af341069e5a822d855f9ff808ef288e624b99/before/bundlewrap_slash_metadata.py,MetadataJSONEncoder,5
+c:/src/pylint-intervention/data/in_the_wild\versions/bundlewrap/e11af341069e5a822d855f9ff808ef288e624b99/before/bundlewrap_slash_metadata.py,MetadataJSONEncoder.default,4
+c:/src/pylint-intervention/data/in_the_wild\versions/bundlewrap/e11af341069e5a822d855f9ff808ef288e624b99/before/bundlewrap_slash_metadata.py,atomic,3
+c:/src/pylint-intervention/data/in_the_wild\versions/bundlewrap/e11af341069e5a822d855f9ff808ef288e624b99/before/bundlewrap_slash_metadata.py,metadata_to_json,2
+c:/src/pylint-intervention/data/in_the_wild\versions/bundlewrap/e11af341069e5a822d855f9ff808ef288e624b99/before/bundlewrap_slash_metadata.py,check_for_metadata_conflicts,1
+c:/src/pylint-intervention/data/in_the_wild\versions/bundlewrap/e11af341069e5a822d855f9ff808ef288e624b99/before/bundlewrap_slash_metadata.py,hash_metadata,1
+c:/src/pylint-intervention/data/in_the_wild\versions/bundlewrap/e11af341069e5a822d855f9ff808ef288e624b99/before/bundlewrap_slash_metadata.py,DoNotRunAgain,1

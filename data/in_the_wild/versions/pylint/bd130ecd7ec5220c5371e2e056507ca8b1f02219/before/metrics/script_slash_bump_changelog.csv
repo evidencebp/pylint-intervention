@@ -1,1 +1,10 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/pylint/bd130ecd7ec5220c5371e2e056507ca8b1f02219/before/script_slash_bump_changelog.py,do_checks,6
+c:/src/pylint-intervention/data/in_the_wild\versions/pylint/bd130ecd7ec5220c5371e2e056507ca8b1f02219/before/script_slash_bump_changelog.py,get_next_versions,5
+c:/src/pylint-intervention/data/in_the_wild\versions/pylint/bd130ecd7ec5220c5371e2e056507ca8b1f02219/before/script_slash_bump_changelog.py,get_whats_new,5
+c:/src/pylint-intervention/data/in_the_wild\versions/pylint/bd130ecd7ec5220c5371e2e056507ca8b1f02219/before/script_slash_bump_changelog.py,main,3
+c:/src/pylint-intervention/data/in_the_wild\versions/pylint/bd130ecd7ec5220c5371e2e056507ca8b1f02219/before/script_slash_bump_changelog.py,get_next_version,3
+c:/src/pylint-intervention/data/in_the_wild\versions/pylint/bd130ecd7ec5220c5371e2e056507ca8b1f02219/before/script_slash_bump_changelog.py,get_version_type,3
+c:/src/pylint-intervention/data/in_the_wild\versions/pylint/bd130ecd7ec5220c5371e2e056507ca8b1f02219/before/script_slash_bump_changelog.py,get_all_whats_new,2
+c:/src/pylint-intervention/data/in_the_wild\versions/pylint/bd130ecd7ec5220c5371e2e056507ca8b1f02219/before/script_slash_bump_changelog.py,transform_content,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pylint/bd130ecd7ec5220c5371e2e056507ca8b1f02219/before/script_slash_bump_changelog.py,VersionType,1

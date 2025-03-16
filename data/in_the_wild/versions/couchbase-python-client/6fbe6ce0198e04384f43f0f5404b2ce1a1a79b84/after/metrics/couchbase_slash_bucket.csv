@@ -1,1 +1,13 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/couchbase-python-client/6fbe6ce0198e04384f43f0f5404b2ce1a1a79b84/after/couchbase_slash_bucket.py,Bucket,2
+c:/src/pylint-intervention/data/in_the_wild\versions/couchbase-python-client/6fbe6ce0198e04384f43f0f5404b2ce1a1a79b84/after/couchbase_slash_bucket.py,BucketOptions,1
+c:/src/pylint-intervention/data/in_the_wild\versions/couchbase-python-client/6fbe6ce0198e04384f43f0f5404b2ce1a1a79b84/after/couchbase_slash_bucket.py,ViewOptions,1
+c:/src/pylint-intervention/data/in_the_wild\versions/couchbase-python-client/6fbe6ce0198e04384f43f0f5404b2ce1a1a79b84/after/couchbase_slash_bucket.py,Bucket.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/couchbase-python-client/6fbe6ce0198e04384f43f0f5404b2ce1a1a79b84/after/couchbase_slash_bucket.py,Bucket.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/couchbase-python-client/6fbe6ce0198e04384f43f0f5404b2ce1a1a79b84/after/couchbase_slash_bucket.py,Bucket.name,1
+c:/src/pylint-intervention/data/in_the_wild\versions/couchbase-python-client/6fbe6ce0198e04384f43f0f5404b2ce1a1a79b84/after/couchbase_slash_bucket.py,Bucket.scope,1
+c:/src/pylint-intervention/data/in_the_wild\versions/couchbase-python-client/6fbe6ce0198e04384f43f0f5404b2ce1a1a79b84/after/couchbase_slash_bucket.py,Bucket.default_collection,1
+c:/src/pylint-intervention/data/in_the_wild\versions/couchbase-python-client/6fbe6ce0198e04384f43f0f5404b2ce1a1a79b84/after/couchbase_slash_bucket.py,Bucket.collection,1
+c:/src/pylint-intervention/data/in_the_wild\versions/couchbase-python-client/6fbe6ce0198e04384f43f0f5404b2ce1a1a79b84/after/couchbase_slash_bucket.py,Bucket.view_query,1
+c:/src/pylint-intervention/data/in_the_wild\versions/couchbase-python-client/6fbe6ce0198e04384f43f0f5404b2ce1a1a79b84/after/couchbase_slash_bucket.py,Bucket.views,1
+c:/src/pylint-intervention/data/in_the_wild\versions/couchbase-python-client/6fbe6ce0198e04384f43f0f5404b2ce1a1a79b84/after/couchbase_slash_bucket.py,Bucket.ping,1

@@ -1,1 +1,4 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/sirepo/48eb6a685f43ac18e8bb6184cd689455e6040331/before/sirepo_slash_template_slash_srw_fixup.py,_do_beamline,11
+c:/src/pylint-intervention/data/in_the_wild\versions/sirepo/48eb6a685f43ac18e8bb6184cd689455e6040331/before/sirepo_slash_template_slash_srw_fixup.py,do,6
+c:/src/pylint-intervention/data/in_the_wild\versions/sirepo/48eb6a685f43ac18e8bb6184cd689455e6040331/before/sirepo_slash_template_slash_srw_fixup.py,_do_electron_beam,2

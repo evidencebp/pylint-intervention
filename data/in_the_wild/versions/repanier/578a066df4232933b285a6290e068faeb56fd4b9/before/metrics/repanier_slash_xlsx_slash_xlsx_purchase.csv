@@ -1,1 +1,5 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/repanier/578a066df4232933b285a6290e068faeb56fd4b9/before/repanier_slash_xlsx_slash_xlsx_purchase.py,export_purchase,67
+c:/src/pylint-intervention/data/in_the_wild\versions/repanier/578a066df4232933b285a6290e068faeb56fd4b9/before/repanier_slash_xlsx_slash_xlsx_purchase.py,import_purchase_sheet,37
+c:/src/pylint-intervention/data/in_the_wild\versions/repanier/578a066df4232933b285a6290e068faeb56fd4b9/before/repanier_slash_xlsx_slash_xlsx_purchase.py,handle_uploaded_purchase,7
+c:/src/pylint-intervention/data/in_the_wild\versions/repanier/578a066df4232933b285a6290e068faeb56fd4b9/before/repanier_slash_xlsx_slash_xlsx_purchase.py,next_purchase,4

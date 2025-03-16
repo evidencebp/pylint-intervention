@@ -1,1 +1,15 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/pykern/9551826282bb90d1a4d73219af726637da75665c/after/pykern_slash_pkinspect.py,caller,8
+c:/src/pylint-intervention/data/in_the_wild\versions/pykern/9551826282bb90d1a4d73219af726637da75665c/after/pykern_slash_pkinspect.py,module_functions,5
+c:/src/pylint-intervention/data/in_the_wild\versions/pykern/9551826282bb90d1a4d73219af726637da75665c/after/pykern_slash_pkinspect.py,Call,4
+c:/src/pylint-intervention/data/in_the_wild\versions/pykern/9551826282bb90d1a4d73219af726637da75665c/after/pykern_slash_pkinspect.py,Call.__init__,3
+c:/src/pylint-intervention/data/in_the_wild\versions/pykern/9551826282bb90d1a4d73219af726637da75665c/after/pykern_slash_pkinspect.py,Call.__str__,3
+c:/src/pylint-intervention/data/in_the_wild\versions/pykern/9551826282bb90d1a4d73219af726637da75665c/after/pykern_slash_pkinspect.py,caller_module,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pykern/9551826282bb90d1a4d73219af726637da75665c/after/pykern_slash_pkinspect.py,is_caller_main,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pykern/9551826282bb90d1a4d73219af726637da75665c/after/pykern_slash_pkinspect.py,is_valid_identifier,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pykern/9551826282bb90d1a4d73219af726637da75665c/after/pykern_slash_pkinspect.py,module_basename,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pykern/9551826282bb90d1a4d73219af726637da75665c/after/pykern_slash_pkinspect.py,module_name_join,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pykern/9551826282bb90d1a4d73219af726637da75665c/after/pykern_slash_pkinspect.py,module_name_split,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pykern/9551826282bb90d1a4d73219af726637da75665c/after/pykern_slash_pkinspect.py,root_package,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pykern/9551826282bb90d1a4d73219af726637da75665c/after/pykern_slash_pkinspect.py,submodule_name,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pykern/9551826282bb90d1a4d73219af726637da75665c/after/pykern_slash_pkinspect.py,this_module,1

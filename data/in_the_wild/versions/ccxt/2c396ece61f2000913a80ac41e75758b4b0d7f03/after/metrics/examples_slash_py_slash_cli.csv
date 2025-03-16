@@ -1,1 +1,5 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/ccxt/2c396ece61f2000913a80ac41e75758b4b0d7f03/after/examples_slash_py_slash_cli.py,table,7
+c:/src/pylint-intervention/data/in_the_wild\versions/ccxt/2c396ece61f2000913a80ac41e75758b4b0d7f03/after/examples_slash_py_slash_cli.py,print_supported_exchanges,1
+c:/src/pylint-intervention/data/in_the_wild\versions/ccxt/2c396ece61f2000913a80ac41e75758b4b0d7f03/after/examples_slash_py_slash_cli.py,print_usage,1
+c:/src/pylint-intervention/data/in_the_wild\versions/ccxt/2c396ece61f2000913a80ac41e75758b4b0d7f03/after/examples_slash_py_slash_cli.py,Argv,1

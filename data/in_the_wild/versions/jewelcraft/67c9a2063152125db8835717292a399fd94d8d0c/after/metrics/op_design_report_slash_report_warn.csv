@@ -1,1 +1,8 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/jewelcraft/67c9a2063152125db8835717292a399fd94d8d0c/after/op_design_report_slash_report_warn.py,_collection_walk,3
+c:/src/pylint-intervention/data/in_the_wild\versions/jewelcraft/67c9a2063152125db8835717292a399fd94d8d0c/after/op_design_report_slash_report_warn.py,Warnings,3
+c:/src/pylint-intervention/data/in_the_wild\versions/jewelcraft/67c9a2063152125db8835717292a399fd94d8d0c/after/op_design_report_slash_report_warn.py,Warnings.report,3
+c:/src/pylint-intervention/data/in_the_wild\versions/jewelcraft/67c9a2063152125db8835717292a399fd94d8d0c/after/op_design_report_slash_report_warn.py,Warnings.validate_id,3
+c:/src/pylint-intervention/data/in_the_wild\versions/jewelcraft/67c9a2063152125db8835717292a399fd94d8d0c/after/op_design_report_slash_report_warn.py,Warnings.overlap,2
+c:/src/pylint-intervention/data/in_the_wild\versions/jewelcraft/67c9a2063152125db8835717292a399fd94d8d0c/after/op_design_report_slash_report_warn.py,Warnings.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/jewelcraft/67c9a2063152125db8835717292a399fd94d8d0c/after/op_design_report_slash_report_warn.py,Warnings._check_overlap,1

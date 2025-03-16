@@ -1,1 +1,17 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/hdltools/e2b4e4b8217790784d1caad018bf97070c5f087b/after/usage_slash_sim_stim.py,HDLSpiSlave.logic,14
+c:/src/pylint-intervention/data/in_the_wild\versions/hdltools/e2b4e4b8217790784d1caad018bf97070c5f087b/after/usage_slash_sim_stim.py,HDLSPIMaster.logic,9
+c:/src/pylint-intervention/data/in_the_wild\versions/hdltools/e2b4e4b8217790784d1caad018bf97070c5f087b/after/usage_slash_sim_stim.py,HDLSPIMaster.transmit_blocks,4
+c:/src/pylint-intervention/data/in_the_wild\versions/hdltools/e2b4e4b8217790784d1caad018bf97070c5f087b/after/usage_slash_sim_stim.py,HDLSpiSlave,4
+c:/src/pylint-intervention/data/in_the_wild\versions/hdltools/e2b4e4b8217790784d1caad018bf97070c5f087b/after/usage_slash_sim_stim.py,HDLSpiSlave._byte_received,4
+c:/src/pylint-intervention/data/in_the_wild\versions/hdltools/e2b4e4b8217790784d1caad018bf97070c5f087b/after/usage_slash_sim_stim.py,HDLSPIMaster,3
+c:/src/pylint-intervention/data/in_the_wild\versions/hdltools/e2b4e4b8217790784d1caad018bf97070c5f087b/after/usage_slash_sim_stim.py,HDLSPIMaster.transmit,2
+c:/src/pylint-intervention/data/in_the_wild\versions/hdltools/e2b4e4b8217790784d1caad018bf97070c5f087b/after/usage_slash_sim_stim.py,HDLSPIMaster.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/hdltools/e2b4e4b8217790784d1caad018bf97070c5f087b/after/usage_slash_sim_stim.py,HDLSPIMaster.initialstate,1
+c:/src/pylint-intervention/data/in_the_wild\versions/hdltools/e2b4e4b8217790784d1caad018bf97070c5f087b/after/usage_slash_sim_stim.py,HDLSPIMaster.structure,1
+c:/src/pylint-intervention/data/in_the_wild\versions/hdltools/e2b4e4b8217790784d1caad018bf97070c5f087b/after/usage_slash_sim_stim.py,HDLSPIMaster.get_received_count,1
+c:/src/pylint-intervention/data/in_the_wild\versions/hdltools/e2b4e4b8217790784d1caad018bf97070c5f087b/after/usage_slash_sim_stim.py,HDLSPIMaster.get_received,1
+c:/src/pylint-intervention/data/in_the_wild\versions/hdltools/e2b4e4b8217790784d1caad018bf97070c5f087b/after/usage_slash_sim_stim.py,HDLSpiSlave.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/hdltools/e2b4e4b8217790784d1caad018bf97070c5f087b/after/usage_slash_sim_stim.py,HDLSpiSlave.initialstate,1
+c:/src/pylint-intervention/data/in_the_wild\versions/hdltools/e2b4e4b8217790784d1caad018bf97070c5f087b/after/usage_slash_sim_stim.py,HDLSpiSlave.structure,1
+c:/src/pylint-intervention/data/in_the_wild\versions/hdltools/e2b4e4b8217790784d1caad018bf97070c5f087b/after/usage_slash_sim_stim.py,HDLSpiSlave.input_changed,1

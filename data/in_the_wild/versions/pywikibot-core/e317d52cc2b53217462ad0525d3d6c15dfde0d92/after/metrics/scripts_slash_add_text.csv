@@ -1,1 +1,8 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/pywikibot-core/e317d52cc2b53217462ad0525d3d6c15dfde0d92/after/scripts_slash_add_text.py,parse,14
+c:/src/pylint-intervention/data/in_the_wild\versions/pywikibot-core/e317d52cc2b53217462ad0525d3d6c15dfde0d92/after/scripts_slash_add_text.py,AddTextBot.skip_page,7
+c:/src/pylint-intervention/data/in_the_wild\versions/pywikibot-core/e317d52cc2b53217462ad0525d3d6c15dfde0d92/after/scripts_slash_add_text.py,AddTextBot,4
+c:/src/pylint-intervention/data/in_the_wild\versions/pywikibot-core/e317d52cc2b53217462ad0525d3d6c15dfde0d92/after/scripts_slash_add_text.py,main,3
+c:/src/pylint-intervention/data/in_the_wild\versions/pywikibot-core/e317d52cc2b53217462ad0525d3d6c15dfde0d92/after/scripts_slash_add_text.py,AddTextBot.setup,3
+c:/src/pylint-intervention/data/in_the_wild\versions/pywikibot-core/e317d52cc2b53217462ad0525d3d6c15dfde0d92/after/scripts_slash_add_text.py,AddTextBot.treat_page,3
+c:/src/pylint-intervention/data/in_the_wild\versions/pywikibot-core/e317d52cc2b53217462ad0525d3d6c15dfde0d92/after/scripts_slash_add_text.py,AddTextBot.summary_parameters,1

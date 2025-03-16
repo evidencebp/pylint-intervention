@@ -1,1 +1,4 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/mne-python/62143cbeb12a822e08833941c4e0f1d450d35240/before/mne_slash_parallel.py,parallel_func,18
+c:/src/pylint-intervention/data/in_the_wild\versions/mne-python/62143cbeb12a822e08833941c4e0f1d450d35240/before/mne_slash_parallel.py,check_n_jobs,10
+c:/src/pylint-intervention/data/in_the_wild\versions/mne-python/62143cbeb12a822e08833941c4e0f1d450d35240/before/mne_slash_parallel.py,_check_wrapper,1

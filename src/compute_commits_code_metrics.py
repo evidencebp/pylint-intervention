@@ -1,10 +1,21 @@
+import os
 from os.path import join
 
 import pandas as pd
 
+from compute_code_metrics import compute_metrics_diff
 from compute_commits_diff import VERSIONS_DIR, WILD_DIR
 from code_metrics import analyze_file, get_McCabe_complexity, get_repo_relevant_McCabe_stats
-from utils import get_project_name, encode_path
+from utils import get_project_name, encode_path, copy_files
+
+alert_change_commits_file = join(WILD_DIR
+                                 , "alert_change_commits.csv")
+
+AFTER_METRICS_FILE = join(WILD_DIR
+                          , 'after_commits_code_metrics.csv')
+BEFORE_METRICS_FILE = join(WILD_DIR
+                           , 'before_commits_code_metrics.csv')
+
 
 def compute_commits_code_metrics(commits_df
                                  , path_format):
@@ -23,8 +34,10 @@ def compute_commits_code_metrics(commits_df
 
             path = join(path_format.format(project_name=project_name
                                       , commit=commit)
-                        , file_name)
+                        , encode_path(file_name))
+
             metrics = analyze_file(path)
+
             metrics['repo_name'] = repo_name
             metrics['commit'] = commit
             metrics['path'] = file_name
@@ -51,8 +64,6 @@ def compute_commits_code_metrics(commits_df
 
 
 def run_compute_commits_code_metrics():
-    alert_change_commits_file = join(WILD_DIR
-                                     , "alert_change_commits.csv")
     df = pd.read_csv(alert_change_commits_file)
     df = df[df['state'] == 'removed']
 
@@ -62,19 +73,50 @@ def run_compute_commits_code_metrics():
     before_path_format = VERSIONS_DIR + "/{project_name}/{commit}/before/"
     before_df = compute_commits_code_metrics(commits_df=df
                                  , path_format=before_path_format)
-    before_df.to_csv(join(WILD_DIR
-                          , 'before_commits_code_metrics.csv')
+    before_df = before_df.drop_duplicates()
+    before_df.to_csv(BEFORE_METRICS_FILE
                      , index=False)
 
 
     after_path_format = VERSIONS_DIR + "/{project_name}/{commit}/after/"
     after_df = compute_commits_code_metrics(commits_df=df
                                  , path_format=after_path_format)
-    after_df.to_csv(join(WILD_DIR
-                          , 'after_commits_code_metrics.csv')
+    after_df = after_df.drop_duplicates()
+    after_df.to_csv(AFTER_METRICS_FILE
                      , index=False)
 
+def compute_commits_metrics_diff():
+
+    keys = ['repo_name', 'path', 'commit']
+    before_df = pd.read_csv(BEFORE_METRICS_FILE)
+    after_df = pd.read_csv(AFTER_METRICS_FILE)
+
+    metrics_diff = compute_metrics_diff(before_df
+                        , after_df
+                        , key=keys)
+    metrics_diff['valid'] = metrics_diff['LOC_before'].map(lambda x: str(x).isnumeric())
+    metrics_diff = metrics_diff[metrics_diff['valid'] == True]
+
+    df = pd.read_csv(alert_change_commits_file)
+
+    joint = pd.merge(df
+                     , metrics_diff
+                     , left_on=['repo_name', 'file_name', 'commit']
+                     , right_on=['repo_name', 'path', 'commit'])
+
+    agg = {k: 'mean' for k in metrics_diff.columns if '_diff' in k}
+    agg['path'] = 'count'
+
+    g = joint.groupby(['alert', 'state']
+                      , as_index=False).agg(agg)#.sort_values(['alert', 'state'])
+    g.to_csv(join(WILD_DIR
+                  , 'commits_code_metrics_diff_stats.csv')
+             , index=False)
+
+
+
 if __name__ == "__main__":
-    run_compute_commits_code_metrics()
+    #run_compute_commits_code_metrics()
+    compute_commits_metrics_diff()
 
 

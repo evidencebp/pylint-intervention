@@ -1,1 +1,10 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/Ocean-Data-Map-Project/f1c6904b766d1e3569eba9dff1b551a8a6d2ad60/after/plotting_slash_map.py,MapPlotter.load_data,51
+c:/src/pylint-intervention/data/in_the_wild\versions/Ocean-Data-Map-Project/f1c6904b766d1e3569eba9dff1b551a8a6d2ad60/after/plotting_slash_map.py,MapPlotter.plot,51
+c:/src/pylint-intervention/data/in_the_wild\versions/Ocean-Data-Map-Project/f1c6904b766d1e3569eba9dff1b551a8a6d2ad60/after/plotting_slash_map.py,MapPlotter,18
+c:/src/pylint-intervention/data/in_the_wild\versions/Ocean-Data-Map-Project/f1c6904b766d1e3569eba9dff1b551a8a6d2ad60/after/plotting_slash_map.py,MapPlotter.parse_query,13
+c:/src/pylint-intervention/data/in_the_wild\versions/Ocean-Data-Map-Project/f1c6904b766d1e3569eba9dff1b551a8a6d2ad60/after/plotting_slash_map.py,MapPlotter.pole_proximity,11
+c:/src/pylint-intervention/data/in_the_wild\versions/Ocean-Data-Map-Project/f1c6904b766d1e3569eba9dff1b551a8a6d2ad60/after/plotting_slash_map.py,MapPlotter.csv,5
+c:/src/pylint-intervention/data/in_the_wild\versions/Ocean-Data-Map-Project/f1c6904b766d1e3569eba9dff1b551a8a6d2ad60/after/plotting_slash_map.py,MapPlotter.__load_quiver,3
+c:/src/pylint-intervention/data/in_the_wild\versions/Ocean-Data-Map-Project/f1c6904b766d1e3569eba9dff1b551a8a6d2ad60/after/plotting_slash_map.py,MapPlotter.odv_ascii,2
+c:/src/pylint-intervention/data/in_the_wild\versions/Ocean-Data-Map-Project/f1c6904b766d1e3569eba9dff1b551a8a6d2ad60/after/plotting_slash_map.py,MapPlotter.__init__,1

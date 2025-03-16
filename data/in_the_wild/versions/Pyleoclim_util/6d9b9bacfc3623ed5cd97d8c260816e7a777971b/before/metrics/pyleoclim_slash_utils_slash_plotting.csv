@@ -1,1 +1,8 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/Pyleoclim_util/6d9b9bacfc3623ed5cd97d8c260816e7a777971b/before/pyleoclim_slash_utils_slash_plotting.py,plot_xy,15
+c:/src/pylint-intervention/data/in_the_wild\versions/Pyleoclim_util/6d9b9bacfc3623ed5cd97d8c260816e7a777971b/before/pyleoclim_slash_utils_slash_plotting.py,scatter_xy,13
+c:/src/pylint-intervention/data/in_the_wild\versions/Pyleoclim_util/6d9b9bacfc3623ed5cd97d8c260816e7a777971b/before/pyleoclim_slash_utils_slash_plotting.py,plot_scatter_xy,13
+c:/src/pylint-intervention/data/in_the_wild\versions/Pyleoclim_util/6d9b9bacfc3623ed5cd97d8c260816e7a777971b/before/pyleoclim_slash_utils_slash_plotting.py,stripes_xy,13
+c:/src/pylint-intervention/data/in_the_wild\versions/Pyleoclim_util/6d9b9bacfc3623ed5cd97d8c260816e7a777971b/before/pyleoclim_slash_utils_slash_plotting.py,set_style,9
+c:/src/pylint-intervention/data/in_the_wild\versions/Pyleoclim_util/6d9b9bacfc3623ed5cd97d8c260816e7a777971b/before/pyleoclim_slash_utils_slash_plotting.py,savefig,7
+c:/src/pylint-intervention/data/in_the_wild\versions/Pyleoclim_util/6d9b9bacfc3623ed5cd97d8c260816e7a777971b/before/pyleoclim_slash_utils_slash_plotting.py,closefig,2

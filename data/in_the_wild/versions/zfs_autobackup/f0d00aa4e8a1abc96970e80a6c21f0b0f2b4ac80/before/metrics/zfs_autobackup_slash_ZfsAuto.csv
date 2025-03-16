@@ -1,1 +1,14 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/zfs_autobackup/f0d00aa4e8a1abc96970e80a6c21f0b0f2b4ac80/before/zfs_autobackup_slash_ZfsAuto.py,ZfsAuto.parse_args,16
+c:/src/pylint-intervention/data/in_the_wild\versions/zfs_autobackup/f0d00aa4e8a1abc96970e80a6c21f0b0f2b4ac80/before/zfs_autobackup_slash_ZfsAuto.py,ZfsAuto,3
+c:/src/pylint-intervention/data/in_the_wild\versions/zfs_autobackup/f0d00aa4e8a1abc96970e80a6c21f0b0f2b4ac80/before/zfs_autobackup_slash_ZfsAuto.py,ZfsAuto.__init__,2
+c:/src/pylint-intervention/data/in_the_wild\versions/zfs_autobackup/f0d00aa4e8a1abc96970e80a6c21f0b0f2b4ac80/before/zfs_autobackup_slash_ZfsAuto.py,ZfsAuto.get_parser,1
+c:/src/pylint-intervention/data/in_the_wild\versions/zfs_autobackup/f0d00aa4e8a1abc96970e80a6c21f0b0f2b4ac80/before/zfs_autobackup_slash_ZfsAuto.py,ZfsAuto.verbose,1
+c:/src/pylint-intervention/data/in_the_wild\versions/zfs_autobackup/f0d00aa4e8a1abc96970e80a6c21f0b0f2b4ac80/before/zfs_autobackup_slash_ZfsAuto.py,ZfsAuto.warning,1
+c:/src/pylint-intervention/data/in_the_wild\versions/zfs_autobackup/f0d00aa4e8a1abc96970e80a6c21f0b0f2b4ac80/before/zfs_autobackup_slash_ZfsAuto.py,ZfsAuto.error,1
+c:/src/pylint-intervention/data/in_the_wild\versions/zfs_autobackup/f0d00aa4e8a1abc96970e80a6c21f0b0f2b4ac80/before/zfs_autobackup_slash_ZfsAuto.py,ZfsAuto.debug,1
+c:/src/pylint-intervention/data/in_the_wild\versions/zfs_autobackup/f0d00aa4e8a1abc96970e80a6c21f0b0f2b4ac80/before/zfs_autobackup_slash_ZfsAuto.py,ZfsAuto.progress,1
+c:/src/pylint-intervention/data/in_the_wild\versions/zfs_autobackup/f0d00aa4e8a1abc96970e80a6c21f0b0f2b4ac80/before/zfs_autobackup_slash_ZfsAuto.py,ZfsAuto.clear_progress,1
+c:/src/pylint-intervention/data/in_the_wild\versions/zfs_autobackup/f0d00aa4e8a1abc96970e80a6c21f0b0f2b4ac80/before/zfs_autobackup_slash_ZfsAuto.py,ZfsAuto.set_title,1
+c:/src/pylint-intervention/data/in_the_wild\versions/zfs_autobackup/f0d00aa4e8a1abc96970e80a6c21f0b0f2b4ac80/before/zfs_autobackup_slash_ZfsAuto.py,ZfsAuto.print_error_sources,1
+c:/src/pylint-intervention/data/in_the_wild\versions/zfs_autobackup/f0d00aa4e8a1abc96970e80a6c21f0b0f2b4ac80/before/zfs_autobackup_slash_ZfsAuto.py,ZfsAuto.make_target_name,1

@@ -1,1 +1,12 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/pyAFQ/8b93da5eedde648e75d366b67b7ab2b02271376c/after/AFQ_slash_api_slash_group.py,GroupAFQ.__init__,31
+c:/src/pylint-intervention/data/in_the_wild\versions/pyAFQ/8b93da5eedde648e75d366b67b7ab2b02271376c/after/AFQ_slash_api_slash_group.py,GroupAFQ.get_streamlines_json,12
+c:/src/pylint-intervention/data/in_the_wild\versions/pyAFQ/8b93da5eedde648e75d366b67b7ab2b02271376c/after/AFQ_slash_api_slash_group.py,GroupAFQ.export,11
+c:/src/pylint-intervention/data/in_the_wild\versions/pyAFQ/8b93da5eedde648e75d366b67b7ab2b02271376c/after/AFQ_slash_api_slash_group.py,GroupAFQ,10
+c:/src/pylint-intervention/data/in_the_wild\versions/pyAFQ/8b93da5eedde648e75d366b67b7ab2b02271376c/after/AFQ_slash_api_slash_group.py,download_and_combine_afq_profiles,8
+c:/src/pylint-intervention/data/in_the_wild\versions/pyAFQ/8b93da5eedde648e75d366b67b7ab2b02271376c/after/AFQ_slash_api_slash_group.py,combine_list_of_profiles,3
+c:/src/pylint-intervention/data/in_the_wild\versions/pyAFQ/8b93da5eedde648e75d366b67b7ab2b02271376c/after/AFQ_slash_api_slash_group.py,GroupAFQ.combine_profiles,3
+c:/src/pylint-intervention/data/in_the_wild\versions/pyAFQ/8b93da5eedde648e75d366b67b7ab2b02271376c/after/AFQ_slash_api_slash_group.py,GroupAFQ.export_all,3
+c:/src/pylint-intervention/data/in_the_wild\versions/pyAFQ/8b93da5eedde648e75d366b67b7ab2b02271376c/after/AFQ_slash_api_slash_group.py,GroupAFQ.assemble_AFQ_browser,3
+c:/src/pylint-intervention/data/in_the_wild\versions/pyAFQ/8b93da5eedde648e75d366b67b7ab2b02271376c/after/AFQ_slash_api_slash_group.py,GroupAFQ.upload_to_s3,2
+c:/src/pylint-intervention/data/in_the_wild\versions/pyAFQ/8b93da5eedde648e75d366b67b7ab2b02271376c/after/AFQ_slash_api_slash_group.py,clean_pandas_df,1

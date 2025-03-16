@@ -1,1 +1,3 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/psi4/35b24baca552b95b311f2349806de0aa38f4333b/after/psi4_slash_driver_slash_diatomic.py,anharmonicity,16
+c:/src/pylint-intervention/data/in_the_wild\versions/psi4/35b24baca552b95b311f2349806de0aa38f4333b/after/psi4_slash_driver_slash_diatomic.py,least_squares_fit_polynomial,4

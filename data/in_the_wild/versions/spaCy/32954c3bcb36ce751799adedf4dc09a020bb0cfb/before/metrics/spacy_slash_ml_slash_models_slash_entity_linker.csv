@@ -1,1 +1,7 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/spaCy/32954c3bcb36ce751799adedf4dc09a020bb0cfb/before/spacy_slash_ml_slash_models_slash_entity_linker.py,span_maker_forward,8
+c:/src/pylint-intervention/data/in_the_wild\versions/spaCy/32954c3bcb36ce751799adedf4dc09a020bb0cfb/before/spacy_slash_ml_slash_models_slash_entity_linker.py,build_nel_encoder,1
+c:/src/pylint-intervention/data/in_the_wild\versions/spaCy/32954c3bcb36ce751799adedf4dc09a020bb0cfb/before/spacy_slash_ml_slash_models_slash_entity_linker.py,build_span_maker,1
+c:/src/pylint-intervention/data/in_the_wild\versions/spaCy/32954c3bcb36ce751799adedf4dc09a020bb0cfb/before/spacy_slash_ml_slash_models_slash_entity_linker.py,load_kb,1
+c:/src/pylint-intervention/data/in_the_wild\versions/spaCy/32954c3bcb36ce751799adedf4dc09a020bb0cfb/before/spacy_slash_ml_slash_models_slash_entity_linker.py,empty_kb,1
+c:/src/pylint-intervention/data/in_the_wild\versions/spaCy/32954c3bcb36ce751799adedf4dc09a020bb0cfb/before/spacy_slash_ml_slash_models_slash_entity_linker.py,create_candidates,1

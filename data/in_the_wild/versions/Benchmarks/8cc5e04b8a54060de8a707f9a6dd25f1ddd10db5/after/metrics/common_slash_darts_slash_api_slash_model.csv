@@ -1,1 +1,7 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/Benchmarks/8cc5e04b8a54060de8a707f9a6dd25f1ddd10db5/after/common_slash_darts_slash_api_slash_model.py,Model,3
+c:/src/pylint-intervention/data/in_the_wild\versions/Benchmarks/8cc5e04b8a54060de8a707f9a6dd25f1ddd10db5/after/common_slash_darts_slash_api_slash_model.py,Model.summary,3
+c:/src/pylint-intervention/data/in_the_wild\versions/Benchmarks/8cc5e04b8a54060de8a707f9a6dd25f1ddd10db5/after/common_slash_darts_slash_api_slash_model.py,Model.hashsummary,3
+c:/src/pylint-intervention/data/in_the_wild\versions/Benchmarks/8cc5e04b8a54060de8a707f9a6dd25f1ddd10db5/after/common_slash_darts_slash_api_slash_model.py,Model.num_params,2
+c:/src/pylint-intervention/data/in_the_wild\versions/Benchmarks/8cc5e04b8a54060de8a707f9a6dd25f1ddd10db5/after/common_slash_darts_slash_api_slash_model.py,Model.loss,2
+c:/src/pylint-intervention/data/in_the_wild\versions/Benchmarks/8cc5e04b8a54060de8a707f9a6dd25f1ddd10db5/after/common_slash_darts_slash_api_slash_model.py,Model.loss_value,1

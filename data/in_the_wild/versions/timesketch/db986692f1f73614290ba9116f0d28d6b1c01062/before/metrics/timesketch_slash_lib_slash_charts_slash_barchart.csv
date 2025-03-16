@@ -1,1 +1,5 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/timesketch/db986692f1f73614290ba9116f0d28d6b1c01062/before/timesketch_slash_lib_slash_charts_slash_barchart.py,BarChart,3
+c:/src/pylint-intervention/data/in_the_wild\versions/timesketch/db986692f1f73614290ba9116f0d28d6b1c01062/before/timesketch_slash_lib_slash_charts_slash_barchart.py,HorizontalBarChart,3
+c:/src/pylint-intervention/data/in_the_wild\versions/timesketch/db986692f1f73614290ba9116f0d28d6b1c01062/before/timesketch_slash_lib_slash_charts_slash_barchart.py,BarChart.generate,2
+c:/src/pylint-intervention/data/in_the_wild\versions/timesketch/db986692f1f73614290ba9116f0d28d6b1c01062/before/timesketch_slash_lib_slash_charts_slash_barchart.py,HorizontalBarChart.generate,2

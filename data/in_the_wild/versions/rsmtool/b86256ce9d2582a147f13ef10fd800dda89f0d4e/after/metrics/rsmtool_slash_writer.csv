@@ -1,1 +1,6 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/rsmtool/b86256ce9d2582a147f13ef10fd800dda89f0d4e/after/rsmtool_slash_writer.py,DataWriter.write_experiment_output,12
+c:/src/pylint-intervention/data/in_the_wild\versions/rsmtool/b86256ce9d2582a147f13ef10fd800dda89f0d4e/after/rsmtool_slash_writer.py,DataWriter,6
+c:/src/pylint-intervention/data/in_the_wild\versions/rsmtool/b86256ce9d2582a147f13ef10fd800dda89f0d4e/after/rsmtool_slash_writer.py,DataWriter.write_frame_to_file,5
+c:/src/pylint-intervention/data/in_the_wild\versions/rsmtool/b86256ce9d2582a147f13ef10fd800dda89f0d4e/after/rsmtool_slash_writer.py,DataWriter.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/rsmtool/b86256ce9d2582a147f13ef10fd800dda89f0d4e/after/rsmtool_slash_writer.py,DataWriter.write_feature_csv,1

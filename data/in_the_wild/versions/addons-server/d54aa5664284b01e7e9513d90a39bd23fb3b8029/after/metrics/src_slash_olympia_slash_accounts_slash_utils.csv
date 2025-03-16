@@ -1,1 +1,5 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/addons-server/d54aa5664284b01e7e9513d90a39bd23fb3b8029/after/src_slash_olympia_slash_accounts_slash_utils.py,fxa_login_url,7
+c:/src/pylint-intervention/data/in_the_wild\versions/addons-server/d54aa5664284b01e7e9513d90a39bd23fb3b8029/after/src_slash_olympia_slash_accounts_slash_utils.py,path_with_query,2
+c:/src/pylint-intervention/data/in_the_wild\versions/addons-server/d54aa5664284b01e7e9513d90a39bd23fb3b8029/after/src_slash_olympia_slash_accounts_slash_utils.py,generate_fxa_state,1
+c:/src/pylint-intervention/data/in_the_wild\versions/addons-server/d54aa5664284b01e7e9513d90a39bd23fb3b8029/after/src_slash_olympia_slash_accounts_slash_utils.py,redirect_for_login,1

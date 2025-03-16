@@ -1,1 +1,3 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/colour/dd4e35c64d87c6a96f015b75c9ce16eae4e1d8c8/after/colour_slash_models_slash_rgb_slash_transfer_functions_slash_cineon.py,log_encoding_Cineon,1
+c:/src/pylint-intervention/data/in_the_wild\versions/colour/dd4e35c64d87c6a96f015b75c9ce16eae4e1d8c8/after/colour_slash_models_slash_rgb_slash_transfer_functions_slash_cineon.py,log_decoding_Cineon,1

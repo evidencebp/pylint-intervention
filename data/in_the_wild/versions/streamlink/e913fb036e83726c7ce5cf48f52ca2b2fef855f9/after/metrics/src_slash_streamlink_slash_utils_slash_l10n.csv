@@ -1,1 +1,8 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/streamlink/e913fb036e83726c7ce5cf48f52ca2b2fef855f9/after/src_slash_streamlink_slash_utils_slash_l10n.py,Localization.language_code,7
+c:/src/pylint-intervention/data/in_the_wild\versions/streamlink/e913fb036e83726c7ce5cf48f52ca2b2fef855f9/after/src_slash_streamlink_slash_utils_slash_l10n.py,Localization.get_language,6
+c:/src/pylint-intervention/data/in_the_wild\versions/streamlink/e913fb036e83726c7ce5cf48f52ca2b2fef855f9/after/src_slash_streamlink_slash_utils_slash_l10n.py,Localization.equivalent,5
+c:/src/pylint-intervention/data/in_the_wild\versions/streamlink/e913fb036e83726c7ce5cf48f52ca2b2fef855f9/after/src_slash_streamlink_slash_utils_slash_l10n.py,Localization,4
+c:/src/pylint-intervention/data/in_the_wild\versions/streamlink/e913fb036e83726c7ce5cf48f52ca2b2fef855f9/after/src_slash_streamlink_slash_utils_slash_l10n.py,Localization.get_country,2
+c:/src/pylint-intervention/data/in_the_wild\versions/streamlink/e913fb036e83726c7ce5cf48f52ca2b2fef855f9/after/src_slash_streamlink_slash_utils_slash_l10n.py,Localization.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/streamlink/e913fb036e83726c7ce5cf48f52ca2b2fef855f9/after/src_slash_streamlink_slash_utils_slash_l10n.py,Localization.language_code,1

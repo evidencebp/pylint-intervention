@@ -1,1 +1,9 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/bbc65e5f375693ec32d50b805cdb369a607f0b67/after/mitmproxy_slash_master.py,Master.load_flow,4
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/bbc65e5f375693ec32d50b805cdb369a607f0b67/after/mitmproxy_slash_master.py,Master,3
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/bbc65e5f375693ec32d50b805cdb369a607f0b67/after/mitmproxy_slash_master.py,Master._asyncio_exception_handler,3
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/bbc65e5f375693ec32d50b805cdb369a607f0b67/after/mitmproxy_slash_master.py,Master.__init__,2
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/bbc65e5f375693ec32d50b805cdb369a607f0b67/after/mitmproxy_slash_master.py,Master.run,1
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/bbc65e5f375693ec32d50b805cdb369a607f0b67/after/mitmproxy_slash_master.py,Master.shutdown,1
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/bbc65e5f375693ec32d50b805cdb369a607f0b67/after/mitmproxy_slash_master.py,Master.running,1
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/bbc65e5f375693ec32d50b805cdb369a607f0b67/after/mitmproxy_slash_master.py,Master.done,1

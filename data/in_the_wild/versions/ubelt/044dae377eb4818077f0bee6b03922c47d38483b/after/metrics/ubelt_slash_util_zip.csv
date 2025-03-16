@@ -1,1 +1,15 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/ubelt/044dae377eb4818077f0bee6b03922c47d38483b/after/ubelt_slash_util_zip.py,zopen._open,9
+c:/src/pylint-intervention/data/in_the_wild\versions/ubelt/044dae377eb4818077f0bee6b03922c47d38483b/after/ubelt_slash_util_zip.py,zopen._cleanup,6
+c:/src/pylint-intervention/data/in_the_wild\versions/ubelt/044dae377eb4818077f0bee6b03922c47d38483b/after/ubelt_slash_util_zip.py,split_archive,4
+c:/src/pylint-intervention/data/in_the_wild\versions/ubelt/044dae377eb4818077f0bee6b03922c47d38483b/after/ubelt_slash_util_zip.py,zopen,3
+c:/src/pylint-intervention/data/in_the_wild\versions/ubelt/044dae377eb4818077f0bee6b03922c47d38483b/after/ubelt_slash_util_zip.py,zopen.__getattr__,3
+c:/src/pylint-intervention/data/in_the_wild\versions/ubelt/044dae377eb4818077f0bee6b03922c47d38483b/after/ubelt_slash_util_zip.py,zopen.zfile,2
+c:/src/pylint-intervention/data/in_the_wild\versions/ubelt/044dae377eb4818077f0bee6b03922c47d38483b/after/ubelt_slash_util_zip.py,zopen.__nice__,2
+c:/src/pylint-intervention/data/in_the_wild\versions/ubelt/044dae377eb4818077f0bee6b03922c47d38483b/after/ubelt_slash_util_zip.py,zopen.__dir__,2
+c:/src/pylint-intervention/data/in_the_wild\versions/ubelt/044dae377eb4818077f0bee6b03922c47d38483b/after/ubelt_slash_util_zip.py,zopen.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/ubelt/044dae377eb4818077f0bee6b03922c47d38483b/after/ubelt_slash_util_zip.py,zopen.namelist,1
+c:/src/pylint-intervention/data/in_the_wild\versions/ubelt/044dae377eb4818077f0bee6b03922c47d38483b/after/ubelt_slash_util_zip.py,zopen.__del__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/ubelt/044dae377eb4818077f0bee6b03922c47d38483b/after/ubelt_slash_util_zip.py,zopen._split_archive,1
+c:/src/pylint-intervention/data/in_the_wild\versions/ubelt/044dae377eb4818077f0bee6b03922c47d38483b/after/ubelt_slash_util_zip.py,zopen.__enter__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/ubelt/044dae377eb4818077f0bee6b03922c47d38483b/after/ubelt_slash_util_zip.py,zopen.__exit__,1

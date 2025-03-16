@@ -1,1 +1,16 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/px/4bb7f25b0ba3bfce592fc27ab6ce56bbbe11a2cf/after/px_slash_px_processinfo.py,print_process_tree,10
+c:/src/pylint-intervention/data/in_the_wild\versions/px/4bb7f25b0ba3bfce592fc27ab6ce56bbbe11a2cf/after/px_slash_px_processinfo.py,print_cwd_friends,6
+c:/src/pylint-intervention/data/in_the_wild\versions/px/4bb7f25b0ba3bfce592fc27ab6ce56bbbe11a2cf/after/px_slash_px_processinfo.py,to_relative_start_string,4
+c:/src/pylint-intervention/data/in_the_wild\versions/px/4bb7f25b0ba3bfce592fc27ab6ce56bbbe11a2cf/after/px_slash_px_processinfo.py,get_closest_starts,4
+c:/src/pylint-intervention/data/in_the_wild\versions/px/4bb7f25b0ba3bfce592fc27ab6ce56bbbe11a2cf/after/px_slash_px_processinfo.py,to_ipc_lines,4
+c:/src/pylint-intervention/data/in_the_wild\versions/px/4bb7f25b0ba3bfce592fc27ab6ce56bbbe11a2cf/after/px_slash_px_processinfo.py,print_fds,4
+c:/src/pylint-intervention/data/in_the_wild\versions/px/4bb7f25b0ba3bfce592fc27ab6ce56bbbe11a2cf/after/px_slash_px_processinfo.py,find_process_by_pid,3
+c:/src/pylint-intervention/data/in_the_wild\versions/px/4bb7f25b0ba3bfce592fc27ab6ce56bbbe11a2cf/after/px_slash_px_processinfo.py,print_command_line,3
+c:/src/pylint-intervention/data/in_the_wild\versions/px/4bb7f25b0ba3bfce592fc27ab6ce56bbbe11a2cf/after/px_slash_px_processinfo.py,print_users_when_process_started,3
+c:/src/pylint-intervention/data/in_the_wild\versions/px/4bb7f25b0ba3bfce592fc27ab6ce56bbbe11a2cf/after/px_slash_px_processinfo.py,print_start_time,3
+c:/src/pylint-intervention/data/in_the_wild\versions/px/4bb7f25b0ba3bfce592fc27ab6ce56bbbe11a2cf/after/px_slash_px_processinfo.py,print_process_info,3
+c:/src/pylint-intervention/data/in_the_wild\versions/px/4bb7f25b0ba3bfce592fc27ab6ce56bbbe11a2cf/after/px_slash_px_processinfo.py,print_process_subtree,2
+c:/src/pylint-intervention/data/in_the_wild\versions/px/4bb7f25b0ba3bfce592fc27ab6ce56bbbe11a2cf/after/px_slash_px_processinfo.py,print_processes_started_at_the_same_time,2
+c:/src/pylint-intervention/data/in_the_wild\versions/px/4bb7f25b0ba3bfce592fc27ab6ce56bbbe11a2cf/after/px_slash_px_processinfo.py,print_pid_info,2
+c:/src/pylint-intervention/data/in_the_wild\versions/px/4bb7f25b0ba3bfce592fc27ab6ce56bbbe11a2cf/after/px_slash_px_processinfo.py,println,1

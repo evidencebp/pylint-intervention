@@ -1,1 +1,8 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/librarytrader/57c247aa209c1535a876dc3caa3d7eedfa4cceed/after/librarytrader_slash_interface_calls.py,find_calls_from_objdump,9
+c:/src/pylint-intervention/data/in_the_wild\versions/librarytrader/57c247aa209c1535a876dc3caa3d7eedfa4cceed/after/librarytrader_slash_interface_calls.py,find_calls_from_capstone,9
+c:/src/pylint-intervention/data/in_the_wild\versions/librarytrader/57c247aa209c1535a876dc3caa3d7eedfa4cceed/after/librarytrader_slash_interface_calls.py,resolve_calls_in_library,6
+c:/src/pylint-intervention/data/in_the_wild\versions/librarytrader/57c247aa209c1535a876dc3caa3d7eedfa4cceed/after/librarytrader_slash_interface_calls.py,disassemble_capstone,5
+c:/src/pylint-intervention/data/in_the_wild\versions/librarytrader/57c247aa209c1535a876dc3caa3d7eedfa4cceed/after/librarytrader_slash_interface_calls.py,resolve_calls,5
+c:/src/pylint-intervention/data/in_the_wild\versions/librarytrader/57c247aa209c1535a876dc3caa3d7eedfa4cceed/after/librarytrader_slash_interface_calls.py,disassemble_objdump,4
+c:/src/pylint-intervention/data/in_the_wild\versions/librarytrader/57c247aa209c1535a876dc3caa3d7eedfa4cceed/after/librarytrader_slash_interface_calls.py,map_wrapper,2

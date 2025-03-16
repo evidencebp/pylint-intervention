@@ -1,1 +1,15 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/ezdxf/71ab0c90609819aec4806e4960a536e904e3f7c4/after/src_slash_ezdxf_slash_addons_slash_odafc.py,convert,12
+c:/src/pylint-intervention/data/in_the_wild\versions/ezdxf/71ab0c90609819aec4806e4960a536e904e3f7c4/after/src_slash_ezdxf_slash_addons_slash_odafc.py,_detect_version,6
+c:/src/pylint-intervention/data/in_the_wild\versions/ezdxf/71ab0c90609819aec4806e4960a536e904e3f7c4/after/src_slash_ezdxf_slash_addons_slash_odafc.py,export_dwg,5
+c:/src/pylint-intervention/data/in_the_wild\versions/ezdxf/71ab0c90609819aec4806e4960a536e904e3f7c4/after/src_slash_ezdxf_slash_addons_slash_odafc.py,_get_odafc_path,5
+c:/src/pylint-intervention/data/in_the_wild\versions/ezdxf/71ab0c90609819aec4806e4960a536e904e3f7c4/after/src_slash_ezdxf_slash_addons_slash_odafc.py,readfile,4
+c:/src/pylint-intervention/data/in_the_wild\versions/ezdxf/71ab0c90609819aec4806e4960a536e904e3f7c4/after/src_slash_ezdxf_slash_addons_slash_odafc.py,_run_with_no_gui,4
+c:/src/pylint-intervention/data/in_the_wild\versions/ezdxf/71ab0c90609819aec4806e4960a536e904e3f7c4/after/src_slash_ezdxf_slash_addons_slash_odafc.py,_odafc_failed,4
+c:/src/pylint-intervention/data/in_the_wild\versions/ezdxf/71ab0c90609819aec4806e4960a536e904e3f7c4/after/src_slash_ezdxf_slash_addons_slash_odafc.py,_linux_dummy_display,3
+c:/src/pylint-intervention/data/in_the_wild\versions/ezdxf/71ab0c90609819aec4806e4960a536e904e3f7c4/after/src_slash_ezdxf_slash_addons_slash_odafc.py,_odafc_arguments,2
+c:/src/pylint-intervention/data/in_the_wild\versions/ezdxf/71ab0c90609819aec4806e4960a536e904e3f7c4/after/src_slash_ezdxf_slash_addons_slash_odafc.py,_execute_odafc,2
+c:/src/pylint-intervention/data/in_the_wild\versions/ezdxf/71ab0c90609819aec4806e4960a536e904e3f7c4/after/src_slash_ezdxf_slash_addons_slash_odafc.py,map_version,1
+c:/src/pylint-intervention/data/in_the_wild\versions/ezdxf/71ab0c90609819aec4806e4960a536e904e3f7c4/after/src_slash_ezdxf_slash_addons_slash_odafc.py,ODAFCError,1
+c:/src/pylint-intervention/data/in_the_wild\versions/ezdxf/71ab0c90609819aec4806e4960a536e904e3f7c4/after/src_slash_ezdxf_slash_addons_slash_odafc.py,UnknownODAFCError,1
+c:/src/pylint-intervention/data/in_the_wild\versions/ezdxf/71ab0c90609819aec4806e4960a536e904e3f7c4/after/src_slash_ezdxf_slash_addons_slash_odafc.py,UnsupportedFileFormat,1

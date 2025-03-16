@@ -1,1 +1,13 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/px/4bb7f25b0ba3bfce592fc27ab6ce56bbbe11a2cf/after/px_slash_px_process_menu.py,PxProcessMenu.await_and_handle_user_input,12
+c:/src/pylint-intervention/data/in_the_wild\versions/px/4bb7f25b0ba3bfce592fc27ab6ce56bbbe11a2cf/after/px_slash_px_process_menu.py,PxProcessMenu.refresh_display,6
+c:/src/pylint-intervention/data/in_the_wild\versions/px/4bb7f25b0ba3bfce592fc27ab6ce56bbbe11a2cf/after/px_slash_px_process_menu.py,PxProcessMenu,5
+c:/src/pylint-intervention/data/in_the_wild\versions/px/4bb7f25b0ba3bfce592fc27ab6ce56bbbe11a2cf/after/px_slash_px_process_menu.py,PxProcessMenu.kill_process,5
+c:/src/pylint-intervention/data/in_the_wild\versions/px/4bb7f25b0ba3bfce592fc27ab6ce56bbbe11a2cf/after/px_slash_px_process_menu.py,PxProcessMenu.execute_menu_entry,5
+c:/src/pylint-intervention/data/in_the_wild\versions/px/4bb7f25b0ba3bfce592fc27ab6ce56bbbe11a2cf/after/px_slash_px_process_menu.py,PxProcessMenu.await_death,4
+c:/src/pylint-intervention/data/in_the_wild\versions/px/4bb7f25b0ba3bfce592fc27ab6ce56bbbe11a2cf/after/px_slash_px_process_menu.py,kill,3
+c:/src/pylint-intervention/data/in_the_wild\versions/px/4bb7f25b0ba3bfce592fc27ab6ce56bbbe11a2cf/after/px_slash_px_process_menu.py,sudo_kill,3
+c:/src/pylint-intervention/data/in_the_wild\versions/px/4bb7f25b0ba3bfce592fc27ab6ce56bbbe11a2cf/after/px_slash_px_process_menu.py,PxProcessMenu.start,3
+c:/src/pylint-intervention/data/in_the_wild\versions/px/4bb7f25b0ba3bfce592fc27ab6ce56bbbe11a2cf/after/px_slash_px_process_menu.py,PxProcessMenu.page_process_info,2
+c:/src/pylint-intervention/data/in_the_wild\versions/px/4bb7f25b0ba3bfce592fc27ab6ce56bbbe11a2cf/after/px_slash_px_process_menu.py,get_header_line,1
+c:/src/pylint-intervention/data/in_the_wild\versions/px/4bb7f25b0ba3bfce592fc27ab6ce56bbbe11a2cf/after/px_slash_px_process_menu.py,PxProcessMenu.__init__,1

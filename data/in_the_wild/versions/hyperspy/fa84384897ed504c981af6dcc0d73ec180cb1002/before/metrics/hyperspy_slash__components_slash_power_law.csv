@@ -1,1 +1,7 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/hyperspy/fa84384897ed504c981af6dcc0d73ec180cb1002/before/hyperspy_slash__components_slash_power_law.py,PowerLaw.estimate_parameters,10
+c:/src/pylint-intervention/data/in_the_wild\versions/hyperspy/fa84384897ed504c981af6dcc0d73ec180cb1002/before/hyperspy_slash__components_slash_power_law.py,PowerLaw,4
+c:/src/pylint-intervention/data/in_the_wild\versions/hyperspy/fa84384897ed504c981af6dcc0d73ec180cb1002/before/hyperspy_slash__components_slash_power_law.py,PowerLaw.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/hyperspy/fa84384897ed504c981af6dcc0d73ec180cb1002/before/hyperspy_slash__components_slash_power_law.py,PowerLaw.grad_A,1
+c:/src/pylint-intervention/data/in_the_wild\versions/hyperspy/fa84384897ed504c981af6dcc0d73ec180cb1002/before/hyperspy_slash__components_slash_power_law.py,PowerLaw.grad_r,1
+c:/src/pylint-intervention/data/in_the_wild\versions/hyperspy/fa84384897ed504c981af6dcc0d73ec180cb1002/before/hyperspy_slash__components_slash_power_law.py,PowerLaw.grad_origin,1

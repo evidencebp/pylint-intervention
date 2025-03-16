@@ -1,1 +1,7 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/nDPI/beef4f997bccc90c545abdf8d387bab600b4af8f/after/python_slash_ndpi_example.py,parse_packet,8
+c:/src/pylint-intervention/data/in_the_wild\versions/nDPI/beef4f997bccc90c545abdf8d387bab600b4af8f/after/python_slash_ndpi_example.py,ppkt_to_flow_key,4
+c:/src/pylint-intervention/data/in_the_wild\versions/nDPI/beef4f997bccc90c545abdf8d387bab600b4af8f/after/python_slash_ndpi_example.py,inet_to_str,2
+c:/src/pylint-intervention/data/in_the_wild\versions/nDPI/beef4f997bccc90c545abdf8d387bab600b4af8f/after/python_slash_ndpi_example.py,Flow,2
+c:/src/pylint-intervention/data/in_the_wild\versions/nDPI/beef4f997bccc90c545abdf8d387bab600b4af8f/after/python_slash_ndpi_example.py,parse_arguments,1
+c:/src/pylint-intervention/data/in_the_wild\versions/nDPI/beef4f997bccc90c545abdf8d387bab600b4af8f/after/python_slash_ndpi_example.py,Flow.__init__,1

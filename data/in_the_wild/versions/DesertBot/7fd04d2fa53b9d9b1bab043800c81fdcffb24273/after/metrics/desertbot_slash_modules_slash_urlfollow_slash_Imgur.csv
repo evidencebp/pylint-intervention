@@ -1,1 +1,6 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/DesertBot/7fd04d2fa53b9d9b1bab043800c81fdcffb24273/after/desertbot_slash_modules_slash_urlfollow_slash_Imgur.py,Imgur.follow,16
+c:/src/pylint-intervention/data/in_the_wild\versions/DesertBot/7fd04d2fa53b9d9b1bab043800c81fdcffb24273/after/desertbot_slash_modules_slash_urlfollow_slash_Imgur.py,Imgur,6
+c:/src/pylint-intervention/data/in_the_wild\versions/DesertBot/7fd04d2fa53b9d9b1bab043800c81fdcffb24273/after/desertbot_slash_modules_slash_urlfollow_slash_Imgur.py,Imgur.actions,1
+c:/src/pylint-intervention/data/in_the_wild\versions/DesertBot/7fd04d2fa53b9d9b1bab043800c81fdcffb24273/after/desertbot_slash_modules_slash_urlfollow_slash_Imgur.py,Imgur.help,1
+c:/src/pylint-intervention/data/in_the_wild\versions/DesertBot/7fd04d2fa53b9d9b1bab043800c81fdcffb24273/after/desertbot_slash_modules_slash_urlfollow_slash_Imgur.py,Imgur.onLoad,1

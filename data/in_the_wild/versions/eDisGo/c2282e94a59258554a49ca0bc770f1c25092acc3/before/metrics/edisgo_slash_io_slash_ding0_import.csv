@@ -1,1 +1,3 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/eDisGo/c2282e94a59258554a49ca0bc770f1c25092acc3/before/edisgo_slash_io_slash_ding0_import.py,_validate_ding0_grid_import,17
+c:/src/pylint-intervention/data/in_the_wild\versions/eDisGo/c2282e94a59258554a49ca0bc770f1c25092acc3/before/edisgo_slash_io_slash_ding0_import.py,import_ding0_grid,2

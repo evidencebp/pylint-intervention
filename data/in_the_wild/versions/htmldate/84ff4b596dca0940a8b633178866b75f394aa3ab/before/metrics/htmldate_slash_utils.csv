@@ -1,1 +1,4 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/htmldate/84ff4b596dca0940a8b633178866b75f394aa3ab/before/htmldate_slash_utils.py,fetch_url,10
+c:/src/pylint-intervention/data/in_the_wild\versions/htmldate/84ff4b596dca0940a8b633178866b75f394aa3ab/before/htmldate_slash_utils.py,load_html,10
+c:/src/pylint-intervention/data/in_the_wild\versions/htmldate/84ff4b596dca0940a8b633178866b75f394aa3ab/before/htmldate_slash_utils.py,decode_response,3

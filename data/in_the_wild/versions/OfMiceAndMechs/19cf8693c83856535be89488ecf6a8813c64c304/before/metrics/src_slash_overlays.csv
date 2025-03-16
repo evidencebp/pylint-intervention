@@ -1,1 +1,9 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/OfMiceAndMechs/19cf8693c83856535be89488ecf6a8813c64c304/before/src_slash_overlays.py,NPCsOverlay,32
+c:/src/pylint-intervention/data/in_the_wild\versions/OfMiceAndMechs/19cf8693c83856535be89488ecf6a8813c64c304/before/src_slash_overlays.py,NPCsOverlay.apply,31
+c:/src/pylint-intervention/data/in_the_wild\versions/OfMiceAndMechs/19cf8693c83856535be89488ecf6a8813c64c304/before/src_slash_overlays.py,PathsOverlay,10
+c:/src/pylint-intervention/data/in_the_wild\versions/OfMiceAndMechs/19cf8693c83856535be89488ecf6a8813c64c304/before/src_slash_overlays.py,PathsOverlay.apply,9
+c:/src/pylint-intervention/data/in_the_wild\versions/OfMiceAndMechs/19cf8693c83856535be89488ecf6a8813c64c304/before/src_slash_overlays.py,MainCharOverlay,9
+c:/src/pylint-intervention/data/in_the_wild\versions/OfMiceAndMechs/19cf8693c83856535be89488ecf6a8813c64c304/before/src_slash_overlays.py,QuestMarkerOverlay,8
+c:/src/pylint-intervention/data/in_the_wild\versions/OfMiceAndMechs/19cf8693c83856535be89488ecf6a8813c64c304/before/src_slash_overlays.py,MainCharOverlay.apply,8
+c:/src/pylint-intervention/data/in_the_wild\versions/OfMiceAndMechs/19cf8693c83856535be89488ecf6a8813c64c304/before/src_slash_overlays.py,QuestMarkerOverlay.apply,7

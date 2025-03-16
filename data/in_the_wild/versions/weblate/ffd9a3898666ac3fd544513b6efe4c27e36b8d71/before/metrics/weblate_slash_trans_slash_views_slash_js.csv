@@ -1,1 +1,10 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/weblate/ffd9a3898666ac3fd544513b6efe4c27e36b8d71/before/weblate_slash_trans_slash_views_slash_js.py,js_config,10
+c:/src/pylint-intervention/data/in_the_wild\versions/weblate/ffd9a3898666ac3fd544513b6efe4c27e36b8d71/before/weblate_slash_trans_slash_views_slash_js.py,get_dictionary,6
+c:/src/pylint-intervention/data/in_the_wild\versions/weblate/ffd9a3898666ac3fd544513b6efe4c27e36b8d71/before/weblate_slash_trans_slash_views_slash_js.py,get_similar,3
+c:/src/pylint-intervention/data/in_the_wild\versions/weblate/ffd9a3898666ac3fd544513b6efe4c27e36b8d71/before/weblate_slash_trans_slash_views_slash_js.py,get_string,2
+c:/src/pylint-intervention/data/in_the_wild\versions/weblate/ffd9a3898666ac3fd544513b6efe4c27e36b8d71/before/weblate_slash_trans_slash_views_slash_js.py,ignore_check,2
+c:/src/pylint-intervention/data/in_the_wild\versions/weblate/ffd9a3898666ac3fd544513b6efe4c27e36b8d71/before/weblate_slash_trans_slash_views_slash_js.py,get_other,1
+c:/src/pylint-intervention/data/in_the_wild\versions/weblate/ffd9a3898666ac3fd544513b6efe4c27e36b8d71/before/weblate_slash_trans_slash_views_slash_js.py,git_status_project,1
+c:/src/pylint-intervention/data/in_the_wild\versions/weblate/ffd9a3898666ac3fd544513b6efe4c27e36b8d71/before/weblate_slash_trans_slash_views_slash_js.py,git_status_subproject,1
+c:/src/pylint-intervention/data/in_the_wild\versions/weblate/ffd9a3898666ac3fd544513b6efe4c27e36b8d71/before/weblate_slash_trans_slash_views_slash_js.py,git_status_translation,1

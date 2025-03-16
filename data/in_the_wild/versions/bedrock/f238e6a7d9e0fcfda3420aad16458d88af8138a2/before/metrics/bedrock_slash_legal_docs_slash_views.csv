@@ -1,1 +1,7 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/bedrock/f238e6a7d9e0fcfda3420aad16458d88af8138a2/before/bedrock_slash_legal_docs_slash_views.py,load_legal_doc,4
+c:/src/pylint-intervention/data/in_the_wild\versions/bedrock/f238e6a7d9e0fcfda3420aad16458d88af8138a2/before/bedrock_slash_legal_docs_slash_views.py,LegalDocView,2
+c:/src/pylint-intervention/data/in_the_wild\versions/bedrock/f238e6a7d9e0fcfda3420aad16458d88af8138a2/before/bedrock_slash_legal_docs_slash_views.py,LegalDocView.get_context_data,2
+c:/src/pylint-intervention/data/in_the_wild\versions/bedrock/f238e6a7d9e0fcfda3420aad16458d88af8138a2/before/bedrock_slash_legal_docs_slash_views.py,LegalDocView.get_legal_doc,1
+c:/src/pylint-intervention/data/in_the_wild\versions/bedrock/f238e6a7d9e0fcfda3420aad16458d88af8138a2/before/bedrock_slash_legal_docs_slash_views.py,LegalDocView.render_to_response,1
+c:/src/pylint-intervention/data/in_the_wild\versions/bedrock/f238e6a7d9e0fcfda3420aad16458d88af8138a2/before/bedrock_slash_legal_docs_slash_views.py,LegalDocView.as_view,1

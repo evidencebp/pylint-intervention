@@ -1,1 +1,5 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/bidict/6be66a1e0bb9b1980f60a0eb1651bc5a718f30da/after/bidict_slash__dup.py,OnDup,3
+c:/src/pylint-intervention/data/in_the_wild\versions/bidict/6be66a1e0bb9b1980f60a0eb1651bc5a718f30da/after/bidict_slash__dup.py,OD,2
+c:/src/pylint-intervention/data/in_the_wild\versions/bidict/6be66a1e0bb9b1980f60a0eb1651bc5a718f30da/after/bidict_slash__dup.py,OnDup.__new__,2
+c:/src/pylint-intervention/data/in_the_wild\versions/bidict/6be66a1e0bb9b1980f60a0eb1651bc5a718f30da/after/bidict_slash__dup.py,OD.__repr__,1

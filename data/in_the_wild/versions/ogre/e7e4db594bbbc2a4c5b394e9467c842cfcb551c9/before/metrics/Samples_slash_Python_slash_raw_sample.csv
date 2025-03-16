@@ -1,1 +1,5 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/ogre/e7e4db594bbbc2a4c5b394e9467c842cfcb551c9/before/Samples_slash_Python_slash_raw_sample.py,main,5
+c:/src/pylint-intervention/data/in_the_wild\versions/ogre/e7e4db594bbbc2a4c5b394e9467c842cfcb551c9/before/Samples_slash_Python_slash_raw_sample.py,SGResolver,3
+c:/src/pylint-intervention/data/in_the_wild\versions/ogre/e7e4db594bbbc2a4c5b394e9467c842cfcb551c9/before/Samples_slash_Python_slash_raw_sample.py,SGResolver.handleSchemeNotFound,3
+c:/src/pylint-intervention/data/in_the_wild\versions/ogre/e7e4db594bbbc2a4c5b394e9467c842cfcb551c9/before/Samples_slash_Python_slash_raw_sample.py,SGResolver.__init__,1

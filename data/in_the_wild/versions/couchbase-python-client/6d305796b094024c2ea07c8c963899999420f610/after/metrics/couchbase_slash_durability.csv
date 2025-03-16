@@ -1,1 +1,16 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/couchbase-python-client/6d305796b094024c2ea07c8c963899999420f610/after/couchbase_slash_durability.py,DurabilityLevel,6
+c:/src/pylint-intervention/data/in_the_wild\versions/couchbase-python-client/6d305796b094024c2ea07c8c963899999420f610/after/couchbase_slash_durability.py,DurabilityLevel.to_server_str,5
+c:/src/pylint-intervention/data/in_the_wild\versions/couchbase-python-client/6d305796b094024c2ea07c8c963899999420f610/after/couchbase_slash_durability.py,DurabilityLevel.from_server_str,5
+c:/src/pylint-intervention/data/in_the_wild\versions/couchbase-python-client/6d305796b094024c2ea07c8c963899999420f610/after/couchbase_slash_durability.py,DurabilityParser,4
+c:/src/pylint-intervention/data/in_the_wild\versions/couchbase-python-client/6d305796b094024c2ea07c8c963899999420f610/after/couchbase_slash_durability.py,DurabilityParser.parse_durability,3
+c:/src/pylint-intervention/data/in_the_wild\versions/couchbase-python-client/6d305796b094024c2ea07c8c963899999420f610/after/couchbase_slash_durability.py,ClientDurability,2
+c:/src/pylint-intervention/data/in_the_wild\versions/couchbase-python-client/6d305796b094024c2ea07c8c963899999420f610/after/couchbase_slash_durability.py,ServerDurability,2
+c:/src/pylint-intervention/data/in_the_wild\versions/couchbase-python-client/6d305796b094024c2ea07c8c963899999420f610/after/couchbase_slash_durability.py,ReplicateTo,1
+c:/src/pylint-intervention/data/in_the_wild\versions/couchbase-python-client/6d305796b094024c2ea07c8c963899999420f610/after/couchbase_slash_durability.py,PersistTo,1
+c:/src/pylint-intervention/data/in_the_wild\versions/couchbase-python-client/6d305796b094024c2ea07c8c963899999420f610/after/couchbase_slash_durability.py,Durability,1
+c:/src/pylint-intervention/data/in_the_wild\versions/couchbase-python-client/6d305796b094024c2ea07c8c963899999420f610/after/couchbase_slash_durability.py,ClientDurability.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/couchbase-python-client/6d305796b094024c2ea07c8c963899999420f610/after/couchbase_slash_durability.py,ClientDurability.replicate_to,1
+c:/src/pylint-intervention/data/in_the_wild\versions/couchbase-python-client/6d305796b094024c2ea07c8c963899999420f610/after/couchbase_slash_durability.py,ClientDurability.persist_to,1
+c:/src/pylint-intervention/data/in_the_wild\versions/couchbase-python-client/6d305796b094024c2ea07c8c963899999420f610/after/couchbase_slash_durability.py,ServerDurability.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/couchbase-python-client/6d305796b094024c2ea07c8c963899999420f610/after/couchbase_slash_durability.py,ServerDurability.level,1

@@ -1,1 +1,8 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/synapse/4bd597d9fcb8e6c6888ee3e8fa683ba812272997/after/synapse_slash_handlers_slash_e2e_keys.py,E2eKeysHandler.query_devices,16
+c:/src/pylint-intervention/data/in_the_wild\versions/synapse/4bd597d9fcb8e6c6888ee3e8fa683ba812272997/after/synapse_slash_handlers_slash_e2e_keys.py,E2eKeysHandler.query_local_devices,8
+c:/src/pylint-intervention/data/in_the_wild\versions/synapse/4bd597d9fcb8e6c6888ee3e8fa683ba812272997/after/synapse_slash_handlers_slash_e2e_keys.py,E2eKeysHandler.claim_one_time_keys,8
+c:/src/pylint-intervention/data/in_the_wild\versions/synapse/4bd597d9fcb8e6c6888ee3e8fa683ba812272997/after/synapse_slash_handlers_slash_e2e_keys.py,E2eKeysHandler,7
+c:/src/pylint-intervention/data/in_the_wild\versions/synapse/4bd597d9fcb8e6c6888ee3e8fa683ba812272997/after/synapse_slash_handlers_slash_e2e_keys.py,E2eKeysHandler.upload_keys_for_user,5
+c:/src/pylint-intervention/data/in_the_wild\versions/synapse/4bd597d9fcb8e6c6888ee3e8fa683ba812272997/after/synapse_slash_handlers_slash_e2e_keys.py,E2eKeysHandler.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/synapse/4bd597d9fcb8e6c6888ee3e8fa683ba812272997/after/synapse_slash_handlers_slash_e2e_keys.py,E2eKeysHandler.on_federation_query_client_keys,1

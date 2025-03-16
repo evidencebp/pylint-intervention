@@ -1,1 +1,8 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/vhdl-style-guide/ab566beed24815c1dc3bc34f8a8eadb76062c88f/before/vsg_slash_vhdlFile_slash_code_tags.py,New.update,13
+c:/src/pylint-intervention/data/in_the_wild\versions/vhdl-style-guide/ab566beed24815c1dc3bc34f8a8eadb76062c88f/before/vsg_slash_vhdlFile_slash_code_tags.py,New,4
+c:/src/pylint-intervention/data/in_the_wild\versions/vhdl-style-guide/ab566beed24815c1dc3bc34f8a8eadb76062c88f/before/vsg_slash_vhdlFile_slash_code_tags.py,New.add,2
+c:/src/pylint-intervention/data/in_the_wild\versions/vhdl-style-guide/ab566beed24815c1dc3bc34f8a8eadb76062c88f/before/vsg_slash_vhdlFile_slash_code_tags.py,New.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/vhdl-style-guide/ab566beed24815c1dc3bc34f8a8eadb76062c88f/before/vsg_slash_vhdlFile_slash_code_tags.py,New.clear,1
+c:/src/pylint-intervention/data/in_the_wild\versions/vhdl-style-guide/ab566beed24815c1dc3bc34f8a8eadb76062c88f/before/vsg_slash_vhdlFile_slash_code_tags.py,New.remove,1
+c:/src/pylint-intervention/data/in_the_wild\versions/vhdl-style-guide/ab566beed24815c1dc3bc34f8a8eadb76062c88f/before/vsg_slash_vhdlFile_slash_code_tags.py,New.get_tags,1

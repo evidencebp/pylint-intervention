@@ -1,1 +1,4 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/ReviewBot/14b53b94f730b7c8812b8871b793fb321bab8138/after/bot_slash_reviewbot_slash_tools_slash_rustfmt.py,RustfmtTool,4
+c:/src/pylint-intervention/data/in_the_wild\versions/ReviewBot/14b53b94f730b7c8812b8871b793fb321bab8138/after/bot_slash_reviewbot_slash_tools_slash_rustfmt.py,RustfmtTool.handle_file,4
+c:/src/pylint-intervention/data/in_the_wild\versions/ReviewBot/14b53b94f730b7c8812b8871b793fb321bab8138/after/bot_slash_reviewbot_slash_tools_slash_rustfmt.py,RustfmtTool.build_base_command,1

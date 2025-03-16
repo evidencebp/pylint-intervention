@@ -1,1 +1,6 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/qkeras/72bd21eca599b915283ebd2e3a6c3e86c96b2331/before/qkeras_slash_qtools_slash_qenergy_slash_qenergy.py,energy_estimate,13
+c:/src/pylint-intervention/data/in_the_wild\versions/qkeras/72bd21eca599b915283ebd2e3a6c3e86c96b2331/before/qkeras_slash_qtools_slash_qenergy_slash_qenergy.py,memory_read_energy,7
+c:/src/pylint-intervention/data/in_the_wild\versions/qkeras/72bd21eca599b915283ebd2e3a6c3e86c96b2331/before/qkeras_slash_qtools_slash_qenergy_slash_qenergy.py,parameter_read_energy,7
+c:/src/pylint-intervention/data/in_the_wild\versions/qkeras/72bd21eca599b915283ebd2e3a6c3e86c96b2331/before/qkeras_slash_qtools_slash_qenergy_slash_qenergy.py,memory_write_energy,6
+c:/src/pylint-intervention/data/in_the_wild\versions/qkeras/72bd21eca599b915283ebd2e3a6c3e86c96b2331/before/qkeras_slash_qtools_slash_qenergy_slash_qenergy.py,get_op_type,3

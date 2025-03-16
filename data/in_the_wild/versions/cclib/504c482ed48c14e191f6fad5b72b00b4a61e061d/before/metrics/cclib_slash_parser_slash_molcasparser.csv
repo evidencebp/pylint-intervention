@@ -1,1 +1,9 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/cclib/504c482ed48c14e191f6fad5b72b00b4a61e061d/before/cclib_slash_parser_slash_molcasparser.py,Molcas.extract,152
+c:/src/pylint-intervention/data/in_the_wild\versions/cclib/504c482ed48c14e191f6fad5b72b00b4a61e061d/before/cclib_slash_parser_slash_molcasparser.py,Molcas,24
+c:/src/pylint-intervention/data/in_the_wild\versions/cclib/504c482ed48c14e191f6fad5b72b00b4a61e061d/before/cclib_slash_parser_slash_molcasparser.py,Molcas.after_parsing,7
+c:/src/pylint-intervention/data/in_the_wild\versions/cclib/504c482ed48c14e191f6fad5b72b00b4a61e061d/before/cclib_slash_parser_slash_molcasparser.py,Molcas.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/cclib/504c482ed48c14e191f6fad5b72b00b4a61e061d/before/cclib_slash_parser_slash_molcasparser.py,Molcas.__str__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/cclib/504c482ed48c14e191f6fad5b72b00b4a61e061d/before/cclib_slash_parser_slash_molcasparser.py,Molcas.__repr__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/cclib/504c482ed48c14e191f6fad5b72b00b4a61e061d/before/cclib_slash_parser_slash_molcasparser.py,Molcas.normalisesym,1
+c:/src/pylint-intervention/data/in_the_wild\versions/cclib/504c482ed48c14e191f6fad5b72b00b4a61e061d/before/cclib_slash_parser_slash_molcasparser.py,Molcas.before_parsing,1

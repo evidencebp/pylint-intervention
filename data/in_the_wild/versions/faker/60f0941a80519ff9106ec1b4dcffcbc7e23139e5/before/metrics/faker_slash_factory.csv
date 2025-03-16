@@ -1,1 +1,5 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/faker/60f0941a80519ff9106ec1b4dcffcbc7e23139e5/before/faker_slash_factory.py,Factory.create,8
+c:/src/pylint-intervention/data/in_the_wild\versions/faker/60f0941a80519ff9106ec1b4dcffcbc7e23139e5/before/faker_slash_factory.py,Factory,7
+c:/src/pylint-intervention/data/in_the_wild\versions/faker/60f0941a80519ff9106ec1b4dcffcbc7e23139e5/before/faker_slash_factory.py,Factory._get_provider_class,6
+c:/src/pylint-intervention/data/in_the_wild\versions/faker/60f0941a80519ff9106ec1b4dcffcbc7e23139e5/before/faker_slash_factory.py,Factory._find_provider_class,5

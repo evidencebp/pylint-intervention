@@ -1,1 +1,7 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/isard/5075b0825ba34972f87ca7b1f576a7eff37a4117/after/api_slash_src_slash_api_slash_libv2_slash_api_templates.py,ApiTemplates.New,6
+c:/src/pylint-intervention/data/in_the_wild\versions/isard/5075b0825ba34972f87ca7b1f576a7eff37a4117/after/api_slash_src_slash_api_slash_libv2_slash_api_templates.py,ApiTemplates,4
+c:/src/pylint-intervention/data/in_the_wild\versions/isard/5075b0825ba34972f87ca7b1f576a7eff37a4117/after/api_slash_src_slash_api_slash_libv2_slash_api_templates.py,ApiTemplates.UpdateTemplate,4
+c:/src/pylint-intervention/data/in_the_wild\versions/isard/5075b0825ba34972f87ca7b1f576a7eff37a4117/after/api_slash_src_slash_api_slash_libv2_slash_api_templates.py,ApiTemplates.Get,2
+c:/src/pylint-intervention/data/in_the_wild\versions/isard/5075b0825ba34972f87ca7b1f576a7eff37a4117/after/api_slash_src_slash_api_slash_libv2_slash_api_templates.py,ApiTemplates.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/isard/5075b0825ba34972f87ca7b1f576a7eff37a4117/after/api_slash_src_slash_api_slash_libv2_slash_api_templates.py,ApiTemplates.Delete,1

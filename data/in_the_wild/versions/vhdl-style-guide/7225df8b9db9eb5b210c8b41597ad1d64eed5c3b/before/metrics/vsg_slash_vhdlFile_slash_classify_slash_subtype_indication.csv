@@ -1,1 +1,3 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/vhdl-style-guide/7225df8b9db9eb5b210c8b41597ad1d64eed5c3b/before/vsg_slash_vhdlFile_slash_classify_slash_subtype_indication.py,classify_until,10
+c:/src/pylint-intervention/data/in_the_wild\versions/vhdl-style-guide/7225df8b9db9eb5b210c8b41597ad1d64eed5c3b/before/vsg_slash_vhdlFile_slash_classify_slash_subtype_indication.py,classify,1

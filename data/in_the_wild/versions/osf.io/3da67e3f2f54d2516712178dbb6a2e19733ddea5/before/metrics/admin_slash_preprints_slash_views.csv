@@ -1,1 +1,12 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/osf.io/3da67e3f2f54d2516712178dbb6a2e19733ddea5/before/admin_slash_preprints_slash_views.py,PreprintFormView,2
+c:/src/pylint-intervention/data/in_the_wild\versions/osf.io/3da67e3f2f54d2516712178dbb6a2e19733ddea5/before/admin_slash_preprints_slash_views.py,PreprintView,2
+c:/src/pylint-intervention/data/in_the_wild\versions/osf.io/3da67e3f2f54d2516712178dbb6a2e19733ddea5/before/admin_slash_preprints_slash_views.py,PreprintView.post,2
+c:/src/pylint-intervention/data/in_the_wild\versions/osf.io/3da67e3f2f54d2516712178dbb6a2e19733ddea5/before/admin_slash_preprints_slash_views.py,PreprintReindexShare,2
+c:/src/pylint-intervention/data/in_the_wild\versions/osf.io/3da67e3f2f54d2516712178dbb6a2e19733ddea5/before/admin_slash_preprints_slash_views.py,PreprintFormView.success_url,1
+c:/src/pylint-intervention/data/in_the_wild\versions/osf.io/3da67e3f2f54d2516712178dbb6a2e19733ddea5/before/admin_slash_preprints_slash_views.py,PreprintView.get_success_url,1
+c:/src/pylint-intervention/data/in_the_wild\versions/osf.io/3da67e3f2f54d2516712178dbb6a2e19733ddea5/before/admin_slash_preprints_slash_views.py,PreprintView.get_object,1
+c:/src/pylint-intervention/data/in_the_wild\versions/osf.io/3da67e3f2f54d2516712178dbb6a2e19733ddea5/before/admin_slash_preprints_slash_views.py,PreprintView.get_context_data,1
+c:/src/pylint-intervention/data/in_the_wild\versions/osf.io/3da67e3f2f54d2516712178dbb6a2e19733ddea5/before/admin_slash_preprints_slash_views.py,PreprintReindexShare.get_context_data,1
+c:/src/pylint-intervention/data/in_the_wild\versions/osf.io/3da67e3f2f54d2516712178dbb6a2e19733ddea5/before/admin_slash_preprints_slash_views.py,PreprintReindexShare.get_object,1
+c:/src/pylint-intervention/data/in_the_wild\versions/osf.io/3da67e3f2f54d2516712178dbb6a2e19733ddea5/before/admin_slash_preprints_slash_views.py,PreprintReindexShare.delete,1

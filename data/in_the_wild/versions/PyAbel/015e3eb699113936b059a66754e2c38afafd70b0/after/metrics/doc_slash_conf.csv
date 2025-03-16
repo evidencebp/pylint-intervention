@@ -1,1 +1,3 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/PyAbel/015e3eb699113936b059a66754e2c38afafd70b0/after/doc_slash_conf.py,Mock,2
+c:/src/pylint-intervention/data/in_the_wild\versions/PyAbel/015e3eb699113936b059a66754e2c38afafd70b0/after/doc_slash_conf.py,Mock.__getattr__,1

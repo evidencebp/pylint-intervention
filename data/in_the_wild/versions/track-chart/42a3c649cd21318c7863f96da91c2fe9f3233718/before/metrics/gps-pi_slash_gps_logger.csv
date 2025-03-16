@@ -1,1 +1,6 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/track-chart/42a3c649cd21318c7863f96da91c2fe9f3233718/before/gps-pi_slash_gps_logger.py,gps_logger,17
+c:/src/pylint-intervention/data/in_the_wild\versions/track-chart/42a3c649cd21318c7863f96da91c2fe9f3233718/before/gps-pi_slash_gps_logger.py,MyHandler,14
+c:/src/pylint-intervention/data/in_the_wild\versions/track-chart/42a3c649cd21318c7863f96da91c2fe9f3233718/before/gps-pi_slash_gps_logger.py,MyHandler.do_GET,13
+c:/src/pylint-intervention/data/in_the_wild\versions/track-chart/42a3c649cd21318c7863f96da91c2fe9f3233718/before/gps-pi_slash_gps_logger.py,gps_logger_wrapper,3
+c:/src/pylint-intervention/data/in_the_wild\versions/track-chart/42a3c649cd21318c7863f96da91c2fe9f3233718/before/gps-pi_slash_gps_logger.py,ThreadedHTTPServer,1

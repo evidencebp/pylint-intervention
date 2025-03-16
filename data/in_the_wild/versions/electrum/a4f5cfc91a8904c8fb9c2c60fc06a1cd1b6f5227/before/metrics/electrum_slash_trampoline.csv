@@ -1,1 +1,8 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/electrum/a4f5cfc91a8904c8fb9c2c60fc06a1cd1b6f5227/before/electrum_slash_trampoline.py,create_trampoline_route,20
+c:/src/pylint-intervention/data/in_the_wild\versions/electrum/a4f5cfc91a8904c8fb9c2c60fc06a1cd1b6f5227/before/electrum_slash_trampoline.py,create_trampoline_onion,9
+c:/src/pylint-intervention/data/in_the_wild\versions/electrum/a4f5cfc91a8904c8fb9c2c60fc06a1cd1b6f5227/before/electrum_slash_trampoline.py,hardcoded_trampoline_nodes,4
+c:/src/pylint-intervention/data/in_the_wild\versions/electrum/a4f5cfc91a8904c8fb9c2c60fc06a1cd1b6f5227/before/electrum_slash_trampoline.py,encode_routing_info,3
+c:/src/pylint-intervention/data/in_the_wild\versions/electrum/a4f5cfc91a8904c8fb9c2c60fc06a1cd1b6f5227/before/electrum_slash_trampoline.py,trampolines_by_id,2
+c:/src/pylint-intervention/data/in_the_wild\versions/electrum/a4f5cfc91a8904c8fb9c2c60fc06a1cd1b6f5227/before/electrum_slash_trampoline.py,is_hardcoded_trampoline,1
+c:/src/pylint-intervention/data/in_the_wild\versions/electrum/a4f5cfc91a8904c8fb9c2c60fc06a1cd1b6f5227/before/electrum_slash_trampoline.py,create_trampoline_route_and_onion,1

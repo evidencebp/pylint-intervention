@@ -1,1 +1,10 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/GW2Bot/da0c4dc4213bade7f5f7c277ce718319f4a0901b/before/guildwars2_slash_worldsync.py,WorldsyncMixin.worldsync_member,27
+c:/src/pylint-intervention/data/in_the_wild\versions/GW2Bot/da0c4dc4213bade7f5f7c277ce718319f4a0901b/before/guildwars2_slash_worldsync.py,WorldsyncMixin.worldsync,13
+c:/src/pylint-intervention/data/in_the_wild\versions/GW2Bot/da0c4dc4213bade7f5f7c277ce718319f4a0901b/before/guildwars2_slash_worldsync.py,WorldsyncMixin,9
+c:/src/pylint-intervention/data/in_the_wild\versions/GW2Bot/da0c4dc4213bade7f5f7c277ce718319f4a0901b/before/guildwars2_slash_worldsync.py,WorldsyncMixin.sync_worlds,7
+c:/src/pylint-intervention/data/in_the_wild\versions/GW2Bot/da0c4dc4213bade7f5f7c277ce718319f4a0901b/before/guildwars2_slash_worldsync.py,WorldsyncMixin.worldsync_on_member_join,6
+c:/src/pylint-intervention/data/in_the_wild\versions/GW2Bot/da0c4dc4213bade7f5f7c277ce718319f4a0901b/before/guildwars2_slash_worldsync.py,WorldsyncMixin.worldsync_task,4
+c:/src/pylint-intervention/data/in_the_wild\versions/GW2Bot/da0c4dc4213bade7f5f7c277ce718319f4a0901b/before/guildwars2_slash_worldsync.py,WorldsyncMixin.get_linked_worlds,3
+c:/src/pylint-intervention/data/in_the_wild\versions/GW2Bot/da0c4dc4213bade7f5f7c277ce718319f4a0901b/before/guildwars2_slash_worldsync.py,WorldsyncMixin.worldsync_now,2
+c:/src/pylint-intervention/data/in_the_wild\versions/GW2Bot/da0c4dc4213bade7f5f7c277ce718319f4a0901b/before/guildwars2_slash_worldsync.py,WorldsyncMixin.before_worldsync_task,1

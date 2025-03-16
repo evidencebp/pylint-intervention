@@ -1,1 +1,5 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/dials/6218b9dbfaab16a6ccec1bf86831cd163ef31e58/after/doc_slash_sphinx_slash_update_release_list.py,_release_asset_buttons,6
+c:/src/pylint-intervention/data/in_the_wild\versions/dials/6218b9dbfaab16a6ccec1bf86831cd163ef31e58/after/doc_slash_sphinx_slash_update_release_list.py,github_api_get,2
+c:/src/pylint-intervention/data/in_the_wild\versions/dials/6218b9dbfaab16a6ccec1bf86831cd163ef31e58/after/doc_slash_sphinx_slash_update_release_list.py,_sort_tag_version,2
+c:/src/pylint-intervention/data/in_the_wild\versions/dials/6218b9dbfaab16a6ccec1bf86831cd163ef31e58/after/doc_slash_sphinx_slash_update_release_list.py,_download_button,1

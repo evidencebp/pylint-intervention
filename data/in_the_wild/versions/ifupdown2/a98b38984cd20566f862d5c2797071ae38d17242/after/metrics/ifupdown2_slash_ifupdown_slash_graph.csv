@@ -1,1 +1,4 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/ifupdown2/a98b38984cd20566f862d5c2797071ae38d17242/after/ifupdown2_slash_ifupdown_slash_graph.py,graph.topological_sort_graphs_all,10
+c:/src/pylint-intervention/data/in_the_wild\versions/ifupdown2/a98b38984cd20566f862d5c2797071ae38d17242/after/ifupdown2_slash_ifupdown_slash_graph.py,graph,9
+c:/src/pylint-intervention/data/in_the_wild\versions/ifupdown2/a98b38984cd20566f862d5c2797071ae38d17242/after/ifupdown2_slash_ifupdown_slash_graph.py,graph.generate_dots,5

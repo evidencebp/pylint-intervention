@@ -1,1 +1,5 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/GW2Bot/da0c4dc4213bade7f5f7c277ce718319f4a0901b/before/guildwars2_slash_wallet.py,WalletMixin.get_wallet,13
+c:/src/pylint-intervention/data/in_the_wild\versions/GW2Bot/da0c4dc4213bade7f5f7c277ce718319f4a0901b/before/guildwars2_slash_wallet.py,WalletMixin.wallet,13
+c:/src/pylint-intervention/data/in_the_wild\versions/GW2Bot/da0c4dc4213bade7f5f7c277ce718319f4a0901b/before/guildwars2_slash_wallet.py,WalletMixin,12
+c:/src/pylint-intervention/data/in_the_wild\versions/GW2Bot/da0c4dc4213bade7f5f7c277ce718319f4a0901b/before/guildwars2_slash_wallet.py,WalletMixin.get_item_currency,6

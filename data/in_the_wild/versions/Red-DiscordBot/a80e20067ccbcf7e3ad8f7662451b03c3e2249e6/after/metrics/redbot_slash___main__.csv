@@ -1,1 +1,15 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/Red-DiscordBot/a80e20067ccbcf7e3ad8f7662451b03c3e2249e6/after/redbot_slash___main__.py,run_bot,16
+c:/src/pylint-intervention/data/in_the_wild\versions/Red-DiscordBot/a80e20067ccbcf7e3ad8f7662451b03c3e2249e6/after/redbot_slash___main__.py,edit_instance,9
+c:/src/pylint-intervention/data/in_the_wild\versions/Red-DiscordBot/a80e20067ccbcf7e3ad8f7662451b03c3e2249e6/after/redbot_slash___main__.py,_edit_owner,9
+c:/src/pylint-intervention/data/in_the_wild\versions/Red-DiscordBot/a80e20067ccbcf7e3ad8f7662451b03c3e2249e6/after/redbot_slash___main__.py,_edit_data_path,9
+c:/src/pylint-intervention/data/in_the_wild\versions/Red-DiscordBot/a80e20067ccbcf7e3ad8f7662451b03c3e2249e6/after/redbot_slash___main__.py,_edit_instance_name,8
+c:/src/pylint-intervention/data/in_the_wild\versions/Red-DiscordBot/a80e20067ccbcf7e3ad8f7662451b03c3e2249e6/after/redbot_slash___main__.py,handle_early_exit_flags,7
+c:/src/pylint-intervention/data/in_the_wild\versions/Red-DiscordBot/a80e20067ccbcf7e3ad8f7662451b03c3e2249e6/after/redbot_slash___main__.py,_edit_token,5
+c:/src/pylint-intervention/data/in_the_wild\versions/Red-DiscordBot/a80e20067ccbcf7e3ad8f7662451b03c3e2249e6/after/redbot_slash___main__.py,shutdown_handler,5
+c:/src/pylint-intervention/data/in_the_wild\versions/Red-DiscordBot/a80e20067ccbcf7e3ad8f7662451b03c3e2249e6/after/redbot_slash___main__.py,debug_info,4
+c:/src/pylint-intervention/data/in_the_wild\versions/Red-DiscordBot/a80e20067ccbcf7e3ad8f7662451b03c3e2249e6/after/redbot_slash___main__.py,main,4
+c:/src/pylint-intervention/data/in_the_wild\versions/Red-DiscordBot/a80e20067ccbcf7e3ad8f7662451b03c3e2249e6/after/redbot_slash___main__.py,list_instances,3
+c:/src/pylint-intervention/data/in_the_wild\versions/Red-DiscordBot/a80e20067ccbcf7e3ad8f7662451b03c3e2249e6/after/redbot_slash___main__.py,_copy_data,3
+c:/src/pylint-intervention/data/in_the_wild\versions/Red-DiscordBot/a80e20067ccbcf7e3ad8f7662451b03c3e2249e6/after/redbot_slash___main__.py,exception_handler,2
+c:/src/pylint-intervention/data/in_the_wild\versions/Red-DiscordBot/a80e20067ccbcf7e3ad8f7662451b03c3e2249e6/after/redbot_slash___main__.py,_get_instance_names,1

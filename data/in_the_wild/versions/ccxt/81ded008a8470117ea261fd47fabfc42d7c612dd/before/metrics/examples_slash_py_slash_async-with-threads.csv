@@ -1,1 +1,4 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/ccxt/81ded008a8470117ea261fd47fabfc42d7c612dd/before/examples_slash_py_slash_async-with-threads.py,test,1
+c:/src/pylint-intervention/data/in_the_wild\versions/ccxt/81ded008a8470117ea261fd47fabfc42d7c612dd/before/examples_slash_py_slash_async-with-threads.py,function_in_a_thread,1
+c:/src/pylint-intervention/data/in_the_wild\versions/ccxt/81ded008a8470117ea261fd47fabfc42d7c612dd/before/examples_slash_py_slash_async-with-threads.py,another_threaded_function,1

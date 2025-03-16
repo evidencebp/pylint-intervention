@@ -1,1 +1,12 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/lutris/49f202de68ffd9a944e221de1ed8b1316ed2dae1/before/lutris_slash_game.py,LutrisGame.play,13
+c:/src/pylint-intervention/data/in_the_wild\versions/lutris/49f202de68ffd9a944e221de1ed8b1316ed2dae1/before/lutris_slash_game.py,LutrisGame.quit_game,5
+c:/src/pylint-intervention/data/in_the_wild\versions/lutris/49f202de68ffd9a944e221de1ed8b1316ed2dae1/before/lutris_slash_game.py,show_error_message,4
+c:/src/pylint-intervention/data/in_the_wild\versions/lutris/49f202de68ffd9a944e221de1ed8b1316ed2dae1/before/lutris_slash_game.py,LutrisGame,4
+c:/src/pylint-intervention/data/in_the_wild\versions/lutris/49f202de68ffd9a944e221de1ed8b1316ed2dae1/before/lutris_slash_game.py,LutrisGame.prelaunch,3
+c:/src/pylint-intervention/data/in_the_wild\versions/lutris/49f202de68ffd9a944e221de1ed8b1316ed2dae1/before/lutris_slash_game.py,LutrisGame.get_real_name,2
+c:/src/pylint-intervention/data/in_the_wild\versions/lutris/49f202de68ffd9a944e221de1ed8b1316ed2dae1/before/lutris_slash_game.py,LutrisGame.load_config,2
+c:/src/pylint-intervention/data/in_the_wild\versions/lutris/49f202de68ffd9a944e221de1ed8b1316ed2dae1/before/lutris_slash_game.py,LutrisGame.run_joy2key,2
+c:/src/pylint-intervention/data/in_the_wild\versions/lutris/49f202de68ffd9a944e221de1ed8b1316ed2dae1/before/lutris_slash_game.py,LutrisGame.poke_process,2
+c:/src/pylint-intervention/data/in_the_wild\versions/lutris/49f202de68ffd9a944e221de1ed8b1316ed2dae1/before/lutris_slash_game.py,LutrisGame.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/lutris/49f202de68ffd9a944e221de1ed8b1316ed2dae1/before/lutris_slash_game.py,LutrisGame.get_runner,1

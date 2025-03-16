@@ -1,1 +1,8 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/CorpBot.py/63bc266de4bada799f4581bba84f2d607c5d9703/before/Cogs_slash_XpBlock.py,XpBlock.xpblock,25
+c:/src/pylint-intervention/data/in_the_wild\versions/CorpBot.py/63bc266de4bada799f4581bba84f2d607c5d9703/before/Cogs_slash_XpBlock.py,XpBlock.xpunblock,16
+c:/src/pylint-intervention/data/in_the_wild\versions/CorpBot.py/63bc266de4bada799f4581bba84f2d607c5d9703/before/Cogs_slash_XpBlock.py,XpBlock,12
+c:/src/pylint-intervention/data/in_the_wild\versions/CorpBot.py/63bc266de4bada799f4581bba84f2d607c5d9703/before/Cogs_slash_XpBlock.py,XpBlock.xpunblockall,8
+c:/src/pylint-intervention/data/in_the_wild\versions/CorpBot.py/63bc266de4bada799f4581bba84f2d607c5d9703/before/Cogs_slash_XpBlock.py,XpBlock.listxpblock,6
+c:/src/pylint-intervention/data/in_the_wild\versions/CorpBot.py/63bc266de4bada799f4581bba84f2d607c5d9703/before/Cogs_slash_XpBlock.py,setup,1
+c:/src/pylint-intervention/data/in_the_wild\versions/CorpBot.py/63bc266de4bada799f4581bba84f2d607c5d9703/before/Cogs_slash_XpBlock.py,XpBlock.__init__,1

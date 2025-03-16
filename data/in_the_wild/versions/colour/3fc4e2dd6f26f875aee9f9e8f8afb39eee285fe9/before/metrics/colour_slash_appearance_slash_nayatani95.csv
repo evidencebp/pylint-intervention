@@ -1,1 +1,7 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/colour/3fc4e2dd6f26f875aee9f9e8f8afb39eee285fe9/before/colour_slash_appearance_slash_nayatani95.py,XYZ_to_Nayatani95,2
+c:/src/pylint-intervention/data/in_the_wild\versions/colour/3fc4e2dd6f26f875aee9f9e8f8afb39eee285fe9/before/colour_slash_appearance_slash_nayatani95.py,get_chromatic_strength,1
+c:/src/pylint-intervention/data/in_the_wild\versions/colour/3fc4e2dd6f26f875aee9f9e8f8afb39eee285fe9/before/colour_slash_appearance_slash_nayatani95.py,get_scaling_coefficient,1
+c:/src/pylint-intervention/data/in_the_wild\versions/colour/3fc4e2dd6f26f875aee9f9e8f8afb39eee285fe9/before/colour_slash_appearance_slash_nayatani95.py,beta_1,1
+c:/src/pylint-intervention/data/in_the_wild\versions/colour/3fc4e2dd6f26f875aee9f9e8f8afb39eee285fe9/before/colour_slash_appearance_slash_nayatani95.py,beta_2,1
+c:/src/pylint-intervention/data/in_the_wild\versions/colour/3fc4e2dd6f26f875aee9f9e8f8afb39eee285fe9/before/colour_slash_appearance_slash_nayatani95.py,xyz_to_rgb,1

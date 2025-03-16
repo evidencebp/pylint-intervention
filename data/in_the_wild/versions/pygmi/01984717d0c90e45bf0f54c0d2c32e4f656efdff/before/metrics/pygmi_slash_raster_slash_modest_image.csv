@@ -1,1 +1,10 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/pygmi/01984717d0c90e45bf0f54c0d2c32e4f656efdff/before/pygmi_slash_raster_slash_modest_image.py,imshow,9
+c:/src/pylint-intervention/data/in_the_wild\versions/pygmi/01984717d0c90e45bf0f54c0d2c32e4f656efdff/before/pygmi_slash_raster_slash_modest_image.py,ModestImage._scale_to_res,8
+c:/src/pylint-intervention/data/in_the_wild\versions/pygmi/01984717d0c90e45bf0f54c0d2c32e4f656efdff/before/pygmi_slash_raster_slash_modest_image.py,ModestImage.set_data,6
+c:/src/pylint-intervention/data/in_the_wild\versions/pygmi/01984717d0c90e45bf0f54c0d2c32e4f656efdff/before/pygmi_slash_raster_slash_modest_image.py,ModestImage,5
+c:/src/pylint-intervention/data/in_the_wild\versions/pygmi/01984717d0c90e45bf0f54c0d2c32e4f656efdff/before/pygmi_slash_raster_slash_modest_image.py,ModestImage.__init__,3
+c:/src/pylint-intervention/data/in_the_wild\versions/pygmi/01984717d0c90e45bf0f54c0d2c32e4f656efdff/before/pygmi_slash_raster_slash_modest_image.py,main,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pygmi/01984717d0c90e45bf0f54c0d2c32e4f656efdff/before/pygmi_slash_raster_slash_modest_image.py,extract_matched_slices,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pygmi/01984717d0c90e45bf0f54c0d2c32e4f656efdff/before/pygmi_slash_raster_slash_modest_image.py,ModestImage.get_array,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pygmi/01984717d0c90e45bf0f54c0d2c32e4f656efdff/before/pygmi_slash_raster_slash_modest_image.py,ModestImage.draw,1

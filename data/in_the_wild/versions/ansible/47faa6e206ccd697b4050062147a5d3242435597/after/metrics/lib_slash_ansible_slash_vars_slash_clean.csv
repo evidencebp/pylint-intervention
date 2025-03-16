@@ -1,1 +1,6 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/ansible/47faa6e206ccd697b4050062147a5d3242435597/after/lib_slash_ansible_slash_vars_slash_clean.py,clean_facts,13
+c:/src/pylint-intervention/data/in_the_wild\versions/ansible/47faa6e206ccd697b4050062147a5d3242435597/after/lib_slash_ansible_slash_vars_slash_clean.py,strip_internal_keys,11
+c:/src/pylint-intervention/data/in_the_wild\versions/ansible/47faa6e206ccd697b4050062147a5d3242435597/after/lib_slash_ansible_slash_vars_slash_clean.py,remove_internal_keys,11
+c:/src/pylint-intervention/data/in_the_wild\versions/ansible/47faa6e206ccd697b4050062147a5d3242435597/after/lib_slash_ansible_slash_vars_slash_clean.py,module_response_deepcopy,5
+c:/src/pylint-intervention/data/in_the_wild\versions/ansible/47faa6e206ccd697b4050062147a5d3242435597/after/lib_slash_ansible_slash_vars_slash_clean.py,namespace_facts,4

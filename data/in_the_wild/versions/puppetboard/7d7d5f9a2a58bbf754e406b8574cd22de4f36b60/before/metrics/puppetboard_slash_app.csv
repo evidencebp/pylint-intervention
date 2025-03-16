@@ -1,1 +1,7 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/puppetboard/7d7d5f9a2a58bbf754e406b8574cd22de4f36b60/before/puppetboard_slash_app.py,query,9
+c:/src/pylint-intervention/data/in_the_wild\versions/puppetboard/7d7d5f9a2a58bbf754e406b8574cd22de4f36b60/before/puppetboard_slash_app.py,offline_static,3
+c:/src/pylint-intervention/data/in_the_wild\versions/puppetboard/7d7d5f9a2a58bbf754e406b8574cd22de4f36b60/before/puppetboard_slash_app.py,version,1
+c:/src/pylint-intervention/data/in_the_wild\versions/puppetboard/7d7d5f9a2a58bbf754e406b8574cd22de4f36b60/before/puppetboard_slash_app.py,utility_processor,1
+c:/src/pylint-intervention/data/in_the_wild\versions/puppetboard/7d7d5f9a2a58bbf754e406b8574cd22de4f36b60/before/puppetboard_slash_app.py,daily_reports_chart,1
+c:/src/pylint-intervention/data/in_the_wild\versions/puppetboard/7d7d5f9a2a58bbf754e406b8574cd22de4f36b60/before/puppetboard_slash_app.py,health_status,1

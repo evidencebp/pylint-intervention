@@ -1,1 +1,9 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/794c18bec0d65aabd9793e2c3d2a5eac8753184a/after/mitmproxy_slash_addons_slash_intercept.py,Intercept.configure,4
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/794c18bec0d65aabd9793e2c3d2a5eac8753184a/after/mitmproxy_slash_addons_slash_intercept.py,Intercept.should_intercept,4
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/794c18bec0d65aabd9793e2c3d2a5eac8753184a/after/mitmproxy_slash_addons_slash_intercept.py,Intercept,3
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/794c18bec0d65aabd9793e2c3d2a5eac8753184a/after/mitmproxy_slash_addons_slash_intercept.py,Intercept.process_flow,2
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/794c18bec0d65aabd9793e2c3d2a5eac8753184a/after/mitmproxy_slash_addons_slash_intercept.py,Intercept.load,1
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/794c18bec0d65aabd9793e2c3d2a5eac8753184a/after/mitmproxy_slash_addons_slash_intercept.py,Intercept.request,1
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/794c18bec0d65aabd9793e2c3d2a5eac8753184a/after/mitmproxy_slash_addons_slash_intercept.py,Intercept.response,1
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/794c18bec0d65aabd9793e2c3d2a5eac8753184a/after/mitmproxy_slash_addons_slash_intercept.py,Intercept.tcp_message,1

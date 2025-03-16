@@ -1,1 +1,5 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/CorpBot.py/7f328ea2ef7e86302e5b61a4f7bc789f01eabaff/after/Cogs_slash_Debugging.py,Debugging.setdebug,13
+c:/src/pylint-intervention/data/in_the_wild\versions/CorpBot.py/7f328ea2ef7e86302e5b61a4f7bc789f01eabaff/after/Cogs_slash_Debugging.py,Debugging,7
+c:/src/pylint-intervention/data/in_the_wild\versions/CorpBot.py/7f328ea2ef7e86302e5b61a4f7bc789f01eabaff/after/Cogs_slash_Debugging.py,Debugging.oncommand,3
+c:/src/pylint-intervention/data/in_the_wild\versions/CorpBot.py/7f328ea2ef7e86302e5b61a4f7bc789f01eabaff/after/Cogs_slash_Debugging.py,Debugging.__init__,1

@@ -1,1 +1,15 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/edgedb/980ad88b91d105760dc9f97c84e0fd634fd2ae29/after/edb_slash_server_slash_main.py,run_server,27
+c:/src/pylint-intervention/data/in_the_wild\versions/edgedb/980ad88b91d105760dc9f97c84e0fd634fd2ae29/after/edb_slash_server_slash_main.py,_ensure_runstate_dir,9
+c:/src/pylint-intervention/data/in_the_wild\versions/edgedb/980ad88b91d105760dc9f97c84e0fd634fd2ae29/after/edb_slash_server_slash_main.py,bump_rlimit_nofile,5
+c:/src/pylint-intervention/data/in_the_wild\versions/edgedb/980ad88b91d105760dc9f97c84e0fd634fd2ae29/after/edb_slash_server_slash_main.py,server_main,5
+c:/src/pylint-intervention/data/in_the_wild\versions/edgedb/980ad88b91d105760dc9f97c84e0fd634fd2ae29/after/edb_slash_server_slash_main.py,_run_server,4
+c:/src/pylint-intervention/data/in_the_wild\versions/edgedb/980ad88b91d105760dc9f97c84e0fd634fd2ae29/after/edb_slash_server_slash_main.py,_protocol_version,4
+c:/src/pylint-intervention/data/in_the_wild\versions/edgedb/980ad88b91d105760dc9f97c84e0fd634fd2ae29/after/edb_slash_server_slash_main.py,_sd_notify,3
+c:/src/pylint-intervention/data/in_the_wild\versions/edgedb/980ad88b91d105760dc9f97c84e0fd634fd2ae29/after/edb_slash_server_slash_main.py,_internal_state_dir,2
+c:/src/pylint-intervention/data/in_the_wild\versions/edgedb/980ad88b91d105760dc9f97c84e0fd634fd2ae29/after/edb_slash_server_slash_main.py,main,2
+c:/src/pylint-intervention/data/in_the_wild\versions/edgedb/980ad88b91d105760dc9f97c84e0fd634fd2ae29/after/edb_slash_server_slash_main.py,abort,1
+c:/src/pylint-intervention/data/in_the_wild\versions/edgedb/980ad88b91d105760dc9f97c84e0fd634fd2ae29/after/edb_slash_server_slash_main.py,terminate_server,1
+c:/src/pylint-intervention/data/in_the_wild\versions/edgedb/980ad88b91d105760dc9f97c84e0fd634fd2ae29/after/edb_slash_server_slash_main.py,_init_cluster,1
+c:/src/pylint-intervention/data/in_the_wild\versions/edgedb/980ad88b91d105760dc9f97c84e0fd634fd2ae29/after/edb_slash_server_slash_main.py,_init_parsers,1
+c:/src/pylint-intervention/data/in_the_wild\versions/edgedb/980ad88b91d105760dc9f97c84e0fd634fd2ae29/after/edb_slash_server_slash_main.py,main_dev,1

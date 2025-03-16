@@ -1,1 +1,5 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/photutils/2737cb56940079bb98e2e5a9a14b56c9f9627b36/before/photutils_slash_segmentation_slash_detect.py,_detect_sources,19
+c:/src/pylint-intervention/data/in_the_wild\versions/photutils/2737cb56940079bb98e2e5a9a14b56c9f9627b36/before/photutils_slash_segmentation_slash_detect.py,detect_threshold,14
+c:/src/pylint-intervention/data/in_the_wild\versions/photutils/2737cb56940079bb98e2e5a9a14b56c9f9627b36/before/photutils_slash_segmentation_slash_detect.py,make_source_mask,5
+c:/src/pylint-intervention/data/in_the_wild\versions/photutils/2737cb56940079bb98e2e5a9a14b56c9f9627b36/before/photutils_slash_segmentation_slash_detect.py,detect_sources,1

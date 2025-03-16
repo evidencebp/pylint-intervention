@@ -1,1 +1,11 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/qsim/c44a31089cffa818561499796f0c7069acf84cd4/before/qsimcirq_slash_qsim_circuit.py,_cirq_gate_kind,54
+c:/src/pylint-intervention/data/in_the_wild\versions/qsim/c44a31089cffa818561499796f0c7069acf84cd4/before/qsimcirq_slash_qsim_circuit.py,add_op_to_circuit,18
+c:/src/pylint-intervention/data/in_the_wild\versions/qsim/c44a31089cffa818561499796f0c7069acf84cd4/before/qsimcirq_slash_qsim_circuit.py,QSimCircuit.translate_cirq_to_qtrajectory,17
+c:/src/pylint-intervention/data/in_the_wild\versions/qsim/c44a31089cffa818561499796f0c7069acf84cd4/before/qsimcirq_slash_qsim_circuit.py,_control_details,8
+c:/src/pylint-intervention/data/in_the_wild\versions/qsim/c44a31089cffa818561499796f0c7069acf84cd4/before/qsimcirq_slash_qsim_circuit.py,QSimCircuit.translate_cirq_to_qsim,8
+c:/src/pylint-intervention/data/in_the_wild\versions/qsim/c44a31089cffa818561499796f0c7069acf84cd4/before/qsimcirq_slash_qsim_circuit.py,QSimCircuit,7
+c:/src/pylint-intervention/data/in_the_wild\versions/qsim/c44a31089cffa818561499796f0c7069acf84cd4/before/qsimcirq_slash_qsim_circuit.py,add_op_to_opstring,5
+c:/src/pylint-intervention/data/in_the_wild\versions/qsim/c44a31089cffa818561499796f0c7069acf84cd4/before/qsimcirq_slash_qsim_circuit.py,QSimCircuit.__init__,4
+c:/src/pylint-intervention/data/in_the_wild\versions/qsim/c44a31089cffa818561499796f0c7069acf84cd4/before/qsimcirq_slash_qsim_circuit.py,QSimCircuit.__eq__,2
+c:/src/pylint-intervention/data/in_the_wild\versions/qsim/c44a31089cffa818561499796f0c7069acf84cd4/before/qsimcirq_slash_qsim_circuit.py,QSimCircuit._resolve_parameters_,1

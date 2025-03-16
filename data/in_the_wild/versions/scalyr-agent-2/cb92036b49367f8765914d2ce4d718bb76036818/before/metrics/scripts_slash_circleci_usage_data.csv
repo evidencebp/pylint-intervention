@@ -1,1 +1,5 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/scalyr-agent-2/cb92036b49367f8765914d2ce4d718bb76036818/before/scripts_slash_circleci_usage_data.py,get_usage_data_for_branch_and_workflow,9
+c:/src/pylint-intervention/data/in_the_wild\versions/scalyr-agent-2/cb92036b49367f8765914d2ce4d718bb76036818/before/scripts_slash_circleci_usage_data.py,get_all_branches_for_repo,6
+c:/src/pylint-intervention/data/in_the_wild\versions/scalyr-agent-2/cb92036b49367f8765914d2ce4d718bb76036818/before/scripts_slash_circleci_usage_data.py,print_usage_data,5
+c:/src/pylint-intervention/data/in_the_wild\versions/scalyr-agent-2/cb92036b49367f8765914d2ce4d718bb76036818/before/scripts_slash_circleci_usage_data.py,send_email,3

@@ -1,1 +1,13 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/capirca/73b210a6d4f08680af97e67795d4bfef984a4059/before/capirca_slash_lib_slash_nftables.py,Term.__str__,37
+c:/src/pylint-intervention/data/in_the_wild\versions/capirca/73b210a6d4f08680af97e67795d4bfef984a4059/before/capirca_slash_lib_slash_nftables.py,Nftables._TranslatePolicy,18
+c:/src/pylint-intervention/data/in_the_wild\versions/capirca/73b210a6d4f08680af97e67795d4bfef984a4059/before/capirca_slash_lib_slash_nftables.py,Term,14
+c:/src/pylint-intervention/data/in_the_wild\versions/capirca/73b210a6d4f08680af97e67795d4bfef984a4059/before/capirca_slash_lib_slash_nftables.py,Nftables,10
+c:/src/pylint-intervention/data/in_the_wild\versions/capirca/73b210a6d4f08680af97e67795d4bfef984a4059/before/capirca_slash_lib_slash_nftables.py,Nftables.__str__,7
+c:/src/pylint-intervention/data/in_the_wild\versions/capirca/73b210a6d4f08680af97e67795d4bfef984a4059/before/capirca_slash_lib_slash_nftables.py,Term._CalculateAddrs,5
+c:/src/pylint-intervention/data/in_the_wild\versions/capirca/73b210a6d4f08680af97e67795d4bfef984a4059/before/capirca_slash_lib_slash_nftables.py,Term._FormatMatch,5
+c:/src/pylint-intervention/data/in_the_wild\versions/capirca/73b210a6d4f08680af97e67795d4bfef984a4059/before/capirca_slash_lib_slash_nftables.py,Term.__init__,4
+c:/src/pylint-intervention/data/in_the_wild\versions/capirca/73b210a6d4f08680af97e67795d4bfef984a4059/before/capirca_slash_lib_slash_nftables.py,Error,1
+c:/src/pylint-intervention/data/in_the_wild\versions/capirca/73b210a6d4f08680af97e67795d4bfef984a4059/before/capirca_slash_lib_slash_nftables.py,InvalidTargetOption,1
+c:/src/pylint-intervention/data/in_the_wild\versions/capirca/73b210a6d4f08680af97e67795d4bfef984a4059/before/capirca_slash_lib_slash_nftables.py,InvalidAddressFamily,1
+c:/src/pylint-intervention/data/in_the_wild\versions/capirca/73b210a6d4f08680af97e67795d4bfef984a4059/before/capirca_slash_lib_slash_nftables.py,Nftables._BuildTokens,1

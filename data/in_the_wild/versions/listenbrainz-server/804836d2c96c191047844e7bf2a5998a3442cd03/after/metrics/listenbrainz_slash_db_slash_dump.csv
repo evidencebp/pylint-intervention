@@ -1,1 +1,11 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/listenbrainz-server/804836d2c96c191047844e7bf2a5998a3442cd03/after/listenbrainz_slash_db_slash_dump.py,import_postgres_dump,10
+c:/src/pylint-intervention/data/in_the_wild\versions/listenbrainz-server/804836d2c96c191047844e7bf2a5998a3442cd03/after/listenbrainz_slash_db_slash_dump.py,_import_dump,8
+c:/src/pylint-intervention/data/in_the_wild\versions/listenbrainz-server/804836d2c96c191047844e7bf2a5998a3442cd03/after/listenbrainz_slash_db_slash_dump.py,dump_postgres_db,7
+c:/src/pylint-intervention/data/in_the_wild\versions/listenbrainz-server/804836d2c96c191047844e7bf2a5998a3442cd03/after/listenbrainz_slash_db_slash_dump.py,_create_dump,7
+c:/src/pylint-intervention/data/in_the_wild\versions/listenbrainz-server/804836d2c96c191047844e7bf2a5998a3442cd03/after/listenbrainz_slash_db_slash_dump.py,get_dump_entries,2
+c:/src/pylint-intervention/data/in_the_wild\versions/listenbrainz-server/804836d2c96c191047844e7bf2a5998a3442cd03/after/listenbrainz_slash_db_slash_dump.py,create_private_dump,1
+c:/src/pylint-intervention/data/in_the_wild\versions/listenbrainz-server/804836d2c96c191047844e7bf2a5998a3442cd03/after/listenbrainz_slash_db_slash_dump.py,create_public_dump,1
+c:/src/pylint-intervention/data/in_the_wild\versions/listenbrainz-server/804836d2c96c191047844e7bf2a5998a3442cd03/after/listenbrainz_slash_db_slash_dump.py,copy_table,1
+c:/src/pylint-intervention/data/in_the_wild\versions/listenbrainz-server/804836d2c96c191047844e7bf2a5998a3442cd03/after/listenbrainz_slash_db_slash_dump.py,add_dump_entry,1
+c:/src/pylint-intervention/data/in_the_wild\versions/listenbrainz-server/804836d2c96c191047844e7bf2a5998a3442cd03/after/listenbrainz_slash_db_slash_dump.py,SchemaMismatchException,1

@@ -1,1 +1,3 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/wagtail/d10f15e55806c6944827d801cd9c2d53f5da4186/before/wagtail_slash_admin_slash_views_slash_pages_slash_search.py,search,18
+c:/src/pylint-intervention/data/in_the_wild\versions/wagtail/d10f15e55806c6944827d801cd9c2d53f5da4186/before/wagtail_slash_admin_slash_views_slash_pages_slash_search.py,page_filter_search,8

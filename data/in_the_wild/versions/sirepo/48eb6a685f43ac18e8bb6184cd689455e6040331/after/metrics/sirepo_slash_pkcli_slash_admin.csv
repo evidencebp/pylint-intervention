@@ -1,1 +1,7 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/sirepo/48eb6a685f43ac18e8bb6184cd689455e6040331/after/sirepo_slash_pkcli_slash_admin.py,move_user_sims,12
+c:/src/pylint-intervention/data/in_the_wild\versions/sirepo/48eb6a685f43ac18e8bb6184cd689455e6040331/after/sirepo_slash_pkcli_slash_admin.py,create_examples,7
+c:/src/pylint-intervention/data/in_the_wild\versions/sirepo/48eb6a685f43ac18e8bb6184cd689455e6040331/after/sirepo_slash_pkcli_slash_admin.py,audit_proprietary_lib_files,3
+c:/src/pylint-intervention/data/in_the_wild\versions/sirepo/48eb6a685f43ac18e8bb6184cd689455e6040331/after/sirepo_slash_pkcli_slash_admin.py,delete_user,3
+c:/src/pylint-intervention/data/in_the_wild\versions/sirepo/48eb6a685f43ac18e8bb6184cd689455e6040331/after/sirepo_slash_pkcli_slash_admin.py,_create_example,1
+c:/src/pylint-intervention/data/in_the_wild\versions/sirepo/48eb6a685f43ac18e8bb6184cd689455e6040331/after/sirepo_slash_pkcli_slash_admin.py,_is_src_dir,1

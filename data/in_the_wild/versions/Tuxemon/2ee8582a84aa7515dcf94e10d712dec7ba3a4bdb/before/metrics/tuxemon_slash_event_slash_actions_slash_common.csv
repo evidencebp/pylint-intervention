@@ -1,1 +1,4 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/Tuxemon/2ee8582a84aa7515dcf94e10d712dec7ba3a4bdb/before/tuxemon_slash_event_slash_actions_slash_common.py,CommonAction,4
+c:/src/pylint-intervention/data/in_the_wild\versions/Tuxemon/2ee8582a84aa7515dcf94e10d712dec7ba3a4bdb/before/tuxemon_slash_event_slash_actions_slash_common.py,CommonAction.set_character_attribute,3
+c:/src/pylint-intervention/data/in_the_wild\versions/Tuxemon/2ee8582a84aa7515dcf94e10d712dec7ba3a4bdb/before/tuxemon_slash_event_slash_actions_slash_common.py,CommonAction.modify_character_attribute,3

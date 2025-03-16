@@ -1,1 +1,6 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/diofant/ef0d3e7ecd05985750a20d6285f9fdce47b9616d/before/diofant_slash_core_slash_sympify.py,sympify,24
+c:/src/pylint-intervention/data/in_the_wild\versions/diofant/ef0d3e7ecd05985750a20d6285f9fdce47b9616d/before/diofant_slash_core_slash_sympify.py,SympifyError,3
+c:/src/pylint-intervention/data/in_the_wild\versions/diofant/ef0d3e7ecd05985750a20d6285f9fdce47b9616d/before/diofant_slash_core_slash_sympify.py,SympifyError.__str__,2
+c:/src/pylint-intervention/data/in_the_wild\versions/diofant/ef0d3e7ecd05985750a20d6285f9fdce47b9616d/before/diofant_slash_core_slash_sympify.py,SympifyError.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/diofant/ef0d3e7ecd05985750a20d6285f9fdce47b9616d/before/diofant_slash_core_slash_sympify.py,CantSympify,1

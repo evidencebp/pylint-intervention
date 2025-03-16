@@ -1,1 +1,11 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/ostap/f308e47b53a69915c706b43f175c27d9ecccac2a/after/ostap_slash_core_slash_ostap_types.py,is_good_number,3
+c:/src/pylint-intervention/data/in_the_wild\versions/ostap/f308e47b53a69915c706b43f175c27d9ecccac2a/after/ostap_slash_core_slash_ostap_types.py,all_integers,3
+c:/src/pylint-intervention/data/in_the_wild\versions/ostap/f308e47b53a69915c706b43f175c27d9ecccac2a/after/ostap_slash_core_slash_ostap_types.py,all_numerics,3
+c:/src/pylint-intervention/data/in_the_wild\versions/ostap/f308e47b53a69915c706b43f175c27d9ecccac2a/after/ostap_slash_core_slash_ostap_types.py,all_strings,3
+c:/src/pylint-intervention/data/in_the_wild\versions/ostap/f308e47b53a69915c706b43f175c27d9ecccac2a/after/ostap_slash_core_slash_ostap_types.py,is_list_like,2
+c:/src/pylint-intervention/data/in_the_wild\versions/ostap/f308e47b53a69915c706b43f175c27d9ecccac2a/after/ostap_slash_core_slash_ostap_types.py,is_integer,1
+c:/src/pylint-intervention/data/in_the_wild\versions/ostap/f308e47b53a69915c706b43f175c27d9ecccac2a/after/ostap_slash_core_slash_ostap_types.py,is_number,1
+c:/src/pylint-intervention/data/in_the_wild\versions/ostap/f308e47b53a69915c706b43f175c27d9ecccac2a/after/ostap_slash_core_slash_ostap_types.py,is_string,1
+c:/src/pylint-intervention/data/in_the_wild\versions/ostap/f308e47b53a69915c706b43f175c27d9ecccac2a/after/ostap_slash_core_slash_ostap_types.py,is_string_like,1
+c:/src/pylint-intervention/data/in_the_wild\versions/ostap/f308e47b53a69915c706b43f175c27d9ecccac2a/after/ostap_slash_core_slash_ostap_types.py,is_list,1

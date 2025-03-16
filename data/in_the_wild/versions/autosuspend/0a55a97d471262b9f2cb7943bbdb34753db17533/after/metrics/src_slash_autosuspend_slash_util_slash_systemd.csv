@@ -1,1 +1,4 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/autosuspend/0a55a97d471262b9f2cb7943bbdb34753db17533/after/src_slash_autosuspend_slash_util_slash_systemd.py,list_logind_sessions,4
+c:/src/pylint-intervention/data/in_the_wild\versions/autosuspend/0a55a97d471262b9f2cb7943bbdb34753db17533/after/src_slash_autosuspend_slash_util_slash_systemd.py,_get_bus,1
+c:/src/pylint-intervention/data/in_the_wild\versions/autosuspend/0a55a97d471262b9f2cb7943bbdb34753db17533/after/src_slash_autosuspend_slash_util_slash_systemd.py,LogindDBusException,1

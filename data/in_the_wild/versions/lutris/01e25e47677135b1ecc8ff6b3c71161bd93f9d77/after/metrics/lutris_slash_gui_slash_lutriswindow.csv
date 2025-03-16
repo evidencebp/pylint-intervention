@@ -1,1 +1,5 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/lutris/01e25e47677135b1ecc8ff6b3c71161bd93f9d77/after/lutris_slash_gui_slash_lutriswindow.py,LutrisWindow.refresh_status,7
+c:/src/pylint-intervention/data/in_the_wild\versions/lutris/01e25e47677135b1ecc8ff6b3c71161bd93f9d77/after/lutris_slash_gui_slash_lutriswindow.py,LutrisWindow,6
+c:/src/pylint-intervention/data/in_the_wild\versions/lutris/01e25e47677135b1ecc8ff6b3c71161bd93f9d77/after/lutris_slash_gui_slash_lutriswindow.py,LutrisWindow.finish_initializing,4
+c:/src/pylint-intervention/data/in_the_wild\versions/lutris/01e25e47677135b1ecc8ff6b3c71161bd93f9d77/after/lutris_slash_gui_slash_lutriswindow.py,LutrisWindow.__init__,3

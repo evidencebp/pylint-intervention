@@ -1,1 +1,16 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/jewelcraft/732ed407b2bbdbc7d7218d5d142bc520d3d95cba/before/ops_object_slash_curve_ops.py,OBJECT_OT_move_over_under,15
+c:/src/pylint-intervention/data/in_the_wild\versions/jewelcraft/732ed407b2bbdbc7d7218d5d142bc520d3d95cba/before/ops_object_slash_curve_ops.py,OBJECT_OT_move_over_under.execute,14
+c:/src/pylint-intervention/data/in_the_wild\versions/jewelcraft/732ed407b2bbdbc7d7218d5d142bc520d3d95cba/before/ops_object_slash_curve_ops.py,OBJECT_OT_stretch_along_curve,12
+c:/src/pylint-intervention/data/in_the_wild\versions/jewelcraft/732ed407b2bbdbc7d7218d5d142bc520d3d95cba/before/ops_object_slash_curve_ops.py,OBJECT_OT_stretch_along_curve.execute,11
+c:/src/pylint-intervention/data/in_the_wild\versions/jewelcraft/732ed407b2bbdbc7d7218d5d142bc520d3d95cba/before/ops_object_slash_curve_ops.py,CURVE_OT_size_curve_add.execute,5
+c:/src/pylint-intervention/data/in_the_wild\versions/jewelcraft/732ed407b2bbdbc7d7218d5d142bc520d3d95cba/before/ops_object_slash_curve_ops.py,CURVE_OT_size_curve_add,4
+c:/src/pylint-intervention/data/in_the_wild\versions/jewelcraft/732ed407b2bbdbc7d7218d5d142bc520d3d95cba/before/ops_object_slash_curve_ops.py,CURVE_OT_length_display,4
+c:/src/pylint-intervention/data/in_the_wild\versions/jewelcraft/732ed407b2bbdbc7d7218d5d142bc520d3d95cba/before/ops_object_slash_curve_ops.py,set_ring_size,3
+c:/src/pylint-intervention/data/in_the_wild\versions/jewelcraft/732ed407b2bbdbc7d7218d5d142bc520d3d95cba/before/ops_object_slash_curve_ops.py,upd_size,3
+c:/src/pylint-intervention/data/in_the_wild\versions/jewelcraft/732ed407b2bbdbc7d7218d5d142bc520d3d95cba/before/ops_object_slash_curve_ops.py,CURVE_OT_size_curve_add.draw,3
+c:/src/pylint-intervention/data/in_the_wild\versions/jewelcraft/732ed407b2bbdbc7d7218d5d142bc520d3d95cba/before/ops_object_slash_curve_ops.py,CURVE_OT_length_display.execute,3
+c:/src/pylint-intervention/data/in_the_wild\versions/jewelcraft/732ed407b2bbdbc7d7218d5d142bc520d3d95cba/before/ops_object_slash_curve_ops.py,CURVE_OT_size_curve_add.invoke,2
+c:/src/pylint-intervention/data/in_the_wild\versions/jewelcraft/732ed407b2bbdbc7d7218d5d142bc520d3d95cba/before/ops_object_slash_curve_ops.py,set_diameter,1
+c:/src/pylint-intervention/data/in_the_wild\versions/jewelcraft/732ed407b2bbdbc7d7218d5d142bc520d3d95cba/before/ops_object_slash_curve_ops.py,upd_diameter,1
+c:/src/pylint-intervention/data/in_the_wild\versions/jewelcraft/732ed407b2bbdbc7d7218d5d142bc520d3d95cba/before/ops_object_slash_curve_ops.py,upd_circumference,1

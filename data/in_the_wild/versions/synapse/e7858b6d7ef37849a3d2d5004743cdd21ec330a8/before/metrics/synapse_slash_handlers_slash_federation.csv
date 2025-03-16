@@ -1,1 +1,8 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/synapse/e7858b6d7ef37849a3d2d5004743cdd21ec330a8/before/synapse_slash_handlers_slash_federation.py,FederationHandler.on_receive_pdu,14
+c:/src/pylint-intervention/data/in_the_wild\versions/synapse/e7858b6d7ef37849a3d2d5004743cdd21ec330a8/before/synapse_slash_handlers_slash_federation.py,FederationHandler.do_invite_join,6
+c:/src/pylint-intervention/data/in_the_wild\versions/synapse/e7858b6d7ef37849a3d2d5004743cdd21ec330a8/before/synapse_slash_handlers_slash_federation.py,FederationHandler,5
+c:/src/pylint-intervention/data/in_the_wild\versions/synapse/e7858b6d7ef37849a3d2d5004743cdd21ec330a8/before/synapse_slash_handlers_slash_federation.py,FederationHandler.handle_new_event,3
+c:/src/pylint-intervention/data/in_the_wild\versions/synapse/e7858b6d7ef37849a3d2d5004743cdd21ec330a8/before/synapse_slash_handlers_slash_federation.py,FederationHandler.backfill,2
+c:/src/pylint-intervention/data/in_the_wild\versions/synapse/e7858b6d7ef37849a3d2d5004743cdd21ec330a8/before/synapse_slash_handlers_slash_federation.py,FederationHandler._on_user_joined,2
+c:/src/pylint-intervention/data/in_the_wild\versions/synapse/e7858b6d7ef37849a3d2d5004743cdd21ec330a8/before/synapse_slash_handlers_slash_federation.py,FederationHandler.__init__,1

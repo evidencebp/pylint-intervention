@@ -1,1 +1,9 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/460ef47e8f76c1d1bae35ce45fbd05ac60dc347e/before/catalog_slash_models.py,Category,2
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/460ef47e8f76c1d1bae35ce45fbd05ac60dc347e/before/catalog_slash_models.py,Course,2
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/460ef47e8f76c1d1bae35ce45fbd05ac60dc347e/before/catalog_slash_models.py,Category.__str__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/460ef47e8f76c1d1bae35ce45fbd05ac60dc347e/before/catalog_slash_models.py,Course.gehol_url,1
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/460ef47e8f76c1d1bae35ce45fbd05ac60dc347e/before/catalog_slash_models.py,Course.get_absolute_url,1
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/460ef47e8f76c1d1bae35ce45fbd05ac60dc347e/before/catalog_slash_models.py,Course.__str__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/460ef47e8f76c1d1bae35ce45fbd05ac60dc347e/before/catalog_slash_models.py,Course.fullname,1
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/460ef47e8f76c1d1bae35ce45fbd05ac60dc347e/before/catalog_slash_models.py,Course.followers_count,1

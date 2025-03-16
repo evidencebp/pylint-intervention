@@ -1,1 +1,5 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/pycbc/11142c548ee91c37c8819a2f5e81b65f78eac873/after/pycbc_slash_workflow_slash_segment.py,get_triggered_coherent_segment,17
+c:/src/pylint-intervention/data/in_the_wild\versions/pycbc/11142c548ee91c37c8819a2f5e81b65f78eac873/after/pycbc_slash_workflow_slash_segment.py,generate_triggered_segment,17
+c:/src/pylint-intervention/data/in_the_wild\versions/pycbc/11142c548ee91c37c8819a2f5e81b65f78eac873/after/pycbc_slash_workflow_slash_segment.py,get_segments_file,6
+c:/src/pylint-intervention/data/in_the_wild\versions/pycbc/11142c548ee91c37c8819a2f5e81b65f78eac873/after/pycbc_slash_workflow_slash_segment.py,save_veto_definer,2

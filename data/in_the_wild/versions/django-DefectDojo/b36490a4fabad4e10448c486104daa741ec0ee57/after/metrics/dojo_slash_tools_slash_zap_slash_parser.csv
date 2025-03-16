@@ -1,1 +1,6 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/django-DefectDojo/b36490a4fabad4e10448c486104daa741ec0ee57/after/dojo_slash_tools_slash_zap_slash_parser.py,ZapParser.get_findings,6
+c:/src/pylint-intervention/data/in_the_wild\versions/django-DefectDojo/b36490a4fabad4e10448c486104daa741ec0ee57/after/dojo_slash_tools_slash_zap_slash_parser.py,ZapParser,3
+c:/src/pylint-intervention/data/in_the_wild\versions/django-DefectDojo/b36490a4fabad4e10448c486104daa741ec0ee57/after/dojo_slash_tools_slash_zap_slash_parser.py,ZapParser.get_scan_types,1
+c:/src/pylint-intervention/data/in_the_wild\versions/django-DefectDojo/b36490a4fabad4e10448c486104daa741ec0ee57/after/dojo_slash_tools_slash_zap_slash_parser.py,ZapParser.get_label_for_scan_types,1
+c:/src/pylint-intervention/data/in_the_wild\versions/django-DefectDojo/b36490a4fabad4e10448c486104daa741ec0ee57/after/dojo_slash_tools_slash_zap_slash_parser.py,ZapParser.get_description_for_scan_types,1

@@ -1,1 +1,7 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/thinc/f6eee9a810190d14770eb1f31072e4e09c76a10a/before/thinc_slash_layers_slash_concatenate.py,init,9
+c:/src/pylint-intervention/data/in_the_wild\versions/thinc/f6eee9a810190d14770eb1f31072e4e09c76a10a/before/thinc_slash_layers_slash_concatenate.py,concatenate,7
+c:/src/pylint-intervention/data/in_the_wild\versions/thinc/f6eee9a810190d14770eb1f31072e4e09c76a10a/before/thinc_slash_layers_slash_concatenate.py,forward,4
+c:/src/pylint-intervention/data/in_the_wild\versions/thinc/f6eee9a810190d14770eb1f31072e4e09c76a10a/before/thinc_slash_layers_slash_concatenate.py,_list_forward,4
+c:/src/pylint-intervention/data/in_the_wild\versions/thinc/f6eee9a810190d14770eb1f31072e4e09c76a10a/before/thinc_slash_layers_slash_concatenate.py,_ragged_forward,3
+c:/src/pylint-intervention/data/in_the_wild\versions/thinc/f6eee9a810190d14770eb1f31072e4e09c76a10a/before/thinc_slash_layers_slash_concatenate.py,_array_forward,2

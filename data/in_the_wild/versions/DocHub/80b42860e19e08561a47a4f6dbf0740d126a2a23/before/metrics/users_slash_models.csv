@@ -1,1 +1,9 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/80b42860e19e08561a47a4f6dbf0740d126a2a23/before/users_slash_models.py,CustomUserManager._create_user,4
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/80b42860e19e08561a47a4f6dbf0740d126a2a23/before/users_slash_models.py,CustomUserManager,3
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/80b42860e19e08561a47a4f6dbf0740d126a2a23/before/users_slash_models.py,User,3
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/80b42860e19e08561a47a4f6dbf0740d126a2a23/before/users_slash_models.py,User.get_photo,2
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/80b42860e19e08561a47a4f6dbf0740d126a2a23/before/users_slash_models.py,CustomUserManager.create_user,1
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/80b42860e19e08561a47a4f6dbf0740d126a2a23/before/users_slash_models.py,CustomUserManager.create_superuser,1
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/80b42860e19e08561a47a4f6dbf0740d126a2a23/before/users_slash_models.py,User.name,1
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/80b42860e19e08561a47a4f6dbf0740d126a2a23/before/users_slash_models.py,Inscription,1

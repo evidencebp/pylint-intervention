@@ -1,1 +1,5 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/osmose-frontend/2b2b410d0475e34e562759b413f24b4f0ed06a13/before/modules_slash_query_meta.py,_items,10
+c:/src/pylint-intervention/data/in_the_wild\versions/osmose-frontend/2b2b410d0475e34e562759b413f24b4f0ed06a13/before/modules_slash_query_meta.py,_items_menu,2
+c:/src/pylint-intervention/data/in_the_wild\versions/osmose-frontend/2b2b410d0475e34e562759b413f24b4f0ed06a13/before/modules_slash_query_meta.py,_countries,1
+c:/src/pylint-intervention/data/in_the_wild\versions/osmose-frontend/2b2b410d0475e34e562759b413f24b4f0ed06a13/before/modules_slash_query_meta.py,_tags,1

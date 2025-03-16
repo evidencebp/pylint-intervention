@@ -1,1 +1,15 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/diofant/8ab96042687f1d3e745e513d7e42038b8096f984/after/diofant_slash_polys_slash_polyroots.py,roots,43
+c:/src/pylint-intervention/data/in_the_wild\versions/diofant/8ab96042687f1d3e745e513d7e42038b8096f984/after/diofant_slash_polys_slash_polyroots.py,roots_quintic,20
+c:/src/pylint-intervention/data/in_the_wild\versions/diofant/8ab96042687f1d3e745e513d7e42038b8096f984/after/diofant_slash_polys_slash_polyroots.py,preprocess_roots,20
+c:/src/pylint-intervention/data/in_the_wild\versions/diofant/8ab96042687f1d3e745e513d7e42038b8096f984/after/diofant_slash_polys_slash_polyroots.py,roots_cubic,16
+c:/src/pylint-intervention/data/in_the_wild\versions/diofant/8ab96042687f1d3e745e513d7e42038b8096f984/after/diofant_slash_polys_slash_polyroots.py,roots_quartic,12
+c:/src/pylint-intervention/data/in_the_wild\versions/diofant/8ab96042687f1d3e745e513d7e42038b8096f984/after/diofant_slash_polys_slash_polyroots.py,roots_binomial,12
+c:/src/pylint-intervention/data/in_the_wild\versions/diofant/8ab96042687f1d3e745e513d7e42038b8096f984/after/diofant_slash_polys_slash_polyroots.py,_integer_basis,11
+c:/src/pylint-intervention/data/in_the_wild\versions/diofant/8ab96042687f1d3e745e513d7e42038b8096f984/after/diofant_slash_polys_slash_polyroots.py,roots_cyclotomic,10
+c:/src/pylint-intervention/data/in_the_wild\versions/diofant/8ab96042687f1d3e745e513d7e42038b8096f984/after/diofant_slash_polys_slash_polyroots.py,roots_quadratic,9
+c:/src/pylint-intervention/data/in_the_wild\versions/diofant/8ab96042687f1d3e745e513d7e42038b8096f984/after/diofant_slash_polys_slash_polyroots.py,root_factors,7
+c:/src/pylint-intervention/data/in_the_wild\versions/diofant/8ab96042687f1d3e745e513d7e42038b8096f984/after/diofant_slash_polys_slash_polyroots.py,_inv_totient_estimate,6
+c:/src/pylint-intervention/data/in_the_wild\versions/diofant/8ab96042687f1d3e745e513d7e42038b8096f984/after/diofant_slash_polys_slash_polyroots.py,_roots_quartic_euler,4
+c:/src/pylint-intervention/data/in_the_wild\versions/diofant/8ab96042687f1d3e745e513d7e42038b8096f984/after/diofant_slash_polys_slash_polyroots.py,roots_linear,3
+c:/src/pylint-intervention/data/in_the_wild\versions/diofant/8ab96042687f1d3e745e513d7e42038b8096f984/after/diofant_slash_polys_slash_polyroots.py,_quintic_simplify,1

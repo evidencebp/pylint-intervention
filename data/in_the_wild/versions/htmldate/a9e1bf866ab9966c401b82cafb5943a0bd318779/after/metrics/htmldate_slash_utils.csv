@@ -1,1 +1,8 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/htmldate/a9e1bf866ab9966c401b82cafb5943a0bd318779/after/htmldate_slash_utils.py,load_html,14
+c:/src/pylint-intervention/data/in_the_wild\versions/htmldate/a9e1bf866ab9966c401b82cafb5943a0bd318779/after/htmldate_slash_utils.py,detect_encoding,9
+c:/src/pylint-intervention/data/in_the_wild\versions/htmldate/a9e1bf866ab9966c401b82cafb5943a0bd318779/after/htmldate_slash_utils.py,fetch_url,7
+c:/src/pylint-intervention/data/in_the_wild\versions/htmldate/a9e1bf866ab9966c401b82cafb5943a0bd318779/after/htmldate_slash_utils.py,decode_file,6
+c:/src/pylint-intervention/data/in_the_wild\versions/htmldate/a9e1bf866ab9966c401b82cafb5943a0bd318779/after/htmldate_slash_utils.py,is_dubious_html,5
+c:/src/pylint-intervention/data/in_the_wild\versions/htmldate/a9e1bf866ab9966c401b82cafb5943a0bd318779/after/htmldate_slash_utils.py,isutf8,3
+c:/src/pylint-intervention/data/in_the_wild\versions/htmldate/a9e1bf866ab9966c401b82cafb5943a0bd318779/after/htmldate_slash_utils.py,decode_response,3

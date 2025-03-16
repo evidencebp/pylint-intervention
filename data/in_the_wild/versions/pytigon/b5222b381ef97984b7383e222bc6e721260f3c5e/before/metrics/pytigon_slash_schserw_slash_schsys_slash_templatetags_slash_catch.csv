@@ -1,1 +1,5 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/pytigon/b5222b381ef97984b7383e222bc6e721260f3c5e/before/pytigon_slash_schserw_slash_schsys_slash_templatetags_slash_catch.py,do_catch,3
+c:/src/pylint-intervention/data/in_the_wild\versions/pytigon/b5222b381ef97984b7383e222bc6e721260f3c5e/before/pytigon_slash_schserw_slash_schsys_slash_templatetags_slash_catch.py,CatchNode,3
+c:/src/pylint-intervention/data/in_the_wild\versions/pytigon/b5222b381ef97984b7383e222bc6e721260f3c5e/before/pytigon_slash_schserw_slash_schsys_slash_templatetags_slash_catch.py,CatchNode.render,2
+c:/src/pylint-intervention/data/in_the_wild\versions/pytigon/b5222b381ef97984b7383e222bc6e721260f3c5e/before/pytigon_slash_schserw_slash_schsys_slash_templatetags_slash_catch.py,CatchNode.__init__,1

@@ -1,1 +1,7 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/GW2Bot/da0c4dc4213bade7f5f7c277ce718319f4a0901b/before/guildwars2_slash_wvw.py,WvwMixin.wvw_info,17
+c:/src/pylint-intervention/data/in_the_wild\versions/GW2Bot/da0c4dc4213bade7f5f7c277ce718319f4a0901b/before/guildwars2_slash_wvw.py,WvwMixin,7
+c:/src/pylint-intervention/data/in_the_wild\versions/GW2Bot/da0c4dc4213bade7f5f7c277ce718319f4a0901b/before/guildwars2_slash_wvw.py,WvwMixin.wvw_population_track,6
+c:/src/pylint-intervention/data/in_the_wild\versions/GW2Bot/da0c4dc4213bade7f5f7c277ce718319f4a0901b/before/guildwars2_slash_wvw.py,generate_population_graph,3
+c:/src/pylint-intervention/data/in_the_wild\versions/GW2Bot/da0c4dc4213bade7f5f7c277ce718319f4a0901b/before/guildwars2_slash_wvw.py,WvwMixin.get_population_graph,2
+c:/src/pylint-intervention/data/in_the_wild\versions/GW2Bot/da0c4dc4213bade7f5f7c277ce718319f4a0901b/before/guildwars2_slash_wvw.py,WvwMixin.population_to_int,1

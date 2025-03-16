@@ -1,1 +1,13 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/basenji/f6bcce204042e2201fca214f5314e2972462a0d0/before/basenji_slash_gene.py,map_tss_genes,5
+c:/src/pylint-intervention/data/in_the_wild\versions/basenji/f6bcce204042e2201fca214f5314e2972462a0d0/before/basenji_slash_gene.py,GeneSeq,3
+c:/src/pylint-intervention/data/in_the_wild\versions/basenji/f6bcce204042e2201fca214f5314e2972462a0d0/before/basenji_slash_gene.py,GeneSeq.__init__,3
+c:/src/pylint-intervention/data/in_the_wild\versions/basenji/f6bcce204042e2201fca214f5314e2972462a0d0/before/basenji_slash_gene.py,GeneSeq.gene_names,3
+c:/src/pylint-intervention/data/in_the_wild\versions/basenji/f6bcce204042e2201fca214f5314e2972462a0d0/before/basenji_slash_gene.py,Gene,2
+c:/src/pylint-intervention/data/in_the_wild\versions/basenji/f6bcce204042e2201fca214f5314e2972462a0d0/before/basenji_slash_gene.py,TSS,2
+c:/src/pylint-intervention/data/in_the_wild\versions/basenji/f6bcce204042e2201fca214f5314e2972462a0d0/before/basenji_slash_gene.py,TSS.seq_bin,2
+c:/src/pylint-intervention/data/in_the_wild\versions/basenji/f6bcce204042e2201fca214f5314e2972462a0d0/before/basenji_slash_gene.py,Gene.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/basenji/f6bcce204042e2201fca214f5314e2972462a0d0/before/basenji_slash_gene.py,GeneSeq.append_tss,1
+c:/src/pylint-intervention/data/in_the_wild\versions/basenji/f6bcce204042e2201fca214f5314e2972462a0d0/before/basenji_slash_gene.py,GeneSeq.__str__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/basenji/f6bcce204042e2201fca214f5314e2972462a0d0/before/basenji_slash_gene.py,TSS.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/basenji/f6bcce204042e2201fca214f5314e2972462a0d0/before/basenji_slash_gene.py,TSS.__str__,1

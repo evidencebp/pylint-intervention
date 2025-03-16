@@ -1,1 +1,11 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/gridsync/e98237cf9e59e64668629df0d0da600848d74df6/before/gridsync_slash_monitor.py,Monitor.check_magic_folder_status,18
+c:/src/pylint-intervention/data/in_the_wild\versions/gridsync/e98237cf9e59e64668629df0d0da600848d74df6/before/gridsync_slash_monitor.py,Monitor.check_grid_status,12
+c:/src/pylint-intervention/data/in_the_wild\versions/gridsync/e98237cf9e59e64668629df0d0da600848d74df6/before/gridsync_slash_monitor.py,Monitor.parse_status,10
+c:/src/pylint-intervention/data/in_the_wild\versions/gridsync/e98237cf9e59e64668629df0d0da600848d74df6/before/gridsync_slash_monitor.py,Monitor,7
+c:/src/pylint-intervention/data/in_the_wild\versions/gridsync/e98237cf9e59e64668629df0d0da600848d74df6/before/gridsync_slash_monitor.py,Monitor.add_updated_file,6
+c:/src/pylint-intervention/data/in_the_wild\versions/gridsync/e98237cf9e59e64668629df0d0da600848d74df6/before/gridsync_slash_monitor.py,Monitor.notify_updated_files,3
+c:/src/pylint-intervention/data/in_the_wild\versions/gridsync/e98237cf9e59e64668629df0d0da600848d74df6/before/gridsync_slash_monitor.py,Monitor.scan_rootcap,3
+c:/src/pylint-intervention/data/in_the_wild\versions/gridsync/e98237cf9e59e64668629df0d0da600848d74df6/before/gridsync_slash_monitor.py,Monitor.check_status,2
+c:/src/pylint-intervention/data/in_the_wild\versions/gridsync/e98237cf9e59e64668629df0d0da600848d74df6/before/gridsync_slash_monitor.py,Monitor.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/gridsync/e98237cf9e59e64668629df0d0da600848d74df6/before/gridsync_slash_monitor.py,Monitor.start,1

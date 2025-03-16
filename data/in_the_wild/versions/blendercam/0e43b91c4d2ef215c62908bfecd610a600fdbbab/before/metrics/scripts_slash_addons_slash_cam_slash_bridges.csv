@@ -1,1 +1,5 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/blendercam/0e43b91c4d2ef215c62908bfecd610a600fdbbab/before/scripts_slash_addons_slash_cam_slash_bridges.py,useBridges,20
+c:/src/pylint-intervention/data/in_the_wild\versions/blendercam/0e43b91c4d2ef215c62908bfecd610a600fdbbab/before/scripts_slash_addons_slash_cam_slash_bridges.py,addAutoBridges,8
+c:/src/pylint-intervention/data/in_the_wild\versions/blendercam/0e43b91c4d2ef215c62908bfecd610a600fdbbab/before/scripts_slash_addons_slash_cam_slash_bridges.py,getBridgesPoly,4
+c:/src/pylint-intervention/data/in_the_wild\versions/blendercam/0e43b91c4d2ef215c62908bfecd610a600fdbbab/before/scripts_slash_addons_slash_cam_slash_bridges.py,addBridge,1

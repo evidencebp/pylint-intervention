@@ -1,1 +1,13 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/OpenAtlas/23e60b4c643df5939ca39fe9724e2bc7373068ca/after/openatlas_slash_forms_slash_form.py,add_fields,25
+c:/src/pylint-intervention/data/in_the_wild\versions/OpenAtlas/23e60b4c643df5939ca39fe9724e2bc7373068ca/after/openatlas_slash_forms_slash_form.py,populate_form,15
+c:/src/pylint-intervention/data/in_the_wild\versions/OpenAtlas/23e60b4c643df5939ca39fe9724e2bc7373068ca/after/openatlas_slash_forms_slash_form.py,build_form,14
+c:/src/pylint-intervention/data/in_the_wild\versions/OpenAtlas/23e60b4c643df5939ca39fe9724e2bc7373068ca/after/openatlas_slash_forms_slash_form.py,build_node_form,13
+c:/src/pylint-intervention/data/in_the_wild\versions/OpenAtlas/23e60b4c643df5939ca39fe9724e2bc7373068ca/after/openatlas_slash_forms_slash_form.py,add_buttons,11
+c:/src/pylint-intervention/data/in_the_wild\versions/OpenAtlas/23e60b4c643df5939ca39fe9724e2bc7373068ca/after/openatlas_slash_forms_slash_form.py,build_table_form,8
+c:/src/pylint-intervention/data/in_the_wild\versions/OpenAtlas/23e60b4c643df5939ca39fe9724e2bc7373068ca/after/openatlas_slash_forms_slash_form.py,add_types,7
+c:/src/pylint-intervention/data/in_the_wild\versions/OpenAtlas/23e60b4c643df5939ca39fe9724e2bc7373068ca/after/openatlas_slash_forms_slash_form.py,build_move_form,7
+c:/src/pylint-intervention/data/in_the_wild\versions/OpenAtlas/23e60b4c643df5939ca39fe9724e2bc7373068ca/after/openatlas_slash_forms_slash_form.py,add_external_references,6
+c:/src/pylint-intervention/data/in_the_wild\versions/OpenAtlas/23e60b4c643df5939ca39fe9724e2bc7373068ca/after/openatlas_slash_forms_slash_form.py,customize_labels,2
+c:/src/pylint-intervention/data/in_the_wild\versions/OpenAtlas/23e60b4c643df5939ca39fe9724e2bc7373068ca/after/openatlas_slash_forms_slash_form.py,add_value_type_fields,2
+c:/src/pylint-intervention/data/in_the_wild\versions/OpenAtlas/23e60b4c643df5939ca39fe9724e2bc7373068ca/after/openatlas_slash_forms_slash_form.py,build_add_reference_form,1

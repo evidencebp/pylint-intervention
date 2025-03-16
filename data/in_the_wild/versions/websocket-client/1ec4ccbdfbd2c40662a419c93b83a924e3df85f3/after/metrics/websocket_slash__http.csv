@@ -1,1 +1,13 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/websocket-client/1ec4ccbdfbd2c40662a419c93b83a924e3df85f3/after/websocket_slash__http.py,_ssl_socket,12
+c:/src/pylint-intervention/data/in_the_wild\versions/websocket-client/1ec4ccbdfbd2c40662a419c93b83a924e3df85f3/after/websocket_slash__http.py,connect,11
+c:/src/pylint-intervention/data/in_the_wild\versions/websocket-client/1ec4ccbdfbd2c40662a419c93b83a924e3df85f3/after/websocket_slash__http.py,_open_socket,11
+c:/src/pylint-intervention/data/in_the_wild\versions/websocket-client/1ec4ccbdfbd2c40662a419c93b83a924e3df85f3/after/websocket_slash__http.py,_wrap_sni_socket,10
+c:/src/pylint-intervention/data/in_the_wild\versions/websocket-client/1ec4ccbdfbd2c40662a419c93b83a924e3df85f3/after/websocket_slash__http.py,_open_proxied_socket,9
+c:/src/pylint-intervention/data/in_the_wild\versions/websocket-client/1ec4ccbdfbd2c40662a419c93b83a924e3df85f3/after/websocket_slash__http.py,_tunnel,6
+c:/src/pylint-intervention/data/in_the_wild\versions/websocket-client/1ec4ccbdfbd2c40662a419c93b83a924e3df85f3/after/websocket_slash__http.py,read_headers,6
+c:/src/pylint-intervention/data/in_the_wild\versions/websocket-client/1ec4ccbdfbd2c40662a419c93b83a924e3df85f3/after/websocket_slash__http.py,_get_addrinfo_list,5
+c:/src/pylint-intervention/data/in_the_wild\versions/websocket-client/1ec4ccbdfbd2c40662a419c93b83a924e3df85f3/after/websocket_slash__http.py,proxy_info,5
+c:/src/pylint-intervention/data/in_the_wild\versions/websocket-client/1ec4ccbdfbd2c40662a419c93b83a924e3df85f3/after/websocket_slash__http.py,proxy_info.__init__,4
+c:/src/pylint-intervention/data/in_the_wild\versions/websocket-client/1ec4ccbdfbd2c40662a419c93b83a924e3df85f3/after/websocket_slash__http.py,_can_use_sni,3
+c:/src/pylint-intervention/data/in_the_wild\versions/websocket-client/1ec4ccbdfbd2c40662a419c93b83a924e3df85f3/after/websocket_slash__http.py,ProxyConnectionError,1

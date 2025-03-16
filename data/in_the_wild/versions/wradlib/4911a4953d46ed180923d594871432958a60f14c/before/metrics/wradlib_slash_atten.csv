@@ -1,1 +1,12 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/wradlib/4911a4953d46ed180923d594871432958a60f14c/before/wradlib_slash_atten.py,correct_attenuation_constrained,11
+c:/src/pylint-intervention/data/in_the_wild\versions/wradlib/4911a4953d46ed180923d594871432958a60f14c/before/wradlib_slash_atten.py,correct_attenuation_hb,6
+c:/src/pylint-intervention/data/in_the_wild\versions/wradlib/4911a4953d46ed180923d594871432958a60f14c/before/wradlib_slash_atten.py,bisect_reference_attenuation,5
+c:/src/pylint-intervention/data/in_the_wild\versions/wradlib/4911a4953d46ed180923d594871432958a60f14c/before/wradlib_slash_atten.py,calc_attenuation_forward,2
+c:/src/pylint-intervention/data/in_the_wild\versions/wradlib/4911a4953d46ed180923d594871432958a60f14c/before/wradlib_slash_atten.py,_sector_filter,2
+c:/src/pylint-intervention/data/in_the_wild\versions/wradlib/4911a4953d46ed180923d594871432958a60f14c/before/wradlib_slash_atten.py,_interp_atten,2
+c:/src/pylint-intervention/data/in_the_wild\versions/wradlib/4911a4953d46ed180923d594871432958a60f14c/before/wradlib_slash_atten.py,constraint_dbz,1
+c:/src/pylint-intervention/data/in_the_wild\versions/wradlib/4911a4953d46ed180923d594871432958a60f14c/before/wradlib_slash_atten.py,constraint_pia,1
+c:/src/pylint-intervention/data/in_the_wild\versions/wradlib/4911a4953d46ed180923d594871432958a60f14c/before/wradlib_slash_atten.py,correct_radome_attenuation_empirical,1
+c:/src/pylint-intervention/data/in_the_wild\versions/wradlib/4911a4953d46ed180923d594871432958a60f14c/before/wradlib_slash_atten.py,pia_from_kdp,1
+c:/src/pylint-intervention/data/in_the_wild\versions/wradlib/4911a4953d46ed180923d594871432958a60f14c/before/wradlib_slash_atten.py,AttenuationOverflowError,1

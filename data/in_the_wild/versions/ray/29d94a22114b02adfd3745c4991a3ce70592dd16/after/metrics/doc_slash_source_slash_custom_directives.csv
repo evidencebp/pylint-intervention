@@ -1,1 +1,7 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/ray/29d94a22114b02adfd3745c4991a3ce70592dd16/after/doc_slash_source_slash_custom_directives.py,fix_xgb_lgbm_docs,4
+c:/src/pylint-intervention/data/in_the_wild\versions/ray/29d94a22114b02adfd3745c4991a3ce70592dd16/after/doc_slash_source_slash_custom_directives.py,mock_modules,3
+c:/src/pylint-intervention/data/in_the_wild\versions/ray/29d94a22114b02adfd3745c4991a3ce70592dd16/after/doc_slash_source_slash_custom_directives.py,ChildClassMock,2
+c:/src/pylint-intervention/data/in_the_wild\versions/ray/29d94a22114b02adfd3745c4991a3ce70592dd16/after/doc_slash_source_slash_custom_directives.py,feedback_form_url,1
+c:/src/pylint-intervention/data/in_the_wild\versions/ray/29d94a22114b02adfd3745c4991a3ce70592dd16/after/doc_slash_source_slash_custom_directives.py,update_context,1
+c:/src/pylint-intervention/data/in_the_wild\versions/ray/29d94a22114b02adfd3745c4991a3ce70592dd16/after/doc_slash_source_slash_custom_directives.py,ChildClassMock.__getattr__,1

@@ -1,1 +1,4 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/data-act-broker-backend/de07da851d6395f323a2e393f62db43e7703b8f4/after/dataactcore_slash_utils_slash_fileD2.py,query_data,2
+c:/src/pylint-intervention/data/in_the_wild\versions/data-act-broker-backend/de07da851d6395f323a2e393f62db43e7703b8f4/after/dataactcore_slash_utils_slash_fileD2.py,query_published_fabs_data,1
+c:/src/pylint-intervention/data/in_the_wild\versions/data-act-broker-backend/de07da851d6395f323a2e393f62db43e7703b8f4/after/dataactcore_slash_utils_slash_fileD2.py,initial_query,1

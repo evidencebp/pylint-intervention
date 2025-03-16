@@ -1,1 +1,17 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/edgedb/70b2c35b8c2c6f3a5d44e868930c77a79082d9d9/before/edb_slash_server_slash_main.py,run_server,36
+c:/src/pylint-intervention/data/in_the_wild\versions/edgedb/70b2c35b8c2c6f3a5d44e868930c77a79082d9d9/before/edb_slash_server_slash_main.py,_run_server,10
+c:/src/pylint-intervention/data/in_the_wild\versions/edgedb/70b2c35b8c2c6f3a5d44e868930c77a79082d9d9/before/edb_slash_server_slash_main.py,_ensure_runstate_dir,9
+c:/src/pylint-intervention/data/in_the_wild\versions/edgedb/70b2c35b8c2c6f3a5d44e868930c77a79082d9d9/before/edb_slash_server_slash_main.py,server_main,6
+c:/src/pylint-intervention/data/in_the_wild\versions/edgedb/70b2c35b8c2c6f3a5d44e868930c77a79082d9d9/before/edb_slash_server_slash_main.py,bump_rlimit_nofile,5
+c:/src/pylint-intervention/data/in_the_wild\versions/edgedb/70b2c35b8c2c6f3a5d44e868930c77a79082d9d9/before/edb_slash_server_slash_main.py,main,5
+c:/src/pylint-intervention/data/in_the_wild\versions/edgedb/70b2c35b8c2c6f3a5d44e868930c77a79082d9d9/before/edb_slash_server_slash_main.py,_sd_notify,4
+c:/src/pylint-intervention/data/in_the_wild\versions/edgedb/70b2c35b8c2c6f3a5d44e868930c77a79082d9d9/before/edb_slash_server_slash_main.py,_get_remote_pgcluster,4
+c:/src/pylint-intervention/data/in_the_wild\versions/edgedb/70b2c35b8c2c6f3a5d44e868930c77a79082d9d9/before/edb_slash_server_slash_main.py,_generate_cert,3
+c:/src/pylint-intervention/data/in_the_wild\versions/edgedb/70b2c35b8c2c6f3a5d44e868930c77a79082d9d9/before/edb_slash_server_slash_main.py,_get_local_pgcluster,3
+c:/src/pylint-intervention/data/in_the_wild\versions/edgedb/70b2c35b8c2c6f3a5d44e868930c77a79082d9d9/before/edb_slash_server_slash_main.py,_internal_state_dir,2
+c:/src/pylint-intervention/data/in_the_wild\versions/edgedb/70b2c35b8c2c6f3a5d44e868930c77a79082d9d9/before/edb_slash_server_slash_main.py,abort,1
+c:/src/pylint-intervention/data/in_the_wild\versions/edgedb/70b2c35b8c2c6f3a5d44e868930c77a79082d9d9/before/edb_slash_server_slash_main.py,_init_cluster,1
+c:/src/pylint-intervention/data/in_the_wild\versions/edgedb/70b2c35b8c2c6f3a5d44e868930c77a79082d9d9/before/edb_slash_server_slash_main.py,_init_parsers,1
+c:/src/pylint-intervention/data/in_the_wild\versions/edgedb/70b2c35b8c2c6f3a5d44e868930c77a79082d9d9/before/edb_slash_server_slash_main.py,compiler,1
+c:/src/pylint-intervention/data/in_the_wild\versions/edgedb/70b2c35b8c2c6f3a5d44e868930c77a79082d9d9/before/edb_slash_server_slash_main.py,main_dev,1

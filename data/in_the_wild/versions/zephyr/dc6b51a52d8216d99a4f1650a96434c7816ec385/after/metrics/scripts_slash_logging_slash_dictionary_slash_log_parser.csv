@@ -1,1 +1,4 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/zephyr/dc6b51a52d8216d99a4f1650a96434c7816ec385/after/scripts_slash_logging_slash_dictionary_slash_log_parser.py,read_log_file,9
+c:/src/pylint-intervention/data/in_the_wild\versions/zephyr/dc6b51a52d8216d99a4f1650a96434c7816ec385/after/scripts_slash_logging_slash_dictionary_slash_log_parser.py,main,7
+c:/src/pylint-intervention/data/in_the_wild\versions/zephyr/dc6b51a52d8216d99a4f1650a96434c7816ec385/after/scripts_slash_logging_slash_dictionary_slash_log_parser.py,parse_args,1

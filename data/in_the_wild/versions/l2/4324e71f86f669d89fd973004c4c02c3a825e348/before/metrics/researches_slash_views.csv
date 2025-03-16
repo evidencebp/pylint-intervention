@@ -1,1 +1,5 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/l2/4324e71f86f669d89fd973004c4c02c3a825e348/before/researches_slash_views.py,researches_get_one,28
+c:/src/pylint-intervention/data/in_the_wild\versions/l2/4324e71f86f669d89fd973004c4c02c3a825e348/before/researches_slash_views.py,tubes_control,5
+c:/src/pylint-intervention/data/in_the_wild\versions/l2/4324e71f86f669d89fd973004c4c02c3a825e348/before/researches_slash_views.py,tubes_relation,4
+c:/src/pylint-intervention/data/in_the_wild\versions/l2/4324e71f86f669d89fd973004c4c02c3a825e348/before/researches_slash_views.py,get_all_tubes,2

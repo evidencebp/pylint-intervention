@@ -1,1 +1,8 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/weblate/ffd9a3898666ac3fd544513b6efe4c27e36b8d71/before/weblate_slash_trans_slash_views_slash_edit.py,translate,63
+c:/src/pylint-intervention/data/in_the_wild\versions/weblate/ffd9a3898666ac3fd544513b6efe4c27e36b8d71/before/weblate_slash_trans_slash_views_slash_edit.py,upload_translation,12
+c:/src/pylint-intervention/data/in_the_wild\versions/weblate/ffd9a3898666ac3fd544513b6efe4c27e36b8d71/before/weblate_slash_trans_slash_views_slash_edit.py,auto_translation,11
+c:/src/pylint-intervention/data/in_the_wild\versions/weblate/ffd9a3898666ac3fd544513b6efe4c27e36b8d71/before/weblate_slash_trans_slash_views_slash_edit.py,comment,7
+c:/src/pylint-intervention/data/in_the_wild\versions/weblate/ffd9a3898666ac3fd544513b6efe4c27e36b8d71/before/weblate_slash_trans_slash_views_slash_edit.py,download_translation,4
+c:/src/pylint-intervention/data/in_the_wild\versions/weblate/ffd9a3898666ac3fd544513b6efe4c27e36b8d71/before/weblate_slash_trans_slash_views_slash_edit.py,FixedFileWrapper,2
+c:/src/pylint-intervention/data/in_the_wild\versions/weblate/ffd9a3898666ac3fd544513b6efe4c27e36b8d71/before/weblate_slash_trans_slash_views_slash_edit.py,FixedFileWrapper.__iter__,1

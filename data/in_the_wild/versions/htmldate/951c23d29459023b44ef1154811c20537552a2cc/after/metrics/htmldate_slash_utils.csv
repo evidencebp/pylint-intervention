@@ -1,1 +1,8 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/htmldate/951c23d29459023b44ef1154811c20537552a2cc/after/htmldate_slash_utils.py,load_html,14
+c:/src/pylint-intervention/data/in_the_wild\versions/htmldate/951c23d29459023b44ef1154811c20537552a2cc/after/htmldate_slash_utils.py,fetch_url,10
+c:/src/pylint-intervention/data/in_the_wild\versions/htmldate/951c23d29459023b44ef1154811c20537552a2cc/after/htmldate_slash_utils.py,detect_encoding,8
+c:/src/pylint-intervention/data/in_the_wild\versions/htmldate/951c23d29459023b44ef1154811c20537552a2cc/after/htmldate_slash_utils.py,decode_file,6
+c:/src/pylint-intervention/data/in_the_wild\versions/htmldate/951c23d29459023b44ef1154811c20537552a2cc/after/htmldate_slash_utils.py,is_dubious_html,5
+c:/src/pylint-intervention/data/in_the_wild\versions/htmldate/951c23d29459023b44ef1154811c20537552a2cc/after/htmldate_slash_utils.py,isutf8,3
+c:/src/pylint-intervention/data/in_the_wild\versions/htmldate/951c23d29459023b44ef1154811c20537552a2cc/after/htmldate_slash_utils.py,decode_response,3

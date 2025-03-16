@@ -1,1 +1,15 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/python-sdk/939ed7f599bbfed12104607931be2f79cd6dadf9/before/qiniu_slash_region.py,Region.get_bucket_hosts,8
+c:/src/pylint-intervention/data/in_the_wild\versions/python-sdk/939ed7f599bbfed12104607931be2f79cd6dadf9/before/qiniu_slash_region.py,Region.get_bucket_hosts_to_cache,5
+c:/src/pylint-intervention/data/in_the_wild\versions/python-sdk/939ed7f599bbfed12104607931be2f79cd6dadf9/before/qiniu_slash_region.py,Region.host_cache_from_file,4
+c:/src/pylint-intervention/data/in_the_wild\versions/python-sdk/939ed7f599bbfed12104607931be2f79cd6dadf9/before/qiniu_slash_region.py,Region,3
+c:/src/pylint-intervention/data/in_the_wild\versions/python-sdk/939ed7f599bbfed12104607931be2f79cd6dadf9/before/qiniu_slash_region.py,Region.get_up_host_backup_by_token,3
+c:/src/pylint-intervention/data/in_the_wild\versions/python-sdk/939ed7f599bbfed12104607931be2f79cd6dadf9/before/qiniu_slash_region.py,Region.get_io_host,3
+c:/src/pylint-intervention/data/in_the_wild\versions/python-sdk/939ed7f599bbfed12104607931be2f79cd6dadf9/before/qiniu_slash_region.py,Region.unmarshal_up_token,3
+c:/src/pylint-intervention/data/in_the_wild\versions/python-sdk/939ed7f599bbfed12104607931be2f79cd6dadf9/before/qiniu_slash_region.py,Region.get_up_host_by_token,2
+c:/src/pylint-intervention/data/in_the_wild\versions/python-sdk/939ed7f599bbfed12104607931be2f79cd6dadf9/before/qiniu_slash_region.py,Region.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/python-sdk/939ed7f599bbfed12104607931be2f79cd6dadf9/before/qiniu_slash_region.py,Region.get_up_host,1
+c:/src/pylint-intervention/data/in_the_wild\versions/python-sdk/939ed7f599bbfed12104607931be2f79cd6dadf9/before/qiniu_slash_region.py,Region.set_bucket_hosts_to_cache,1
+c:/src/pylint-intervention/data/in_the_wild\versions/python-sdk/939ed7f599bbfed12104607931be2f79cd6dadf9/before/qiniu_slash_region.py,Region.host_cache_file_path,1
+c:/src/pylint-intervention/data/in_the_wild\versions/python-sdk/939ed7f599bbfed12104607931be2f79cd6dadf9/before/qiniu_slash_region.py,Region.host_cache_to_file,1
+c:/src/pylint-intervention/data/in_the_wild\versions/python-sdk/939ed7f599bbfed12104607931be2f79cd6dadf9/before/qiniu_slash_region.py,Region.bucket_hosts,1

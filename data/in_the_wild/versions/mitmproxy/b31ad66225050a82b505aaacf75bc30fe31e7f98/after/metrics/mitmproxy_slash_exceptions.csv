@@ -1,1 +1,10 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/b31ad66225050a82b505aaacf75bc30fe31e7f98/after/mitmproxy_slash_exceptions.py,MitmproxyException,2
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/b31ad66225050a82b505aaacf75bc30fe31e7f98/after/mitmproxy_slash_exceptions.py,MitmproxyException.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/b31ad66225050a82b505aaacf75bc30fe31e7f98/after/mitmproxy_slash_exceptions.py,FlowReadException,1
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/b31ad66225050a82b505aaacf75bc30fe31e7f98/after/mitmproxy_slash_exceptions.py,ControlException,1
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/b31ad66225050a82b505aaacf75bc30fe31e7f98/after/mitmproxy_slash_exceptions.py,CommandError,1
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/b31ad66225050a82b505aaacf75bc30fe31e7f98/after/mitmproxy_slash_exceptions.py,OptionsError,1
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/b31ad66225050a82b505aaacf75bc30fe31e7f98/after/mitmproxy_slash_exceptions.py,AddonManagerError,1
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/b31ad66225050a82b505aaacf75bc30fe31e7f98/after/mitmproxy_slash_exceptions.py,AddonHalt,1
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/b31ad66225050a82b505aaacf75bc30fe31e7f98/after/mitmproxy_slash_exceptions.py,TypeError,1

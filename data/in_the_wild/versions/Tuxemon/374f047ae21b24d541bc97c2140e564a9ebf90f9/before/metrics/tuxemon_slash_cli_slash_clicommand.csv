@@ -1,1 +1,7 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/Tuxemon/374f047ae21b24d541bc97c2140e564a9ebf90f9/before/tuxemon_slash_cli_slash_clicommand.py,CLICommand,3
+c:/src/pylint-intervention/data/in_the_wild\versions/Tuxemon/374f047ae21b24d541bc97c2140e564a9ebf90f9/before/tuxemon_slash_cli_slash_clicommand.py,CLICommand.get_subcommand,3
+c:/src/pylint-intervention/data/in_the_wild\versions/Tuxemon/374f047ae21b24d541bc97c2140e564a9ebf90f9/before/tuxemon_slash_cli_slash_clicommand.py,CLICommand.resolve,3
+c:/src/pylint-intervention/data/in_the_wild\versions/Tuxemon/374f047ae21b24d541bc97c2140e564a9ebf90f9/before/tuxemon_slash_cli_slash_clicommand.py,CLICommand.get_parameters,2
+c:/src/pylint-intervention/data/in_the_wild\versions/Tuxemon/374f047ae21b24d541bc97c2140e564a9ebf90f9/before/tuxemon_slash_cli_slash_clicommand.py,CLICommand.invoke,1
+c:/src/pylint-intervention/data/in_the_wild\versions/Tuxemon/374f047ae21b24d541bc97c2140e564a9ebf90f9/before/tuxemon_slash_cli_slash_clicommand.py,CLICommand.get_subcommands,1

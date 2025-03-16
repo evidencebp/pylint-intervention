@@ -1,1 +1,9 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/electricitymap/1143a37ff1509627297744a8e74aff2793b22246/after/parsers_slash_ajenti.py,parse_payload,7
+c:/src/pylint-intervention/data/in_the_wild\versions/electricitymap/1143a37ff1509627297744a8e74aff2793b22246/after/parsers_slash_ajenti.py,format_storage_techs,5
+c:/src/pylint-intervention/data/in_the_wild\versions/electricitymap/1143a37ff1509627297744a8e74aff2793b22246/after/parsers_slash_ajenti.py,fetch_production,5
+c:/src/pylint-intervention/data/in_the_wild\versions/electricitymap/1143a37ff1509627297744a8e74aff2793b22246/after/parsers_slash_ajenti.py,SignalR,2
+c:/src/pylint-intervention/data/in_the_wild\versions/electricitymap/1143a37ff1509627297744a8e74aff2793b22246/after/parsers_slash_ajenti.py,SignalR.update_res,2
+c:/src/pylint-intervention/data/in_the_wild\versions/electricitymap/1143a37ff1509627297744a8e74aff2793b22246/after/parsers_slash_ajenti.py,sum_storage_techs,1
+c:/src/pylint-intervention/data/in_the_wild\versions/electricitymap/1143a37ff1509627297744a8e74aff2793b22246/after/parsers_slash_ajenti.py,SignalR.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/electricitymap/1143a37ff1509627297744a8e74aff2793b22246/after/parsers_slash_ajenti.py,SignalR.get_value,1

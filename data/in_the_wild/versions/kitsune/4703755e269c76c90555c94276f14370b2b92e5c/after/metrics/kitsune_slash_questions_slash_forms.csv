@@ -1,1 +1,13 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/kitsune/4703755e269c76c90555c94276f14370b2b92e5c/after/kitsune_slash_questions_slash_forms.py,EditQuestionForm.__init__,12
+c:/src/pylint-intervention/data/in_the_wild\versions/kitsune/4703755e269c76c90555c94276f14370b2b92e5c/after/kitsune_slash_questions_slash_forms.py,EditQuestionForm.cleaned_metadata,12
+c:/src/pylint-intervention/data/in_the_wild\versions/kitsune/4703755e269c76c90555c94276f14370b2b92e5c/after/kitsune_slash_questions_slash_forms.py,EditQuestionForm,9
+c:/src/pylint-intervention/data/in_the_wild\versions/kitsune/4703755e269c76c90555c94276f14370b2b92e5c/after/kitsune_slash_questions_slash_forms.py,NewQuestionForm,5
+c:/src/pylint-intervention/data/in_the_wild\versions/kitsune/4703755e269c76c90555c94276f14370b2b92e5c/after/kitsune_slash_questions_slash_forms.py,NewQuestionForm.save,5
+c:/src/pylint-intervention/data/in_the_wild\versions/kitsune/4703755e269c76c90555c94276f14370b2b92e5c/after/kitsune_slash_questions_slash_forms.py,AnswerForm,5
+c:/src/pylint-intervention/data/in_the_wild\versions/kitsune/4703755e269c76c90555c94276f14370b2b92e5c/after/kitsune_slash_questions_slash_forms.py,AnswerForm.clean,4
+c:/src/pylint-intervention/data/in_the_wild\versions/kitsune/4703755e269c76c90555c94276f14370b2b92e5c/after/kitsune_slash_questions_slash_forms.py,WatchQuestionForm,4
+c:/src/pylint-intervention/data/in_the_wild\versions/kitsune/4703755e269c76c90555c94276f14370b2b92e5c/after/kitsune_slash_questions_slash_forms.py,WatchQuestionForm.clean_email,4
+c:/src/pylint-intervention/data/in_the_wild\versions/kitsune/4703755e269c76c90555c94276f14370b2b92e5c/after/kitsune_slash_questions_slash_forms.py,NewQuestionForm.__init__,3
+c:/src/pylint-intervention/data/in_the_wild\versions/kitsune/4703755e269c76c90555c94276f14370b2b92e5c/after/kitsune_slash_questions_slash_forms.py,EditQuestionForm.metadata_field_keys,1
+c:/src/pylint-intervention/data/in_the_wild\versions/kitsune/4703755e269c76c90555c94276f14370b2b92e5c/after/kitsune_slash_questions_slash_forms.py,WatchQuestionForm.__init__,1

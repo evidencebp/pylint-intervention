@@ -1,1 +1,16 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/internetarchive/05f4378c977247c264ffab6fe213511717d83053/before/internetarchive_slash_item.py,Item.download,19
+c:/src/pylint-intervention/data/in_the_wild\versions/internetarchive/05f4378c977247c264ffab6fe213511717d83053/before/internetarchive_slash_item.py,Item.upload_file,12
+c:/src/pylint-intervention/data/in_the_wild\versions/internetarchive/05f4378c977247c264ffab6fe213511717d83053/before/internetarchive_slash_item.py,File.download,10
+c:/src/pylint-intervention/data/in_the_wild\versions/internetarchive/05f4378c977247c264ffab6fe213511717d83053/before/internetarchive_slash_item.py,Item,7
+c:/src/pylint-intervention/data/in_the_wild\versions/internetarchive/05f4378c977247c264ffab6fe213511717d83053/before/internetarchive_slash_item.py,Item.upload,6
+c:/src/pylint-intervention/data/in_the_wild\versions/internetarchive/05f4378c977247c264ffab6fe213511717d83053/before/internetarchive_slash_item.py,Item.modify_metadata,5
+c:/src/pylint-intervention/data/in_the_wild\versions/internetarchive/05f4378c977247c264ffab6fe213511717d83053/before/internetarchive_slash_item.py,File,5
+c:/src/pylint-intervention/data/in_the_wild\versions/internetarchive/05f4378c977247c264ffab6fe213511717d83053/before/internetarchive_slash_item.py,Item.get_metadata,4
+c:/src/pylint-intervention/data/in_the_wild\versions/internetarchive/05f4378c977247c264ffab6fe213511717d83053/before/internetarchive_slash_item.py,Item.__init__,3
+c:/src/pylint-intervention/data/in_the_wild\versions/internetarchive/05f4378c977247c264ffab6fe213511717d83053/before/internetarchive_slash_item.py,Item.file,3
+c:/src/pylint-intervention/data/in_the_wild\versions/internetarchive/05f4378c977247c264ffab6fe213511717d83053/before/internetarchive_slash_item.py,File.delete,3
+c:/src/pylint-intervention/data/in_the_wild\versions/internetarchive/05f4378c977247c264ffab6fe213511717d83053/before/internetarchive_slash_item.py,Item.files,2
+c:/src/pylint-intervention/data/in_the_wild\versions/internetarchive/05f4378c977247c264ffab6fe213511717d83053/before/internetarchive_slash_item.py,File.__init__,2
+c:/src/pylint-intervention/data/in_the_wild\versions/internetarchive/05f4378c977247c264ffab6fe213511717d83053/before/internetarchive_slash_item.py,Item.__repr__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/internetarchive/05f4378c977247c264ffab6fe213511717d83053/before/internetarchive_slash_item.py,File.__repr__,1

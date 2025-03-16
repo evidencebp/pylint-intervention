@@ -1,1 +1,7 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/pycbc/2ea2926067be24ae4fca20726a8c8ac8531a4d5e/before/pycbc_slash_mchirp_area.py,calc_areas,23
+c:/src/pylint-intervention/data/in_the_wild\versions/pycbc/2ea2926067be24ae4fca20726a8c8ac8531a4d5e/before/pycbc_slash_mchirp_area.py,calc_probabilities,4
+c:/src/pylint-intervention/data/in_the_wild\versions/pycbc/2ea2926067be24ae4fca20726a8c8ac8531a4d5e/before/pycbc_slash_mchirp_area.py,insert_args,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pycbc/2ea2926067be24ae4fca20726a8c8ac8531a4d5e/before/pycbc_slash_mchirp_area.py,from_cli,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pycbc/2ea2926067be24ae4fca20726a8c8ac8531a4d5e/before/pycbc_slash_mchirp_area.py,src_mass_from_z_det_mass,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pycbc/2ea2926067be24ae4fca20726a8c8ac8531a4d5e/before/pycbc_slash_mchirp_area.py,intmc,1

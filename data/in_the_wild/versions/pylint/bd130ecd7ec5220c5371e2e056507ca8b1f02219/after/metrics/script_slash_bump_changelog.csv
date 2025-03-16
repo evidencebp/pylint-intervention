@@ -1,1 +1,5 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/pylint/bd130ecd7ec5220c5371e2e056507ca8b1f02219/after/script_slash_bump_changelog.py,main,3
+c:/src/pylint-intervention/data/in_the_wild\versions/pylint/bd130ecd7ec5220c5371e2e056507ca8b1f02219/after/script_slash_bump_changelog.py,create_new_newsfile_if_necessary,3
+c:/src/pylint-intervention/data/in_the_wild\versions/pylint/bd130ecd7ec5220c5371e2e056507ca8b1f02219/after/script_slash_bump_changelog.py,build_changelog,3
+c:/src/pylint-intervention/data/in_the_wild\versions/pylint/bd130ecd7ec5220c5371e2e056507ca8b1f02219/after/script_slash_bump_changelog.py,patch_towncrier_toml,2

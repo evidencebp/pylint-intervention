@@ -1,1 +1,5 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/osmnx/2bad443e7476b8878a5cb80118dc0b41150e11cc/after/osmnx_slash_elevation.py,add_node_elevations_raster,11
+c:/src/pylint-intervention/data/in_the_wild\versions/osmnx/2bad443e7476b8878a5cb80118dc0b41150e11cc/after/osmnx_slash_elevation.py,add_node_elevations_google,7
+c:/src/pylint-intervention/data/in_the_wild\versions/osmnx/2bad443e7476b8878a5cb80118dc0b41150e11cc/after/osmnx_slash_elevation.py,add_edge_grades,3
+c:/src/pylint-intervention/data/in_the_wild\versions/osmnx/2bad443e7476b8878a5cb80118dc0b41150e11cc/after/osmnx_slash_elevation.py,_query_raster,1

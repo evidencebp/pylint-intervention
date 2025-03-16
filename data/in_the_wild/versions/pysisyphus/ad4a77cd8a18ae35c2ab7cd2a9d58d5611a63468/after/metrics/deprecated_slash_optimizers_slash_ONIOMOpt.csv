@@ -1,1 +1,5 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/pysisyphus/ad4a77cd8a18ae35c2ab7cd2a9d58d5611a63468/after/deprecated_slash_optimizers_slash_ONIOMOpt.py,ONIOMOpt,5
+c:/src/pylint-intervention/data/in_the_wild\versions/pysisyphus/ad4a77cd8a18ae35c2ab7cd2a9d58d5611a63468/after/deprecated_slash_optimizers_slash_ONIOMOpt.py,ONIOMOpt.__init__,5
+c:/src/pylint-intervention/data/in_the_wild\versions/pysisyphus/ad4a77cd8a18ae35c2ab7cd2a9d58d5611a63468/after/deprecated_slash_optimizers_slash_ONIOMOpt.py,ONIOMOpt.optimize,5
+c:/src/pylint-intervention/data/in_the_wild\versions/pysisyphus/ad4a77cd8a18ae35c2ab7cd2a9d58d5611a63468/after/deprecated_slash_optimizers_slash_ONIOMOpt.py,ONIOMOpt.postprocess_opt,1

@@ -1,1 +1,6 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/ray/56bab61fba44ec051befaca705fdca9ece70b745/after/python_slash_ray_slash_remote_function.py,RemoteFunction._remote,16
+c:/src/pylint-intervention/data/in_the_wild\versions/ray/56bab61fba44ec051befaca705fdca9ece70b745/after/python_slash_ray_slash_remote_function.py,RemoteFunction.__init__,9
+c:/src/pylint-intervention/data/in_the_wild\versions/ray/56bab61fba44ec051befaca705fdca9ece70b745/after/python_slash_ray_slash_remote_function.py,RemoteFunction,8
+c:/src/pylint-intervention/data/in_the_wild\versions/ray/56bab61fba44ec051befaca705fdca9ece70b745/after/python_slash_ray_slash_remote_function.py,RemoteFunction.options,2
+c:/src/pylint-intervention/data/in_the_wild\versions/ray/56bab61fba44ec051befaca705fdca9ece70b745/after/python_slash_ray_slash_remote_function.py,RemoteFunction.__call__,1

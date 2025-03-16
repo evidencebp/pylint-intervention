@@ -1,1 +1,4 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/etiquette/85055cdea257c2a711a7dbfbf7c857268901bd6d/before/frontends_slash_etiquette_flask_slash_etiquette_flask_dev.py,etiquette_flask_launch,7
+c:/src/pylint-intervention/data/in_the_wild\versions/etiquette/85055cdea257c2a711a7dbfbf7c857268901bd6d/before/frontends_slash_etiquette_flask_slash_etiquette_flask_dev.py,etiquette_flask_launch_argparse,1
+c:/src/pylint-intervention/data/in_the_wild\versions/etiquette/85055cdea257c2a711a7dbfbf7c857268901bd6d/before/frontends_slash_etiquette_flask_slash_etiquette_flask_dev.py,main,1

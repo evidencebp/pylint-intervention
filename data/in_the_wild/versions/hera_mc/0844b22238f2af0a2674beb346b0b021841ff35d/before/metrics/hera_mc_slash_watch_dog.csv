@@ -1,1 +1,5 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/hera_mc/0844b22238f2af0a2674beb346b0b021841ff35d/before/hera_mc_slash_watch_dog.py,node_verdict,18
+c:/src/pylint-intervention/data/in_the_wild\versions/hera_mc/0844b22238f2af0a2674beb346b0b021841ff35d/before/hera_mc_slash_watch_dog.py,node_temperature,14
+c:/src/pylint-intervention/data/in_the_wild\versions/hera_mc/0844b22238f2af0a2674beb346b0b021841ff35d/before/hera_mc_slash_watch_dog.py,send_email,3
+c:/src/pylint-intervention/data/in_the_wild\versions/hera_mc/0844b22238f2af0a2674beb346b0b021841ff35d/before/hera_mc_slash_watch_dog.py,read_forward_list,2

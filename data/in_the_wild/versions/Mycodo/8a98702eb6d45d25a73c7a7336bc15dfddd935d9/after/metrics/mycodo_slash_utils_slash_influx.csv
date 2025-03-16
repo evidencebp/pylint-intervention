@@ -1,1 +1,16 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/Mycodo/8a98702eb6d45d25a73c7a7336bc15dfddd935d9/after/mycodo_slash_utils_slash_influx.py,output_sec_on,11
+c:/src/pylint-intervention/data/in_the_wild\versions/Mycodo/8a98702eb6d45d25a73c7a7336bc15dfddd935d9/after/mycodo_slash_utils_slash_influx.py,read_influxdb_single,10
+c:/src/pylint-intervention/data/in_the_wild\versions/Mycodo/8a98702eb6d45d25a73c7a7336bc15dfddd935d9/after/mycodo_slash_utils_slash_influx.py,read_influxdb_list,8
+c:/src/pylint-intervention/data/in_the_wild\versions/Mycodo/8a98702eb6d45d25a73c7a7336bc15dfddd935d9/after/mycodo_slash_utils_slash_influx.py,average_past_seconds,7
+c:/src/pylint-intervention/data/in_the_wild\versions/Mycodo/8a98702eb6d45d25a73c7a7336bc15dfddd935d9/after/mycodo_slash_utils_slash_influx.py,average_start_end_seconds,7
+c:/src/pylint-intervention/data/in_the_wild\versions/Mycodo/8a98702eb6d45d25a73c7a7336bc15dfddd935d9/after/mycodo_slash_utils_slash_influx.py,sum_past_seconds,7
+c:/src/pylint-intervention/data/in_the_wild\versions/Mycodo/8a98702eb6d45d25a73c7a7336bc15dfddd935d9/after/mycodo_slash_utils_slash_influx.py,add_measurements_influxdb,4
+c:/src/pylint-intervention/data/in_the_wild\versions/Mycodo/8a98702eb6d45d25a73c7a7336bc15dfddd935d9/after/mycodo_slash_utils_slash_influx.py,write_influxdb_value,4
+c:/src/pylint-intervention/data/in_the_wild\versions/Mycodo/8a98702eb6d45d25a73c7a7336bc15dfddd935d9/after/mycodo_slash_utils_slash_influx.py,query_string,4
+c:/src/pylint-intervention/data/in_the_wild\versions/Mycodo/8a98702eb6d45d25a73c7a7336bc15dfddd935d9/after/mycodo_slash_utils_slash_influx.py,influx_time_str_to_milliseconds,3
+c:/src/pylint-intervention/data/in_the_wild\versions/Mycodo/8a98702eb6d45d25a73c7a7336bc15dfddd935d9/after/mycodo_slash_utils_slash_influx.py,get_last_measurement,2
+c:/src/pylint-intervention/data/in_the_wild\versions/Mycodo/8a98702eb6d45d25a73c7a7336bc15dfddd935d9/after/mycodo_slash_utils_slash_influx.py,get_past_measurements,2
+c:/src/pylint-intervention/data/in_the_wild\versions/Mycodo/8a98702eb6d45d25a73c7a7336bc15dfddd935d9/after/mycodo_slash_utils_slash_influx.py,valid_date_str,2
+c:/src/pylint-intervention/data/in_the_wild\versions/Mycodo/8a98702eb6d45d25a73c7a7336bc15dfddd935d9/after/mycodo_slash_utils_slash_influx.py,read_last_influxdb,1
+c:/src/pylint-intervention/data/in_the_wild\versions/Mycodo/8a98702eb6d45d25a73c7a7336bc15dfddd935d9/after/mycodo_slash_utils_slash_influx.py,read_past_influxdb,1

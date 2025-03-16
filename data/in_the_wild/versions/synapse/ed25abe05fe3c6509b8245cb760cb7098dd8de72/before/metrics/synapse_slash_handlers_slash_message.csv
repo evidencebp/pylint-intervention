@@ -1,1 +1,11 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/synapse/ed25abe05fe3c6509b8245cb760cb7098dd8de72/before/synapse_slash_handlers_slash_message.py,MessageHandler.get_room_data,11
+c:/src/pylint-intervention/data/in_the_wild\versions/synapse/ed25abe05fe3c6509b8245cb760cb7098dd8de72/before/synapse_slash_handlers_slash_message.py,MessageHandler.snapshot_all_rooms,8
+c:/src/pylint-intervention/data/in_the_wild\versions/synapse/ed25abe05fe3c6509b8245cb760cb7098dd8de72/before/synapse_slash_handlers_slash_message.py,MessageHandler,4
+c:/src/pylint-intervention/data/in_the_wild\versions/synapse/ed25abe05fe3c6509b8245cb760cb7098dd8de72/before/synapse_slash_handlers_slash_message.py,MessageHandler.send_message,4
+c:/src/pylint-intervention/data/in_the_wild\versions/synapse/ed25abe05fe3c6509b8245cb760cb7098dd8de72/before/synapse_slash_handlers_slash_message.py,MessageHandler.get_messages,3
+c:/src/pylint-intervention/data/in_the_wild\versions/synapse/ed25abe05fe3c6509b8245cb760cb7098dd8de72/before/synapse_slash_handlers_slash_message.py,MessageHandler.store_room_data,2
+c:/src/pylint-intervention/data/in_the_wild\versions/synapse/ed25abe05fe3c6509b8245cb760cb7098dd8de72/before/synapse_slash_handlers_slash_message.py,MessageHandler.get_feedback,2
+c:/src/pylint-intervention/data/in_the_wild\versions/synapse/ed25abe05fe3c6509b8245cb760cb7098dd8de72/before/synapse_slash_handlers_slash_message.py,MessageHandler.send_feedback,2
+c:/src/pylint-intervention/data/in_the_wild\versions/synapse/ed25abe05fe3c6509b8245cb760cb7098dd8de72/before/synapse_slash_handlers_slash_message.py,MessageHandler.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/synapse/ed25abe05fe3c6509b8245cb760cb7098dd8de72/before/synapse_slash_handlers_slash_message.py,MessageHandler.get_message,1

@@ -1,1 +1,13 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/castle.cms/2c5a7417ceb7b87162c0146563b3dc39378ba883/before/castle_slash_cms_slash_cron_slash__crawler.py,Crawler.crawl_page,14
+c:/src/pylint-intervention/data/in_the_wild\versions/castle.cms/2c5a7417ceb7b87162c0146563b3dc39378ba883/before/castle_slash_cms_slash_cron_slash__crawler.py,Crawler.crawl_site_map,14
+c:/src/pylint-intervention/data/in_the_wild\versions/castle.cms/2c5a7417ceb7b87162c0146563b3dc39378ba883/before/castle_slash_cms_slash_cron_slash__crawler.py,crawl_site,9
+c:/src/pylint-intervention/data/in_the_wild\versions/castle.cms/2c5a7417ceb7b87162c0146563b3dc39378ba883/before/castle_slash_cms_slash_cron_slash__crawler.py,run,8
+c:/src/pylint-intervention/data/in_the_wild\versions/castle.cms/2c5a7417ceb7b87162c0146563b3dc39378ba883/before/castle_slash_cms_slash_cron_slash__crawler.py,Crawler,6
+c:/src/pylint-intervention/data/in_the_wild\versions/castle.cms/2c5a7417ceb7b87162c0146563b3dc39378ba883/before/castle_slash_cms_slash_cron_slash__crawler.py,Crawler.crawl_archives,6
+c:/src/pylint-intervention/data/in_the_wild\versions/castle.cms/2c5a7417ceb7b87162c0146563b3dc39378ba883/before/castle_slash_cms_slash_cron_slash__crawler.py,Crawler.get_all_from_es,5
+c:/src/pylint-intervention/data/in_the_wild\versions/castle.cms/2c5a7417ceb7b87162c0146563b3dc39378ba883/before/castle_slash_cms_slash_cron_slash__crawler.py,Crawler.crawl_archive_url,3
+c:/src/pylint-intervention/data/in_the_wild\versions/castle.cms/2c5a7417ceb7b87162c0146563b3dc39378ba883/before/castle_slash_cms_slash_cron_slash__crawler.py,Crawler.__init__,2
+c:/src/pylint-intervention/data/in_the_wild\versions/castle.cms/2c5a7417ceb7b87162c0146563b3dc39378ba883/before/castle_slash_cms_slash_cron_slash__crawler.py,Crawler.exists_in_index,2
+c:/src/pylint-intervention/data/in_the_wild\versions/castle.cms/2c5a7417ceb7b87162c0146563b3dc39378ba883/before/castle_slash_cms_slash_cron_slash__crawler.py,Crawler.clean_removed_pages,2
+c:/src/pylint-intervention/data/in_the_wild\versions/castle.cms/2c5a7417ceb7b87162c0146563b3dc39378ba883/before/castle_slash_cms_slash_cron_slash__crawler.py,Crawler.delete_from_index,1

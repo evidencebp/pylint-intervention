@@ -1,1 +1,4 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/turbinia/4fcab02e8109896841f160678d7db552ad9dab4f/before/turbinia_slash_workers_slash_partitions.py,PartitionEnumerationTask._ProcessPartition,14
+c:/src/pylint-intervention/data/in_the_wild\versions/turbinia/4fcab02e8109896841f160678d7db552ad9dab4f/before/turbinia_slash_workers_slash_partitions.py,PartitionEnumerationTask,11
+c:/src/pylint-intervention/data/in_the_wild\versions/turbinia/4fcab02e8109896841f160678d7db552ad9dab4f/before/turbinia_slash_workers_slash_partitions.py,PartitionEnumerationTask.run,6

@@ -1,1 +1,4 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/skia/8ae4efb2b58c5772dc7ff4c916e3e02ec1f71fc0/before/infra_slash_bots_slash_recipe_modules_slash_gsutil_slash_api.py,GSUtilApi.cp,7
+c:/src/pylint-intervention/data/in_the_wild\versions/skia/8ae4efb2b58c5772dc7ff4c916e3e02ec1f71fc0/before/infra_slash_bots_slash_recipe_modules_slash_gsutil_slash_api.py,GSUtilApi,6
+c:/src/pylint-intervention/data/in_the_wild\versions/skia/8ae4efb2b58c5772dc7ff4c916e3e02ec1f71fc0/before/infra_slash_bots_slash_recipe_modules_slash_gsutil_slash_api.py,GSUtilApi.__call__,2

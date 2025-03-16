@@ -1,1 +1,15 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/Erasmus/6a20018f3542007266227ce40d1a16cd4c984d7e/before/erasmus_slash_cogs_slash_confession.py,Confession.show_item,11
+c:/src/pylint-intervention/data/in_the_wild\versions/Erasmus/6a20018f3542007266227ce40d1a16cd4c984d7e/before/erasmus_slash_cogs_slash_confession.py,Confession.cog_command_error,7
+c:/src/pylint-intervention/data/in_the_wild\versions/Erasmus/6a20018f3542007266227ce40d1a16cd4c984d7e/before/erasmus_slash_cogs_slash_confession.py,Confession,5
+c:/src/pylint-intervention/data/in_the_wild\versions/Erasmus/6a20018f3542007266227ce40d1a16cd4c984d7e/before/erasmus_slash_cogs_slash_confession.py,Confession.list_sections,5
+c:/src/pylint-intervention/data/in_the_wild\versions/Erasmus/6a20018f3542007266227ce40d1a16cd4c984d7e/before/erasmus_slash_cogs_slash_confession.py,ConfessionSearchSource,4
+c:/src/pylint-intervention/data/in_the_wild\versions/Erasmus/6a20018f3542007266227ce40d1a16cd4c984d7e/before/erasmus_slash_cogs_slash_confession.py,ConfessionSearchSource.__init__,4
+c:/src/pylint-intervention/data/in_the_wild\versions/Erasmus/6a20018f3542007266227ce40d1a16cd4c984d7e/before/erasmus_slash_cogs_slash_confession.py,Confession.confess,4
+c:/src/pylint-intervention/data/in_the_wild\versions/Erasmus/6a20018f3542007266227ce40d1a16cd4c984d7e/before/erasmus_slash_cogs_slash_confession.py,Confession.list_contents,4
+c:/src/pylint-intervention/data/in_the_wild\versions/Erasmus/6a20018f3542007266227ce40d1a16cd4c984d7e/before/erasmus_slash_cogs_slash_confession.py,Confession.search,4
+c:/src/pylint-intervention/data/in_the_wild\versions/Erasmus/6a20018f3542007266227ce40d1a16cd4c984d7e/before/erasmus_slash_cogs_slash_confession.py,Confession.list,3
+c:/src/pylint-intervention/data/in_the_wild\versions/Erasmus/6a20018f3542007266227ce40d1a16cd4c984d7e/before/erasmus_slash_cogs_slash_confession.py,ConfessionSearchSource.set_page_text,2
+c:/src/pylint-intervention/data/in_the_wild\versions/Erasmus/6a20018f3542007266227ce40d1a16cd4c984d7e/before/erasmus_slash_cogs_slash_confession.py,setup,1
+c:/src/pylint-intervention/data/in_the_wild\versions/Erasmus/6a20018f3542007266227ce40d1a16cd4c984d7e/before/erasmus_slash_cogs_slash_confession.py,Confession.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/Erasmus/6a20018f3542007266227ce40d1a16cd4c984d7e/before/erasmus_slash_cogs_slash_confession.py,Confession.list_questions,1

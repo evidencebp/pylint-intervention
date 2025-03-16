@@ -1,1 +1,8 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/eDisGo/4ecfc9613b199b12773d339f396ca64c5c80b0b0/before/edisgo_slash_tools_slash_geo.py,find_nearest_conn_objects,8
+c:/src/pylint-intervention/data/in_the_wild\versions/eDisGo/4ecfc9613b199b12773d339f396ca64c5c80b0b0/before/edisgo_slash_tools_slash_geo.py,calc_geo_lines_in_buffer,4
+c:/src/pylint-intervention/data/in_the_wild\versions/eDisGo/4ecfc9613b199b12773d339f396ca64c5c80b0b0/before/edisgo_slash_tools_slash_geo.py,calc_geo_dist_vincenty,2
+c:/src/pylint-intervention/data/in_the_wild\versions/eDisGo/4ecfc9613b199b12773d339f396ca64c5c80b0b0/before/edisgo_slash_tools_slash_geo.py,find_nearest_bus,2
+c:/src/pylint-intervention/data/in_the_wild\versions/eDisGo/4ecfc9613b199b12773d339f396ca64c5c80b0b0/before/edisgo_slash_tools_slash_geo.py,proj2equidistant,1
+c:/src/pylint-intervention/data/in_the_wild\versions/eDisGo/4ecfc9613b199b12773d339f396ca64c5c80b0b0/before/edisgo_slash_tools_slash_geo.py,proj2equidistant_reverse,1
+c:/src/pylint-intervention/data/in_the_wild\versions/eDisGo/4ecfc9613b199b12773d339f396ca64c5c80b0b0/before/edisgo_slash_tools_slash_geo.py,proj_by_srids,1

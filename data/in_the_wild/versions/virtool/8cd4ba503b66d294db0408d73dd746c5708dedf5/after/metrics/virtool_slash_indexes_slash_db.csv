@@ -1,1 +1,15 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/virtool/8cd4ba503b66d294db0408d73dd746c5708dedf5/after/virtool_slash_indexes_slash_db.py,find,3
+c:/src/pylint-intervention/data/in_the_wild\versions/virtool/8cd4ba503b66d294db0408d73dd746c5708dedf5/after/virtool_slash_indexes_slash_db.py,get_patched_otus,3
+c:/src/pylint-intervention/data/in_the_wild\versions/virtool/8cd4ba503b66d294db0408d73dd746c5708dedf5/after/virtool_slash_indexes_slash_db.py,update_last_indexed_versions,3
+c:/src/pylint-intervention/data/in_the_wild\versions/virtool/8cd4ba503b66d294db0408d73dd746c5708dedf5/after/virtool_slash_indexes_slash_db.py,attach_files,3
+c:/src/pylint-intervention/data/in_the_wild\versions/virtool/8cd4ba503b66d294db0408d73dd746c5708dedf5/after/virtool_slash_indexes_slash_db.py,create,2
+c:/src/pylint-intervention/data/in_the_wild\versions/virtool/8cd4ba503b66d294db0408d73dd746c5708dedf5/after/virtool_slash_indexes_slash_db.py,get_current_id_and_version,2
+c:/src/pylint-intervention/data/in_the_wild\versions/virtool/8cd4ba503b66d294db0408d73dd746c5708dedf5/after/virtool_slash_indexes_slash_db.py,get_otus,2
+c:/src/pylint-intervention/data/in_the_wild\versions/virtool/8cd4ba503b66d294db0408d73dd746c5708dedf5/after/virtool_slash_indexes_slash_db.py,get_unbuilt_stats,2
+c:/src/pylint-intervention/data/in_the_wild\versions/virtool/8cd4ba503b66d294db0408d73dd746c5708dedf5/after/virtool_slash_indexes_slash_db.py,processor,1
+c:/src/pylint-intervention/data/in_the_wild\versions/virtool/8cd4ba503b66d294db0408d73dd746c5708dedf5/after/virtool_slash_indexes_slash_db.py,finalize,1
+c:/src/pylint-intervention/data/in_the_wild\versions/virtool/8cd4ba503b66d294db0408d73dd746c5708dedf5/after/virtool_slash_indexes_slash_db.py,get_contributors,1
+c:/src/pylint-intervention/data/in_the_wild\versions/virtool/8cd4ba503b66d294db0408d73dd746c5708dedf5/after/virtool_slash_indexes_slash_db.py,get_next_version,1
+c:/src/pylint-intervention/data/in_the_wild\versions/virtool/8cd4ba503b66d294db0408d73dd746c5708dedf5/after/virtool_slash_indexes_slash_db.py,tag_unbuilt_changes,1
+c:/src/pylint-intervention/data/in_the_wild\versions/virtool/8cd4ba503b66d294db0408d73dd746c5708dedf5/after/virtool_slash_indexes_slash_db.py,reset_history,1

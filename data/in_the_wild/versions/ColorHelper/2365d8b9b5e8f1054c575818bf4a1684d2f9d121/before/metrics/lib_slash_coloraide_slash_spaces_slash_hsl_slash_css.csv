@@ -1,1 +1,6 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/ColorHelper/2365d8b9b5e8f1054c575818bf4a1684d2f9d121/before/lib_slash_coloraide_slash_spaces_slash_hsl_slash_css.py,HSL.to_string,13
+c:/src/pylint-intervention/data/in_the_wild\versions/ColorHelper/2365d8b9b5e8f1054c575818bf4a1684d2f9d121/before/lib_slash_coloraide_slash_spaces_slash_hsl_slash_css.py,HSL,8
+c:/src/pylint-intervention/data/in_the_wild\versions/ColorHelper/2365d8b9b5e8f1054c575818bf4a1684d2f9d121/before/lib_slash_coloraide_slash_spaces_slash_hsl_slash_css.py,HSL.split_channels,5
+c:/src/pylint-intervention/data/in_the_wild\versions/ColorHelper/2365d8b9b5e8f1054c575818bf4a1684d2f9d121/before/lib_slash_coloraide_slash_spaces_slash_hsl_slash_css.py,HSL.match,5
+c:/src/pylint-intervention/data/in_the_wild\versions/ColorHelper/2365d8b9b5e8f1054c575818bf4a1684d2f9d121/before/lib_slash_coloraide_slash_spaces_slash_hsl_slash_css.py,HSL.translate_channel,4

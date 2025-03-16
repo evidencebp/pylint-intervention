@@ -1,1 +1,6 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/e5fbf3a9c77207f7e580cf7718b9b8f52166b34a/before/users_slash_authBackend.py,NetidBackend.authenticate,12
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/e5fbf3a9c77207f7e580cf7718b9b8f52166b34a/before/users_slash_authBackend.py,NetidBackend,6
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/e5fbf3a9c77207f7e580cf7718b9b8f52166b34a/before/users_slash_authBackend.py,NetidBackend._parse_response,6
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/e5fbf3a9c77207f7e580cf7718b9b8f52166b34a/before/users_slash_authBackend.py,NetidBackend.get_user,2
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/e5fbf3a9c77207f7e580cf7718b9b8f52166b34a/before/users_slash_authBackend.py,NetidBackend.login_url,2

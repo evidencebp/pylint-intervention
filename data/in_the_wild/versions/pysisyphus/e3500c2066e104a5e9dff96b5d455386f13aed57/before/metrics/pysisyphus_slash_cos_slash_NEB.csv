@@ -1,1 +1,11 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/pysisyphus/e3500c2066e104a5e9dff96b5d455386f13aed57/before/pysisyphus_slash_cos_slash_NEB.py,NEB,4
+c:/src/pylint-intervention/data/in_the_wild\versions/pysisyphus/e3500c2066e104a5e9dff96b5d455386f13aed57/before/pysisyphus_slash_cos_slash_NEB.py,NEB.get_spring_forces,4
+c:/src/pylint-intervention/data/in_the_wild\versions/pysisyphus/e3500c2066e104a5e9dff96b5d455386f13aed57/before/pysisyphus_slash_cos_slash_NEB.py,NEB.get_parallel_forces,4
+c:/src/pylint-intervention/data/in_the_wild\versions/pysisyphus/e3500c2066e104a5e9dff96b5d455386f13aed57/before/pysisyphus_slash_cos_slash_NEB.py,NEB.update_springs,3
+c:/src/pylint-intervention/data/in_the_wild\versions/pysisyphus/e3500c2066e104a5e9dff96b5d455386f13aed57/before/pysisyphus_slash_cos_slash_NEB.py,NEB.set_variable_springs,3
+c:/src/pylint-intervention/data/in_the_wild\versions/pysisyphus/e3500c2066e104a5e9dff96b5d455386f13aed57/before/pysisyphus_slash_cos_slash_NEB.py,NEB.get_quenched_dneb_forces,3
+c:/src/pylint-intervention/data/in_the_wild\versions/pysisyphus/e3500c2066e104a5e9dff96b5d455386f13aed57/before/pysisyphus_slash_cos_slash_NEB.py,NEB.forces,3
+c:/src/pylint-intervention/data/in_the_wild\versions/pysisyphus/e3500c2066e104a5e9dff96b5d455386f13aed57/before/pysisyphus_slash_cos_slash_NEB.py,NEB.__init__,2
+c:/src/pylint-intervention/data/in_the_wild\versions/pysisyphus/e3500c2066e104a5e9dff96b5d455386f13aed57/before/pysisyphus_slash_cos_slash_NEB.py,NEB.fmt_k,2
+c:/src/pylint-intervention/data/in_the_wild\versions/pysisyphus/e3500c2066e104a5e9dff96b5d455386f13aed57/before/pysisyphus_slash_cos_slash_NEB.py,NEB.parallel_forces,2

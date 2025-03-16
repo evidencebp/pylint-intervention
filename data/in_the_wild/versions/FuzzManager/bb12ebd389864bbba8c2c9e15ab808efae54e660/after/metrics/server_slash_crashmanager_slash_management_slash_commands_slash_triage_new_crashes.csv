@@ -1,1 +1,3 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/FuzzManager/bb12ebd389864bbba8c2c9e15ab808efae54e660/after/server_slash_crashmanager_slash_management_slash_commands_slash_triage_new_crashes.py,Command,3
+c:/src/pylint-intervention/data/in_the_wild\versions/FuzzManager/bb12ebd389864bbba8c2c9e15ab808efae54e660/after/server_slash_crashmanager_slash_management_slash_commands_slash_triage_new_crashes.py,Command.handle,2

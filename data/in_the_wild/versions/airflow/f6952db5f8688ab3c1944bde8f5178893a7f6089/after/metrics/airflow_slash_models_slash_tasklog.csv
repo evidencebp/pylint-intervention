@@ -1,1 +1,3 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/airflow/f6952db5f8688ab3c1944bde8f5178893a7f6089/after/airflow_slash_models_slash_tasklog.py,LogTemplate,3
+c:/src/pylint-intervention/data/in_the_wild\versions/airflow/f6952db5f8688ab3c1944bde8f5178893a7f6089/after/airflow_slash_models_slash_tasklog.py,LogTemplate.__repr__,2

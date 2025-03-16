@@ -1,1 +1,17 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/python-for-android/e3f2d81a35a3047e4b1b1622a51a31735456ba36/after/pythonforandroid_slash_archs.py,Arch.get_env,11
+c:/src/pylint-intervention/data/in_the_wild\versions/python-for-android/e3f2d81a35a3047e4b1b1622a51a31735456ba36/after/pythonforandroid_slash_archs.py,Arch,4
+c:/src/pylint-intervention/data/in_the_wild\versions/python-for-android/e3f2d81a35a3047e4b1b1622a51a31735456ba36/after/pythonforandroid_slash_archs.py,ArchAarch_64,3
+c:/src/pylint-intervention/data/in_the_wild\versions/python-for-android/e3f2d81a35a3047e4b1b1622a51a31735456ba36/after/pythonforandroid_slash_archs.py,Arch.include_dirs,2
+c:/src/pylint-intervention/data/in_the_wild\versions/python-for-android/e3f2d81a35a3047e4b1b1622a51a31735456ba36/after/pythonforandroid_slash_archs.py,ArchARM,2
+c:/src/pylint-intervention/data/in_the_wild\versions/python-for-android/e3f2d81a35a3047e4b1b1622a51a31735456ba36/after/pythonforandroid_slash_archs.py,ArchARMv7_a,2
+c:/src/pylint-intervention/data/in_the_wild\versions/python-for-android/e3f2d81a35a3047e4b1b1622a51a31735456ba36/after/pythonforandroid_slash_archs.py,Archx86,2
+c:/src/pylint-intervention/data/in_the_wild\versions/python-for-android/e3f2d81a35a3047e4b1b1622a51a31735456ba36/after/pythonforandroid_slash_archs.py,Archx86_64,2
+c:/src/pylint-intervention/data/in_the_wild\versions/python-for-android/e3f2d81a35a3047e4b1b1622a51a31735456ba36/after/pythonforandroid_slash_archs.py,ArchAarch_64.get_env,2
+c:/src/pylint-intervention/data/in_the_wild\versions/python-for-android/e3f2d81a35a3047e4b1b1622a51a31735456ba36/after/pythonforandroid_slash_archs.py,Arch.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/python-for-android/e3f2d81a35a3047e4b1b1622a51a31735456ba36/after/pythonforandroid_slash_archs.py,Arch.__str__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/python-for-android/e3f2d81a35a3047e4b1b1622a51a31735456ba36/after/pythonforandroid_slash_archs.py,Arch.target,1
+c:/src/pylint-intervention/data/in_the_wild\versions/python-for-android/e3f2d81a35a3047e4b1b1622a51a31735456ba36/after/pythonforandroid_slash_archs.py,ArchARM.target,1
+c:/src/pylint-intervention/data/in_the_wild\versions/python-for-android/e3f2d81a35a3047e4b1b1622a51a31735456ba36/after/pythonforandroid_slash_archs.py,ArchARMv7_a.get_env,1
+c:/src/pylint-intervention/data/in_the_wild\versions/python-for-android/e3f2d81a35a3047e4b1b1622a51a31735456ba36/after/pythonforandroid_slash_archs.py,Archx86.get_env,1
+c:/src/pylint-intervention/data/in_the_wild\versions/python-for-android/e3f2d81a35a3047e4b1b1622a51a31735456ba36/after/pythonforandroid_slash_archs.py,Archx86_64.get_env,1

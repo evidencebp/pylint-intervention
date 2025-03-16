@@ -1,1 +1,9 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/isard/d0ea9310fd387e1714be57ad992c487f87e320ba/after/api_slash_src_slash_api_slash_libv2_slash_quotas.py,Quotas,2
+c:/src/pylint-intervention/data/in_the_wild\versions/isard/d0ea9310fd387e1714be57ad992c487f87e320ba/after/api_slash_src_slash_api_slash_libv2_slash_quotas.py,Quotas.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/isard/d0ea9310fd387e1714be57ad992c487f87e320ba/after/api_slash_src_slash_api_slash_libv2_slash_quotas.py,Quotas.UserCreate,1
+c:/src/pylint-intervention/data/in_the_wild\versions/isard/d0ea9310fd387e1714be57ad992c487f87e320ba/after/api_slash_src_slash_api_slash_libv2_slash_quotas.py,Quotas.DesktopCreate,1
+c:/src/pylint-intervention/data/in_the_wild\versions/isard/d0ea9310fd387e1714be57ad992c487f87e320ba/after/api_slash_src_slash_api_slash_libv2_slash_quotas.py,Quotas.DesktopStart,1
+c:/src/pylint-intervention/data/in_the_wild\versions/isard/d0ea9310fd387e1714be57ad992c487f87e320ba/after/api_slash_src_slash_api_slash_libv2_slash_quotas.py,Quotas.DesktopCreateAndStart,1
+c:/src/pylint-intervention/data/in_the_wild\versions/isard/d0ea9310fd387e1714be57ad992c487f87e320ba/after/api_slash_src_slash_api_slash_libv2_slash_quotas.py,Quotas.TemplateCreate,1
+c:/src/pylint-intervention/data/in_the_wild\versions/isard/d0ea9310fd387e1714be57ad992c487f87e320ba/after/api_slash_src_slash_api_slash_libv2_slash_quotas.py,Quotas.IsoCreate,1

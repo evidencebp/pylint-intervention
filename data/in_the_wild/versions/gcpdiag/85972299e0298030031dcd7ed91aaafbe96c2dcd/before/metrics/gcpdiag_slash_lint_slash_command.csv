@@ -1,1 +1,10 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/gcpdiag/85972299e0298030031dcd7ed91aaafbe96c2dcd/before/gcpdiag_slash_lint_slash_command.py,run,11
+c:/src/pylint-intervention/data/in_the_wild\versions/gcpdiag/85972299e0298030031dcd7ed91aaafbe96c2dcd/before/gcpdiag_slash_lint_slash_command.py,ParseMappingArg,8
+c:/src/pylint-intervention/data/in_the_wild\versions/gcpdiag/85972299e0298030031dcd7ed91aaafbe96c2dcd/before/gcpdiag_slash_lint_slash_command.py,ParseMappingArg.__call__,7
+c:/src/pylint-intervention/data/in_the_wild\versions/gcpdiag/85972299e0298030031dcd7ed91aaafbe96c2dcd/before/gcpdiag_slash_lint_slash_command.py,_parse_rule_patterns,4
+c:/src/pylint-intervention/data/in_the_wild\versions/gcpdiag/85972299e0298030031dcd7ed91aaafbe96c2dcd/before/gcpdiag_slash_lint_slash_command.py,_load_repository_rules,4
+c:/src/pylint-intervention/data/in_the_wild\versions/gcpdiag/85972299e0298030031dcd7ed91aaafbe96c2dcd/before/gcpdiag_slash_lint_slash_command.py,_get_output_constructor,3
+c:/src/pylint-intervention/data/in_the_wild\versions/gcpdiag/85972299e0298030031dcd7ed91aaafbe96c2dcd/before/gcpdiag_slash_lint_slash_command.py,_flatten_multi_arg,2
+c:/src/pylint-intervention/data/in_the_wild\versions/gcpdiag/85972299e0298030031dcd7ed91aaafbe96c2dcd/before/gcpdiag_slash_lint_slash_command.py,_initialize_output,2
+c:/src/pylint-intervention/data/in_the_wild\versions/gcpdiag/85972299e0298030031dcd7ed91aaafbe96c2dcd/before/gcpdiag_slash_lint_slash_command.py,_init_args_parser,1

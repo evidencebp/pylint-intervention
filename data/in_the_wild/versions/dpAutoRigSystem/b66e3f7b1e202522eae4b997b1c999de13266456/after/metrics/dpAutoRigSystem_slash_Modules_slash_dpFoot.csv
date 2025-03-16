@@ -1,1 +1,7 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/dpAutoRigSystem/b66e3f7b1e202522eae4b997b1c999de13266456/after/dpAutoRigSystem_slash_Modules_slash_dpFoot.py,Foot.rigModule,20
+c:/src/pylint-intervention/data/in_the_wild\versions/dpAutoRigSystem/b66e3f7b1e202522eae4b997b1c999de13266456/after/dpAutoRigSystem_slash_Modules_slash_dpFoot.py,Foot,6
+c:/src/pylint-intervention/data/in_the_wild\versions/dpAutoRigSystem/b66e3f7b1e202522eae4b997b1c999de13266456/after/dpAutoRigSystem_slash_Modules_slash_dpFoot.py,Foot.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/dpAutoRigSystem/b66e3f7b1e202522eae4b997b1c999de13266456/after/dpAutoRigSystem_slash_Modules_slash_dpFoot.py,Foot.createModuleLayout,1
+c:/src/pylint-intervention/data/in_the_wild\versions/dpAutoRigSystem/b66e3f7b1e202522eae4b997b1c999de13266456/after/dpAutoRigSystem_slash_Modules_slash_dpFoot.py,Foot.createGuide,1
+c:/src/pylint-intervention/data/in_the_wild\versions/dpAutoRigSystem/b66e3f7b1e202522eae4b997b1c999de13266456/after/dpAutoRigSystem_slash_Modules_slash_dpFoot.py,Foot.integratingInfo,1

@@ -1,1 +1,5 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/synapse/1d5c80b16188c587427d663c3bec57e9c196dd1b/after/synapse_slash_rest_slash_client_slash_receipts.py,ReceiptRestServlet,4
+c:/src/pylint-intervention/data/in_the_wild\versions/synapse/1d5c80b16188c587427d663c3bec57e9c196dd1b/after/synapse_slash_rest_slash_client_slash_receipts.py,ReceiptRestServlet.on_POST,3
+c:/src/pylint-intervention/data/in_the_wild\versions/synapse/1d5c80b16188c587427d663c3bec57e9c196dd1b/after/synapse_slash_rest_slash_client_slash_receipts.py,ReceiptRestServlet.__init__,2
+c:/src/pylint-intervention/data/in_the_wild\versions/synapse/1d5c80b16188c587427d663c3bec57e9c196dd1b/after/synapse_slash_rest_slash_client_slash_receipts.py,register_servlets,1

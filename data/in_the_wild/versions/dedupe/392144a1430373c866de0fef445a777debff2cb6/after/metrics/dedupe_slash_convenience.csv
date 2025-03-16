@@ -1,1 +1,10 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/dedupe/392144a1430373c866de0fef445a777debff2cb6/after/dedupe_slash_convenience.py,console_label,20
+c:/src/pylint-intervention/data/in_the_wild\versions/dedupe/392144a1430373c866de0fef445a777debff2cb6/after/dedupe_slash_convenience.py,training_data_link,11
+c:/src/pylint-intervention/data/in_the_wild\versions/dedupe/392144a1430373c866de0fef445a777debff2cb6/after/dedupe_slash_convenience.py,training_data_dedupe,7
+c:/src/pylint-intervention/data/in_the_wild\versions/dedupe/392144a1430373c866de0fef445a777debff2cb6/after/dedupe_slash_convenience.py,randomPairs,4
+c:/src/pylint-intervention/data/in_the_wild\versions/dedupe/392144a1430373c866de0fef445a777debff2cb6/after/dedupe_slash_convenience.py,randomPairsMatch,3
+c:/src/pylint-intervention/data/in_the_wild\versions/dedupe/392144a1430373c866de0fef445a777debff2cb6/after/dedupe_slash_convenience.py,randomPairsWithReplacement,3
+c:/src/pylint-intervention/data/in_the_wild\versions/dedupe/392144a1430373c866de0fef445a777debff2cb6/after/dedupe_slash_convenience.py,_mark_pair,2
+c:/src/pylint-intervention/data/in_the_wild\versions/dedupe/392144a1430373c866de0fef445a777debff2cb6/after/dedupe_slash_convenience.py,_print,1
+c:/src/pylint-intervention/data/in_the_wild\versions/dedupe/392144a1430373c866de0fef445a777debff2cb6/after/dedupe_slash_convenience.py,canonicalize,1

@@ -1,1 +1,3 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/streamlink/c854292d3dc9ef55c6b2adea55ba79189d530624/before/src_slash_streamlink_slash_plugins_slash_telefe.py,Telefe,7
+c:/src/pylint-intervention/data/in_the_wild\versions/streamlink/c854292d3dc9ef55c6b2adea55ba79189d530624/before/src_slash_streamlink_slash_plugins_slash_telefe.py,Telefe._get_streams,6

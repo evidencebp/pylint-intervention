@@ -1,1 +1,8 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/b3587b52b25077f68116b9852b041d33e7fc6601/after/mitmproxy_slash_contentviews_slash_graphql.py,ViewGraphQL,6
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/b3587b52b25077f68116b9852b041d33e7fc6601/after/mitmproxy_slash_contentviews_slash_graphql.py,ViewGraphQL.render_priority,6
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/b3587b52b25077f68116b9852b041d33e7fc6601/after/mitmproxy_slash_contentviews_slash_graphql.py,ViewGraphQL.__call__,4
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/b3587b52b25077f68116b9852b041d33e7fc6601/after/mitmproxy_slash_contentviews_slash_graphql.py,is_graphql_query,3
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/b3587b52b25077f68116b9852b041d33e7fc6601/after/mitmproxy_slash_contentviews_slash_graphql.py,is_graphql_batch_query,3
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/b3587b52b25077f68116b9852b041d33e7fc6601/after/mitmproxy_slash_contentviews_slash_graphql.py,format_query_list,2
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/b3587b52b25077f68116b9852b041d33e7fc6601/after/mitmproxy_slash_contentviews_slash_graphql.py,format_graphql,1

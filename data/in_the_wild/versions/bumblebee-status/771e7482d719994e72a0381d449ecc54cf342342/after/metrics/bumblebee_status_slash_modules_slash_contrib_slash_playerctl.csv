@@ -1,1 +1,7 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/bumblebee-status/771e7482d719994e72a0381d449ecc54cf342342/after/bumblebee_status_slash_modules_slash_contrib_slash_playerctl.py,Module.update,10
+c:/src/pylint-intervention/data/in_the_wild\versions/bumblebee-status/771e7482d719994e72a0381d449ecc54cf342342/after/bumblebee_status_slash_modules_slash_contrib_slash_playerctl.py,Module.__init__,8
+c:/src/pylint-intervention/data/in_the_wild\versions/bumblebee-status/771e7482d719994e72a0381d449ecc54cf342342/after/bumblebee_status_slash_modules_slash_contrib_slash_playerctl.py,Module,6
+c:/src/pylint-intervention/data/in_the_wild\versions/bumblebee-status/771e7482d719994e72a0381d449ecc54cf342342/after/bumblebee_status_slash_modules_slash_contrib_slash_playerctl.py,Module.status,3
+c:/src/pylint-intervention/data/in_the_wild\versions/bumblebee-status/771e7482d719994e72a0381d449ecc54cf342342/after/bumblebee_status_slash_modules_slash_contrib_slash_playerctl.py,Module.hidden,2
+c:/src/pylint-intervention/data/in_the_wild\versions/bumblebee-status/771e7482d719994e72a0381d449ecc54cf342342/after/bumblebee_status_slash_modules_slash_contrib_slash_playerctl.py,Module.__get_song,2

@@ -1,1 +1,6 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/django-DefectDojo/3b546499ab1e0aec5a438d233b84f56c40e118de/after/dojo_slash_tools_slash_tfsec_slash_parser.py,TFSecParser.get_findings,8
+c:/src/pylint-intervention/data/in_the_wild\versions/django-DefectDojo/3b546499ab1e0aec5a438d233b84f56c40e118de/after/dojo_slash_tools_slash_tfsec_slash_parser.py,TFSecParser,4
+c:/src/pylint-intervention/data/in_the_wild\versions/django-DefectDojo/3b546499ab1e0aec5a438d233b84f56c40e118de/after/dojo_slash_tools_slash_tfsec_slash_parser.py,TFSecParser.get_scan_types,1
+c:/src/pylint-intervention/data/in_the_wild\versions/django-DefectDojo/3b546499ab1e0aec5a438d233b84f56c40e118de/after/dojo_slash_tools_slash_tfsec_slash_parser.py,TFSecParser.get_label_for_scan_types,1
+c:/src/pylint-intervention/data/in_the_wild\versions/django-DefectDojo/3b546499ab1e0aec5a438d233b84f56c40e118de/after/dojo_slash_tools_slash_tfsec_slash_parser.py,TFSecParser.get_description_for_scan_types,1

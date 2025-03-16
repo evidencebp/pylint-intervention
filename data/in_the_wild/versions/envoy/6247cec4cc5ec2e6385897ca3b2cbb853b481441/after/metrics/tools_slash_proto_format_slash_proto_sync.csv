@@ -1,1 +1,4 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/envoy/6247cec4cc5ec2e6385897ca3b2cbb853b481441/after/tools_slash_proto_format_slash_proto_sync.py,sync,12
+c:/src/pylint-intervention/data/in_the_wild\versions/envoy/6247cec4cc5ec2e6385897ca3b2cbb853b481441/after/tools_slash_proto_format_slash_proto_sync.py,generate_current_api_dir,2
+c:/src/pylint-intervention/data/in_the_wild\versions/envoy/6247cec4cc5ec2e6385897ca3b2cbb853b481441/after/tools_slash_proto_format_slash_proto_sync.py,git_status,1

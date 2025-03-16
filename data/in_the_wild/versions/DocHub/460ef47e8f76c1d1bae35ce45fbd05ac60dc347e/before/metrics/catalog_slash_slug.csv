@@ -1,1 +1,14 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/460ef47e8f76c1d1bae35ce45fbd05ac60dc347e/before/catalog_slash_slug.py,Slug.__init__,8
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/460ef47e8f76c1d1bae35ce45fbd05ac60dc347e/before/catalog_slash_slug.py,Slug,3
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/460ef47e8f76c1d1bae35ce45fbd05ac60dc347e/before/catalog_slash_slug.py,Slug.match_all,3
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/460ef47e8f76c1d1bae35ce45fbd05ac60dc347e/before/catalog_slash_slug.py,Slug.from_gehol,2
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/460ef47e8f76c1d1bae35ce45fbd05ac60dc347e/before/catalog_slash_slug.py,Slug.from_catalog,2
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/460ef47e8f76c1d1bae35ce45fbd05ac60dc347e/before/catalog_slash_slug.py,Slug.from_dochub,2
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/460ef47e8f76c1d1bae35ce45fbd05ac60dc347e/before/catalog_slash_slug.py,Slug.__eq__,2
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/460ef47e8f76c1d1bae35ce45fbd05ac60dc347e/before/catalog_slash_slug.py,Slug.gehol,1
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/460ef47e8f76c1d1bae35ce45fbd05ac60dc347e/before/catalog_slash_slug.py,Slug.catalog,1
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/460ef47e8f76c1d1bae35ce45fbd05ac60dc347e/before/catalog_slash_slug.py,Slug.dochub,1
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/460ef47e8f76c1d1bae35ce45fbd05ac60dc347e/before/catalog_slash_slug.py,Slug.__repr__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/460ef47e8f76c1d1bae35ce45fbd05ac60dc347e/before/catalog_slash_slug.py,Slug.__str__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/DocHub/460ef47e8f76c1d1bae35ce45fbd05ac60dc347e/before/catalog_slash_slug.py,Slug.__hash__,1

@@ -1,1 +1,7 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/pykern/e1a092898389436513f3525d405c4ce403064626/after/pykern_slash_pkcompat.py,locale_str,3
+c:/src/pylint-intervention/data/in_the_wild\versions/pykern/e1a092898389436513f3525d405c4ce403064626/after/pykern_slash_pkcompat.py,from_bytes,2
+c:/src/pylint-intervention/data/in_the_wild\versions/pykern/e1a092898389436513f3525d405c4ce403064626/after/pykern_slash_pkcompat.py,to_bytes,2
+c:/src/pylint-intervention/data/in_the_wild\versions/pykern/e1a092898389436513f3525d405c4ce403064626/after/pykern_slash_pkcompat.py,_assert_type,2
+c:/src/pylint-intervention/data/in_the_wild\versions/pykern/e1a092898389436513f3525d405c4ce403064626/after/pykern_slash_pkcompat.py,unicode_getcwd,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pykern/e1a092898389436513f3525d405c4ce403064626/after/pykern_slash_pkcompat.py,unicode_unescape,1

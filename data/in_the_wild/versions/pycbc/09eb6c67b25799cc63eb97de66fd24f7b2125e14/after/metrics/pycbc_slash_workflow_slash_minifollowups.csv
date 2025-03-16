@@ -1,1 +1,6 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/pycbc/09eb6c67b25799cc63eb97de66fd24f7b2125e14/after/pycbc_slash_workflow_slash_minifollowups.py,setup_minifollowups,4
+c:/src/pylint-intervention/data/in_the_wild\versions/pycbc/09eb6c67b25799cc63eb97de66fd24f7b2125e14/after/pycbc_slash_workflow_slash_minifollowups.py,make_single_template_plots,4
+c:/src/pylint-intervention/data/in_the_wild\versions/pycbc/09eb6c67b25799cc63eb97de66fd24f7b2125e14/after/pycbc_slash_workflow_slash_minifollowups.py,make_trigger_timeseries,3
+c:/src/pylint-intervention/data/in_the_wild\versions/pycbc/09eb6c67b25799cc63eb97de66fd24f7b2125e14/after/pycbc_slash_workflow_slash_minifollowups.py,make_coinc_info,2
+c:/src/pylint-intervention/data/in_the_wild\versions/pycbc/09eb6c67b25799cc63eb97de66fd24f7b2125e14/after/pycbc_slash_workflow_slash_minifollowups.py,grouper,1

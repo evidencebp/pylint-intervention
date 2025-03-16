@@ -1,1 +1,3 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/nvchecker/7739f5c8c0a66cbd131dfc3a0fd8759a9f1d2710/before/nvchecker_source_slash_sparkle.py,get_version,1
+c:/src/pylint-intervention/data/in_the_wild\versions/nvchecker/7739f5c8c0a66cbd131dfc3a0fd8759a9f1d2710/before/nvchecker_source_slash_sparkle.py,get_version_impl,1

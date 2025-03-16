@@ -1,1 +1,4 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/ansible/1f59bbf4f39504c8f2087f8132f2475a6ac38dcb/before/lib_slash_ansible_slash_plugins_slash_lookup_slash_together.py,LookupModule,4
+c:/src/pylint-intervention/data/in_the_wild\versions/ansible/1f59bbf4f39504c8f2087f8132f2475a6ac38dcb/before/lib_slash_ansible_slash_plugins_slash_lookup_slash_together.py,LookupModule.run,3
+c:/src/pylint-intervention/data/in_the_wild\versions/ansible/1f59bbf4f39504c8f2087f8132f2475a6ac38dcb/before/lib_slash_ansible_slash_plugins_slash_lookup_slash_together.py,LookupModule._lookup_variables,2

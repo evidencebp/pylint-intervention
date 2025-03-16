@@ -1,1 +1,6 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/jumpserver/e259d2a9e9167c58fa75a78d1050dd5dcfde96f4/before/apps_slash_users_slash_filters.py,OrgRoleUserFilterBackend.filter_queryset,6
+c:/src/pylint-intervention/data/in_the_wild\versions/jumpserver/e259d2a9e9167c58fa75a78d1050dd5dcfde96f4/before/apps_slash_users_slash_filters.py,UserFilter,6
+c:/src/pylint-intervention/data/in_the_wild\versions/jumpserver/e259d2a9e9167c58fa75a78d1050dd5dcfde96f4/before/apps_slash_users_slash_filters.py,OrgRoleUserFilterBackend,5
+c:/src/pylint-intervention/data/in_the_wild\versions/jumpserver/e259d2a9e9167c58fa75a78d1050dd5dcfde96f4/before/apps_slash_users_slash_filters.py,UserFilter.filter_system_or_org_role,5
+c:/src/pylint-intervention/data/in_the_wild\versions/jumpserver/e259d2a9e9167c58fa75a78d1050dd5dcfde96f4/before/apps_slash_users_slash_filters.py,OrgRoleUserFilterBackend.get_schema_fields,1

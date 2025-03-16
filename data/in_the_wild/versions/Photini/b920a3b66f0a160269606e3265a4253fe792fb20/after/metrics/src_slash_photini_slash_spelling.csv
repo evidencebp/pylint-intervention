@@ -1,1 +1,10 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/Photini/b920a3b66f0a160269606e3265a4253fe792fb20/after/src_slash_photini_slash_spelling.py,SpellCheck.available_languages,7
+c:/src/pylint-intervention/data/in_the_wild\versions/Photini/b920a3b66f0a160269606e3265a4253fe792fb20/after/src_slash_photini_slash_spelling.py,SpellCheck.set_language,7
+c:/src/pylint-intervention/data/in_the_wild\versions/Photini/b920a3b66f0a160269606e3265a4253fe792fb20/after/src_slash_photini_slash_spelling.py,SpellCheck.check,6
+c:/src/pylint-intervention/data/in_the_wild\versions/Photini/b920a3b66f0a160269606e3265a4253fe792fb20/after/src_slash_photini_slash_spelling.py,SpellCheck,5
+c:/src/pylint-intervention/data/in_the_wild\versions/Photini/b920a3b66f0a160269606e3265a4253fe792fb20/after/src_slash_photini_slash_spelling.py,SpellCheck.current_language,3
+c:/src/pylint-intervention/data/in_the_wild\versions/Photini/b920a3b66f0a160269606e3265a4253fe792fb20/after/src_slash_photini_slash_spelling.py,SpellCheck.suggest,3
+c:/src/pylint-intervention/data/in_the_wild\versions/Photini/b920a3b66f0a160269606e3265a4253fe792fb20/after/src_slash_photini_slash_spelling.py,SpellCheck.enable,2
+c:/src/pylint-intervention/data/in_the_wild\versions/Photini/b920a3b66f0a160269606e3265a4253fe792fb20/after/src_slash_photini_slash_spelling.py,SpellCheck.find_words,2
+c:/src/pylint-intervention/data/in_the_wild\versions/Photini/b920a3b66f0a160269606e3265a4253fe792fb20/after/src_slash_photini_slash_spelling.py,SpellCheck.__init__,1

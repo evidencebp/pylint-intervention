@@ -1,1 +1,12 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/virtool/3878db3bc4230113410d6fa056fe996be470b4ac/after/virtool_slash_tasks_slash_task.py,Task.run,4
+c:/src/pylint-intervention/data/in_the_wild\versions/virtool/3878db3bc4230113410d6fa056fe996be470b4ac/after/virtool_slash_tasks_slash_task.py,Task,2
+c:/src/pylint-intervention/data/in_the_wild\versions/virtool/3878db3bc4230113410d6fa056fe996be470b4ac/after/virtool_slash_tasks_slash_task.py,Task.update_context,2
+c:/src/pylint-intervention/data/in_the_wild\versions/virtool/3878db3bc4230113410d6fa056fe996be470b4ac/after/virtool_slash_tasks_slash_task.py,ProgressTracker,2
+c:/src/pylint-intervention/data/in_the_wild\versions/virtool/3878db3bc4230113410d6fa056fe996be470b4ac/after/virtool_slash_tasks_slash_task.py,Task.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/virtool/3878db3bc4230113410d6fa056fe996be470b4ac/after/virtool_slash_tasks_slash_task.py,Task.init_db,1
+c:/src/pylint-intervention/data/in_the_wild\versions/virtool/3878db3bc4230113410d6fa056fe996be470b4ac/after/virtool_slash_tasks_slash_task.py,Task.get_tracker,1
+c:/src/pylint-intervention/data/in_the_wild\versions/virtool/3878db3bc4230113410d6fa056fe996be470b4ac/after/virtool_slash_tasks_slash_task.py,Task.cleanup,1
+c:/src/pylint-intervention/data/in_the_wild\versions/virtool/3878db3bc4230113410d6fa056fe996be470b4ac/after/virtool_slash_tasks_slash_task.py,Task.error,1
+c:/src/pylint-intervention/data/in_the_wild\versions/virtool/3878db3bc4230113410d6fa056fe996be470b4ac/after/virtool_slash_tasks_slash_task.py,ProgressTracker.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/virtool/3878db3bc4230113410d6fa056fe996be470b4ac/after/virtool_slash_tasks_slash_task.py,ProgressTracker.add,1

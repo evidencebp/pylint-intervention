@@ -1,1 +1,13 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/ESPEI/3ebe2af997cd562bc9965c0655f8cd685ee4d5af/before/espei_slash_paramselect.py,phase_fit,43
+c:/src/pylint-intervention/data/in_the_wild\versions/ESPEI/3ebe2af997cd562bc9965c0655f8cd685ee4d5af/before/espei_slash_paramselect.py,fit_formation_energy,19
+c:/src/pylint-intervention/data/in_the_wild\versions/ESPEI/3ebe2af997cd562bc9965c0655f8cd685ee4d5af/before/espei_slash_paramselect.py,mcmc_fit,18
+c:/src/pylint-intervention/data/in_the_wild\versions/ESPEI/3ebe2af997cd562bc9965c0655f8cd685ee4d5af/before/espei_slash_paramselect.py,multi_phase_fit,16
+c:/src/pylint-intervention/data/in_the_wild\versions/ESPEI/3ebe2af997cd562bc9965c0655f8cd685ee4d5af/before/espei_slash_paramselect.py,tieline_error,14
+c:/src/pylint-intervention/data/in_the_wild\versions/ESPEI/3ebe2af997cd562bc9965c0655f8cd685ee4d5af/before/espei_slash_paramselect.py,generate_parameters,11
+c:/src/pylint-intervention/data/in_the_wild\versions/ESPEI/3ebe2af997cd562bc9965c0655f8cd685ee4d5af/before/espei_slash_paramselect.py,_generate_symmetric_group,7
+c:/src/pylint-intervention/data/in_the_wild\versions/ESPEI/3ebe2af997cd562bc9965c0655f8cd685ee4d5af/before/espei_slash_paramselect.py,estimate_hyperplane,7
+c:/src/pylint-intervention/data/in_the_wild\versions/ESPEI/3ebe2af997cd562bc9965c0655f8cd685ee4d5af/before/espei_slash_paramselect.py,_shift_reference_state,6
+c:/src/pylint-intervention/data/in_the_wild\versions/ESPEI/3ebe2af997cd562bc9965c0655f8cd685ee4d5af/before/espei_slash_paramselect.py,lnprob,5
+c:/src/pylint-intervention/data/in_the_wild\versions/ESPEI/3ebe2af997cd562bc9965c0655f8cd685ee4d5af/before/espei_slash_paramselect.py,_build_feature_matrix,3
+c:/src/pylint-intervention/data/in_the_wild\versions/ESPEI/3ebe2af997cd562bc9965c0655f8cd685ee4d5af/before/espei_slash_paramselect.py,_fit_parameters,2

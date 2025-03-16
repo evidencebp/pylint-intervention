@@ -1,1 +1,10 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/FuzzManager/9496a82a706e04428020f0f2f6446a02ce07ccc2/before/FTB_slash_Signatures_slash_CrashInfo.py,GDBCrashInfo.__init__,25
+c:/src/pylint-intervention/data/in_the_wild\versions/FuzzManager/9496a82a706e04428020f0f2f6446a02ce07ccc2/before/FTB_slash_Signatures_slash_CrashInfo.py,ASanCrashInfo,16
+c:/src/pylint-intervention/data/in_the_wild\versions/FuzzManager/9496a82a706e04428020f0f2f6446a02ce07ccc2/before/FTB_slash_Signatures_slash_CrashInfo.py,ASanCrashInfo.__init__,15
+c:/src/pylint-intervention/data/in_the_wild\versions/FuzzManager/9496a82a706e04428020f0f2f6446a02ce07ccc2/before/FTB_slash_Signatures_slash_CrashInfo.py,GDBCrashInfo,14
+c:/src/pylint-intervention/data/in_the_wild\versions/FuzzManager/9496a82a706e04428020f0f2f6446a02ce07ccc2/before/FTB_slash_Signatures_slash_CrashInfo.py,CrashInfo.fromRawCrashData,5
+c:/src/pylint-intervention/data/in_the_wild\versions/FuzzManager/9496a82a706e04428020f0f2f6446a02ce07ccc2/before/FTB_slash_Signatures_slash_CrashInfo.py,CrashInfo,3
+c:/src/pylint-intervention/data/in_the_wild\versions/FuzzManager/9496a82a706e04428020f0f2f6446a02ce07ccc2/before/FTB_slash_Signatures_slash_CrashInfo.py,CrashInfo.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/FuzzManager/9496a82a706e04428020f0f2f6446a02ce07ccc2/before/FTB_slash_Signatures_slash_CrashInfo.py,CrashInfo.createCrashSignature,1
+c:/src/pylint-intervention/data/in_the_wild\versions/FuzzManager/9496a82a706e04428020f0f2f6446a02ce07ccc2/before/FTB_slash_Signatures_slash_CrashInfo.py,GDBCrashInfo.calculateCrashAddress,1

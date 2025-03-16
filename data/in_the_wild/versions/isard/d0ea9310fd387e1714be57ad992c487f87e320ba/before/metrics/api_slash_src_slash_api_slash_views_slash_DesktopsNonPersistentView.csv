@@ -1,1 +1,3 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/isard/d0ea9310fd387e1714be57ad992c487f87e320ba/before/api_slash_src_slash_api_slash_views_slash_DesktopsNonPersistentView.py,api_v3_desktop_new,37
+c:/src/pylint-intervention/data/in_the_wild\versions/isard/d0ea9310fd387e1714be57ad992c487f87e320ba/before/api_slash_src_slash_api_slash_views_slash_DesktopsNonPersistentView.py,api_v3_desktop_delete,6

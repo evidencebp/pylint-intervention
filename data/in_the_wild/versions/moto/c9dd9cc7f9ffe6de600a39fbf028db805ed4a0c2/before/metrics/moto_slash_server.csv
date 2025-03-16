@@ -1,1 +1,16 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/moto/c9dd9cc7f9ffe6de600a39fbf028db805ed4a0c2/before/moto_slash_server.py,DomainDispatcherApplication.infer_service_region_host,11
+c:/src/pylint-intervention/data/in_the_wild\versions/moto/c9dd9cc7f9ffe6de600a39fbf028db805ed4a0c2/before/moto_slash_server.py,DomainDispatcherApplication.get_application,10
+c:/src/pylint-intervention/data/in_the_wild\versions/moto/c9dd9cc7f9ffe6de600a39fbf028db805ed4a0c2/before/moto_slash_server.py,DomainDispatcherApplication,6
+c:/src/pylint-intervention/data/in_the_wild\versions/moto/c9dd9cc7f9ffe6de600a39fbf028db805ed4a0c2/before/moto_slash_server.py,DomainDispatcherApplication.get_action_from_body,6
+c:/src/pylint-intervention/data/in_the_wild\versions/moto/c9dd9cc7f9ffe6de600a39fbf028db805ed4a0c2/before/moto_slash_server.py,DomainDispatcherApplication.get_backend_for_host,5
+c:/src/pylint-intervention/data/in_the_wild\versions/moto/c9dd9cc7f9ffe6de600a39fbf028db805ed4a0c2/before/moto_slash_server.py,create_backend_app,4
+c:/src/pylint-intervention/data/in_the_wild\versions/moto/c9dd9cc7f9ffe6de600a39fbf028db805ed4a0c2/before/moto_slash_server.py,main,4
+c:/src/pylint-intervention/data/in_the_wild\versions/moto/c9dd9cc7f9ffe6de600a39fbf028db805ed4a0c2/before/moto_slash_server.py,RegexConverter,2
+c:/src/pylint-intervention/data/in_the_wild\versions/moto/c9dd9cc7f9ffe6de600a39fbf028db805ed4a0c2/before/moto_slash_server.py,AWSTestHelper,2
+c:/src/pylint-intervention/data/in_the_wild\versions/moto/c9dd9cc7f9ffe6de600a39fbf028db805ed4a0c2/before/moto_slash_server.py,signal_handler,1
+c:/src/pylint-intervention/data/in_the_wild\versions/moto/c9dd9cc7f9ffe6de600a39fbf028db805ed4a0c2/before/moto_slash_server.py,DomainDispatcherApplication.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/moto/c9dd9cc7f9ffe6de600a39fbf028db805ed4a0c2/before/moto_slash_server.py,DomainDispatcherApplication.__call__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/moto/c9dd9cc7f9ffe6de600a39fbf028db805ed4a0c2/before/moto_slash_server.py,RegexConverter.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/moto/c9dd9cc7f9ffe6de600a39fbf028db805ed4a0c2/before/moto_slash_server.py,AWSTestHelper.action_data,1
+c:/src/pylint-intervention/data/in_the_wild\versions/moto/c9dd9cc7f9ffe6de600a39fbf028db805ed4a0c2/before/moto_slash_server.py,AWSTestHelper.action_json,1

@@ -1,1 +1,12 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/docker-py/ea4cefe4fd1e85ef94f477b8e969994117fcb076/after/docker_slash_transport_slash_npipeconn.py,NpipeHTTPConnectionPool._get_conn,5
+c:/src/pylint-intervention/data/in_the_wild\versions/docker-py/ea4cefe4fd1e85ef94f477b8e969994117fcb076/after/docker_slash_transport_slash_npipeconn.py,NpipeHTTPConnectionPool,3
+c:/src/pylint-intervention/data/in_the_wild\versions/docker-py/ea4cefe4fd1e85ef94f477b8e969994117fcb076/after/docker_slash_transport_slash_npipeconn.py,NpipeHTTPConnection,2
+c:/src/pylint-intervention/data/in_the_wild\versions/docker-py/ea4cefe4fd1e85ef94f477b8e969994117fcb076/after/docker_slash_transport_slash_npipeconn.py,NpipeHTTPAdapter,2
+c:/src/pylint-intervention/data/in_the_wild\versions/docker-py/ea4cefe4fd1e85ef94f477b8e969994117fcb076/after/docker_slash_transport_slash_npipeconn.py,NpipeHTTPAdapter.get_connection,2
+c:/src/pylint-intervention/data/in_the_wild\versions/docker-py/ea4cefe4fd1e85ef94f477b8e969994117fcb076/after/docker_slash_transport_slash_npipeconn.py,NpipeHTTPConnection.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/docker-py/ea4cefe4fd1e85ef94f477b8e969994117fcb076/after/docker_slash_transport_slash_npipeconn.py,NpipeHTTPConnection.connect,1
+c:/src/pylint-intervention/data/in_the_wild\versions/docker-py/ea4cefe4fd1e85ef94f477b8e969994117fcb076/after/docker_slash_transport_slash_npipeconn.py,NpipeHTTPConnectionPool.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/docker-py/ea4cefe4fd1e85ef94f477b8e969994117fcb076/after/docker_slash_transport_slash_npipeconn.py,NpipeHTTPConnectionPool._new_conn,1
+c:/src/pylint-intervention/data/in_the_wild\versions/docker-py/ea4cefe4fd1e85ef94f477b8e969994117fcb076/after/docker_slash_transport_slash_npipeconn.py,NpipeHTTPAdapter.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/docker-py/ea4cefe4fd1e85ef94f477b8e969994117fcb076/after/docker_slash_transport_slash_npipeconn.py,NpipeHTTPAdapter.request_url,1

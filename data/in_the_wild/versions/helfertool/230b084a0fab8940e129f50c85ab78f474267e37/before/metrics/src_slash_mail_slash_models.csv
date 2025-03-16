@@ -1,1 +1,7 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/helfertool/230b084a0fab8940e129f50c85ab78f474267e37/before/src_slash_mail_slash_models.py,SentMail.can_see_mail,8
+c:/src/pylint-intervention/data/in_the_wild\versions/helfertool/230b084a0fab8940e129f50c85ab78f474267e37/before/src_slash_mail_slash_models.py,SentMail,6
+c:/src/pylint-intervention/data/in_the_wild\versions/helfertool/230b084a0fab8940e129f50c85ab78f474267e37/before/src_slash_mail_slash_models.py,SentMail.receiver_list,6
+c:/src/pylint-intervention/data/in_the_wild\versions/helfertool/230b084a0fab8940e129f50c85ab78f474267e37/before/src_slash_mail_slash_models.py,MailDelivery,2
+c:/src/pylint-intervention/data/in_the_wild\versions/helfertool/230b084a0fab8940e129f50c85ab78f474267e37/before/src_slash_mail_slash_models.py,SentMail.__str__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/helfertool/230b084a0fab8940e129f50c85ab78f474267e37/before/src_slash_mail_slash_models.py,MailDelivery.__str__,1

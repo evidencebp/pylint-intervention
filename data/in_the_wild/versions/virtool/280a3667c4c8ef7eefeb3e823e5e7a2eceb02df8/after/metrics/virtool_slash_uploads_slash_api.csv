@@ -1,1 +1,5 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/virtool/280a3667c4c8ef7eefeb3e823e5e7a2eceb02df8/after/virtool_slash_uploads_slash_api.py,create,6
+c:/src/pylint-intervention/data/in_the_wild\versions/virtool/280a3667c4c8ef7eefeb3e823e5e7a2eceb02df8/after/virtool_slash_uploads_slash_api.py,get,3
+c:/src/pylint-intervention/data/in_the_wild\versions/virtool/280a3667c4c8ef7eefeb3e823e5e7a2eceb02df8/after/virtool_slash_uploads_slash_api.py,delete,2
+c:/src/pylint-intervention/data/in_the_wild\versions/virtool/280a3667c4c8ef7eefeb3e823e5e7a2eceb02df8/after/virtool_slash_uploads_slash_api.py,find,1

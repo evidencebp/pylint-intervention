@@ -1,1 +1,17 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/kontext/fa21b5a72f0922034c766c91c469ea6654d53b00/before/public_slash_app.py,WsgiApp.create_controller,10
+c:/src/pylint-intervention/data/in_the_wild\versions/kontext/fa21b5a72f0922034c766c91c469ea6654d53b00/before/public_slash_app.py,KonTextWsgiApp.__call__,9
+c:/src/pylint-intervention/data/in_the_wild\versions/kontext/fa21b5a72f0922034c766c91c469ea6654d53b00/before/public_slash_app.py,WsgiApp.get_lang,6
+c:/src/pylint-intervention/data/in_the_wild\versions/kontext/fa21b5a72f0922034c766c91c469ea6654d53b00/before/public_slash_app.py,WsgiApp,5
+c:/src/pylint-intervention/data/in_the_wild\versions/kontext/fa21b5a72f0922034c766c91c469ea6654d53b00/before/public_slash_app.py,WsgiApp.setup_logger,5
+c:/src/pylint-intervention/data/in_the_wild\versions/kontext/fa21b5a72f0922034c766c91c469ea6654d53b00/before/public_slash_app.py,KonTextWsgiApp,5
+c:/src/pylint-intervention/data/in_the_wild\versions/kontext/fa21b5a72f0922034c766c91c469ea6654d53b00/before/public_slash_app.py,set_debug_mode,3
+c:/src/pylint-intervention/data/in_the_wild\versions/kontext/fa21b5a72f0922034c766c91c469ea6654d53b00/before/public_slash_app.py,WsgiApp.__init__,2
+c:/src/pylint-intervention/data/in_the_wild\versions/kontext/fa21b5a72f0922034c766c91c469ea6654d53b00/before/public_slash_app.py,MaintenanceWsgiApp,2
+c:/src/pylint-intervention/data/in_the_wild\versions/kontext/fa21b5a72f0922034c766c91c469ea6654d53b00/before/public_slash_app.py,JSONRequest,1
+c:/src/pylint-intervention/data/in_the_wild\versions/kontext/fa21b5a72f0922034c766c91c469ea6654d53b00/before/public_slash_app.py,WsgiApp.__call__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/kontext/fa21b5a72f0922034c766c91c469ea6654d53b00/before/public_slash_app.py,WsgiApp.cleanup_runtime_modules,1
+c:/src/pylint-intervention/data/in_the_wild\versions/kontext/fa21b5a72f0922034c766c91c469ea6654d53b00/before/public_slash_app.py,MaintenanceWsgiApp.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/kontext/fa21b5a72f0922034c766c91c469ea6654d53b00/before/public_slash_app.py,MaintenanceWsgiApp.__call__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/kontext/fa21b5a72f0922034c766c91c469ea6654d53b00/before/public_slash_app.py,KonTextWsgiApp.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/kontext/fa21b5a72f0922034c766c91c469ea6654d53b00/before/public_slash_app.py,KonTextWsgiApp._root_url,1

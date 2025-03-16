@@ -1,1 +1,7 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/funnel/0997d1fa925badac879b312fbcf68d06db469caa/before/funnel_slash_views_slash_video.py,video_property,14
+c:/src/pylint-intervention/data/in_the_wild\versions/funnel/0997d1fa925badac879b312fbcf68d06db469caa/before/funnel_slash_views_slash_video.py,get_video_cache,6
+c:/src/pylint-intervention/data/in_the_wild\versions/funnel/0997d1fa925badac879b312fbcf68d06db469caa/before/funnel_slash_views_slash_video.py,video_cache_key,3
+c:/src/pylint-intervention/data/in_the_wild\versions/funnel/0997d1fa925badac879b312fbcf68d06db469caa/before/funnel_slash_views_slash_video.py,set_video_cache,3
+c:/src/pylint-intervention/data/in_the_wild\versions/funnel/0997d1fa925badac879b312fbcf68d06db469caa/before/funnel_slash_views_slash_video.py,YoutubeApiError,1
+c:/src/pylint-intervention/data/in_the_wild\versions/funnel/0997d1fa925badac879b312fbcf68d06db469caa/before/funnel_slash_views_slash_video.py,VideoData,1

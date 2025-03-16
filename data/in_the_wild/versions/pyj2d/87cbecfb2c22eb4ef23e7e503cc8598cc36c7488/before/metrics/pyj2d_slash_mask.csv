@@ -1,1 +1,16 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/pyj2d/87cbecfb2c22eb4ef23e7e503cc8598cc36c7488/before/pyj2d_slash_mask.py,from_threshold,14
+c:/src/pylint-intervention/data/in_the_wild\versions/pyj2d/87cbecfb2c22eb4ef23e7e503cc8598cc36c7488/before/pyj2d_slash_mask.py,Mask.overlap,7
+c:/src/pylint-intervention/data/in_the_wild\versions/pyj2d/87cbecfb2c22eb4ef23e7e503cc8598cc36c7488/before/pyj2d_slash_mask.py,from_surface,4
+c:/src/pylint-intervention/data/in_the_wild\versions/pyj2d/87cbecfb2c22eb4ef23e7e503cc8598cc36c7488/before/pyj2d_slash_mask.py,Mask,3
+c:/src/pylint-intervention/data/in_the_wild\versions/pyj2d/87cbecfb2c22eb4ef23e7e503cc8598cc36c7488/before/pyj2d_slash_mask.py,Mask.toString,3
+c:/src/pylint-intervention/data/in_the_wild\versions/pyj2d/87cbecfb2c22eb4ef23e7e503cc8598cc36c7488/before/pyj2d_slash_mask.py,Mask.__init__,2
+c:/src/pylint-intervention/data/in_the_wild\versions/pyj2d/87cbecfb2c22eb4ef23e7e503cc8598cc36c7488/before/pyj2d_slash_mask.py,Mask.set_at,2
+c:/src/pylint-intervention/data/in_the_wild\versions/pyj2d/87cbecfb2c22eb4ef23e7e503cc8598cc36c7488/before/pyj2d_slash_mask.py,Mask.fill,2
+c:/src/pylint-intervention/data/in_the_wild\versions/pyj2d/87cbecfb2c22eb4ef23e7e503cc8598cc36c7488/before/pyj2d_slash_mask.py,Mask.clear,2
+c:/src/pylint-intervention/data/in_the_wild\versions/pyj2d/87cbecfb2c22eb4ef23e7e503cc8598cc36c7488/before/pyj2d_slash_mask.py,Mask.invert,2
+c:/src/pylint-intervention/data/in_the_wild\versions/pyj2d/87cbecfb2c22eb4ef23e7e503cc8598cc36c7488/before/pyj2d_slash_mask.py,Mask.count,2
+c:/src/pylint-intervention/data/in_the_wild\versions/pyj2d/87cbecfb2c22eb4ef23e7e503cc8598cc36c7488/before/pyj2d_slash_mask.py,Mask.__str__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pyj2d/87cbecfb2c22eb4ef23e7e503cc8598cc36c7488/before/pyj2d_slash_mask.py,Mask.__repr__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pyj2d/87cbecfb2c22eb4ef23e7e503cc8598cc36c7488/before/pyj2d_slash_mask.py,Mask.get_size,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pyj2d/87cbecfb2c22eb4ef23e7e503cc8598cc36c7488/before/pyj2d_slash_mask.py,Mask.get_at,1

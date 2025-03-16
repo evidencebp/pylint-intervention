@@ -1,1 +1,4 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/qkeras/39dc01d9a832b7661aa06dd3600b052756d3fcf4/before/qkeras_slash_qtools_slash_interface.py,map_to_json,23
+c:/src/pylint-intervention/data/in_the_wild\versions/qkeras/39dc01d9a832b7661aa06dd3600b052756d3fcf4/before/qkeras_slash_qtools_slash_interface.py,populate_quantizer,12
+c:/src/pylint-intervention/data/in_the_wild\versions/qkeras/39dc01d9a832b7661aa06dd3600b052756d3fcf4/before/qkeras_slash_qtools_slash_interface.py,print_qstats,4

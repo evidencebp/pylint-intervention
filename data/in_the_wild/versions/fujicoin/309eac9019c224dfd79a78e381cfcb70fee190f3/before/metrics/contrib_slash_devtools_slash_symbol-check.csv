@@ -1,1 +1,15 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/fujicoin/309eac9019c224dfd79a78e381cfcb70fee190f3/before/contrib_slash_devtools_slash_symbol-check.py,check_imported_symbols,6
+c:/src/pylint-intervention/data/in_the_wild\versions/fujicoin/309eac9019c224dfd79a78e381cfcb70fee190f3/before/contrib_slash_devtools_slash_symbol-check.py,check_version,5
+c:/src/pylint-intervention/data/in_the_wild\versions/fujicoin/309eac9019c224dfd79a78e381cfcb70fee190f3/before/contrib_slash_devtools_slash_symbol-check.py,check_exported_symbols,5
+c:/src/pylint-intervention/data/in_the_wild\versions/fujicoin/309eac9019c224dfd79a78e381cfcb70fee190f3/before/contrib_slash_devtools_slash_symbol-check.py,check_ELF_libraries,4
+c:/src/pylint-intervention/data/in_the_wild\versions/fujicoin/309eac9019c224dfd79a78e381cfcb70fee190f3/before/contrib_slash_devtools_slash_symbol-check.py,identify_executable,4
+c:/src/pylint-intervention/data/in_the_wild\versions/fujicoin/309eac9019c224dfd79a78e381cfcb70fee190f3/before/contrib_slash_devtools_slash_symbol-check.py,check_MACHO_libraries,3
+c:/src/pylint-intervention/data/in_the_wild\versions/fujicoin/309eac9019c224dfd79a78e381cfcb70fee190f3/before/contrib_slash_devtools_slash_symbol-check.py,check_PE_libraries,3
+c:/src/pylint-intervention/data/in_the_wild\versions/fujicoin/309eac9019c224dfd79a78e381cfcb70fee190f3/before/contrib_slash_devtools_slash_symbol-check.py,check_PE_subsystem_version,3
+c:/src/pylint-intervention/data/in_the_wild\versions/fujicoin/309eac9019c224dfd79a78e381cfcb70fee190f3/before/contrib_slash_devtools_slash_symbol-check.py,check_MACHO_min_os,2
+c:/src/pylint-intervention/data/in_the_wild\versions/fujicoin/309eac9019c224dfd79a78e381cfcb70fee190f3/before/contrib_slash_devtools_slash_symbol-check.py,check_MACHO_sdk,2
+c:/src/pylint-intervention/data/in_the_wild\versions/fujicoin/309eac9019c224dfd79a78e381cfcb70fee190f3/before/contrib_slash_devtools_slash_symbol-check.py,CPPFilt,2
+c:/src/pylint-intervention/data/in_the_wild\versions/fujicoin/309eac9019c224dfd79a78e381cfcb70fee190f3/before/contrib_slash_devtools_slash_symbol-check.py,CPPFilt.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/fujicoin/309eac9019c224dfd79a78e381cfcb70fee190f3/before/contrib_slash_devtools_slash_symbol-check.py,CPPFilt.__call__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/fujicoin/309eac9019c224dfd79a78e381cfcb70fee190f3/before/contrib_slash_devtools_slash_symbol-check.py,CPPFilt.close,1

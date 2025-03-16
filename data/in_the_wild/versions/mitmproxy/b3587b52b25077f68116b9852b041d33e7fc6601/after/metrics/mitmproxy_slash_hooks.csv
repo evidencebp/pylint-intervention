@@ -1,1 +1,9 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/b3587b52b25077f68116b9852b041d33e7fc6601/after/mitmproxy_slash_hooks.py,Hook,4
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/b3587b52b25077f68116b9852b041d33e7fc6601/after/mitmproxy_slash_hooks.py,Hook.__init_subclass__,4
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/b3587b52b25077f68116b9852b041d33e7fc6601/after/mitmproxy_slash_hooks.py,Hook.__new__,3
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/b3587b52b25077f68116b9852b041d33e7fc6601/after/mitmproxy_slash_hooks.py,Hook.args,2
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/b3587b52b25077f68116b9852b041d33e7fc6601/after/mitmproxy_slash_hooks.py,ConfigureHook,1
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/b3587b52b25077f68116b9852b041d33e7fc6601/after/mitmproxy_slash_hooks.py,DoneHook,1
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/b3587b52b25077f68116b9852b041d33e7fc6601/after/mitmproxy_slash_hooks.py,RunningHook,1
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/b3587b52b25077f68116b9852b041d33e7fc6601/after/mitmproxy_slash_hooks.py,UpdateHook,1

@@ -1,1 +1,3 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/VIP/b300b5398197930de476f8cf3d4fb24717f8bb0a/before/vip_hci_slash_stats_slash_distances.py,cube_distance,27
+c:/src/pylint-intervention/data/in_the_wild\versions/VIP/b300b5398197930de476f8cf3d4fb24717f8bb0a/before/vip_hci_slash_stats_slash_distances.py,spectral_correlation,19

@@ -1,1 +1,8 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/porcupine/405e533ff3841dc12c41a8ed64ea6ece301cb36f/after/scripts_slash_build-exe-installer.py,create_pynsist_cfg,4
+c:/src/pylint-intervention/data/in_the_wild\versions/porcupine/405e533ff3841dc12c41a8ed64ea6ece301cb36f/after/scripts_slash_build-exe-installer.py,copy_tkinter_files,2
+c:/src/pylint-intervention/data/in_the_wild\versions/porcupine/405e533ff3841dc12c41a8ed64ea6ece301cb36f/after/scripts_slash_build-exe-installer.py,get_frozen_requirements_in_a_crazy_way,1
+c:/src/pylint-intervention/data/in_the_wild\versions/porcupine/405e533ff3841dc12c41a8ed64ea6ece301cb36f/after/scripts_slash_build-exe-installer.py,download_tkdnd,1
+c:/src/pylint-intervention/data/in_the_wild\versions/porcupine/405e533ff3841dc12c41a8ed64ea6ece301cb36f/after/scripts_slash_build-exe-installer.py,create_ico_file,1
+c:/src/pylint-intervention/data/in_the_wild\versions/porcupine/405e533ff3841dc12c41a8ed64ea6ece301cb36f/after/scripts_slash_build-exe-installer.py,run_pynsist,1
+c:/src/pylint-intervention/data/in_the_wild\versions/porcupine/405e533ff3841dc12c41a8ed64ea6ece301cb36f/after/scripts_slash_build-exe-installer.py,main,1

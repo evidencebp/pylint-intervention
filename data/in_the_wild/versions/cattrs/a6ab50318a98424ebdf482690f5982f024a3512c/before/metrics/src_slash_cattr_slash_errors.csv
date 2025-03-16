@@ -1,1 +1,3 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/cattrs/a6ab50318a98424ebdf482690f5982f024a3512c/before/src_slash_cattr_slash_errors.py,StructureHandlerNotFoundError,2
+c:/src/pylint-intervention/data/in_the_wild\versions/cattrs/a6ab50318a98424ebdf482690f5982f024a3512c/before/src_slash_cattr_slash_errors.py,StructureHandlerNotFoundError.__init__,1

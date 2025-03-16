@@ -1,1 +1,4 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/Tuxemon/2ee8582a84aa7515dcf94e10d712dec7ba3a4bdb/before/tuxemon_slash_mod_manager_slash_tuxemoncontentserver.py,install_dependencies,8
+c:/src/pylint-intervention/data/in_the_wild\versions/Tuxemon/2ee8582a84aa7515dcf94e10d712dec7ba3a4bdb/before/tuxemon_slash_mod_manager_slash_tuxemoncontentserver.py,download_package,6
+c:/src/pylint-intervention/data/in_the_wild\versions/Tuxemon/2ee8582a84aa7515dcf94e10d712dec7ba3a4bdb/before/tuxemon_slash_mod_manager_slash_tuxemoncontentserver.py,update,1

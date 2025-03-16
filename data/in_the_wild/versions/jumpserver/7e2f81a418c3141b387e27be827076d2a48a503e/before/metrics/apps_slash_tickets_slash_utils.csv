@@ -1,1 +1,3 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/jumpserver/7e2f81a418c3141b387e27be827076d2a48a503e/before/apps_slash_tickets_slash_utils.py,send_ticket_applied_mail_to_assignees,4
+c:/src/pylint-intervention/data/in_the_wild\versions/jumpserver/7e2f81a418c3141b387e27be827076d2a48a503e/before/apps_slash_tickets_slash_utils.py,send_ticket_processed_mail_to_applicant,3

@@ -1,1 +1,4 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/jumpserver/e259d2a9e9167c58fa75a78d1050dd5dcfde96f4/after/apps_slash_users_slash_filters.py,UserFilter,2
+c:/src/pylint-intervention/data/in_the_wild\versions/jumpserver/e259d2a9e9167c58fa75a78d1050dd5dcfde96f4/after/apps_slash_users_slash_filters.py,UserFilter.filter_system_roles,1
+c:/src/pylint-intervention/data/in_the_wild\versions/jumpserver/e259d2a9e9167c58fa75a78d1050dd5dcfde96f4/after/apps_slash_users_slash_filters.py,UserFilter.filter_org_roles,1

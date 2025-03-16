@@ -1,1 +1,12 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/lark/77b7f499215dd4c0e10071f6d536991e3b4308c5/after/examples_slash_advanced_slash_qscintilla_json.py,LexerJson.styleText,4
+c:/src/pylint-intervention/data/in_the_wild\versions/lark/77b7f499215dd4c0e10071f6d536991e3b4308c5/after/examples_slash_advanced_slash_qscintilla_json.py,LexerJson,2
+c:/src/pylint-intervention/data/in_the_wild\versions/lark/77b7f499215dd4c0e10071f6d536991e3b4308c5/after/examples_slash_advanced_slash_qscintilla_json.py,LexerJson.create_styles,2
+c:/src/pylint-intervention/data/in_the_wild\versions/lark/77b7f499215dd4c0e10071f6d536991e3b4308c5/after/examples_slash_advanced_slash_qscintilla_json.py,LexerJson.description,2
+c:/src/pylint-intervention/data/in_the_wild\versions/lark/77b7f499215dd4c0e10071f6d536991e3b4308c5/after/examples_slash_advanced_slash_qscintilla_json.py,EditorAll,2
+c:/src/pylint-intervention/data/in_the_wild\versions/lark/77b7f499215dd4c0e10071f6d536991e3b4308c5/after/examples_slash_advanced_slash_qscintilla_json.py,main,1
+c:/src/pylint-intervention/data/in_the_wild\versions/lark/77b7f499215dd4c0e10071f6d536991e3b4308c5/after/examples_slash_advanced_slash_qscintilla_json.py,LexerJson.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/lark/77b7f499215dd4c0e10071f6d536991e3b4308c5/after/examples_slash_advanced_slash_qscintilla_json.py,LexerJson.create_parser,1
+c:/src/pylint-intervention/data/in_the_wild\versions/lark/77b7f499215dd4c0e10071f6d536991e3b4308c5/after/examples_slash_advanced_slash_qscintilla_json.py,LexerJson.defaultPaper,1
+c:/src/pylint-intervention/data/in_the_wild\versions/lark/77b7f499215dd4c0e10071f6d536991e3b4308c5/after/examples_slash_advanced_slash_qscintilla_json.py,LexerJson.language,1
+c:/src/pylint-intervention/data/in_the_wild\versions/lark/77b7f499215dd4c0e10071f6d536991e3b4308c5/after/examples_slash_advanced_slash_qscintilla_json.py,EditorAll.__init__,1

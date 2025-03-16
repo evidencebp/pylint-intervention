@@ -1,1 +1,4 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/streamlink/561993d2b725ebdc643526420149185607e08aa4/after/src_slash_streamlink_slash_plugins_slash_cdnbg.py,CDNBG._get_streams,6
+c:/src/pylint-intervention/data/in_the_wild\versions/streamlink/561993d2b725ebdc643526420149185607e08aa4/after/src_slash_streamlink_slash_plugins_slash_cdnbg.py,CDNBG,5
+c:/src/pylint-intervention/data/in_the_wild\versions/streamlink/561993d2b725ebdc643526420149185607e08aa4/after/src_slash_streamlink_slash_plugins_slash_cdnbg.py,CDNBG._find_url,1

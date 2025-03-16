@@ -1,1 +1,9 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/pycbc/2ea2926067be24ae4fca20726a8c8ac8531a4d5e/after/pycbc_slash_mchirp_area.py,calc_probabilities,6
+c:/src/pylint-intervention/data/in_the_wild\versions/pycbc/2ea2926067be24ae4fca20726a8c8ac8531a4d5e/after/pycbc_slash_mchirp_area.py,redshift_estimation,2
+c:/src/pylint-intervention/data/in_the_wild\versions/pycbc/2ea2926067be24ae4fca20726a8c8ac8531a4d5e/after/pycbc_slash_mchirp_area.py,get_area,2
+c:/src/pylint-intervention/data/in_the_wild\versions/pycbc/2ea2926067be24ae4fca20726a8c8ac8531a4d5e/after/pycbc_slash_mchirp_area.py,calc_areas,2
+c:/src/pylint-intervention/data/in_the_wild\versions/pycbc/2ea2926067be24ae4fca20726a8c8ac8531a4d5e/after/pycbc_slash_mchirp_area.py,insert_args,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pycbc/2ea2926067be24ae4fca20726a8c8ac8531a4d5e/after/pycbc_slash_mchirp_area.py,from_cli,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pycbc/2ea2926067be24ae4fca20726a8c8ac8531a4d5e/after/pycbc_slash_mchirp_area.py,src_mass_from_z_det_mass,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pycbc/2ea2926067be24ae4fca20726a8c8ac8531a4d5e/after/pycbc_slash_mchirp_area.py,intmc,1

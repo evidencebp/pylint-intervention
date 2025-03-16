@@ -1,1 +1,13 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/Publications/e998977e05ddc6937de9ee6f8229c3661b219614/after/publications_slash_home.py,Settings,6
+c:/src/pylint-intervention/data/in_the_wild\versions/Publications/e998977e05ddc6937de9ee6f8229c3661b219614/after/publications_slash_home.py,Settings.get,5
+c:/src/pylint-intervention/data/in_the_wild\versions/Publications/e998977e05ddc6937de9ee6f8229c3661b219614/after/publications_slash_home.py,Doc,3
+c:/src/pylint-intervention/data/in_the_wild\versions/Publications/e998977e05ddc6937de9ee6f8229c3661b219614/after/publications_slash_home.py,Home,2
+c:/src/pylint-intervention/data/in_the_wild\versions/Publications/e998977e05ddc6937de9ee6f8229c3661b219614/after/publications_slash_home.py,Contact,2
+c:/src/pylint-intervention/data/in_the_wild\versions/Publications/e998977e05ddc6937de9ee6f8229c3661b219614/after/publications_slash_home.py,Software,2
+c:/src/pylint-intervention/data/in_the_wild\versions/Publications/e998977e05ddc6937de9ee6f8229c3661b219614/after/publications_slash_home.py,Status,2
+c:/src/pylint-intervention/data/in_the_wild\versions/Publications/e998977e05ddc6937de9ee6f8229c3661b219614/after/publications_slash_home.py,Doc.get,2
+c:/src/pylint-intervention/data/in_the_wild\versions/Publications/e998977e05ddc6937de9ee6f8229c3661b219614/after/publications_slash_home.py,Home.get,1
+c:/src/pylint-intervention/data/in_the_wild\versions/Publications/e998977e05ddc6937de9ee6f8229c3661b219614/after/publications_slash_home.py,Contact.get,1
+c:/src/pylint-intervention/data/in_the_wild\versions/Publications/e998977e05ddc6937de9ee6f8229c3661b219614/after/publications_slash_home.py,Software.get,1
+c:/src/pylint-intervention/data/in_the_wild\versions/Publications/e998977e05ddc6937de9ee6f8229c3661b219614/after/publications_slash_home.py,Status.get,1

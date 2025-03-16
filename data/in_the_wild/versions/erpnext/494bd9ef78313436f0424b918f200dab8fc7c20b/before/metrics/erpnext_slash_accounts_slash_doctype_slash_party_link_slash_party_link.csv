@@ -1,1 +1,4 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/erpnext/494bd9ef78313436f0424b918f200dab8fc7c20b/before/erpnext_slash_accounts_slash_doctype_slash_party_link_slash_party_link.py,PartyLink,6
+c:/src/pylint-intervention/data/in_the_wild\versions/erpnext/494bd9ef78313436f0424b918f200dab8fc7c20b/before/erpnext_slash_accounts_slash_doctype_slash_party_link_slash_party_link.py,PartyLink.validate,5
+c:/src/pylint-intervention/data/in_the_wild\versions/erpnext/494bd9ef78313436f0424b918f200dab8fc7c20b/before/erpnext_slash_accounts_slash_doctype_slash_party_link_slash_party_link.py,create_party_link,2

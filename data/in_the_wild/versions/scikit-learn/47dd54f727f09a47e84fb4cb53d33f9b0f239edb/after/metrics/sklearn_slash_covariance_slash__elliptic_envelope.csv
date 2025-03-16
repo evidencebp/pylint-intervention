@@ -1,1 +1,8 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/scikit-learn/47dd54f727f09a47e84fb4cb53d33f9b0f239edb/after/sklearn_slash_covariance_slash__elliptic_envelope.py,EllipticEnvelope,2
+c:/src/pylint-intervention/data/in_the_wild\versions/scikit-learn/47dd54f727f09a47e84fb4cb53d33f9b0f239edb/after/sklearn_slash_covariance_slash__elliptic_envelope.py,EllipticEnvelope.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/scikit-learn/47dd54f727f09a47e84fb4cb53d33f9b0f239edb/after/sklearn_slash_covariance_slash__elliptic_envelope.py,EllipticEnvelope.fit,1
+c:/src/pylint-intervention/data/in_the_wild\versions/scikit-learn/47dd54f727f09a47e84fb4cb53d33f9b0f239edb/after/sklearn_slash_covariance_slash__elliptic_envelope.py,EllipticEnvelope.decision_function,1
+c:/src/pylint-intervention/data/in_the_wild\versions/scikit-learn/47dd54f727f09a47e84fb4cb53d33f9b0f239edb/after/sklearn_slash_covariance_slash__elliptic_envelope.py,EllipticEnvelope.score_samples,1
+c:/src/pylint-intervention/data/in_the_wild\versions/scikit-learn/47dd54f727f09a47e84fb4cb53d33f9b0f239edb/after/sklearn_slash_covariance_slash__elliptic_envelope.py,EllipticEnvelope.predict,1
+c:/src/pylint-intervention/data/in_the_wild\versions/scikit-learn/47dd54f727f09a47e84fb4cb53d33f9b0f239edb/after/sklearn_slash_covariance_slash__elliptic_envelope.py,EllipticEnvelope.score,1

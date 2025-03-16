@@ -1,1 +1,7 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/FuzzManager/bb12ebd389864bbba8c2c9e15ab808efae54e660/after/FTB_slash_ProgramConfiguration.py,ProgramConfiguration.__init__,7
+c:/src/pylint-intervention/data/in_the_wild\versions/FuzzManager/bb12ebd389864bbba8c2c9e15ab808efae54e660/after/FTB_slash_ProgramConfiguration.py,ProgramConfiguration.fromBinary,5
+c:/src/pylint-intervention/data/in_the_wild\versions/FuzzManager/bb12ebd389864bbba8c2c9e15ab808efae54e660/after/FTB_slash_ProgramConfiguration.py,ProgramConfiguration,4
+c:/src/pylint-intervention/data/in_the_wild\versions/FuzzManager/bb12ebd389864bbba8c2c9e15ab808efae54e660/after/FTB_slash_ProgramConfiguration.py,ProgramConfiguration.addEnvironmentVariables,2
+c:/src/pylint-intervention/data/in_the_wild\versions/FuzzManager/bb12ebd389864bbba8c2c9e15ab808efae54e660/after/FTB_slash_ProgramConfiguration.py,ProgramConfiguration.addProgramArguments,2
+c:/src/pylint-intervention/data/in_the_wild\versions/FuzzManager/bb12ebd389864bbba8c2c9e15ab808efae54e660/after/FTB_slash_ProgramConfiguration.py,ProgramConfiguration.addMetadata,2

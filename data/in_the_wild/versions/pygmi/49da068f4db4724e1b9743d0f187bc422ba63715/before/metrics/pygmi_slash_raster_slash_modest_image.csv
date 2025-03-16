@@ -1,1 +1,14 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/pygmi/49da068f4db4724e1b9743d0f187bc422ba63715/before/pygmi_slash_raster_slash_modest_image.py,ModestImage._scale_to_res,10
+c:/src/pylint-intervention/data/in_the_wild\versions/pygmi/49da068f4db4724e1b9743d0f187bc422ba63715/before/pygmi_slash_raster_slash_modest_image.py,imshow,8
+c:/src/pylint-intervention/data/in_the_wild\versions/pygmi/49da068f4db4724e1b9743d0f187bc422ba63715/before/pygmi_slash_raster_slash_modest_image.py,ModestImage.set_data,6
+c:/src/pylint-intervention/data/in_the_wild\versions/pygmi/49da068f4db4724e1b9743d0f187bc422ba63715/before/pygmi_slash_raster_slash_modest_image.py,ModestImage,4
+c:/src/pylint-intervention/data/in_the_wild\versions/pygmi/49da068f4db4724e1b9743d0f187bc422ba63715/before/pygmi_slash_raster_slash_modest_image.py,ModestImage._pixel2world,3
+c:/src/pylint-intervention/data/in_the_wild\versions/pygmi/49da068f4db4724e1b9743d0f187bc422ba63715/before/pygmi_slash_raster_slash_modest_image.py,ModestImage._world2pixel,2
+c:/src/pylint-intervention/data/in_the_wild\versions/pygmi/49da068f4db4724e1b9743d0f187bc422ba63715/before/pygmi_slash_raster_slash_modest_image.py,ModestImage.draw,2
+c:/src/pylint-intervention/data/in_the_wild\versions/pygmi/49da068f4db4724e1b9743d0f187bc422ba63715/before/pygmi_slash_raster_slash_modest_image.py,main,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pygmi/49da068f4db4724e1b9743d0f187bc422ba63715/before/pygmi_slash_raster_slash_modest_image.py,extract_matched_slices,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pygmi/49da068f4db4724e1b9743d0f187bc422ba63715/before/pygmi_slash_raster_slash_modest_image.py,ModestImage.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pygmi/49da068f4db4724e1b9743d0f187bc422ba63715/before/pygmi_slash_raster_slash_modest_image.py,ModestImage.invalidate_cache,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pygmi/49da068f4db4724e1b9743d0f187bc422ba63715/before/pygmi_slash_raster_slash_modest_image.py,ModestImage.set_extent,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pygmi/49da068f4db4724e1b9743d0f187bc422ba63715/before/pygmi_slash_raster_slash_modest_image.py,ModestImage.get_array,1

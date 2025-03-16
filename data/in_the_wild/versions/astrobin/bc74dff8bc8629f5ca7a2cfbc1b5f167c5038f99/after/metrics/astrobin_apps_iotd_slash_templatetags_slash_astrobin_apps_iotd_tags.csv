@@ -1,1 +1,3 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/astrobin/bc74dff8bc8629f5ca7a2cfbc1b5f167c5038f99/after/astrobin_apps_iotd_slash_templatetags_slash_astrobin_apps_iotd_tags.py,iotd_submit,1
+c:/src/pylint-intervention/data/in_the_wild\versions/astrobin/bc74dff8bc8629f5ca7a2cfbc1b5f167c5038f99/after/astrobin_apps_iotd_slash_templatetags_slash_astrobin_apps_iotd_tags.py,is_iotd_submitter,1

@@ -1,1 +1,12 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/vpp/d9b0c6fbf7aa5bd9af84264105b39c82028a4a29/before/extras_slash_scripts_slash_crcchecker.py,report,17
+c:/src/pylint-intervention/data/in_the_wild\versions/vpp/d9b0c6fbf7aa5bd9af84264105b39c82028a4a29/before/extras_slash_scripts_slash_crcchecker.py,main,16
+c:/src/pylint-intervention/data/in_the_wild\versions/vpp/d9b0c6fbf7aa5bd9af84264105b39c82028a4a29/before/extras_slash_scripts_slash_crcchecker.py,crc_from_apigen,6
+c:/src/pylint-intervention/data/in_the_wild\versions/vpp/d9b0c6fbf7aa5bd9af84264105b39c82028a4a29/before/extras_slash_scripts_slash_crcchecker.py,check_patchset,6
+c:/src/pylint-intervention/data/in_the_wild\versions/vpp/d9b0c6fbf7aa5bd9af84264105b39c82028a4a29/before/extras_slash_scripts_slash_crcchecker.py,dict_compare,5
+c:/src/pylint-intervention/data/in_the_wild\versions/vpp/d9b0c6fbf7aa5bd9af84264105b39c82028a4a29/before/extras_slash_scripts_slash_crcchecker.py,filelist_from_patchset,5
+c:/src/pylint-intervention/data/in_the_wild\versions/vpp/d9b0c6fbf7aa5bd9af84264105b39c82028a4a29/before/extras_slash_scripts_slash_crcchecker.py,is_deprecated,5
+c:/src/pylint-intervention/data/in_the_wild\versions/vpp/d9b0c6fbf7aa5bd9af84264105b39c82028a4a29/before/extras_slash_scripts_slash_crcchecker.py,is_in_progress,5
+c:/src/pylint-intervention/data/in_the_wild\versions/vpp/d9b0c6fbf7aa5bd9af84264105b39c82028a4a29/before/extras_slash_scripts_slash_crcchecker.py,filelist_from_git_ls,4
+c:/src/pylint-intervention/data/in_the_wild\versions/vpp/d9b0c6fbf7aa5bd9af84264105b39c82028a4a29/before/extras_slash_scripts_slash_crcchecker.py,filelist_from_git_grep,4
+c:/src/pylint-intervention/data/in_the_wild\versions/vpp/d9b0c6fbf7aa5bd9af84264105b39c82028a4a29/before/extras_slash_scripts_slash_crcchecker.py,is_uncommitted_changes,3

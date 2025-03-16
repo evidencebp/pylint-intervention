@@ -1,1 +1,8 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/avnav/b464dc9304ca4106c9392f3f85cb9ad9805a78c2/after/server_slash_handler_slash_layouthandler.py,AVNLayoutHandler,2
+c:/src/pylint-intervention/data/in_the_wild\versions/avnav/b464dc9304ca4106c9392f3f85cb9ad9805a78c2/after/server_slash_handler_slash_layouthandler.py,AVNLayoutHandler.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/avnav/b464dc9304ca4106c9392f3f85cb9ad9805a78c2/after/server_slash_handler_slash_layouthandler.py,AVNLayoutHandler.getAutoScanExtensions,1
+c:/src/pylint-intervention/data/in_the_wild\versions/avnav/b464dc9304ca4106c9392f3f85cb9ad9805a78c2/after/server_slash_handler_slash_layouthandler.py,AVNLayoutHandler.getPrefix,1
+c:/src/pylint-intervention/data/in_the_wild\versions/avnav/b464dc9304ca4106c9392f3f85cb9ad9805a78c2/after/server_slash_handler_slash_layouthandler.py,AVNLayoutHandler.getSystemDir,1
+c:/src/pylint-intervention/data/in_the_wild\versions/avnav/b464dc9304ca4106c9392f3f85cb9ad9805a78c2/after/server_slash_handler_slash_layouthandler.py,AVNLayoutHandler.registerPluginLayout,1
+c:/src/pylint-intervention/data/in_the_wild\versions/avnav/b464dc9304ca4106c9392f3f85cb9ad9805a78c2/after/server_slash_handler_slash_layouthandler.py,AVNLayoutHandler.deregisterPluginLayout,1

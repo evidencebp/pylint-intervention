@@ -1,1 +1,13 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/htmldate/7aee7b6fb9cef73663fbb327e92d436f88f708af/after/htmldate_slash_extractors.py,custom_parse,24
+c:/src/pylint-intervention/data/in_the_wild\versions/htmldate/7aee7b6fb9cef73663fbb327e92d436f88f708af/after/htmldate_slash_extractors.py,try_date_expr,9
+c:/src/pylint-intervention/data/in_the_wild\versions/htmldate/7aee7b6fb9cef73663fbb327e92d436f88f708af/after/htmldate_slash_extractors.py,extract_url_date,5
+c:/src/pylint-intervention/data/in_the_wild\versions/htmldate/7aee7b6fb9cef73663fbb327e92d436f88f708af/after/htmldate_slash_extractors.py,json_search,5
+c:/src/pylint-intervention/data/in_the_wild\versions/htmldate/7aee7b6fb9cef73663fbb327e92d436f88f708af/after/htmldate_slash_extractors.py,idiosyncrasies_search,5
+c:/src/pylint-intervention/data/in_the_wild\versions/htmldate/7aee7b6fb9cef73663fbb327e92d436f88f708af/after/htmldate_slash_extractors.py,regex_parse,4
+c:/src/pylint-intervention/data/in_the_wild\versions/htmldate/7aee7b6fb9cef73663fbb327e92d436f88f708af/after/htmldate_slash_extractors.py,correct_year,3
+c:/src/pylint-intervention/data/in_the_wild\versions/htmldate/7aee7b6fb9cef73663fbb327e92d436f88f708af/after/htmldate_slash_extractors.py,try_swap_values,3
+c:/src/pylint-intervention/data/in_the_wild\versions/htmldate/7aee7b6fb9cef73663fbb327e92d436f88f708af/after/htmldate_slash_extractors.py,external_date_parser,3
+c:/src/pylint-intervention/data/in_the_wild\versions/htmldate/7aee7b6fb9cef73663fbb327e92d436f88f708af/after/htmldate_slash_extractors.py,pattern_search,3
+c:/src/pylint-intervention/data/in_the_wild\versions/htmldate/7aee7b6fb9cef73663fbb327e92d436f88f708af/after/htmldate_slash_extractors.py,discard_unwanted,2
+c:/src/pylint-intervention/data/in_the_wild\versions/htmldate/7aee7b6fb9cef73663fbb327e92d436f88f708af/after/htmldate_slash_extractors.py,img_search,2

@@ -1,1 +1,13 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/acme/d436d6be4744ca7ad00f039a4781a445fb84f3c4/after/acme_slash_jax_slash_losses_slash_mpo.py,MPO.__call__,5
+c:/src/pylint-intervention/data/in_the_wild\versions/acme/d436d6be4744ca7ad00f039a4781a445fb84f3c4/after/acme_slash_jax_slash_losses_slash_mpo.py,MPO,3
+c:/src/pylint-intervention/data/in_the_wild\versions/acme/d436d6be4744ca7ad00f039a4781a445fb84f3c4/after/acme_slash_jax_slash_losses_slash_mpo.py,MPO.init_params,3
+c:/src/pylint-intervention/data/in_the_wild\versions/acme/d436d6be4744ca7ad00f039a4781a445fb84f3c4/after/acme_slash_jax_slash_losses_slash_mpo.py,clip_mpo_params,2
+c:/src/pylint-intervention/data/in_the_wild\versions/acme/d436d6be4744ca7ad00f039a4781a445fb84f3c4/after/acme_slash_jax_slash_losses_slash_mpo.py,compute_weights_and_temperature_loss,1
+c:/src/pylint-intervention/data/in_the_wild\versions/acme/d436d6be4744ca7ad00f039a4781a445fb84f3c4/after/acme_slash_jax_slash_losses_slash_mpo.py,compute_nonparametric_kl_from_normalized_weights,1
+c:/src/pylint-intervention/data/in_the_wild\versions/acme/d436d6be4744ca7ad00f039a4781a445fb84f3c4/after/acme_slash_jax_slash_losses_slash_mpo.py,compute_cross_entropy_loss,1
+c:/src/pylint-intervention/data/in_the_wild\versions/acme/d436d6be4744ca7ad00f039a4781a445fb84f3c4/after/acme_slash_jax_slash_losses_slash_mpo.py,compute_parametric_kl_penalty_and_dual_loss,1
+c:/src/pylint-intervention/data/in_the_wild\versions/acme/d436d6be4744ca7ad00f039a4781a445fb84f3c4/after/acme_slash_jax_slash_losses_slash_mpo.py,MPOParams,1
+c:/src/pylint-intervention/data/in_the_wild\versions/acme/d436d6be4744ca7ad00f039a4781a445fb84f3c4/after/acme_slash_jax_slash_losses_slash_mpo.py,MPOStats,1
+c:/src/pylint-intervention/data/in_the_wild\versions/acme/d436d6be4744ca7ad00f039a4781a445fb84f3c4/after/acme_slash_jax_slash_losses_slash_mpo.py,MPO.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/acme/d436d6be4744ca7ad00f039a4781a445fb84f3c4/after/acme_slash_jax_slash_losses_slash_mpo.py,MPO.per_dim_constraining,1

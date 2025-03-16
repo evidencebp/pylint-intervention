@@ -1,1 +1,9 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/sydent/029dbd01e01ea7bbc0e9b38ae5ef970d99c7f080/after/scripts_slash_casefold_db.py,update_local_associations,18
+c:/src/pylint-intervention/data/in_the_wild\versions/sydent/029dbd01e01ea7bbc0e9b38ae5ef970d99c7f080/after/scripts_slash_casefold_db.py,update_global_associations,11
+c:/src/pylint-intervention/data/in_the_wild\versions/sydent/029dbd01e01ea7bbc0e9b38ae5ef970d99c7f080/after/scripts_slash_casefold_db.py,sendEmailWithBackoff,4
+c:/src/pylint-intervention/data/in_the_wild\versions/sydent/029dbd01e01ea7bbc0e9b38ae5ef970d99c7f080/after/scripts_slash_casefold_db.py,calculate_lookup_hash,2
+c:/src/pylint-intervention/data/in_the_wild\versions/sydent/029dbd01e01ea7bbc0e9b38ae5ef970d99c7f080/after/scripts_slash_casefold_db.py,UpdateDelta,1
+c:/src/pylint-intervention/data/in_the_wild\versions/sydent/029dbd01e01ea7bbc0e9b38ae5ef970d99c7f080/after/scripts_slash_casefold_db.py,DeleteDelta,1
+c:/src/pylint-intervention/data/in_the_wild\versions/sydent/029dbd01e01ea7bbc0e9b38ae5ef970d99c7f080/after/scripts_slash_casefold_db.py,Delta,1
+c:/src/pylint-intervention/data/in_the_wild\versions/sydent/029dbd01e01ea7bbc0e9b38ae5ef970d99c7f080/after/scripts_slash_casefold_db.py,CantSendEmailException,1

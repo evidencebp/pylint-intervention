@@ -1,1 +1,13 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/kivy/6856fa81d98b6905ce5988f266017296e9e9e3ab/before/kivy_slash_uix_slash_bubble.py,Bubble.on_arrow_pos,20
+c:/src/pylint-intervention/data/in_the_wild\versions/kivy/6856fa81d98b6905ce5988f266017296e9e9e3ab/before/kivy_slash_uix_slash_bubble.py,Bubble,5
+c:/src/pylint-intervention/data/in_the_wild\versions/kivy/6856fa81d98b6905ce5988f266017296e9e9e3ab/before/kivy_slash_uix_slash_bubble.py,Bubble.add_widget,5
+c:/src/pylint-intervention/data/in_the_wild\versions/kivy/6856fa81d98b6905ce5988f266017296e9e9e3ab/before/kivy_slash_uix_slash_bubble.py,Bubble.remove_widget,5
+c:/src/pylint-intervention/data/in_the_wild\versions/kivy/6856fa81d98b6905ce5988f266017296e9e9e3ab/before/kivy_slash_uix_slash_bubble.py,Bubble.on_orientation,3
+c:/src/pylint-intervention/data/in_the_wild\versions/kivy/6856fa81d98b6905ce5988f266017296e9e9e3ab/before/kivy_slash_uix_slash_bubble.py,BubbleContent,2
+c:/src/pylint-intervention/data/in_the_wild\versions/kivy/6856fa81d98b6905ce5988f266017296e9e9e3ab/before/kivy_slash_uix_slash_bubble.py,Bubble.on_background_color,2
+c:/src/pylint-intervention/data/in_the_wild\versions/kivy/6856fa81d98b6905ce5988f266017296e9e9e3ab/before/kivy_slash_uix_slash_bubble.py,BubbleContent.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/kivy/6856fa81d98b6905ce5988f266017296e9e9e3ab/before/kivy_slash_uix_slash_bubble.py,Bubble.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/kivy/6856fa81d98b6905ce5988f266017296e9e9e3ab/before/kivy_slash_uix_slash_bubble.py,Bubble._on_texture,1
+c:/src/pylint-intervention/data/in_the_wild\versions/kivy/6856fa81d98b6905ce5988f266017296e9e9e3ab/before/kivy_slash_uix_slash_bubble.py,Bubble.on_background_image,1
+c:/src/pylint-intervention/data/in_the_wild\versions/kivy/6856fa81d98b6905ce5988f266017296e9e9e3ab/before/kivy_slash_uix_slash_bubble.py,Bubble.on_arrow_image,1

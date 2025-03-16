@@ -1,1 +1,8 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/panda-bigmon-core/d42b4e9cd1f908d4fdf7dca1244878dda6d19611/before/core_slash_iDDS_slash_views.py,transforms,4
+c:/src/pylint-intervention/data/in_the_wild\versions/panda-bigmon-core/d42b4e9cd1f908d4fdf7dca1244878dda6d19611/before/core_slash_iDDS_slash_views.py,main,3
+c:/src/pylint-intervention/data/in_the_wild\versions/panda-bigmon-core/d42b4e9cd1f908d4fdf7dca1244878dda6d19611/before/core_slash_iDDS_slash_views.py,collections,3
+c:/src/pylint-intervention/data/in_the_wild\versions/panda-bigmon-core/d42b4e9cd1f908d4fdf7dca1244878dda6d19611/before/core_slash_iDDS_slash_views.py,iddscontents,2
+c:/src/pylint-intervention/data/in_the_wild\versions/panda-bigmon-core/d42b4e9cd1f908d4fdf7dca1244878dda6d19611/before/core_slash_iDDS_slash_views.py,processings,2
+c:/src/pylint-intervention/data/in_the_wild\versions/panda-bigmon-core/d42b4e9cd1f908d4fdf7dca1244878dda6d19611/before/core_slash_iDDS_slash_views.py,getiDDSInfoForTaskRequest,2
+c:/src/pylint-intervention/data/in_the_wild\versions/panda-bigmon-core/d42b4e9cd1f908d4fdf7dca1244878dda6d19611/before/core_slash_iDDS_slash_views.py,to_float,1

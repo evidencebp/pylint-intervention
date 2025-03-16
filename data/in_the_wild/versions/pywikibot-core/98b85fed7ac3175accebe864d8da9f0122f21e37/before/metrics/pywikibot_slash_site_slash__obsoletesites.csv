@@ -1,1 +1,10 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/pywikibot-core/98b85fed7ac3175accebe864d8da9f0122f21e37/before/pywikibot_slash_site_slash__obsoletesites.py,ClosedSite.page_restrictions,3
+c:/src/pylint-intervention/data/in_the_wild\versions/pywikibot-core/98b85fed7ac3175accebe864d8da9f0122f21e37/before/pywikibot_slash_site_slash__obsoletesites.py,ClosedSite,2
+c:/src/pylint-intervention/data/in_the_wild\versions/pywikibot-core/98b85fed7ac3175accebe864d8da9f0122f21e37/before/pywikibot_slash_site_slash__obsoletesites.py,ClosedSite.is_uploaddisabled,2
+c:/src/pylint-intervention/data/in_the_wild\versions/pywikibot-core/98b85fed7ac3175accebe864d8da9f0122f21e37/before/pywikibot_slash_site_slash__obsoletesites.py,RemovedSite,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pywikibot-core/98b85fed7ac3175accebe864d8da9f0122f21e37/before/pywikibot_slash_site_slash__obsoletesites.py,ClosedSite.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pywikibot-core/98b85fed7ac3175accebe864d8da9f0122f21e37/before/pywikibot_slash_site_slash__obsoletesites.py,ClosedSite._closed_error,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pywikibot-core/98b85fed7ac3175accebe864d8da9f0122f21e37/before/pywikibot_slash_site_slash__obsoletesites.py,ClosedSite.recentchanges,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pywikibot-core/98b85fed7ac3175accebe864d8da9f0122f21e37/before/pywikibot_slash_site_slash__obsoletesites.py,ClosedSite.newpages,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pywikibot-core/98b85fed7ac3175accebe864d8da9f0122f21e37/before/pywikibot_slash_site_slash__obsoletesites.py,ClosedSite.newfiles,1

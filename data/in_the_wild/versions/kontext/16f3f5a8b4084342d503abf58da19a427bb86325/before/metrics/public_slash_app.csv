@@ -1,1 +1,12 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/kontext/16f3f5a8b4084342d503abf58da19a427bb86325/before/public_slash_app.py,WsgiApp.create_controller,10
+c:/src/pylint-intervention/data/in_the_wild\versions/kontext/16f3f5a8b4084342d503abf58da19a427bb86325/before/public_slash_app.py,KonTextWsgiApp.__call__,9
+c:/src/pylint-intervention/data/in_the_wild\versions/kontext/16f3f5a8b4084342d503abf58da19a427bb86325/before/public_slash_app.py,setup_logger,5
+c:/src/pylint-intervention/data/in_the_wild\versions/kontext/16f3f5a8b4084342d503abf58da19a427bb86325/before/public_slash_app.py,WsgiApp,5
+c:/src/pylint-intervention/data/in_the_wild\versions/kontext/16f3f5a8b4084342d503abf58da19a427bb86325/before/public_slash_app.py,KonTextWsgiApp,5
+c:/src/pylint-intervention/data/in_the_wild\versions/kontext/16f3f5a8b4084342d503abf58da19a427bb86325/before/public_slash_app.py,server_init,1
+c:/src/pylint-intervention/data/in_the_wild\versions/kontext/16f3f5a8b4084342d503abf58da19a427bb86325/before/public_slash_app.py,extract_user,1
+c:/src/pylint-intervention/data/in_the_wild\versions/kontext/16f3f5a8b4084342d503abf58da19a427bb86325/before/public_slash_app.py,WsgiApp.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/kontext/16f3f5a8b4084342d503abf58da19a427bb86325/before/public_slash_app.py,WsgiApp.__call__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/kontext/16f3f5a8b4084342d503abf58da19a427bb86325/before/public_slash_app.py,KonTextWsgiApp.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/kontext/16f3f5a8b4084342d503abf58da19a427bb86325/before/public_slash_app.py,KonTextWsgiApp._root_url,1

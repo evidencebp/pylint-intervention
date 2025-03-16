@@ -1,1 +1,7 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/b3587b52b25077f68116b9852b041d33e7fc6601/before/mitmproxy_slash_contentviews_slash_msgpack.py,pretty,5
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/b3587b52b25077f68116b9852b041d33e7fc6601/before/mitmproxy_slash_contentviews_slash_msgpack.py,ViewMsgPack,3
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/b3587b52b25077f68116b9852b041d33e7fc6601/before/mitmproxy_slash_contentviews_slash_msgpack.py,parse_msgpack,2
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/b3587b52b25077f68116b9852b041d33e7fc6601/before/mitmproxy_slash_contentviews_slash_msgpack.py,ViewMsgPack.__call__,2
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/b3587b52b25077f68116b9852b041d33e7fc6601/before/mitmproxy_slash_contentviews_slash_msgpack.py,ViewMsgPack.render_priority,2
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/b3587b52b25077f68116b9852b041d33e7fc6601/before/mitmproxy_slash_contentviews_slash_msgpack.py,format_msgpack,1

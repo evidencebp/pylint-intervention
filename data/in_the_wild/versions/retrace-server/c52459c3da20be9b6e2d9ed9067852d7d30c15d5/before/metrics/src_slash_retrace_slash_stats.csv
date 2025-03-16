@@ -1,1 +1,7 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/retrace-server/c52459c3da20be9b6e2d9ed9067852d7d30c15d5/before/src_slash_retrace_slash_stats.py,save_crashstats_packages,6
+c:/src/pylint-intervention/data/in_the_wild\versions/retrace-server/c52459c3da20be9b6e2d9ed9067852d7d30c15d5/before/src_slash_retrace_slash_stats.py,save_crashstats_build_ids,4
+c:/src/pylint-intervention/data/in_the_wild\versions/retrace-server/c52459c3da20be9b6e2d9ed9067852d7d30c15d5/before/src_slash_retrace_slash_stats.py,save_crashstats,3
+c:/src/pylint-intervention/data/in_the_wild\versions/retrace-server/c52459c3da20be9b6e2d9ed9067852d7d30c15d5/before/src_slash_retrace_slash_stats.py,save_crashstats_success,3
+c:/src/pylint-intervention/data/in_the_wild\versions/retrace-server/c52459c3da20be9b6e2d9ed9067852d7d30c15d5/before/src_slash_retrace_slash_stats.py,save_crashstats_reportfull,3
+c:/src/pylint-intervention/data/in_the_wild\versions/retrace-server/c52459c3da20be9b6e2d9ed9067852d7d30c15d5/before/src_slash_retrace_slash_stats.py,init_crashstats_db,1

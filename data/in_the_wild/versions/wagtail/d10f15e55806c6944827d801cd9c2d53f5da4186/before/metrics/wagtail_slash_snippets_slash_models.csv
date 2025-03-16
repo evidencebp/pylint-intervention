@@ -1,1 +1,7 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/wagtail/d10f15e55806c6944827d801cd9c2d53f5da4186/before/wagtail_slash_snippets_slash_models.py,SnippetAdminURLFinder,3
+c:/src/pylint-intervention/data/in_the_wild\versions/wagtail/d10f15e55806c6944827d801cd9c2d53f5da4186/before/wagtail_slash_snippets_slash_models.py,register_snippet,2
+c:/src/pylint-intervention/data/in_the_wild\versions/wagtail/d10f15e55806c6944827d801cd9c2d53f5da4186/before/wagtail_slash_snippets_slash_models.py,SnippetAdminURLFinder.__init__,2
+c:/src/pylint-intervention/data/in_the_wild\versions/wagtail/d10f15e55806c6944827d801cd9c2d53f5da4186/before/wagtail_slash_snippets_slash_models.py,SnippetAdminURLFinder.get_edit_url,2
+c:/src/pylint-intervention/data/in_the_wild\versions/wagtail/d10f15e55806c6944827d801cd9c2d53f5da4186/before/wagtail_slash_snippets_slash_models.py,get_snippet_models,1
+c:/src/pylint-intervention/data/in_the_wild\versions/wagtail/d10f15e55806c6944827d801cd9c2d53f5da4186/before/wagtail_slash_snippets_slash_models.py,get_snippet_usage_url,1

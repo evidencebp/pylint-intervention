@@ -1,1 +1,7 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/ezdxf/5e3c51e593651f0add822a64c7224ef5e476c4da/before/src_slash_ezdxf_slash_math_slash__construct.py,intersection_line_line_2d,11
+c:/src/pylint-intervention/data/in_the_wild\versions/ezdxf/5e3c51e593651f0add822a64c7224ef5e476c4da/before/src_slash_ezdxf_slash_math_slash__construct.py,arc_angle_span_deg,5
+c:/src/pylint-intervention/data/in_the_wild\versions/ezdxf/5e3c51e593651f0add822a64c7224ef5e476c4da/before/src_slash_ezdxf_slash_math_slash__construct.py,arc_angle_span_rad,5
+c:/src/pylint-intervention/data/in_the_wild\versions/ezdxf/5e3c51e593651f0add822a64c7224ef5e476c4da/before/src_slash_ezdxf_slash_math_slash__construct.py,has_clockwise_orientation,4
+c:/src/pylint-intervention/data/in_the_wild\versions/ezdxf/5e3c51e593651f0add822a64c7224ef5e476c4da/before/src_slash_ezdxf_slash_math_slash__construct.py,intersection_ray_ray_3d,3
+c:/src/pylint-intervention/data/in_the_wild\versions/ezdxf/5e3c51e593651f0add822a64c7224ef5e476c4da/before/src_slash_ezdxf_slash_math_slash__construct.py,_determinant,1

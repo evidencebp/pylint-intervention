@@ -1,1 +1,9 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/Benchmarks/8cc5e04b8a54060de8a707f9a6dd25f1ddd10db5/before/common_slash_benchmark_def.py,Benchmark.format_benchmark_config_arguments,7
+c:/src/pylint-intervention/data/in_the_wild\versions/Benchmarks/8cc5e04b8a54060de8a707f9a6dd25f1ddd10db5/before/common_slash_benchmark_def.py,Benchmark,4
+c:/src/pylint-intervention/data/in_the_wild\versions/Benchmarks/8cc5e04b8a54060de8a707f9a6dd25f1ddd10db5/before/common_slash_benchmark_def.py,Benchmark.read_config_file,4
+c:/src/pylint-intervention/data/in_the_wild\versions/Benchmarks/8cc5e04b8a54060de8a707f9a6dd25f1ddd10db5/before/common_slash_benchmark_def.py,Benchmark.__init__,3
+c:/src/pylint-intervention/data/in_the_wild\versions/Benchmarks/8cc5e04b8a54060de8a707f9a6dd25f1ddd10db5/before/common_slash_benchmark_def.py,Benchmark.check_required_exists,2
+c:/src/pylint-intervention/data/in_the_wild\versions/Benchmarks/8cc5e04b8a54060de8a707f9a6dd25f1ddd10db5/before/common_slash_benchmark_def.py,set_seed,1
+c:/src/pylint-intervention/data/in_the_wild\versions/Benchmarks/8cc5e04b8a54060de8a707f9a6dd25f1ddd10db5/before/common_slash_benchmark_def.py,Benchmark.parse_parameters,1
+c:/src/pylint-intervention/data/in_the_wild\versions/Benchmarks/8cc5e04b8a54060de8a707f9a6dd25f1ddd10db5/before/common_slash_benchmark_def.py,Benchmark.set_locals,1

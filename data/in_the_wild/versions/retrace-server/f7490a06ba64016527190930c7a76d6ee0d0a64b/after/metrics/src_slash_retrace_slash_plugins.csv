@@ -1,1 +1,5 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/retrace-server/f7490a06ba64016527190930c7a76d6ee0d0a64b/after/src_slash_retrace_slash_plugins.py,Plugins,2
+c:/src/pylint-intervention/data/in_the_wild\versions/retrace-server/f7490a06ba64016527190930c7a76d6ee0d0a64b/after/src_slash_retrace_slash_plugins.py,Plugins.__new__,2
+c:/src/pylint-intervention/data/in_the_wild\versions/retrace-server/f7490a06ba64016527190930c7a76d6ee0d0a64b/after/src_slash_retrace_slash_plugins.py,Plugins.__getattr__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/retrace-server/f7490a06ba64016527190930c7a76d6ee0d0a64b/after/src_slash_retrace_slash_plugins.py,Plugins.__setattr__,1

@@ -1,1 +1,3 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/FuzzManager/bb12ebd389864bbba8c2c9e15ab808efae54e660/before/server_slash_crashmanager_slash_migrations_slash_0004_bugzillatemplate_mode.py,update_mode,1
+c:/src/pylint-intervention/data/in_the_wild\versions/FuzzManager/bb12ebd389864bbba8c2c9e15ab808efae54e660/before/server_slash_crashmanager_slash_migrations_slash_0004_bugzillatemplate_mode.py,Migration,1

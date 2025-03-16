@@ -1,1 +1,15 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/yoda-portal/30b4efb50ca299a0c429b395a27a8fadbda62e7d/after/user_slash_user.py,callback,10
+c:/src/pylint-intervention/data/in_the_wild\versions/yoda-portal/30b4efb50ca299a0c429b395a27a8fadbda62e7d/after/user_slash_user.py,login,9
+c:/src/pylint-intervention/data/in_the_wild\versions/yoda-portal/30b4efb50ca299a0c429b395a27a8fadbda62e7d/after/user_slash_user.py,gate,6
+c:/src/pylint-intervention/data/in_the_wild\versions/yoda-portal/30b4efb50ca299a0c429b395a27a8fadbda62e7d/after/user_slash_user.py,prepare_user,5
+c:/src/pylint-intervention/data/in_the_wild\versions/yoda-portal/30b4efb50ca299a0c429b395a27a8fadbda62e7d/after/user_slash_user.py,settings,4
+c:/src/pylint-intervention/data/in_the_wild\versions/yoda-portal/30b4efb50ca299a0c429b395a27a8fadbda62e7d/after/user_slash_user.py,should_redirect_to_oidc,4
+c:/src/pylint-intervention/data/in_the_wild\versions/yoda-portal/30b4efb50ca299a0c429b395a27a8fadbda62e7d/after/user_slash_user.py,oidc_authorize_url,2
+c:/src/pylint-intervention/data/in_the_wild\versions/yoda-portal/30b4efb50ca299a0c429b395a27a8fadbda62e7d/after/user_slash_user.py,original_destination,2
+c:/src/pylint-intervention/data/in_the_wild\versions/yoda-portal/30b4efb50ca299a0c429b395a27a8fadbda62e7d/after/user_slash_user.py,logout,1
+c:/src/pylint-intervention/data/in_the_wild\versions/yoda-portal/30b4efb50ca299a0c429b395a27a8fadbda62e7d/after/user_slash_user.py,notifications,1
+c:/src/pylint-intervention/data/in_the_wild\versions/yoda-portal/30b4efb50ca299a0c429b395a27a8fadbda62e7d/after/user_slash_user.py,data_access,1
+c:/src/pylint-intervention/data/in_the_wild\versions/yoda-portal/30b4efb50ca299a0c429b395a27a8fadbda62e7d/after/user_slash_user.py,irods_login,1
+c:/src/pylint-intervention/data/in_the_wild\versions/yoda-portal/30b4efb50ca299a0c429b395a27a8fadbda62e7d/after/user_slash_user.py,escape_irods_pam_password,1
+c:/src/pylint-intervention/data/in_the_wild\versions/yoda-portal/30b4efb50ca299a0c429b395a27a8fadbda62e7d/after/user_slash_user.py,release_session,1

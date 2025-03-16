@@ -1,1 +1,14 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/moto/5de95b026ac7474d8edbce20666531388babc912/after/moto_slash_server.py,DomainDispatcherApplication.get_application,10
+c:/src/pylint-intervention/data/in_the_wild\versions/moto/5de95b026ac7474d8edbce20666531388babc912/after/moto_slash_server.py,DomainDispatcherApplication.get_backend_for_host,7
+c:/src/pylint-intervention/data/in_the_wild\versions/moto/5de95b026ac7474d8edbce20666531388babc912/after/moto_slash_server.py,DomainDispatcherApplication.infer_service_region_host,7
+c:/src/pylint-intervention/data/in_the_wild\versions/moto/5de95b026ac7474d8edbce20666531388babc912/after/moto_slash_server.py,DomainDispatcherApplication,6
+c:/src/pylint-intervention/data/in_the_wild\versions/moto/5de95b026ac7474d8edbce20666531388babc912/after/moto_slash_server.py,create_backend_app,4
+c:/src/pylint-intervention/data/in_the_wild\versions/moto/5de95b026ac7474d8edbce20666531388babc912/after/moto_slash_server.py,main,4
+c:/src/pylint-intervention/data/in_the_wild\versions/moto/5de95b026ac7474d8edbce20666531388babc912/after/moto_slash_server.py,RegexConverter,2
+c:/src/pylint-intervention/data/in_the_wild\versions/moto/5de95b026ac7474d8edbce20666531388babc912/after/moto_slash_server.py,AWSTestHelper,2
+c:/src/pylint-intervention/data/in_the_wild\versions/moto/5de95b026ac7474d8edbce20666531388babc912/after/moto_slash_server.py,DomainDispatcherApplication.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/moto/5de95b026ac7474d8edbce20666531388babc912/after/moto_slash_server.py,DomainDispatcherApplication.__call__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/moto/5de95b026ac7474d8edbce20666531388babc912/after/moto_slash_server.py,RegexConverter.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/moto/5de95b026ac7474d8edbce20666531388babc912/after/moto_slash_server.py,AWSTestHelper.action_data,1
+c:/src/pylint-intervention/data/in_the_wild\versions/moto/5de95b026ac7474d8edbce20666531388babc912/after/moto_slash_server.py,AWSTestHelper.action_json,1

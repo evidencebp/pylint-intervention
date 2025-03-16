@@ -1,1 +1,5 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/vpp/d9b0c6fbf7aa5bd9af84264105b39c82028a4a29/before/src_slash_plugins_slash_nat_slash_extras_slash_nat_out2in_10Ms.py,STLS1,3
+c:/src/pylint-intervention/data/in_the_wild\versions/vpp/d9b0c6fbf7aa5bd9af84264105b39c82028a4a29/before/src_slash_plugins_slash_nat_slash_extras_slash_nat_out2in_10Ms.py,STLS1.create_stream,2
+c:/src/pylint-intervention/data/in_the_wild\versions/vpp/d9b0c6fbf7aa5bd9af84264105b39c82028a4a29/before/src_slash_plugins_slash_nat_slash_extras_slash_nat_out2in_10Ms.py,register,1
+c:/src/pylint-intervention/data/in_the_wild\versions/vpp/d9b0c6fbf7aa5bd9af84264105b39c82028a4a29/before/src_slash_plugins_slash_nat_slash_extras_slash_nat_out2in_10Ms.py,STLS1.get_streams,1

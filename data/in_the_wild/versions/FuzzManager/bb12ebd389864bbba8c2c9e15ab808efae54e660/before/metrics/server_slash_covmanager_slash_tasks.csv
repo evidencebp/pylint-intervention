@@ -1,1 +1,4 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/FuzzManager/bb12ebd389864bbba8c2c9e15ab808efae54e660/before/server_slash_covmanager_slash_tasks.py,calculate_report_summary,10
+c:/src/pylint-intervention/data/in_the_wild\versions/FuzzManager/bb12ebd389864bbba8c2c9e15ab808efae54e660/before/server_slash_covmanager_slash_tasks.py,aggregate_coverage_data,4
+c:/src/pylint-intervention/data/in_the_wild\versions/FuzzManager/bb12ebd389864bbba8c2c9e15ab808efae54e660/before/server_slash_covmanager_slash_tasks.py,check_revision_update,2

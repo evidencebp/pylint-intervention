@@ -1,1 +1,11 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/python-xdis/f9f965a2868b95dc658c4cd6ebf2e612ebb71987/before/xdis_slash_magics.py,sysinfo2magic,5
+c:/src/pylint-intervention/data/in_the_wild\versions/python-xdis/f9f965a2868b95dc658c4cd6ebf2e612ebb71987/before/xdis_slash_magics.py,py_str2tuple,4
+c:/src/pylint-intervention/data/in_the_wild\versions/python-xdis/f9f965a2868b95dc658c4cd6ebf2e612ebb71987/before/xdis_slash_magics.py,int2magic,3
+c:/src/pylint-intervention/data/in_the_wild\versions/python-xdis/f9f965a2868b95dc658c4cd6ebf2e612ebb71987/before/xdis_slash_magics.py,__by_version,3
+c:/src/pylint-intervention/data/in_the_wild\versions/python-xdis/f9f965a2868b95dc658c4cd6ebf2e612ebb71987/before/xdis_slash_magics.py,add_canonic_versions,3
+c:/src/pylint-intervention/data/in_the_wild\versions/python-xdis/f9f965a2868b95dc658c4cd6ebf2e612ebb71987/before/xdis_slash_magics.py,test,2
+c:/src/pylint-intervention/data/in_the_wild\versions/python-xdis/f9f965a2868b95dc658c4cd6ebf2e612ebb71987/before/xdis_slash_magics.py,add_magic_from_int,1
+c:/src/pylint-intervention/data/in_the_wild\versions/python-xdis/f9f965a2868b95dc658c4cd6ebf2e612ebb71987/before/xdis_slash_magics.py,magic2int,1
+c:/src/pylint-intervention/data/in_the_wild\versions/python-xdis/f9f965a2868b95dc658c4cd6ebf2e612ebb71987/before/xdis_slash_magics.py,__show,1
+c:/src/pylint-intervention/data/in_the_wild\versions/python-xdis/f9f965a2868b95dc658c4cd6ebf2e612ebb71987/before/xdis_slash_magics.py,magic_int2tuple,1

@@ -1,1 +1,4 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/pykechain/86cfdcc5c1cfa768eb181843150e70081831e1f9/after/pykechain_slash_models_slash_sidebar_slash_sidebar_button.py,SideBarButton.__init__,16
+c:/src/pylint-intervention/data/in_the_wild\versions/pykechain/86cfdcc5c1cfa768eb181843150e70081831e1f9/after/pykechain_slash_models_slash_sidebar_slash_sidebar_button.py,SideBarButton,11
+c:/src/pylint-intervention/data/in_the_wild\versions/pykechain/86cfdcc5c1cfa768eb181843150e70081831e1f9/after/pykechain_slash_models_slash_sidebar_slash_sidebar_button.py,SideBarButton.as_dict,3

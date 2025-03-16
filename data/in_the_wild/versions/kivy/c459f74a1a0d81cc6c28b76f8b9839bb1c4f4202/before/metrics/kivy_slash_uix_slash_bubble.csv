@@ -1,1 +1,10 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/kivy/c459f74a1a0d81cc6c28b76f8b9839bb1c4f4202/before/kivy_slash_uix_slash_bubble.py,Bubble.on_arrow_pos,19
+c:/src/pylint-intervention/data/in_the_wild\versions/kivy/c459f74a1a0d81cc6c28b76f8b9839bb1c4f4202/before/kivy_slash_uix_slash_bubble.py,Bubble,5
+c:/src/pylint-intervention/data/in_the_wild\versions/kivy/c459f74a1a0d81cc6c28b76f8b9839bb1c4f4202/before/kivy_slash_uix_slash_bubble.py,Bubble.add_widget,4
+c:/src/pylint-intervention/data/in_the_wild\versions/kivy/c459f74a1a0d81cc6c28b76f8b9839bb1c4f4202/before/kivy_slash_uix_slash_bubble.py,BubbleContent,2
+c:/src/pylint-intervention/data/in_the_wild\versions/kivy/c459f74a1a0d81cc6c28b76f8b9839bb1c4f4202/before/kivy_slash_uix_slash_bubble.py,BubbleContent.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/kivy/c459f74a1a0d81cc6c28b76f8b9839bb1c4f4202/before/kivy_slash_uix_slash_bubble.py,Bubble.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/kivy/c459f74a1a0d81cc6c28b76f8b9839bb1c4f4202/before/kivy_slash_uix_slash_bubble.py,Bubble._on_texture,1
+c:/src/pylint-intervention/data/in_the_wild\versions/kivy/c459f74a1a0d81cc6c28b76f8b9839bb1c4f4202/before/kivy_slash_uix_slash_bubble.py,Bubble.on_background_image,1
+c:/src/pylint-intervention/data/in_the_wild\versions/kivy/c459f74a1a0d81cc6c28b76f8b9839bb1c4f4202/before/kivy_slash_uix_slash_bubble.py,Bubble.on_arrow_image,1

@@ -1,1 +1,8 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/mupif/ec9cdef9b82d5e4fcf635aa3fa7023f3cb2c0e39/before/mupif_slash_bbox.py,BBox.intersects,14
+c:/src/pylint-intervention/data/in_the_wild\versions/mupif/ec9cdef9b82d5e4fcf635aa3fa7023f3cb2c0e39/before/mupif_slash_bbox.py,BBox.merge,6
+c:/src/pylint-intervention/data/in_the_wild\versions/mupif/ec9cdef9b82d5e4fcf635aa3fa7023f3cb2c0e39/before/mupif_slash_bbox.py,BBox,5
+c:/src/pylint-intervention/data/in_the_wild\versions/mupif/ec9cdef9b82d5e4fcf635aa3fa7023f3cb2c0e39/before/mupif_slash_bbox.py,BBox.containsPoint,4
+c:/src/pylint-intervention/data/in_the_wild\versions/mupif/ec9cdef9b82d5e4fcf635aa3fa7023f3cb2c0e39/before/mupif_slash_bbox.py,BBox.__hash__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/mupif/ec9cdef9b82d5e4fcf635aa3fa7023f3cb2c0e39/before/mupif_slash_bbox.py,BBox.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/mupif/ec9cdef9b82d5e4fcf635aa3fa7023f3cb2c0e39/before/mupif_slash_bbox.py,BBox.__str__,1

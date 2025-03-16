@@ -1,1 +1,11 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/py-stellar-base/f4506f9d87ad4c614079720fa49718292d36fe96/before/stellar_sdk_slash_xdr_slash_set_options_op.py,SetOptionsOp.pack,19
+c:/src/pylint-intervention/data/in_the_wild\versions/py-stellar-base/f4506f9d87ad4c614079720fa49718292d36fe96/before/stellar_sdk_slash_xdr_slash_set_options_op.py,SetOptionsOp.unpack,10
+c:/src/pylint-intervention/data/in_the_wild\versions/py-stellar-base/f4506f9d87ad4c614079720fa49718292d36fe96/before/stellar_sdk_slash_xdr_slash_set_options_op.py,SetOptionsOp.__eq__,10
+c:/src/pylint-intervention/data/in_the_wild\versions/py-stellar-base/f4506f9d87ad4c614079720fa49718292d36fe96/before/stellar_sdk_slash_xdr_slash_set_options_op.py,SetOptionsOp,6
+c:/src/pylint-intervention/data/in_the_wild\versions/py-stellar-base/f4506f9d87ad4c614079720fa49718292d36fe96/before/stellar_sdk_slash_xdr_slash_set_options_op.py,SetOptionsOp.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/py-stellar-base/f4506f9d87ad4c614079720fa49718292d36fe96/before/stellar_sdk_slash_xdr_slash_set_options_op.py,SetOptionsOp.to_xdr_bytes,1
+c:/src/pylint-intervention/data/in_the_wild\versions/py-stellar-base/f4506f9d87ad4c614079720fa49718292d36fe96/before/stellar_sdk_slash_xdr_slash_set_options_op.py,SetOptionsOp.from_xdr_bytes,1
+c:/src/pylint-intervention/data/in_the_wild\versions/py-stellar-base/f4506f9d87ad4c614079720fa49718292d36fe96/before/stellar_sdk_slash_xdr_slash_set_options_op.py,SetOptionsOp.to_xdr,1
+c:/src/pylint-intervention/data/in_the_wild\versions/py-stellar-base/f4506f9d87ad4c614079720fa49718292d36fe96/before/stellar_sdk_slash_xdr_slash_set_options_op.py,SetOptionsOp.from_xdr,1
+c:/src/pylint-intervention/data/in_the_wild\versions/py-stellar-base/f4506f9d87ad4c614079720fa49718292d36fe96/before/stellar_sdk_slash_xdr_slash_set_options_op.py,SetOptionsOp.__str__,1

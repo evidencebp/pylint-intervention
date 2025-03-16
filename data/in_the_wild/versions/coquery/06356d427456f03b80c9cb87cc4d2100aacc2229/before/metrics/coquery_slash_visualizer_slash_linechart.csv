@@ -1,1 +1,4 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/coquery/06356d427456f03b80c9cb87cc4d2100aacc2229/before/coquery_slash_visualizer_slash_linechart.py,LineChart.plot_facet,10
+c:/src/pylint-intervention/data/in_the_wild\versions/coquery/06356d427456f03b80c9cb87cc4d2100aacc2229/before/coquery_slash_visualizer_slash_linechart.py,LineChart,8
+c:/src/pylint-intervention/data/in_the_wild\versions/coquery/06356d427456f03b80c9cb87cc4d2100aacc2229/before/coquery_slash_visualizer_slash_linechart.py,LineChart.validate_data,3

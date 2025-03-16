@@ -1,1 +1,13 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/python3-trepan/165213ca5c39e822379abb92b5c4f0df8769535b/before/trepan_slash_debugger.py,Trepan.run_script,9
+c:/src/pylint-intervention/data/in_the_wild\versions/python3-trepan/165213ca5c39e822379abb92b5c4f0df8769535b/before/trepan_slash_debugger.py,Trepan.run,8
+c:/src/pylint-intervention/data/in_the_wild\versions/python3-trepan/165213ca5c39e822379abb92b5c4f0df8769535b/before/trepan_slash_debugger.py,Trepan.__init__,8
+c:/src/pylint-intervention/data/in_the_wild\versions/python3-trepan/165213ca5c39e822379abb92b5c4f0df8769535b/before/trepan_slash_debugger.py,Trepan,6
+c:/src/pylint-intervention/data/in_the_wild\versions/python3-trepan/165213ca5c39e822379abb92b5c4f0df8769535b/before/trepan_slash_debugger.py,Trepan.run_exec,5
+c:/src/pylint-intervention/data/in_the_wild\versions/python3-trepan/165213ca5c39e822379abb92b5c4f0df8769535b/before/trepan_slash_debugger.py,Trepan.run_eval,5
+c:/src/pylint-intervention/data/in_the_wild\versions/python3-trepan/165213ca5c39e822379abb92b5c4f0df8769535b/before/trepan_slash_debugger.py,Trepan.complete,3
+c:/src/pylint-intervention/data/in_the_wild\versions/python3-trepan/165213ca5c39e822379abb92b5c4f0df8769535b/before/trepan_slash_debugger.py,foo,2
+c:/src/pylint-intervention/data/in_the_wild\versions/python3-trepan/165213ca5c39e822379abb92b5c4f0df8769535b/before/trepan_slash_debugger.py,Trepan.run_call,2
+c:/src/pylint-intervention/data/in_the_wild\versions/python3-trepan/165213ca5c39e822379abb92b5c4f0df8769535b/before/trepan_slash_debugger.py,Trepan.restart_argv,2
+c:/src/pylint-intervention/data/in_the_wild\versions/python3-trepan/165213ca5c39e822379abb92b5c4f0df8769535b/before/trepan_slash_debugger.py,get_line_buffer,1
+c:/src/pylint-intervention/data/in_the_wild\versions/python3-trepan/165213ca5c39e822379abb92b5c4f0df8769535b/before/trepan_slash_debugger.py,square,1

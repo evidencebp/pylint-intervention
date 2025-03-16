@@ -1,1 +1,6 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/augur/43ea88b2960c87e9267b9305ee8cdfe41a5a933c/after/augur_slash_parse.py,fix_dates,7
+c:/src/pylint-intervention/data/in_the_wild\versions/augur/43ea88b2960c87e9267b9305ee8cdfe41a5a933c/after/augur_slash_parse.py,prettify,7
+c:/src/pylint-intervention/data/in_the_wild\versions/augur/43ea88b2960c87e9267b9305ee8cdfe41a5a933c/after/augur_slash_parse.py,parse_sequence,7
+c:/src/pylint-intervention/data/in_the_wild\versions/augur/43ea88b2960c87e9267b9305ee8cdfe41a5a933c/after/augur_slash_parse.py,run,5
+c:/src/pylint-intervention/data/in_the_wild\versions/augur/43ea88b2960c87e9267b9305ee8cdfe41a5a933c/after/augur_slash_parse.py,register_arguments,1

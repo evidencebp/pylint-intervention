@@ -1,1 +1,3 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/svtplay-dl/3aef9a796eecfea77e9655cbc160988a39368f4e/after/lib_slash_svtplay_dl_slash_service_slash_nrk.py,Nrk,11
+c:/src/pylint-intervention/data/in_the_wild\versions/svtplay-dl/3aef9a796eecfea77e9655cbc160988a39368f4e/after/lib_slash_svtplay_dl_slash_service_slash_nrk.py,Nrk.get,10

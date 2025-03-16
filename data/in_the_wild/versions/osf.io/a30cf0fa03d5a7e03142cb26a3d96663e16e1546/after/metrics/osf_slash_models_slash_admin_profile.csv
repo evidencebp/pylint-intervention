@@ -1,1 +1,3 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/osf.io/a30cf0fa03d5a7e03142cb26a3d96663e16e1546/after/osf_slash_models_slash_admin_profile.py,AdminProfile,2
+c:/src/pylint-intervention/data/in_the_wild\versions/osf.io/a30cf0fa03d5a7e03142cb26a3d96663e16e1546/after/osf_slash_models_slash_admin_profile.py,AdminProfile.__unicode__,1

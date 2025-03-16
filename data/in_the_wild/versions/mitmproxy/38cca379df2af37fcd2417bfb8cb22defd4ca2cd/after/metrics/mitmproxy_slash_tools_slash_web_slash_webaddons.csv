@@ -1,1 +1,5 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/38cca379df2af37fcd2417bfb8cb22defd4ca2cd/after/mitmproxy_slash_tools_slash_web_slash_webaddons.py,open_browser,5
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/38cca379df2af37fcd2417bfb8cb22defd4ca2cd/after/mitmproxy_slash_tools_slash_web_slash_webaddons.py,WebAddon,4
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/38cca379df2af37fcd2417bfb8cb22defd4ca2cd/after/mitmproxy_slash_tools_slash_web_slash_webaddons.py,WebAddon.running,4
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/38cca379df2af37fcd2417bfb8cb22defd4ca2cd/after/mitmproxy_slash_tools_slash_web_slash_webaddons.py,WebAddon.load,1

@@ -1,1 +1,5 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/ccxt/bcc433ab8036bc423d7fde21007562daf47f64d2/after/examples_slash_ccxt.pro_slash_py_slash_on-connected-user-hook.py,watch_orders,3
+c:/src/pylint-intervention/data/in_the_wild\versions/ccxt/bcc433ab8036bc423d7fde21007562daf47f64d2/after/examples_slash_ccxt.pro_slash_py_slash_on-connected-user-hook.py,create_order,2
+c:/src/pylint-intervention/data/in_the_wild\versions/ccxt/bcc433ab8036bc423d7fde21007562daf47f64d2/after/examples_slash_ccxt.pro_slash_py_slash_on-connected-user-hook.py,MyBinance,2
+c:/src/pylint-intervention/data/in_the_wild\versions/ccxt/bcc433ab8036bc423d7fde21007562daf47f64d2/after/examples_slash_ccxt.pro_slash_py_slash_on-connected-user-hook.py,MyBinance.on_connected,1

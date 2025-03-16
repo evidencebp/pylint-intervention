@@ -1,1 +1,16 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/j2cl/7b78ec7ef116cf9f4c9190b87db4d3dc4d122f36/before/dev_slash_replace_all.py,main,20
+c:/src/pylint-intervention/data/in_the_wild\versions/j2cl/7b78ec7ef116cf9f4c9190b87db4d3dc4d122f36/before/dev_slash_replace_all.py,gather_closure_warnings,11
+c:/src/pylint-intervention/data/in_the_wild\versions/j2cl/7b78ec7ef116cf9f4c9190b87db4d3dc4d122f36/before/dev_slash_replace_all.py,blaze_build,6
+c:/src/pylint-intervention/data/in_the_wild\versions/j2cl/7b78ec7ef116cf9f4c9190b87db4d3dc4d122f36/before/dev_slash_replace_all.py,_replace_readable_outputs,2
+c:/src/pylint-intervention/data/in_the_wild\versions/j2cl/7b78ec7ef116cf9f4c9190b87db4d3dc4d122f36/before/dev_slash_replace_all.py,extract_pattern,1
+c:/src/pylint-intervention/data/in_the_wild\versions/j2cl/7b78ec7ef116cf9f4c9190b87db4d3dc4d122f36/before/dev_slash_replace_all.py,replace_pattern,1
+c:/src/pylint-intervention/data/in_the_wild\versions/j2cl/7b78ec7ef116cf9f4c9190b87db4d3dc4d122f36/before/dev_slash_replace_all.py,get_readable_dirs,1
+c:/src/pylint-intervention/data/in_the_wild\versions/j2cl/7b78ec7ef116cf9f4c9190b87db4d3dc4d122f36/before/dev_slash_replace_all.py,_get_dirs_from_blaze_query,1
+c:/src/pylint-intervention/data/in_the_wild\versions/j2cl/7b78ec7ef116cf9f4c9190b87db4d3dc4d122f36/before/dev_slash_replace_all.py,blaze_clean,1
+c:/src/pylint-intervention/data/in_the_wild\versions/j2cl/7b78ec7ef116cf9f4c9190b87db4d3dc4d122f36/before/dev_slash_replace_all.py,replace_transpiled_wasm,1
+c:/src/pylint-intervention/data/in_the_wild\versions/j2cl/7b78ec7ef116cf9f4c9190b87db4d3dc4d122f36/before/dev_slash_replace_all.py,replace_transpiled_js,1
+c:/src/pylint-intervention/data/in_the_wild\versions/j2cl/7b78ec7ef116cf9f4c9190b87db4d3dc4d122f36/before/dev_slash_replace_all.py,is_spam,1
+c:/src/pylint-intervention/data/in_the_wild\versions/j2cl/7b78ec7ef116cf9f4c9190b87db4d3dc4d122f36/before/dev_slash_replace_all.py,replace_transpiled_j2kt,1
+c:/src/pylint-intervention/data/in_the_wild\versions/j2cl/7b78ec7ef116cf9f4c9190b87db4d3dc4d122f36/before/dev_slash_replace_all.py,add_arguments,1
+c:/src/pylint-intervention/data/in_the_wild\versions/j2cl/7b78ec7ef116cf9f4c9190b87db4d3dc4d122f36/before/dev_slash_replace_all.py,run_for_presubmit,1

@@ -1,1 +1,9 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/PyDev.Debugger/51f4ae23c75dfac83d8d22a6a197a94f126a92d2/after/_pydev_bundle_slash__pydev_calltip_util.py,get_description,15
+c:/src/pylint-intervention/data/in_the_wild\versions/PyDev.Debugger/51f4ae23c75dfac83d8d22a6a197a94f126a92d2/after/_pydev_bundle_slash__pydev_calltip_util.py,create_method_stub,10
+c:/src/pylint-intervention/data/in_the_wild\versions/PyDev.Debugger/51f4ae23c75dfac83d8d22a6a197a94f126a92d2/after/_pydev_bundle_slash__pydev_calltip_util.py,get_docstring,10
+c:/src/pylint-intervention/data/in_the_wild\versions/PyDev.Debugger/51f4ae23c75dfac83d8d22a6a197a94f126a92d2/after/_pydev_bundle_slash__pydev_calltip_util.py,is_bound_method,2
+c:/src/pylint-intervention/data/in_the_wild\versions/PyDev.Debugger/51f4ae23c75dfac83d8d22a6a197a94f126a92d2/after/_pydev_bundle_slash__pydev_calltip_util.py,get_bound_class_name,2
+c:/src/pylint-intervention/data/in_the_wild\versions/PyDev.Debugger/51f4ae23c75dfac83d8d22a6a197a94f126a92d2/after/_pydev_bundle_slash__pydev_calltip_util.py,create_function_stub,2
+c:/src/pylint-intervention/data/in_the_wild\versions/PyDev.Debugger/51f4ae23c75dfac83d8d22a6a197a94f126a92d2/after/_pydev_bundle_slash__pydev_calltip_util.py,get_class_name,1
+c:/src/pylint-intervention/data/in_the_wild\versions/PyDev.Debugger/51f4ae23c75dfac83d8d22a6a197a94f126a92d2/after/_pydev_bundle_slash__pydev_calltip_util.py,create_class_stub,1

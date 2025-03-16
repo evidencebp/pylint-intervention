@@ -1,1 +1,4 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/python3-trepan/165213ca5c39e822379abb92b5c4f0df8769535b/after/trepan_slash_processor_slash_command_slash_unalias.py,UnaliasCommand,3
+c:/src/pylint-intervention/data/in_the_wild\versions/python3-trepan/165213ca5c39e822379abb92b5c4f0df8769535b/after/trepan_slash_processor_slash_command_slash_unalias.py,UnaliasCommand.run,3
+c:/src/pylint-intervention/data/in_the_wild\versions/python3-trepan/165213ca5c39e822379abb92b5c4f0df8769535b/after/trepan_slash_processor_slash_command_slash_unalias.py,UnaliasCommand.complete,1

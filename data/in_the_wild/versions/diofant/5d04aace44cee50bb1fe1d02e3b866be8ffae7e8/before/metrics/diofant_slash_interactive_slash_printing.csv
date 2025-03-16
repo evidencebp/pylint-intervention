@@ -1,1 +1,4 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/diofant/5d04aace44cee50bb1fe1d02e3b866be8ffae7e8/before/diofant_slash_interactive_slash_printing.py,init_printing,11
+c:/src/pylint-intervention/data/in_the_wild\versions/diofant/5d04aace44cee50bb1fe1d02e3b866be8ffae7e8/before/diofant_slash_interactive_slash_printing.py,_init_ipython_printing,3
+c:/src/pylint-intervention/data/in_the_wild\versions/diofant/5d04aace44cee50bb1fe1d02e3b866be8ffae7e8/before/diofant_slash_interactive_slash_printing.py,_init_python_printing,1

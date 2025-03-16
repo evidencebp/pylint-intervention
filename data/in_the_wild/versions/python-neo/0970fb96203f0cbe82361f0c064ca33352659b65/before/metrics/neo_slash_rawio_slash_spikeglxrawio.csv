@@ -1,1 +1,14 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/python-neo/0970fb96203f0cbe82361f0c064ca33352659b65/before/neo_slash_rawio_slash_spikeglxrawio.py,SpikeGLXRawIO._parse_header,19
+c:/src/pylint-intervention/data/in_the_wild\versions/python-neo/0970fb96203f0cbe82361f0c064ca33352659b65/before/neo_slash_rawio_slash_spikeglxrawio.py,extract_stream_info,14
+c:/src/pylint-intervention/data/in_the_wild\versions/python-neo/0970fb96203f0cbe82361f0c064ca33352659b65/before/neo_slash_rawio_slash_spikeglxrawio.py,SpikeGLXRawIO._get_analogsignal_chunk,10
+c:/src/pylint-intervention/data/in_the_wild\versions/python-neo/0970fb96203f0cbe82361f0c064ca33352659b65/before/neo_slash_rawio_slash_spikeglxrawio.py,scan_files,8
+c:/src/pylint-intervention/data/in_the_wild\versions/python-neo/0970fb96203f0cbe82361f0c064ca33352659b65/before/neo_slash_rawio_slash_spikeglxrawio.py,parse_spikeglx_fname,6
+c:/src/pylint-intervention/data/in_the_wild\versions/python-neo/0970fb96203f0cbe82361f0c064ca33352659b65/before/neo_slash_rawio_slash_spikeglxrawio.py,SpikeGLXRawIO,5
+c:/src/pylint-intervention/data/in_the_wild\versions/python-neo/0970fb96203f0cbe82361f0c064ca33352659b65/before/neo_slash_rawio_slash_spikeglxrawio.py,read_meta_file,4
+c:/src/pylint-intervention/data/in_the_wild\versions/python-neo/0970fb96203f0cbe82361f0c064ca33352659b65/before/neo_slash_rawio_slash_spikeglxrawio.py,SpikeGLXRawIO.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/python-neo/0970fb96203f0cbe82361f0c064ca33352659b65/before/neo_slash_rawio_slash_spikeglxrawio.py,SpikeGLXRawIO._source_name,1
+c:/src/pylint-intervention/data/in_the_wild\versions/python-neo/0970fb96203f0cbe82361f0c064ca33352659b65/before/neo_slash_rawio_slash_spikeglxrawio.py,SpikeGLXRawIO._segment_t_start,1
+c:/src/pylint-intervention/data/in_the_wild\versions/python-neo/0970fb96203f0cbe82361f0c064ca33352659b65/before/neo_slash_rawio_slash_spikeglxrawio.py,SpikeGLXRawIO._segment_t_stop,1
+c:/src/pylint-intervention/data/in_the_wild\versions/python-neo/0970fb96203f0cbe82361f0c064ca33352659b65/before/neo_slash_rawio_slash_spikeglxrawio.py,SpikeGLXRawIO._get_signal_size,1
+c:/src/pylint-intervention/data/in_the_wild\versions/python-neo/0970fb96203f0cbe82361f0c064ca33352659b65/before/neo_slash_rawio_slash_spikeglxrawio.py,SpikeGLXRawIO._get_signal_t_start,1

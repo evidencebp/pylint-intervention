@@ -1,1 +1,6 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/OpenAtlas/94d3bcbbbd3c97d16e968e5db3ebda69ed23b586/before/openatlas_slash_views_slash_hierarchy.py,hierarchy_update,11
+c:/src/pylint-intervention/data/in_the_wild\versions/OpenAtlas/94d3bcbbbd3c97d16e968e5db3ebda69ed23b586/before/openatlas_slash_views_slash_hierarchy.py,is_multiple,7
+c:/src/pylint-intervention/data/in_the_wild\versions/OpenAtlas/94d3bcbbbd3c97d16e968e5db3ebda69ed23b586/before/openatlas_slash_views_slash_hierarchy.py,hierarchy_insert,4
+c:/src/pylint-intervention/data/in_the_wild\versions/OpenAtlas/94d3bcbbbd3c97d16e968e5db3ebda69ed23b586/before/openatlas_slash_views_slash_hierarchy.py,hierarchy_delete,4
+c:/src/pylint-intervention/data/in_the_wild\versions/OpenAtlas/94d3bcbbbd3c97d16e968e5db3ebda69ed23b586/before/openatlas_slash_views_slash_hierarchy.py,remove_class,3

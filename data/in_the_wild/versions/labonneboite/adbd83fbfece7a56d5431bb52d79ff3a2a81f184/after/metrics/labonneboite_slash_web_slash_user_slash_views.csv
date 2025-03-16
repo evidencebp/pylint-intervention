@@ -1,1 +1,7 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/labonneboite/adbd83fbfece7a56d5431bb52d79ff3a2a81f184/after/labonneboite_slash_web_slash_user_slash_views.py,favorites_add,5
+c:/src/pylint-intervention/data/in_the_wild\versions/labonneboite/adbd83fbfece7a56d5431bb52d79ff3a2a81f184/after/labonneboite_slash_web_slash_user_slash_views.py,favorites_delete,5
+c:/src/pylint-intervention/data/in_the_wild\versions/labonneboite/adbd83fbfece7a56d5431bb52d79ff3a2a81f184/after/labonneboite_slash_web_slash_user_slash_views.py,pro_version,4
+c:/src/pylint-intervention/data/in_the_wild\versions/labonneboite/adbd83fbfece7a56d5431bb52d79ff3a2a81f184/after/labonneboite_slash_web_slash_user_slash_views.py,account_delete,3
+c:/src/pylint-intervention/data/in_the_wild\versions/labonneboite/adbd83fbfece7a56d5431bb52d79ff3a2a81f184/after/labonneboite_slash_web_slash_user_slash_views.py,favorites_list,3
+c:/src/pylint-intervention/data/in_the_wild\versions/labonneboite/adbd83fbfece7a56d5431bb52d79ff3a2a81f184/after/labonneboite_slash_web_slash_user_slash_views.py,account,1

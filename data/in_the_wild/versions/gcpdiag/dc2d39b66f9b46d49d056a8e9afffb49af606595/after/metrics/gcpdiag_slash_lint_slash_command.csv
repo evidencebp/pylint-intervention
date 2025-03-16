@@ -1,1 +1,5 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/gcpdiag/dc2d39b66f9b46d49d056a8e9afffb49af606595/after/gcpdiag_slash_lint_slash_command.py,_parse_rule_patterns,4
+c:/src/pylint-intervention/data/in_the_wild\versions/gcpdiag/dc2d39b66f9b46d49d056a8e9afffb49af606595/after/gcpdiag_slash_lint_slash_command.py,run,3
+c:/src/pylint-intervention/data/in_the_wild\versions/gcpdiag/dc2d39b66f9b46d49d056a8e9afffb49af606595/after/gcpdiag_slash_lint_slash_command.py,_flatten_multi_arg,2
+c:/src/pylint-intervention/data/in_the_wild\versions/gcpdiag/dc2d39b66f9b46d49d056a8e9afffb49af606595/after/gcpdiag_slash_lint_slash_command.py,_init_args_parser,1

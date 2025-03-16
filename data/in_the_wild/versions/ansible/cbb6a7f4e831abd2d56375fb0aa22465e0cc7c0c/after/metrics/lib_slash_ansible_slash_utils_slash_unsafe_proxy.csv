@@ -1,1 +1,8 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/ansible/cbb6a7f4e831abd2d56375fb0aa22465e0cc7c0c/after/lib_slash_ansible_slash_utils_slash_unsafe_proxy.py,wrap_var,5
+c:/src/pylint-intervention/data/in_the_wild\versions/ansible/cbb6a7f4e831abd2d56375fb0aa22465e0cc7c0c/after/lib_slash_ansible_slash_utils_slash_unsafe_proxy.py,_wrap_dict,3
+c:/src/pylint-intervention/data/in_the_wild\versions/ansible/cbb6a7f4e831abd2d56375fb0aa22465e0cc7c0c/after/lib_slash_ansible_slash_utils_slash_unsafe_proxy.py,_wrap_list,3
+c:/src/pylint-intervention/data/in_the_wild\versions/ansible/cbb6a7f4e831abd2d56375fb0aa22465e0cc7c0c/after/lib_slash_ansible_slash_utils_slash_unsafe_proxy.py,UnsafeProxy,3
+c:/src/pylint-intervention/data/in_the_wild\versions/ansible/cbb6a7f4e831abd2d56375fb0aa22465e0cc7c0c/after/lib_slash_ansible_slash_utils_slash_unsafe_proxy.py,UnsafeProxy.__new__,2
+c:/src/pylint-intervention/data/in_the_wild\versions/ansible/cbb6a7f4e831abd2d56375fb0aa22465e0cc7c0c/after/lib_slash_ansible_slash_utils_slash_unsafe_proxy.py,AnsibleUnsafe,1
+c:/src/pylint-intervention/data/in_the_wild\versions/ansible/cbb6a7f4e831abd2d56375fb0aa22465e0cc7c0c/after/lib_slash_ansible_slash_utils_slash_unsafe_proxy.py,AnsibleUnsafeText,1

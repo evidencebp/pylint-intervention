@@ -1,1 +1,3 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/gemrb/d0db464e53eb5a61d13e03596e2c5edb529e82bf/before/gemrb_slash_GUIScripts_slash_demo_slash_MessageWindow.py,OnLoad,1
+c:/src/pylint-intervention/data/in_the_wild\versions/gemrb/d0db464e53eb5a61d13e03596e2c5edb529e82bf/before/gemrb_slash_GUIScripts_slash_demo_slash_MessageWindow.py,UpdateControlStatus,1

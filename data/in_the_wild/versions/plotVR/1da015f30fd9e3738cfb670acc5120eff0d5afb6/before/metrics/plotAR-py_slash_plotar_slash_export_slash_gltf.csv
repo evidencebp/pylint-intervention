@@ -1,1 +1,9 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/plotVR/1da015f30fd9e3738cfb670acc5120eff0d5afb6/before/plotAR-py_slash_plotar_slash_export_slash_gltf.py,data2gltf,22
+c:/src/pylint-intervention/data/in_the_wild\versions/plotVR/1da015f30fd9e3738cfb670acc5120eff0d5afb6/before/plotAR-py_slash_plotar_slash_export_slash_gltf.py,create_sphere,9
+c:/src/pylint-intervention/data/in_the_wild\versions/plotVR/1da015f30fd9e3738cfb670acc5120eff0d5afb6/before/plotAR-py_slash_plotar_slash_export_slash_gltf.py,create_rotation,9
+c:/src/pylint-intervention/data/in_the_wild\versions/plotVR/1da015f30fd9e3738cfb670acc5120eff0d5afb6/before/plotAR-py_slash_plotar_slash_export_slash_gltf.py,GLTF.add_buffer_data,6
+c:/src/pylint-intervention/data/in_the_wild\versions/plotVR/1da015f30fd9e3738cfb670acc5120eff0d5afb6/before/plotAR-py_slash_plotar_slash_export_slash_gltf.py,GLTF,4
+c:/src/pylint-intervention/data/in_the_wild\versions/plotVR/1da015f30fd9e3738cfb670acc5120eff0d5afb6/before/plotAR-py_slash_plotar_slash_export_slash_gltf.py,GLTF.__init__,2
+c:/src/pylint-intervention/data/in_the_wild\versions/plotVR/1da015f30fd9e3738cfb670acc5120eff0d5afb6/before/plotAR-py_slash_plotar_slash_export_slash_gltf.py,create_board,1
+c:/src/pylint-intervention/data/in_the_wild\versions/plotVR/1da015f30fd9e3738cfb670acc5120eff0d5afb6/before/plotAR-py_slash_plotar_slash_export_slash_gltf.py,GLTF.add,1

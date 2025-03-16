@@ -1,1 +1,3 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/notifications-api/1d157836adca8f8d2ec7953fb984ab9fb5775ae8/after/app_slash_billing_slash_billing_schemas.py,serialize_ft_billing_remove_emails,3
+c:/src/pylint-intervention/data/in_the_wild\versions/notifications-api/1d157836adca8f8d2ec7953fb984ab9fb5775ae8/after/app_slash_billing_slash_billing_schemas.py,serialize_ft_billing_yearly_totals,2

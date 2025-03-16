@@ -1,1 +1,4 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/GitPython/21ec529987d10e0010badd37f8da3274167d436f/after/git_slash_objects_slash_tag.py,TagObject,7
+c:/src/pylint-intervention/data/in_the_wild\versions/GitPython/21ec529987d10e0010badd37f8da3274167d436f/after/git_slash_objects_slash_tag.py,TagObject.__init__,7
+c:/src/pylint-intervention/data/in_the_wild\versions/GitPython/21ec529987d10e0010badd37f8da3274167d436f/after/git_slash_objects_slash_tag.py,TagObject._set_cache_,4

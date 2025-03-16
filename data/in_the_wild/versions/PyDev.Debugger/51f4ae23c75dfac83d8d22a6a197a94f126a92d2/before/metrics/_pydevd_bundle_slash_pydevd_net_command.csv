@@ -1,1 +1,9 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/PyDev.Debugger/51f4ae23c75dfac83d8d22a6a197a94f126a92d2/before/_pydevd_bundle_slash_pydevd_net_command.py,NetCommand.__init__,16
+c:/src/pylint-intervention/data/in_the_wild\versions/PyDev.Debugger/51f4ae23c75dfac83d8d22a6a197a94f126a92d2/before/_pydevd_bundle_slash_pydevd_net_command.py,NetCommand,9
+c:/src/pylint-intervention/data/in_the_wild\versions/PyDev.Debugger/51f4ae23c75dfac83d8d22a6a197a94f126a92d2/before/_pydevd_bundle_slash_pydevd_net_command.py,NetCommand.send,4
+c:/src/pylint-intervention/data/in_the_wild\versions/PyDev.Debugger/51f4ae23c75dfac83d8d22a6a197a94f126a92d2/before/_pydevd_bundle_slash_pydevd_net_command.py,NetCommand._show_debug_info,3
+c:/src/pylint-intervention/data/in_the_wild\versions/PyDev.Debugger/51f4ae23c75dfac83d8d22a6a197a94f126a92d2/before/_pydevd_bundle_slash_pydevd_net_command.py,_BaseNetCommand,2
+c:/src/pylint-intervention/data/in_the_wild\versions/PyDev.Debugger/51f4ae23c75dfac83d8d22a6a197a94f126a92d2/before/_pydevd_bundle_slash_pydevd_net_command.py,_BaseNetCommand.send,1
+c:/src/pylint-intervention/data/in_the_wild\versions/PyDev.Debugger/51f4ae23c75dfac83d8d22a6a197a94f126a92d2/before/_pydevd_bundle_slash_pydevd_net_command.py,_NullNetCommand,1
+c:/src/pylint-intervention/data/in_the_wild\versions/PyDev.Debugger/51f4ae23c75dfac83d8d22a6a197a94f126a92d2/before/_pydevd_bundle_slash_pydevd_net_command.py,_NullExitCommand,1

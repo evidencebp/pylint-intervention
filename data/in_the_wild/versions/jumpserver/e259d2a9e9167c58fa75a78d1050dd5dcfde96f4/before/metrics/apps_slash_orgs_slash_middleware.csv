@@ -1,1 +1,5 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/jumpserver/e259d2a9e9167c58fa75a78d1050dd5dcfde96f4/before/apps_slash_orgs_slash_middleware.py,OrgMiddleware.set_permed_org_if_need,8
+c:/src/pylint-intervention/data/in_the_wild\versions/jumpserver/e259d2a9e9167c58fa75a78d1050dd5dcfde96f4/before/apps_slash_orgs_slash_middleware.py,OrgMiddleware,4
+c:/src/pylint-intervention/data/in_the_wild\versions/jumpserver/e259d2a9e9167c58fa75a78d1050dd5dcfde96f4/before/apps_slash_orgs_slash_middleware.py,OrgMiddleware.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/jumpserver/e259d2a9e9167c58fa75a78d1050dd5dcfde96f4/before/apps_slash_orgs_slash_middleware.py,OrgMiddleware.__call__,1

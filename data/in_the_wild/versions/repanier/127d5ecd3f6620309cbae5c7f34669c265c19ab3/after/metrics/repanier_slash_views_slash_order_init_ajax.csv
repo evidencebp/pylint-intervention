@@ -1,1 +1,3 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/repanier/127d5ecd3f6620309cbae5c7f34669c265c19ab3/after/repanier_slash_views_slash_order_init_ajax.py,order_init_ajax,10
+c:/src/pylint-intervention/data/in_the_wild\versions/repanier/127d5ecd3f6620309cbae5c7f34669c265c19ab3/after/repanier_slash_views_slash_order_init_ajax.py,get_html_communication_message,4

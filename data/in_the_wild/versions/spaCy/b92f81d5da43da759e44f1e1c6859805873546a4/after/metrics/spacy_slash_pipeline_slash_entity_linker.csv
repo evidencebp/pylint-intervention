@@ -1,1 +1,16 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/spaCy/b92f81d5da43da759e44f1e1c6859805873546a4/after/spacy_slash_pipeline_slash_entity_linker.py,EntityLinker.predict,21
+c:/src/pylint-intervention/data/in_the_wild\versions/spaCy/b92f81d5da43da759e44f1e1c6859805873546a4/after/spacy_slash_pipeline_slash_entity_linker.py,EntityLinker.update,10
+c:/src/pylint-intervention/data/in_the_wild\versions/spaCy/b92f81d5da43da759e44f1e1c6859805873546a4/after/spacy_slash_pipeline_slash_entity_linker.py,EntityLinker.set_annotations,7
+c:/src/pylint-intervention/data/in_the_wild\versions/spaCy/b92f81d5da43da759e44f1e1c6859805873546a4/after/spacy_slash_pipeline_slash_entity_linker.py,EntityLinker,5
+c:/src/pylint-intervention/data/in_the_wild\versions/spaCy/b92f81d5da43da759e44f1e1c6859805873546a4/after/spacy_slash_pipeline_slash_entity_linker.py,EntityLinker.initialize,5
+c:/src/pylint-intervention/data/in_the_wild\versions/spaCy/b92f81d5da43da759e44f1e1c6859805873546a4/after/spacy_slash_pipeline_slash_entity_linker.py,EntityLinker.get_loss,5
+c:/src/pylint-intervention/data/in_the_wild\versions/spaCy/b92f81d5da43da759e44f1e1c6859805873546a4/after/spacy_slash_pipeline_slash_entity_linker.py,EntityLinker.set_kb,2
+c:/src/pylint-intervention/data/in_the_wild\versions/spaCy/b92f81d5da43da759e44f1e1c6859805873546a4/after/spacy_slash_pipeline_slash_entity_linker.py,EntityLinker.validate_kb,2
+c:/src/pylint-intervention/data/in_the_wild\versions/spaCy/b92f81d5da43da759e44f1e1c6859805873546a4/after/spacy_slash_pipeline_slash_entity_linker.py,make_entity_linker,1
+c:/src/pylint-intervention/data/in_the_wild\versions/spaCy/b92f81d5da43da759e44f1e1c6859805873546a4/after/spacy_slash_pipeline_slash_entity_linker.py,EntityLinker.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/spaCy/b92f81d5da43da759e44f1e1c6859805873546a4/after/spacy_slash_pipeline_slash_entity_linker.py,EntityLinker.score,1
+c:/src/pylint-intervention/data/in_the_wild\versions/spaCy/b92f81d5da43da759e44f1e1c6859805873546a4/after/spacy_slash_pipeline_slash_entity_linker.py,EntityLinker.to_disk,1
+c:/src/pylint-intervention/data/in_the_wild\versions/spaCy/b92f81d5da43da759e44f1e1c6859805873546a4/after/spacy_slash_pipeline_slash_entity_linker.py,EntityLinker.from_disk,1
+c:/src/pylint-intervention/data/in_the_wild\versions/spaCy/b92f81d5da43da759e44f1e1c6859805873546a4/after/spacy_slash_pipeline_slash_entity_linker.py,EntityLinker.rehearse,1
+c:/src/pylint-intervention/data/in_the_wild\versions/spaCy/b92f81d5da43da759e44f1e1c6859805873546a4/after/spacy_slash_pipeline_slash_entity_linker.py,EntityLinker.add_label,1

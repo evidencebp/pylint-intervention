@@ -1,1 +1,3 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/netbox/7c60089692d853c7db2bb3af623bf28347697596/after/netbox_slash_extras_slash_filters.py,TagFilter,2
+c:/src/pylint-intervention/data/in_the_wild\versions/netbox/7c60089692d853c7db2bb3af623bf28347697596/after/netbox_slash_extras_slash_filters.py,TagFilter.__init__,1

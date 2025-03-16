@@ -1,1 +1,14 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/ray/b51d0aa8b12ceb7ce082b69db4d2707ea52c0b69/after/python_slash_ray_slash_serve_slash_api.py,start,14
+c:/src/pylint-intervention/data/in_the_wild\versions/ray/b51d0aa8b12ceb7ce082b69db4d2707ea52c0b69/after/python_slash_ray_slash_serve_slash_api.py,run,8
+c:/src/pylint-intervention/data/in_the_wild\versions/ray/b51d0aa8b12ceb7ce082b69db4d2707ea52c0b69/after/python_slash_ray_slash_serve_slash_api.py,_check_http_and_checkpoint_options,8
+c:/src/pylint-intervention/data/in_the_wild\versions/ray/b51d0aa8b12ceb7ce082b69db4d2707ea52c0b69/after/python_slash_ray_slash_serve_slash_api.py,deployment,4
+c:/src/pylint-intervention/data/in_the_wild\versions/ray/b51d0aa8b12ceb7ce082b69db4d2707ea52c0b69/after/python_slash_ray_slash_serve_slash_api.py,shutdown,2
+c:/src/pylint-intervention/data/in_the_wild\versions/ray/b51d0aa8b12ceb7ce082b69db4d2707ea52c0b69/after/python_slash_ray_slash_serve_slash_api.py,get_replica_context,2
+c:/src/pylint-intervention/data/in_the_wild\versions/ray/b51d0aa8b12ceb7ce082b69db4d2707ea52c0b69/after/python_slash_ray_slash_serve_slash_api.py,get_deployment,2
+c:/src/pylint-intervention/data/in_the_wild\versions/ray/b51d0aa8b12ceb7ce082b69db4d2707ea52c0b69/after/python_slash_ray_slash_serve_slash_api.py,list_deployments,2
+c:/src/pylint-intervention/data/in_the_wild\versions/ray/b51d0aa8b12ceb7ce082b69db4d2707ea52c0b69/after/python_slash_ray_slash_serve_slash_api.py,build,2
+c:/src/pylint-intervention/data/in_the_wild\versions/ray/b51d0aa8b12ceb7ce082b69db4d2707ea52c0b69/after/python_slash_ray_slash_serve_slash_api.py,ingress,1
+c:/src/pylint-intervention/data/in_the_wild\versions/ray/b51d0aa8b12ceb7ce082b69db4d2707ea52c0b69/after/python_slash_ray_slash_serve_slash_api.py,deployment,1
+c:/src/pylint-intervention/data/in_the_wild\versions/ray/b51d0aa8b12ceb7ce082b69db4d2707ea52c0b69/after/python_slash_ray_slash_serve_slash_api.py,deployment,1
+c:/src/pylint-intervention/data/in_the_wild\versions/ray/b51d0aa8b12ceb7ce082b69db4d2707ea52c0b69/after/python_slash_ray_slash_serve_slash_api.py,get_deployment_statuses,1

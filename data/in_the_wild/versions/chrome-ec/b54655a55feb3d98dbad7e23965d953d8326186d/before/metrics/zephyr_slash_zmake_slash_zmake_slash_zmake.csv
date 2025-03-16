@@ -1,1 +1,11 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/chrome-ec/b54655a55feb3d98dbad7e23965d953d8326186d/before/zephyr_slash_zmake_slash_zmake_slash_zmake.py,Zmake.configure,15
+c:/src/pylint-intervention/data/in_the_wild\versions/chrome-ec/b54655a55feb3d98dbad7e23965d953d8326186d/before/zephyr_slash_zmake_slash_zmake_slash_zmake.py,Zmake.build,8
+c:/src/pylint-intervention/data/in_the_wild\versions/chrome-ec/b54655a55feb3d98dbad7e23965d953d8326186d/before/zephyr_slash_zmake_slash_zmake_slash_zmake.py,Zmake,6
+c:/src/pylint-intervention/data/in_the_wild\versions/chrome-ec/b54655a55feb3d98dbad7e23965d953d8326186d/before/zephyr_slash_zmake_slash_zmake_slash_zmake.py,Zmake.test,5
+c:/src/pylint-intervention/data/in_the_wild\versions/chrome-ec/b54655a55feb3d98dbad7e23965d953d8326186d/before/zephyr_slash_zmake_slash_zmake_slash_zmake.py,Zmake.testall,5
+c:/src/pylint-intervention/data/in_the_wild\versions/chrome-ec/b54655a55feb3d98dbad7e23965d953d8326186d/before/zephyr_slash_zmake_slash_zmake_slash_zmake.py,Zmake.__init__,3
+c:/src/pylint-intervention/data/in_the_wild\versions/chrome-ec/b54655a55feb3d98dbad7e23965d953d8326186d/before/zephyr_slash_zmake_slash_zmake_slash_zmake.py,ninja_log_level_override,2
+c:/src/pylint-intervention/data/in_the_wild\versions/chrome-ec/b54655a55feb3d98dbad7e23965d953d8326186d/before/zephyr_slash_zmake_slash_zmake_slash_zmake.py,Zmake.checkout,2
+c:/src/pylint-intervention/data/in_the_wild\versions/chrome-ec/b54655a55feb3d98dbad7e23965d953d8326186d/before/zephyr_slash_zmake_slash_zmake_slash_zmake.py,Zmake._run_pytest,2
+c:/src/pylint-intervention/data/in_the_wild\versions/chrome-ec/b54655a55feb3d98dbad7e23965d953d8326186d/before/zephyr_slash_zmake_slash_zmake_slash_zmake.py,Zmake.platform_ec_dir,1

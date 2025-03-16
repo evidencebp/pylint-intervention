@@ -1,1 +1,4 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/ColorHelper/2365d8b9b5e8f1054c575818bf4a1684d2f9d121/after/lib_slash_coloraide_slash_spaces_slash_hwb_slash_css.py,HWB,2
+c:/src/pylint-intervention/data/in_the_wild\versions/ColorHelper/2365d8b9b5e8f1054c575818bf4a1684d2f9d121/after/lib_slash_coloraide_slash_spaces_slash_hwb_slash_css.py,HWB.to_string,1
+c:/src/pylint-intervention/data/in_the_wild\versions/ColorHelper/2365d8b9b5e8f1054c575818bf4a1684d2f9d121/after/lib_slash_coloraide_slash_spaces_slash_hwb_slash_css.py,HWB.match,1

@@ -1,1 +1,17 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/quicktill/13cecf640046e7c701ac1cfbfeb8e6f3c7707494/after/quicktill_slash_localutils.py,is_england_banking_day,31
+c:/src/pylint-intervention/data/in_the_wild\versions/quicktill/13cecf640046e7c701ac1cfbfeb8e6f3c7707494/after/quicktill_slash_localutils.py,keyboard,9
+c:/src/pylint-intervention/data/in_the_wild\versions/quicktill/13cecf640046e7c701ac1cfbfeb8e6f3c7707494/after/quicktill_slash_localutils.py,stdkeyboard_16by8,5
+c:/src/pylint-intervention/data/in_the_wild\versions/quicktill/13cecf640046e7c701ac1cfbfeb8e6f3c7707494/after/quicktill_slash_localutils.py,stdkeyboard_20by7,5
+c:/src/pylint-intervention/data/in_the_wild\versions/quicktill/13cecf640046e7c701ac1cfbfeb8e6f3c7707494/after/quicktill_slash_localutils.py,delta_england_banking_days,4
+c:/src/pylint-intervention/data/in_the_wild\versions/quicktill/13cecf640046e7c701ac1cfbfeb8e6f3c7707494/after/quicktill_slash_localutils.py,resize,4
+c:/src/pylint-intervention/data/in_the_wild\versions/quicktill/13cecf640046e7c701ac1cfbfeb8e6f3c7707494/after/quicktill_slash_localutils.py,ServiceCharge._update_charge,4
+c:/src/pylint-intervention/data/in_the_wild\versions/quicktill/13cecf640046e7c701ac1cfbfeb8e6f3c7707494/after/quicktill_slash_localutils.py,ServiceCharge,3
+c:/src/pylint-intervention/data/in_the_wild\versions/quicktill/13cecf640046e7c701ac1cfbfeb8e6f3c7707494/after/quicktill_slash_localutils.py,next_england_banking_day,2
+c:/src/pylint-intervention/data/in_the_wild\versions/quicktill/13cecf640046e7c701ac1cfbfeb8e6f3c7707494/after/quicktill_slash_localutils.py,register_hotkeys,2
+c:/src/pylint-intervention/data/in_the_wild\versions/quicktill/13cecf640046e7c701ac1cfbfeb8e6f3c7707494/after/quicktill_slash_localutils.py,ServiceCharge.keypress,2
+c:/src/pylint-intervention/data/in_the_wild\versions/quicktill/13cecf640046e7c701ac1cfbfeb8e6f3c7707494/after/quicktill_slash_localutils.py,keyboard_rhpanel,1
+c:/src/pylint-intervention/data/in_the_wild\versions/quicktill/13cecf640046e7c701ac1cfbfeb8e6f3c7707494/after/quicktill_slash_localutils.py,global_hotkeys,1
+c:/src/pylint-intervention/data/in_the_wild\versions/quicktill/13cecf640046e7c701ac1cfbfeb8e6f3c7707494/after/quicktill_slash_localutils.py,activate_register_with_usertoken,1
+c:/src/pylint-intervention/data/in_the_wild\versions/quicktill/13cecf640046e7c701ac1cfbfeb8e6f3c7707494/after/quicktill_slash_localutils.py,activate_stockterminal_with_usertoken,1
+c:/src/pylint-intervention/data/in_the_wild\versions/quicktill/13cecf640046e7c701ac1cfbfeb8e6f3c7707494/after/quicktill_slash_localutils.py,ServiceCharge.__init__,1

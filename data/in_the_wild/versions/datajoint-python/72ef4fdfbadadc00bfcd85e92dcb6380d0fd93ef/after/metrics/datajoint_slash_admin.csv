@@ -1,1 +1,4 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/datajoint-python/72ef4fdfbadadc00bfcd85e92dcb6380d0fd93ef/after/datajoint_slash_admin.py,kill,16
+c:/src/pylint-intervention/data/in_the_wild\versions/datajoint-python/72ef4fdfbadadc00bfcd85e92dcb6380d0fd93ef/after/datajoint_slash_admin.py,set_password,7
+c:/src/pylint-intervention/data/in_the_wild\versions/datajoint-python/72ef4fdfbadadc00bfcd85e92dcb6380d0fd93ef/after/datajoint_slash_admin.py,kill_quick,6

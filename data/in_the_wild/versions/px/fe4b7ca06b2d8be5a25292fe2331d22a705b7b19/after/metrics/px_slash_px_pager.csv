@@ -1,1 +1,6 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/px/fe4b7ca06b2d8be5a25292fe2331d22a705b7b19/after/px_slash_px_pager.py,which,6
+c:/src/pylint-intervention/data/in_the_wild\versions/px/fe4b7ca06b2d8be5a25292fe2331d22a705b7b19/after/px_slash_px_pager.py,launch_pager,5
+c:/src/pylint-intervention/data/in_the_wild\versions/px/fe4b7ca06b2d8be5a25292fe2331d22a705b7b19/after/px_slash_px_pager.py,_pump_info_to_fd,4
+c:/src/pylint-intervention/data/in_the_wild\versions/px/fe4b7ca06b2d8be5a25292fe2331d22a705b7b19/after/px_slash_px_pager.py,to_command_line,3
+c:/src/pylint-intervention/data/in_the_wild\versions/px/fe4b7ca06b2d8be5a25292fe2331d22a705b7b19/after/px_slash_px_pager.py,page_process_info,3

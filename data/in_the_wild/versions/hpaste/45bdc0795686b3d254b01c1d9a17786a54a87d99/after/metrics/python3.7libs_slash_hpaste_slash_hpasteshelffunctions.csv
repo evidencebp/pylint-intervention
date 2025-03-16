@@ -1,1 +1,5 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/hpaste/45bdc0795686b3d254b01c1d9a17786a54a87d99/after/python3.7libs_slash_hpaste_slash_hpasteshelffunctions.py,hpasteweb,17
+c:/src/pylint-intervention/data/in_the_wild\versions/hpaste/45bdc0795686b3d254b01c1d9a17786a54a87d99/after/python3.7libs_slash_hpaste_slash_hpasteshelffunctions.py,hcopyweb,15
+c:/src/pylint-intervention/data/in_the_wild\versions/hpaste/45bdc0795686b3d254b01c1d9a17786a54a87d99/after/python3.7libs_slash_hpaste_slash_hpasteshelffunctions.py,hpaste_inspect_tool,3
+c:/src/pylint-intervention/data/in_the_wild\versions/hpaste/45bdc0795686b3d254b01c1d9a17786a54a87d99/after/python3.7libs_slash_hpaste_slash_hpasteshelffunctions.py,get_clipboard_text,2

@@ -1,1 +1,6 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/vhdl-style-guide/a0709483e0af5dfe36d592b1c4f78a423428c228/after/vsg_slash_rules_slash_block_comment_slash_rule_002.py,middle_comment,4
+c:/src/pylint-intervention/data/in_the_wild\versions/vhdl-style-guide/a0709483e0af5dfe36d592b1c4f78a423428c228/after/vsg_slash_rules_slash_block_comment_slash_rule_002.py,analyze_middle_comment,3
+c:/src/pylint-intervention/data/in_the_wild\versions/vhdl-style-guide/a0709483e0af5dfe36d592b1c4f78a423428c228/after/vsg_slash_rules_slash_block_comment_slash_rule_002.py,rule_002,3
+c:/src/pylint-intervention/data/in_the_wild\versions/vhdl-style-guide/a0709483e0af5dfe36d592b1c4f78a423428c228/after/vsg_slash_rules_slash_block_comment_slash_rule_002.py,rule_002.analyze_comments,3
+c:/src/pylint-intervention/data/in_the_wild\versions/vhdl-style-guide/a0709483e0af5dfe36d592b1c4f78a423428c228/after/vsg_slash_rules_slash_block_comment_slash_rule_002.py,rule_002.__init__,1

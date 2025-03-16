@@ -1,1 +1,5 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/burnman/4742e0b98c7a8a83decb311d41732b870555f539/before/burnman_slash_minerals_slash_Sundman_1991.py,bcc_iron,2
+c:/src/pylint-intervention/data/in_the_wild\versions/burnman/4742e0b98c7a8a83decb311d41732b870555f539/before/burnman_slash_minerals_slash_Sundman_1991.py,fcc_iron,2
+c:/src/pylint-intervention/data/in_the_wild\versions/burnman/4742e0b98c7a8a83decb311d41732b870555f539/before/burnman_slash_minerals_slash_Sundman_1991.py,bcc_iron.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/burnman/4742e0b98c7a8a83decb311d41732b870555f539/before/burnman_slash_minerals_slash_Sundman_1991.py,fcc_iron.__init__,1

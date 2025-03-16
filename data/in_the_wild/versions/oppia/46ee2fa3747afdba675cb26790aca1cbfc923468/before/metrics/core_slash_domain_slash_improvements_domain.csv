@@ -1,1 +1,7 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/oppia/46ee2fa3747afdba675cb26790aca1cbfc923468/before/core_slash_domain_slash_improvements_domain.py,TaskEntry.to_dict,5
+c:/src/pylint-intervention/data/in_the_wild\versions/oppia/46ee2fa3747afdba675cb26790aca1cbfc923468/before/core_slash_domain_slash_improvements_domain.py,TaskEntry,3
+c:/src/pylint-intervention/data/in_the_wild\versions/oppia/46ee2fa3747afdba675cb26790aca1cbfc923468/before/core_slash_domain_slash_improvements_domain.py,TaskEntry.__init__,2
+c:/src/pylint-intervention/data/in_the_wild\versions/oppia/46ee2fa3747afdba675cb26790aca1cbfc923468/before/core_slash_domain_slash_improvements_domain.py,TaskEntryDict,1
+c:/src/pylint-intervention/data/in_the_wild\versions/oppia/46ee2fa3747afdba675cb26790aca1cbfc923468/before/core_slash_domain_slash_improvements_domain.py,TaskEntry.task_id,1
+c:/src/pylint-intervention/data/in_the_wild\versions/oppia/46ee2fa3747afdba675cb26790aca1cbfc923468/before/core_slash_domain_slash_improvements_domain.py,TaskEntry.composite_entity_id,1

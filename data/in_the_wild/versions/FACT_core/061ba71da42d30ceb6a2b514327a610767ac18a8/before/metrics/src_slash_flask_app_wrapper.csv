@@ -1,1 +1,5 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/FACT_core/061ba71da42d30ceb6a2b514327a610767ac18a8/before/src_slash_flask_app_wrapper.py,_load_config,3
+c:/src/pylint-intervention/data/in_the_wild\versions/FACT_core/061ba71da42d30ceb6a2b514327a610767ac18a8/before/src_slash_flask_app_wrapper.py,_get_console_output_level,2
+c:/src/pylint-intervention/data/in_the_wild\versions/FACT_core/061ba71da42d30ceb6a2b514327a610767ac18a8/before/src_slash_flask_app_wrapper.py,_setup_logging,1
+c:/src/pylint-intervention/data/in_the_wild\versions/FACT_core/061ba71da42d30ceb6a2b514327a610767ac18a8/before/src_slash_flask_app_wrapper.py,shutdown,1

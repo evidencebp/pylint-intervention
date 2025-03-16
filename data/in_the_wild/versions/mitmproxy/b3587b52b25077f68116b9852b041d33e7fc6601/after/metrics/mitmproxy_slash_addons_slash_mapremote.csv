@@ -1,1 +1,8 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/b3587b52b25077f68116b9852b041d33e7fc6601/after/mitmproxy_slash_addons_slash_mapremote.py,MapRemote.request,7
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/b3587b52b25077f68116b9852b041d33e7fc6601/after/mitmproxy_slash_addons_slash_mapremote.py,MapRemote,4
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/b3587b52b25077f68116b9852b041d33e7fc6601/after/mitmproxy_slash_addons_slash_mapremote.py,MapRemote.configure,4
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/b3587b52b25077f68116b9852b041d33e7fc6601/after/mitmproxy_slash_addons_slash_mapremote.py,parse_map_remote_spec,2
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/b3587b52b25077f68116b9852b041d33e7fc6601/after/mitmproxy_slash_addons_slash_mapremote.py,MapRemoteSpec,1
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/b3587b52b25077f68116b9852b041d33e7fc6601/after/mitmproxy_slash_addons_slash_mapremote.py,MapRemote.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/mitmproxy/b3587b52b25077f68116b9852b041d33e7fc6601/after/mitmproxy_slash_addons_slash_mapremote.py,MapRemote.load,1

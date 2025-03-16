@@ -1,1 +1,5 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/doit/87e923a7dfb7e9c2fcbec8297afd915e2641266c/before/doit_slash_cmd_run.py,Run._execute,13
+c:/src/pylint-intervention/data/in_the_wild\versions/doit/87e923a7dfb7e9c2fcbec8297afd915e2641266c/before/doit_slash_cmd_run.py,Run,7
+c:/src/pylint-intervention/data/in_the_wild\versions/doit/87e923a7dfb7e9c2fcbec8297afd915e2641266c/before/doit_slash_cmd_run.py,Run.get_reporters,3
+c:/src/pylint-intervention/data/in_the_wild\versions/doit/87e923a7dfb7e9c2fcbec8297afd915e2641266c/before/doit_slash_cmd_run.py,Run.__init__,1

@@ -1,1 +1,8 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/weblate/1c494cd053c3578984d551576eaec5e1bb7061de/before/weblate_slash_machinery_slash_google.py,GoogleTranslation,3
+c:/src/pylint-intervention/data/in_the_wild\versions/weblate/1c494cd053c3578984d551576eaec5e1bb7061de/before/weblate_slash_machinery_slash_google.py,GoogleTranslation.download_languages,3
+c:/src/pylint-intervention/data/in_the_wild\versions/weblate/1c494cd053c3578984d551576eaec5e1bb7061de/before/weblate_slash_machinery_slash_google.py,GoogleTranslation.get_error_message,3
+c:/src/pylint-intervention/data/in_the_wild\versions/weblate/1c494cd053c3578984d551576eaec5e1bb7061de/before/weblate_slash_machinery_slash_google.py,GoogleBaseTranslation,2
+c:/src/pylint-intervention/data/in_the_wild\versions/weblate/1c494cd053c3578984d551576eaec5e1bb7061de/before/weblate_slash_machinery_slash_google.py,GoogleTranslation.__init__,2
+c:/src/pylint-intervention/data/in_the_wild\versions/weblate/1c494cd053c3578984d551576eaec5e1bb7061de/before/weblate_slash_machinery_slash_google.py,GoogleTranslation.download_translations,2
+c:/src/pylint-intervention/data/in_the_wild\versions/weblate/1c494cd053c3578984d551576eaec5e1bb7061de/before/weblate_slash_machinery_slash_google.py,GoogleBaseTranslation.map_language_code,1

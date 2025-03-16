@@ -1,1 +1,9 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/plotVR/1da015f30fd9e3738cfb670acc5120eff0d5afb6/before/plotAR-py_slash_plotar_slash_export_slash_usd.py,data2usd_ascii,24
+c:/src/pylint-intervention/data/in_the_wild\versions/plotVR/1da015f30fd9e3738cfb670acc5120eff0d5afb6/before/plotAR-py_slash_plotar_slash_export_slash_usd.py,data2usdz,5
+c:/src/pylint-intervention/data/in_the_wild\versions/plotVR/1da015f30fd9e3738cfb670acc5120eff0d5afb6/before/plotAR-py_slash_plotar_slash_export_slash_usd.py,usd_check,4
+c:/src/pylint-intervention/data/in_the_wild\versions/plotVR/1da015f30fd9e3738cfb670acc5120eff0d5afb6/before/plotAR-py_slash_plotar_slash_export_slash_usd.py,serialize,3
+c:/src/pylint-intervention/data/in_the_wild\versions/plotVR/1da015f30fd9e3738cfb670acc5120eff0d5afb6/before/plotAR-py_slash_plotar_slash_export_slash_usd.py,run_usdconvert_python_package,3
+c:/src/pylint-intervention/data/in_the_wild\versions/plotVR/1da015f30fd9e3738cfb670acc5120eff0d5afb6/before/plotAR-py_slash_plotar_slash_export_slash_usd.py,__test_PXR_USD_AVAILABLE,2
+c:/src/pylint-intervention/data/in_the_wild\versions/plotVR/1da015f30fd9e3738cfb670acc5120eff0d5afb6/before/plotAR-py_slash_plotar_slash_export_slash_usd.py,run_usdconvert_python_cli,1
+c:/src/pylint-intervention/data/in_the_wild\versions/plotVR/1da015f30fd9e3738cfb670acc5120eff0d5afb6/before/plotAR-py_slash_plotar_slash_export_slash_usd.py,runXcrun,1

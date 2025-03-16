@@ -1,1 +1,12 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/mongo-python-driver/5578999a90e439fbca06fc0ffc98f4d04e96f7b4/before/bson_slash_binary.py,Binary.as_uuid,11
+c:/src/pylint-intervention/data/in_the_wild\versions/mongo-python-driver/5578999a90e439fbca06fc0ffc98f4d04e96f7b4/before/bson_slash_binary.py,Binary.from_uuid,7
+c:/src/pylint-intervention/data/in_the_wild\versions/mongo-python-driver/5578999a90e439fbca06fc0ffc98f4d04e96f7b4/before/bson_slash_binary.py,Binary,4
+c:/src/pylint-intervention/data/in_the_wild\versions/mongo-python-driver/5578999a90e439fbca06fc0ffc98f4d04e96f7b4/before/bson_slash_binary.py,Binary.__new__,4
+c:/src/pylint-intervention/data/in_the_wild\versions/mongo-python-driver/5578999a90e439fbca06fc0ffc98f4d04e96f7b4/before/bson_slash_binary.py,Binary.__getnewargs__,2
+c:/src/pylint-intervention/data/in_the_wild\versions/mongo-python-driver/5578999a90e439fbca06fc0ffc98f4d04e96f7b4/before/bson_slash_binary.py,Binary.__eq__,2
+c:/src/pylint-intervention/data/in_the_wild\versions/mongo-python-driver/5578999a90e439fbca06fc0ffc98f4d04e96f7b4/before/bson_slash_binary.py,UuidRepresentation,1
+c:/src/pylint-intervention/data/in_the_wild\versions/mongo-python-driver/5578999a90e439fbca06fc0ffc98f4d04e96f7b4/before/bson_slash_binary.py,Binary.subtype,1
+c:/src/pylint-intervention/data/in_the_wild\versions/mongo-python-driver/5578999a90e439fbca06fc0ffc98f4d04e96f7b4/before/bson_slash_binary.py,Binary.__hash__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/mongo-python-driver/5578999a90e439fbca06fc0ffc98f4d04e96f7b4/before/bson_slash_binary.py,Binary.__ne__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/mongo-python-driver/5578999a90e439fbca06fc0ffc98f4d04e96f7b4/before/bson_slash_binary.py,Binary.__repr__,1

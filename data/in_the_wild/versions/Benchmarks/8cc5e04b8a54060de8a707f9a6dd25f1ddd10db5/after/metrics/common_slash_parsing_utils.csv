@@ -1,1 +1,14 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/Benchmarks/8cc5e04b8a54060de8a707f9a6dd25f1ddd10db5/after/common_slash_parsing_utils.py,parse_from_dictlist,19
+c:/src/pylint-intervention/data/in_the_wild\versions/Benchmarks/8cc5e04b8a54060de8a707f9a6dd25f1ddd10db5/after/common_slash_parsing_utils.py,args_overwrite_config,7
+c:/src/pylint-intervention/data/in_the_wild\versions/Benchmarks/8cc5e04b8a54060de8a707f9a6dd25f1ddd10db5/after/common_slash_parsing_utils.py,check_flag_conflicts,6
+c:/src/pylint-intervention/data/in_the_wild\versions/Benchmarks/8cc5e04b8a54060de8a707f9a6dd25f1ddd10db5/after/common_slash_parsing_utils.py,finalize_parameters,4
+c:/src/pylint-intervention/data/in_the_wild\versions/Benchmarks/8cc5e04b8a54060de8a707f9a6dd25f1ddd10db5/after/common_slash_parsing_utils.py,ListOfListsAction,4
+c:/src/pylint-intervention/data/in_the_wild\versions/Benchmarks/8cc5e04b8a54060de8a707f9a6dd25f1ddd10db5/after/common_slash_parsing_utils.py,check_file_parameters_exists,3
+c:/src/pylint-intervention/data/in_the_wild\versions/Benchmarks/8cc5e04b8a54060de8a707f9a6dd25f1ddd10db5/after/common_slash_parsing_utils.py,ListOfListsAction.__call__,3
+c:/src/pylint-intervention/data/in_the_wild\versions/Benchmarks/8cc5e04b8a54060de8a707f9a6dd25f1ddd10db5/after/common_slash_parsing_utils.py,extract_keywords,2
+c:/src/pylint-intervention/data/in_the_wild\versions/Benchmarks/8cc5e04b8a54060de8a707f9a6dd25f1ddd10db5/after/common_slash_parsing_utils.py,get_choice,2
+c:/src/pylint-intervention/data/in_the_wild\versions/Benchmarks/8cc5e04b8a54060de8a707f9a6dd25f1ddd10db5/after/common_slash_parsing_utils.py,parse_common,2
+c:/src/pylint-intervention/data/in_the_wild\versions/Benchmarks/8cc5e04b8a54060de8a707f9a6dd25f1ddd10db5/after/common_slash_parsing_utils.py,ArgumentStruct,2
+c:/src/pylint-intervention/data/in_the_wild\versions/Benchmarks/8cc5e04b8a54060de8a707f9a6dd25f1ddd10db5/after/common_slash_parsing_utils.py,ListOfListsAction.__init__,2
+c:/src/pylint-intervention/data/in_the_wild\versions/Benchmarks/8cc5e04b8a54060de8a707f9a6dd25f1ddd10db5/after/common_slash_parsing_utils.py,ArgumentStruct.__init__,1

@@ -1,1 +1,7 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/colour/dd4e35c64d87c6a96f015b75c9ce16eae4e1d8c8/before/colour_slash_appearance_slash_kim2009.py,Kim2009_to_XYZ,5
+c:/src/pylint-intervention/data/in_the_wild\versions/colour/dd4e35c64d87c6a96f015b75c9ce16eae4e1d8c8/before/colour_slash_appearance_slash_kim2009.py,XYZ_to_Kim2009,2
+c:/src/pylint-intervention/data/in_the_wild\versions/colour/dd4e35c64d87c6a96f015b75c9ce16eae4e1d8c8/before/colour_slash_appearance_slash_kim2009.py,MediaParameters_Kim2009,2
+c:/src/pylint-intervention/data/in_the_wild\versions/colour/dd4e35c64d87c6a96f015b75c9ce16eae4e1d8c8/before/colour_slash_appearance_slash_kim2009.py,InductionFactors_Kim2009,1
+c:/src/pylint-intervention/data/in_the_wild\versions/colour/dd4e35c64d87c6a96f015b75c9ce16eae4e1d8c8/before/colour_slash_appearance_slash_kim2009.py,MediaParameters_Kim2009.__new__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/colour/dd4e35c64d87c6a96f015b75c9ce16eae4e1d8c8/before/colour_slash_appearance_slash_kim2009.py,CAM_Specification_Kim2009,1

@@ -1,1 +1,5 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/eDisGo/e6fe1d82029bdc5f4f5e913a31df9a2a71818480/after/edisgo_slash_tools_slash_geo.py,calc_geo_lines_in_buffer,4
+c:/src/pylint-intervention/data/in_the_wild\versions/eDisGo/e6fe1d82029bdc5f4f5e913a31df9a2a71818480/after/edisgo_slash_tools_slash_geo.py,calc_geo_dist_vincenty,2
+c:/src/pylint-intervention/data/in_the_wild\versions/eDisGo/e6fe1d82029bdc5f4f5e913a31df9a2a71818480/after/edisgo_slash_tools_slash_geo.py,proj2equidistant,1
+c:/src/pylint-intervention/data/in_the_wild\versions/eDisGo/e6fe1d82029bdc5f4f5e913a31df9a2a71818480/after/edisgo_slash_tools_slash_geo.py,proj2conformal,1

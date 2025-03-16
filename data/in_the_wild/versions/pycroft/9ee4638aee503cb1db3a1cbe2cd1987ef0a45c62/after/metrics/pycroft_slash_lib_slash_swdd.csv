@@ -1,1 +1,4 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/pycroft/9ee4638aee503cb1db3a1cbe2cd1987ef0a45c62/after/pycroft_slash_lib_slash_swdd.py,get_swdd_person_id,3
+c:/src/pylint-intervention/data/in_the_wild\versions/pycroft/9ee4638aee503cb1db3a1cbe2cd1987ef0a45c62/after/pycroft_slash_lib_slash_swdd.py,get_first_tenancy_with_room,3
+c:/src/pylint-intervention/data/in_the_wild\versions/pycroft/9ee4638aee503cb1db3a1cbe2cd1987ef0a45c62/after/pycroft_slash_lib_slash_swdd.py,get_relevant_tenancies,1

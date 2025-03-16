@@ -1,1 +1,4 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/zulip/067196c508c1c81e0b362abcdcda46353c755a4d/before/tools_slash_lib_slash_provision_inner.py,main,23
+c:/src/pylint-intervention/data/in_the_wild\versions/zulip/067196c508c1c81e0b362abcdcda46353c755a4d/before/tools_slash_lib_slash_provision_inner.py,setup_bash_profile,5
+c:/src/pylint-intervention/data/in_the_wild\versions/zulip/067196c508c1c81e0b362abcdcda46353c755a4d/before/tools_slash_lib_slash_provision_inner.py,setup_shell_profile,2

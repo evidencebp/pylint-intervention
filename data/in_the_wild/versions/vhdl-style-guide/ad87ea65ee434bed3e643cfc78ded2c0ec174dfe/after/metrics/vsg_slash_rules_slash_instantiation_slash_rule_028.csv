@@ -1,1 +1,6 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/vhdl-style-guide/ad87ea65ee434bed3e643cfc78ded2c0ec174dfe/after/vsg_slash_rules_slash_instantiation_slash_rule_028.py,rule_028._analyze,7
+c:/src/pylint-intervention/data/in_the_wild\versions/vhdl-style-guide/ad87ea65ee434bed3e643cfc78ded2c0ec174dfe/after/vsg_slash_rules_slash_instantiation_slash_rule_028.py,rule_028._fix_violation,6
+c:/src/pylint-intervention/data/in_the_wild\versions/vhdl-style-guide/ad87ea65ee434bed3e643cfc78ded2c0ec174dfe/after/vsg_slash_rules_slash_instantiation_slash_rule_028.py,rule_028,5
+c:/src/pylint-intervention/data/in_the_wild\versions/vhdl-style-guide/ad87ea65ee434bed3e643cfc78ded2c0ec174dfe/after/vsg_slash_rules_slash_instantiation_slash_rule_028.py,rule_028.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/vhdl-style-guide/ad87ea65ee434bed3e643cfc78ded2c0ec174dfe/after/vsg_slash_rules_slash_instantiation_slash_rule_028.py,rule_028._get_tokens_of_interest,1

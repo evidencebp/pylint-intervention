@@ -1,1 +1,6 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/mmgen/4631ba7e58f880a50c909a522a13fdf4401f0b08/before/mmgen_slash_main_addrimport.py,main,12
+c:/src/pylint-intervention/data/in_the_wild\versions/mmgen/4631ba7e58f880a50c909a522a13fdf4401f0b08/before/mmgen_slash_main_addrimport.py,check_opts,8
+c:/src/pylint-intervention/data/in_the_wild\versions/mmgen/4631ba7e58f880a50c909a522a13fdf4401f0b08/before/mmgen_slash_main_addrimport.py,gen_args_list,7
+c:/src/pylint-intervention/data/in_the_wild\versions/mmgen/4631ba7e58f880a50c909a522a13fdf4401f0b08/before/mmgen_slash_main_addrimport.py,parse_cmd_args,5
+c:/src/pylint-intervention/data/in_the_wild\versions/mmgen/4631ba7e58f880a50c909a522a13fdf4401f0b08/before/mmgen_slash_main_addrimport.py,import_address,2

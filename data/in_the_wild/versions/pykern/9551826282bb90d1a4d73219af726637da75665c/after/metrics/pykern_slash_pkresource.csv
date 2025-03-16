@@ -1,1 +1,6 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/pykern/9551826282bb90d1a4d73219af726637da75665c/after/pykern_slash_pkresource.py,_files,6
+c:/src/pylint-intervention/data/in_the_wild\versions/pykern/9551826282bb90d1a4d73219af726637da75665c/after/pykern_slash_pkresource.py,filename,4
+c:/src/pylint-intervention/data/in_the_wild\versions/pykern/9551826282bb90d1a4d73219af726637da75665c/after/pykern_slash_pkresource.py,glob_paths,3
+c:/src/pylint-intervention/data/in_the_wild\versions/pykern/9551826282bb90d1a4d73219af726637da75665c/after/pykern_slash_pkresource.py,_raise_no_file_found,2
+c:/src/pylint-intervention/data/in_the_wild\versions/pykern/9551826282bb90d1a4d73219af726637da75665c/after/pykern_slash_pkresource.py,file_path,1

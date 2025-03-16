@@ -1,1 +1,9 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/labonneboite/fa3dd6404bb15e99ca5f65d8360e7406b89f0be3/before/labonneboite_slash_common_slash_util.py,is_safe_url,11
+c:/src/pylint-intervention/data/in_the_wild\versions/labonneboite/fa3dd6404bb15e99ca5f65d8360e7406b89f0be3/before/labonneboite_slash_common_slash_util.py,get_search_url,10
+c:/src/pylint-intervention/data/in_the_wild\versions/labonneboite/fa3dd6404bb15e99ca5f65d8360e7406b89f0be3/before/labonneboite_slash_common_slash_util.py,user_is_pro,8
+c:/src/pylint-intervention/data/in_the_wild\versions/labonneboite/fa3dd6404bb15e99ca5f65d8360e7406b89f0be3/before/labonneboite_slash_common_slash_util.py,get_doorbell_tags,3
+c:/src/pylint-intervention/data/in_the_wild\versions/labonneboite/fa3dd6404bb15e99ca5f65d8360e7406b89f0be3/before/labonneboite_slash_common_slash_util.py,sanitize_string,3
+c:/src/pylint-intervention/data/in_the_wild\versions/labonneboite/fa3dd6404bb15e99ca5f65d8360e7406b89f0be3/before/labonneboite_slash_common_slash_util.py,get_contact_mode_for_rome_and_naf,3
+c:/src/pylint-intervention/data/in_the_wild\versions/labonneboite/fa3dd6404bb15e99ca5f65d8360e7406b89f0be3/before/labonneboite_slash_common_slash_util.py,get_user_ip,2
+c:/src/pylint-intervention/data/in_the_wild\versions/labonneboite/fa3dd6404bb15e99ca5f65d8360e7406b89f0be3/before/labonneboite_slash_common_slash_util.py,get_hotjar_tag,2

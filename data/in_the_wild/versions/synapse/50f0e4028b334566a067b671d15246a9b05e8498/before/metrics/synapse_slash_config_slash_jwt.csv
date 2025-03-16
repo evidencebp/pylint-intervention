@@ -1,1 +1,3 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/synapse/50f0e4028b334566a067b671d15246a9b05e8498/before/synapse_slash_config_slash_jwt.py,JWTConfig,4
+c:/src/pylint-intervention/data/in_the_wild\versions/synapse/50f0e4028b334566a067b671d15246a9b05e8498/before/synapse_slash_config_slash_jwt.py,JWTConfig.read_config,3

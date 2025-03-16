@@ -1,1 +1,16 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/pykern/e1a092898389436513f3525d405c4ce403064626/before/pykern_slash_pkcollections.py,PKDict.pksetdefault,7
+c:/src/pylint-intervention/data/in_the_wild\versions/pykern/e1a092898389436513f3525d405c4ce403064626/before/pykern_slash_pkcollections.py,unchecked_del,3
+c:/src/pylint-intervention/data/in_the_wild\versions/pykern/e1a092898389436513f3525d405c4ce403064626/before/pykern_slash_pkcollections.py,PKDict,3
+c:/src/pylint-intervention/data/in_the_wild\versions/pykern/e1a092898389436513f3525d405c4ce403064626/before/pykern_slash_pkcollections.py,PKDict.pkdel,3
+c:/src/pylint-intervention/data/in_the_wild\versions/pykern/e1a092898389436513f3525d405c4ce403064626/before/pykern_slash_pkcollections.py,PKDict.pkunchecked_nested_get,3
+c:/src/pylint-intervention/data/in_the_wild\versions/pykern/e1a092898389436513f3525d405c4ce403064626/before/pykern_slash_pkcollections.py,json_load_any,2
+c:/src/pylint-intervention/data/in_the_wild\versions/pykern/e1a092898389436513f3525d405c4ce403064626/before/pykern_slash_pkcollections.py,PKDict.__deepcopy__,2
+c:/src/pylint-intervention/data/in_the_wild\versions/pykern/e1a092898389436513f3525d405c4ce403064626/before/pykern_slash_pkcollections.py,PKDict.__getattr__,2
+c:/src/pylint-intervention/data/in_the_wild\versions/pykern/e1a092898389436513f3525d405c4ce403064626/before/pykern_slash_pkcollections.py,PKDict.__setattr__,2
+c:/src/pylint-intervention/data/in_the_wild\versions/pykern/e1a092898389436513f3525d405c4ce403064626/before/pykern_slash_pkcollections.py,PKDict.pknested_get,2
+c:/src/pylint-intervention/data/in_the_wild\versions/pykern/e1a092898389436513f3525d405c4ce403064626/before/pykern_slash_pkcollections.py,PKDict.__copy__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pykern/e1a092898389436513f3525d405c4ce403064626/before/pykern_slash_pkcollections.py,PKDict.__delattr__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pykern/e1a092898389436513f3525d405c4ce403064626/before/pykern_slash_pkcollections.py,PKDict.copy,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pykern/e1a092898389436513f3525d405c4ce403064626/before/pykern_slash_pkcollections.py,PKDict.pkupdate,1
+c:/src/pylint-intervention/data/in_the_wild\versions/pykern/e1a092898389436513f3525d405c4ce403064626/before/pykern_slash_pkcollections.py,PKDictNameError,1

@@ -1,1 +1,7 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/ColorHelper/2365d8b9b5e8f1054c575818bf4a1684d2f9d121/before/lib_slash_coloraide_slash_spaces_slash_srgb_slash_css.py,SRGB.to_string,26
+c:/src/pylint-intervention/data/in_the_wild\versions/ColorHelper/2365d8b9b5e8f1054c575818bf4a1684d2f9d121/before/lib_slash_coloraide_slash_spaces_slash_srgb_slash_css.py,SRGB,11
+c:/src/pylint-intervention/data/in_the_wild\versions/ColorHelper/2365d8b9b5e8f1054c575818bf4a1684d2f9d121/before/lib_slash_coloraide_slash_spaces_slash_srgb_slash_css.py,SRGB.split_channels,9
+c:/src/pylint-intervention/data/in_the_wild\versions/ColorHelper/2365d8b9b5e8f1054c575818bf4a1684d2f9d121/before/lib_slash_coloraide_slash_spaces_slash_srgb_slash_css.py,SRGB.match,7
+c:/src/pylint-intervention/data/in_the_wild\versions/ColorHelper/2365d8b9b5e8f1054c575818bf4a1684d2f9d121/before/lib_slash_coloraide_slash_spaces_slash_srgb_slash_css.py,SRGB._get_hex,5
+c:/src/pylint-intervention/data/in_the_wild\versions/ColorHelper/2365d8b9b5e8f1054c575818bf4a1684d2f9d121/before/lib_slash_coloraide_slash_spaces_slash_srgb_slash_css.py,SRGB.translate_channel,5

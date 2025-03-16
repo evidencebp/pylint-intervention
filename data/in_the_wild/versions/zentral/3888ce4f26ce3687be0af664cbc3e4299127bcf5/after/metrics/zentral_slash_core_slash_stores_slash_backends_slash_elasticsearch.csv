@@ -1,1 +1,3 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/zentral/3888ce4f26ce3687be0af664cbc3e4299127bcf5/after/zentral_slash_core_slash_stores_slash_backends_slash_elasticsearch.py,EventStore,2
+c:/src/pylint-intervention/data/in_the_wild\versions/zentral/3888ce4f26ce3687be0af664cbc3e4299127bcf5/after/zentral_slash_core_slash_stores_slash_backends_slash_elasticsearch.py,EventStore._streaming_bulk,1

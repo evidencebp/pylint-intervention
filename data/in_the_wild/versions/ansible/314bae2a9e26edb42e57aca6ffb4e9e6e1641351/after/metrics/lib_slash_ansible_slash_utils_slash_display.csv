@@ -1,1 +1,17 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/ansible/314bae2a9e26edb42e57aca6ffb4e9e6e1641351/after/lib_slash_ansible_slash_utils_slash_display.py,Display.set_cowsay_info,8
+c:/src/pylint-intervention/data/in_the_wild\versions/ansible/314bae2a9e26edb42e57aca6ffb4e9e6e1641351/after/lib_slash_ansible_slash_utils_slash_display.py,Display.display,8
+c:/src/pylint-intervention/data/in_the_wild\versions/ansible/314bae2a9e26edb42e57aca6ffb4e9e6e1641351/after/lib_slash_ansible_slash_utils_slash_display.py,Display.deprecated,6
+c:/src/pylint-intervention/data/in_the_wild\versions/ansible/314bae2a9e26edb42e57aca6ffb4e9e6e1641351/after/lib_slash_ansible_slash_utils_slash_display.py,Display,4
+c:/src/pylint-intervention/data/in_the_wild\versions/ansible/314bae2a9e26edb42e57aca6ffb4e9e6e1641351/after/lib_slash_ansible_slash_utils_slash_display.py,Display.banner,4
+c:/src/pylint-intervention/data/in_the_wild\versions/ansible/314bae2a9e26edb42e57aca6ffb4e9e6e1641351/after/lib_slash_ansible_slash_utils_slash_display.py,Display.banner_cowsay,4
+c:/src/pylint-intervention/data/in_the_wild\versions/ansible/314bae2a9e26edb42e57aca6ffb4e9e6e1641351/after/lib_slash_ansible_slash_utils_slash_display.py,Display.verbose,3
+c:/src/pylint-intervention/data/in_the_wild\versions/ansible/314bae2a9e26edb42e57aca6ffb4e9e6e1641351/after/lib_slash_ansible_slash_utils_slash_display.py,Display.error,3
+c:/src/pylint-intervention/data/in_the_wild\versions/ansible/314bae2a9e26edb42e57aca6ffb4e9e6e1641351/after/lib_slash_ansible_slash_utils_slash_display.py,Display.warning,2
+c:/src/pylint-intervention/data/in_the_wild\versions/ansible/314bae2a9e26edb42e57aca6ffb4e9e6e1641351/after/lib_slash_ansible_slash_utils_slash_display.py,Display.system_warning,2
+c:/src/pylint-intervention/data/in_the_wild\versions/ansible/314bae2a9e26edb42e57aca6ffb4e9e6e1641351/after/lib_slash_ansible_slash_utils_slash_display.py,Display.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/ansible/314bae2a9e26edb42e57aca6ffb4e9e6e1641351/after/lib_slash_ansible_slash_utils_slash_display.py,Display.vv,1
+c:/src/pylint-intervention/data/in_the_wild\versions/ansible/314bae2a9e26edb42e57aca6ffb4e9e6e1641351/after/lib_slash_ansible_slash_utils_slash_display.py,Display.vvv,1
+c:/src/pylint-intervention/data/in_the_wild\versions/ansible/314bae2a9e26edb42e57aca6ffb4e9e6e1641351/after/lib_slash_ansible_slash_utils_slash_display.py,Display.vvvv,1
+c:/src/pylint-intervention/data/in_the_wild\versions/ansible/314bae2a9e26edb42e57aca6ffb4e9e6e1641351/after/lib_slash_ansible_slash_utils_slash_display.py,Display.vvvvv,1
+c:/src/pylint-intervention/data/in_the_wild\versions/ansible/314bae2a9e26edb42e57aca6ffb4e9e6e1641351/after/lib_slash_ansible_slash_utils_slash_display.py,Display.vvvvvv,1

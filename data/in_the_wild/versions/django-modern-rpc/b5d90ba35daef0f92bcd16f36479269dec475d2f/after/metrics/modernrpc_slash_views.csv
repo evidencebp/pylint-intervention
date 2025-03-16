@@ -1,1 +1,7 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/django-modern-rpc/b5d90ba35daef0f92bcd16f36479269dec475d2f/after/modernrpc_slash_views.py,RPCEntryPoint.handler_classes,5
+c:/src/pylint-intervention/data/in_the_wild\versions/django-modern-rpc/b5d90ba35daef0f92bcd16f36479269dec475d2f/after/modernrpc_slash_views.py,RPCEntryPoint,4
+c:/src/pylint-intervention/data/in_the_wild\versions/django-modern-rpc/b5d90ba35daef0f92bcd16f36479269dec475d2f/after/modernrpc_slash_views.py,RPCEntryPoint.__init__,4
+c:/src/pylint-intervention/data/in_the_wild\versions/django-modern-rpc/b5d90ba35daef0f92bcd16f36479269dec475d2f/after/modernrpc_slash_views.py,RPCEntryPoint.post,4
+c:/src/pylint-intervention/data/in_the_wild\versions/django-modern-rpc/b5d90ba35daef0f92bcd16f36479269dec475d2f/after/modernrpc_slash_views.py,RPCEntryPoint.handlers,2
+c:/src/pylint-intervention/data/in_the_wild\versions/django-modern-rpc/b5d90ba35daef0f92bcd16f36479269dec475d2f/after/modernrpc_slash_views.py,RPCEntryPoint.get_context_data,1

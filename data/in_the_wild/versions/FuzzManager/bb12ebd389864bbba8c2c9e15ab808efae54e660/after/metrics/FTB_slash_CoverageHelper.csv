@@ -1,1 +1,5 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/FuzzManager/bb12ebd389864bbba8c2c9e15ab808efae54e660/after/FTB_slash_CoverageHelper.py,apply_include_exclude_directives,9
+c:/src/pylint-intervention/data/in_the_wild\versions/FuzzManager/bb12ebd389864bbba8c2c9e15ab808efae54e660/after/FTB_slash_CoverageHelper.py,calculate_summary_fields,7
+c:/src/pylint-intervention/data/in_the_wild\versions/FuzzManager/bb12ebd389864bbba8c2c9e15ab808efae54e660/after/FTB_slash_CoverageHelper.py,merge_coverage_data,1
+c:/src/pylint-intervention/data/in_the_wild\versions/FuzzManager/bb12ebd389864bbba8c2c9e15ab808efae54e660/after/FTB_slash_CoverageHelper.py,get_flattened_names,1

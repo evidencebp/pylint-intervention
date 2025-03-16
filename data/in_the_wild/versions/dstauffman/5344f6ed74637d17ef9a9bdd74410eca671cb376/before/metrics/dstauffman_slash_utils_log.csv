@@ -1,1 +1,4 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/dstauffman/5344f6ed74637d17ef9a9bdd74410eca671cb376/before/dstauffman_slash_utils_log.py,fix_rollover,14
+c:/src/pylint-intervention/data/in_the_wild\versions/dstauffman/5344f6ed74637d17ef9a9bdd74410eca671cb376/before/dstauffman_slash_utils_log.py,setup_dir,9
+c:/src/pylint-intervention/data/in_the_wild\versions/dstauffman/5344f6ed74637d17ef9a9bdd74410eca671cb376/before/dstauffman_slash_utils_log.py,remove_outliers,7

@@ -1,1 +1,4 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/cobbler/0b1a9e804fc9e2353096b485ac08656fbec3cc7b/after/cobbler_slash_settings_slash_migrations_slash_V3_3_1.py,migrate,3
+c:/src/pylint-intervention/data/in_the_wild\versions/cobbler/0b1a9e804fc9e2353096b485ac08656fbec3cc7b/after/cobbler_slash_settings_slash_migrations_slash_V3_3_1.py,validate,2
+c:/src/pylint-intervention/data/in_the_wild\versions/cobbler/0b1a9e804fc9e2353096b485ac08656fbec3cc7b/after/cobbler_slash_settings_slash_migrations_slash_V3_3_1.py,normalize,1

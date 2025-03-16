@@ -1,1 +1,4 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/scikit-learn/bc44ea7ae849f533c3df6811b410f46d61998dff/after/examples_slash_manifold_slash_plot_compare_methods.py,plot_3d,1
+c:/src/pylint-intervention/data/in_the_wild\versions/scikit-learn/bc44ea7ae849f533c3df6811b410f46d61998dff/after/examples_slash_manifold_slash_plot_compare_methods.py,plot_2d,1
+c:/src/pylint-intervention/data/in_the_wild\versions/scikit-learn/bc44ea7ae849f533c3df6811b410f46d61998dff/after/examples_slash_manifold_slash_plot_compare_methods.py,add_2d_scatter,1

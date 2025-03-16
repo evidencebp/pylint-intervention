@@ -1,1 +1,3 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/burnman/4742e0b98c7a8a83decb311d41732b870555f539/after/burnman_slash_minerals_slash_RS_2014_liquids.py,Fe2SiO4_liquid,2
+c:/src/pylint-intervention/data/in_the_wild\versions/burnman/4742e0b98c7a8a83decb311d41732b870555f539/after/burnman_slash_minerals_slash_RS_2014_liquids.py,Fe2SiO4_liquid.__init__,1

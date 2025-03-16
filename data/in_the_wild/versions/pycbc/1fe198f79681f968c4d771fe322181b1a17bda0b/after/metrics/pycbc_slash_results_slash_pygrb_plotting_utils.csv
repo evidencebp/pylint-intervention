@@ -1,1 +1,5 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/pycbc/1fe198f79681f968c4d771fe322181b1a17bda0b/after/pycbc_slash_results_slash_pygrb_plotting_utils.py,contour_plotter,8
+c:/src/pylint-intervention/data/in_the_wild\versions/pycbc/1fe198f79681f968c4d771fe322181b1a17bda0b/after/pycbc_slash_results_slash_pygrb_plotting_utils.py,pygrb_plotter,8
+c:/src/pylint-intervention/data/in_the_wild\versions/pycbc/1fe198f79681f968c4d771fe322181b1a17bda0b/after/pycbc_slash_results_slash_pygrb_plotting_utils.py,axis_max_value,4
+c:/src/pylint-intervention/data/in_the_wild\versions/pycbc/1fe198f79681f968c4d771fe322181b1a17bda0b/after/pycbc_slash_results_slash_pygrb_plotting_utils.py,new_snr_chisq,2

@@ -1,1 +1,9 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/pycbc/59e0dabcff5bfd6ec78842444a7363bfce1504bd/before/pycbc_slash_inference_slash_models_slash_relbin.py,Relative.__init__,13
+c:/src/pylint-intervention/data/in_the_wild\versions/pycbc/59e0dabcff5bfd6ec78842444a7363bfce1504bd/before/pycbc_slash_inference_slash_models_slash_relbin.py,Relative.extra_args_from_config,9
+c:/src/pylint-intervention/data/in_the_wild\versions/pycbc/59e0dabcff5bfd6ec78842444a7363bfce1504bd/before/pycbc_slash_inference_slash_models_slash_relbin.py,Relative,7
+c:/src/pylint-intervention/data/in_the_wild\versions/pycbc/59e0dabcff5bfd6ec78842444a7363bfce1504bd/before/pycbc_slash_inference_slash_models_slash_relbin.py,Relative.summary_data,6
+c:/src/pylint-intervention/data/in_the_wild\versions/pycbc/59e0dabcff5bfd6ec78842444a7363bfce1504bd/before/pycbc_slash_inference_slash_models_slash_relbin.py,setup_bins,5
+c:/src/pylint-intervention/data/in_the_wild\versions/pycbc/59e0dabcff5bfd6ec78842444a7363bfce1504bd/before/pycbc_slash_inference_slash_models_slash_relbin.py,Relative.get_waveforms,3
+c:/src/pylint-intervention/data/in_the_wild\versions/pycbc/59e0dabcff5bfd6ec78842444a7363bfce1504bd/before/pycbc_slash_inference_slash_models_slash_relbin.py,Relative.write_metadata,3
+c:/src/pylint-intervention/data/in_the_wild\versions/pycbc/59e0dabcff5bfd6ec78842444a7363bfce1504bd/before/pycbc_slash_inference_slash_models_slash_relbin.py,Relative._loglr,2

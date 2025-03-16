@@ -1,1 +1,11 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/pywikibot-core/576a51bd1cf5fa39c1214d09957f63d6d3891519/after/scripts_slash_category_redirect.py,CategoryRedirectBot.run,23
+c:/src/pylint-intervention/data/in_the_wild\versions/pywikibot-core/576a51bd1cf5fa39c1214d09957f63d6d3891519/after/scripts_slash_category_redirect.py,CategoryRedirectBot.get_log_text,10
+c:/src/pylint-intervention/data/in_the_wild\versions/pywikibot-core/576a51bd1cf5fa39c1214d09957f63d6d3891519/after/scripts_slash_category_redirect.py,CategoryRedirectBot,8
+c:/src/pylint-intervention/data/in_the_wild\versions/pywikibot-core/576a51bd1cf5fa39c1214d09957f63d6d3891519/after/scripts_slash_category_redirect.py,CategoryRedirectBot.move_contents,7
+c:/src/pylint-intervention/data/in_the_wild\versions/pywikibot-core/576a51bd1cf5fa39c1214d09957f63d6d3891519/after/scripts_slash_category_redirect.py,CategoryRedirectBot.check_hard_redirect,7
+c:/src/pylint-intervention/data/in_the_wild\versions/pywikibot-core/576a51bd1cf5fa39c1214d09957f63d6d3891519/after/scripts_slash_category_redirect.py,main,3
+c:/src/pylint-intervention/data/in_the_wild\versions/pywikibot-core/576a51bd1cf5fa39c1214d09957f63d6d3891519/after/scripts_slash_category_redirect.py,CategoryRedirectBot.get_cat,3
+c:/src/pylint-intervention/data/in_the_wild\versions/pywikibot-core/576a51bd1cf5fa39c1214d09957f63d6d3891519/after/scripts_slash_category_redirect.py,CategoryRedirectBot.teardown,3
+c:/src/pylint-intervention/data/in_the_wild\versions/pywikibot-core/576a51bd1cf5fa39c1214d09957f63d6d3891519/after/scripts_slash_category_redirect.py,CategoryRedirectBot.ready_to_edit,2
+c:/src/pylint-intervention/data/in_the_wild\versions/pywikibot-core/576a51bd1cf5fa39c1214d09957f63d6d3891519/after/scripts_slash_category_redirect.py,CategoryRedirectBot.__init__,1

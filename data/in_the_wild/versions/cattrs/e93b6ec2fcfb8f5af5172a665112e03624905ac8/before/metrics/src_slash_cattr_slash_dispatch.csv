@@ -1,1 +1,12 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/cattrs/e93b6ec2fcfb8f5af5172a665112e03624905ac8/before/src_slash_cattr_slash_dispatch.py,FunctionDispatch.dispatch,5
+c:/src/pylint-intervention/data/in_the_wild\versions/cattrs/e93b6ec2fcfb8f5af5172a665112e03624905ac8/before/src_slash_cattr_slash_dispatch.py,MultiStrategyDispatch._dispatch,4
+c:/src/pylint-intervention/data/in_the_wild\versions/cattrs/e93b6ec2fcfb8f5af5172a665112e03624905ac8/before/src_slash_cattr_slash_dispatch.py,FunctionDispatch,4
+c:/src/pylint-intervention/data/in_the_wild\versions/cattrs/e93b6ec2fcfb8f5af5172a665112e03624905ac8/before/src_slash_cattr_slash_dispatch.py,MultiStrategyDispatch,3
+c:/src/pylint-intervention/data/in_the_wild\versions/cattrs/e93b6ec2fcfb8f5af5172a665112e03624905ac8/before/src_slash_cattr_slash_dispatch.py,MultiStrategyDispatch.register_cls_list,3
+c:/src/pylint-intervention/data/in_the_wild\versions/cattrs/e93b6ec2fcfb8f5af5172a665112e03624905ac8/before/src_slash_cattr_slash_dispatch.py,MultiStrategyDispatch.register_func_list,3
+c:/src/pylint-intervention/data/in_the_wild\versions/cattrs/e93b6ec2fcfb8f5af5172a665112e03624905ac8/before/src_slash_cattr_slash_dispatch.py,_DispatchNotFound,1
+c:/src/pylint-intervention/data/in_the_wild\versions/cattrs/e93b6ec2fcfb8f5af5172a665112e03624905ac8/before/src_slash_cattr_slash_dispatch.py,MultiStrategyDispatch.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/cattrs/e93b6ec2fcfb8f5af5172a665112e03624905ac8/before/src_slash_cattr_slash_dispatch.py,MultiStrategyDispatch.clear_direct,1
+c:/src/pylint-intervention/data/in_the_wild\versions/cattrs/e93b6ec2fcfb8f5af5172a665112e03624905ac8/before/src_slash_cattr_slash_dispatch.py,MultiStrategyDispatch.clear_cache,1
+c:/src/pylint-intervention/data/in_the_wild\versions/cattrs/e93b6ec2fcfb8f5af5172a665112e03624905ac8/before/src_slash_cattr_slash_dispatch.py,FunctionDispatch.register,1

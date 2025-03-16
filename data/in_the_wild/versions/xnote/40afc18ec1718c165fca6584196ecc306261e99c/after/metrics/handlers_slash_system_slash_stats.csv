@@ -1,1 +1,6 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/xnote/40afc18ec1718c165fca6584196ecc306261e99c/after/handlers_slash_system_slash_stats.py,handler,7
+c:/src/pylint-intervention/data/in_the_wild\versions/xnote/40afc18ec1718c165fca6584196ecc306261e99c/after/handlers_slash_system_slash_stats.py,save_ip,6
+c:/src/pylint-intervention/data/in_the_wild\versions/xnote/40afc18ec1718c165fca6584196ecc306261e99c/after/handlers_slash_system_slash_stats.py,handler.GET,6
+c:/src/pylint-intervention/data/in_the_wild\versions/xnote/40afc18ec1718c165fca6584196ecc306261e99c/after/handlers_slash_system_slash_stats.py,LocationHandler,3
+c:/src/pylint-intervention/data/in_the_wild\versions/xnote/40afc18ec1718c165fca6584196ecc306261e99c/after/handlers_slash_system_slash_stats.py,LocationHandler.POST,2

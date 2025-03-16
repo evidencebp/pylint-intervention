@@ -1,1 +1,10 @@
 file,name,complexity
+c:/src/pylint-intervention/data/in_the_wild\versions/bazel/a2766230f319155548b53d6d0672b79b150c6702/after/tools_slash_build_defs_slash_pkg_slash_build_tar.py,main,12
+c:/src/pylint-intervention/data/in_the_wild\versions/bazel/a2766230f319155548b53d6d0672b79b150c6702/after/tools_slash_build_defs_slash_pkg_slash_build_tar.py,TarFile.add_file,7
+c:/src/pylint-intervention/data/in_the_wild\versions/bazel/a2766230f319155548b53d6d0672b79b150c6702/after/tools_slash_build_defs_slash_pkg_slash_build_tar.py,unquote_and_split,5
+c:/src/pylint-intervention/data/in_the_wild\versions/bazel/a2766230f319155548b53d6d0672b79b150c6702/after/tools_slash_build_defs_slash_pkg_slash_build_tar.py,TarFile,3
+c:/src/pylint-intervention/data/in_the_wild\versions/bazel/a2766230f319155548b53d6d0672b79b150c6702/after/tools_slash_build_defs_slash_pkg_slash_build_tar.py,TarFile.add_tar,3
+c:/src/pylint-intervention/data/in_the_wild\versions/bazel/a2766230f319155548b53d6d0672b79b150c6702/after/tools_slash_build_defs_slash_pkg_slash_build_tar.py,TarFile.__init__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/bazel/a2766230f319155548b53d6d0672b79b150c6702/after/tools_slash_build_defs_slash_pkg_slash_build_tar.py,TarFile.__enter__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/bazel/a2766230f319155548b53d6d0672b79b150c6702/after/tools_slash_build_defs_slash_pkg_slash_build_tar.py,TarFile.__exit__,1
+c:/src/pylint-intervention/data/in_the_wild\versions/bazel/a2766230f319155548b53d6d0672b79b150c6702/after/tools_slash_build_defs_slash_pkg_slash_build_tar.py,TarFile.add_link,1
