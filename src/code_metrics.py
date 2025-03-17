@@ -107,36 +107,25 @@ def get_relevant_McCabe_stats(repo_name
                        , encode_path(source_file).replace('.py', '.csv'))
     after_df = pd.read_csv(McCabe_file)
 
-
-    joint = pd.merge(after_df[['name', 'complexity']]
-                        , before_df[['name', 'complexity']]
-                        , on=['name']
-                        #, how='left'
-                        , suffixes=('_after', '_before'))
-    joint = joint[(joint['complexity_before'] != joint['complexity_after'])]
-    if len(joint):
-        """
-        joint['complexity_before'] = joint['complexity_before'].map(lambda x: 0 if np.isnan(x) else x)
-        joint['diff'] = joint.apply(lambda x: x['complexity_after'] - x['complexity_before']
-                                    , axis=1)
-        """
-        metrics['modified_McCabe_max_diff'] = joint['complexity_after'].max() - joint['complexity_before'].max()
-
-        """
-        complexity_before_sum = (joint['complexity_before'].max() if np.isnan(joint['complexity_before'].max())
-                                 else joint['complexity_before'].sum())
-        complexity_after_sum = (joint['complexity_after'].max() if np.isnan(joint['complexity_after'].max())
-                                 else joint['complexity_after'].sum())
-
-        metrics['modified_McCabe_sum_diff'] = complexity_after_sum - complexity_before_sum
-        """
-    else:
-        metrics['modified_McCabe_max_diff'] = None
-        #metrics['modified_McCabe_sum_diff'] = None
-
+    metrics['modified_McCabe_max_diff'] = compute_modified_McCabe_max_diff(after_df
+                                                            , before_df)
     df = pd.DataFrame(metrics, index=[0])
 
     return df
+
+def compute_modified_McCabe_max_diff(after_df
+                                     , before_df):
+    joint = pd.merge(after_df[['name', 'complexity']]
+                        , before_df[['name', 'complexity']]
+                        , on=['name']
+                        , suffixes=('_after', '_before'))
+    joint = joint[(joint['complexity_before'] != joint['complexity_after'])]
+    if len(joint):
+        modified_McCabe_max_diff = joint['complexity_after'].max() - joint['complexity_before'].max()
+    else:
+        modified_McCabe_max_diff = None
+
+    return modified_McCabe_max_diff
 
 def get_repo_relevant_McCabe_stats(interventions_file):
     df = get_done_interventions(interventions_file)

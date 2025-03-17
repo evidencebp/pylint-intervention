@@ -5,7 +5,7 @@ import pandas as pd
 
 from compute_code_metrics import compute_metrics_diff
 from compute_commits_diff import VERSIONS_DIR, WILD_DIR
-from code_metrics import analyze_file, get_McCabe_complexity, get_repo_relevant_McCabe_stats
+from code_metrics import analyze_file, get_McCabe_complexity, compute_modified_McCabe_max_diff
 from utils import get_project_name, encode_path, copy_files
 
 alert_change_commits_file = join(WILD_DIR
@@ -15,6 +15,9 @@ AFTER_METRICS_FILE = join(WILD_DIR
                           , 'after_commits_code_metrics.csv')
 BEFORE_METRICS_FILE = join(WILD_DIR
                            , 'before_commits_code_metrics.csv')
+
+MODIFIED_MCCABE_FILE = join(WILD_DIR
+                            , 'commits_modified_McCabe_max_diff.csv')
 
 
 def compute_commits_code_metrics(commits_df
@@ -104,19 +107,65 @@ def compute_commits_metrics_diff():
                      , left_on=['repo_name', 'file_name', 'commit']
                      , right_on=['repo_name', 'path', 'commit'])
 
+    # TODO - add relative McCabe
+
     agg = {k: 'mean' for k in metrics_diff.columns if '_diff' in k}
     agg['path'] = 'count'
 
     g = joint.groupby(['alert', 'state']
-                      , as_index=False).agg(agg)#.sort_values(['alert', 'state'])
+                      , as_index=False).agg(agg).sort_values(['alert', 'state'])
     g.to_csv(join(WILD_DIR
                   , 'commits_code_metrics_diff_stats.csv')
              , index=False)
 
 
+def get_commit_modified_McCabe_max_diff(repo_name
+                                        , commit
+                                        , file_name):
+    project_name = get_project_name(repo_name)
+
+    before_path = (VERSIONS_DIR + f"/{project_name}/{commit}/before/metrics/"
+                    + encode_path(file_name).replace('.py', '.csv'))
+    before_df = pd.read_csv(before_path)
+    after_path = (VERSIONS_DIR + f"/{project_name}/{commit}/after/metrics/"
+                    + encode_path(file_name).replace('.py', '.csv'))
+    after_df = pd.read_csv(after_path)
+    modified_McCabe_max_diff = compute_modified_McCabe_max_diff(after_df
+                                     , before_df)
+
+    return modified_McCabe_max_diff
+
+def compute_commits_modified_McCabe_max_diff():
+
+    df = pd.read_csv(alert_change_commits_file)
+
+    print(f"About to process {len(df)} records")
+    commit_num = 0
+    rows = []
+    for _, i in df.iterrows():
+        try:
+            repo_name = i['repo_name']
+            commit = i['commit']
+            file_name = i['file_name']
+            commit_num += 1
+            print(f"{commit_num} {repo_name} {file_name} {commit}")
+            modified_McCabe_max_diff = get_commit_modified_McCabe_max_diff(repo_name
+                                            , commit
+                                            , file_name)
+            rows.append((repo_name, commit, file_name, modified_McCabe_max_diff))
+        except Exception as e:
+            print("Error processing", repo_name, commit, file_name)
+            print(e)
+
+    df = pd.DataFrame(rows
+                      , columns=['repo_name', 'commit', 'file_name', 'modified_McCabe_max_diff'])
+    df = df.drop_duplicates()
+    df.to_csv(MODIFIED_MCCABE_FILE
+             , index=False)
 
 if __name__ == "__main__":
     #run_compute_commits_code_metrics()
-    compute_commits_metrics_diff()
+    compute_commits_modified_McCabe_max_diff()
+    #compute_commits_metrics_diff()
 
 
