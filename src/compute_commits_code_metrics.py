@@ -139,6 +139,16 @@ def get_McCabe_path(repo_name
     return path
 
 
+def get_diff_path(repo_name
+                        , commit
+                        , file_name):
+    project_name = get_project_name(repo_name)
+
+    path = (VERSIONS_DIR + f"/{project_name}/{commit}/diffs/"
+                    + encode_path(file_name).replace('.py', '.txt'))
+
+    return path
+
 def get_commit_modified_McCabe_max_diff(repo_name
                                         , commit
                                         , file_name):
