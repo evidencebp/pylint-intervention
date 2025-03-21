@@ -19,6 +19,21 @@ from compute_commits_diff import WILD_DIR
 
 PROFILES_FILE = join(WILD_DIR
                             , 'commit_profiles.csv')
+ENHANCED_FILE = join(WILD_DIR
+                            , 'commit_enhanced_profiles.csv')
+
+one_liners = ['simplifiable-if-expression', 'superfluous-parens',
+              'unnecessary-semicolon',
+              'unnecessary-pass', 'wildcard-import',
+              'simplifiable-condition'
+              'Simplify-boolean-expression', 'pointless-statement']
+local_alerts = ['simplifiable-condition', 'broad-exception-caught', 'using-constant-test'
+    , 'comparison-of-constants', 'try-except-raise'
+    , 'too-many-boolean-expressions', 'simplifiable-if-statement', 'line-too-long'
+    , 'Simplify-boolean-expression']
+
+extraction_candidates = ['too-many-branches', 'too-many-nested-blocks', 'too-many-statements'
+    , 'too-many-return-statements']
 
 def get_added_functions(repo_name
                         , commit
@@ -124,9 +139,69 @@ def compute_commit_profiles():
     df.to_csv(PROFILES_FILE
              , index=False)
 
+def is_clean(commit_properties):
+    result = None
+
+    """
+    ['simplifiable-if-expression', 'broad-exception-caught',
+     'too-many-lines', 'superfluous-parens', 'too-many-statements',
+     'unnecessary-semicolon', 'too-many-branches', 'line-too-long',
+     'unnecessary-pass', 'too-many-nested-blocks',
+     'using-constant-test', 'wildcard-import',
+     'too-many-return-statements', 'simplifiable-if-statement',
+     'try-except-raise', 'too-many-boolean-expressions',
+     'simplifiable-condition', 'comparison-of-constants',
+     'Simplify-boolean-expression', 'pointless-statement']
+"""
+
+    if commit_properties['state'] in ['removed', 'decrease']:
+
+        if commit_properties['alert'] in one_liners + local_alerts:
+            # Having a change that might contain a refactor
+            result = (commit_properties['hunks_num'] == 1
+                      and commit_properties['added_lines'] == 1
+                      and commit_properties['removed_lines'] == 1)
+        elif commit_properties['alert'] in local_alerts:
+            result = (commit_properties['hunks_num'] <= 2
+                      and commit_properties['changed_lines'] == 50)
+
+
+    return result
+
+def is_refactor(commit_properties):
+    result = None
+
+
+    if commit_properties['state'] in ['removed', 'decrease']:
+
+        if commit_properties['alert'] in extraction_candidates:
+            result = (commit_properties['added_functions'] > 0)
+
+    return result
+
+
+def enhance_commits():
+    """ Computes, for removal commits, lableling functions checking if the are
+        done via a refactor (and not just deleting the code) and are clean (not doing more.
+        Labeling functions need to be better than a guess, not perfect
+    """
+    commits_df = pd.read_csv(alert_change_commits_file)
+
+    profiles_df = pd.read_csv(PROFILES_FILE)
+    df = pd.merge(commits_df
+                   , profiles_df
+                   , on=['repo_name', 'commit', 'file_name'])
+    df['is_clean'] = df.apply(lambda x: is_clean(x)
+                              , axis=1)
+    df['is_refactor'] = df.apply(lambda x: is_refactor(x)
+                              , axis=1)
+    df.to_csv(ENHANCED_FILE
+             , index=False)
 
 if __name__ == "__main__":
-    compute_commit_profiles()
+    #compute_commit_profiles()
+    enhance_commits()
+
 
 
 
