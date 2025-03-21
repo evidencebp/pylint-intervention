@@ -174,7 +174,9 @@ def is_refactor(commit_properties):
 
     if commit_properties['state'] in ['removed', 'decrease']:
 
-        if commit_properties['alert'] in extraction_candidates:
+        if commit_properties['added_lines'] == 0:
+            result = False
+        elif commit_properties['alert'] in extraction_candidates:
             result = (commit_properties['added_functions'] > 0)
 
     return result
