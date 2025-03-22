@@ -21,10 +21,14 @@ on
 ca.repo_name = before.repo_name
 and
 ca.file_name = before.file
+and
+ca.commit = before.commit
 join
 general.file_properties_after_anchor as after
 on
 ca.repo_name = after.repo_name
+and
+ca.commit = after.commit
 and
 ca.file_name = after.file
 group by
@@ -56,12 +60,16 @@ on
 ca.repo_name = before.repo_name
 and
 ca.file_name = before.file
+and
+ca.commit = before.commit
 join
 general.file_properties_after_anchor as after
 on
 ca.repo_name = after.repo_name
 and
 ca.file_name = after.file
+and
+ca.commit = after.commit
 where
 before.commits >= 5
 and
@@ -96,12 +104,16 @@ on
 ca.repo_name = before.repo_name
 and
 ca.file_name = before.file
+and
+ca.commit = before.commit
 join
 general.file_properties_after_anchor_3m as after
 on
 ca.repo_name = after.repo_name
 and
 ca.file_name = after.file
+and
+ca.commit = after.commit
 where
 before.commits >= 5
 and
