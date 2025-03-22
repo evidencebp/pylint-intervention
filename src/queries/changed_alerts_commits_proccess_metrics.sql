@@ -57,6 +57,7 @@ as
 select
 cf.repo_name as repo_name
 , cf.file
+, anc.commit
 , min(cf.commit_timestamp) as min_commit_time
 , max(cf.commit_timestamp) as max_commit_time
 , min(cf.commit) as min_commit
@@ -153,6 +154,7 @@ ec.commit_timestamp > anc.commit_timestamp
 group by
 cf.repo_name
 , cf.file
+, anc.commit
 ;
 
 
@@ -165,6 +167,7 @@ as
 select
 cf.repo_name as repo_name
 , cf.file
+, anc.commit
 , min(cf.commit_timestamp) as min_commit_time
 , max(cf.commit_timestamp) as max_commit_time
 , min(cf.commit) as min_commit
@@ -261,6 +264,7 @@ ec.commit_timestamp < anc.commit_timestamp
 group by
 cf.repo_name
 , cf.file
+, anc.commit
 ;
 
 # 3 Months
@@ -274,6 +278,7 @@ as
 select
 cf.repo_name as repo_name
 , cf.file
+, anc.commit
 , min(cf.commit_timestamp) as min_commit_time
 , max(cf.commit_timestamp) as max_commit_time
 , min(cf.commit) as min_commit
@@ -370,6 +375,7 @@ and date(ec.commit_timestamp) <= DATE_ADD(date(anc.commit_timestamp), INTERVAL 3
 group by
 cf.repo_name
 , cf.file
+, anc.commit
 ;
 
 
@@ -382,6 +388,7 @@ as
 select
 cf.repo_name as repo_name
 , cf.file
+, anc.commit
 , min(cf.commit_timestamp) as min_commit_time
 , max(cf.commit_timestamp) as max_commit_time
 , min(cf.commit) as min_commit
@@ -478,5 +485,6 @@ and date(ec.commit_timestamp) >= DATE_SUB(date(anc.commit_timestamp), INTERVAL 3
 group by
 cf.repo_name
 , cf.file
+, anc.commit
 ;
 
