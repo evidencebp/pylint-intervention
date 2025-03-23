@@ -67,6 +67,54 @@ def build_ds():
 
     return df
 
+def anecdotes(df):
+
+    # Sum reduction reduce CCP in complexity alerts
+    print("Reduction in McCabe sum")
+    print(df[(df['McCabe_sum_diff']<-1)
+                & (df.state.isin(['removed', 'decrease']))].groupby(['alert']).agg({'commit': 'count', 'ccp_diff': 'mean'}))
+
+    print("Reduction in modified_McCabe_max_diff")
+    print(df[(df['modified_McCabe_max_diff']<-1)
+                & (df.state.isin(['removed', 'decrease']))].groupby(['alert']).agg({'commit': 'count', 'ccp_diff': 'mean'}))
+
+    # CCP increase after clean line too long reduction - no benefit seen
+    print("clean changes")
+    print(df[(df['is_clean']==True)
+          & (df.state.isin(['removed', 'decrease']))].groupby(['alert']).agg({'commit': 'count', 'ccp_diff': 'mean'}))
+
+    # More benefit when CCP was high.
+    # Check lift over regular change to see benefit over reduction to mean
+    print("Change by CCP group")
+    df['ccp_group'] = df['ccp_pm_before'].map(lambda x: 'low' if x < 0.09 else 'high' if x > 0.39 else 'med')
+    print(df[df.state.isin(['removed', 'decrease'])].groupby(['alert', 'ccp_group']
+                                                            , as_index=False).agg({'commit': 'count', 'ccp_diff': 'mean'}))
+
+    # Refactor is helpful with too-many-branches, too-many-nested-blocks
+    print("Change by refactor")
+    print(df[(df['is_refactor']==True)
+          & (df.state.isin(['removed', 'decrease']))].groupby(['alert']).agg({'commit': 'count', 'ccp_diff': 'mean'}))
+
+    # Clean ratio
+    print(df[df.state.isin(['removed', 'decrease'])].groupby(['is_clean']
+                                                , as_index=False).agg({'commit': 'count', 'ccp_diff': 'mean'}))
+    print(df[df.state.isin(['removed', 'decrease'])].groupby(['alert', 'is_clean']
+                                                , as_index=False).agg({'commit': 'count', 'ccp_diff': 'mean'}))
+
+    # Refactor ratio
+    print(df[df.state.isin(['removed', 'decrease'])].groupby(['is_refactor']
+                                                , as_index=False).agg({'commit': 'count', 'ccp_diff': 'mean'}))
+    print(df[df.state.isin(['removed', 'decrease'])].groupby(['alert', 'is_refactor']
+                                                , as_index=False).agg({'commit': 'count', 'ccp_diff': 'mean'}))
+
+    # Only removal
+    df['only_removal'] = df['removed_lines'].map(lambda x: x == 0)
+    print(df[df.state.isin(['removed', 'decrease'])].groupby(['only_removal']
+                                                , as_index=False).agg({'commit': 'count', 'ccp_diff': 'mean'}))
+    print(df[df.state.isin(['removed', 'decrease'])].groupby(['alert', 'only_removal']
+                                                , as_index=False).agg({'commit': 'count', 'ccp_diff': 'mean'}))
+
+
 def analyze_process_metrics():
     df = build_ds()
 
