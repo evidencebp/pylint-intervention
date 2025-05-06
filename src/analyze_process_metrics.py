@@ -117,6 +117,7 @@ def anecdotes(df):
 
 def analyze_process_metrics():
     df = build_ds()
+    anecdotes(df)
 
 if __name__ == "__main__":
     analyze_process_metrics()
