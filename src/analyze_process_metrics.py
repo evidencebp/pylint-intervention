@@ -113,11 +113,37 @@ def anecdotes(df):
                                                 , as_index=False).agg({'commit': 'count', 'ccp_diff': 'mean'}))
     print(df[df.state.isin(['removed', 'decrease'])].groupby(['alert', 'only_removal']
                                                 , as_index=False).agg({'commit': 'count', 'ccp_diff': 'mean'}))
+def experiment_candidates(df: pd.DataFrame):
 
+    experiment_alerts = ['line-too-long'
+                            , 'superfluous-parens'
+                            , 'simplifiable-if-statement'
+                            , 'simplifiable-if-expression'
+                            , 'too-many-return-statements'
+                            , 'too-many-branches'
+                            , 'too-many-boolean-expressions'
+                            ]
+
+    df = df[df['state_x']=='removed']
+    df = df[df['alert'].isin(experiment_alerts)]
+    df = df[['alert', 'commit', 'repo_name', 'file_name_x', 'is_clean', 'is_refactor', 'added_functions']]
+    df['is_refactor_label'] = ''
+    df['is_clean_label'] = ''
+
+    df = df.sample(frac=1.0)
+    df.sort_values('alert'
+                   , inplace=True)
+
+    df.to_csv(join(WILD_DIR
+                   , 'experiment_candidates.csv')
+              , index=False)
+
+    print(df.alert.value_counts())
 
 def analyze_process_metrics():
     df = build_ds()
     anecdotes(df)
+    experiment_candidates(df)
 
 if __name__ == "__main__":
     analyze_process_metrics()
