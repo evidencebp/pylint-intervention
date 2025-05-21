@@ -1,5 +1,6 @@
 from os.path import join
 
+import pandas
 import pandas as pd
 
 from compute_commits_diff import WILD_DIR
@@ -108,11 +109,13 @@ def anecdotes(df):
                                                 , as_index=False).agg({'commit': 'count', 'ccp_diff': 'mean'}))
 
     # Only removal
-    df['only_removal'] = df['removed_lines'].map(lambda x: x == 0)
+    df['only_removal'] = df['added_lines'].map(lambda x: x == 0)
     print(df[df.state.isin(['removed', 'decrease'])].groupby(['only_removal']
                                                 , as_index=False).agg({'commit': 'count', 'ccp_diff': 'mean'}))
     print(df[df.state.isin(['removed', 'decrease'])].groupby(['alert', 'only_removal']
                                                 , as_index=False).agg({'commit': 'count', 'ccp_diff': 'mean'}))
+
+
 def experiment_candidates(df: pd.DataFrame):
 
     experiment_alerts = ['line-too-long'
@@ -133,9 +136,37 @@ def experiment_candidates(df: pd.DataFrame):
     df = df.sample(frac=1.0)
     df.sort_values('alert'
                    , inplace=True)
+    df.drop_duplicates(inplace=True)
 
     df.to_csv(join(WILD_DIR
                    , 'experiment_candidates.csv')
+              , index=False)
+
+    print(df.alert.value_counts())
+
+def added_functions_hits(df: pandas.DataFrame):
+    # added_functions
+
+    df = df[(df.state.isin(['removed'#, 'decrease'
+                             ]))
+            & (df['added_functions'] > 0)
+            & (df['alert'].isin(['too-many-branches'
+                                    , 'too-many-nested-blocks'
+                                    , 'too-many-return-statements'
+                                    , 'too-many-statements']))]
+
+    df = df[['alert', 'commit', 'repo_name', 'file_name_x', 'is_clean', 'is_refactor', 'added_functions']]
+    df['is_refactor_label'] = ''
+    df['is_clean_label'] = ''
+    df['added_functions_label'] = ''
+
+    df = df.sample(frac=1.0)
+    df.sort_values(['alert', 'repo_name']
+                   , inplace=True)
+    df.drop_duplicates(inplace=True)
+
+    df.to_csv(join(WILD_DIR
+                   , 'added_functions_hits.csv')
               , index=False)
 
     print(df.alert.value_counts())
@@ -144,6 +175,8 @@ def analyze_process_metrics():
     df = build_ds()
     anecdotes(df)
     experiment_candidates(df)
+    df = build_ds()
+    added_functions_hits(df)
 
 if __name__ == "__main__":
     analyze_process_metrics()
