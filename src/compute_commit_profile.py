@@ -156,7 +156,8 @@ def is_clean(commit_properties):
 
     if commit_properties['state'] in ['removed', 'decrease']:
 
-        if commit_properties['alert'] in one_liners + local_alerts:
+        small_alerts = one_liners + local_alerts
+        if commit_properties['alert'] in small_alerts:
             # Having a change that might contain a refactor
             result = (commit_properties['hunks_num'] == 1
                       and commit_properties['added_lines'] == 1
@@ -201,7 +202,7 @@ def enhance_commits():
              , index=False)
 
 if __name__ == "__main__":
-    #compute_commit_profiles()
+    compute_commit_profiles()
     enhance_commits()
 
 
