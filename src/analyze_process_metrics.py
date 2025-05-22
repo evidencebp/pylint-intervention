@@ -79,7 +79,7 @@ def anecdotes(df):
     print(df[(df['modified_McCabe_max_diff']<-1)
                 & (df.state.isin(['removed', 'decrease']))].groupby(['alert']).agg({'commit': 'count', 'ccp_diff': 'mean'}))
 
-    # CCP increase after clean line too long reduction - no benefit seen
+    # CCP increases after clean line too long reduction - no benefit seen
     print("clean changes")
     print(df[(df['is_clean']==True)
           & (df.state.isin(['removed', 'decrease']))].groupby(['alert']).agg({'commit': 'count', 'ccp_diff': 'mean'}))
@@ -147,6 +147,8 @@ def experiment_candidates(df: pd.DataFrame):
 def added_functions_hits(df: pandas.DataFrame):
     # added_functions
 
+    print("added_functions hits")
+
     df = df[(df.state.isin(['removed'#, 'decrease'
                              ]))
             & (df['added_functions'] > 0)
@@ -155,18 +157,28 @@ def added_functions_hits(df: pandas.DataFrame):
                                     , 'too-many-return-statements'
                                     , 'too-many-statements']))]
 
+    write_labels(df
+        , output_file=join(WILD_DIR
+                       , 'added_functions_hits.csv')
+        , columns_to_add=['is_refactor_label', 'is_clean_label', 'added_functions_label'])
+
+    print(df.alert.value_counts())
+
+def write_labels(df: pandas.DataFrame
+                 , output_file
+                 , columns_to_add: list = ['is_refactor_label', 'is_clean_label']):
+
     df = df[['alert', 'commit', 'repo_name', 'file_name_x', 'is_clean', 'is_refactor', 'added_functions']]
-    df['is_refactor_label'] = ''
-    df['is_clean_label'] = ''
-    df['added_functions_label'] = ''
+
+    for i in columns_to_add:
+        df[i] = ''
 
     df = df.sample(frac=1.0)
     df.sort_values(['alert', 'repo_name']
                    , inplace=True)
     df.drop_duplicates(inplace=True)
 
-    df.to_csv(join(WILD_DIR
-                   , 'added_functions_hits.csv')
+    df.to_csv(output_file
               , index=False)
 
     print(df.alert.value_counts())
