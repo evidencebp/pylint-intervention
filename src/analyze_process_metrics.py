@@ -164,6 +164,28 @@ def added_functions_hits(df: pandas.DataFrame):
 
     print(df.alert.value_counts())
 
+
+def modified_McCabe_max_diff_hits(df: pandas.DataFrame):
+    # added_functions
+
+    print("modified_McCabe_max_diff hits")
+
+    df = df[(df.state.isin(['removed'#, 'decrease'
+                             ]))
+            & (df['modified_McCabe_max_diff'] < 0)
+            & (df['added_lines'] > 0)
+            & (df['alert'].isin(['too-many-branches'
+                                    , 'too-many-nested-blocks'
+                                    , 'too-many-return-statements'
+                                    , 'too-many-statements']))]
+
+    write_labels(df
+        , output_file=join(WILD_DIR
+                       , 'reduced_McCabe_max_hits.csv')
+        , columns_to_add=['is_refactor_label', 'is_clean_label', 'reduced_McCabe_max_label'])
+
+    print(df.alert.value_counts())
+
 def write_labels(df: pandas.DataFrame
                  , output_file
                  , columns_to_add: list = ['is_refactor_label', 'is_clean_label']):
@@ -189,6 +211,7 @@ def analyze_process_metrics():
     experiment_candidates(df)
     df = build_ds()
     added_functions_hits(df)
+    modified_McCabe_max_diff_hits(build_ds())
 
 if __name__ == "__main__":
     analyze_process_metrics()
