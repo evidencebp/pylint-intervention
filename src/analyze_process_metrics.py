@@ -72,12 +72,20 @@ def anecdotes(df):
 
     # Sum reduction reduce CCP in complexity alerts
     print("Reduction in McCabe sum")
-    print(df[(df['McCabe_sum_diff']<-1)
+    print(df[(df['McCabe_sum_diff']<0)
                 & (df.state.isin(['removed', 'decrease']))].groupby(['alert']).agg({'commit': 'count', 'ccp_diff': 'mean'}))
 
     print("Reduction in modified_McCabe_max_diff")
-    print(df[(df['modified_McCabe_max_diff']<-1)
+    print(df[(df['modified_McCabe_max_diff']<0)
+             & (df['added_lines'] > 0)
+             & (df['mostly_delete']==False)
+                & (df['massive_change']==False)
                 & (df.state.isin(['removed', 'decrease']))].groupby(['alert']).agg({'commit': 'count', 'ccp_diff': 'mean'}))
+
+    print("Reduction in modified_McCabe_max_diff, suitable diff")
+    print(df[(df['modified_McCabe_max_diff']<0)
+                & (df.state.isin(['removed', 'decrease']))].groupby(['alert']).agg({'commit': 'count', 'ccp_diff': 'mean'}))
+
 
     # CCP increases after clean line too long reduction - no benefit seen
     print("clean changes")
@@ -166,7 +174,6 @@ def added_functions_hits(df: pandas.DataFrame):
 
 
 def modified_McCabe_max_diff_hits(df: pandas.DataFrame):
-    # added_functions
 
     print("modified_McCabe_max_diff hits")
 
@@ -182,6 +189,29 @@ def modified_McCabe_max_diff_hits(df: pandas.DataFrame):
     write_labels(df
         , output_file=join(WILD_DIR
                        , 'reduced_McCabe_max_hits.csv')
+        , columns_to_add=['is_refactor_label', 'is_clean_label', 'reduced_McCabe_max_label'])
+
+    print(df.alert.value_counts())
+
+
+def suitable_modified_McCabe_max_diff_hits(df: pandas.DataFrame):
+
+    print("modified_McCabe_max_diff hits")
+
+    df = df[(df.state.isin(['removed'#, 'decrease'
+                             ]))
+            & (df['modified_McCabe_max_diff'] < 0)
+            & (df['added_lines'] > 0)
+            & (df['mostly_delete'] == False)
+            & (df['massive_change'] == False)
+            & (df['alert'].isin(['too-many-branches'
+                                    , 'too-many-nested-blocks'
+                                    , 'too-many-return-statements'
+                                    , 'too-many-statements']))]
+
+    write_labels(df
+        , output_file=join(WILD_DIR
+                       , 'suitable_reduced_McCabe_max_hits.csv')
         , columns_to_add=['is_refactor_label', 'is_clean_label', 'reduced_McCabe_max_label'])
 
     print(df.alert.value_counts())
@@ -212,6 +242,7 @@ def analyze_process_metrics():
     df = build_ds()
     added_functions_hits(df)
     modified_McCabe_max_diff_hits(build_ds())
+    suitable_modified_McCabe_max_diff_hits(build_ds())
 
 if __name__ == "__main__":
     analyze_process_metrics()
