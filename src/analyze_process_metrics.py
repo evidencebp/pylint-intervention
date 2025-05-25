@@ -212,7 +212,11 @@ def suitable_modified_McCabe_max_diff_hits(df: pandas.DataFrame):
     write_labels(df
         , output_file=join(WILD_DIR
                        , 'suitable_reduced_McCabe_max_hits.csv')
-        , columns_to_add=['is_refactor_label', 'is_clean_label', 'reduced_McCabe_max_label'])
+        , columns_to_add=['is_refactor_label'
+                            , 'is_clean_label'
+                            , 'reduced_McCabe_max_label'
+                            , 'mostly_delete'
+                            , 'massive_change'])
 
     print(df.alert.value_counts())
 
