@@ -196,6 +196,9 @@ def enhance_commits():
                    , on=['repo_name', 'commit', 'file_name'])
     df['is_clean'] = df.apply(lambda x: is_clean(x)
                               , axis=1)
+
+    df['only_removal'] = df['added_lines'].map(lambda x: x == 0)
+
     df['mostly_delete'] = df.apply(lambda x: x['removed_lines'] > 3*x['added_lines']
                               , axis=1)
     df['massive_change'] = df.apply(lambda x: x['changed_lines'] > 300
