@@ -4,7 +4,7 @@ import pandas
 import pandas as pd
 
 from compute_commits_diff import WILD_DIR
-from compute_commit_profile import ENHANCED_FILE
+from compute_commit_profile import ENHANCED_FILE, extraction_candidates
 from compute_commits_code_metrics import alert_change_commits_file
 
 def build_process_metrics_ds(all_time: bool = False
@@ -75,12 +75,76 @@ def anecdotes(df):
     print(df[(df['McCabe_sum_diff']<0)
                 & (df.state.isin(['removed', 'decrease']))].groupby(['alert']).agg({'commit': 'count', 'ccp_diff': 'mean'}))
 
+    print("Reduction in modified_McCabe_max_diff - all alerts")
+    print(df[(df['modified_McCabe_max_diff']<0)
+             & (df['added_lines'] > 0)
+             & (df['mostly_delete']==False)
+                & (df['massive_change']==False)
+                & (df.state.isin(['removed', 'decrease']))].agg({'commit': 'count', 'ccp_diff': 'mean'}))
+
     print("Reduction in modified_McCabe_max_diff")
     print(df[(df['modified_McCabe_max_diff']<0)
              & (df['added_lines'] > 0)
              & (df['mostly_delete']==False)
                 & (df['massive_change']==False)
                 & (df.state.isin(['removed', 'decrease']))].groupby(['alert']).agg({'commit': 'count', 'ccp_diff': 'mean'}))
+    print("Reduction in modified_McCabe_max_diff by val and alert")
+    for alert in extraction_candidates:
+        print(alert)
+        for diff in [0, -5, -10]:
+            print(diff)
+            print(df[(df['modified_McCabe_max_diff']<diff)
+             & (df['added_lines'] > 0)
+             & (df['mostly_delete']==False)
+                & (df['massive_change']==False)
+                & (df['alert']==alert)
+                & (df.state.isin(['removed', 'decrease']))]
+                    .groupby(['alert'])
+                    .agg({'commit': 'count', 'ccp_diff': 'mean'}))
+
+
+    print("added functions")
+    print(df[(df.state.isin(['removed'#, 'decrease'
+                             ]))
+            & (df['added_functions'] > 0)
+            & (df['alert'].isin(['too-many-branches'
+                                    , 'too-many-nested-blocks'
+                                    , 'too-many-return-statements'
+                                    , 'too-many-statements']))]
+            .groupby(['alert']).agg({'commit': 'count', 'ccp_diff': 'mean'}))
+
+    print("added functions")
+    print(df[(df.state.isin(['removed'  # , 'decrease'
+                             ]))
+             & (df['added_functions'] > 0)
+             & (df['alert'].isin(['too-many-branches'
+                                     , 'too-many-nested-blocks'
+                                     , 'too-many-return-statements'
+                                     , 'too-many-statements']))]
+          .groupby(['alert']).agg({'commit': 'count', 'ccp_diff': 'mean'}))
+
+    print("suitable added functions")
+    print(df[(df.state.isin(['removed'  # , 'decrease'
+                             ]))
+             #& (df['modified_McCabe_max_diff']<diff)
+             & (df['added_lines'] > 0)
+             & (df['mostly_delete']==False)
+                & (df['massive_change']==False)
+             & (df['added_functions'] > 0)
+             & (df['alert'].isin(['too-many-branches'
+                                     , 'too-many-nested-blocks'
+                                     , 'too-many-return-statements'
+                                     , 'too-many-statements']))]
+          .groupby(['alert']).agg({'commit': 'count', 'ccp_diff': 'mean'}))
+
+    print("suitable alerts")
+    print(df[(df.state.isin(['removed'  # , 'decrease'
+                             ]))
+             #& (df['modified_McCabe_max_diff']<diff)
+             & (df['mostly_delete']==False)
+                & (df['massive_change']==False)
+             & (df['added_functions'] > 0)]
+          .groupby(['alert']).agg({'commit': 'count', 'ccp_diff': 'mean'}))
 
     print("Reduction in modified_McCabe_max_diff, suitable diff")
     print(df[(df['modified_McCabe_max_diff']<0)
@@ -249,4 +313,7 @@ def analyze_process_metrics():
     suitable_modified_McCabe_max_diff_hits(build_ds())
 
 if __name__ == "__main__":
-    analyze_process_metrics()
+    # analyze_process_metrics()
+    df = build_ds()
+    anecdotes(df)
+
