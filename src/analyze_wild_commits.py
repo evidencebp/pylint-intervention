@@ -23,5 +23,30 @@ def analyze_wild_commits():
                                     , 'is_clean': 'mean'}))
 
 
+def analyze_ccp_groups():
+    df = pd.read_csv(ENHANCED_FILE)
+
+
+    df = df[df['state']=='removed']
+    df['ccp_group'] = df['ccp_pm_before'].map(lambda x: 'low' if x < 0.09 else 'high' if x > 0.39 else 'med')
+
+    print("Change by CCP group")
+    print(df[(df.state.isin(['removed', 'decrease']))
+             & (df['mostly_delete'] == False)
+             & (df['massive_change'] == False)
+             ].groupby(['ccp_group']
+                , as_index=False).agg({'commit': 'count'
+                                        , 'ccp_diff': 'mean'
+                                        , 'same_day_duration_avg_diff': 'mean'}))
+
+    print("Change by CCP group and alert")
+    print(df[(df.state.isin(['removed', 'decrease']))
+             & (df['mostly_delete'] == False)
+             & (df['massive_change'] == False)
+             ].groupby(['alert', 'ccp_group']
+             , as_index=False).agg({'commit': 'count'
+                                    , 'ccp_diff': 'mean'
+                                    ,  'same_day_duration_avg_diff': 'mean'}))
+
 if __name__ == '__main__':
     analyze_wild_commits()

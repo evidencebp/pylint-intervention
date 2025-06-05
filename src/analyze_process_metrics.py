@@ -135,16 +135,18 @@ def anecdotes(df):
                                      , 'too-many-nested-blocks'
                                      , 'too-many-return-statements'
                                      , 'too-many-statements']))]
-          .groupby(['alert']).agg({'commit': 'count', 'ccp_diff': 'mean'}))
+          .groupby(['alert']).agg({'commit': 'count', 'ccp_diff': 'mean'
+                                                , 'same_day_duration_avg_diff': 'mean'}))
 
     print("suitable alerts")
     print(df[(df.state.isin(['removed'  # , 'decrease'
                              ]))
              #& (df['modified_McCabe_max_diff']<diff)
              & (df['mostly_delete']==False)
-                & (df['massive_change']==False)
-             & (df['added_functions'] > 0)]
-          .groupby(['alert']).agg({'commit': 'count', 'ccp_diff': 'mean'}))
+                & (df['massive_change']==False)]
+          .groupby(['alert']).agg({'commit': 'count'
+                                                , 'ccp_diff': 'mean'
+                                                , 'same_day_duration_avg_diff': 'mean'}))
 
     print("Reduction in modified_McCabe_max_diff, suitable diff")
     print(df[(df['modified_McCabe_max_diff']<0)
@@ -160,7 +162,10 @@ def anecdotes(df):
     # Check lift over regular change to see benefit over reduction to mean
     print("Change by CCP group")
     df['ccp_group'] = df['ccp_pm_before'].map(lambda x: 'low' if x < 0.09 else 'high' if x > 0.39 else 'med')
-    print(df[df.state.isin(['removed', 'decrease'])].groupby(['alert', 'ccp_group']
+    print(df[(df.state.isin(['removed', 'decrease']))
+             & (df['mostly_delete'] == False)
+             & (df['massive_change'] == False)
+             ].groupby(['alert', 'ccp_group']
                                                             , as_index=False).agg({'commit': 'count', 'ccp_diff': 'mean'}))
 
     # Refactor is helpful with too-many-branches, too-many-nested-blocks
