@@ -225,6 +225,13 @@ def added_functions_hits(df: pandas.DataFrame):
     # added_functions
 
     print("added_functions hits")
+    scope_df = df[(df.state.isin(['removed'#, 'decrease'
+                             ]))
+            & (df['alert'].isin(['too-many-branches'
+                                    , 'too-many-nested-blocks'
+                                    , 'too-many-return-statements'
+                                    , 'too-many-statements']))].copy()
+    scope = len(scope_df)
 
     df = df[(df.state.isin(['removed'#, 'decrease'
                              ]))
@@ -233,6 +240,7 @@ def added_functions_hits(df: pandas.DataFrame):
                                     , 'too-many-nested-blocks'
                                     , 'too-many-return-statements'
                                     , 'too-many-statements']))]
+    print("hit_rate", len(df), "out of ", scope, len(df)/scope)
 
     write_labels(df
         , output_file=join(WILD_DIR
@@ -245,6 +253,13 @@ def added_functions_hits(df: pandas.DataFrame):
 def modified_McCabe_max_diff_hits(df: pandas.DataFrame):
 
     print("modified_McCabe_max_diff hits")
+    scope_df = df[(df.state.isin(['removed'#, 'decrease'
+                             ]))
+            & (df['alert'].isin(['too-many-branches'
+                                    , 'too-many-nested-blocks'
+                                    , 'too-many-return-statements'
+                                    , 'too-many-statements']))].copy()
+    scope = len(scope_df)
 
     df = df[(df.state.isin(['removed'#, 'decrease'
                              ]))
@@ -254,6 +269,8 @@ def modified_McCabe_max_diff_hits(df: pandas.DataFrame):
                                     , 'too-many-nested-blocks'
                                     , 'too-many-return-statements'
                                     , 'too-many-statements']))]
+
+    print("hit_rate", len(df), "out of ", scope, len(df)/scope)
 
     write_labels(df
         , output_file=join(WILD_DIR
@@ -266,6 +283,14 @@ def modified_McCabe_max_diff_hits(df: pandas.DataFrame):
 def suitable_modified_McCabe_max_diff_hits(df: pandas.DataFrame):
 
     print("modified_McCabe_max_diff hits")
+    scope_df = df[(df.state.isin(['removed'#, 'decrease'
+                             ]))
+            & (df['alert'].isin(['too-many-branches'
+                                    , 'too-many-nested-blocks'
+                                    , 'too-many-return-statements'
+                                    , 'too-many-statements']))].copy()
+    scope = len(scope_df)
+
 
     df = df[(df.state.isin(['removed'#, 'decrease'
                              ]))
@@ -277,6 +302,8 @@ def suitable_modified_McCabe_max_diff_hits(df: pandas.DataFrame):
                                     , 'too-many-nested-blocks'
                                     , 'too-many-return-statements'
                                     , 'too-many-statements']))]
+
+    print("hit_rate", len(df), "out of ", scope, len(df)/scope)
 
     write_labels(df
         , output_file=join(WILD_DIR
@@ -318,7 +345,7 @@ def analyze_process_metrics():
     suitable_modified_McCabe_max_diff_hits(build_ds())
 
 if __name__ == "__main__":
-    # analyze_process_metrics()
+    analyze_process_metrics()
     df = build_ds()
     anecdotes(df)
 
