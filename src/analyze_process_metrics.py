@@ -335,6 +335,18 @@ def write_labels(df: pandas.DataFrame
 
     print(df.alert.value_counts())
 
+def ccp_by_alert():
+    df = build_ds()
+
+    print("Change by alert")
+    print(df[(df.state.isin(['removed']))
+             ].groupby(['alert']
+             , as_index=False).agg({'commit': 'count'
+                                    , 'ccp_diff': 'mean'
+                                    ,  'same_day_duration_avg_diff': 'mean'}).sort_values(['commit']
+                                                                                          , ascending =False))
+
+
 def analyze_process_metrics():
     df = build_ds()
     anecdotes(df)
@@ -345,7 +357,11 @@ def analyze_process_metrics():
     suitable_modified_McCabe_max_diff_hits(build_ds())
 
 if __name__ == "__main__":
+    """
     analyze_process_metrics()
     df = build_ds()
     anecdotes(df)
+    """
+    ccp_by_alert()
+
 
