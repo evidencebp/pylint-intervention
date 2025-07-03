@@ -345,7 +345,10 @@ def ccp_by_alert():
                                     , 'ccp_diff': 'mean'
                                     ,  'same_day_duration_avg_diff': 'mean'}).sort_values(['commit']
                                                                                           , ascending =False))
-
+def alert_changes_per_file():
+    df = pd.read_csv(alert_change_commits_file)
+    g = df.groupby(['repo_name', 'file_name', 'alert'], as_index=False).agg({'commit': 'count'})
+    g.commit.value_counts(normalize=True).sort_index().cumsum()
 
 def analyze_process_metrics():
     df = build_ds()
