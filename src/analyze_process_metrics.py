@@ -68,6 +68,56 @@ def build_ds():
 
     return df
 
+
+def new_function_no_McCabe_reduction(df):
+    print("new_function_no_McCabe_reduction")
+    print(df[(df.state.isin(['removed'#, 'decrease'
+                             ]))
+            & (df['added_functions'] > 0)
+            & (df['McCabe_sum_diff']==0)
+            # & (df['modified_McCabe_max_diff']==0) # had only one commit with it
+            & (df['alert'].isin(['too-many-branches'
+                                    , 'too-many-nested-blocks'
+                                    , 'too-many-return-statements'
+                                    , 'too-many-statements']))]
+            .groupby(['alert']).agg({'commit': 'count', 'ccp_diff': 'mean'}))
+
+def single_line(df):
+    print("single_line")
+    print(df[(df.state.isin(['removed'#, 'decrease'
+                             ]))
+            & (df['hunks_num'] == 1)
+            & (df['McCabe_sum_diff']==0)
+            & (df['added_lines']<=1)
+            & (df['added_lines']>0)
+            & (df['removed_lines']<=1)
+          ]
+            .groupby(['alert']).agg({'commit': 'count', 'ccp_diff': 'mean'}))
+
+    print("single_line, 5 added lines")
+    print(df[(df.state.isin(['removed'#, 'decrease'
+                             ]))
+            & (df['hunks_num'] == 1)
+            & (df['McCabe_sum_diff']==0)
+            & (df['added_lines']<=5)
+            & (df['added_lines']>0)
+            & (df['removed_lines']<=1)
+          ]
+            .groupby(['alert']).agg({'commit': 'count', 'ccp_diff': 'mean'}))
+
+    df['ccp_group'] = df['ccp_pm_before'].map(lambda x: 'low' if x < 0.09 else 'high' if x > 0.39 else 'med')
+    print("ccp_group - single_line, 5 added lines")
+    print(df[(df.state.isin(['removed'  # , 'decrease'
+                             ]))
+             & (df['hunks_num'] == 1)
+             & (df['McCabe_sum_diff'] == 0)
+             & (df['added_lines'] <= 5)
+             & (df['added_lines'] > 0)
+             & (df['removed_lines'] <= 1)
+             ]
+          .groupby(['alert', 'ccp_group']).agg({'commit': 'count', 'ccp_diff': 'mean'}))
+
+
 def anecdotes(df):
 
     # Sum reduction reduce CCP in complexity alerts
@@ -192,6 +242,9 @@ def anecdotes(df):
     print(df[df.state.isin(['removed', 'decrease'])].groupby(['alert', 'only_removal']
                                                 , as_index=False).agg({'commit': 'count', 'ccp_diff': 'mean'}))
 
+    new_function_no_McCabe_reduction(df)
+
+    single_line(df)
 
 def experiment_candidates(df: pd.DataFrame):
 
@@ -360,11 +413,11 @@ def analyze_process_metrics():
     suitable_modified_McCabe_max_diff_hits(build_ds())
 
 if __name__ == "__main__":
-    """
+
     analyze_process_metrics()
     df = build_ds()
     anecdotes(df)
-    """
+
     ccp_by_alert()
 
 
