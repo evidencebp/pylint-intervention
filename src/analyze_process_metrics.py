@@ -1,5 +1,7 @@
 from os.path import join
 
+
+import numpy as np
 import pandas
 import pandas as pd
 
@@ -171,7 +173,10 @@ def anecdotes(df):
                                      , 'too-many-nested-blocks'
                                      , 'too-many-return-statements'
                                      , 'too-many-statements']))]
-          .groupby(['alert']).agg({'commit': 'count', 'ccp_diff': 'mean'}))
+          .groupby(['alert']).agg(commits=('commit', 'count')
+                                    , ccp_mean=('ccp_diff', np.mean)
+                                    , ccp_std=('ccp_diff', np.std)))
+
 
     print("suitable added functions")
     print(df[(df.state.isin(['removed'  # , 'decrease'
@@ -185,8 +190,9 @@ def anecdotes(df):
                                      , 'too-many-nested-blocks'
                                      , 'too-many-return-statements'
                                      , 'too-many-statements']))]
-          .groupby(['alert']).agg({'commit': 'count', 'ccp_diff': 'mean'
-                                                , 'same_day_duration_avg_diff': 'mean'}))
+          .groupby(['alert']).agg({'commit': 'count'
+                                    , 'ccp_diff': 'mean'
+                                    , 'same_day_duration_avg_diff': 'mean'}))
 
     print("suitable alerts")
     print(df[(df.state.isin(['removed'  # , 'decrease'
@@ -245,6 +251,18 @@ def anecdotes(df):
     new_function_no_McCabe_reduction(df)
 
     single_line(df)
+
+    branches_by_repo(df)
+
+
+def branches_by_repo(df):
+    g = df[df.state.isin(['removed', 'decrease'])].groupby(
+        ['alert', 'repo_name'], as_index=False).agg(
+        {'commit': 'count', 'ccp_diff': 'mean'})
+    ccp_increasing = len(g[ (g['commit']> 3) & (g['alert']== 'too-many-branches')& (g['ccp_diff']>0)])
+    ccp_reducing = len(g[ (g['commit']> 3) & (g['alert']== 'too-many-branches')& (g['ccp_diff']<0)])
+
+    print("CCP reduction in branches by repo probability", ccp_reducing/(ccp_reducing+ccp_increasing) )
 
 def experiment_candidates(df: pd.DataFrame):
 
