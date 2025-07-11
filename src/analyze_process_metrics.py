@@ -1,6 +1,6 @@
 from os.path import join
 
-
+from math import sqrt
 import numpy as np
 import pandas
 import pandas as pd
@@ -120,6 +120,23 @@ def single_line(df):
           .groupby(['alert', 'ccp_group']).agg({'commit': 'count', 'ccp_diff': 'mean'}))
 
 
+def interventions_stats(df
+                        , grouping=['alert']
+                       , title=None):
+
+    stats = df.groupby(grouping).agg(cases=('commit', 'count')
+                                    , ccp_mean=('ccp_diff', np.mean)
+                                    , ccp_std=('ccp_diff', np.std))
+
+    stats['standard_error'] = stats.apply(lambda x: x['ccp_std']/sqrt(x['cases'])
+                                          , axis=1)
+
+    if title:
+        print(title)
+        print(stats)
+
+    return stats
+
 def anecdotes(df):
 
     # Sum reduction reduce CCP in complexity alerts
@@ -165,18 +182,16 @@ def anecdotes(df):
                                     , 'too-many-statements']))]
             .groupby(['alert']).agg({'commit': 'count', 'ccp_diff': 'mean'}))
 
-    print("added functions")
-    print(df[(df.state.isin(['removed'  # , 'decrease'
+
+    interventions_stats(df=df[(df.state.isin(['removed'  # , 'decrease'
                              ]))
              & (df['added_functions'] > 0)
              & (df['alert'].isin(['too-many-branches'
                                      , 'too-many-nested-blocks'
                                      , 'too-many-return-statements'
                                      , 'too-many-statements']))]
-          .groupby(['alert']).agg(commits=('commit', 'count')
-                                    , ccp_mean=('ccp_diff', np.mean)
-                                    , ccp_std=('ccp_diff', np.std)))
-
+                        , grouping=['alert']
+                        , title="added functions")
 
     print("suitable added functions")
     print(df[(df.state.isin(['removed'  # , 'decrease'
