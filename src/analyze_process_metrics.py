@@ -85,8 +85,8 @@ def new_function_no_McCabe_reduction(df):
             .groupby(['alert']).agg({'commit': 'count', 'ccp_diff': 'mean'}))
 
 def single_line(df):
-    print("single_line")
-    print(df[(df.state.isin(['removed'#, 'decrease'
+
+    interventions_stats(df=df[(df.state.isin(['removed'#, 'decrease'
                              ]))
             & (df['hunks_num'] == 1)
             & (df['McCabe_sum_diff']==0)
@@ -94,10 +94,11 @@ def single_line(df):
             & (df['added_lines']>0)
             & (df['removed_lines']<=1)
           ]
-            .groupby(['alert']).agg({'commit': 'count', 'ccp_diff': 'mean'}))
+                        , grouping=['alert']
+                        , title="single_line")
 
-    print("single_line, 5 added lines")
-    print(df[(df.state.isin(['removed'#, 'decrease'
+
+    interventions_stats(df=df[(df.state.isin(['removed'#, 'decrease'
                              ]))
             & (df['hunks_num'] == 1)
             & (df['McCabe_sum_diff']==0)
@@ -105,19 +106,10 @@ def single_line(df):
             & (df['added_lines']>0)
             & (df['removed_lines']<=1)
           ]
-            .groupby(['alert']).agg({'commit': 'count', 'ccp_diff': 'mean'}))
+                        , grouping=['alert']
+                        , title="single_line, 5 added lines")
 
-    df['ccp_group'] = df['ccp_pm_before'].map(lambda x: 'low' if x < 0.09 else 'high' if x > 0.39 else 'med')
-    print("ccp_group - single_line, 5 added lines")
-    print(df[(df.state.isin(['removed'  # , 'decrease'
-                             ]))
-             & (df['hunks_num'] == 1)
-             & (df['McCabe_sum_diff'] == 0)
-             & (df['added_lines'] <= 5)
-             & (df['added_lines'] > 0)
-             & (df['removed_lines'] <= 1)
-             ]
-          .groupby(['alert', 'ccp_group']).agg({'commit': 'count', 'ccp_diff': 'mean'}))
+
 
 
 def interventions_stats(df
@@ -136,6 +128,22 @@ def interventions_stats(df
         print(stats)
 
     return stats
+
+def get_added_function_candidates(df):
+    return df[(df.state.isin(['removed'  # , 'decrease'
+                             ]))
+             & (df['added_functions'] > 0)
+             & (df['alert'].isin(['too-many-branches'
+                                     , 'too-many-nested-blocks'
+                                     , 'too-many-return-statements'
+                                     , 'too-many-statements']))].copy()
+
+def get_suitable_alerts(df):
+    return df[(df.state.isin(['removed'  # , 'decrease'
+                             ]))
+             #& (df['modified_McCabe_max_diff']<diff)
+             & (df['mostly_delete']==False)
+                & (df['massive_change']==False)].copy()
 
 def anecdotes(df):
 
@@ -172,24 +180,8 @@ def anecdotes(df):
                     .agg({'commit': 'count', 'ccp_diff': 'mean'}))
 
 
-    print("added functions")
-    print(df[(df.state.isin(['removed'#, 'decrease'
-                             ]))
-            & (df['added_functions'] > 0)
-            & (df['alert'].isin(['too-many-branches'
-                                    , 'too-many-nested-blocks'
-                                    , 'too-many-return-statements'
-                                    , 'too-many-statements']))]
-            .groupby(['alert']).agg({'commit': 'count', 'ccp_diff': 'mean'}))
 
-
-    interventions_stats(df=df[(df.state.isin(['removed'  # , 'decrease'
-                             ]))
-             & (df['added_functions'] > 0)
-             & (df['alert'].isin(['too-many-branches'
-                                     , 'too-many-nested-blocks'
-                                     , 'too-many-return-statements'
-                                     , 'too-many-statements']))]
+    interventions_stats(df=get_added_function_candidates(df)
                         , grouping=['alert']
                         , title="added functions")
 
@@ -218,6 +210,9 @@ def anecdotes(df):
           .groupby(['alert']).agg({'commit': 'count'
                                                 , 'ccp_diff': 'mean'
                                                 , 'same_day_duration_avg_diff': 'mean'}))
+    interventions_stats(df=get_suitable_alerts(df)
+                        , grouping=['alert']
+                        , title="suitable alerts")
 
     print("Reduction in modified_McCabe_max_diff, suitable diff")
     print(df[(df['modified_McCabe_max_diff']<0)
@@ -229,15 +224,6 @@ def anecdotes(df):
     print(df[(df['is_clean']==True)
           & (df.state.isin(['removed', 'decrease']))].groupby(['alert']).agg({'commit': 'count', 'ccp_diff': 'mean'}))
 
-    # More benefit when CCP was high.
-    # Check lift over regular change to see benefit over reduction to mean
-    print("Change by CCP group")
-    df['ccp_group'] = df['ccp_pm_before'].map(lambda x: 'low' if x < 0.09 else 'high' if x > 0.39 else 'med')
-    print(df[(df.state.isin(['removed', 'decrease']))
-             & (df['mostly_delete'] == False)
-             & (df['massive_change'] == False)
-             ].groupby(['alert', 'ccp_group']
-                                                            , as_index=False).agg({'commit': 'count', 'ccp_diff': 'mean'}))
 
     # Refactor is helpful with too-many-branches, too-many-nested-blocks
     print("Change by refactor")
@@ -268,16 +254,55 @@ def anecdotes(df):
     single_line(df)
 
     branches_by_repo(df)
+    branches_by_repo(get_added_function_candidates(df))
+    ccp_group_analysis(df)
+
+def ccp_group_analysis(df):
+
+    # More benefit when CCP was high.
+    # Check lift over regular change to see benefit over reduction to mean
+    print("Change by CCP group")
+    df['ccp_group'] = df['ccp_pm_before'].map(lambda x: 'low' if x < 0.09 else 'high' if x > 0.39 else 'med')
+    print(df[(df.state.isin(['removed', 'decrease']))
+             & (df['mostly_delete'] == False)
+             & (df['massive_change'] == False)
+             ].groupby(['alert', 'ccp_group']
+                                                            , as_index=False).agg({'commit': 'count', 'ccp_diff': 'mean'}))
+
+
+    print("ccp_group - single_line, 5 added lines")
+    print(df[(df.state.isin(['removed'  # , 'decrease'
+                             ]))
+             & (df['hunks_num'] == 1)
+             & (df['McCabe_sum_diff'] == 0)
+             & (df['added_lines'] <= 5)
+             & (df['added_lines'] > 0)
+             & (df['removed_lines'] <= 1)
+             ]
+          .groupby(['alert', 'ccp_group']).agg({'commit': 'count', 'ccp_diff': 'mean'}))
+
+
+
+    interventions_stats(df=get_added_function_candidates(df)
+                        , grouping=['alert', 'ccp_group']
+                        , title="added functions by ccp group")
+
+    interventions_stats(df=get_suitable_alerts(df)
+                        , grouping=['alert', 'ccp_group']
+                        , title="suitable alerts by ccp group")
 
 
 def branches_by_repo(df):
     g = df[df.state.isin(['removed', 'decrease'])].groupby(
         ['alert', 'repo_name'], as_index=False).agg(
         {'commit': 'count', 'ccp_diff': 'mean'})
-    ccp_increasing = len(g[ (g['commit']> 3) & (g['alert']== 'too-many-branches')& (g['ccp_diff']>0)])
-    ccp_reducing = len(g[ (g['commit']> 3) & (g['alert']== 'too-many-branches')& (g['ccp_diff']<0)])
+    ccp_increasing = len(g[ (g['commit']>= 3) & (g['alert']== 'too-many-branches')& (g['ccp_diff']>0)])
+    ccp_reducing = len(g[ (g['commit']>= 3) & (g['alert']== 'too-many-branches')& (g['ccp_diff']<0)])
 
-    print("CCP reduction in branches by repo probability", ccp_reducing/(ccp_reducing+ccp_increasing) )
+    print("CCP reduction in branches by repo probability"
+          , ccp_reducing/(ccp_reducing+ccp_increasing)
+          , "in"
+          , (ccp_reducing+ccp_increasing))
 
 def experiment_candidates(df: pd.DataFrame):
 
