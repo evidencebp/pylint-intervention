@@ -488,3 +488,21 @@ cf.repo_name
 , anc.commit
 ;
 
+
+# 10 commits in 3 months - 1344
+select count(*)
+from
+general.file_properties_after_anchor_3m as a
+join
+general.file_properties_before_anchor_3m as b
+on
+a.repo_name = b.repo_name
+and
+a.file = b.file
+and
+a.commit = b.commit
+where
+a.commits >= 10
+and
+b.commits >= 10
+;
