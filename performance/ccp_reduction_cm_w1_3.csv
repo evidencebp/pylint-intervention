@@ -1,0 +1,6 @@
+model,true_positives,true_negatives,false_positives,false_negatives,samples,accuracy,positive_rate,hit_rate,precision,precision_lift,recall,fpr,jaccard,independent_prob,lift_over_independent,lift_over_majority,concept_entropy,classifier_entropy,mutual_information,comment
+Tree_ms50_md3,13.0,135.0,13.0,97.0,258.0,0.57,0.43,0.1,0.5,0.17,0.12,0.09,0.11,0.56,0.03,0.0,0.98,0.47,0.0,
+Tree_default,69.0,109.0,39.0,41.0,258.0,0.69,0.43,0.42,0.64,0.5,0.63,0.26,0.46,0.51,0.35,0.2,0.98,0.98,0.1,
+Tree_ms50,50.0,122.0,26.0,60.0,258.0,0.67,0.43,0.29,0.66,0.54,0.45,0.18,0.37,0.53,0.26,0.16,0.98,0.87,0.07,
+Tree_md3,15.0,137.0,11.0,95.0,258.0,0.59,0.43,0.1,0.58,0.35,0.14,0.07,0.12,0.56,0.05,0.03,0.98,0.47,0.01,
+RandomForest,61.0,106.0,42.0,49.0,258.0,0.65,0.43,0.4,0.59,0.39,0.55,0.28,0.4,0.51,0.26,0.13,0.98,0.97,0.05,

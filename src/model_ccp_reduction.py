@@ -87,6 +87,9 @@ def build_ccp_reduction_dataset():
     valid_columns = set(df.columns) - set(invalid_features)
     print("valid_columns", valid_columns)
 
+    hand_carfted_features = list(df.alert.unique()) + ['is_refactor'
+        , 'McCabe_sum_reduced', 'McCabe_max_reduced', 'only_removal', 'mostly_delete'
+        , 'massive_change','high_ccp_group']
     df = df[valid_columns]
     df = df.fillna(0)
 
