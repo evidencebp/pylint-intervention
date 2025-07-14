@@ -23,7 +23,7 @@ import pandas as pd
 from sklearn.tree import DecisionTreeClassifier, plot_tree
 from sklearn.ensemble import RandomForestClassifier
 
-class_weight = {1: 1, 0: 1}
+class_weight = {1: 1, 0: 3}
 
 MIN_SAMPLES = 10
 MAX_DEPTH = 3
@@ -89,8 +89,9 @@ def build_ccp_reduction_dataset():
 
     hand_carfted_features = list(df.alert.unique()) + ['is_refactor'
         , 'McCabe_sum_reduced', 'McCabe_max_reduced', 'only_removal', 'mostly_delete'
-        , 'massive_change','high_ccp_group']
-    df = df[valid_columns]
+        , 'massive_change','high_ccp_group'] + [CONCEPT]
+    #df = df[valid_columns]
+    df = df[hand_carfted_features]
     df = df.fillna(0)
 
     return df
