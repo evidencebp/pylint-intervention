@@ -24,7 +24,7 @@ import pandas as pd
 from sklearn.tree import DecisionTreeClassifier, plot_tree
 from sklearn.ensemble import RandomForestClassifier
 
-class_weight = {1: 1, 0: 3}
+class_weight = {1: 1, 0: 1}
 
 MIN_SAMPLES = 10
 MAX_DEPTH = 3
@@ -68,6 +68,7 @@ def build_ccp_reduction_dataset():
     df['massive_change'] = df.apply(lambda x: int(x['changed_lines'] > 300)
                               , axis=1)
 
+    # To check only complexity alerts
     df = df[df.alert.isin(extraction_candidates)]
 
     invalid_features = []
@@ -89,11 +90,11 @@ def build_ccp_reduction_dataset():
     valid_columns = set(df.columns) - set(invalid_features)
     print("valid_columns", valid_columns)
 
-    hand_carfted_features = list(df.alert.unique()) + ['is_refactor'
+    hand_crafted_features = list(df.alert.unique()) + ['is_refactor'
         , 'McCabe_sum_reduced', 'McCabe_max_reduced', 'only_removal', 'mostly_delete'
         , 'massive_change','high_ccp_group'] + [CONCEPT]
-    #df = df[valid_columns]
-    df = df[hand_carfted_features]
+    # df = df[hand_crafted_features]
+    df = df[valid_columns]
     df = df.fillna(0)
 
 

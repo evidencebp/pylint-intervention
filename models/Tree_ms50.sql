@@ -1,48 +1,48 @@
-create or replace function Tree_ms50 (too-many-branches int64, too-many-statements int64, too-many-return-statements int64, too-many-nested-blocks int64, is_refactor int64, McCabe_sum_reduced int64, McCabe_max_reduced int64, only_removal int64, mostly_delete int64, massive_change int64, high_ccp_group int64) as (
-  case when high_ccp_group <= 0.5 then
-    case when mostly_delete <= 0.5 then
-      case when massive_change <= 0.5 then
-        case when is_refactor <= 0.5 then
-          case when McCabe_max_reduced <= 0.5 then
-            case when McCabe_sum_reduced <= 0.5 then
-              case when too-many-statements <= 0.5 then
-                 return 0.03571428571428571 # (1.0 out of 28.0)
-              else  # if too-many-statements > 0.5
-                 return 0.1 # (4.0 out of 40.0)
-              end             else  # if McCabe_sum_reduced > 0.5
-               return 0.13333333333333333 # (6.0 out of 45.0)
-            end           else  # if McCabe_max_reduced > 0.5
-            case when too-many-branches <= 0.5 then
-               return 0.0425531914893617 # (2.0 out of 47.0)
-            else  # if too-many-branches > 0.5
-               return 0.08695652173913043 # (4.0 out of 46.0)
-            end           end         else  # if is_refactor > 0.5
-          case when McCabe_sum_reduced <= 0.5 then
-            case when McCabe_max_reduced <= 0.5 then
-               return 0.1111111111111111 # (3.0 out of 27.0)
-            else  # if McCabe_max_reduced > 0.5
-               return 0.07142857142857142 # (3.0 out of 42.0)
-            end           else  # if McCabe_sum_reduced > 0.5
-            case when too-many-statements <= 0.5 then
-               return 0.4 # (8.0 out of 20.0)
-            else  # if too-many-statements > 0.5
-               return 0.25 # (5.0 out of 20.0)
-            end           end         end       else  # if massive_change > 0.5
-        case when is_refactor <= 0.5 then
-           return 0.5 # (12.0 out of 24.0)
-        else  # if is_refactor > 0.5
-           return 0.14285714285714285 # (4.0 out of 28.0)
-        end       end     else  # if mostly_delete > 0.5
-       return 0.5 # (9.0 out of 18.0)
-    end   else  # if high_ccp_group > 0.5
-    case when too-many-return-statements <= 0.5 then
-      case when McCabe_sum_reduced <= 0.5 then
-        case when is_refactor <= 0.5 then
-           return 0.19230769230769232 # (5.0 out of 26.0)
-        else  # if is_refactor > 0.5
-           return 0.5263157894736842 # (10.0 out of 19.0)
-        end       else  # if McCabe_sum_reduced > 0.5
-         return 0.5714285714285714 # (20.0 out of 35.0)
-      end     else  # if too-many-return-statements > 0.5
-       return 0.07692307692307693 # (2.0 out of 26.0)
-    end   end )
+create or replace function Tree_ms50 (hunks_num int64, McCabe_sum_after int64, added_lines int64, cur_count_y int64, changed_lines int64, N1_diff int64, added_functions int64, Single comments_before int64, McCabe_max_after int64, calculated_length_diff int64, h1_diff int64, difficulty_diff int64, too-many-nested-blocks int64, modified_McCabe_max_diff int64, removed_lines int64, prev_count int64, Blank_diff int64, prev_count_x int64, h2_diff int64, LLOC_before int64, Multi_diff int64, volume_diff int64, same_day_duration_avg_diff int64, N2_diff int64, one_file_fix_rate_diff int64, Comments_after int64, massive_change int64, Single comments_diff int64, Comments_before int64, SLOC_before int64, prev_count_y int64, vocabulary_diff int64, LOC_before int64, McCabe_sum_diff int64, high_ccp_group int64, McCabe_sum_before int64, is_refactor int64, cur_count_x int64, refactor_mle_diff int64, time_diff int64, bugs_diff int64, avg_coupling_code_size_cut_diff int64, LLOC_diff int64, Single comments_after int64, too-many-branches int64, McCabe_max_diff int64, too-many-statements int64, mostly_delete int64, effort_diff int64, length_diff int64, Blank_before int64, SLOC_diff int64, McCabe_max_before int64, LOC_diff int64, cur_count int64, too-many-return-statements int64, only_removal int64, Comments_diff int64) as (
+  case when Single comments_diff <= -2.5 then
+    case when removed_lines <= 12.5 then
+       return 0.2777777777777778 # (5.0 out of 18.0)
+    else  # if removed_lines > 12.5
+      case when SLOC_before <= 696.5 then
+        case when McCabe_max_diff <= -9.5 then
+           return 0.9 # (9.0 out of 10.0)
+        else  # if McCabe_max_diff > -9.5
+           return 1.0 # (21.0 out of 21.0)
+        end       else  # if SLOC_before > 696.5
+         return 0.6 # (6.0 out of 10.0)
+      end     end   else  # if Single comments_diff > -2.5
+    case when Blank_before <= 42.5 then
+      case when N2_diff <= -0.5 then
+         return 0.25 # (3.0 out of 12.0)
+      else  # if N2_diff > -0.5
+         return 1.0 # (15.0 out of 15.0)
+      end     else  # if Blank_before > 42.5
+      case when hunks_num <= 3.5 then
+        case when LOC_before <= 837.5 then
+          case when McCabe_max_diff <= -2.5 then
+             return 0.3 # (3.0 out of 10.0)
+          else  # if McCabe_max_diff > -2.5
+            case when changed_lines <= 19.0 then
+               return 0.6 # (6.0 out of 10.0)
+            else  # if changed_lines > 19.0
+               return 0.9166666666666666 # (11.0 out of 12.0)
+            end           end         else  # if LOC_before > 837.5
+          case when same_day_duration_avg_diff <= 7.796730041503906 then
+             return 0.3157894736842105 # (6.0 out of 19.0)
+          else  # if same_day_duration_avg_diff > 7.796730041503906
+             return 0.0 # (0.0 out of 14.0)
+          end         end       else  # if hunks_num > 3.5
+        case when McCabe_sum_after <= 157.0 then
+          case when avg_coupling_code_size_cut_diff <= 0.3166666775941849 then
+            case when changed_lines <= 128.5 then
+               return 0.0 # (0.0 out of 29.0)
+            else  # if changed_lines > 128.5
+               return 0.1 # (1.0 out of 10.0)
+            end           else  # if avg_coupling_code_size_cut_diff > 0.3166666775941849
+             return 0.25 # (3.0 out of 12.0)
+          end         else  # if McCabe_sum_after > 157.0
+          case when hunks_num <= 7.5 then
+             return 0.8 # (8.0 out of 10.0)
+          else  # if hunks_num > 7.5
+             return 0.11764705882352941 # (2.0 out of 17.0)
+          end         end       end     end   end )
