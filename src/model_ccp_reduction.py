@@ -47,12 +47,26 @@ CONCEPT = 'concept'
 def build_ccp_reduction_dataset():
 
     df = build_ds()
-    df = df[(df['ccp_diff'] >= 0)
-            | (df['ccp_diff'] < 0)]
+    df = df[((df['ccp_diff'] >= 0)
+                    | (df['ccp_diff'] < 0))
+            & (df.state.isin(['removed']))]
     df[CONCEPT] = df['ccp_diff'].map(lambda x: int(x < 0))
 
     print("records", len(df))
     print(df[CONCEPT].value_counts(normalize=True))
+
+
+    df['is_refactor'] = df['is_refactor'].map(lambda x: 1 if x == 1 else 0)
+    df['McCabe_sum_reduced'] = df['McCabe_sum_diff'].map(lambda x: bool(x < 0))
+    df['McCabe_max_reduced'] = df['McCabe_max_diff'].map(lambda x: bool(x < 0))
+
+    df['only_removal'] = df['added_lines'].map(lambda x: int(x == 0))
+
+    df['mostly_delete'] = df.apply(lambda x: int(x['removed_lines'] > 3*x['added_lines'])
+                              , axis=1)
+    df['massive_change'] = df.apply(lambda x: int(x['changed_lines'] > 300)
+                              , axis=1)
+
 
     invalid_features = []
     for i in df.columns:
@@ -63,6 +77,8 @@ def build_ccp_reduction_dataset():
                 or 'corrective_commits' in i.lower()
                 or 'pm' in i.lower()):
             invalid_features.append(i)
+
+    df['high_ccp_group'] = df['ccp_pm_before'].map(lambda x: int(x > 0.39))
 
     for i in df['alert'].unique():
         df[i] = df['alert'].map(lambda x: int(x==i))
@@ -115,5 +131,5 @@ def compute_feature_stats():
                    , 'ccp_reduction_features_stats.csv'))
 
 if __name__ == '__main__':
-    #model_ccp_reduction()
+    model_ccp_reduction()
     compute_feature_stats()
