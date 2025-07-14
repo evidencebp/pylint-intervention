@@ -8,6 +8,7 @@ from analysis_utils.ml_utils import build_and_eval_models, save_performance, bui
 from analysis_utils.feature_pair_analysis import pair_features_vs_concept, features_stats_to_cm_df
 
 from configuration import BASE_DIR
+from compute_commit_profile import extraction_candidates
 from analyze_process_metrics import build_ds
 
 PERFORMANCE_DIR = os.path.join(BASE_DIR
@@ -67,6 +68,7 @@ def build_ccp_reduction_dataset():
     df['massive_change'] = df.apply(lambda x: int(x['changed_lines'] > 300)
                               , axis=1)
 
+    df = df[df.alert.isin(extraction_candidates)]
 
     invalid_features = []
     for i in df.columns:
@@ -93,6 +95,7 @@ def build_ccp_reduction_dataset():
     #df = df[valid_columns]
     df = df[hand_carfted_features]
     df = df.fillna(0)
+
 
     return df
 
