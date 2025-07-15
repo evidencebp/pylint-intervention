@@ -69,7 +69,7 @@ def build_ccp_reduction_dataset():
                               , axis=1)
 
     # To check only complexity alerts
-    df = df[df.alert.isin(extraction_candidates)]
+    # df = df[df.alert.isin(extraction_candidates)]
 
     invalid_features = []
     for i in df.columns:
@@ -82,6 +82,11 @@ def build_ccp_reduction_dataset():
             invalid_features.append(i)
 
     df['high_ccp_group'] = df['ccp_pm_before'].map(lambda x: int(x > 0.39))
+
+    for i in ['McCabe_sum_before', 'McCabe_max_before', 'McCabe_sum_diff', 'McCabe_max_diff']:
+        q75 = df[i].quantile(0.75)
+        print(i, q75)
+        df['high_' + i] = df[i].map(lambda x: int(x > q75))
 
     for i in df['alert'].unique():
         df[i] = df['alert'].map(lambda x: int(x==i))
