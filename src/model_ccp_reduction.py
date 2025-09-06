@@ -45,7 +45,7 @@ classifiers = {'Tree_ms50_md3': DecisionTreeClassifier(min_samples_leaf=MIN_SAMP
 
 CONCEPT = 'concept'
 
-def build_ccp_reduction_dataset():
+def build_ccp_reduction_dataset(alerts_scope: list = None):
 
     df = build_ds()
     df = df[((df['ccp_diff'] >= 0)
@@ -69,7 +69,8 @@ def build_ccp_reduction_dataset():
                               , axis=1)
 
     # To check only complexity alerts
-    # df = df[df.alert.isin(extraction_candidates)]
+    if alerts_scope:
+        df = df[df.alert.isin(alerts_scope)]
 
     invalid_features = []
     for i in df.columns:
@@ -92,7 +93,7 @@ def build_ccp_reduction_dataset():
         df[i] = df['alert'].map(lambda x: int(x==i))
 
     print("nonnumeric_features", invalid_features)
-    valid_columns = set(df.columns) - set(invalid_features)
+    valid_columns = list(set(df.columns) - set(invalid_features))
     print("valid_columns", valid_columns)
 
     hand_crafted_features = list(df.alert.unique()) + ['is_refactor'
@@ -143,6 +144,23 @@ def compute_feature_stats():
     df.to_csv(join(PERFORMANCE_DIR
                    , 'ccp_reduction_features_stats.csv'))
 
+
+def compute_extraction_feature_stats():
+    df = build_ccp_reduction_dataset(alerts_scope=extraction_candidates)
+
+    # Get confusion metrics for metrics
+    stats = pair_features_vs_concept(df=df
+                             , features=set(df.columns) - set([CONCEPT])
+                             , concept=CONCEPT
+                             , metrics=None
+                             , verbose=True)
+    df = features_stats_to_cm_df(stats)
+
+    df.to_csv(join(PERFORMANCE_DIR
+                   , 'extraction_ccp_reduction_features_stats.csv'))
+
 if __name__ == '__main__':
-    model_ccp_reduction()
-    compute_feature_stats()
+    #model_ccp_reduction()
+    #compute_feature_stats()
+    compute_extraction_feature_stats()
+
