@@ -1,11 +1,11 @@
 import os
 import sys
 
-ANALYSIS_PATH = r'c:\src\analysis_utils'
+ANALYSIS_PATH = r'c:\src'
 sys.path.append(ANALYSIS_PATH)
 
-from analysis_utils.ml_utils import build_and_eval_models, save_performance, build_models
-from analysis_utils.feature_pair_analysis import pair_features_vs_concept, features_stats_to_cm_df
+from analysis_utils.analysis_utils.ml_utils import build_and_eval_models, save_performance, build_models
+from analysis_utils.analysis_utils.feature_pair_analysis import pair_features_vs_concept, features_stats_to_cm_df
 
 from configuration import BASE_DIR
 from compute_commit_profile import extraction_candidates
@@ -83,11 +83,17 @@ def build_ccp_reduction_dataset(alerts_scope: list = None):
             invalid_features.append(i)
 
     df['high_ccp_group'] = df['ccp_pm_before'].map(lambda x: int(x > 0.39))
+    df['low_ccp_group'] = df['ccp_pm_before'].map(lambda x: int(x < 0.09))
 
     for i in ['McCabe_sum_before', 'McCabe_max_before', 'McCabe_sum_diff', 'McCabe_max_diff']:
         q75 = df[i].quantile(0.75)
         print(i, q75)
         df['high_' + i] = df[i].map(lambda x: int(x > q75))
+
+    for i in ['McCabe_sum_before', 'McCabe_max_before', 'McCabe_sum_diff', 'McCabe_max_diff']:
+        q25 = df[i].quantile(0.25)
+        print(i, q25)
+        df['low_' + i] = df[i].map(lambda x: int(x < q25))
 
     for i in df['alert'].unique():
         df[i] = df['alert'].map(lambda x: int(x==i))
@@ -160,7 +166,7 @@ def compute_extraction_feature_stats():
                    , 'extraction_ccp_reduction_features_stats.csv'))
 
 if __name__ == '__main__':
-    #model_ccp_reduction()
-    #compute_feature_stats()
+    model_ccp_reduction()
+    compute_feature_stats()
     compute_extraction_feature_stats()
 
