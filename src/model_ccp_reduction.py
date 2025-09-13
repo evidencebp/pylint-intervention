@@ -1,6 +1,8 @@
 import os
 import sys
 
+from analysis_utils.analysis_utils.df_to_latex_table import df_to_latex_table
+
 ANALYSIS_PATH = r'c:\src'
 sys.path.append(ANALYSIS_PATH)
 
@@ -147,23 +149,25 @@ def compute_feature_stats(alerts_scope
                              , metrics=None
                              , verbose=True)
     df = features_stats_to_cm_df(stats)
+    df = df.reset_index().rename(columns={'index': 'Feature'})
 
-    df.to_csv(output)
+    if output:
+        df.to_csv(output
+                  , index=False)
+
+    return df
 
 
-def compute_extraction_feature_stats():
-    df = build_ccp_reduction_dataset(alerts_scope=extraction_candidates)
 
-    # Get confusion metrics for metrics
-    stats = pair_features_vs_concept(df=df
-                             , features=set(df.columns) - set([CONCEPT])
-                             , concept=CONCEPT
-                             , metrics=None
-                             , verbose=True)
-    df = features_stats_to_cm_df(stats)
+def print_features_stats(df):
 
-    df.to_csv(join(PERFORMANCE_DIR
-                   , 'extraction_ccp_reduction_features_stats.csv'))
+
+    df_to_latex_table(df[['Feature', 'accuracy', 'hit_rate', 'precision', 'precision_lift', 'recall' ]]
+                        , caption=' \label{tab:features-cm} Features Predictive Performance'
+                        , columns_to_name=None
+                        , star_table=True
+                        , columns_header=None)
+
 
 def main():
     model_ccp_reduction()
@@ -171,9 +175,10 @@ def main():
                           , output=join(PERFORMANCE_DIR
                    , 'ccp_reduction_features_stats.csv'))
 
-    compute_feature_stats(alerts_scope=extraction_candidates
+    df = compute_feature_stats(alerts_scope=extraction_candidates
                           , output=join(PERFORMANCE_DIR
                    , 'extraction_ccp_reduction_features_stats.csv'))
+    print_features_stats(df)
 
 if __name__ == '__main__':
     main()
