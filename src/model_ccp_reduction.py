@@ -16,7 +16,7 @@ from analyze_process_metrics import build_ds
 PERFORMANCE_DIR = os.path.join(BASE_DIR
                                 , r'performance')
 PERFORMANCE_PATH = os.path.join(PERFORMANCE_DIR
-                                , 'ccp_reduction_cm_w3_1.csv')
+                                , 'ccp_reduction_extraction_cm_w3_1.csv')
 MODELS_PATH = os.path.join(BASE_DIR, r'models')
 
 from os.path import join
@@ -163,9 +163,9 @@ def build_ccp_reduction_dataset(alerts_scope: list = None):
 
     return df
 
-def model_ccp_reduction():
+def model_ccp_reduction(alerts_scope: list = None):
 
-    df = build_ccp_reduction_dataset()
+    df = build_ccp_reduction_dataset(alerts_scope)
     """
     results = build_and_eval_models(df=df
                           , classifiers=classifiers
@@ -229,7 +229,7 @@ def print_features_stats(df):
 
 
 def main():
-    model_ccp_reduction()
+    model_ccp_reduction(extraction_candidates)
     compute_feature_stats(alerts_scope=None
                           , output=join(PERFORMANCE_DIR
                    , 'ccp_reduction_features_stats.csv'))
