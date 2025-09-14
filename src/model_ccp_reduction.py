@@ -16,7 +16,7 @@ from analyze_process_metrics import build_ds
 PERFORMANCE_DIR = os.path.join(BASE_DIR
                                 , r'performance')
 PERFORMANCE_PATH = os.path.join(PERFORMANCE_DIR
-                                , 'ccp_reduction_cm.csv')
+                                , 'ccp_reduction_cm_w1_3.csv')
 MODELS_PATH = os.path.join(BASE_DIR, r'models')
 
 from os.path import join
@@ -34,7 +34,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.linear_model import SGDClassifier
 from sklearn.svm import SVC
 
-class_weight = {1: 1, 0: 1}
+class_weight = {1: 1, 0: 3}
 
 MIN_SAMPLES = 10
 MAX_DEPTH = 3
