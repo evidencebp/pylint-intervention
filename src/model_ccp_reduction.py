@@ -76,22 +76,22 @@ large_classifiers = {'Tree_ms50_md3': DecisionTreeClassifier(min_samples_leaf=MI
                                              , min_samples_leaf=MIN_SAMPLES)
     , 'AdaBoost': AdaBoostClassifier(n_estimators=100, random_state=0, learning_rate=0.1)
     , 'AdaBoost_n_small': AdaBoostClassifier(n_estimators=30, random_state=0, learning_rate=0.1)
-    # , 'AdaBoost_base_small': AdaBoostClassifier(base_estimator=base
+    #, 'AdaBoost_base_small': AdaBoostClassifier(base_estimator=base
     #                                             , n_estimators=50, random_state=0, learning_rate=0.1)
-    # , 'AdaBoost_v1': AdaBoostClassifier(base_estimator=base
-    #                                     , n_estimators=100, random_state=0, learning_rate=0.1)
-    # , 'GradientBoostingClassifier': GradientBoostingClassifier(learning_rate=0.1
-    #                                                            , min_samples_leaf=MIN_SAMPLES
-    #                                                            , max_depth=MAX_DEPTH)
+    #, 'AdaBoost_v1': AdaBoostClassifier(base_estimator=base
+    #                                    , n_estimators=100, random_state=0, learning_rate=0.1)
+    , 'GradientBoostingClassifier': GradientBoostingClassifier(learning_rate=0.1
+                                                                , min_samples_leaf=MIN_SAMPLES
+                                                                , max_depth=MAX_DEPTH)
     , 'Stump': DecisionTreeClassifier(max_depth=1
                                       , class_weight=class_weight)
     , 'LogisticRegression': LogisticRegression(class_weight=class_weight, max_iter=1000)
-    # , 'SVC': SVC()
+     , 'SVC': SVC()
     , 'SGDClassifier': SGDClassifier()
     # , 'KNeighborsClassifier': KNeighborsClassifier()
                      # , 'MultinomialNB': MultinomialNB()
-    # , 'MLPClassifier': MLPClassifier(solver='lbfgs', alpha=1e-5,
-    #                                  hidden_layer_sizes=(5, 2), random_state=1, max_iter=20000)
+    , 'MLPClassifier': MLPClassifier(solver='lbfgs', alpha=1e-5,
+                                      hidden_layer_sizes=(5, 2), random_state=1, max_iter=20000)
 
                      }
 CONCEPT = 'concept'
