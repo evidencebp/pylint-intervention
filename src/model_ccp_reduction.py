@@ -161,8 +161,18 @@ def compute_feature_stats(alerts_scope
 
 def print_features_stats(df):
 
-
-    df_to_latex_table(df[['Feature', 'accuracy', 'hit_rate', 'precision', 'precision_lift', 'recall' ]]
+    df.rename(columns={'accuracy': 'Accuracy'
+                        , 'hit_rate': 'Hit Rate'
+                        , 'precision': 'Precision'
+                        , 'precision_lift': 'Precision Lift'
+                        , 'recall': 'Recall'}
+              , errors='raise'
+              , inplace=True)
+    df = df[~df.Feature.isin(['volume_diff', 'effort_diff',
+       'bugs_diff', 'time_diff', 'cur_count_x', 'calculated_length_diff',
+       'cur_count', 'cur_count_y', 'difficulty_diff'])]
+    df['Feature'] = df['Feature'].map(lambda x: x.replace('_', ' '))
+    df_to_latex_table(df[['Feature', 'Accuracy', 'Hit Rate', 'Precision', 'Precision Lift', 'Recall']]
                         , caption=' \label{tab:features-cm} Features Predictive Performance'
                         , columns_to_name=None
                         , star_table=True
@@ -170,10 +180,10 @@ def print_features_stats(df):
 
 
 def main():
-    model_ccp_reduction()
-    compute_feature_stats(alerts_scope=None
-                          , output=join(PERFORMANCE_DIR
-                   , 'ccp_reduction_features_stats.csv'))
+    #model_ccp_reduction()
+    #compute_feature_stats(alerts_scope=None
+    #                      , output=join(PERFORMANCE_DIR
+    #               , 'ccp_reduction_features_stats.csv'))
 
     df = compute_feature_stats(alerts_scope=extraction_candidates
                           , output=join(PERFORMANCE_DIR
