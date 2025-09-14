@@ -189,7 +189,7 @@ def model_ccp_reduction():
 
 def compute_feature_stats(alerts_scope
                           , output):
-    df = build_ccp_reduction_dataset(alerts_scope=extraction_candidates)
+    df = build_ccp_reduction_dataset(alerts_scope=alerts_scope)
 
     # Get confusion metrics for metrics
     stats = pair_features_vs_concept(df=df
@@ -230,9 +230,9 @@ def print_features_stats(df):
 
 def main():
     model_ccp_reduction()
-    #compute_feature_stats(alerts_scope=None
-    #                      , output=join(PERFORMANCE_DIR
-    #               , 'ccp_reduction_features_stats.csv'))
+    compute_feature_stats(alerts_scope=None
+                          , output=join(PERFORMANCE_DIR
+                   , 'ccp_reduction_features_stats.csv'))
 
     df = compute_feature_stats(alerts_scope=extraction_candidates
                           , output=join(PERFORMANCE_DIR
