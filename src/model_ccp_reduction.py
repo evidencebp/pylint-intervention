@@ -23,8 +23,16 @@ from os.path import join
 import numpy as np
 import pandas as pd
 
+from sklearn.ensemble import AdaBoostClassifier
+from sklearn.ensemble import GradientBoostingClassifier
 from sklearn.tree import DecisionTreeClassifier, plot_tree
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.linear_model import LogisticRegression
+from sklearn.naive_bayes import MultinomialNB
+from sklearn.neural_network import MLPClassifier
 from sklearn.ensemble import RandomForestClassifier
+from sklearn.linear_model import SGDClassifier
+from sklearn.svm import SVC
 
 class_weight = {1: 1, 0: 1}
 
@@ -44,7 +52,48 @@ classifiers = {'Tree_ms50_md3': DecisionTreeClassifier(min_samples_leaf=MIN_SAMP
     }
 
 
+classifiers = {'Tree_ms_md': DecisionTreeClassifier(min_samples_leaf=MIN_SAMPLES
+                                                       , max_depth=MAX_DEPTH
+                                                       , class_weight=class_weight)
+    , 'Tree_default': DecisionTreeClassifier(class_weight=class_weight)
+    , 'Tree_ms': DecisionTreeClassifier(min_samples_leaf=MIN_SAMPLES
+                                          , class_weight=class_weight)
+    , 'Tree_md': DecisionTreeClassifier(max_depth=MAX_DEPTH
+                                         , class_weight=class_weight)
+    , 'RandomForest': RandomForestClassifier(n_estimators=10
+                                             , min_samples_leaf=MIN_SAMPLES)
+               }
 
+large_classifiers = {'Tree_ms50_md3': DecisionTreeClassifier(min_samples_leaf=MIN_SAMPLES
+                                                             , max_depth=MAX_DEPTH
+                                                             , class_weight=class_weight)
+    , 'Tree_default': DecisionTreeClassifier(class_weight=class_weight)
+    , 'Tree_ms50': DecisionTreeClassifier(min_samples_leaf=MIN_SAMPLES
+                                          , class_weight=class_weight)
+    , 'Tree_md3': DecisionTreeClassifier(max_depth=MAX_DEPTH
+                                         , class_weight=class_weight)
+    , 'RandomForest': RandomForestClassifier(n_estimators=10
+                                             , min_samples_leaf=MIN_SAMPLES)
+    , 'AdaBoost': AdaBoostClassifier(n_estimators=100, random_state=0, learning_rate=0.1)
+    , 'AdaBoost_n_small': AdaBoostClassifier(n_estimators=30, random_state=0, learning_rate=0.1)
+    # , 'AdaBoost_base_small': AdaBoostClassifier(base_estimator=base
+    #                                             , n_estimators=50, random_state=0, learning_rate=0.1)
+    # , 'AdaBoost_v1': AdaBoostClassifier(base_estimator=base
+    #                                     , n_estimators=100, random_state=0, learning_rate=0.1)
+    # , 'GradientBoostingClassifier': GradientBoostingClassifier(learning_rate=0.1
+    #                                                            , min_samples_leaf=MIN_SAMPLES
+    #                                                            , max_depth=MAX_DEPTH)
+    , 'Stump': DecisionTreeClassifier(max_depth=1
+                                      , class_weight=class_weight)
+    , 'LogisticRegression': LogisticRegression(class_weight=class_weight, max_iter=1000)
+    # , 'SVC': SVC()
+    , 'SGDClassifier': SGDClassifier()
+    # , 'KNeighborsClassifier': KNeighborsClassifier()
+                     # , 'MultinomialNB': MultinomialNB()
+    # , 'MLPClassifier': MLPClassifier(solver='lbfgs', alpha=1e-5,
+    #                                  hidden_layer_sizes=(5, 2), random_state=1, max_iter=20000)
+
+                     }
 CONCEPT = 'concept'
 
 def build_ccp_reduction_dataset(alerts_scope: list = None):
@@ -128,7 +177,7 @@ def model_ccp_reduction():
     print(results_df)
     """
     build_models(df=df
-                    , classifiers=classifiers
+                    , classifiers=large_classifiers
                     , concept=CONCEPT
                     , test_size=0.3
                     , random_state=343439
@@ -180,7 +229,7 @@ def print_features_stats(df):
 
 
 def main():
-    #model_ccp_reduction()
+    model_ccp_reduction()
     #compute_feature_stats(alerts_scope=None
     #                      , output=join(PERFORMANCE_DIR
     #               , 'ccp_reduction_features_stats.csv'))
