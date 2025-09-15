@@ -16,7 +16,7 @@ from analyze_process_metrics import build_ds
 PERFORMANCE_DIR = os.path.join(BASE_DIR
                                 , r'performance')
 PERFORMANCE_PATH = os.path.join(PERFORMANCE_DIR
-                                , 'ccp_reduction_extraction_cm_w1_1.csv')
+                                , 'ccp_reduction_extraction_cm_w3_1.csv')
 MODELS_PATH = os.path.join(BASE_DIR, r'models')
 
 from os.path import join
@@ -34,7 +34,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.linear_model import SGDClassifier
 from sklearn.svm import SVC
 
-class_weight = {1: 1, 0: 1}
+class_weight = {1: 3, 0: 1}
 
 MIN_SAMPLES = 10
 MAX_DEPTH = 3
@@ -88,7 +88,7 @@ large_classifiers = {'Tree_ms50_md3': DecisionTreeClassifier(min_samples_leaf=MI
     , 'LogisticRegression': LogisticRegression(class_weight=class_weight, max_iter=1000)
      , 'SVC': SVC()
     , 'SGDClassifier': SGDClassifier()
-    # , 'KNeighborsClassifier': KNeighborsClassifier()
+    , 'KNeighborsClassifier': KNeighborsClassifier()
                      # , 'MultinomialNB': MultinomialNB()
     , 'MLPClassifier': MLPClassifier(solver='lbfgs', alpha=1e-5,
                                       hidden_layer_sizes=(5, 2), random_state=1, max_iter=20000)
