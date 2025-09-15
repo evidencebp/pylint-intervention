@@ -16,7 +16,7 @@ from analyze_process_metrics import build_ds
 PERFORMANCE_DIR = os.path.join(BASE_DIR
                                 , r'performance')
 PERFORMANCE_PATH = os.path.join(PERFORMANCE_DIR
-                                , 'ccp_reduction_extraction_cm_w3_1.csv')
+                                , 'ccp_reduction_extraction_cm_w1_1.csv')
 MODELS_PATH = os.path.join(BASE_DIR, r'models')
 
 from os.path import join
@@ -34,7 +34,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.linear_model import SGDClassifier
 from sklearn.svm import SVC
 
-class_weight = {1: 3, 0: 1}
+class_weight = {1: 1, 0: 1}
 
 MIN_SAMPLES = 10
 MAX_DEPTH = 3
@@ -118,6 +118,7 @@ def build_ccp_reduction_dataset(alerts_scope: list = None):
                               , axis=1)
     df['massive_change'] = df.apply(lambda x: int(x['changed_lines'] > 300)
                               , axis=1)
+    df['new_function'] = df['added_functions'].map(lambda x: int(x> 0))
 
     # To check only complexity alerts
     if alerts_scope:
