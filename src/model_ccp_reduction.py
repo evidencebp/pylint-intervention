@@ -16,7 +16,7 @@ from analyze_process_metrics import build_ds
 PERFORMANCE_DIR = os.path.join(BASE_DIR
                                 , r'performance')
 PERFORMANCE_PATH = os.path.join(PERFORMANCE_DIR
-                                , 'ccp_reduction_extraction_cm_w3_1.csv')
+                                , 'ccp_reduction_cm_w1_1.csv')
 MODELS_PATH = os.path.join(BASE_DIR, r'models')
 
 from os.path import join
@@ -34,7 +34,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.linear_model import SGDClassifier
 from sklearn.svm import SVC
 
-class_weight = {1: 3, 0: 1}
+class_weight = {1: 1, 0: 1}
 
 MIN_SAMPLES = 10
 MAX_DEPTH = 3
@@ -230,7 +230,8 @@ def print_features_stats(df):
 
 
 def main():
-    model_ccp_reduction(extraction_candidates)
+    # model_ccp_reduction(extraction_candidates)
+    model_ccp_reduction()
     compute_feature_stats(alerts_scope=None
                           , output=join(PERFORMANCE_DIR
                    , 'ccp_reduction_features_stats.csv'))
