@@ -110,7 +110,17 @@ def single_line(df):
                         , title="single_line, 5 added lines")
 
 
-
+    toolong = df[(df.state.isin(['removed'#, 'decrease'
+                             ]))
+            & (df['hunks_num'] == 1)
+            & (df['McCabe_sum_diff']==0)
+            & (df['added_lines']<=1)
+            & (df['added_lines']>0)
+            & (df['removed_lines']<=1)
+            & (df['alert']=='line-too-long')
+          ]
+    # There are only too suitable records
+    print(toolong[~toolong['commits_pm_before'].isna()][['commits_pm_before', 'corrective_commits_pm_before', 'ccp_pm_before']])
 
 def interventions_stats(df
                         , grouping=['alert']
