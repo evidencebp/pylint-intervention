@@ -164,7 +164,14 @@ def anecdotes(df):
              & (df['added_lines'] > 0)
              & (df['mostly_delete']==False)
                 & (df['massive_change']==False)
-                & (df.state.isin(['removed', 'decrease']))].groupby(['alert']).agg({'commit': 'count', 'ccp_diff': 'mean'}))
+                & (df.state.isin(['removed', 'decrease']))].groupby(['alert']).agg({'commit': 'count'
+                                                                                    , 'ccp_diff': 'mean'
+                                                                                    , 'McCabe_max_diff' : 'mean'}))
+
+    print("New functions McCabe")
+    print(get_added_function_candidates(df).groupby(['alert']).agg({'commit': 'count'
+                                                                                    , 'ccp_diff': 'mean'
+                                                                                    , 'McCabe_max_diff' : 'mean'}))
     print("Reduction in modified_McCabe_max_diff by val and alert")
     for alert in extraction_candidates:
         print(alert)
